@@ -3,23 +3,20 @@
   "version": "1.0.5",
   "description": "Beautiful hand-crafted SVG icons for React - light mode only",
   "type": "module",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.js"
     },
     "./Icon": {
-      "import": "./dist/Icon.js",
-      "require": "./dist/Icon.cjs"
+      "import": "./dist/Icon.js"
     },
     "./*": {
-      "import": "./dist/*/index.js",
-      "require": "./dist/*/index.cjs"
+      "import": "./dist/*/index.js"
     }
   },
   "files": [

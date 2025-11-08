@@ -13,37 +13,24 @@ export default defineConfig({
       entry: "src/icons/index.js",
       name: "MxIcons",
       fileName: (format) => `mx-icons.${format}.js`,
-      formats: ["es", "cjs"],
+      formats: ["es"],
     },
     rollupOptions: {
       // Don't bundle peer deps
       external: ["react", "react-dom", "react/jsx-runtime"],
-      output: [
-        {
-          format: "es",
-          preserveModules: true,
-          preserveModulesRoot: "src/icons",
-          entryFileNames: "[name].js",
-          exports: "named",
-          globals: {
-            react: "React",
-            "react-dom": "ReactDOM",
-          },
+      output: {
+        format: "es",
+        preserveModules: true,
+        preserveModulesRoot: "src/icons",
+        entryFileNames: "[name].js",
+        exports: "named",
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
         },
-        {
-          format: "cjs",
-          preserveModules: true,
-          preserveModulesRoot: "src/icons",
-          entryFileNames: "[name].cjs",
-          exports: "named",
-          globals: {
-            react: "React",
-            "react-dom": "ReactDOM",
-          },
-        },
-      ],
+      },
     },
-    sourcemap: true,
+    sourcemap: false,
     minify: false, // Keep readable for tree-shaking
   },
 });
