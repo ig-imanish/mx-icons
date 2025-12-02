@@ -129,7 +129,7 @@ function App() {
                 <img src="/mx-icons.png" alt="" />
               </div>
               <h1 className="logo-text">mxicons</h1>
-              <span className="version-badge">v1.0.4</span>
+              <span className="version-badge">v1.0.10</span>
             </div>
             <a
               className="share-button"
