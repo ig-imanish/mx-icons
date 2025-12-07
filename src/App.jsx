@@ -300,11 +300,11 @@ function App() {
 
               <h2 className="modal-title">{selectedIcon.componentName}</h2>
 
-              <div className="modal-preview">
+              <div className="modal-preview ">
                 <selectedIcon.Component size={iconSize} color={iconColor} />
               </div>
 
-              <div className="modal-controls">
+              <div className="modal-controls ">
                 <div className="control-group">
                   <label>
                     Size: <strong>{iconSize}px</strong>
