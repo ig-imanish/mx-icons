@@ -21,6 +21,10 @@
   --tab-active-bg: #e5e7eb;
   --grid-bg: #e5e7eb;
 
+  --primary-color: #111827;
+  --primary-hover: #1f2937;
+  --primary-text: #ffffff;
+
   color: var(--text-color);
   background-color: var(--bg-color);
 
@@ -47,6 +51,9 @@
   --tag-bg: #334155;
   --tab-active-bg: #334155;
   --grid-bg: #334155;
+  --primary-color: #f8fafc;
+  --primary-hover: #e2e8f0;
+  --primary-text: #0f172a;
 }
 
 * {

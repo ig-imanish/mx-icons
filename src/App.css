@@ -128,7 +128,7 @@
 }
 
 .share-button:hover {
-  background: #f0f9ff;
+  background: rgba(29, 155, 240, 0.1);
   border-color: #1d9bf0;
 }
 
@@ -142,8 +142,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  /* width: 40px;
+  height: 40px; */
+  padding: 0.5rem;
   border-radius: 8px;
   border: 1px solid var(--secondary-btn-border);
   background: var(--secondary-btn-bg);
@@ -212,12 +213,12 @@
 }
 
 .action-button.primary {
-  color: #fff;
-  background: #111827;
+  color: var(--primary-text);
+  background: var(--primary-color);
 }
 
 .action-button.primary:hover {
-  background: #1f2937;
+  background: var(--primary-hover);
 }
 
 .action-button.secondary {
@@ -227,8 +228,8 @@
 }
 
 .action-button.secondary:hover {
-  background: #f9fafb;
-  border-color: #9ca3af;
+  background: var(--card-hover);
+  border-color: var(--text-secondary);
 }
 
 .container {
@@ -757,8 +758,8 @@
   padding: 0.875rem 1.25rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #fff;
-  background: #000;
+  color: var(--primary-text);
+  background: var(--primary-color);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -791,7 +792,7 @@
 }
 
 .copy-button:hover {
-  background: #1a1a1a;
+  background: var(--primary-hover);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
     0 4px 6px -2px rgba(0, 0, 0, 0.2);
 }
