@@ -6367,6 +6367,14 @@ import { variants as variantsCheckmarkCircle02 } from "./components/checkmark-ci
 import { CheckmarkCircle02Linear } from "./components/checkmark-circle-02";
 import { CheckmarkCircle02Bold } from "./components/checkmark-circle-02";
 
+import { LinkedInLinear } from "./components/linkedin"
+import { LinkedInBold } from "./components/linkedin"
+import { variants as variantLinkedIn } from "./components/linkedin"
+
+import { FacebookBold } from "./components/facebook";
+import { FacebookLinear } from "./components/facebook"
+import { variants as variantFacebook } from "./components/facebook";
+
 export { Icon };
 
 export {
@@ -11782,6 +11790,10 @@ export {
   CancelCircleBold,
   CheckmarkCircle02Linear,
   CheckmarkCircle02Bold,
+  LinkedInBold,
+  LinkedInLinear,
+  FacebookBold,
+  FacebookLinear
 };
 
 export const icons = [
@@ -16540,4 +16552,14 @@ export const icons = [
     slug: "checkmark-circle-02",
     variants: variantsCheckmarkCircle02,
   },
+  {
+    name: "linkedin",
+    slug: "linkedin",
+    variants: variantLinkedIn,
+  },
+  {
+    name: "facebook",
+    slug: "facebook",
+    variants: variantFacebook,
+  }
 ];
