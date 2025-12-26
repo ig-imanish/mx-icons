@@ -1,4 +1,4 @@
-﻿import { useMemo, useState } from "react";
+﻿import { useMemo, useState, useEffect } from "react";
 import "./App.css";
 import { icons as ICONS } from "./icons";
 import { matchesAlias } from "./icons/aliases";
@@ -11,7 +11,22 @@ function App() {
   const [iconColor, setIconColor] = useState("#292D32");
   const [activeVariant, setActiveVariant] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const saved = localStorage.getItem("darkMode");
+    return saved ? JSON.parse(saved) : false;
+  });
   const iconsPerPage = 100;
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
   // Get all available variants
   const allVariants = useMemo(() => {
@@ -104,7 +119,7 @@ function App() {
   function openIconModal(icon) {
     setSelectedIcon(icon);
     setIconSize(24);
-    setIconColor("#292D32");
+    setIconColor(isDarkMode ? "#f8fafc" : "#292D32");
   }
 
   function closeIconModal() {
@@ -131,8 +146,46 @@ function App() {
               <h1 className="logo-text">mxicons</h1>
               <span className="version-badge">v1.0.10</span>
             </div>
-            <a
-              className="share-button"
+            <div className="header-actions-top">
+              <button
+                className="theme-toggle"
+                onClick={toggleDarkMode}
+                aria-label="Toggle dark mode"
+              >
+                {isDarkMode ? (
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    width="20"
+                    height="20"
+                  >
+                    <circle cx="12" cy="12" r="5" />
+                    <line x1="12" y1="1" x2="12" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="23" />
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                    <line x1="1" y1="12" x2="3" y2="12" />
+                    <line x1="21" y1="12" x2="23" y2="12" />
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                  </svg>
+                ) : (
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                  </svg>
+                )}
+              </button>
+              <a
+                className="share-button"
               href="https://twitter.com/intent/tweet?text=Excited%20to%20share%20MX%20Icons%20%0A-%20Open%20source%0A-%20Awesome%20icons%0A%0ALink%20%3A%20https%3A%2F%2Fmx-icons.vercel.app%0A%0A%40mx_icons"
               target="_blank"
               rel="noopener noreferrer"
@@ -147,6 +200,7 @@ function App() {
               </svg>
               Share on Twitter
             </a>
+          </div>
           </div>
 
           <div className="header-info">
@@ -260,7 +314,10 @@ function App() {
               title={`Customize ${icon.componentName}`}
             >
               <div className="icon-display">
-                <icon.Component size={24} color="#3B3C3D" />
+                <icon.Component
+                  size={24}
+                  color={isDarkMode ? "#f8fafc" : "#3B3C3D"}
+                />
               </div>
               <div className="icon-name">{icon.componentName}</div>
             </button>
@@ -300,11 +357,11 @@ function App() {
 
               <h2 className="modal-title">{selectedIcon.componentName}</h2>
 
-              <div className="modal-preview">
+              <div className="modal-preview ">
                 <selectedIcon.Component size={iconSize} color={iconColor} />
               </div>
 
-              <div className="modal-controls">
+              <div className="modal-controls ">
                 <div className="control-group">
                   <label>
                     Size: <strong>{iconSize}px</strong>

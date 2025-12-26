@@ -4,13 +4,56 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: #111827;
-  background-color: #ffffff;
+  --bg-color: #ffffff;
+  --text-color: #111827;
+  --text-secondary: #6b7280;
+  --bg-muted: #f9fafb;
+  --border-color: #e5e7eb;
+  --card-bg: #ffffff;
+  --card-hover: #f9fafb;
+  --header-bg: linear-gradient(to bottom, #ffffff 0%, #fafbfc 100%);
+  --modal-bg: #ffffff;
+  --input-bg: #ffffff;
+  --secondary-btn-bg: #ffffff;
+  --secondary-btn-text: #374151;
+  --secondary-btn-border: #d1d5db;
+  --tag-bg: #d4d5d6;
+  --tab-active-bg: #e5e7eb;
+  --grid-bg: #e5e7eb;
+
+  --primary-color: #111827;
+  --primary-hover: #1f2937;
+  --primary-text: #ffffff;
+
+  color: var(--text-color);
+  background-color: var(--bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  --bg-color: #0f172a;
+  --text-color: #f8fafc;
+  --text-secondary: #94a3b8;
+  --bg-muted: #1e293b;
+  --border-color: #334155;
+  --card-bg: #1e293b;
+  --card-hover: #334155;
+  --header-bg: linear-gradient(to bottom, #1e293b 0%, #0f172a 100%);
+  --modal-bg: #1e293b;
+  --input-bg: #1e293b;
+  --secondary-btn-bg: #1e293b;
+  --secondary-btn-text: #f8fafc;
+  --secondary-btn-border: #334155;
+  --tag-bg: #334155;
+  --tab-active-bg: #334155;
+  --grid-bg: #334155;
+  --primary-color: #f8fafc;
+  --primary-hover: #e2e8f0;
+  --primary-text: #0f172a;
 }
 
 * {
