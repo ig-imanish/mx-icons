@@ -6375,6 +6375,14 @@ import { FacebookBold } from "./components/facebook";
 import { FacebookLinear } from "./components/facebook"
 import { variants as variantFacebook } from "./components/facebook";
 
+import WhatsappBold from "./components/whatsapp/WhatsappBold";
+import WhatsappLinear from "./components/whatsapp/WhatsappLinear";
+import { variants as variantsWhatsapp } from "./components/whatsapp";
+
+import TelegramBold from "./components/telegram/TelegramBold";
+import TelegramLinear from "./components/telegram/TelegramLinear";
+import { variants as variantsTelegram } from "./components/telegram";
+
 export { Icon };
 
 export {
@@ -11793,7 +11801,11 @@ export {
   LinkedInBold,
   LinkedInLinear,
   FacebookBold,
-  FacebookLinear
+  FacebookLinear,
+  WhatsappLinear,
+  WhatsappBold,
+  TelegramLinear,
+  TelegramBold
 };
 
 export const icons = [
@@ -16561,5 +16573,15 @@ export const icons = [
     name: "facebook",
     slug: "facebook",
     variants: variantFacebook,
+  },
+  {
+    name: "whatsapp",
+    slug: "whatsapp",
+    variants: variantsWhatsapp,
+  },
+  {
+    name: "telegram",
+    slug: "telegram",
+    variants: variantsTelegram,
   }
 ];
