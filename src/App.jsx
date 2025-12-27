@@ -2,6 +2,7 @@
 import "./App.css";
 import { icons as ICONS } from "./icons";
 import { matchesAlias } from "./icons/aliases";
+import Installation from "./Installation"; // <--- NEW IMPORT
 
 function App() {
   const [query, setQuery] = useState("");
@@ -11,6 +12,8 @@ function App() {
   const [iconColor, setIconColor] = useState("#292D32");
   const [activeVariant, setActiveVariant] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
+  const [showDocs, setShowDocs] = useState(false); // <--- NEW STATE
+
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
     return saved ? JSON.parse(saved) : false;
@@ -131,7 +134,11 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="header-top">
-            <div className="logo-section">
+            <div 
+                className="logo-section" 
+                onClick={() => setShowDocs(false)} 
+                style={{cursor: 'pointer'}}
+            >
               <div className="logo-icon">
                 <img src="/mx-icons.png" alt="" />
               </div>
@@ -226,119 +233,124 @@ function App() {
               </svg>
               Contribution
             </a>
-            {/* <button className="action-button secondary">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                width="20"
-                height="20"
-              >
-                <path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-              </svg>
-              Twitter
-            </button> */}
           </div>
         </div>
       </header>
 
       <div className="container">
-        <div className="search-wrapper">
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search all icons..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </div>
-
-        <div className="variant-tabs">
-          {allVariants.map((variant) => (
-            <button
-              key={variant}
-              className={`variant-tab ${
-                activeVariant === variant ? "active" : ""
-              }`}
-              onClick={() => setActiveVariant(variant)}
-            >
-              {variant.charAt(0).toUpperCase() + variant.slice(1)}
-            </button>
-          ))}
-          <div className="variant-info">
-            {filtered.length} icons •{" "}
-            {activeVariant.charAt(0).toUpperCase() + activeVariant.slice(1)}{" "}
-            style
-          </div>
-        </div>
-
-        {totalPages > 1 && (
-          <div className="pagination">
-            <button
-              className="pagination-button"
-              onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
-              disabled={currentPage === 1}
-            >
-              ← Previous
-            </button>
-            <div className="pagination-info">
-              Page {currentPage} of {totalPages}
+      
+        {/* START OF NEW SWITCH LOGIC */}
+        {showDocs ? (
+            <div>
+                 <button 
+                   onClick={() => setShowDocs(false)}
+                   className="action-button secondary"
+                   style={{marginBottom: '20px', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '8px'}}
+                 >
+                   ← Back to Icons
+                 </button>
+                 <Installation />
             </div>
-            <button
-              className="pagination-button"
-              onClick={() =>
-                setCurrentPage((prev) => Math.min(totalPages, prev + 1))
-              }
-              disabled={currentPage === totalPages}
-            >
-              Next →
-            </button>
-          </div>
-        )}
+        ) : (
+            <>
+                <div className="search-wrapper">
+                  <input
+                    className="search-input"
+                    type="text"
+                    placeholder="Search all icons..."
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                  />
+                </div>
 
-        <div className="icons-grid">
-          {paginatedIcons.map((icon) => (
-            <button
-              key={icon.slug}
-              className="icon-card"
-              onClick={() => openIconModal(icon)}
-              title={`Customize ${icon.componentName}`}
-            >
-              <div className="icon-display">
-                <icon.Component
-                  size={24}
-                  color={isDarkMode ? "#f8fafc" : "#3B3C3D"}
-                />
-              </div>
-              <div className="icon-name">{icon.componentName}</div>
-            </button>
-          ))}
-        </div>
+                <div className="variant-tabs">
+                  {allVariants.map((variant) => (
+                    <button
+                      key={variant}
+                      className={`variant-tab ${
+                        activeVariant === variant ? "active" : ""
+                      }`}
+                      onClick={() => setActiveVariant(variant)}
+                    >
+                      {variant.charAt(0).toUpperCase() + variant.slice(1)}
+                    </button>
+                  ))}
+                  <div className="variant-info">
+                    {filtered.length} icons •{" "}
+                    {activeVariant.charAt(0).toUpperCase() + activeVariant.slice(1)}{" "}
+                    style
+                  </div>
+                </div>
 
-        {totalPages > 1 && (
-          <div className="pagination">
-            <button
-              className="pagination-button"
-              onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
-              disabled={currentPage === 1}
-            >
-              ← Previous
-            </button>
-            <div className="pagination-info">
-              Page {currentPage} of {totalPages}
-            </div>
-            <button
-              className="pagination-button"
-              onClick={() =>
-                setCurrentPage((prev) => Math.min(totalPages, prev + 1))
-              }
-              disabled={currentPage === totalPages}
-            >
-              Next →
-            </button>
-          </div>
+                {totalPages > 1 && (
+                  <div className="pagination">
+                    <button
+                      className="pagination-button"
+                      onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                      disabled={currentPage === 1}
+                    >
+                      ← Previous
+                    </button>
+                    <div className="pagination-info">
+                      Page {currentPage} of {totalPages}
+                    </div>
+                    <button
+                      className="pagination-button"
+                      onClick={() =>
+                        setCurrentPage((prev) => Math.min(totalPages, prev + 1))
+                      }
+                      disabled={currentPage === totalPages}
+                    >
+                      Next →
+                    </button>
+                  </div>
+                )}
+
+                <div className="icons-grid">
+                  {paginatedIcons.map((icon) => (
+                    <button
+                      key={icon.slug}
+                      className="icon-card"
+                      onClick={() => openIconModal(icon)}
+                      title={`Customize ${icon.componentName}`}
+                    >
+                      <div className="icon-display">
+                        <icon.Component
+                          size={24}
+                          color={isDarkMode ? "#f8fafc" : "#3B3C3D"}
+                        />
+                      </div>
+                      <div className="icon-name">{icon.componentName}</div>
+                    </button>
+                  ))}
+                </div>
+
+                {totalPages > 1 && (
+                  <div className="pagination">
+                    <button
+                      className="pagination-button"
+                      onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                      disabled={currentPage === 1}
+                    >
+                      ← Previous
+                    </button>
+                    <div className="pagination-info">
+                      Page {currentPage} of {totalPages}
+                    </div>
+                    <button
+                      className="pagination-button"
+                      onClick={() =>
+                        setCurrentPage((prev) => Math.min(totalPages, prev + 1))
+                      }
+                      disabled={currentPage === totalPages}
+                    >
+                      Next →
+                    </button>
+                  </div>
+                )}
+            </>
         )}
+        {/* END OF NEW SWITCH LOGIC */}
 
         {selectedIcon && (
           <div className="modal-overlay" onClick={closeIconModal}>
@@ -424,7 +436,7 @@ function App() {
           </div>
         )}
 
-        {filtered.length === 0 && (
+        {filtered.length === 0 && !showDocs && (
           <div className="no-results">
             <p>No icons found matching "{query}"</p>
           </div>
@@ -462,7 +474,26 @@ function App() {
                     </a>
                   </li>
                   <li>
-                    <a href="#">Quick Start</a>
+                    {/* START OF NEW QUICK START BUTTON */}
+                    <button 
+                        onClick={() => {
+                            setShowDocs(true);
+                            window.scrollTo(0,0);
+                        }} 
+                        style={{
+                            background:'none', 
+                            border:'none', 
+                            color:'inherit', 
+                            cursor:'pointer', 
+                            padding:0, 
+                            font: 'inherit',
+                            fontSize: 'inherit',
+                            textAlign: 'left'
+                        }}
+                    >
+                        Quick Start
+                    </button>
+                    {/* END OF NEW QUICK START BUTTON */}
                   </li>
                   <li>
                     <a href="https://github.com/ig-imanish/mx-icons">GitHub</a>
