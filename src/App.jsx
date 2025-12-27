@@ -2,6 +2,7 @@
 import "./App.css";
 import { icons as ICONS } from "./icons";
 import { matchesAlias } from "./icons/aliases";
+import { getVersion } from "./utils/getVersion";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -11,6 +12,7 @@ function App() {
   const [iconColor, setIconColor] = useState("#292D32");
   const [activeVariant, setActiveVariant] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
+  const [version, setVersion] = useState(null);
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
     return saved ? JSON.parse(saved) : false;
@@ -27,6 +29,12 @@ function App() {
   }, [isDarkMode]);
 
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
+
+  useEffect(() => {
+    getVersion().then((v) => {
+      setVersion(v);
+    });
+  }, []);
 
   // Get all available variants
   const allVariants = useMemo(() => {
@@ -144,7 +152,12 @@ function App() {
                 <img src="/mx-icons.png" alt="" />
               </div>
               <h1 className="logo-text">mxicons</h1>
-              <span className="version-badge">v1.0.10</span>
+              {version && (
+                <span className="version-badge">
+                  v{version}
+                </span>
+              )}
+
             </div>
             <div className="header-actions-top">
               <button
@@ -186,21 +199,21 @@ function App() {
               </button>
               <a
                 className="share-button"
-              href="https://twitter.com/intent/tweet?text=Excited%20to%20share%20MX%20Icons%20%0A-%20Open%20source%0A-%20Awesome%20icons%0A%0ALink%20%3A%20https%3A%2F%2Fmx-icons.vercel.app%0A%0A%40mx_icons"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                width="18"
-                height="18"
+                href="https://twitter.com/intent/tweet?text=Excited%20to%20share%20MX%20Icons%20%0A-%20Open%20source%0A-%20Awesome%20icons%0A%0ALink%20%3A%20https%3A%2F%2Fmx-icons.vercel.app%0A%0A%40mx_icons"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-              </svg>
-              Share on Twitter
-            </a>
-          </div>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="18"
+                  height="18"
+                >
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+                Share on Twitter
+              </a>
+            </div>
           </div>
 
           <div className="header-info">
@@ -266,9 +279,8 @@ function App() {
           {allVariants.map((variant) => (
             <button
               key={variant}
-              className={`variant-tab ${
-                activeVariant === variant ? "active" : ""
-              }`}
+              className={`variant-tab ${activeVariant === variant ? "active" : ""
+                }`}
               onClick={() => setActiveVariant(variant)}
             >
               {variant.charAt(0).toUpperCase() + variant.slice(1)}
