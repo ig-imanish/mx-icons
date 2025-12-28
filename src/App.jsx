@@ -1,4 +1,5 @@
-﻿import { useMemo, useState, useEffect } from "react";
+﻿import { Check, Copy } from "lucide-react";
+import { useMemo, useState, useEffect } from "react";
 import "./App.css";
 import { icons as ICONS } from "./icons";
 import { matchesAlias } from "./icons/aliases";
@@ -106,15 +107,15 @@ function App() {
     setCurrentPage(1);
   }
 
-  async function copyCode(code) {
-    try {
-      await navigator.clipboard.writeText(code);
-      setCopiedIcon("code");
-      setTimeout(() => setCopiedIcon(null), 1500);
-    } catch (e) {
-      console.error("copy failed", e);
-    }
+  const copyCode = async (text, type) => {
+  try {
+    await navigator.clipboard.writeText(text);
+    setCopiedIcon(type);
+    setTimeout(() => setCopiedIcon(null), 1500);
+  } catch (e) {
+    console.error("copy failed", e);
   }
+};
 
   function openIconModal(icon) {
     setSelectedIcon(icon);
@@ -125,7 +126,6 @@ function App() {
   function closeIconModal() {
     setSelectedIcon(null);
   }
-
   return (
     <div className="app">
       <header className="header">
@@ -418,15 +418,25 @@ function App() {
                   </code>
                 </pre>
                 <button
-                  className="copy-button"
-                  onClick={() =>
-                    copyCode(
-                      `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
-                    )
-                  }
-                >
-                  {copiedIcon === "code" ? "✓ Copied!" : "Copy Code"}
-                </button>
+                      className="copy-button"
+                      onClick={() =>
+                      copyCode(
+                     `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`,
+                     "code"
+    )
+  }
+>
+                   {copiedIcon === "code" ? (
+              <>
+                <Check size={18} /> Copied!
+              </>
+      ) : (
+               <>
+           <Copy size={18} /> Copy Code
+              </>
+  )}
+             </button>
+
               </div>
             </div>
           </div>
