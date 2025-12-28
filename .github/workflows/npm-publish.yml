@@ -1,0 +1,133 @@
+# This workflow runs tests and publishes the package to NPM when a GitHub release is created
+# Triggered on: GitHub Release creation
+# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+
+name: Release & Publish to NPM
+
+on:
+  release:
+    types: [created, published]
+
+jobs:
+  # Job 1: Build and Test
+  build:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: |
+          # Remove lock file if out of sync and regenerate
+          if ! npm ci 2>/dev/null; then
+            echo "⚠️ Lock file out of sync, regenerating..."
+            rm -f package-lock.json
+            npm install
+          fi
+          
+      - name: Run linter (if available)
+        run: npm run lint --if-present
+        continue-on-error: true
+        
+      - name: Run tests
+        run: npm test
+        
+      - name: Build package
+        run: npm run build --if-present
+        
+      - name: Cache build artifacts
+        uses: actions/cache@v3
+        with:
+          path: |
+            dist/
+            build/
+            lib/
+          key: build-${{ github.sha }}
+          
+  # Job 2: Publish to NPM
+  publish-npm:
+    name: Publish to NPM
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write  # Required for NPM provenance
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: |
+          # Handle out-of-sync lock file gracefully
+          if ! npm ci 2>/dev/null; then
+            echo "⚠️ Lock file out of sync, regenerating..."
+            rm -f package-lock.json
+            npm install
+          fi
+          
+      - name: Rebuild package
+        run: npm run build --if-present
+        
+      - name: Verify package contents
+        run: |
+          echo "📦 Package contents:"
+          npm pack --dry-run
+          
+      - name: Check package version
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          RELEASE_TAG=${GITHUB_REF#refs/tags/}
+          echo "Package version: $PACKAGE_VERSION"
+          echo "Release tag: $RELEASE_TAG"
+          
+          # Optional: Verify version matches release tag
+          if [[ "$RELEASE_TAG" != "v$PACKAGE_VERSION" && "$RELEASE_TAG" != "$PACKAGE_VERSION" ]]; then
+            echo "⚠️ Warning: Release tag ($RELEASE_TAG) doesn't match package version ($PACKAGE_VERSION)"
+          fi
+          
+      - name: Publish to NPM
+        run: npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      - name: Create publish summary
+        if: success()
+        run: |
+          PACKAGE_NAME=$(node -p "require('./package.json').name")
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          echo "### ✅ Successfully Published to NPM" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Package:** \`$PACKAGE_NAME\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Version:** \`$PACKAGE_VERSION\`" >> $GITHUB_STEP_SUMMARY
+          echo "**NPM Link:** https://www.npmjs.com/package/$PACKAGE_NAME/v/$PACKAGE_VERSION" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Install with: \`npm install $PACKAGE_NAME@$PACKAGE_VERSION\`" >> $GITHUB_STEP_SUMMARY
+          
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "### ❌ Publish Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for error details." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Common issues:**" >> $GITHUB_STEP_SUMMARY
+          echo "- Invalid NPM_TOKEN" >> $GITHUB_STEP_SUMMARY
+          echo "- Version already published" >> $GITHUB_STEP_SUMMARY
+          echo "- Package name conflict" >> $GITHUB_STEP_SUMMARY
+          echo "- Build errors" >> $GITHUB_STEP_SUMMARY

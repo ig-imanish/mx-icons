@@ -4,54 +4,53 @@ on:
   push:
     branches:
       - main
-on:
-  push:
-    branches:
-      - main
     paths-ignore:
       - '**.md'
       - 'docs/**'
       - '.github/**'
+    
 jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # to push version tag
       id-token: write  # optional: for npm provenance (recommended)
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # needed for git log if you use any versioning tools
-
+          
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
           cache: 'npm'
-
+          
+      # Fix: Regenerate lock file to sync with package.json
       - name: Install dependencies
-        run: npm ci
-
+        run: |
+          rm -f package-lock.json
+          npm install
+          
       - name: Build icons
         run: npm run build
-
+        
       - name: Bump patch version
         run: |
           npm version patch --no-git-tag-version
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add package.json
+          git add package.json package-lock.json
           git commit -m "chore: bump version to $(node -p "require('./package.json').version") [skip ci]"
-
+          
       - name: Push version commit & tag
         run: |
           git push origin main
           git tag v$(node -p "require('./package.json').version")
           git push origin v$(node -p "require('./package.json').version")
-
+          
       - name: Publish to npm
         run: npm publish --access public
         env:

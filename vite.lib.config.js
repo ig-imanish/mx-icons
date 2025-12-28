@@ -1,3 +1,4 @@
+// vite.lib.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
@@ -10,13 +11,12 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: "src/icons/index.js",
+      entry: path.resolve(__dirname, "src/icons/index.js"), // better: resolve path
       name: "MxIcons",
       fileName: (format) => `mx-icons.${format}.js`,
       formats: ["es"],
     },
     rollupOptions: {
-      // Don't bundle peer deps
       external: ["react", "react-dom", "react/jsx-runtime"],
       output: {
         format: "es",
@@ -31,6 +31,7 @@ export default defineConfig({
       },
     },
     sourcemap: false,
-    minify: false, // Keep readable for tree-shaking
+    minify: false, // good for tree-shaking
+    emptyOutDir: true, // clean dist before build
   },
 });
