@@ -1,6 +1,6 @@
 {
   "name": "mx-icons",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Beautiful hand-crafted SVG icons for React - light mode only",
   "type": "module",
   "main": "./dist/index.js",
