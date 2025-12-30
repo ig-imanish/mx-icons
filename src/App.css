@@ -516,6 +516,66 @@
   -ms-overflow-style: none; /* IE and Edge */
 }
 
+.modal-code {
+  font-family: 'Courier New', 'Consolas', monospace;
+  background: var(--modal-code-bg, #1e1e1e);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.modal-code-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background: linear-gradient(135deg, var(--primary-color, #00d4ff), var(--secondary-color, #0099cc));
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
+}
+
+.modal-code-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.4);
+}
+
+.modal-code-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 212, 255, 0.3);
+}
+
+.modal-code pre {
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--text-primary, #e0e0e0);
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.modal-code code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+
+
 .modal-card::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
