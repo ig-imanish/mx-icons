@@ -45,7 +45,7 @@
     "build": "vite build",
     "build:lib": "npm run generate:types && vite build --config vite.lib.config.js && npm run copy:types",
     "generate:types": "node scripts/generate-types.js",
-    "copy:types": "cp src/icons/index.d.ts dist/index.d.ts",
+    "copy:types": "node -e \"const fs=require('fs'); fs.copyFileSync('src/icons/index.d.ts','dist/index.d.ts'); if(fs.existsSync('src/icons/Icon.d.ts')){fs.copyFileSync('src/icons/Icon.d.ts','dist/Icon.d.ts')}\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },

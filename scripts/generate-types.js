@@ -5,20 +5,21 @@
  * This script parses src/icons/index.js and generates complete type definitions
  */
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const INDEX_JS_PATH = path.join(__dirname, '../src/icons/index.js');
-const OUTPUT_PATH = path.join(__dirname, '../src/icons/index.d.ts');
+const INDEX_JS_PATH = path.join(__dirname, "../src/icons/index.js");
+const OUTPUT_PATH = path.join(__dirname, "../src/icons/index.d.ts");
+const ICON_OUTPUT_PATH = path.join(__dirname, "../src/icons/Icon.d.ts");
 
-console.log('🔍 Parsing index.js for icon exports...');
+console.log("🔍 Parsing index.js for icon exports...");
 
 // Read the index.js file
-const indexContent = fs.readFileSync(INDEX_JS_PATH, 'utf-8');
+const indexContent = fs.readFileSync(INDEX_JS_PATH, "utf-8");
 
 // Extract all icon component names from import statements
 const importRegex = /import \{ ([^}]+) \} from/g;
@@ -26,18 +27,18 @@ const iconNames = new Set();
 
 let match;
 while ((match = importRegex.exec(indexContent)) !== null) {
-    const imports = match[1].split(',').map(s => s.trim());
-    imports.forEach(importName => {
-        // Skip 'variants as ...' imports
-        if (!importName.includes('variants')) {
-            iconNames.add(importName);
-        }
-    });
+  const imports = match[1].split(",").map((s) => s.trim());
+  imports.forEach((importName) => {
+    // Skip 'variants as ...' imports
+    if (!importName.includes("variants")) {
+      iconNames.add(importName);
+    }
+  });
 }
 
 // Also extract Icon default import
-if (indexContent.includes('import Icon from')) {
-    iconNames.add('Icon');
+if (indexContent.includes("import Icon from")) {
+  iconNames.add("Icon");
 }
 
 // Sort icon names alphabetically
@@ -83,7 +84,9 @@ export interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'ref'> {
 export type IconComponent = FC<IconProps>;
 
 // Icon exports (auto-generated from index.js)
-${sortedIconNames.map(name => `export const ${name}: IconComponent;`).join('\n')}
+${sortedIconNames
+  .map((name) => `export const ${name}: IconComponent;`)
+  .join("\n")}
 
 /**
  * Icon variants metadata
@@ -108,8 +111,55 @@ export const icons: IconGroup[];
 `;
 
 // Write the file
-fs.writeFileSync(OUTPUT_PATH, typeDefinitions, 'utf-8');
+fs.writeFileSync(OUTPUT_PATH, typeDefinitions, "utf-8");
+
+// Generate Icon.d.ts
+const iconDefinition = `import { FC, SVGProps, ReactNode } from 'react';
+
+/**
+ * Props for the Icon wrapper component
+ */
+export interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'ref'> {
+  /**
+   * Icon size in pixels or any CSS unit
+   * @default 24
+   */
+  size?: number | string;
+  
+  /**
+   * Icon color (any valid CSS color)
+   * @default "#292D32"
+   */
+  color?: string;
+  
+  /**
+   * SVG fill attribute
+   * @default "none"
+   */
+  fill?: string;
+  
+  /**
+   * Additional CSS class names
+   * @default ""
+   */
+  className?: string;
+  
+  /**
+   * Child SVG elements
+   */
+  children?: ReactNode;
+}
+
+/**
+ * Base Icon wrapper component for mx-icons
+ */
+declare const Icon: FC<IconProps>;
+export default Icon;
+`;
+
+fs.writeFileSync(ICON_OUTPUT_PATH, iconDefinition, "utf-8");
 
 console.log(`✅ Generated TypeScript declarations at: ${OUTPUT_PATH}`);
+console.log(`✅ Generated Icon.d.ts at: ${ICON_OUTPUT_PATH}`);
 console.log(`📊 Total exports: ${sortedIconNames.length} icon components`);
-console.log('🎉 Icon types generation done!');
+console.log("🎉 Icon types generation done!");
