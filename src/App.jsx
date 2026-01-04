@@ -12,7 +12,7 @@ function App() {
   const [activeVariant, setActiveVariant] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
 
-  const [getVersion, setgetVersion] = useState(null);
+  const [version, setVersion] = useState("");
 
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
@@ -22,14 +22,15 @@ function App() {
 
   useEffect(() => {
     fetch("https://registry.npmjs.org/mx-icons")
-      .then(response => response.json())
-      .then(data => {
-        setgetVersion(data["dist-tags"].latest);
-        console.log(data["dist-tags"].latest);
+      .then((response) => response.json())
+      .then((data) => {
+        const latestVersion =
+          data?.distTags?.latest || data?.["dist-tags"]?.latest || "";
+        setVersion(latestVersion);
+        console.log(latestVersion);
       })
-      .catch(err => console.error("Failed to load version", err));
+      .catch((err) => console.error("Failed to load version", err));
   }, []);
-
 
   useEffect(() => {
     localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
@@ -39,7 +40,6 @@ function App() {
       document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
-
 
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
@@ -151,7 +151,7 @@ function App() {
                 <img src="/mx-icons.png" alt="" />
               </div>
               <h1 className="logo-text">mxicons</h1>
-              <span className="version-badge">v{getVersion}</span>
+              {version && <span className="version-badge">v{version}</span>}
             </div>
             <div className="header-actions-top">
               <button
@@ -273,8 +273,9 @@ function App() {
           {allVariants.map((variant) => (
             <button
               key={variant}
-              className={`variant-tab ${activeVariant === variant ? "active" : ""
-                }`}
+              className={`variant-tab ${
+                activeVariant === variant ? "active" : ""
+              }`}
               onClick={() => setActiveVariant(variant)}
             >
               {variant.charAt(0).toUpperCase() + variant.slice(1)}
@@ -396,22 +397,30 @@ function App() {
               <div className="modal-code">
                 <h3>How to use</h3>
                 <pre>
-                <button
-                  className={`code-copy-btn ${copiedIcon === "code" ? "copied" : ""}`}
-                  data-tooltip="Copy to clipboard"
-                  onClick={() =>
-                    copyCode(
-                      `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
-                    )
-                  }
-                  aria-label="Copy code"
-                >
-                  {copiedIcon === "code" ? (
-                    <TickCircleLinear size={16} color={isDarkMode ? "#ffffff" : "#000000"} />
-                  ) : (
-                    <CopyLinear size={16} color={isDarkMode ? "#ffffff" : "#000000"} />
-                  )}
-                </button>
+                  <button
+                    className={`code-copy-btn ${
+                      copiedIcon === "code" ? "copied" : ""
+                    }`}
+                    data-tooltip="Copy to clipboard"
+                    onClick={() =>
+                      copyCode(
+                        `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
+                      )
+                    }
+                    aria-label="Copy code"
+                  >
+                    {copiedIcon === "code" ? (
+                      <TickCircleLinear
+                        size={16}
+                        color={isDarkMode ? "#ffffff" : "#000000"}
+                      />
+                    ) : (
+                      <CopyLinear
+                        size={16}
+                        color={isDarkMode ? "#ffffff" : "#000000"}
+                      />
+                    )}
+                  </button>
                   <code>
                     <span className="keyword">import</span>
                     <span className="punctuation"> {"{ "}</span>
@@ -440,7 +449,9 @@ function App() {
                   </code>
                 </pre>
                 <button
-                  className={`copy-button ${copiedIcon === "code" ? "copied" : ""}`}
+                  className={`copy-button ${
+                    copiedIcon === "code" ? "copied" : ""
+                  }`}
                   onClick={() =>
                     copyCode(
                       `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
@@ -449,13 +460,25 @@ function App() {
                 >
                   {copiedIcon === "code" ? (
                     <>
-                      <TickCircleLinear size={16} color={isDarkMode ? "#ffffff" : "#000000"} />
-                      <span style={{ color: isDarkMode ? '#ffffff' : '#000000' }}>Copied!</span>
+                      <TickCircleLinear
+                        size={16}
+                        color={isDarkMode ? "#ffffff" : "#000000"}
+                      />
+                      <span
+                        style={{ color: isDarkMode ? "#ffffff" : "#000000" }}
+                      >
+                        Copied!
+                      </span>
                     </>
                   ) : (
                     <>
-                      <CopyLinear size={16} color={isDarkMode ? "#ffffff" : "#000000"} />
-                      <span style={{ color: isDarkMode ? '#ffffff' : '#000000' }}>
+                      <CopyLinear
+                        size={16}
+                        color={isDarkMode ? "#ffffff" : "#000000"}
+                      />
+                      <span
+                        style={{ color: isDarkMode ? "#ffffff" : "#000000" }}
+                      >
                         Copy Code
                       </span>
                     </>

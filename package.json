@@ -43,7 +43,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:lib": "vite build --config vite.lib.config.js",
+    "build:lib": "npm run generate:types && vite build --config vite.lib.config.js && npm run copy:types",
+    "generate:types": "node scripts/generate-types.js",
+    "copy:types": "node -e \"const fs=require('fs'); fs.copyFileSync('src/icons/index.d.ts','dist/index.d.ts'); if(fs.existsSync('src/icons/Icon.d.ts')){fs.copyFileSync('src/icons/Icon.d.ts','dist/Icon.d.ts')}\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -56,6 +58,7 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
     "react-dom": "^18.0.0",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "vite-plugin-dts": "^4.5.4"
   }
 }
