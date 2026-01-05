@@ -16585,4 +16585,4 @@ export const icons = [
     variants: variantsTelegram,
   }
 ];
-export { RocketLinear } from './components/rocket';
+export { RocketLinear, RocketBold, RocketMini } from './components/rocket';
