@@ -267,12 +267,17 @@ function App() {
 
       <div className="container">
         <div className="search-wrapper">
+          <label htmlFor="icon-search" className="search-label">
+            Search Icons
+          </label>
           <input
+            id="icon-search"
             className="search-input"
             type="text"
             placeholder="Search all icons..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            aria-label="Search icons by name or keywords"
           />
         </div>
 
