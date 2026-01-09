@@ -4100,6 +4100,10 @@ import { NoteBulk } from "./components/note";
 import { NoteLinear } from "./components/note";
 import { NoteOutline } from "./components/note";
 import { NoteTwotone } from "./components/note";
+import { variants as variantsNotion } from "./components/notion";
+import { NotionBold } from "./components/notion";
+import { NotionLinear } from "./components/notion";
+import { NotionMini } from "./components/notion";
 import { variants as variantsNotification1 } from "./components/notification-1";
 import { Notification1Bold } from "./components/notification-1";
 import { Notification1Broken } from "./components/notification-1";
@@ -6369,12 +6373,12 @@ import { variants as variantsCheckmarkCircle02 } from "./components/checkmark-ci
 import { CheckmarkCircle02Linear } from "./components/checkmark-circle-02";
 import { CheckmarkCircle02Bold } from "./components/checkmark-circle-02";
 
-import { LinkedInLinear } from "./components/linkedin"
-import { LinkedInBold } from "./components/linkedin"
-import { variants as variantLinkedIn } from "./components/linkedin"
+import { LinkedInLinear } from "./components/linkedin";
+import { LinkedInBold } from "./components/linkedin";
+import { variants as variantLinkedIn } from "./components/linkedin";
 
 import { FacebookBold } from "./components/facebook";
-import { FacebookLinear } from "./components/facebook"
+import { FacebookLinear } from "./components/facebook";
 import { variants as variantFacebook } from "./components/facebook";
 
 import WhatsappBold from "./components/whatsapp/WhatsappBold";
@@ -9895,6 +9899,9 @@ export {
   NoteLinear,
   NoteOutline,
   NoteTwotone,
+  NotionBold,
+  NotionLinear,
+  NotionMini,
   Notification1Bold,
   Notification1Broken,
   Notification1Bulk,
@@ -11807,7 +11814,7 @@ export {
   WhatsappLinear,
   WhatsappBold,
   TelegramLinear,
-  TelegramBold
+  TelegramBold,
 };
 
 export const icons = [
@@ -14760,6 +14767,11 @@ export const icons = [
     name: "note",
     slug: "note",
     variants: variantsNote,
+  },
+  {
+    name: "notion",
+    slug: "notion",
+    variants: variantsNotion,
   },
   {
     name: "notification-1",

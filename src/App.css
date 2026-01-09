@@ -1079,8 +1079,8 @@ color: #a5b4fc;
   }
 
   .footer-links {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 
   .footer-bottom {
@@ -1135,6 +1135,11 @@ color: #a5b4fc;
 
   .footer {
     padding: 2.5rem 1rem 1.5rem;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .pagination-button {
