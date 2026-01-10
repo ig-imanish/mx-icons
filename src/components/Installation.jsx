@@ -243,6 +243,7 @@ function Installation() {
                         </div>
                     </section>
 
+
                     <section id="props" className="docs-section">
                         <h2>🎨 Props & Customization</h2>
                         <p>All icon components accept the following props for customization:</p>
