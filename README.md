@@ -184,6 +184,10 @@ Free to use in personal and commercial projects. See [LICENSE](./LICENSE) for de
 - **🐛 Issues:** [github.com/ig-imanish/mx-icons/issues](https://github.com/ig-imanish/mx-icons/issues)
 - **💬 Discussions:** [github.com/ig-imanish/mx-icons/discussions](https://github.com/ig-imanish/mx-icons/discussions)
 
+![Alt](https://repobeats.axiom.co/api/embed/d92e9b2949a80cf5ca91d12b9726e938bdba255b.svg "Repobeats analytics image")
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/ig-imanish/mx-icons.svg?variant=adaptive)](https://starchart.cc/ig-imanish/mx-icons)
 <div align="center">
   
   **Made with ❤️ by the open-source community**
