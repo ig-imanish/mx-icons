@@ -5455,6 +5455,12 @@ export const WomanOutline: IconComponent;
 export const WomanTwotone: IconComponent;
 export const YoutubeBold: IconComponent;
 export const YoutubeLinear: IconComponent;
+export const RocketLinear: IconComponent;
+export const RocketBold: IconComponent;
+export const RocketMini: IconComponent;
+export const PlanetLinear: IconComponent;
+export const PlanetBold: IconComponent;
+export const PlanetMini: IconComponent;
 
 /**
  * Icon variants metadata
