@@ -198,48 +198,54 @@ function Installation() {
                     </section>
 
                     <section id="usage" className="docs-section">
-                        <h2>🚀 Quick Start</h2>
-                        <p>
-                            Import icons from <code>mx-icons</code> and use them as React
-                            components.
-                        </p>
-                        <div className="code-block language-jsx">
-                            <button
-                                className="copy-btn"
-                                onClick={copyCodeBlock}
-                                aria-label="Copy code"
-                                style={{ position: "absolute", top: "10px", right: "10px" }}
-                            >
-                                {copiedCode ? (
-                                    <TickCircleLinear size={18} color={isDarkMode ? "#fff" : "#000"} />
-                                ) : (
-                                    <CopyLinear size={18} color={isDarkMode ? "#fff" : "#000"} />
-                                )}
-                            </button>
-                            <pre>
-                                <code>
-                                    <span className="keyword">import</span>{" "}
-                                    <span className="punctuation">{"{"}</span>{" "}
-                                    <span className="component">NoteTextLinear</span>{" "}
-                                    <span className="punctuation">{"}"}</span>{" "}
-                                    <span className="keyword">from</span>{" "}
-                                    <span className="string">"mx-icons"</span>;
-                                    {"\n\n"}
-                                    <span className="keyword">function</span> <span className="component">App</span>() {"{"}
-                                    {"\n  "}
-                                    <span className="keyword">return</span> <span className="tag">{"<NoteTextLinear"}</span>{" "}
-                                    <span className="attr-name">size</span>
-                                    <span className="punctuation">={"{"}</span>
-                                    <span className="number">24</span>
-                                    <span className="punctuation">{"}"}</span>{" "}
-                                    <span className="attr-name">color</span>
-                                    <span className="punctuation">="</span>
-                                    <span className="string">"#292D32"</span>
-                                    <span className="punctuation">"</span> <span className="tag">{"/>"}</span>
-                                    {"\n"}
-                                    {"}"}
-                                </code>
-                            </pre>
+                        <h2>🚀 Usage</h2>
+                        <div className="usage-card">
+                            <div className="usage-header">
+                                <div className="usage-title">Quick Start</div>
+                                <div className="usage-description">
+                                    Import icons from mx-icons and use them as React components.
+                                </div>
+                            </div>
+                            <div className="usage-content">
+                                <div className="usage-code-container">
+                                    <button
+                                        className="copy-btn"
+                                        onClick={copyCodeBlock}
+                                        aria-label="Copy code"
+                                        style={{ position: "absolute", top: "10px", right: "10px", zIndex: 10 }}
+                                    >
+                                        {copiedCode ? (
+                                            <TickCircleLinear size={18} color={isDarkMode ? "#fff" : "#000"} />
+                                        ) : (
+                                            <CopyLinear size={18} color={isDarkMode ? "#fff" : "#000"} />
+                                        )}
+                                    </button>
+                                    <pre>
+                                        <code>
+                                            <span className="keyword">import</span>{" "}
+                                            <span className="punctuation">{"{"}</span>{" "}
+                                            <span className="component">NoteTextLinear</span>{" "}
+                                            <span className="punctuation">{"}"}</span>{" "}
+                                            <span className="keyword">from</span>{" "}
+                                            <span className="string">"mx-icons"</span>;
+                                            {"\n\n"}
+                                            <span className="keyword">function</span> <span className="component">App</span>() {"{"}
+                                            {"\n  "}
+                                            <span className="keyword">return</span> <span className="tag">{"<NoteTextLinear"}</span>{" "}
+                                            <span className="attr-name">size</span>
+                                            <span className="punctuation">={"{"}</span>
+                                            <span className="number">24</span>
+                                            <span className="punctuation">{"}"}</span>{" "}
+                                            <span className="attr-name">color</span>
+                                            <span className="punctuation">="</span>
+                                            <span className="string">#292D32</span>
+                                            <span className="punctuation">"</span> <span className="tag">{"/>"}</span>
+                                            {"\n"}
+                                            {"}"}
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
@@ -314,7 +320,7 @@ function Installation() {
                                     href="#usage"
                                     className={activeSection === "usage" ? "active" : ""}
                                 >
-                                    Quick Start
+                                    Usage
                                 </a>
                             </li>
                             <li>
