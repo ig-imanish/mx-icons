@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { CopyLinear, TickCircleLinear, NoteTextLinear } from "./icons";
+import { CopyLinear, TickCircleLinear, NoteTextLinear } from "../icons";
 import "./Installation.css";
 
 function Installation() {
