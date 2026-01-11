@@ -2710,9 +2710,13 @@ import { variants as variantsGoogle } from "./components/google";
 import { variants as variantsGoogleLens } from "./components/google-lens";
 import { GoogleLensBold } from "./components/google-lens";
 import { GoogleLensBroken } from "./components/google-lens";
-import { GoogleLensBulk } from "./components/google-lens";
 import { GoogleLensLinear } from "./components/google-lens";
 import { GoogleLensTwoTone } from "./components/google-lens";
+
+import {GooglePlayBold} from "./components/google-play";
+import {GooglePlayBroken} from "./components/google-play";
+import {GooglePlayLinear} from "./components/google-play";
+import {variants as variantsGooglePlay} from "./components/google-play";
 
 import { variants as variantsGrammerly } from "./components/grammerly";
 import { GrammerlyBold } from "./components/grammerly";
@@ -8722,6 +8726,9 @@ export {
   GoogleLensLinear,
   GoogleLensTwoTone,
   GoogleLensBroken,
+  GooglePlayBold,
+  GooglePlayBroken,
+  GooglePlayLinear,
   GrammerlyBold,
   GrammerlyBroken,
   GrammerlyBulk,
@@ -13793,6 +13800,11 @@ export const icons = [
     name: "google-lens",
     slug: "google-lens",
     variants: variantsGoogleLens,
+  },
+  {
+    name: "google-play",
+    slug: "google-play",
+    variants: variantsGooglePlay,
   },
   {
     name: "grammerly",
