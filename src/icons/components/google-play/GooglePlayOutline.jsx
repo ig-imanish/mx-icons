@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "../../Icon";
 
-export default function GooglePlayBroken({
+export default function GooglePlayOutline({
   size = 24,
   color = "#292D32",
   className = "",
@@ -21,7 +21,6 @@ export default function GooglePlayBroken({
         strokeLinejoin="round"
         d="M3.5 20.548 16.73 7.745"
         strokeWidth="1.5"
-        strokeDasharray="12 4"
       />
       <path
         stroke="currentColor"
@@ -36,7 +35,6 @@ export default function GooglePlayBroken({
         strokeLinejoin="round"
         d="M16.73 16.256 3.5 3.452"
         strokeWidth="1.5"
-        strokeDasharray="12 4"
       />
     </Icon>
   );

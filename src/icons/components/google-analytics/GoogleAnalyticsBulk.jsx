@@ -1,7 +1,6 @@
 import React from "react";
 import Icon from "../../Icon";
-
-export default function GoogleLensTwoTone({
+export default function GoogleAnalyticsBulk({
   size = 24,
   color = "#292D32",
   className = "",
@@ -17,17 +16,17 @@ export default function GoogleLensTwoTone({
     >
       <path
         opacity="0.4"
+        d="M20.5 0A3.5 3.5 0 0 0 17 3.5v17a3.5 3.5 0 0 0 7 0v-17A3.5 3.5 0 0 0 20.5 0Z"
         fill="currentColor"
-        d="M4 6.5A2.5 2.5 0 0 1 6.5 4h3V1h-3A5.5 5.5 0 0 0 1 6.5v3h3v-3ZM17.5 4h-3V1h3A5.5 5.5 0 0 1 23 6.5v3h-3v-3A2.5 2.5 0 0 0 17.5 4Z"
       />
       <path
+        d="M12 11a3.5 3.5 0 0 0 -3.5 3.5v6a3.5 3.5 0 0 0 7 0v-6A3.5 3.5 0 0 0 12 11Z"
         fill="currentColor"
-        d="M16 12a4 4 0 1 1 -8 0 4 4 0 0 1 8 0Zm6 7.5a2.5 2.5 0 1 1 -5 0 2.5 2.5 0 0 1 5 0Z"
       />
       <path
         opacity="0.4"
+        d="M0 20.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0"
         fill="currentColor"
-        d="M1 14.5v3A5.5 5.5 0 0 0 6.5 23h3v-3h-3A2.5 2.5 0 0 1 4 17.5v-3H1Z"
       />
     </Icon>
   );

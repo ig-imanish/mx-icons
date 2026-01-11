@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "../../Icon";
 
-export default function GoogleBroken({
+export default function GoogleLinear({
   size = 24,
   color = "#292D32",
   className = "",
@@ -21,7 +21,6 @@ export default function GoogleBroken({
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeDasharray="28 6 100"
       />
     </Icon>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "../../Icon";
 
-export default function GoogleDriveLinear({
+export default function GoogleDriveOutline({
   size = 24,
   color = "#292D32",
   className = "",

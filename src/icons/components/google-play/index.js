@@ -1,11 +1,15 @@
 import GooglePlayBold from "./GooglePlayBold";
 import GooglePlayLinear from "./GooglePlayLinear";
-import GooglePlayBroken from "./GooglePlayBroken";
+import GooglePlayOutline from "./GooglePlayOutline";
+import GooglePlayBulk from "./GooglePlayBulk";
+
 
 export {
   GooglePlayBold,
   GooglePlayLinear,
-  GooglePlayBroken,
+  GooglePlayOutline,
+  GooglePlayBulk,
+
 };
 
 export const variants = [
@@ -22,15 +26,24 @@ export const variants = [
     componentName: "GooglePlayLinear",
   },
   {
-    variant: "broken",
-    slug: "google-play-broken",
-    Component: GooglePlayBroken,
-    componentName: "GooglePlayBroken",
+    variant: "outline",
+    slug: "google-play-outline",
+    Component: GooglePlayOutline,
+    componentName: "GooglePlayOutline",
   },
+  {
+    variant: "bulk",
+    slug: "google-play-bulk",
+    Component: GooglePlayBulk,
+    componentName: "GooglePlayBulk",
+  },
+ 
 ];
 
 export default {
   GooglePlayBold,
   GooglePlayLinear,
-  GooglePlayBroken,
+  GooglePlayOutline,
+  GooglePlayBulk,
+
 };

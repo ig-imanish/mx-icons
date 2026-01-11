@@ -1,9 +1,10 @@
 import GmailBold from "./GmailBold";
 import GmailLinear from "./GmailLinear";
-import GmailTwoTone from "./GmailTwoTone";
+import GmailBulk from "./GmailBulk";
 import GmailBroken from "./GmailBroken";
+import GmailOutline from "./GmailOutline";
 
-export { GmailBold, GmailLinear, GmailTwoTone, GmailBroken };
+export { GmailBold, GmailLinear, GmailBulk, GmailBroken, GmailOutline };
 
 export const variants = [
   {
@@ -19,10 +20,10 @@ export const variants = [
     componentName: "GmailLinear",
   },
   {
-    variant: "twotone",
-    slug: "gmail-twotone",
-    Component: GmailTwoTone,
-    componentName: "GmailTwoTone",
+    variant: "bulk",
+    slug: "gmail-bulk",
+    Component: GmailBulk,
+    componentName: "GmailBulk",
   },
   {
     variant: "broken",
@@ -30,6 +31,12 @@ export const variants = [
     Component: GmailBroken,
     componentName: "GmailBroken",
   },
+  {
+    variant: "outline",
+    slug: "gmail-outline",
+    Component: GmailOutline,
+    componentName: "GmailOutline",
+  },
 ];
 
-export default { GmailBold, GmailLinear, GmailTwoTone, GmailBroken };
+export default { GmailBold, GmailLinear, GmailBulk, GmailBroken, GmailOutline };

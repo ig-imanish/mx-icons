@@ -1,12 +1,9 @@
 import GoogleDriveBold from "./GoogleDriveBold";
 import GoogleDriveLinear from "./GoogleDriveLinear";
-import GoogleDriveTwoTone from "./GoogleDriveTwoTone";
+import GoogleDriveBulk from "./GoogleDriveBulk";
+import GoogleDriveOutline from "./GoogleDriveOutline";
 
-export {
-  GoogleDriveBold,
-  GoogleDriveLinear,
-  GoogleDriveTwoTone,
-};
+export { GoogleDriveBold, GoogleDriveLinear, GoogleDriveBulk, GoogleDriveOutline };
 
 export const variants = [
   {
@@ -22,15 +19,22 @@ export const variants = [
     componentName: "GoogleDriveLinear",
   },
   {
-    variant: "twotone",
-    slug: "google-drive-twotone",
-    Component: GoogleDriveTwoTone,
-    componentName: "GoogleDriveTwoTone",
+    variant: "bulk",
+    slug: "google-drive-bulk",
+    Component: GoogleDriveBulk,
+    componentName: "GoogleDriveBulk",
+  },
+  {
+    variant: "outline",
+    slug: "google-drive-outline",
+    Component: GoogleDriveOutline,
+    componentName: "GoogleDriveOutline",
   },
 ];
 
 export default {
   GoogleDriveBold,
   GoogleDriveLinear,
-  GoogleDriveTwoTone,
+  GoogleDriveBulk,
+  GoogleDriveOutline,
 };

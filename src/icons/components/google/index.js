@@ -1,9 +1,10 @@
 import GoogleBold from "./GoogleBold";
 import GoogleLinear from "./GoogleLinear";
+import GoogleOutline from "./GoogleOutline";
 import GoogleBulk from "./GoogleBulk";
 import GoogleBroken from "./GoogleBroken";
 
-export { GoogleBold, GoogleLinear, GoogleBulk, GoogleBroken };
+export { GoogleBold, GoogleLinear, GoogleOutline, GoogleBulk, GoogleBroken };
 
 export const variants = [
   {
@@ -19,6 +20,12 @@ export const variants = [
     componentName: "GoogleLinear",
   },
   {
+    variant: "outline",
+    slug: "google-outline",
+    Component: GoogleOutline,
+    componentName: "GoogleOutline",
+  },
+  {
     variant: "bulk",
     slug: "google-bulk",
     Component: GoogleBulk,
@@ -32,4 +39,10 @@ export const variants = [
   },
 ];
 
-export default { GoogleBold, GoogleLinear, GoogleBulk, GoogleBroken };
+export default {
+  GoogleBold,
+  GoogleLinear,
+  GoogleOutline,
+  GoogleBulk,
+  GoogleBroken,
+};

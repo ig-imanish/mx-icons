@@ -1,8 +1,14 @@
 import GoogleCalendarBold from "./GoogleCalendarBold";
 import GoogleCalendarLinear from "./GoogleCalendarLinear";
 import GoogleCalendarTwoTone from "./GoogleCalendarTwoTone";
+import GoogleCalendarBulk from "./GoogleCalendarBulk";
 
-export { GoogleCalendarBold, GoogleCalendarLinear, GoogleCalendarTwoTone };
+export {
+  GoogleCalendarBold,
+  GoogleCalendarLinear,
+  GoogleCalendarTwoTone,
+  GoogleCalendarBulk,
+};
 
 export const variants = [
   {
@@ -23,10 +29,17 @@ export const variants = [
     Component: GoogleCalendarTwoTone,
     componentName: "GoogleCalendarTwoTone",
   },
+  {
+    variant: "bulk",
+    slug: "google-calendar-bulk",
+    Component: GoogleCalendarBulk,
+    componentName: "GoogleCalendarBulk",
+  },
 ];
 
 export default {
   GoogleCalendarBold,
   GoogleCalendarLinear,
   GoogleCalendarTwoTone,
+  GoogleCalendarBulk,
 };

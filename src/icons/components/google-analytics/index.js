@@ -1,8 +1,16 @@
 import GoogleAnalyticsBold from "./GoogleAnalyticsBold";
 import GoogleAnalyticsLinear from "./GoogleAnalyticsLinear";
+import GoogleAnalyticsBulk from "./GoogleAnalyticsBulk";
+import GoogleAnalyticsOutline from "./GoogleAnalyticsOutline";
 import GoogleAnalyticsTwoTone from "./GoogleAnalyticsTwoTone";
 
-export { GoogleAnalyticsBold, GoogleAnalyticsLinear, GoogleAnalyticsTwoTone };
+export {
+  GoogleAnalyticsBold,
+  GoogleAnalyticsLinear,
+  GoogleAnalyticsBulk,
+  GoogleAnalyticsOutline,
+  GoogleAnalyticsTwoTone,
+};
 
 export const variants = [
   {
@@ -18,6 +26,18 @@ export const variants = [
     componentName: "GoogleAnalyticsLinear",
   },
   {
+    variant: "bulk",
+    slug: "google-analytics-bulk",
+    Component: GoogleAnalyticsBulk,
+    componentName: "GoogleAnalyticsBulk",
+  },
+  {
+    variant: "outline",
+    slug: "google-analytics-outline",
+    Component: GoogleAnalyticsOutline,
+    componentName: "GoogleAnalyticsOutline",
+  },
+  {
     variant: "twotone",
     slug: "google-analytics-twotone",
     Component: GoogleAnalyticsTwoTone,
@@ -28,5 +48,7 @@ export const variants = [
 export default {
   GoogleAnalyticsBold,
   GoogleAnalyticsLinear,
+  GoogleAnalyticsBulk,
+  GoogleAnalyticsOutline,
   GoogleAnalyticsTwoTone,
 };

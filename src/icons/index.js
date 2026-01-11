@@ -2703,6 +2703,7 @@ import { GpsOutline } from "./components/gps";
 import { GpsTwotone } from "./components/gps";
 import { GoogleBold } from "./components/google";
 import { GoogleLinear } from "./components/google";
+import { GoogleOutline } from "./components/google";
 import { GoogleBulk } from "./components/google";
 import { GoogleBroken } from "./components/google";
 import { variants as variantsGoogle } from "./components/google";
@@ -2711,27 +2712,34 @@ import { variants as variantsGoogleLens } from "./components/google-lens";
 import { GoogleLensBold } from "./components/google-lens";
 import { GoogleLensBroken } from "./components/google-lens";
 import { GoogleLensLinear } from "./components/google-lens";
-import { GoogleLensTwoTone } from "./components/google-lens";
+import { GoogleLensOutline } from "./components/google-lens";
+import { GoogleLensBulk } from "./components/google-lens";
 
 import { GooglePlayBold } from "./components/google-play";
-import { GooglePlayBroken } from "./components/google-play";
 import { GooglePlayLinear } from "./components/google-play";
+import { GooglePlayOutline } from "./components/google-play";
+import { GooglePlayBulk } from "./components/google-play";
 import { variants as variantsGooglePlay } from "./components/google-play";
 
 import { GoogleDriveBold } from "./components/google-drive";
 import { GoogleDriveLinear } from "./components/google-drive";
+import { GoogleDriveOutline } from "./components/google-drive";
+import { GoogleDriveBulk } from "./components/google-drive";
 import { variants as variantsGoogleDrive } from "./components/google-drive";
 
 import { variants as variantsGoogleAnalytics } from "./components/google-analytics";
 import { GoogleAnalyticsBold } from "./components/google-analytics";
 import { GoogleAnalyticsLinear } from "./components/google-analytics";
+import { GoogleAnalyticsBulk } from "./components/google-analytics";
+import { GoogleAnalyticsOutline } from "./components/google-analytics";
 import { GoogleAnalyticsTwoTone } from "./components/google-analytics";
 
 import { variants as variantsGmail } from "./components/gmail";
 import { GmailBold } from "./components/gmail";
 import { GmailLinear } from "./components/gmail";
-import { GmailTwoTone } from "./components/gmail";
+import { GmailBulk } from "./components/gmail";
 import { GmailBroken } from "./components/gmail";
+import {GmailOutline} from "./components/gmail"
 
 import { variants as variantsGooglePay } from "./components/google-pay";
 import { GooglePayBold } from "./components/google-pay";
@@ -2740,7 +2748,8 @@ import { GooglePayTwoTone } from "./components/google-pay";
 import { variants as variantsAndroid } from "./components/android";
 import { AndroidBold } from "./components/android";
 import { AndroidLinear } from "./components/android";
-import { AndroidTwoTone } from "./components/android";
+import { AndroidOutline } from "./components/android";
+import { AndroidBulk } from "./components/android";
 
 import { variants as variantsGoogleMaps } from "./components/google-maps";
 import { GoogleMapsBold } from "./components/google-maps";
@@ -2751,6 +2760,7 @@ import { variants as variantsGoogleCalendar } from "./components/google-calendar
 import { GoogleCalendarBold } from "./components/google-calendar";
 import { GoogleCalendarLinear } from "./components/google-calendar";
 import { GoogleCalendarTwoTone } from "./components/google-calendar";
+import { GoogleCalendarBulk } from "./components/google-calendar";
 
 import { variants as variantsGrammerly } from "./components/grammerly";
 import { GrammerlyBold } from "./components/grammerly";
@@ -8754,35 +8764,46 @@ export {
   GpsTwotone,
   GoogleBold,
   GoogleLinear,
+  GoogleOutline,
   GoogleBulk,
   GoogleBroken,
   GoogleLensBold,
   GoogleLensLinear,
-  GoogleLensTwoTone,
+  GoogleLensOutline,
+  GoogleLensBulk,
   GoogleLensBroken,
   GooglePlayBold,
-  GooglePlayBroken,
+
   GooglePlayLinear,
+  GooglePlayOutline,
+  GooglePlayBulk,
   GoogleDriveBold,
   GoogleDriveLinear,
+  GoogleDriveOutline,
+  GoogleDriveBulk,
   GoogleAnalyticsBold,
   GoogleAnalyticsLinear,
+  GoogleAnalyticsOutline,
+  GoogleAnalyticsBulk,
   GoogleAnalyticsTwoTone,
   GmailBold,
   GmailLinear,
-  GmailTwoTone,
+  GmailBulk,
   GmailBroken,
+  GmailOutline,
   GooglePayBold,
   GooglePayTwoTone,
   AndroidBold,
   AndroidLinear,
-  AndroidTwoTone,
+  AndroidOutline,
+  AndroidBulk,
   GoogleMapsBold,
   GoogleMapsLinear,
   GoogleMapsBulk,
   GoogleCalendarBold,
   GoogleCalendarLinear,
   GoogleCalendarTwoTone,
+  GoogleCalendarBulk,
   GrammerlyBold,
   GrammerlyBroken,
   GrammerlyBulk,

@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "../../Icon";
-export default function GoogleAnalyticsTwoTone({
+export default function GoogleAnalyticsOutline({
   size = 24,
   color = "#292D32",
   className = "",
@@ -21,8 +21,7 @@ export default function GoogleAnalyticsTwoTone({
       <path
         d="M12 11a3.5 3.5 0 0 0 -3.5 3.5v6a3.5 3.5 0 0 0 7 0v-6A3.5 3.5 0 0 0 12 11Z"
         stroke="currentColor"
-        opacity={0.5}
-      />
+      />{" "}
       <path
         d="M0 20.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0"
         stroke="currentColor"

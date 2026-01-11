@@ -1,12 +1,14 @@
 import GoogleLensBold from "./GoogleLensBold";
 import GoogleLensLinear from "./GoogleLensLinear";
-import GoogleLensTwoTone from "./GoogleLensTwoTone";
+import GoogleLensOutline from "./GoogleLensOutline";
+import GoogleLensBulk from "./GoogleLensBulk";
 import GoogleLensBroken from "./GoogleLensBroken";
 
 export {
   GoogleLensBold,
   GoogleLensLinear,
-  GoogleLensTwoTone,
+  GoogleLensOutline,
+  GoogleLensBulk,
   GoogleLensBroken,
 };
 
@@ -24,10 +26,16 @@ export const variants = [
     componentName: "GoogleLensLinear",
   },
   {
-    variant: "twotone",
-    slug: "google-lens-twotone",
-    Component: GoogleLensTwoTone,
-    componentName: "GoogleLensTwoTone",
+    variant: "outline",
+    slug: "google-lens-outline",
+    Component: GoogleLensOutline,
+    componentName: "GoogleLensOutline",
+  },
+  {
+    variant: "bulk",
+    slug: "google-lens-bulk",
+    Component: GoogleLensBulk,
+    componentName: "GoogleLensBulk",
   },
   {
     variant: "broken",
@@ -40,6 +48,7 @@ export const variants = [
 export default {
   GoogleLensBold,
   GoogleLensLinear,
-  GoogleLensTwoTone,
+  GoogleLensOutline,
+  GoogleLensBulk,
   GoogleLensBroken,
 };

@@ -1,8 +1,9 @@
 import AndroidBold from "./AndroidBold";
 import AndroidLinear from "./AndroidLinear";
-import AndroidTwoTone from "./AndroidTwoTone";
+import AndroidOutline from "./AndroidOutline";
+import AndroidBulk from "./AndroidBulk";
 
-export { AndroidBold, AndroidLinear, AndroidTwoTone };
+export { AndroidBold, AndroidLinear, AndroidOutline, AndroidBulk };
 
 export const variants = [
   {
@@ -18,11 +19,17 @@ export const variants = [
     componentName: "AndroidLinear",
   },
   {
-    variant: "twotone",
-    slug: "android-twotone",
-    Component: AndroidTwoTone,
-    componentName: "AndroidTwoTone",
+    variant: "outline",
+    slug: "android-outline",
+    Component: AndroidOutline,
+    componentName: "AndroidOutline",
+  },
+  {
+    variant: "bulk",
+    slug: "android-bulk",
+    Component: AndroidBulk,
+    componentName: "AndroidBulk",
   },
 ];
 
-export default { AndroidBold, AndroidLinear, AndroidTwoTone };
+export default { AndroidBold, AndroidLinear, AndroidOutline, AndroidBulk };

@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "../../Icon";
 
-export default function GoogleBroken({
+export default function GoogleLensOutline({
   size = 24,
   color = "#292D32",
   className = "",
@@ -16,12 +16,11 @@ export default function GoogleBroken({
       {...props}
     >
       <path
-        d="M21.95 11a10 10 0 1 1 -3.65-6.664L15.35 6.994A5.996 5.996 0 1 0 17.66 14.19H13.1v-3h8.795"
+        d="M4 6.5A2.5 2.5 0 0 1 6.5 4h3V1h-3A5.5 5.5 0 0 0 1 6.5v3h3v-3ZM16 12a4 4 0 1 1 -8 0 4 4 0 0 1 8 0Zm6 7.5a2.5 2.5 0 1 1 -5 0 2.5 2.5 0 0 1 5 0ZM17.5 4h-3V1h3A5.5 5.5 0 0 1 23 6.5v3h-3v-3A2.5 2.5 0 0 0 17.5 4ZM1 14.5v3A5.5 5.5 0 0 0 6.5 23h3v-3h-3A2.5 2.5 0 0 1 4 17.5v-3H1Z"
         stroke="currentColor"
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeDasharray="28 6 100"
       />
     </Icon>
   );
