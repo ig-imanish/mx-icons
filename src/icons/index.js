@@ -2742,6 +2742,16 @@ import { AndroidBold } from "./components/android";
 import { AndroidLinear } from "./components/android";
 import { AndroidTwoTone } from "./components/android";
 
+import { variants as variantsGoogleMaps } from "./components/google-maps";
+import { GoogleMapsBold } from "./components/google-maps";
+import { GoogleMapsLinear } from "./components/google-maps";
+import { GoogleMapsBulk } from "./components/google-maps";
+
+import { variants as variantsGoogleCalendar } from "./components/google-calendar";
+import { GoogleCalendarBold } from "./components/google-calendar";
+import { GoogleCalendarLinear } from "./components/google-calendar";
+import { GoogleCalendarTwoTone } from "./components/google-calendar";
+
 import { variants as variantsGrammerly } from "./components/grammerly";
 import { GrammerlyBold } from "./components/grammerly";
 import { GrammerlyBroken } from "./components/grammerly";
@@ -8767,6 +8777,12 @@ export {
   AndroidBold,
   AndroidLinear,
   AndroidTwoTone,
+  GoogleMapsBold,
+  GoogleMapsLinear,
+  GoogleMapsBulk,
+  GoogleCalendarBold,
+  GoogleCalendarLinear,
+  GoogleCalendarTwoTone,
   GrammerlyBold,
   GrammerlyBroken,
   GrammerlyBulk,
@@ -13868,6 +13884,16 @@ export const icons = [
     name: "Android",
     slug: "android",
     variants: variantsAndroid,
+  },
+  {
+    name: "Google Maps",
+    slug: "google-maps",
+    variants: variantsGoogleMaps,
+  },
+  {
+    name: "Google Calendar",
+    slug: "google-calendar",
+    variants: variantsGoogleCalendar,
   },
   {
     name: "grammerly",
