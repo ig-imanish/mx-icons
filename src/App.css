@@ -40,7 +40,7 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.3) rgba(255, 255, 255, 0.1);
-  
+
 }
 
 .app {
@@ -356,8 +356,8 @@
   pointer-events: none;
 }
 
-.search-label{
-  display:block;
+.search-label {
+  display: block;
   margin-bottom: 0.625rem;
   font-size: 1rem;
   font-weight: 600;
@@ -365,8 +365,8 @@
   letter-spacing: 0.3px;
 }
 
-@media (max-width: 640px){
-  .search-label{
+@media (max-width: 640px) {
+  .search-label {
     font-size: 0.95rem;
   }
 }
@@ -390,7 +390,7 @@
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
 
-.search-input:hover{
+.search-input:hover {
   border-color: var(--text-secondary);
 }
 
@@ -398,9 +398,9 @@
   color: #9ca3af;
 }
 
-.search-input:disabled{
+.search-input:disabled {
   opacity: 0.6;
-  cursor:not-allowed;
+  cursor: not-allowed;
 }
 
 .variant-tabs {
@@ -503,6 +503,7 @@
     opacity: 0;
     transform: translateY(-4px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -538,12 +539,15 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   animation: modalEnter 0.18s ease-out;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
 }
 
 .modal-card::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none;
+  /* Chrome, Safari, Opera */
 }
 
 @keyframes slideUp {
@@ -551,6 +555,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -736,9 +741,9 @@
 /* Copied state keeps black */
 .code-copy-btn.copied {
   color: #000000 !important;
-} */
+}
 
-.modal-code h3 {
+*/ .modal-code h3 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-color);
@@ -761,23 +766,41 @@
 
 /* Light mode specific */
 :root:not(.dark) .modal-code pre {
-  background: #f8fafc;                 
+  background: #f8fafc;
   border: 1px solid #e5e7eb;
-  box-shadow: inset 0 1px 0 rgba(0,0,0,0.03);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.03);
 }
 
 :root:not(.dark) .modal-code code {
-  color: #0f172a; /* dark slate */
+  color: #0f172a;
+  /* dark slate */
 }
-:root:not(.dark) .modal-code .keyword { color: #0369a1; font-weight: 500; }
-:root:not(.dark) .modal-code .component-name { color: #3730a3; font-weight: 600; }
-:root:not(.dark) .modal-code .prop-name { color: #b45309; }
-:root:not(.dark) .modal-code .prop-value { color: #065f46; }
-:root:not(.dark) .modal-code .punctuation { color: #475569; }
+
+:root:not(.dark) .modal-code .keyword {
+  color: #0369a1;
+  font-weight: 500;
+}
+
+:root:not(.dark) .modal-code .component-name {
+  color: #3730a3;
+  font-weight: 600;
+}
+
+:root:not(.dark) .modal-code .prop-name {
+  color: #b45309;
+}
+
+:root:not(.dark) .modal-code .prop-value {
+  color: #065f46;
+}
+
+:root:not(.dark) .modal-code .punctuation {
+  color: #475569;
+}
 
 /* code copy button in light mode */
 :root:not(.dark) .code-copy-btn {
-  background: rgba(0,0,0,0.04);
+  background: rgba(0, 0, 0, 0.04);
   border: 1px solid #e5e7eb;
   color: #6b7280;
 }
@@ -827,12 +850,12 @@
 
 /* Syntax Highlighting for Code Block */
 .keyword {
-color: #7dd3fc;
+  color: #7dd3fc;
   font-weight: 500;
 }
 
 .component-name {
-color: #a5b4fc;
+  color: #a5b4fc;
   font-weight: 600;
 }
 
@@ -875,27 +898,33 @@ color: #a5b4fc;
 
 :root.dark .copy-button {
   background: #1C2636;
-  border-color: rgba(255,255,255,0.06);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  border-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 :root.dark .copy-button span {
   color: #ffffff !important;
   text-shadow: none;
 }
+
 :root.dark .copy-button svg {
   color: #ffffff !important;
   filter: none;
 }
+
 :root.dark .code-copy-btn {
   background: #1C2636;
-  border-color: rgba(255,255,255,0.06);
+  border-color: rgba(255, 255, 255, 0.06);
 }
+
 :root:not(.dark) .code-copy-btn.copied {
   color: #000000 !important;
 }
+
 :root.dark .code-copy-btn.copied {
   color: #ffffff !important;
 }
+
 :root.dark .copy-button.copied {
   background: #1C2636;
 }
@@ -932,12 +961,14 @@ color: #a5b4fc;
   height: 24px;
   margin-bottom: 1rem;
 }
+
 .footer-logo img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius: 8px;
 }
+
 .footer-logo svg {
   width: 24px;
   height: 24px;
@@ -1018,6 +1049,61 @@ color: #a5b4fc;
 
 .footer-social a:hover {
   color: var(--text-color);
+}
+
+a.github-link:hover .github-card {
+  background: var(--card-hover, rgba(0, 0, 0, 0.05));
+  border-color: var(--text-secondary, #8b949e);
+}
+
+.github-card {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  width: fit-content;
+  border: 1px solid transparent;
+}
+
+.github-card:hover {
+  background: var(--card-hover, rgba(0, 0, 0, 0.05));
+  border-color: var(--text-secondary, #8b949e);
+}
+
+.github-card.light {
+  color: #24292f;
+  border-color: #d0d7de;
+  background-color: #ffffff;
+}
+
+.github-card.dark {
+  color: #c9d1d9;
+  border-color: #30363d;
+  background-color: transparent;
+}
+
+.github-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.repo-name {
+  font-size: 0.65rem;
+  font-weight: 500;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.6rem;
 }
 
 /* Responsive Design */
@@ -1218,27 +1304,28 @@ color: #a5b4fc;
   text-align: center;
 }
 
-  @keyframes modalEnter {
-    from {
-      opacity: 0;
-      transform: translateY(10px) scale(0.98);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-    }
+@keyframes modalEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
-  .modal-code pre::before {
-    content: "";
-    position: absolute;
-    top: 12px;
-    left: 14px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #ff5f56;
-    box-shadow:
-      14px 0 #ffbd2e,
-      28px 0 #27c93f;
+.modal-code pre::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff5f56;
+  box-shadow:
+    14px 0 #ffbd2e,
+    28px 0 #27c93f;
 }

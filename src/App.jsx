@@ -14,11 +14,13 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const [version, setVersion] = useState("");
-   const { pathname } = useLocation();
+  const [gitStars, setgitStars] = useState("");
+  const [gitForks, setgitForks] = useState("");
+  const { pathname } = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
@@ -50,6 +52,31 @@ function App() {
   }, []);
 
   useEffect(() => {
+    fetch("https://api.github.com/repos/ig-imanish/mx-icons")
+      .then((response) => response.json())
+      .then((data) => {
+        let currentGitStars = data?.stargazers_count;
+        let currentGitForks = data?.forks_count;
+
+        const kformatter = (val) => {
+          return Math.floor(val / 1000) + "k";
+        }
+
+        if (currentGitStars >= 1000) {
+          currentGitStars = kformatter(currentGitStars);
+        }
+        if (currentGitForks >= 1000) {
+          currentGitForks = kformatter(currentGitForks);
+        }
+
+        setgitStars(currentGitStars);
+        console.log("[DEBUG] Github Stars : ", currentGitStars);
+        setgitForks(currentGitForks)
+        console.log("[DEBUG] Github Forks : ", currentGitForks);
+      })
+  })
+
+  useEffect(() => {
     localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
@@ -63,10 +90,10 @@ function App() {
     if (!window.matchMedia) return;
 
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    
+
     const handleSystemThemeChange = (e) => {
       const isManual = localStorage.getItem("darkModeManual") === "true";
-      
+
       // Only update if user hasn't manually set a preference
       if (!isManual) {
         setIsDarkMode(e.matches);
@@ -79,7 +106,7 @@ function App() {
       return () => {
         mediaQuery.removeEventListener("change", handleSystemThemeChange);
       };
-    } 
+    }
     // Fallback for older browsers
     else if (mediaQuery.addListener) {
       mediaQuery.addListener(handleSystemThemeChange);
@@ -259,6 +286,54 @@ function App() {
                 </svg>
                 Share on Twitter
               </a>
+
+              <a
+                className="github-link"
+                href="https://github.com/ig-imanish/mx-icons"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <div className={`github-card ${isDarkMode ? "dark" : "light"}`}>
+                  <div className="github-left">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                      <path d="M10 22V18.7579C10 18.1596 10.1839 17.6396 10.4804 17.1699C10.6838 16.8476 10.5445 16.3904 10.1771 16.2894C7.13394 15.4528 5 14.1077 5 9.64606C5 8.48611 5.38005 7.39556 6.04811 6.4464C6.21437 6.21018 6.29749 6.09208 6.31748 5.9851C6.33746 5.87813 6.30272 5.73852 6.23322 5.45932C5.95038 4.32292 5.96871 3.11619 6.39322 2.02823C6.39322 2.02823 7.27042 1.74242 9.26698 2.98969C9.72282 3.27447 9.95075 3.41686 10.1515 3.44871C10.3522 3.48056 10.6206 3.41384 11.1573 3.28041C11.8913 3.09795 12.6476 3 13.5 3C14.3524 3 15.1087 3.09795 15.8427 3.28041C16.3794 3.41384 16.6478 3.48056 16.8485 3.44871C17.0493 3.41686 17.2772 3.27447 17.733 2.98969C19.7296 1.74242 20.6068 2.02823 20.6068 2.02823C21.0313 3.11619 21.0496 4.32292 20.7668 5.45932C20.6973 5.73852 20.6625 5.87813 20.6825 5.9851C20.7025 6.09207 20.7856 6.21019 20.9519 6.4464C21.6199 7.39556 22 8.48611 22 9.64606C22 14.1077 19.8661 15.4528 16.8229 16.2894C16.4555 16.3904 16.3162 16.8476 16.5196 17.1699C16.8161 17.6396 17 18.1596 17 18.7579V22" />
+                    </svg>
+                  </div>
+
+                  <div className="github-right">
+                    <div className="repo-name">ig-imanish/mx-icons</div>
+
+                    <div className="repo-stats">
+                      <div className="stat">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                          <path d="M12 2l3 6 6 1-4.5 4.5 1 6L12 17l-5.5 3 1-6L3 9l6-1z" />
+                        </svg>
+                        <span>{gitStars}</span>
+                      </div>
+
+                      <div className="stat">
+                        <svg
+                          viewBox="0 0 24 24"
+                          width="16"
+                          height="16"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <circle cx="12" cy="18" r="2" />
+                          <circle cx="7" cy="6" r="2" />
+                          <circle cx="17" cy="6" r="2" />
+                          <path d="M7 8v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-2" />
+                          <line x1="12" y1="12" x2="12" y2="16" />
+                        </svg>
+                        <span>{gitForks}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div></a>
             </div>
           </div>
 
@@ -321,7 +396,7 @@ function App() {
             </button> */}
           </div>
         </div>
-      </header>
+      </header >
 
       <div className="container">
         <div className="search-wrapper">
@@ -660,12 +735,12 @@ function App() {
                   <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                 </svg>
               </a>
-              <a 
-                href="https://x.com/mx_icons" 
+              <a
+                href="https://x.com/mx_icons"
                 aria-label="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
-                >
+              >
                 <svg
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -679,7 +754,7 @@ function App() {
           </div>
         </div>
       </footer>
-    </div>
+    </div >
   );
 }
 

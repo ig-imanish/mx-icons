@@ -2739,7 +2739,7 @@ import { GmailBold } from "./components/gmail";
 import { GmailLinear } from "./components/gmail";
 import { GmailBulk } from "./components/gmail";
 import { GmailBroken } from "./components/gmail";
-import {GmailOutline} from "./components/gmail"
+import { GmailOutline } from "./components/gmail"
 
 import { variants as variantsGooglePay } from "./components/google-pay";
 import { GooglePayBold } from "./components/google-pay";
@@ -6449,6 +6449,10 @@ import { variants as variantsWhatsapp } from "./components/whatsapp";
 import TelegramBold from "./components/telegram/TelegramBold";
 import TelegramLinear from "./components/telegram/TelegramLinear";
 import { variants as variantsTelegram } from "./components/telegram";
+
+import GitForkLinear from "./components/git-fork/GitForkLinear"
+import GitForkBold from "./components/git-fork/GitForkBold"
+import { variants as variantsGitFork } from "./components/git-fork"
 
 export { Icon };
 
@@ -11918,6 +11922,8 @@ export {
   WhatsappBold,
   TelegramLinear,
   TelegramBold,
+  GitForkLinear,
+  GitForkBold
 };
 
 export const icons = [
@@ -16760,6 +16766,11 @@ export const icons = [
     name: "planet",
     slug: "planet",
     variants: variantsPlanet,
+  },
+  {
+    name: "git-fork",
+    slug: "git-fork",
+    variants: variantsGitFork,
   },
 ];
 export { RocketLinear, RocketBold, RocketMini } from "./components/rocket";
