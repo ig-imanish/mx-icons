@@ -1,7 +1,7 @@
 ﻿import { useMemo, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./App.css";
-import { icons as ICONS, CopyLinear, TickCircleLinear, GithubLinear, GitForkLinear, StarOutline } from "./icons";
+import { icons as ICONS, CopyLinear, TickCircleLinear, GithubLinear, GitForkLinear, StarOutline, NewTwitterLinear } from "./icons";
 import { matchesAlias } from "./icons/aliases";
 
 function App() {
@@ -285,14 +285,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  width="18"
-                  height="18"
-                >
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
+                <NewTwitterLinear color="" height={16} width={16}/>
                 Share on Twitter
               </a>
 
@@ -305,7 +298,7 @@ function App() {
               >
                 <div className={`github-card ${isDarkMode ? "dark" : "light"}`}>
                   <div className="github-left">
-                    <GithubLinear color={isDarkMode ? "white" : "black"} height={20} width={20} />
+                    <GithubLinear color={isDarkMode ? "white" : "black"} height={16} width={16} />
                   </div>
 
                   <div className="github-right">
