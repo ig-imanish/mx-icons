@@ -2334,6 +2334,7 @@ export const GmailBold: IconComponent;
 export const GmailBroken: IconComponent;
 export const GmailBulk: IconComponent;
 export const GmailLinear: IconComponent;
+export const GmailOutline: IconComponent;
 export const GoogleAnalyticsBold: IconComponent;
 export const GoogleAnalyticsBulk: IconComponent;
 export const GoogleAnalyticsLinear: IconComponent;
