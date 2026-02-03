@@ -1492,9 +1492,6 @@ a.github-link:hover .github-card:hover {
 
 @media (max-width: 366px) {
   .pagination-info {
-    font-size: 0.9375rem;
-    color: var(--text-secondary);
-    font-weight: 500;
     min-width: 70px;
     text-align: center;
   }
