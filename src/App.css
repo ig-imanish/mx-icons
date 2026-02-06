@@ -1490,6 +1490,13 @@ a.github-link:hover .github-card:hover {
   text-align: center;
 }
 
+@media (max-width: 366px) {
+  .pagination-info {
+    min-width: 70px;
+    text-align: center;
+  }
+}
+
 @keyframes modalEnter {
   from {
     opacity: 0;
