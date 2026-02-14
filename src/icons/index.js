@@ -5442,6 +5442,11 @@ import { SoundBulk } from "./components/sound";
 import { SoundLinear } from "./components/sound";
 import { SoundOutline } from "./components/sound";
 import { SoundTwotone } from "./components/sound";
+import { variants as variantsSparkle } from "./components/sparkle";
+import { SparkleBold } from "./components/sparkle";
+import { SparkleBroken } from "./components/sparkle";
+import { SparkleMini } from "./components/sparkle";
+import { SparkleLinear } from "./components/sparkle";
 import { variants as variantsSpeaker } from "./components/speaker";
 import { SpeakerBold } from "./components/speaker";
 import { SpeakerBroken } from "./components/speaker";
@@ -16761,6 +16766,13 @@ export const icons = [
     slug: "planet",
     variants: variantsPlanet,
   },
+  {
+  name: "sparkle",
+  slug: "sparkle",
+  variants: variantsSparkle,
+},
+
 ];
 export { RocketLinear, RocketBold, RocketMini } from "./components/rocket";
 export { PlanetLinear, PlanetBold, PlanetMini } from "./components/planet";
+export { SparkleLinear, SparkleBold, SparkleBroken, SparkleMini } from "./components/sparkle";
