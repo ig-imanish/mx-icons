@@ -162,6 +162,10 @@ export const iconAliases = {
   linkedin: ["linkedin"],
   discord: ["discord"],
   twitch: ["twitch"],
+
+  // Sparkle , Ai
+  sparkle: ["sparkle", "magic", "ai", "star"],
+
 };
 
 // Helper function to get all related icon names for a search term
