@@ -43,7 +43,5 @@ export const variants = [
     slug: "trade-twotone",
     Component: TradeTwotone,
     componentName: "TradeTwotone",
-  }
+  },
 ];
-
-export default { TradeBold, TradeBroken, TradeBulk, TradeLinear, TradeOutline, TradeTwotone };

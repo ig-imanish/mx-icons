@@ -43,7 +43,5 @@ export const variants = [
     slug: "size-twotone",
     Component: SizeTwotone,
     componentName: "SizeTwotone",
-  }
+  },
 ];
-
-export default { SizeBold, SizeBroken, SizeBulk, SizeLinear, SizeOutline, SizeTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "global-twotone",
     Component: GlobalTwotone,
     componentName: "GlobalTwotone",
-  }
+  },
 ];
-
-export default { GlobalBold, GlobalBroken, GlobalBulk, GlobalLinear, GlobalOutline, GlobalTwotone };

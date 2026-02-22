@@ -36,7 +36,5 @@ export const variants = [
     slug: "drop-twotone",
     Component: DropTwotone,
     componentName: "DropTwotone",
-  }
+  },
 ];
-
-export default { DropBold, DropBroken, DropBulk, DropLinear, DropTwotone };

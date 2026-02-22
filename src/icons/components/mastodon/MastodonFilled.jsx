@@ -1,0 +1,33 @@
+import Icon from "../../Icon";
+
+export default function MastodonFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGUycIHblq">
+			<g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="M15.5 21.5c-10.5 2.5 -12.5 -2.5 -12.5 -8.5v-3c0 -6 2.5 -7 7 -7h4c4.5 0 7 1.5 7 5.5v4c0 6.5 -10 4 -13.5 4c-1 0 -1.5 7 8 5Z" stroke="currentColor" fill="currentColor" stroke-dasharray="82" fill-opacity="0">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="82;0" />
+					<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+				</path>
+				<path d="M7 13.5l0 -5.5c0 0 0.5 -2 2.5 -2c2 0 2.5 2 2.5 2l0 2.5l0 -2.5c0 0 0.5 -2 2.5 -2c2 0 2.5 2 2.5 2l0 5.5" stroke="currentColor" fill="none" stroke-dasharray="32" stroke-dashoffset="32">
+					<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.6s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGUycIHblq)" />
+    </Icon>
+  );
+}

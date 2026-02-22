@@ -1,0 +1,31 @@
+import Icon from "../../Icon";
+
+export default function TabletScreenshotTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="currentColor">
+		<path d="M12 5h9c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-18c-0.55 0 -1 -0.45 -1 -1v-12c0 -0.55 0.45 -1 1 -1Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="70">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="70;0" />
+			<animate attributeName="fill-opacity" begin="0.9s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<path d="M2 5h0v14h0ZM22 5h0v14h0Z">
+			<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" to="M2 5h3v14h-3ZM22 5h-3v14h3Z" />
+		</path>
+	</g>
+	<path d="M8 9h2M8 9v2M16 15h-2M16 15v-2" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4" stroke-dashoffset="4">
+		<animate attributeName="stroke-dashoffset" begin="1.15s" dur="0.2s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

@@ -1,11 +1,17 @@
 import MinusBold from "./MinusBold";
 import MinusBroken from "./MinusBroken";
 import MinusBulk from "./MinusBulk";
+import MinusCircle from "./MinusCircle";
+import MinusCircleFilled from "./MinusCircleFilled";
+import MinusCircleTwotone from "./MinusCircleTwotone";
 import MinusLinear from "./MinusLinear";
 import MinusOutline from "./MinusOutline";
+import MinusSquare from "./MinusSquare";
+import MinusSquareFilled from "./MinusSquareFilled";
+import MinusSquareTwotone from "./MinusSquareTwotone";
 import MinusTwotone from "./MinusTwotone";
 
-export { MinusBold, MinusBroken, MinusBulk, MinusLinear, MinusOutline, MinusTwotone };
+export { MinusBold, MinusBroken, MinusBulk, MinusCircle, MinusCircleFilled, MinusCircleTwotone, MinusLinear, MinusOutline, MinusSquare, MinusSquareFilled, MinusSquareTwotone, MinusTwotone };
 
 export const variants = [
   {
@@ -28,6 +34,24 @@ export const variants = [
   },
   {
     variant: "linear",
+    slug: "minus-circle",
+    Component: MinusCircle,
+    componentName: "MinusCircle",
+  },
+  {
+    variant: "filled",
+    slug: "minus-circle-filled",
+    Component: MinusCircleFilled,
+    componentName: "MinusCircleFilled",
+  },
+  {
+    variant: "twotone",
+    slug: "minus-circle-twotone",
+    Component: MinusCircleTwotone,
+    componentName: "MinusCircleTwotone",
+  },
+  {
+    variant: "linear",
     slug: "minus-linear",
     Component: MinusLinear,
     componentName: "MinusLinear",
@@ -39,11 +63,27 @@ export const variants = [
     componentName: "MinusOutline",
   },
   {
+    variant: "linear",
+    slug: "minus-square",
+    Component: MinusSquare,
+    componentName: "MinusSquare",
+  },
+  {
+    variant: "filled",
+    slug: "minus-square-filled",
+    Component: MinusSquareFilled,
+    componentName: "MinusSquareFilled",
+  },
+  {
+    variant: "twotone",
+    slug: "minus-square-twotone",
+    Component: MinusSquareTwotone,
+    componentName: "MinusSquareTwotone",
+  },
+  {
     variant: "twotone",
     slug: "minus-twotone",
     Component: MinusTwotone,
     componentName: "MinusTwotone",
-  }
+  },
 ];
-
-export default { MinusBold, MinusBroken, MinusBulk, MinusLinear, MinusOutline, MinusTwotone };

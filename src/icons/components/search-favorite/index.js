@@ -43,7 +43,5 @@ export const variants = [
     slug: "search-favorite-twotone",
     Component: SearchFavoriteTwotone,
     componentName: "SearchFavoriteTwotone",
-  }
+  },
 ];
-
-export default { SearchFavoriteBold, SearchFavoriteBroken, SearchFavoriteBulk, SearchFavoriteLinear, SearchFavoriteOutline, SearchFavoriteTwotone };

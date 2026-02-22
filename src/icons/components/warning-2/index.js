@@ -10,40 +10,38 @@ export { Warning2Bold, Warning2Broken, Warning2Bulk, Warning2Linear, Warning2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "warning-2-bold",
+    slug: "warning2-bold",
     Component: Warning2Bold,
     componentName: "Warning2Bold",
   },
   {
     variant: "broken",
-    slug: "warning-2-broken",
+    slug: "warning2-broken",
     Component: Warning2Broken,
     componentName: "Warning2Broken",
   },
   {
     variant: "bulk",
-    slug: "warning-2-bulk",
+    slug: "warning2-bulk",
     Component: Warning2Bulk,
     componentName: "Warning2Bulk",
   },
   {
     variant: "linear",
-    slug: "warning-2-linear",
+    slug: "warning2-linear",
     Component: Warning2Linear,
     componentName: "Warning2Linear",
   },
   {
     variant: "outline",
-    slug: "warning-2-outline",
+    slug: "warning2-outline",
     Component: Warning2Outline,
     componentName: "Warning2Outline",
   },
   {
     variant: "twotone",
-    slug: "warning-2-twotone",
+    slug: "warning2-twotone",
     Component: Warning2Twotone,
     componentName: "Warning2Twotone",
-  }
+  },
 ];
-
-export default { Warning2Bold, Warning2Broken, Warning2Bulk, Warning2Linear, Warning2Outline, Warning2Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "aquarius-twotone",
     Component: AquariusTwotone,
     componentName: "AquariusTwotone",
-  }
+  },
 ];
-
-export default { AquariusBold, AquariusBroken, AquariusBulk, AquariusLinear, AquariusOutline, AquariusTwotone };

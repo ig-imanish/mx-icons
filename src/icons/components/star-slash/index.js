@@ -43,7 +43,5 @@ export const variants = [
     slug: "star-slash-twotone",
     Component: StarSlashTwotone,
     componentName: "StarSlashTwotone",
-  }
+  },
 ];
-
-export default { StarSlashBold, StarSlashBroken, StarSlashBulk, StarSlashLinear, StarSlashOutline, StarSlashTwotone };

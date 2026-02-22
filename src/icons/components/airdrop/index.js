@@ -43,7 +43,5 @@ export const variants = [
     slug: "airdrop-twotone",
     Component: AirdropTwotone,
     componentName: "AirdropTwotone",
-  }
+  },
 ];
-
-export default { AirdropBold, AirdropBroken, AirdropBulk, AirdropLinear, AirdropOutline, AirdropTwotone };

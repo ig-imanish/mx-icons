@@ -1,0 +1,32 @@
+import Icon from "../../Icon";
+
+export default function FolderMultiple({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M14 5h8c0.55 0 1 0.45 1 1v10c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-11Z" stroke-dasharray="62">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="62;0" />
+		</path>
+		<path d="M14 5h-9v-1c0 -0.55 0.45 -1 1 -1h6Z" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.6s" fill="freeze" />
+			<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" values="M14 5h-9v0c0 0 0.45 0 1 0h6Z;M14 5h-9v-1c0 -0.55 0.45 -1 1 -1h6Z" />
+		</path>
+		<path d="M19 21h-17c-0.55 0 -1 -0.45 -1 -1v-13" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.8s" fill="freeze" />
+			<animate attributeName="d" begin="0.8s" dur="0.2s" fill="freeze" values="M22 17h-16c-0.55 0 -1 -0.45 -1 -1v-12;M19 21h-17c-0.55 0 -1 -0.45 -1 -1v-13" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

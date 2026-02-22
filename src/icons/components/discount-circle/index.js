@@ -43,7 +43,5 @@ export const variants = [
     slug: "discount-circle-twotone",
     Component: DiscountCircleTwotone,
     componentName: "DiscountCircleTwotone",
-  }
+  },
 ];
-
-export default { DiscountCircleBold, DiscountCircleBroken, DiscountCircleBulk, DiscountCircleLinear, DiscountCircleOutline, DiscountCircleTwotone };

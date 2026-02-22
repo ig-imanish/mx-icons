@@ -1,0 +1,35 @@
+import Icon from "../../Icon";
+
+export default function Linkedin({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <circle cx="4" cy="4" r="2" fill="currentColor" opacity="0">
+		<animate attributeName="opacity" dur="0.2s" fill="freeze" to="1" />
+	</circle>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+		<g stroke-dasharray="12">
+			<path d="M4 10v10" stroke-dashoffset="12">
+				<animate attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M10 10v10" stroke-dashoffset="12">
+				<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+		<path d="M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5" stroke-dasharray="24" stroke-dashoffset="24">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

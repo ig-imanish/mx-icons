@@ -4,18 +4,16 @@ import FacebookLinear from "./FacebookLinear";
 export { FacebookBold, FacebookLinear };
 
 export const variants = [
-    {
-        variant: "bold",
-        slug: "bold",
-        Component: FacebookBold,
-        componentName: "FacebookBold",
-    },
-    {
-        variant: "linear",
-        slug: "linear",
-        Component: FacebookLinear,
-        componentName: "FacebookLinear",
-    },
+  {
+    variant: "bold",
+    slug: "facebook-bold",
+    Component: FacebookBold,
+    componentName: "FacebookBold",
+  },
+  {
+    variant: "linear",
+    slug: "facebook-linear",
+    Component: FacebookLinear,
+    componentName: "FacebookLinear",
+  },
 ];
-
-export default { FacebookBold, FacebookLinear };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "chart-success-twotone",
     Component: ChartSuccessTwotone,
     componentName: "ChartSuccessTwotone",
-  }
+  },
 ];
-
-export default { ChartSuccessBold, ChartSuccessBroken, ChartSuccessBulk, ChartSuccessLinear, ChartSuccessOutline, ChartSuccessTwotone };

@@ -1,0 +1,27 @@
+import Icon from "../../Icon";
+
+export default function RoundaboutRight({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M8 20v-5c0 -0.55 -0.45 -0.99 -0.99 -1.1c-2.29 -0.46 -4.01 -2.48 -4.01 -4.9c0 -2.76 2.24 -5 5 -5c2.42 0 4.44 1.72 4.9 4.01c0.11 0.54 0.55 0.99 1.1 0.99h7" stroke-dasharray="40">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="40;0" />
+		</path>
+		<path d="M21 9l-3 -3M21 9l-3 3" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

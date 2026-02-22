@@ -43,7 +43,5 @@ export const variants = [
     slug: "airpods-twotone",
     Component: AirpodsTwotone,
     componentName: "AirpodsTwotone",
-  }
+  },
 ];
-
-export default { AirpodsBold, AirpodsBroken, AirpodsBulk, AirpodsLinear, AirpodsOutline, AirpodsTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "grid-lock-twotone",
     Component: GridLockTwotone,
     componentName: "GridLockTwotone",
-  }
+  },
 ];
-
-export default { GridLockBold, GridLockBroken, GridLockBulk, GridLockLinear, GridLockOutline, GridLockTwotone };

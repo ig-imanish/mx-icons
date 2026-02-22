@@ -43,7 +43,5 @@ export const variants = [
     slug: "crown-twotone",
     Component: CrownTwotone,
     componentName: "CrownTwotone",
-  }
+  },
 ];
-
-export default { CrownBold, CrownBroken, CrownBulk, CrownLinear, CrownOutline, CrownTwotone };

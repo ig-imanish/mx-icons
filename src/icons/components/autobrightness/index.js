@@ -43,7 +43,5 @@ export const variants = [
     slug: "autobrightness-twotone",
     Component: AutobrightnessTwotone,
     componentName: "AutobrightnessTwotone",
-  }
+  },
 ];
-
-export default { AutobrightnessBold, AutobrightnessBroken, AutobrightnessBulk, AutobrightnessLinear, AutobrightnessOutline, AutobrightnessTwotone };

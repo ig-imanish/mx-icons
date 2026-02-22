@@ -43,7 +43,5 @@ export const variants = [
     slug: "key-twotone",
     Component: KeyTwotone,
     componentName: "KeyTwotone",
-  }
+  },
 ];
-
-export default { KeyBold, KeyBroken, KeyBulk, KeyLinear, KeyOutline, KeyTwotone };

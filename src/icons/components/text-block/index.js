@@ -43,7 +43,5 @@ export const variants = [
     slug: "text-block-twotone",
     Component: TextBlockTwotone,
     componentName: "TextBlockTwotone",
-  }
+  },
 ];
-
-export default { TextBlockBold, TextBlockBroken, TextBlockBulk, TextBlockLinear, TextBlockOutline, TextBlockTwotone };

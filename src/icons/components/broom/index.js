@@ -43,7 +43,5 @@ export const variants = [
     slug: "broom-twotone",
     Component: BroomTwotone,
     componentName: "BroomTwotone",
-  }
+  },
 ];
-
-export default { BroomBold, BroomBroken, BroomBulk, BroomLinear, BroomOutline, BroomTwotone };

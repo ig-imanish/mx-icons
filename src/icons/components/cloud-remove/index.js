@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-remove-twotone",
     Component: CloudRemoveTwotone,
     componentName: "CloudRemoveTwotone",
-  }
+  },
 ];
-
-export default { CloudRemoveBold, CloudRemoveBroken, CloudRemoveBulk, CloudRemoveLinear, CloudRemoveOutline, CloudRemoveTwotone };

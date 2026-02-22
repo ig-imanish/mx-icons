@@ -43,7 +43,5 @@ export const variants = [
     slug: "shop-remove-twotone",
     Component: ShopRemoveTwotone,
     componentName: "ShopRemoveTwotone",
-  }
+  },
 ];
-
-export default { ShopRemoveBold, ShopRemoveBroken, ShopRemoveBulk, ShopRemoveLinear, ShopRemoveOutline, ShopRemoveTwotone };

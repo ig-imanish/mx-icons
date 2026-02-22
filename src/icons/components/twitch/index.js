@@ -1,21 +1,19 @@
-import TwitchLinear from "./TwitchLinear";
 import TwitchBold from "./TwitchBold";
+import TwitchLinear from "./TwitchLinear";
 
-export { TwitchLinear, TwitchBold };
+export { TwitchBold, TwitchLinear };
 
 export const variants = [
-  {
-    variant: "linear",
-    slug: "twitch-linear",
-    Component: TwitchLinear,
-    componentName: "TwitchLinear",
-  },
   {
     variant: "bold",
     slug: "twitch-bold",
     Component: TwitchBold,
     componentName: "TwitchBold",
   },
+  {
+    variant: "linear",
+    slug: "twitch-linear",
+    Component: TwitchLinear,
+    componentName: "TwitchLinear",
+  },
 ];
-
-export default { TwitchLinear, TwitchBold };

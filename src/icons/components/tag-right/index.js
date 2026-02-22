@@ -43,7 +43,5 @@ export const variants = [
     slug: "tag-right-twotone",
     Component: TagRightTwotone,
     componentName: "TagRightTwotone",
-  }
+  },
 ];
-
-export default { TagRightBold, TagRightBroken, TagRightBulk, TagRightLinear, TagRightOutline, TagRightTwotone };

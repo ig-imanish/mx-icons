@@ -43,7 +43,5 @@ export const variants = [
     slug: "filter-search-twotone",
     Component: FilterSearchTwotone,
     componentName: "FilterSearchTwotone",
-  }
+  },
 ];
-
-export default { FilterSearchBold, FilterSearchBroken, FilterSearchBulk, FilterSearchLinear, FilterSearchOutline, FilterSearchTwotone };

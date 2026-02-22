@@ -10,40 +10,38 @@ export { Code1Bold, Code1Broken, Code1Bulk, Code1Linear, Code1Outline, Code1Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "code-1-bold",
+    slug: "code1-bold",
     Component: Code1Bold,
     componentName: "Code1Bold",
   },
   {
     variant: "broken",
-    slug: "code-1-broken",
+    slug: "code1-broken",
     Component: Code1Broken,
     componentName: "Code1Broken",
   },
   {
     variant: "bulk",
-    slug: "code-1-bulk",
+    slug: "code1-bulk",
     Component: Code1Bulk,
     componentName: "Code1Bulk",
   },
   {
     variant: "linear",
-    slug: "code-1-linear",
+    slug: "code1-linear",
     Component: Code1Linear,
     componentName: "Code1Linear",
   },
   {
     variant: "outline",
-    slug: "code-1-outline",
+    slug: "code1-outline",
     Component: Code1Outline,
     componentName: "Code1Outline",
   },
   {
     variant: "twotone",
-    slug: "code-1-twotone",
+    slug: "code1-twotone",
     Component: Code1Twotone,
     componentName: "Code1Twotone",
-  }
+  },
 ];
-
-export default { Code1Bold, Code1Broken, Code1Bulk, Code1Linear, Code1Outline, Code1Twotone };

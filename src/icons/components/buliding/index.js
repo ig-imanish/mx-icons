@@ -43,7 +43,5 @@ export const variants = [
     slug: "buliding-twotone",
     Component: BulidingTwotone,
     componentName: "BulidingTwotone",
-  }
+  },
 ];
-
-export default { BulidingBold, BulidingBroken, BulidingBulk, BulidingLinear, BulidingOutline, BulidingTwotone };

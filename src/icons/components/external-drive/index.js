@@ -43,7 +43,5 @@ export const variants = [
     slug: "external-drive-twotone",
     Component: ExternalDriveTwotone,
     componentName: "ExternalDriveTwotone",
-  }
+  },
 ];
-
-export default { ExternalDriveBold, ExternalDriveBroken, ExternalDriveBulk, ExternalDriveLinear, ExternalDriveOutline, ExternalDriveTwotone };

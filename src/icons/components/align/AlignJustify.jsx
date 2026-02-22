@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function AlignJustify({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="8">
+		<path d="M12 5h6M12 5h-6">
+			<animate attributeName="stroke-dashoffset" dur="0.2s" fill="freeze" values="8;0" />
+		</path>
+		<path d="M12 10h6M12 10h-6" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M12 15h6M12 15h-6M12 20h6M12 20h-6" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.4s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

@@ -43,7 +43,5 @@ export const variants = [
     slug: "people-twotone",
     Component: PeopleTwotone,
     componentName: "PeopleTwotone",
-  }
+  },
 ];
-
-export default { PeopleBold, PeopleBroken, PeopleBulk, PeopleLinear, PeopleOutline, PeopleTwotone };

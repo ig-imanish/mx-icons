@@ -43,7 +43,5 @@ export const variants = [
     slug: "archive-tick-twotone",
     Component: ArchiveTickTwotone,
     componentName: "ArchiveTickTwotone",
-  }
+  },
 ];
-
-export default { ArchiveTickBold, ArchiveTickBroken, ArchiveTickBulk, ArchiveTickLinear, ArchiveTickOutline, ArchiveTickTwotone };

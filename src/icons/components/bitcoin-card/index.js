@@ -43,7 +43,5 @@ export const variants = [
     slug: "bitcoin-card-twotone",
     Component: BitcoinCardTwotone,
     componentName: "BitcoinCardTwotone",
-  }
+  },
 ];
-
-export default { BitcoinCardBold, BitcoinCardBroken, BitcoinCardBulk, BitcoinCardLinear, BitcoinCardOutline, BitcoinCardTwotone };

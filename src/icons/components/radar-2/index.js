@@ -10,40 +10,38 @@ export { Radar2Bold, Radar2Broken, Radar2Bulk, Radar2Linear, Radar2Outline, Rada
 export const variants = [
   {
     variant: "bold",
-    slug: "radar-2-bold",
+    slug: "radar2-bold",
     Component: Radar2Bold,
     componentName: "Radar2Bold",
   },
   {
     variant: "broken",
-    slug: "radar-2-broken",
+    slug: "radar2-broken",
     Component: Radar2Broken,
     componentName: "Radar2Broken",
   },
   {
     variant: "bulk",
-    slug: "radar-2-bulk",
+    slug: "radar2-bulk",
     Component: Radar2Bulk,
     componentName: "Radar2Bulk",
   },
   {
     variant: "linear",
-    slug: "radar-2-linear",
+    slug: "radar2-linear",
     Component: Radar2Linear,
     componentName: "Radar2Linear",
   },
   {
     variant: "outline",
-    slug: "radar-2-outline",
+    slug: "radar2-outline",
     Component: Radar2Outline,
     componentName: "Radar2Outline",
   },
   {
     variant: "twotone",
-    slug: "radar-2-twotone",
+    slug: "radar2-twotone",
     Component: Radar2Twotone,
     componentName: "Radar2Twotone",
-  }
+  },
 ];
-
-export default { Radar2Bold, Radar2Broken, Radar2Bulk, Radar2Linear, Radar2Outline, Radar2Twotone };

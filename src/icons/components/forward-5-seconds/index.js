@@ -10,40 +10,38 @@ export { Forward5SSecondsBold, Forward5SSecondsBroken, Forward5SSecondsBulk, For
 export const variants = [
   {
     variant: "bold",
-    slug: "forward-5-seconds-bold",
+    slug: "forward5-s-seconds-bold",
     Component: Forward5SSecondsBold,
     componentName: "Forward5SSecondsBold",
   },
   {
     variant: "broken",
-    slug: "forward-5-seconds-broken",
+    slug: "forward5-s-seconds-broken",
     Component: Forward5SSecondsBroken,
     componentName: "Forward5SSecondsBroken",
   },
   {
     variant: "bulk",
-    slug: "forward-5-seconds-bulk",
+    slug: "forward5-s-seconds-bulk",
     Component: Forward5SSecondsBulk,
     componentName: "Forward5SSecondsBulk",
   },
   {
     variant: "linear",
-    slug: "forward-5-seconds-linear",
+    slug: "forward5-s-seconds-linear",
     Component: Forward5SSecondsLinear,
     componentName: "Forward5SSecondsLinear",
   },
   {
     variant: "outline",
-    slug: "forward-5-seconds-outline",
+    slug: "forward5-s-seconds-outline",
     Component: Forward5SSecondsOutline,
     componentName: "Forward5SSecondsOutline",
   },
   {
     variant: "twotone",
-    slug: "forward-5-seconds-twotone",
+    slug: "forward5-s-seconds-twotone",
     Component: Forward5SSecondsTwotone,
     componentName: "Forward5SSecondsTwotone",
-  }
+  },
 ];
-
-export default { Forward5SSecondsBold, Forward5SSecondsBroken, Forward5SSecondsBulk, Forward5SSecondsLinear, Forward5SSecondsOutline, Forward5SSecondsTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-down-twotone",
     Component: DirectDownTwotone,
     componentName: "DirectDownTwotone",
-  }
+  },
 ];
-
-export default { DirectDownBold, DirectDownBroken, DirectDownBulk, DirectDownLinear, DirectDownOutline, DirectDownTwotone };

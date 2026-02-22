@@ -43,7 +43,5 @@ export const variants = [
     slug: "hierarchy-square-twotone",
     Component: HierarchySquareTwotone,
     componentName: "HierarchySquareTwotone",
-  }
+  },
 ];
-
-export default { HierarchySquareBold, HierarchySquareBroken, HierarchySquareBulk, HierarchySquareLinear, HierarchySquareOutline, HierarchySquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "translate-twotone",
     Component: TranslateTwotone,
     componentName: "TranslateTwotone",
-  }
+  },
 ];
-
-export default { TranslateBold, TranslateBroken, TranslateBulk, TranslateLinear, TranslateOutline, TranslateTwotone };

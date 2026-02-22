@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-favorite-twotone",
     Component: DocumentFavoriteTwotone,
     componentName: "DocumentFavoriteTwotone",
-  }
+  },
 ];
-
-export default { DocumentFavoriteBold, DocumentFavoriteBroken, DocumentFavoriteBulk, DocumentFavoriteLinear, DocumentFavoriteOutline, DocumentFavoriteTwotone };

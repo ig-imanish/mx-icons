@@ -43,7 +43,5 @@ export const variants = [
     slug: "task-twotone",
     Component: TaskTwotone,
     componentName: "TaskTwotone",
-  }
+  },
 ];
-
-export default { TaskBold, TaskBroken, TaskBulk, TaskLinear, TaskOutline, TaskTwotone };

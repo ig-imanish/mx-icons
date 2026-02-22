@@ -43,7 +43,5 @@ export const variants = [
     slug: "watch-status-twotone",
     Component: WatchStatusTwotone,
     componentName: "WatchStatusTwotone",
-  }
+  },
 ];
-
-export default { WatchStatusBold, WatchStatusBroken, WatchStatusBulk, WatchStatusLinear, WatchStatusOutline, WatchStatusTwotone };

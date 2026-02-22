@@ -43,7 +43,5 @@ export const variants = [
     slug: "profile-circle-twotone",
     Component: ProfileCircleTwotone,
     componentName: "ProfileCircleTwotone",
-  }
+  },
 ];
-
-export default { ProfileCircleBold, ProfileCircleBroken, ProfileCircleBulk, ProfileCircleLinear, ProfileCircleOutline, ProfileCircleTwotone };

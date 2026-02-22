@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-horizontal-twotone",
     Component: VideoHorizontalTwotone,
     componentName: "VideoHorizontalTwotone",
-  }
+  },
 ];
-
-export default { VideoHorizontalBold, VideoHorizontalBroken, VideoHorizontalBulk, VideoHorizontalLinear, VideoHorizontalOutline, VideoHorizontalTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "sms-search-twotone",
     Component: SmsSearchTwotone,
     componentName: "SmsSearchTwotone",
-  }
+  },
 ];
-
-export default { SmsSearchBold, SmsSearchBroken, SmsSearchBulk, SmsSearchLinear, SmsSearchOutline, SmsSearchTwotone };

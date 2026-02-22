@@ -43,7 +43,5 @@ export const variants = [
     slug: "text-underline-twotone",
     Component: TextUnderlineTwotone,
     componentName: "TextUnderlineTwotone",
-  }
+  },
 ];
-
-export default { TextUnderlineBold, TextUnderlineBroken, TextUnderlineBulk, TextUnderlineLinear, TextUnderlineOutline, TextUnderlineTwotone };

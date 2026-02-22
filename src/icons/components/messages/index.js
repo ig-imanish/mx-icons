@@ -43,7 +43,5 @@ export const variants = [
     slug: "messages-twotone",
     Component: MessagesTwotone,
     componentName: "MessagesTwotone",
-  }
+  },
 ];
-
-export default { MessagesBold, MessagesBroken, MessagesBulk, MessagesLinear, MessagesOutline, MessagesTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "ticket-expired-twotone",
     Component: TicketExpiredTwotone,
     componentName: "TicketExpiredTwotone",
-  }
+  },
 ];
-
-export default { TicketExpiredBold, TicketExpiredBroken, TicketExpiredBulk, TicketExpiredLinear, TicketExpiredOutline, TicketExpiredTwotone };

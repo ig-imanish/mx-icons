@@ -10,40 +10,38 @@ export { Scissor1Bold, Scissor1Broken, Scissor1Bulk, Scissor1Linear, Scissor1Out
 export const variants = [
   {
     variant: "bold",
-    slug: "scissor-1-bold",
+    slug: "scissor1-bold",
     Component: Scissor1Bold,
     componentName: "Scissor1Bold",
   },
   {
     variant: "broken",
-    slug: "scissor-1-broken",
+    slug: "scissor1-broken",
     Component: Scissor1Broken,
     componentName: "Scissor1Broken",
   },
   {
     variant: "bulk",
-    slug: "scissor-1-bulk",
+    slug: "scissor1-bulk",
     Component: Scissor1Bulk,
     componentName: "Scissor1Bulk",
   },
   {
     variant: "linear",
-    slug: "scissor-1-linear",
+    slug: "scissor1-linear",
     Component: Scissor1Linear,
     componentName: "Scissor1Linear",
   },
   {
     variant: "outline",
-    slug: "scissor-1-outline",
+    slug: "scissor1-outline",
     Component: Scissor1Outline,
     componentName: "Scissor1Outline",
   },
   {
     variant: "twotone",
-    slug: "scissor-1-twotone",
+    slug: "scissor1-twotone",
     Component: Scissor1Twotone,
     componentName: "Scissor1Twotone",
-  }
+  },
 ];
-
-export default { Scissor1Bold, Scissor1Broken, Scissor1Bulk, Scissor1Linear, Scissor1Outline, Scissor1Twotone };

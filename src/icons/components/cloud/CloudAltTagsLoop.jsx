@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function CloudAltTagsLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z" stroke-dasharray="60">
+			<animate attributeName="d" dur="12s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M6 19h12c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-2.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M6 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-1.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M7 19h10c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z" />
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+		</path>
+		<path d="M7 14l2 2M7 14l2 -2M15 14l-2 2M15 14l-2 -2" opacity="0" stroke-dasharray="6">
+			<animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.25;0.75;1" values="M7 14l2 2M7 14l2 -2M15 14l-2 2M15 14l-2 -2;M6 14l2 2M6 14l2 -2M16 14l-2 2M16 14l-2 -2;M8 14l2 2M8 14l2 -2M14 14l-2 2M14 14l-2 -2;M7 14l2 2M7 14l2 -2M15 14l-2 2M15 14l-2 -2" />
+			<set attributeName="opacity" to="1" begin="0.6s" fill="freeze" />
+			<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.4s" fill="freeze" values="6;0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

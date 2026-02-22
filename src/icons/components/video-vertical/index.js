@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-vertical-twotone",
     Component: VideoVerticalTwotone,
     componentName: "VideoVerticalTwotone",
-  }
+  },
 ];
-
-export default { VideoVerticalBold, VideoVerticalBroken, VideoVerticalBulk, VideoVerticalLinear, VideoVerticalOutline, VideoVerticalTwotone };

@@ -1,16 +1,10 @@
 import GoogleLensBold from "./GoogleLensBold";
+import GoogleLensBroken from "./GoogleLensBroken";
+import GoogleLensBulk from "./GoogleLensBulk";
 import GoogleLensLinear from "./GoogleLensLinear";
 import GoogleLensOutline from "./GoogleLensOutline";
-import GoogleLensBulk from "./GoogleLensBulk";
-import GoogleLensBroken from "./GoogleLensBroken";
 
-export {
-  GoogleLensBold,
-  GoogleLensLinear,
-  GoogleLensOutline,
-  GoogleLensBulk,
-  GoogleLensBroken,
-};
+export { GoogleLensBold, GoogleLensBroken, GoogleLensBulk, GoogleLensLinear, GoogleLensOutline };
 
 export const variants = [
   {
@@ -18,6 +12,18 @@ export const variants = [
     slug: "google-lens-bold",
     Component: GoogleLensBold,
     componentName: "GoogleLensBold",
+  },
+  {
+    variant: "broken",
+    slug: "google-lens-broken",
+    Component: GoogleLensBroken,
+    componentName: "GoogleLensBroken",
+  },
+  {
+    variant: "bulk",
+    slug: "google-lens-bulk",
+    Component: GoogleLensBulk,
+    componentName: "GoogleLensBulk",
   },
   {
     variant: "linear",
@@ -31,24 +37,4 @@ export const variants = [
     Component: GoogleLensOutline,
     componentName: "GoogleLensOutline",
   },
-  {
-    variant: "bulk",
-    slug: "google-lens-bulk",
-    Component: GoogleLensBulk,
-    componentName: "GoogleLensBulk",
-  },
-  {
-    variant: "broken",
-    slug: "google-lens-broken",
-    Component: GoogleLensBroken,
-    componentName: "GoogleLensBroken",
-  },
 ];
-
-export default {
-  GoogleLensBold,
-  GoogleLensLinear,
-  GoogleLensOutline,
-  GoogleLensBulk,
-  GoogleLensBroken,
-};

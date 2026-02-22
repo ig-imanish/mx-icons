@@ -43,7 +43,5 @@ export const variants = [
     slug: "ranking-twotone",
     Component: RankingTwotone,
     componentName: "RankingTwotone",
-  }
+  },
 ];
-
-export default { RankingBold, RankingBroken, RankingBulk, RankingLinear, RankingOutline, RankingTwotone };

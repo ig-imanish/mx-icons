@@ -10,40 +10,38 @@ export { Forward15SSecondsBold, Forward15SSecondsBroken, Forward15SSecondsBulk, 
 export const variants = [
   {
     variant: "bold",
-    slug: "forward-15-seconds-bold",
+    slug: "forward15-s-seconds-bold",
     Component: Forward15SSecondsBold,
     componentName: "Forward15SSecondsBold",
   },
   {
     variant: "broken",
-    slug: "forward-15-seconds-broken",
+    slug: "forward15-s-seconds-broken",
     Component: Forward15SSecondsBroken,
     componentName: "Forward15SSecondsBroken",
   },
   {
     variant: "bulk",
-    slug: "forward-15-seconds-bulk",
+    slug: "forward15-s-seconds-bulk",
     Component: Forward15SSecondsBulk,
     componentName: "Forward15SSecondsBulk",
   },
   {
     variant: "linear",
-    slug: "forward-15-seconds-linear",
+    slug: "forward15-s-seconds-linear",
     Component: Forward15SSecondsLinear,
     componentName: "Forward15SSecondsLinear",
   },
   {
     variant: "outline",
-    slug: "forward-15-seconds-outline",
+    slug: "forward15-s-seconds-outline",
     Component: Forward15SSecondsOutline,
     componentName: "Forward15SSecondsOutline",
   },
   {
     variant: "twotone",
-    slug: "forward-15-seconds-twotone",
+    slug: "forward15-s-seconds-twotone",
     Component: Forward15SSecondsTwotone,
     componentName: "Forward15SSecondsTwotone",
-  }
+  },
 ];
-
-export default { Forward15SSecondsBold, Forward15SSecondsBroken, Forward15SSecondsBulk, Forward15SSecondsLinear, Forward15SSecondsOutline, Forward15SSecondsTwotone };

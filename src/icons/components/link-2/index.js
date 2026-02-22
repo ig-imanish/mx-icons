@@ -10,40 +10,38 @@ export { Link2Bold, Link2Broken, Link2Bulk, Link2Linear, Link2Outline, Link2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "link-2-bold",
+    slug: "link2-bold",
     Component: Link2Bold,
     componentName: "Link2Bold",
   },
   {
     variant: "broken",
-    slug: "link-2-broken",
+    slug: "link2-broken",
     Component: Link2Broken,
     componentName: "Link2Broken",
   },
   {
     variant: "bulk",
-    slug: "link-2-bulk",
+    slug: "link2-bulk",
     Component: Link2Bulk,
     componentName: "Link2Bulk",
   },
   {
     variant: "linear",
-    slug: "link-2-linear",
+    slug: "link2-linear",
     Component: Link2Linear,
     componentName: "Link2Linear",
   },
   {
     variant: "outline",
-    slug: "link-2-outline",
+    slug: "link2-outline",
     Component: Link2Outline,
     componentName: "Link2Outline",
   },
   {
     variant: "twotone",
-    slug: "link-2-twotone",
+    slug: "link2-twotone",
     Component: Link2Twotone,
     componentName: "Link2Twotone",
-  }
+  },
 ];
-
-export default { Link2Bold, Link2Broken, Link2Bulk, Link2Linear, Link2Outline, Link2Twotone };

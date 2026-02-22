@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-send-twotone",
     Component: DirectSendTwotone,
     componentName: "DirectSendTwotone",
-  }
+  },
 ];
-
-export default { DirectSendBold, DirectSendBroken, DirectSendBulk, DirectSendLinear, DirectSendOutline, DirectSendTwotone };

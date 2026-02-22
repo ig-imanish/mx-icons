@@ -1,0 +1,46 @@
+import Icon from "../../Icon";
+
+export default function BellAlertFilledLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<g stroke-width="2">
+			<path d="M12 3v2" fill="none" stroke-dasharray="4">
+				<animate attributeName="stroke-dashoffset" dur="0.2s" fill="freeze" values="4;0" />
+				<animateTransform attributeName="transform" type="rotate" dur="6s" repeatCount="indefinite" keyTimes="0;0.05;0.15;0.2;1" values="0 12 3;3 12 3;-3 12 3;0 12 3;0 12 3" />
+			</path>
+			<path d="M12 5c-3.31 0 -6 2.69 -6 6l0 6c-1 0 -2 1 -2 2h8M12 5c3.31 0 6 2.69 6 6l0 6c1 0 2 1 2 2h-8" fill="currentColor" stroke-dasharray="30" stroke-dashoffset="30" fill-opacity="0">
+				<animateTransform attributeName="transform" type="rotate" dur="6s" repeatCount="indefinite" keyTimes="0;0.05;0.15;0.2;1" values="0 12 3;3 12 3;-3 12 3;0 12 3;0 12 3" />
+				<animate attributeName="stroke-dashoffset" begin="0.2s" dur="0.4s" fill="freeze" to="0" />
+				<animate attributeName="fill-opacity" begin="1.3s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+		</g>
+		<g fill="none">
+			<path d="M10 20c0 1.1 0.9 2 2 2c1.1 0 2 -0.9 2 -2" stroke-width="2" stroke-dasharray="10" stroke-dashoffset="10">
+				<animateTransform attributeName="transform" type="rotate" begin="0.2s" dur="6s" repeatCount="indefinite" keyTimes="0;0.05;0.15;0.2;1" values="0 12 8;6 12 8;-6 12 8;0 12 8;0 12 8" />
+				<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M22 6v4" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="6">
+				<animate attributeName="stroke-width" begin="0.9s" dur="3s" repeatCount="indefinite" keyTimes="0;0.1;0.2;0.3;1" values="2;3;3;2;2" />
+				<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M22 14v0.01" stroke-width="2" stroke-dasharray="4" stroke-dashoffset="4">
+				<animate attributeName="stroke-width" begin="1.1s" dur="3s" repeatCount="indefinite" keyTimes="0;0.1;0.2;0.3;1" values="2;3;3;2;2" />
+				<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+	</g>
+    </Icon>
+  );
+}

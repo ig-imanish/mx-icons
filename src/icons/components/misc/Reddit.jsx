@@ -1,0 +1,53 @@
+import Icon from "../../Icon";
+
+export default function Reddit({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGMWUSWdEw">
+			<g fill="currentColor">
+				<path d="M12 9.42c4.42 0 8 2.37 8 5.29c0 2.92 -3.58 5.29 -8 5.29c-4.42 0 -8 -2.37 -8 -5.29c0 -2.92 3.58 -5.29 8 -5.29Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="46" fill-opacity="0">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="46;0" />
+					<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+				</path>
+				<path d="M3.94 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24ZM20.06 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24Z" opacity="0">
+					<set attributeName="opacity" to="1" begin="1s" fill="freeze" />
+					<animate attributeName="d" begin="1s" dur="0.2s" fill="freeze" values="M7.24 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24ZM16.76 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24Z;M3.94 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24ZM20.06 9.73c1.24 0 2.24 1 2.24 2.24c0 1.24 -1 2.24 -2.24 2.24c-1.24 0 -2.24 -1 -2.24 -2.24c0 -1.24 1 -2.24 2.24 -2.24Z" />
+				</path>
+				<circle cx="18.45" cy="4.23" r="1.61" opacity="0">
+					<set attributeName="opacity" to="1" begin="2.2s" fill="freeze" />
+				</circle>
+			</g>
+			<g fill="currentColor">
+				<circle cx="8.45" cy="13.59" r="1.61" opacity="0">
+					<animate attributeName="opacity" begin="1.2s" dur="0.4s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="15.55" cy="13.59" r="1.61" opacity="0">
+					<animate attributeName="opacity" begin="1.6s" dur="0.4s" fill="freeze" to="1" />
+				</circle>
+			</g>
+			<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8">
+				<path d="M12 8.75l1.18 -5.64l5.03 1.07" stroke="currentColor" stroke-dasharray="14" stroke-dashoffset="14">
+					<animate attributeName="stroke-dashoffset" begin="2s" dur="0.2s" fill="freeze" to="0" />
+				</path>
+				<path d="M8.47 17.52c0 0 0.94 1.06 3.53 1.06c2.58 0 3.53 -1.06 3.53 -1.06" stroke="currentColor" stroke-dasharray="10" stroke-dashoffset="10">
+					<animate attributeName="stroke-dashoffset" begin="2s" dur="0.2s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGMWUSWdEw)" />
+    </Icon>
+  );
+}

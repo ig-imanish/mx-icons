@@ -43,7 +43,5 @@ export const variants = [
     slug: "ram-twotone",
     Component: RamTwotone,
     componentName: "RamTwotone",
-  }
+  },
 ];
-
-export default { RamBold, RamBroken, RamBulk, RamLinear, RamOutline, RamTwotone };

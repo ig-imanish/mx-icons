@@ -29,7 +29,5 @@ export const variants = [
     slug: "truck-remove-outline",
     Component: TruckRemoveOutline,
     componentName: "TruckRemoveOutline",
-  }
+  },
 ];
-
-export default { TruckRemoveBold, TruckRemoveBulk, TruckRemoveLinear, TruckRemoveOutline };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-like-twotone",
     Component: DocumentLikeTwotone,
     componentName: "DocumentLikeTwotone",
-  }
+  },
 ];
-
-export default { DocumentLikeBold, DocumentLikeBroken, DocumentLikeBulk, DocumentLikeLinear, DocumentLikeOutline, DocumentLikeTwotone };

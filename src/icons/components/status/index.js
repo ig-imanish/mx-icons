@@ -43,7 +43,5 @@ export const variants = [
     slug: "status-twotone",
     Component: StatusTwotone,
     componentName: "StatusTwotone",
-  }
+  },
 ];
-
-export default { StatusBold, StatusBroken, StatusBulk, StatusLinear, StatusOutline, StatusTwotone };

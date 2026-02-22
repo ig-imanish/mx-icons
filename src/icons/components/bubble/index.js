@@ -43,7 +43,5 @@ export const variants = [
     slug: "bubble-twotone",
     Component: BubbleTwotone,
     componentName: "BubbleTwotone",
-  }
+  },
 ];
-
-export default { BubbleBold, BubbleBroken, BubbleBulk, BubbleLinear, BubbleOutline, BubbleTwotone };

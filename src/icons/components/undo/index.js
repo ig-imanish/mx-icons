@@ -43,7 +43,5 @@ export const variants = [
     slug: "undo-twotone",
     Component: UndoTwotone,
     componentName: "UndoTwotone",
-  }
+  },
 ];
-
-export default { UndoBold, UndoBroken, UndoBulk, UndoLinear, UndoOutline, UndoTwotone };

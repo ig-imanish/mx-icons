@@ -43,7 +43,5 @@ export const variants = [
     slug: "play-remove-twotone",
     Component: PlayRemoveTwotone,
     componentName: "PlayRemoveTwotone",
-  }
+  },
 ];
-
-export default { PlayRemoveBold, PlayRemoveBroken, PlayRemoveBulk, PlayRemoveLinear, PlayRemoveOutline, PlayRemoveTwotone };

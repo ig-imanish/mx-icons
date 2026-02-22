@@ -43,7 +43,5 @@ export const variants = [
     slug: "layer-twotone",
     Component: LayerTwotone,
     componentName: "LayerTwotone",
-  }
+  },
 ];
-
-export default { LayerBold, LayerBroken, LayerBulk, LayerLinear, LayerOutline, LayerTwotone };

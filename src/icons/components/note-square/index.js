@@ -43,7 +43,5 @@ export const variants = [
     slug: "note-square-twotone",
     Component: NoteSquareTwotone,
     componentName: "NoteSquareTwotone",
-  }
+  },
 ];
-
-export default { NoteSquareBold, NoteSquareBroken, NoteSquareBulk, NoteSquareLinear, NoteSquareOutline, NoteSquareTwotone };

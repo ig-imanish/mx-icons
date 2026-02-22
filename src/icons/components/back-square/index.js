@@ -43,7 +43,5 @@ export const variants = [
     slug: "back-square-twotone",
     Component: BackSquareTwotone,
     componentName: "BackSquareTwotone",
-  }
+  },
 ];
-
-export default { BackSquareBold, BackSquareBroken, BackSquareBulk, BackSquareLinear, BackSquareOutline, BackSquareTwotone };

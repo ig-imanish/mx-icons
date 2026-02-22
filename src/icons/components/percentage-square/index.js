@@ -43,7 +43,5 @@ export const variants = [
     slug: "percentage-square-twotone",
     Component: PercentageSquareTwotone,
     componentName: "PercentageSquareTwotone",
-  }
+  },
 ];
-
-export default { PercentageSquareBold, PercentageSquareBroken, PercentageSquareBulk, PercentageSquareLinear, PercentageSquareOutline, PercentageSquareTwotone };

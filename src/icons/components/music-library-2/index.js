@@ -10,40 +10,38 @@ export { MusicLibrary2Bold, MusicLibrary2Broken, MusicLibrary2Bulk, MusicLibrary
 export const variants = [
   {
     variant: "bold",
-    slug: "music-library-2-bold",
+    slug: "music-library2-bold",
     Component: MusicLibrary2Bold,
     componentName: "MusicLibrary2Bold",
   },
   {
     variant: "broken",
-    slug: "music-library-2-broken",
+    slug: "music-library2-broken",
     Component: MusicLibrary2Broken,
     componentName: "MusicLibrary2Broken",
   },
   {
     variant: "bulk",
-    slug: "music-library-2-bulk",
+    slug: "music-library2-bulk",
     Component: MusicLibrary2Bulk,
     componentName: "MusicLibrary2Bulk",
   },
   {
     variant: "linear",
-    slug: "music-library-2-linear",
+    slug: "music-library2-linear",
     Component: MusicLibrary2Linear,
     componentName: "MusicLibrary2Linear",
   },
   {
     variant: "outline",
-    slug: "music-library-2-outline",
+    slug: "music-library2-outline",
     Component: MusicLibrary2Outline,
     componentName: "MusicLibrary2Outline",
   },
   {
     variant: "twotone",
-    slug: "music-library-2-twotone",
+    slug: "music-library2-twotone",
     Component: MusicLibrary2Twotone,
     componentName: "MusicLibrary2Twotone",
-  }
+  },
 ];
-
-export default { MusicLibrary2Bold, MusicLibrary2Broken, MusicLibrary2Bulk, MusicLibrary2Linear, MusicLibrary2Outline, MusicLibrary2Twotone };

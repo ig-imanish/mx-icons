@@ -43,7 +43,5 @@ export const variants = [
     slug: "bluetooth-twotone",
     Component: BluetoothTwotone,
     componentName: "BluetoothTwotone",
-  }
+  },
 ];
-
-export default { BluetoothBold, BluetoothBroken, BluetoothBulk, BluetoothLinear, BluetoothOutline, BluetoothTwotone };

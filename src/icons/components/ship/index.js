@@ -43,7 +43,5 @@ export const variants = [
     slug: "ship-twotone",
     Component: ShipTwotone,
     componentName: "ShipTwotone",
-  }
+  },
 ];
-
-export default { ShipBold, ShipBroken, ShipBulk, ShipLinear, ShipOutline, ShipTwotone };

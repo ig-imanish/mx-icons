@@ -10,40 +10,38 @@ export { Folder2Bold, Folder2Broken, Folder2Bulk, Folder2Linear, Folder2Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "folder-2-bold",
+    slug: "folder2-bold",
     Component: Folder2Bold,
     componentName: "Folder2Bold",
   },
   {
     variant: "broken",
-    slug: "folder-2-broken",
+    slug: "folder2-broken",
     Component: Folder2Broken,
     componentName: "Folder2Broken",
   },
   {
     variant: "bulk",
-    slug: "folder-2-bulk",
+    slug: "folder2-bulk",
     Component: Folder2Bulk,
     componentName: "Folder2Bulk",
   },
   {
     variant: "linear",
-    slug: "folder-2-linear",
+    slug: "folder2-linear",
     Component: Folder2Linear,
     componentName: "Folder2Linear",
   },
   {
     variant: "outline",
-    slug: "folder-2-outline",
+    slug: "folder2-outline",
     Component: Folder2Outline,
     componentName: "Folder2Outline",
   },
   {
     variant: "twotone",
-    slug: "folder-2-twotone",
+    slug: "folder2-twotone",
     Component: Folder2Twotone,
     componentName: "Folder2Twotone",
-  }
+  },
 ];
-
-export default { Folder2Bold, Folder2Broken, Folder2Bulk, Folder2Linear, Folder2Outline, Folder2Twotone };

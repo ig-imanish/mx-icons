@@ -29,7 +29,5 @@ export const variants = [
     slug: "shield-twotone",
     Component: ShieldTwotone,
     componentName: "ShieldTwotone",
-  }
+  },
 ];
-
-export default { ShieldBulk, ShieldLinear, ShieldOutline, ShieldTwotone };

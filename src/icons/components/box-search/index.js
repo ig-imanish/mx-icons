@@ -43,7 +43,5 @@ export const variants = [
     slug: "box-search-twotone",
     Component: BoxSearchTwotone,
     componentName: "BoxSearchTwotone",
-  }
+  },
 ];
-
-export default { BoxSearchBold, BoxSearchBroken, BoxSearchBulk, BoxSearchLinear, BoxSearchOutline, BoxSearchTwotone };

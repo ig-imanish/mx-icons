@@ -43,7 +43,5 @@ export const variants = [
     slug: "driver-refresh-twotone",
     Component: DriverRefreshTwotone,
     componentName: "DriverRefreshTwotone",
-  }
+  },
 ];
-
-export default { DriverRefreshBold, DriverRefreshBroken, DriverRefreshBulk, DriverRefreshLinear, DriverRefreshOutline, DriverRefreshTwotone };

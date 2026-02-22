@@ -43,7 +43,5 @@ export const variants = [
     slug: "shield-search-twotone",
     Component: ShieldSearchTwotone,
     componentName: "ShieldSearchTwotone",
-  }
+  },
 ];
-
-export default { ShieldSearchBold, ShieldSearchBroken, ShieldSearchBulk, ShieldSearchLinear, ShieldSearchOutline, ShieldSearchTwotone };

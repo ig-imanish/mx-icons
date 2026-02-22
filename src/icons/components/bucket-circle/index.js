@@ -43,7 +43,5 @@ export const variants = [
     slug: "bucket-circle-twotone",
     Component: BucketCircleTwotone,
     componentName: "BucketCircleTwotone",
-  }
+  },
 ];
-
-export default { BucketCircleBold, BucketCircleBroken, BucketCircleBulk, BucketCircleLinear, BucketCircleOutline, BucketCircleTwotone };

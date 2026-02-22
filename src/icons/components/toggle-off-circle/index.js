@@ -43,7 +43,5 @@ export const variants = [
     slug: "toggle-off-circle-twotone",
     Component: ToggleOffCircleTwotone,
     componentName: "ToggleOffCircleTwotone",
-  }
+  },
 ];
-
-export default { ToggleOffCircleBold, ToggleOffCircleBroken, ToggleOffCircleBulk, ToggleOffCircleLinear, ToggleOffCircleOutline, ToggleOffCircleTwotone };

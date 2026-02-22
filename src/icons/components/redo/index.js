@@ -43,7 +43,5 @@ export const variants = [
     slug: "redo-twotone",
     Component: RedoTwotone,
     componentName: "RedoTwotone",
-  }
+  },
 ];
-
-export default { RedoBold, RedoBroken, RedoBulk, RedoLinear, RedoOutline, RedoTwotone };

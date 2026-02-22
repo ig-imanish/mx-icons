@@ -43,7 +43,5 @@ export const variants = [
     slug: "hospital-twotone",
     Component: HospitalTwotone,
     componentName: "HospitalTwotone",
-  }
+  },
 ];
-
-export default { HospitalBold, HospitalBroken, HospitalBulk, HospitalLinear, HospitalOutline, HospitalTwotone };

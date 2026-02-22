@@ -43,7 +43,5 @@ export const variants = [
     slug: "lifebuoy-twotone",
     Component: LifebuoyTwotone,
     componentName: "LifebuoyTwotone",
-  }
+  },
 ];
-
-export default { LifebuoyBold, LifebuoyBroken, LifebuoyBulk, LifebuoyLinear, LifebuoyOutline, LifebuoyTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "profile-tick-twotone",
     Component: ProfileTickTwotone,
     componentName: "ProfileTickTwotone",
-  }
+  },
 ];
-
-export default { ProfileTickBold, ProfileTickBroken, ProfileTickBulk, ProfileTickLinear, ProfileTickOutline, ProfileTickTwotone };

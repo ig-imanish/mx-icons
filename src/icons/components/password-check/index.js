@@ -43,7 +43,5 @@ export const variants = [
     slug: "password-check-twotone",
     Component: PasswordCheckTwotone,
     componentName: "PasswordCheckTwotone",
-  }
+  },
 ];
-
-export default { PasswordCheckBold, PasswordCheckBroken, PasswordCheckBulk, PasswordCheckLinear, PasswordCheckOutline, PasswordCheckTwotone };

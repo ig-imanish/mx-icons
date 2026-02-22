@@ -43,7 +43,5 @@ export const variants = [
     slug: "heart-circle-twotone",
     Component: HeartCircleTwotone,
     componentName: "HeartCircleTwotone",
-  }
+  },
 ];
-
-export default { HeartCircleBold, HeartCircleBroken, HeartCircleBulk, HeartCircleLinear, HeartCircleOutline, HeartCircleTwotone };

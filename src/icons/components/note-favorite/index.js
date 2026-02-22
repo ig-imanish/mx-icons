@@ -43,7 +43,5 @@ export const variants = [
     slug: "note-favorite-twotone",
     Component: NoteFavoriteTwotone,
     componentName: "NoteFavoriteTwotone",
-  }
+  },
 ];
-
-export default { NoteFavoriteBold, NoteFavoriteBroken, NoteFavoriteBulk, NoteFavoriteLinear, NoteFavoriteOutline, NoteFavoriteTwotone };

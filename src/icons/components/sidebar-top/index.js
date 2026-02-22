@@ -43,7 +43,5 @@ export const variants = [
     slug: "sidebar-top-twotone",
     Component: SidebarTopTwotone,
     componentName: "SidebarTopTwotone",
-  }
+  },
 ];
-
-export default { SidebarTopBold, SidebarTopBroken, SidebarTopBulk, SidebarTopLinear, SidebarTopOutline, SidebarTopTwotone };

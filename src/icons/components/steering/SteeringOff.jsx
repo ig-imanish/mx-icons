@@ -1,0 +1,43 @@
+import Icon from "../../Icon";
+
+export default function SteeringOff({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGuBk3Dbld">
+			<path d="M7.5 12l3 -3h3l3 3l-0.5 0c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4Z" fill="currentColor">
+				<animate attributeName="d" dur="0.2s" fill="freeze" values="M12 12l0 0h0l0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M7.5 12l3 -3h3l3 3l-0.5 0c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4Z" />
+			</path>
+			<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<g stroke="currentColor">
+					<path d="M8 12h-5M16 12h5M12 16v5" stroke-dasharray="8" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z" stroke-dasharray="60" stroke-dashoffset="60">
+						<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.6s" fill="freeze" to="0" />
+					</path>
+				</g>
+				<path d="M-1 11h26" stroke="currentColor" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+					<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.4s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGuBk3Dbld)" />
+	<path d="M-1 13h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+		<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.4s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

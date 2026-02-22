@@ -43,7 +43,5 @@ export const variants = [
     slug: "finger-cricle-twotone",
     Component: FingerCricleTwotone,
     componentName: "FingerCricleTwotone",
-  }
+  },
 ];
-
-export default { FingerCricleBold, FingerCricleBroken, FingerCricleBulk, FingerCricleLinear, FingerCricleOutline, FingerCricleTwotone };

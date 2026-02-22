@@ -1,0 +1,39 @@
+import Icon from "../../Icon";
+
+export default function CoffeeTwotoneLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGH98quKAd">
+			<path d="M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<animate attributeName="d" dur="3s" repeatCount="indefinite" values="M8 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4;M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4" />
+			</path>
+			<path d="M4 7h16v0h-16v12h16v-32h-16Z" fill="currentColor">
+				<animate attributeName="d" begin="1s" dur="0.6s" fill="freeze" to="M4 2h16v5h-16v12h16v-24h-16Z" />
+			</path>
+		</mask>
+	</defs>
+	<g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M17 9v9c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-9Z" fill="currentColor" fill-opacity="0" stroke-dasharray="48">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="48;0" />
+			<animate attributeName="fill-opacity" begin="1.6s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<path d="M17 9h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3" fill="none" stroke-dasharray="16" stroke-dashoffset="16">
+			<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+	</g>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGH98quKAd)" />
+    </Icon>
+  );
+}

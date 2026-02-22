@@ -43,7 +43,5 @@ export const variants = [
     slug: "textalign-justifycenter-twotone",
     Component: TextalignJustifycenterTwotone,
     componentName: "TextalignJustifycenterTwotone",
-  }
+  },
 ];
-
-export default { TextalignJustifycenterBold, TextalignJustifycenterBroken, TextalignJustifycenterBulk, TextalignJustifycenterLinear, TextalignJustifycenterOutline, TextalignJustifycenterTwotone };

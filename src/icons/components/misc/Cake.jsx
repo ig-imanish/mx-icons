@@ -1,0 +1,34 @@
+import Icon from "../../Icon";
+
+export default function Cake({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 21h8v-9c0 -1.1 -0.9 -2 -2 -2h-6M12 21h-8v-9c0 -1.1 0.9 -2 2 -2h6" stroke-dasharray="30">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="30;0" />
+		</path>
+		<path d="M12 10v-2" stroke-dasharray="4" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M4 16h1c2 0 3.5 -2 3.5 -2c0 0 1.5 2 3.5 2c2 0 3.5 -2 3.5 -2c0 0 1.5 2 3.5 2h1" stroke-dasharray="22" stroke-dashoffset="22">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+	</g>
+	<path d="M14 4c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -4 2 -4c0 0 2 2.9 2 4Z" fill="currentColor" opacity="0">
+		<set attributeName="opacity" to="1" begin="1s" fill="freeze" />
+		<animate attributeName="d" begin="1s" dur="0.2s" fill="freeze" values="M13 5c0 0.5 -0.5 1 -1 1c-0.5 0 -1 -0.5 -1 -1c0 -0.5 1 -1 1 -1c0 0 1 0.5 1 1Z;M14 4c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -4 2 -4c0 0 2 2.9 2 4Z" />
+	</path>
+    </Icon>
+  );
+}

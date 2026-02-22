@@ -43,7 +43,5 @@ export const variants = [
     slug: "bluetooth-circle-twotone",
     Component: BluetoothCircleTwotone,
     componentName: "BluetoothCircleTwotone",
-  }
+  },
 ];
-
-export default { BluetoothCircleBold, BluetoothCircleBroken, BluetoothCircleBulk, BluetoothCircleLinear, BluetoothCircleOutline, BluetoothCircleTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "alarm-twotone",
     Component: AlarmTwotone,
     componentName: "AlarmTwotone",
-  }
+  },
 ];
-
-export default { AlarmBold, AlarmBroken, AlarmBulk, AlarmLinear, AlarmOutline, AlarmTwotone };

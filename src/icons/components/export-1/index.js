@@ -10,40 +10,38 @@ export { Export1Bold, Export1Broken, Export1Bulk, Export1Linear, Export1Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "export-1-bold",
+    slug: "export1-bold",
     Component: Export1Bold,
     componentName: "Export1Bold",
   },
   {
     variant: "broken",
-    slug: "export-1-broken",
+    slug: "export1-broken",
     Component: Export1Broken,
     componentName: "Export1Broken",
   },
   {
     variant: "bulk",
-    slug: "export-1-bulk",
+    slug: "export1-bulk",
     Component: Export1Bulk,
     componentName: "Export1Bulk",
   },
   {
     variant: "linear",
-    slug: "export-1-linear",
+    slug: "export1-linear",
     Component: Export1Linear,
     componentName: "Export1Linear",
   },
   {
     variant: "outline",
-    slug: "export-1-outline",
+    slug: "export1-outline",
     Component: Export1Outline,
     componentName: "Export1Outline",
   },
   {
     variant: "twotone",
-    slug: "export-1-twotone",
+    slug: "export1-twotone",
     Component: Export1Twotone,
     componentName: "Export1Twotone",
-  }
+  },
 ];
-
-export default { Export1Bold, Export1Broken, Export1Bulk, Export1Linear, Export1Outline, Export1Twotone };

@@ -1,4 +1,3 @@
-import React from "react";
 import Icon from "../../Icon";
 
 export default function HomeTwotone({
@@ -15,8 +14,23 @@ export default function HomeTwotone({
       className={className}
       {...props}
     >
-      <path d="M10.0693 2.81984L3.13929 8.36983C2.35929 8.98983 1.85929 10.2999 2.02929 11.2799L3.35929 19.2398C3.59929 20.6598 4.95928 21.8098 6.39928 21.8098H17.5993C19.0293 21.8098 20.3993 20.6498 20.6393 19.2398L21.9693 11.2799C22.1293 10.2999 21.6293 8.98983 20.8593 8.36983L13.9293 2.82985C12.8593 1.96985 11.1293 1.96984 10.0693 2.81984Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.4" d="M12 15.5C13.3807 15.5 14.5 14.3807 14.5 13C14.5 11.6193 13.3807 10.5 12 10.5C10.6193 10.5 9.5 11.6193 9.5 13C9.5 14.3807 10.6193 15.5 12 15.5Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M5 8.5l7 -5.5l7 5.5v12.5h-4v-8l-1 -1h-4l-1 1v8h-4v-12.5Z" fill="currentColor" fill-opacity="0">
+		<animate attributeName="fill-opacity" begin="1.5s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M4.5 21.5h15" stroke-dasharray="18">
+			<animate attributeName="stroke-dashoffset" dur="0.3s" fill="freeze" values="18;0" />
+		</path>
+		<path d="M4.5 21.5v-13.5M19.5 21.5v-13.5" stroke-dasharray="16" stroke-dashoffset="16">
+			<animate attributeName="stroke-dashoffset" begin="0.3s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M2 10l10 -8l10 8" stroke-dasharray="28" stroke-dashoffset="28">
+			<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+		<path d="M9.5 21.5v-9h5v9" stroke-dasharray="26" stroke-dashoffset="26">
+			<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.6s" fill="freeze" to="0" />
+		</path>
+	</g>
     </Icon>
   );
 }

@@ -43,7 +43,5 @@ export const variants = [
     slug: "monitor-recorder-twotone",
     Component: MonitorRecorderTwotone,
     componentName: "MonitorRecorderTwotone",
-  }
+  },
 ];
-
-export default { MonitorRecorderBold, MonitorRecorderBroken, MonitorRecorderBulk, MonitorRecorderLinear, MonitorRecorderOutline, MonitorRecorderTwotone };

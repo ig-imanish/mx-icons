@@ -43,7 +43,5 @@ export const variants = [
     slug: "musicnote-twotone",
     Component: MusicnoteTwotone,
     componentName: "MusicnoteTwotone",
-  }
+  },
 ];
-
-export default { MusicnoteBold, MusicnoteBroken, MusicnoteBulk, MusicnoteLinear, MusicnoteOutline, MusicnoteTwotone };

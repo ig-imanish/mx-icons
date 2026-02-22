@@ -43,7 +43,5 @@ export const variants = [
     slug: "lamp-on-twotone",
     Component: LampOnTwotone,
     componentName: "LampOnTwotone",
-  }
+  },
 ];
-
-export default { LampOnBold, LampOnBroken, LampOnBulk, LampOnLinear, LampOnOutline, LampOnTwotone };

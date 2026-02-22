@@ -43,7 +43,5 @@ export const variants = [
     slug: "more-twotone",
     Component: MoreTwotone,
     componentName: "MoreTwotone",
-  }
+  },
 ];
-
-export default { MoreBold, MoreBroken, MoreBulk, MoreLinear, MoreOutline, MoreTwotone };

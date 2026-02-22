@@ -43,7 +43,5 @@ export const variants = [
     slug: "gallery-favorite-twotone",
     Component: GalleryFavoriteTwotone,
     componentName: "GalleryFavoriteTwotone",
-  }
+  },
 ];
-
-export default { GalleryFavoriteBold, GalleryFavoriteBroken, GalleryFavoriteBulk, GalleryFavoriteLinear, GalleryFavoriteOutline, GalleryFavoriteTwotone };

@@ -10,40 +10,38 @@ export { Wallet3Bold, Wallet3Broken, Wallet3Bulk, Wallet3Linear, Wallet3Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "wallet-3-bold",
+    slug: "wallet3-bold",
     Component: Wallet3Bold,
     componentName: "Wallet3Bold",
   },
   {
     variant: "broken",
-    slug: "wallet-3-broken",
+    slug: "wallet3-broken",
     Component: Wallet3Broken,
     componentName: "Wallet3Broken",
   },
   {
     variant: "bulk",
-    slug: "wallet-3-bulk",
+    slug: "wallet3-bulk",
     Component: Wallet3Bulk,
     componentName: "Wallet3Bulk",
   },
   {
     variant: "linear",
-    slug: "wallet-3-linear",
+    slug: "wallet3-linear",
     Component: Wallet3Linear,
     componentName: "Wallet3Linear",
   },
   {
     variant: "outline",
-    slug: "wallet-3-outline",
+    slug: "wallet3-outline",
     Component: Wallet3Outline,
     componentName: "Wallet3Outline",
   },
   {
     variant: "twotone",
-    slug: "wallet-3-twotone",
+    slug: "wallet3-twotone",
     Component: Wallet3Twotone,
     componentName: "Wallet3Twotone",
-  }
+  },
 ];
-
-export default { Wallet3Bold, Wallet3Broken, Wallet3Bulk, Wallet3Linear, Wallet3Outline, Wallet3Twotone };

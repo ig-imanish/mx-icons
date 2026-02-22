@@ -1,11 +1,17 @@
 import PlayBold from "./PlayBold";
 import PlayBroken from "./PlayBroken";
 import PlayBulk from "./PlayBulk";
+import PlayFilled from "./PlayFilled";
+import PlayFilledToPauseTransition from "./PlayFilledToPauseTransition";
 import PlayLinear from "./PlayLinear";
+import PlayOff from "./PlayOff";
+import PlayOffFilled from "./PlayOffFilled";
+import PlayOffTwotone from "./PlayOffTwotone";
 import PlayOutline from "./PlayOutline";
+import PlayToPauseTransition from "./PlayToPauseTransition";
 import PlayTwotone from "./PlayTwotone";
 
-export { PlayBold, PlayBroken, PlayBulk, PlayLinear, PlayOutline, PlayTwotone };
+export { PlayBold, PlayBroken, PlayBulk, PlayFilled, PlayFilledToPauseTransition, PlayLinear, PlayOff, PlayOffFilled, PlayOffTwotone, PlayOutline, PlayToPauseTransition, PlayTwotone };
 
 export const variants = [
   {
@@ -27,10 +33,40 @@ export const variants = [
     componentName: "PlayBulk",
   },
   {
+    variant: "filled",
+    slug: "play-filled",
+    Component: PlayFilled,
+    componentName: "PlayFilled",
+  },
+  {
+    variant: "filled",
+    slug: "play-filled-to-pause-transition",
+    Component: PlayFilledToPauseTransition,
+    componentName: "PlayFilledToPauseTransition",
+  },
+  {
     variant: "linear",
     slug: "play-linear",
     Component: PlayLinear,
     componentName: "PlayLinear",
+  },
+  {
+    variant: "linear",
+    slug: "play-off",
+    Component: PlayOff,
+    componentName: "PlayOff",
+  },
+  {
+    variant: "filled",
+    slug: "play-off-filled",
+    Component: PlayOffFilled,
+    componentName: "PlayOffFilled",
+  },
+  {
+    variant: "twotone",
+    slug: "play-off-twotone",
+    Component: PlayOffTwotone,
+    componentName: "PlayOffTwotone",
   },
   {
     variant: "outline",
@@ -39,11 +75,15 @@ export const variants = [
     componentName: "PlayOutline",
   },
   {
+    variant: "linear",
+    slug: "play-to-pause-transition",
+    Component: PlayToPauseTransition,
+    componentName: "PlayToPauseTransition",
+  },
+  {
     variant: "twotone",
     slug: "play-twotone",
     Component: PlayTwotone,
     componentName: "PlayTwotone",
-  }
+  },
 ];
-
-export default { PlayBold, PlayBroken, PlayBulk, PlayLinear, PlayOutline, PlayTwotone };

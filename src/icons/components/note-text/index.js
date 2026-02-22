@@ -43,7 +43,5 @@ export const variants = [
     slug: "note-text-twotone",
     Component: NoteTextTwotone,
     componentName: "NoteTextTwotone",
-  }
+  },
 ];
-
-export default { NoteTextBold, NoteTextBroken, NoteTextBulk, NoteTextLinear, NoteTextOutline, NoteTextTwotone };

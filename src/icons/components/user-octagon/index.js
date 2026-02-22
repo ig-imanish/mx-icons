@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-octagon-twotone",
     Component: UserOctagonTwotone,
     componentName: "UserOctagonTwotone",
-  }
+  },
 ];
-
-export default { UserOctagonBold, UserOctagonBroken, UserOctagonBulk, UserOctagonLinear, UserOctagonOutline, UserOctagonTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "subtitle-twotone",
     Component: SubtitleTwotone,
     componentName: "SubtitleTwotone",
-  }
+  },
 ];
-
-export default { SubtitleBold, SubtitleBroken, SubtitleBulk, SubtitleLinear, SubtitleOutline, SubtitleTwotone };

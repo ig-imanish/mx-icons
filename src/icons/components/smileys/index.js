@@ -43,7 +43,5 @@ export const variants = [
     slug: "smileys-twotone",
     Component: SmileysTwotone,
     componentName: "SmileysTwotone",
-  }
+  },
 ];
-
-export default { SmileysBold, SmileysBroken, SmileysBulk, SmileysLinear, SmileysOutline, SmileysTwotone };

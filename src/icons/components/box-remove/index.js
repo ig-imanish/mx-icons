@@ -43,7 +43,5 @@ export const variants = [
     slug: "box-remove-twotone",
     Component: BoxRemoveTwotone,
     componentName: "BoxRemoveTwotone",
-  }
+  },
 ];
-
-export default { BoxRemoveBold, BoxRemoveBroken, BoxRemoveBulk, BoxRemoveLinear, BoxRemoveOutline, BoxRemoveTwotone };

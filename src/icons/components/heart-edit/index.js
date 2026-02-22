@@ -43,7 +43,5 @@ export const variants = [
     slug: "heart-edit-twotone",
     Component: HeartEditTwotone,
     componentName: "HeartEditTwotone",
-  }
+  },
 ];
-
-export default { HeartEditBold, HeartEditBroken, HeartEditBulk, HeartEditLinear, HeartEditOutline, HeartEditTwotone };

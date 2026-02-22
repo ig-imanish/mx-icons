@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-octagon-twotone",
     Component: VideoOctagonTwotone,
     componentName: "VideoOctagonTwotone",
-  }
+  },
 ];
-
-export default { VideoOctagonBold, VideoOctagonBroken, VideoOctagonBulk, VideoOctagonLinear, VideoOctagonOutline, VideoOctagonTwotone };

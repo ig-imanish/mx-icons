@@ -10,40 +10,38 @@ export { Link21Bold, Link21Broken, Link21Bulk, Link21Linear, Link21Outline, Link
 export const variants = [
   {
     variant: "bold",
-    slug: "link-21-bold",
+    slug: "link21-bold",
     Component: Link21Bold,
     componentName: "Link21Bold",
   },
   {
     variant: "broken",
-    slug: "link-21-broken",
+    slug: "link21-broken",
     Component: Link21Broken,
     componentName: "Link21Broken",
   },
   {
     variant: "bulk",
-    slug: "link-21-bulk",
+    slug: "link21-bulk",
     Component: Link21Bulk,
     componentName: "Link21Bulk",
   },
   {
     variant: "linear",
-    slug: "link-21-linear",
+    slug: "link21-linear",
     Component: Link21Linear,
     componentName: "Link21Linear",
   },
   {
     variant: "outline",
-    slug: "link-21-outline",
+    slug: "link21-outline",
     Component: Link21Outline,
     componentName: "Link21Outline",
   },
   {
     variant: "twotone",
-    slug: "link-21-twotone",
+    slug: "link21-twotone",
     Component: Link21Twotone,
     componentName: "Link21Twotone",
-  }
+  },
 ];
-
-export default { Link21Bold, Link21Broken, Link21Bulk, Link21Linear, Link21Outline, Link21Twotone };

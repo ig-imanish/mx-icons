@@ -43,7 +43,5 @@ export const variants = [
     slug: "bookmark-twotone",
     Component: BookmarkTwotone,
     componentName: "BookmarkTwotone",
-  }
+  },
 ];
-
-export default { BookmarkBold, BookmarkBroken, BookmarkBulk, BookmarkLinear, BookmarkOutline, BookmarkTwotone };

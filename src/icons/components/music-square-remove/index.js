@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-square-remove-twotone",
     Component: MusicSquareRemoveTwotone,
     componentName: "MusicSquareRemoveTwotone",
-  }
+  },
 ];
-
-export default { MusicSquareRemoveBold, MusicSquareRemoveBroken, MusicSquareRemoveBulk, MusicSquareRemoveLinear, MusicSquareRemoveOutline, MusicSquareRemoveTwotone };

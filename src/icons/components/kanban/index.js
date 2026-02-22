@@ -36,7 +36,5 @@ export const variants = [
     slug: "kanban-twotone",
     Component: KanbanTwotone,
     componentName: "KanbanTwotone",
-  }
+  },
 ];
-
-export default { KanbanBold, KanbanBulk, KanbanLinear, KanbanOutline, KanbanTwotone };

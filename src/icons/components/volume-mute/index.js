@@ -43,7 +43,5 @@ export const variants = [
     slug: "volume-mute-twotone",
     Component: VolumeMuteTwotone,
     componentName: "VolumeMuteTwotone",
-  }
+  },
 ];
-
-export default { VolumeMuteBold, VolumeMuteBroken, VolumeMuteBulk, VolumeMuteLinear, VolumeMuteOutline, VolumeMuteTwotone };

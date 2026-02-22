@@ -43,7 +43,5 @@ export const variants = [
     slug: "truck-tick-twotone",
     Component: TruckTickTwotone,
     componentName: "TruckTickTwotone",
-  }
+  },
 ];
-
-export default { TruckTickBold, TruckTickBroken, TruckTickBulk, TruckTickLinear, TruckTickOutline, TruckTickTwotone };

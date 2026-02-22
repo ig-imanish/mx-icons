@@ -43,7 +43,5 @@ export const variants = [
     slug: "hashtag-down-twotone",
     Component: HashtagDownTwotone,
     componentName: "HashtagDownTwotone",
-  }
+  },
 ];
-
-export default { HashtagDownBold, HashtagDownBroken, HashtagDownBulk, HashtagDownLinear, HashtagDownOutline, HashtagDownTwotone };

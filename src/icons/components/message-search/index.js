@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-search-twotone",
     Component: MessageSearchTwotone,
     componentName: "MessageSearchTwotone",
-  }
+  },
 ];
-
-export default { MessageSearchBold, MessageSearchBroken, MessageSearchBulk, MessageSearchLinear, MessageSearchOutline, MessageSearchTwotone };

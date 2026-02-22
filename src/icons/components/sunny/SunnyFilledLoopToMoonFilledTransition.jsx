@@ -1,0 +1,46 @@
+import Icon from "../../Icon";
+
+export default function SunnyFilledLoopToMoonFilledTransition({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGKN9G9dDV">
+			<path d="M12 2c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M12 6c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z;M12 2c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+			<path d="M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z;M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M12 21v1M21 12h1M12 3v-1M3 12h-1M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+		<animate attributeName="opacity" dur="0.4s" fill="freeze" values="1;0" />
+	</path>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGKN9G9dDV)" />
+		<path d="M7 6c0 6.08 4.92 11 11 11c0.53 0 1.05 -0.04 1.56 -0.11c-1.61 2.47 -4.39 4.11 -7.56 4.11c-4.97 0 -9 -4.03 -9 -9c0 -3.17 1.64 -5.95 4.11 -7.56c-0.07 0.51 -0.11 1.03 -0.11 1.56Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.4s" fill="freeze" />
+		</path>
+		<path d="M15.22 6.03l2.53 -1.94l-3.19 -0.09l-1.06 -3l-1.06 3l-3.19 0.09l2.53 1.94l-0.91 3.06l2.63 -1.81l2.63 1.81l-0.91 -3.06Z" opacity="0">
+			<animate attributeName="opacity" begin="0.4s" dur="0.4s" fill="freeze" to="1" />
+		</path>
+		<path d="M19.61 12.25l1.64 -1.25l-2.06 -0.05l-0.69 -1.95l-0.69 1.95l-2.06 0.05l1.64 1.25l-0.59 1.98l1.7 -1.17l1.7 1.17l-0.59 -1.98Z" opacity="0">
+			<animate attributeName="opacity" begin="0.8s" dur="0.4s" fill="freeze" to="1" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

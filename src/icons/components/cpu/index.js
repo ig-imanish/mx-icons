@@ -43,7 +43,5 @@ export const variants = [
     slug: "cpu-twotone",
     Component: CpuTwotone,
     componentName: "CpuTwotone",
-  }
+  },
 ];
-
-export default { CpuBold, CpuBroken, CpuBulk, CpuLinear, CpuOutline, CpuTwotone };

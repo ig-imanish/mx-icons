@@ -43,7 +43,5 @@ export const variants = [
     slug: "gallery-add-twotone",
     Component: GalleryAddTwotone,
     componentName: "GalleryAddTwotone",
-  }
+  },
 ];
-
-export default { GalleryAddBold, GalleryAddBroken, GalleryAddBulk, GalleryAddLinear, GalleryAddOutline, GalleryAddTwotone };

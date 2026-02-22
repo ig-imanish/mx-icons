@@ -43,7 +43,5 @@ export const variants = [
     slug: "text-bold-twotone",
     Component: TextBoldTwotone,
     componentName: "TextBoldTwotone",
-  }
+  },
 ];
-
-export default { TextBoldBold, TextBoldBroken, TextBoldBulk, TextBoldLinear, TextBoldOutline, TextBoldTwotone };

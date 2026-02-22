@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-text-twotone",
     Component: DocumentTextTwotone,
     componentName: "DocumentTextTwotone",
-  }
+  },
 ];
-
-export default { DocumentTextBold, DocumentTextBroken, DocumentTextBulk, DocumentTextLinear, DocumentTextOutline, DocumentTextTwotone };

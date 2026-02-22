@@ -43,7 +43,5 @@ export const variants = [
     slug: "code-circle-twotone",
     Component: CodeCircleTwotone,
     componentName: "CodeCircleTwotone",
-  }
+  },
 ];
-
-export default { CodeCircleBold, CodeCircleBroken, CodeCircleBulk, CodeCircleLinear, CodeCircleOutline, CodeCircleTwotone };

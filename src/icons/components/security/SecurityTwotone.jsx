@@ -1,4 +1,3 @@
-import React from "react";
 import Icon from "../../Icon";
 
 export default function SecurityTwotone({
@@ -15,8 +14,10 @@ export default function SecurityTwotone({
       className={className}
       {...props}
     >
-      <path opacity="0.4" d="M20.9099 11.1198C20.9099 16.0098 17.3599 20.5898 12.5099 21.9298C12.1799 22.0198 11.8198 22.0198 11.4898 21.9298C6.63984 20.5898 3.08984 16.0098 3.08984 11.1198V6.72979C3.08984 5.90979 3.70986 4.97979 4.47986 4.66979L10.0498 2.38982C11.2998 1.87982 12.7098 1.87982 13.9598 2.38982L19.5298 4.66979C20.2898 4.97979 20.9199 5.90979 20.9199 6.72979L20.9099 11.1198Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.0399 2.38982C11.2899 1.87982 12.6999 1.87982 13.9499 2.38982L19.5198 4.66979C20.2798 4.97979 20.9099 5.90979 20.9099 6.72979V11.1198C20.9099 16.0098 17.3599 20.5898 12.5099 21.9298C12.1799 22.0198 11.8198 22.0198 11.4898 21.9298C6.63984 20.5898 3.08984 16.0098 3.08984 11.1198" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 2l-8 3.5v6.5c0 3.5 3.5 8 8 10c4.5 -1 8 -6.5 8 -10v-6.5l-8 -3.5Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="60">
+		<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+		<animate attributeName="fill-opacity" begin="0.6s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
     </Icon>
   );
 }

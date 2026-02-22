@@ -43,7 +43,5 @@ export const variants = [
     slug: "folder-favorite-twotone",
     Component: FolderFavoriteTwotone,
     componentName: "FolderFavoriteTwotone",
-  }
+  },
 ];
-
-export default { FolderFavoriteBold, FolderFavoriteBroken, FolderFavoriteBulk, FolderFavoriteLinear, FolderFavoriteOutline, FolderFavoriteTwotone };

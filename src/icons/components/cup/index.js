@@ -43,7 +43,5 @@ export const variants = [
     slug: "cup-twotone",
     Component: CupTwotone,
     componentName: "CupTwotone",
-  }
+  },
 ];
-
-export default { CupBold, CupBroken, CupBulk, CupLinear, CupOutline, CupTwotone };

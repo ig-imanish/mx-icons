@@ -43,7 +43,5 @@ export const variants = [
     slug: "search-zoom-out-twotone",
     Component: SearchZoomOutTwotone,
     componentName: "SearchZoomOutTwotone",
-  }
+  },
 ];
-
-export default { SearchZoomOutBold, SearchZoomOutBroken, SearchZoomOutBulk, SearchZoomOutLinear, SearchZoomOutOutline, SearchZoomOutTwotone };

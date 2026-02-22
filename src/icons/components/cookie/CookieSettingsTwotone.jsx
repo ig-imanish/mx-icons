@@ -1,0 +1,51 @@
+import Icon from "../../Icon";
+
+export default function CookieSettingsTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="currentColor">
+		<path d="M12 3c-4.42 0 -8 3.58 -8 8c0 4.42 3.58 8 8 8c4.42 0 8 -3.58 8 -8v-1h-2c-0.55 0 -1 -0.45 -1 -1v-1h-2c-0.55 0 -1 -0.45 -1 -1v-1h-1c-0.55 0 -1 -0.45 -1 -1Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="56">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="56;0" />
+			<animate attributeName="fill-opacity" begin="0.6s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<circle cx="9.5" cy="6.5" r="1.5" opacity="0">
+			<animate attributeName="opacity" begin="0.85s" dur="0.1s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="11" cy="16.5" r="1.5" opacity="0">
+			<animate attributeName="opacity" begin="0.95s" dur="0.1s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="6.5" cy="10.5" r="1.5" opacity="0">
+			<animate attributeName="opacity" begin="1.05s" dur="0.1s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="16.5" cy="13.5" r="1.5" opacity="0">
+			<animate attributeName="opacity" begin="1.15s" dur="0.1s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="11.5" cy="11.5" r="1.5" opacity="0">
+			<animate attributeName="opacity" begin="1.25s" dur="0.1s" fill="freeze" to="1" />
+		</circle>
+	</g>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="4">
+		<path d="M8 23h0.01" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="1.35s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M12 23h0.01" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="1.65s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M16 23h0.01" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="1.95s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

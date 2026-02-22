@@ -43,7 +43,5 @@ export const variants = [
     slug: "row-horizontal-twotone",
     Component: RowHorizontalTwotone,
     componentName: "RowHorizontalTwotone",
-  }
+  },
 ];
-
-export default { RowHorizontalBold, RowHorizontalBroken, RowHorizontalBulk, RowHorizontalLinear, RowHorizontalOutline, RowHorizontalTwotone };

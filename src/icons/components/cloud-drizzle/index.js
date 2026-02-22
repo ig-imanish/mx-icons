@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-drizzle-twotone",
     Component: CloudDrizzleTwotone,
     componentName: "CloudDrizzleTwotone",
-  }
+  },
 ];
-
-export default { CloudDrizzleBold, CloudDrizzleBroken, CloudDrizzleBulk, CloudDrizzleLinear, CloudDrizzleOutline, CloudDrizzleTwotone };

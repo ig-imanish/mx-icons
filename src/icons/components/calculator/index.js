@@ -43,7 +43,5 @@ export const variants = [
     slug: "calculator-twotone",
     Component: CalculatorTwotone,
     componentName: "CalculatorTwotone",
-  }
+  },
 ];
-
-export default { CalculatorBold, CalculatorBroken, CalculatorBulk, CalculatorLinear, CalculatorOutline, CalculatorTwotone };

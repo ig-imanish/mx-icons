@@ -43,7 +43,5 @@ export const variants = [
     slug: "card-edit-twotone",
     Component: CardEditTwotone,
     componentName: "CardEditTwotone",
-  }
+  },
 ];
-
-export default { CardEditBold, CardEditBroken, CardEditBulk, CardEditLinear, CardEditOutline, CardEditTwotone };

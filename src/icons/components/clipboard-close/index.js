@@ -43,7 +43,5 @@ export const variants = [
     slug: "clipboard-close-twotone",
     Component: ClipboardCloseTwotone,
     componentName: "ClipboardCloseTwotone",
-  }
+  },
 ];
-
-export default { ClipboardCloseBold, ClipboardCloseBroken, ClipboardCloseBulk, ClipboardCloseLinear, ClipboardCloseOutline, ClipboardCloseTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "language-square-twotone",
     Component: LanguageSquareTwotone,
     componentName: "LanguageSquareTwotone",
-  }
+  },
 ];
-
-export default { LanguageSquareBold, LanguageSquareBroken, LanguageSquareBulk, LanguageSquareLinear, LanguageSquareOutline, LanguageSquareTwotone };

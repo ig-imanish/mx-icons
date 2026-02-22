@@ -43,7 +43,5 @@ export const variants = [
     slug: "fatrows-twotone",
     Component: FatrowsTwotone,
     componentName: "FatrowsTwotone",
-  }
+  },
 ];
-
-export default { FatrowsBold, FatrowsBroken, FatrowsBulk, FatrowsLinear, FatrowsOutline, FatrowsTwotone };

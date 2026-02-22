@@ -43,7 +43,5 @@ export const variants = [
     slug: "global-search-twotone",
     Component: GlobalSearchTwotone,
     componentName: "GlobalSearchTwotone",
-  }
+  },
 ];
-
-export default { GlobalSearchBold, GlobalSearchBroken, GlobalSearchBulk, GlobalSearchLinear, GlobalSearchOutline, GlobalSearchTwotone };

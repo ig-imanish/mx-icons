@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-circle-twotone",
     Component: MessageCircleTwotone,
     componentName: "MessageCircleTwotone",
-  }
+  },
 ];
-
-export default { MessageCircleBold, MessageCircleBroken, MessageCircleBulk, MessageCircleLinear, MessageCircleOutline, MessageCircleTwotone };

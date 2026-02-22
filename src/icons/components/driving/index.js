@@ -43,7 +43,5 @@ export const variants = [
     slug: "driving-twotone",
     Component: DrivingTwotone,
     componentName: "DrivingTwotone",
-  }
+  },
 ];
-
-export default { DrivingBold, DrivingBroken, DrivingBulk, DrivingLinear, DrivingOutline, DrivingTwotone };

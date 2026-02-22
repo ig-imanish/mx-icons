@@ -43,7 +43,5 @@ export const variants = [
     slug: "tick-square-twotone",
     Component: TickSquareTwotone,
     componentName: "TickSquareTwotone",
-  }
+  },
 ];
-
-export default { TickSquareBold, TickSquareBroken, TickSquareBulk, TickSquareLinear, TickSquareOutline, TickSquareTwotone };

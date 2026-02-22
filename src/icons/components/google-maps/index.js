@@ -1,8 +1,8 @@
 import GoogleMapsBold from "./GoogleMapsBold";
-import GoogleMapsLinear from "./GoogleMapsLinear";
 import GoogleMapsBulk from "./GoogleMapsBulk";
+import GoogleMapsLinear from "./GoogleMapsLinear";
 
-export { GoogleMapsBold, GoogleMapsLinear, GoogleMapsBulk };
+export { GoogleMapsBold, GoogleMapsBulk, GoogleMapsLinear };
 
 export const variants = [
   {
@@ -12,17 +12,15 @@ export const variants = [
     componentName: "GoogleMapsBold",
   },
   {
-    variant: "linear",
-    slug: "google-maps-linear",
-    Component: GoogleMapsLinear,
-    componentName: "GoogleMapsLinear",
-  },
-  {
     variant: "bulk",
     slug: "google-maps-bulk",
     Component: GoogleMapsBulk,
     componentName: "GoogleMapsBulk",
   },
+  {
+    variant: "linear",
+    slug: "google-maps-linear",
+    Component: GoogleMapsLinear,
+    componentName: "GoogleMapsLinear",
+  },
 ];
-
-export default { GoogleMapsBold, GoogleMapsLinear, GoogleMapsBulk };

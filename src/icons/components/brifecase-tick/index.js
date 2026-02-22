@@ -43,7 +43,5 @@ export const variants = [
     slug: "brifecase-tick-twotone",
     Component: BrifecaseTickTwotone,
     componentName: "BrifecaseTickTwotone",
-  }
+  },
 ];
-
-export default { BrifecaseTickBold, BrifecaseTickBroken, BrifecaseTickBulk, BrifecaseTickLinear, BrifecaseTickOutline, BrifecaseTickTwotone };

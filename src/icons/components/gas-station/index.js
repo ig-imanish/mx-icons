@@ -36,7 +36,5 @@ export const variants = [
     slug: "gas-station-outline",
     Component: GasStationOutline,
     componentName: "GasStationOutline",
-  }
+  },
 ];
-
-export default { GasStationBold, GasStationBroken, GasStationBulk, GasStationLinear, GasStationOutline };

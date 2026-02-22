@@ -43,7 +43,5 @@ export const variants = [
     slug: "format-square-twotone",
     Component: FormatSquareTwotone,
     componentName: "FormatSquareTwotone",
-  }
+  },
 ];
-
-export default { FormatSquareBold, FormatSquareBroken, FormatSquareBulk, FormatSquareLinear, FormatSquareOutline, FormatSquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "call-minus-twotone",
     Component: CallMinusTwotone,
     componentName: "CallMinusTwotone",
-  }
+  },
 ];
-
-export default { CallMinusBold, CallMinusBroken, CallMinusBulk, CallMinusLinear, CallMinusOutline, CallMinusTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "cards-twotone",
     Component: CardsTwotone,
     componentName: "CardsTwotone",
-  }
+  },
 ];
-
-export default { CardsBold, CardsBroken, CardsBulk, CardsLinear, CardsOutline, CardsTwotone };

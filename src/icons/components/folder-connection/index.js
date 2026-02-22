@@ -43,7 +43,5 @@ export const variants = [
     slug: "folder-connection-twotone",
     Component: FolderConnectionTwotone,
     componentName: "FolderConnectionTwotone",
-  }
+  },
 ];
-
-export default { FolderConnectionBold, FolderConnectionBroken, FolderConnectionBulk, FolderConnectionLinear, FolderConnectionOutline, FolderConnectionTwotone };

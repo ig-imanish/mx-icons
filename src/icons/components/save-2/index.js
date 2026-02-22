@@ -10,40 +10,38 @@ export { Save2Bold, Save2Broken, Save2Bulk, Save2Linear, Save2Outline, Save2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "save-2-bold",
+    slug: "save2-bold",
     Component: Save2Bold,
     componentName: "Save2Bold",
   },
   {
     variant: "broken",
-    slug: "save-2-broken",
+    slug: "save2-broken",
     Component: Save2Broken,
     componentName: "Save2Broken",
   },
   {
     variant: "bulk",
-    slug: "save-2-bulk",
+    slug: "save2-bulk",
     Component: Save2Bulk,
     componentName: "Save2Bulk",
   },
   {
     variant: "linear",
-    slug: "save-2-linear",
+    slug: "save2-linear",
     Component: Save2Linear,
     componentName: "Save2Linear",
   },
   {
     variant: "outline",
-    slug: "save-2-outline",
+    slug: "save2-outline",
     Component: Save2Outline,
     componentName: "Save2Outline",
   },
   {
     variant: "twotone",
-    slug: "save-2-twotone",
+    slug: "save2-twotone",
     Component: Save2Twotone,
     componentName: "Save2Twotone",
-  }
+  },
 ];
-
-export default { Save2Bold, Save2Broken, Save2Bulk, Save2Linear, Save2Outline, Save2Twotone };

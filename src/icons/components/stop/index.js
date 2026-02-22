@@ -43,7 +43,5 @@ export const variants = [
     slug: "stop-twotone",
     Component: StopTwotone,
     componentName: "StopTwotone",
-  }
+  },
 ];
-
-export default { StopBold, StopBroken, StopBulk, StopLinear, StopOutline, StopTwotone };

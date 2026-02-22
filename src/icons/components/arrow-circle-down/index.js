@@ -43,7 +43,5 @@ export const variants = [
     slug: "arrow-circle-down-twotone",
     Component: ArrowCircleDownTwotone,
     componentName: "ArrowCircleDownTwotone",
-  }
+  },
 ];
-
-export default { ArrowCircleDownBold, ArrowCircleDownBroken, ArrowCircleDownBulk, ArrowCircleDownLinear, ArrowCircleDownOutline, ArrowCircleDownTwotone };

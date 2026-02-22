@@ -43,7 +43,5 @@ export const variants = [
     slug: "strongbox-twotone",
     Component: StrongboxTwotone,
     componentName: "StrongboxTwotone",
-  }
+  },
 ];
-
-export default { StrongboxBold, StrongboxBroken, StrongboxBulk, StrongboxLinear, StrongboxOutline, StrongboxTwotone };

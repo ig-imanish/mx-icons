@@ -10,40 +10,38 @@ export { Import1Bold, Import1Broken, Import1Bulk, Import1Linear, Import1Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "import-1-bold",
+    slug: "import1-bold",
     Component: Import1Bold,
     componentName: "Import1Bold",
   },
   {
     variant: "broken",
-    slug: "import-1-broken",
+    slug: "import1-broken",
     Component: Import1Broken,
     componentName: "Import1Broken",
   },
   {
     variant: "bulk",
-    slug: "import-1-bulk",
+    slug: "import1-bulk",
     Component: Import1Bulk,
     componentName: "Import1Bulk",
   },
   {
     variant: "linear",
-    slug: "import-1-linear",
+    slug: "import1-linear",
     Component: Import1Linear,
     componentName: "Import1Linear",
   },
   {
     variant: "outline",
-    slug: "import-1-outline",
+    slug: "import1-outline",
     Component: Import1Outline,
     componentName: "Import1Outline",
   },
   {
     variant: "twotone",
-    slug: "import-1-twotone",
+    slug: "import1-twotone",
     Component: Import1Twotone,
     componentName: "Import1Twotone",
-  }
+  },
 ];
-
-export default { Import1Bold, Import1Broken, Import1Bulk, Import1Linear, Import1Outline, Import1Twotone };

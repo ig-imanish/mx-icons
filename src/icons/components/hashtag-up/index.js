@@ -43,7 +43,5 @@ export const variants = [
     slug: "hashtag-up-twotone",
     Component: HashtagUpTwotone,
     componentName: "HashtagUpTwotone",
-  }
+  },
 ];
-
-export default { HashtagUpBold, HashtagUpBroken, HashtagUpBulk, HashtagUpLinear, HashtagUpOutline, HashtagUpTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "filter-tick-twotone",
     Component: FilterTickTwotone,
     componentName: "FilterTickTwotone",
-  }
+  },
 ];
-
-export default { FilterTickBold, FilterTickBroken, FilterTickBulk, FilterTickLinear, FilterTickOutline, FilterTickTwotone };

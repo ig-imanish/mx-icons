@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function EmailAlertTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M10 11l-8 -5h16l-8 5Z" fill="currentColor" fill-opacity="0">
+		<animate attributeName="fill-opacity" begin="1.3s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M2 5h16c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-12c0 -0.55 0.45 -1 1 -1Z" stroke-dasharray="66">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="66;0" />
+		</path>
+		<path d="M1 6.5l9 5.5l9 -5.5" stroke-dasharray="24" stroke-dashoffset="24">
+			<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M23 8v4" stroke-dasharray="6" stroke-dashoffset="6">
+			<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M23 16v0.01" stroke-dasharray="4" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

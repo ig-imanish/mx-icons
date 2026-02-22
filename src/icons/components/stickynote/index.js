@@ -43,7 +43,5 @@ export const variants = [
     slug: "stickynote-twotone",
     Component: StickynoteTwotone,
     componentName: "StickynoteTwotone",
-  }
+  },
 ];
-
-export default { StickynoteBold, StickynoteBroken, StickynoteBulk, StickynoteLinear, StickynoteOutline, StickynoteTwotone };

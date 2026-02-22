@@ -43,7 +43,5 @@ export const variants = [
     slug: "microscope-twotone",
     Component: MicroscopeTwotone,
     componentName: "MicroscopeTwotone",
-  }
+  },
 ];
-
-export default { MicroscopeBold, MicroscopeBroken, MicroscopeBulk, MicroscopeLinear, MicroscopeOutline, MicroscopeTwotone };

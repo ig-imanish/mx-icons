@@ -43,7 +43,5 @@ export const variants = [
     slug: "money-forbidden-twotone",
     Component: MoneyForbiddenTwotone,
     componentName: "MoneyForbiddenTwotone",
-  }
+  },
 ];
-
-export default { MoneyForbiddenBold, MoneyForbiddenBroken, MoneyForbiddenBulk, MoneyForbiddenLinear, MoneyForbiddenOutline, MoneyForbiddenTwotone };

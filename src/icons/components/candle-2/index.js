@@ -10,40 +10,38 @@ export { Candle2Bold, Candle2Broken, Candle2Bulk, Candle2Linear, Candle2Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "candle-2-bold",
+    slug: "candle2-bold",
     Component: Candle2Bold,
     componentName: "Candle2Bold",
   },
   {
     variant: "broken",
-    slug: "candle-2-broken",
+    slug: "candle2-broken",
     Component: Candle2Broken,
     componentName: "Candle2Broken",
   },
   {
     variant: "bulk",
-    slug: "candle-2-bulk",
+    slug: "candle2-bulk",
     Component: Candle2Bulk,
     componentName: "Candle2Bulk",
   },
   {
     variant: "linear",
-    slug: "candle-2-linear",
+    slug: "candle2-linear",
     Component: Candle2Linear,
     componentName: "Candle2Linear",
   },
   {
     variant: "outline",
-    slug: "candle-2-outline",
+    slug: "candle2-outline",
     Component: Candle2Outline,
     componentName: "Candle2Outline",
   },
   {
     variant: "twotone",
-    slug: "candle-2-twotone",
+    slug: "candle2-twotone",
     Component: Candle2Twotone,
     componentName: "Candle2Twotone",
-  }
+  },
 ];
-
-export default { Candle2Bold, Candle2Broken, Candle2Bulk, Candle2Linear, Candle2Outline, Candle2Twotone };

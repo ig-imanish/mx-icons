@@ -43,7 +43,5 @@ export const variants = [
     slug: "save-add-twotone",
     Component: SaveAddTwotone,
     componentName: "SaveAddTwotone",
-  }
+  },
 ];
-
-export default { SaveAddBold, SaveAddBroken, SaveAddBulk, SaveAddLinear, SaveAddOutline, SaveAddTwotone };

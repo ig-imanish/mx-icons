@@ -1,0 +1,40 @@
+import Icon from "../../Icon";
+
+export default function ClipboardArrow({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<g stroke-width="2">
+			<path d="M12 3h7v8" stroke-dasharray="18">
+				<animate attributeName="stroke-dashoffset" dur="0.3s" fill="freeze" values="18;0" />
+			</path>
+			<path d="M19 17v4h-14v-18h7" stroke-dasharray="46" stroke-dashoffset="46">
+				<animate attributeName="stroke-dashoffset" begin="0.3s" dur="0.5s" fill="freeze" to="0" />
+			</path>
+		</g>
+		<path d="M14.5 3.5v3h-5v-3" stroke-dasharray="14" stroke-dashoffset="14">
+			<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<g stroke-width="2">
+			<path d="M21 14h-8.5" stroke-dasharray="12" stroke-dashoffset="12">
+				<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M12 14l3 3M12 14l3 -3" stroke-dasharray="8" stroke-dashoffset="8">
+				<animate attributeName="stroke-dashoffset" begin="1.3s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+	</g>
+    </Icon>
+  );
+}

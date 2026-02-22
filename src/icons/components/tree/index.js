@@ -43,7 +43,5 @@ export const variants = [
     slug: "tree-twotone",
     Component: TreeTwotone,
     componentName: "TreeTwotone",
-  }
+  },
 ];
-
-export default { TreeBold, TreeBroken, TreeBulk, TreeLinear, TreeOutline, TreeTwotone };

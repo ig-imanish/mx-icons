@@ -43,7 +43,5 @@ export const variants = [
     slug: "refresh-circle-twotone",
     Component: RefreshCircleTwotone,
     componentName: "RefreshCircleTwotone",
-  }
+  },
 ];
-
-export default { RefreshCircleBold, RefreshCircleBroken, RefreshCircleBulk, RefreshCircleLinear, RefreshCircleOutline, RefreshCircleTwotone };

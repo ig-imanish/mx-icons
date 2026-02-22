@@ -43,7 +43,5 @@ export const variants = [
     slug: "command-square-twotone",
     Component: CommandSquareTwotone,
     componentName: "CommandSquareTwotone",
-  }
+  },
 ];
-
-export default { CommandSquareBold, CommandSquareBroken, CommandSquareBulk, CommandSquareLinear, CommandSquareOutline, CommandSquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "mirroring-screen-twotone",
     Component: MirroringScreenTwotone,
     componentName: "MirroringScreenTwotone",
-  }
+  },
 ];
-
-export default { MirroringScreenBold, MirroringScreenBroken, MirroringScreenBulk, MirroringScreenLinear, MirroringScreenOutline, MirroringScreenTwotone };

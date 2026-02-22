@@ -43,7 +43,5 @@ export const variants = [
     slug: "security-user-twotone",
     Component: SecurityUserTwotone,
     componentName: "SecurityUserTwotone",
-  }
+  },
 ];
-
-export default { SecurityUserBold, SecurityUserBroken, SecurityUserBulk, SecurityUserLinear, SecurityUserOutline, SecurityUserTwotone };

@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function PeertubeAlt({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="currentColor">
+		<path d="M12 6.67l8 5.33l-8 5.34Z">
+			<animate attributeName="d" dur="0.4s" fill="freeze" values="M12 6.67l0 5.33l0 5.34Z;M12 6.67l8 5.33l-8 5.34Z" />
+		</path>
+		<path d="M8 9.34l4 -2.67l-8 5.33Z">
+			<animate attributeName="d" begin="0.2s" dur="0.4s" fill="freeze" to="M4 1.34l8 5.33l-8 5.33Z" />
+		</path>
+		<path d="M4 12l8 5.34l-4 -2.67Z">
+			<animate attributeName="d" begin="0.4s" dur="0.4s" fill="freeze" to="M4 12l8 5.34l-8 5.33Z" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

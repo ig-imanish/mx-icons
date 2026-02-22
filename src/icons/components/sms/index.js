@@ -43,7 +43,5 @@ export const variants = [
     slug: "sms-twotone",
     Component: SmsTwotone,
     componentName: "SmsTwotone",
-  }
+  },
 ];
-
-export default { SmsBold, SmsBroken, SmsBulk, SmsLinear, SmsOutline, SmsTwotone };

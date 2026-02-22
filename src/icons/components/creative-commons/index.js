@@ -43,7 +43,5 @@ export const variants = [
     slug: "creative-commons-twotone",
     Component: CreativeCommonsTwotone,
     componentName: "CreativeCommonsTwotone",
-  }
+  },
 ];
-
-export default { CreativeCommonsBold, CreativeCommonsBroken, CreativeCommonsBulk, CreativeCommonsLinear, CreativeCommonsOutline, CreativeCommonsTwotone };

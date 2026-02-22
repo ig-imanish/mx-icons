@@ -43,7 +43,5 @@ export const variants = [
     slug: "mini-music-sqaure-twotone",
     Component: MiniMusicSqaureTwotone,
     componentName: "MiniMusicSqaureTwotone",
-  }
+  },
 ];
-
-export default { MiniMusicSqaureBold, MiniMusicSqaureBroken, MiniMusicSqaureBulk, MiniMusicSqaureLinear, MiniMusicSqaureOutline, MiniMusicSqaureTwotone };

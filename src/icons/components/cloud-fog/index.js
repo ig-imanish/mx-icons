@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-fog-twotone",
     Component: CloudFogTwotone,
     componentName: "CloudFogTwotone",
-  }
+  },
 ];
-
-export default { CloudFogBold, CloudFogBroken, CloudFogBulk, CloudFogLinear, CloudFogOutline, CloudFogTwotone };

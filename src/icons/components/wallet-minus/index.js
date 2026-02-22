@@ -43,7 +43,5 @@ export const variants = [
     slug: "wallet-minus-twotone",
     Component: WalletMinusTwotone,
     componentName: "WalletMinusTwotone",
-  }
+  },
 ];
-
-export default { WalletMinusBold, WalletMinusBroken, WalletMinusBulk, WalletMinusLinear, WalletMinusOutline, WalletMinusTwotone };

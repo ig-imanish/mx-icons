@@ -10,40 +10,38 @@ export { Maximize1Bold, Maximize1Broken, Maximize1Bulk, Maximize1Linear, Maximiz
 export const variants = [
   {
     variant: "bold",
-    slug: "maximize-1-bold",
+    slug: "maximize1-bold",
     Component: Maximize1Bold,
     componentName: "Maximize1Bold",
   },
   {
     variant: "broken",
-    slug: "maximize-1-broken",
+    slug: "maximize1-broken",
     Component: Maximize1Broken,
     componentName: "Maximize1Broken",
   },
   {
     variant: "bulk",
-    slug: "maximize-1-bulk",
+    slug: "maximize1-bulk",
     Component: Maximize1Bulk,
     componentName: "Maximize1Bulk",
   },
   {
     variant: "linear",
-    slug: "maximize-1-linear",
+    slug: "maximize1-linear",
     Component: Maximize1Linear,
     componentName: "Maximize1Linear",
   },
   {
     variant: "outline",
-    slug: "maximize-1-outline",
+    slug: "maximize1-outline",
     Component: Maximize1Outline,
     componentName: "Maximize1Outline",
   },
   {
     variant: "twotone",
-    slug: "maximize-1-twotone",
+    slug: "maximize1-twotone",
     Component: Maximize1Twotone,
     componentName: "Maximize1Twotone",
-  }
+  },
 ];
-
-export default { Maximize1Bold, Maximize1Broken, Maximize1Bulk, Maximize1Linear, Maximize1Outline, Maximize1Twotone };

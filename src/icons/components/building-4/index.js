@@ -10,40 +10,38 @@ export { Building4Bold, Building4Broken, Building4Bulk, Building4Linear, Buildin
 export const variants = [
   {
     variant: "bold",
-    slug: "building-4-bold",
+    slug: "building4-bold",
     Component: Building4Bold,
     componentName: "Building4Bold",
   },
   {
     variant: "broken",
-    slug: "building-4-broken",
+    slug: "building4-broken",
     Component: Building4Broken,
     componentName: "Building4Broken",
   },
   {
     variant: "bulk",
-    slug: "building-4-bulk",
+    slug: "building4-bulk",
     Component: Building4Bulk,
     componentName: "Building4Bulk",
   },
   {
     variant: "linear",
-    slug: "building-4-linear",
+    slug: "building4-linear",
     Component: Building4Linear,
     componentName: "Building4Linear",
   },
   {
     variant: "outline",
-    slug: "building-4-outline",
+    slug: "building4-outline",
     Component: Building4Outline,
     componentName: "Building4Outline",
   },
   {
     variant: "twotone",
-    slug: "building-4-twotone",
+    slug: "building4-twotone",
     Component: Building4Twotone,
     componentName: "Building4Twotone",
-  }
+  },
 ];
-
-export default { Building4Bold, Building4Broken, Building4Bulk, Building4Linear, Building4Outline, Building4Twotone };

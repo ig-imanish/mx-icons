@@ -10,40 +10,38 @@ export { Category2Bold, Category2Broken, Category2Bulk, Category2Linear, Categor
 export const variants = [
   {
     variant: "bold",
-    slug: "category-2-bold",
+    slug: "category2-bold",
     Component: Category2Bold,
     componentName: "Category2Bold",
   },
   {
     variant: "broken",
-    slug: "category-2-broken",
+    slug: "category2-broken",
     Component: Category2Broken,
     componentName: "Category2Broken",
   },
   {
     variant: "bulk",
-    slug: "category-2-bulk",
+    slug: "category2-bulk",
     Component: Category2Bulk,
     componentName: "Category2Bulk",
   },
   {
     variant: "linear",
-    slug: "category-2-linear",
+    slug: "category2-linear",
     Component: Category2Linear,
     componentName: "Category2Linear",
   },
   {
     variant: "outline",
-    slug: "category-2-outline",
+    slug: "category2-outline",
     Component: Category2Outline,
     componentName: "Category2Outline",
   },
   {
     variant: "twotone",
-    slug: "category-2-twotone",
+    slug: "category2-twotone",
     Component: Category2Twotone,
     componentName: "Category2Twotone",
-  }
+  },
 ];
-
-export default { Category2Bold, Category2Broken, Category2Bulk, Category2Linear, Category2Outline, Category2Twotone };

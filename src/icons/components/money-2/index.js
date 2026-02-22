@@ -10,40 +10,38 @@ export { Money2Bold, Money2Broken, Money2Bulk, Money2Linear, Money2Outline, Mone
 export const variants = [
   {
     variant: "bold",
-    slug: "money-2-bold",
+    slug: "money2-bold",
     Component: Money2Bold,
     componentName: "Money2Bold",
   },
   {
     variant: "broken",
-    slug: "money-2-broken",
+    slug: "money2-broken",
     Component: Money2Broken,
     componentName: "Money2Broken",
   },
   {
     variant: "bulk",
-    slug: "money-2-bulk",
+    slug: "money2-bulk",
     Component: Money2Bulk,
     componentName: "Money2Bulk",
   },
   {
     variant: "linear",
-    slug: "money-2-linear",
+    slug: "money2-linear",
     Component: Money2Linear,
     componentName: "Money2Linear",
   },
   {
     variant: "outline",
-    slug: "money-2-outline",
+    slug: "money2-outline",
     Component: Money2Outline,
     componentName: "Money2Outline",
   },
   {
     variant: "twotone",
-    slug: "money-2-twotone",
+    slug: "money2-twotone",
     Component: Money2Twotone,
     componentName: "Money2Twotone",
-  }
+  },
 ];
-
-export default { Money2Bold, Money2Broken, Money2Bulk, Money2Linear, Money2Outline, Money2Twotone };

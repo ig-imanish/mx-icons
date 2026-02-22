@@ -43,7 +43,5 @@ export const variants = [
     slug: "category-twotone",
     Component: CategoryTwotone,
     componentName: "CategoryTwotone",
-  }
+  },
 ];
-
-export default { CategoryBold, CategoryBroken, CategoryBulk, CategoryLinear, CategoryOutline, CategoryTwotone };

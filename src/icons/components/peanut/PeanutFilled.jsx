@@ -1,0 +1,42 @@
+import Icon from "../../Icon";
+
+export default function PeanutFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGZHVzWbUK">
+			<path d="M12 2c2.5 0 5 2 5 5c0 1.13 -0.37 2.16 -1 3c-0.28 0.38 -0.5 1 -0.5 1.5c0 0.5 0.2 0.91 0.5 1.23c0.93 0.98 1.5 2.31 1.5 3.77c0 3.04 -2.46 5.5 -5.5 5.5c-3.04 0 -5.5 -2.46 -5.5 -5.5c0 -1.46 0.57 -2.79 1.5 -3.77c0.3 -0.32 0.5 -0.73 0.5 -1.23c0 -0.5 -0.22 -1.12 -0.5 -1.5c-0.63 -0.84 -1 -1.87 -1 -3c0 -2.76 2 -5 5 -5Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="56" fill-opacity="0">
+				<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="56;0" />
+				<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<g fill="currentColor">
+				<circle cx="13" cy="15">
+					<animate attributeName="r" begin="1.1s" dur="0.2s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="13" cy="6">
+					<animate attributeName="r" begin="1.3s" dur="0.2s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="11" cy="17">
+					<animate attributeName="r" begin="1.5s" dur="0.2s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="14" cy="18">
+					<animate attributeName="r" begin="1.7s" dur="0.2s" fill="freeze" to="1" />
+				</circle>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGZHVzWbUK)" />
+    </Icon>
+  );
+}

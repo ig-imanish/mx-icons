@@ -5,10 +5,8 @@ export { BucketCircle1Linear };
 export const variants = [
   {
     variant: "linear",
-    slug: "bucket-circle-1-linear",
+    slug: "bucket-circle1-linear",
     Component: BucketCircle1Linear,
     componentName: "BucketCircle1Linear",
-  }
+  },
 ];
-
-export default { BucketCircle1Linear };

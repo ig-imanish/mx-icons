@@ -1,0 +1,43 @@
+import Icon from "../../Icon";
+
+export default function CloudAltPrintFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGhcLUtczd">
+			<g fill="currentColor">
+				<path d="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="60" fill-opacity="0">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+					<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+				</path>
+				<path d="M6 11h12v0h-12Z">
+					<animate attributeName="d" begin="1.1s" dur="0.2s" fill="freeze" to="M6 11h12v4h-12Z" />
+					<animate attributeName="d" begin="1.3s" dur="0.6s" fill="freeze" values="M6 11h12v4h-12Z;M6 11h12v11h-12Z" />
+				</path>
+			</g>
+			<path d="M8 13h8v0h-8Z" fill="currentColor">
+				<animate attributeName="d" begin="1.3s" dur="0.6s" fill="freeze" to="M8 13h8v7h-8Z" />
+			</path>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGhcLUtczd)" />
+		<path d="M9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6ZM9 18h6v1h-6Z" opacity="0">
+			<set attributeName="opacity" to="1" begin="1.3s" fill="freeze" />
+			<animate attributeName="d" begin="1.3s" dur="0.6s" fill="freeze" keyTimes="0;0.33;0.66;1" values="M9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6Z;M9 12h6v1h-6ZM9 12h6v1h-6ZM9 12h6v1h-6ZM9 14h6v1h-6Z;M9 12h6v1h-6ZM9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6Z;M9 12h6v1h-6ZM9 14h6v1h-6ZM9 16h6v1h-6ZM9 18h6v1h-6Z" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

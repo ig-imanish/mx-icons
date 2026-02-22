@@ -43,7 +43,5 @@ export const variants = [
     slug: "arrange-circle-twotone",
     Component: ArrangeCircleTwotone,
     componentName: "ArrangeCircleTwotone",
-  }
+  },
 ];
-
-export default { ArrangeCircleBold, ArrangeCircleBroken, ArrangeCircleBulk, ArrangeCircleLinear, ArrangeCircleOutline, ArrangeCircleTwotone };

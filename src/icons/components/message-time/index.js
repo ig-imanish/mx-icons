@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-time-twotone",
     Component: MessageTimeTwotone,
     componentName: "MessageTimeTwotone",
-  }
+  },
 ];
-
-export default { MessageTimeBold, MessageTimeBroken, MessageTimeBulk, MessageTimeLinear, MessageTimeOutline, MessageTimeTwotone };

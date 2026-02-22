@@ -10,40 +10,38 @@ export { SearchFavorite1Bold, SearchFavorite1Broken, SearchFavorite1Bulk, Search
 export const variants = [
   {
     variant: "bold",
-    slug: "search-favorite-1-bold",
+    slug: "search-favorite1-bold",
     Component: SearchFavorite1Bold,
     componentName: "SearchFavorite1Bold",
   },
   {
     variant: "broken",
-    slug: "search-favorite-1-broken",
+    slug: "search-favorite1-broken",
     Component: SearchFavorite1Broken,
     componentName: "SearchFavorite1Broken",
   },
   {
     variant: "bulk",
-    slug: "search-favorite-1-bulk",
+    slug: "search-favorite1-bulk",
     Component: SearchFavorite1Bulk,
     componentName: "SearchFavorite1Bulk",
   },
   {
     variant: "linear",
-    slug: "search-favorite-1-linear",
+    slug: "search-favorite1-linear",
     Component: SearchFavorite1Linear,
     componentName: "SearchFavorite1Linear",
   },
   {
     variant: "outline",
-    slug: "search-favorite-1-outline",
+    slug: "search-favorite1-outline",
     Component: SearchFavorite1Outline,
     componentName: "SearchFavorite1Outline",
   },
   {
     variant: "twotone",
-    slug: "search-favorite-1-twotone",
+    slug: "search-favorite1-twotone",
     Component: SearchFavorite1Twotone,
     componentName: "SearchFavorite1Twotone",
-  }
+  },
 ];
-
-export default { SearchFavorite1Bold, SearchFavorite1Broken, SearchFavorite1Bulk, SearchFavorite1Linear, SearchFavorite1Outline, SearchFavorite1Twotone };

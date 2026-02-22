@@ -10,40 +10,38 @@ export { Like1Bold, Like1Broken, Like1Bulk, Like1Linear, Like1Outline, Like1Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "like-1-bold",
+    slug: "like1-bold",
     Component: Like1Bold,
     componentName: "Like1Bold",
   },
   {
     variant: "broken",
-    slug: "like-1-broken",
+    slug: "like1-broken",
     Component: Like1Broken,
     componentName: "Like1Broken",
   },
   {
     variant: "bulk",
-    slug: "like-1-bulk",
+    slug: "like1-bulk",
     Component: Like1Bulk,
     componentName: "Like1Bulk",
   },
   {
     variant: "linear",
-    slug: "like-1-linear",
+    slug: "like1-linear",
     Component: Like1Linear,
     componentName: "Like1Linear",
   },
   {
     variant: "outline",
-    slug: "like-1-outline",
+    slug: "like1-outline",
     Component: Like1Outline,
     componentName: "Like1Outline",
   },
   {
     variant: "twotone",
-    slug: "like-1-twotone",
+    slug: "like1-twotone",
     Component: Like1Twotone,
     componentName: "Like1Twotone",
-  }
+  },
 ];
-
-export default { Like1Bold, Like1Broken, Like1Bulk, Like1Linear, Like1Outline, Like1Twotone };

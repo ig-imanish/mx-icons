@@ -43,7 +43,5 @@ export const variants = [
     slug: "brifecase-cross-twotone",
     Component: BrifecaseCrossTwotone,
     componentName: "BrifecaseCrossTwotone",
-  }
+  },
 ];
-
-export default { BrifecaseCrossBold, BrifecaseCrossBroken, BrifecaseCrossBulk, BrifecaseCrossLinear, BrifecaseCrossOutline, BrifecaseCrossTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "mirror-twotone",
     Component: MirrorTwotone,
     componentName: "MirrorTwotone",
-  }
+  },
 ];
-
-export default { MirrorBold, MirrorBroken, MirrorBulk, MirrorLinear, MirrorOutline, MirrorTwotone };

@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function Pleroma({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="currentColor">
+		<path d="M6 3.5c0 -0.75 0.75 -1.5 1.5 -1.5h3.5v20h-5Z">
+			<animate attributeName="d" dur="0.4s" fill="freeze" values="M6 2c0 0 0.75 0 1.5 0h3.5v0h-5Z;M6 3.5c0 -0.75 0.75 -1.5 1.5 -1.5h3.5v20h-5Z" />
+		</path>
+		<path d="M13.5 2h0v8.5c0 0.75 0 1.5 0 1.5h0Z">
+			<animate attributeName="d" begin="0.5s" dur="0.2s" fill="freeze" to="M13.5 2h5v8.5c0 0.75 -0.75 1.5 -1.5 1.5h-3.5Z" />
+		</path>
+		<path d="M13.5 17h0v0c0 0 0 0 0 0h0Z">
+			<animate attributeName="d" begin="0.8s" dur="0.2s" fill="freeze" to="M13.5 17h5v3.5c0 0.75 -0.75 1.5 -1.5 1.5h-3.5Z" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

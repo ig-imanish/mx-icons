@@ -43,7 +43,5 @@ export const variants = [
     slug: "shop-add-twotone",
     Component: ShopAddTwotone,
     componentName: "ShopAddTwotone",
-  }
+  },
 ];
-
-export default { ShopAddBold, ShopAddBroken, ShopAddBulk, ShopAddLinear, ShopAddOutline, ShopAddTwotone };

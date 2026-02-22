@@ -10,40 +10,38 @@ export { Strongbox2Bold, Strongbox2Broken, Strongbox2Bulk, Strongbox2Linear, Str
 export const variants = [
   {
     variant: "bold",
-    slug: "strongbox-2-bold",
+    slug: "strongbox2-bold",
     Component: Strongbox2Bold,
     componentName: "Strongbox2Bold",
   },
   {
     variant: "broken",
-    slug: "strongbox-2-broken",
+    slug: "strongbox2-broken",
     Component: Strongbox2Broken,
     componentName: "Strongbox2Broken",
   },
   {
     variant: "bulk",
-    slug: "strongbox-2-bulk",
+    slug: "strongbox2-bulk",
     Component: Strongbox2Bulk,
     componentName: "Strongbox2Bulk",
   },
   {
     variant: "linear",
-    slug: "strongbox-2-linear",
+    slug: "strongbox2-linear",
     Component: Strongbox2Linear,
     componentName: "Strongbox2Linear",
   },
   {
     variant: "outline",
-    slug: "strongbox-2-outline",
+    slug: "strongbox2-outline",
     Component: Strongbox2Outline,
     componentName: "Strongbox2Outline",
   },
   {
     variant: "twotone",
-    slug: "strongbox-2-twotone",
+    slug: "strongbox2-twotone",
     Component: Strongbox2Twotone,
     componentName: "Strongbox2Twotone",
-  }
+  },
 ];
-
-export default { Strongbox2Bold, Strongbox2Broken, Strongbox2Bulk, Strongbox2Linear, Strongbox2Outline, Strongbox2Twotone };

@@ -1,0 +1,52 @@
+import Icon from "../../Icon";
+
+export default function MushroomOffFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGxBU8Xd7I">
+			<path d="M20 13c0.55 0 1 -0.45 1 -1c0 -4.97 -4.03 -9 -9 -9c-4.97 0 -9 4.03 -9 9c0 0.55 0.45 1 1 1ZM14.5 21c0.5 0 0.85 -0.5 0.85 -1c0 -0.5 -1.1 -4 -1.1 -4h-4.5c0 0 -1.1 3.5 -1.1 4c0 0.5 0.35 1 0.85 1Z" fill="currentColor" fill-opacity="0">
+				<animate attributeName="fill-opacity" begin="1s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="M12 21h2.5c0.5 0 0.85 -0.5 0.85 -1c0 -0.5 -1.1 -4 -1.1 -4h-2.25M12 21h-2.5c-0.5 0 -0.85 -0.5 -0.85 -1c0 -0.5 1.1 -4 1.1 -4h2.25" stroke-dasharray="14">
+					<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="14;0" />
+				</path>
+				<path d="M12 13h8c0.55 0 1 -0.45 1 -1c0 -4.97 -4.03 -9 -9 -9M12 13h-8c-0.55 0 -1 -0.45 -1 -1c0 -4.97 4.03 -9 9 -9" stroke-dasharray="26" stroke-dashoffset="26">
+					<animate attributeName="stroke-dashoffset" begin="0.4s" dur="0.6s" fill="freeze" to="0" />
+				</path>
+			</g>
+			<g fill="currentColor">
+				<circle cx="11" cy="5">
+					<animate attributeName="r" begin="1.5s" dur="0.2s" fill="freeze" to="2" />
+				</circle>
+				<circle cx="6" cy="9">
+					<animate attributeName="r" begin="1.7s" dur="0.2s" fill="freeze" to="2" />
+				</circle>
+				<circle cx="16" cy="9">
+					<animate attributeName="r" begin="1.9s" dur="0.2s" fill="freeze" to="2" />
+				</circle>
+			</g>
+			<path d="M-1 11h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+				<animate attributeName="stroke-dashoffset" begin="2.1s" dur="0.4s" fill="freeze" to="0" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGxBU8Xd7I)" />
+	<path d="M-1 13h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+		<animate attributeName="stroke-dashoffset" begin="2.1s" dur="0.4s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

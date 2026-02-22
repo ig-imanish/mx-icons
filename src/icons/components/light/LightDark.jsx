@@ -1,0 +1,59 @@
+import Icon from "../../Icon";
+
+export default function LightDark({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGew1PDeaX">
+			<circle cx="7.5" cy="7.5" r="5.5" fill="currentColor" />
+			<circle cx="11" cy="7.5" r="6.5" fill="currentColor">
+				<animate attributeName="cx" dur="0.4s" fill="freeze" values="7.5;11" />
+				<animate attributeName="r" dur="0.4s" fill="freeze" values="5.5;6.5" />
+			</circle>
+		</mask>
+		<mask id="SVGwT7gCKCt">
+			<g fill="currentColor">
+				<circle cx="12" cy="9" r="5.5" transform="rotate(-45 12 12)">
+					<animate attributeName="cy" begin="0.9s" dur="0.5s" fill="freeze" to="15" />
+				</circle>
+				<path d="M12.62 20.62h3l-1.5 2.5Z" transform="rotate(-120 14.12 14.12)" opacity="0">
+					<set attributeName="opacity" to="1" begin="1.4s" fill="freeze" />
+					<animate attributeName="d" begin="1.4s" dur="0.4s" fill="freeze" values="M13.12 17.12h2l-1 2Z;M12.62 20.62h3l-1.5 2.5Z" />
+				</path>
+				<path d="M12.62 20.62h3l-1.5 2.5Z" transform="rotate(-70 14.12 14.12)" opacity="0">
+					<set attributeName="opacity" to="1" begin="1.4s" fill="freeze" />
+					<animate attributeName="d" begin="1.4s" dur="0.4s" fill="freeze" values="M13.12 17.12h2l-1 2Z;M12.62 20.62h3l-1.5 2.5Z" />
+				</path>
+				<path d="M12.62 20.62h3l-1.5 2.5Z" transform="rotate(-20 14.12 14.12)" opacity="0">
+					<set attributeName="opacity" to="1" begin="1.4s" fill="freeze" />
+					<animate attributeName="d" begin="1.4s" dur="0.4s" fill="freeze" values="M13.12 17.12h2l-1 2Z;M12.62 20.62h3l-1.5 2.5Z" />
+				</path>
+				<path d="M12.62 20.62h3l-1.5 2.5Z" transform="rotate(30 14.12 14.12)" opacity="0">
+					<set attributeName="opacity" to="1" begin="1.4s" fill="freeze" />
+					<animate attributeName="d" begin="1.4s" dur="0.4s" fill="freeze" values="M13.12 17.12h2l-1 2Z;M12.62 20.62h3l-1.5 2.5Z" />
+				</path>
+			</g>
+			<path d="M-4.97 12l18.38 -18.38l10.61 10.61l-18.38 18.38Z" fill="currentColor" />
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGew1PDeaX)" />
+		<path d="M0 0h24v24H0z" mask="url(#SVGwT7gCKCt)" />
+	</g>
+	<path d="M23 12h-22" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-45 12 12)" stroke-dasharray="24" stroke-dashoffset="24">
+		<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.3s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

@@ -43,7 +43,5 @@ export const variants = [
     slug: "play-add-twotone",
     Component: PlayAddTwotone,
     componentName: "PlayAddTwotone",
-  }
+  },
 ];
-
-export default { PlayAddBold, PlayAddBroken, PlayAddBulk, PlayAddLinear, PlayAddOutline, PlayAddTwotone };

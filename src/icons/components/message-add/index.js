@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-add-twotone",
     Component: MessageAddTwotone,
     componentName: "MessageAddTwotone",
-  }
+  },
 ];
-
-export default { MessageAddBold, MessageAddBroken, MessageAddBulk, MessageAddLinear, MessageAddOutline, MessageAddTwotone };

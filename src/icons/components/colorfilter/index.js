@@ -43,7 +43,5 @@ export const variants = [
     slug: "colorfilter-twotone",
     Component: ColorfilterTwotone,
     componentName: "ColorfilterTwotone",
-  }
+  },
 ];
-
-export default { ColorfilterBold, ColorfilterBroken, ColorfilterBulk, ColorfilterLinear, ColorfilterOutline, ColorfilterTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "man-twotone",
     Component: ManTwotone,
     componentName: "ManTwotone",
-  }
+  },
 ];
-
-export default { ManBold, ManBroken, ManBulk, ManLinear, ManOutline, ManTwotone };

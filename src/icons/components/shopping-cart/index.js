@@ -43,7 +43,5 @@ export const variants = [
     slug: "shopping-cart-twotone",
     Component: ShoppingCartTwotone,
     componentName: "ShoppingCartTwotone",
-  }
+  },
 ];
-
-export default { ShoppingCartBold, ShoppingCartBroken, ShoppingCartBulk, ShoppingCartLinear, ShoppingCartOutline, ShoppingCartTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "cd-twotone",
     Component: CdTwotone,
     componentName: "CdTwotone",
-  }
+  },
 ];
-
-export default { CdBold, CdBroken, CdBulk, CdLinear, CdOutline, CdTwotone };

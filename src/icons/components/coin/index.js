@@ -43,7 +43,5 @@ export const variants = [
     slug: "coin-twotone",
     Component: CoinTwotone,
     componentName: "CoinTwotone",
-  }
+  },
 ];
-
-export default { CoinBold, CoinBroken, CoinBulk, CoinLinear, CoinOutline, CoinTwotone };

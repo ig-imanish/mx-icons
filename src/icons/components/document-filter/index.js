@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-filter-twotone",
     Component: DocumentFilterTwotone,
     componentName: "DocumentFilterTwotone",
-  }
+  },
 ];
-
-export default { DocumentFilterBold, DocumentFilterBroken, DocumentFilterBulk, DocumentFilterLinear, DocumentFilterOutline, DocumentFilterTwotone };

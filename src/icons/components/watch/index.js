@@ -2,10 +2,16 @@ import WatchBold from "./WatchBold";
 import WatchBroken from "./WatchBroken";
 import WatchBulk from "./WatchBulk";
 import WatchLinear from "./WatchLinear";
+import WatchLoop from "./WatchLoop";
+import WatchOff from "./WatchOff";
+import WatchOffLoop from "./WatchOffLoop";
+import WatchOffTwotone from "./WatchOffTwotone";
+import WatchOffTwotoneLoop from "./WatchOffTwotoneLoop";
 import WatchOutline from "./WatchOutline";
 import WatchTwotone from "./WatchTwotone";
+import WatchTwotoneLoop from "./WatchTwotoneLoop";
 
-export { WatchBold, WatchBroken, WatchBulk, WatchLinear, WatchOutline, WatchTwotone };
+export { WatchBold, WatchBroken, WatchBulk, WatchLinear, WatchLoop, WatchOff, WatchOffLoop, WatchOffTwotone, WatchOffTwotoneLoop, WatchOutline, WatchTwotone, WatchTwotoneLoop };
 
 export const variants = [
   {
@@ -33,6 +39,36 @@ export const variants = [
     componentName: "WatchLinear",
   },
   {
+    variant: "linear",
+    slug: "watch-loop",
+    Component: WatchLoop,
+    componentName: "WatchLoop",
+  },
+  {
+    variant: "linear",
+    slug: "watch-off",
+    Component: WatchOff,
+    componentName: "WatchOff",
+  },
+  {
+    variant: "linear",
+    slug: "watch-off-loop",
+    Component: WatchOffLoop,
+    componentName: "WatchOffLoop",
+  },
+  {
+    variant: "twotone",
+    slug: "watch-off-twotone",
+    Component: WatchOffTwotone,
+    componentName: "WatchOffTwotone",
+  },
+  {
+    variant: "twotone",
+    slug: "watch-off-twotone-loop",
+    Component: WatchOffTwotoneLoop,
+    componentName: "WatchOffTwotoneLoop",
+  },
+  {
     variant: "outline",
     slug: "watch-outline",
     Component: WatchOutline,
@@ -43,7 +79,11 @@ export const variants = [
     slug: "watch-twotone",
     Component: WatchTwotone,
     componentName: "WatchTwotone",
-  }
+  },
+  {
+    variant: "twotone",
+    slug: "watch-twotone-loop",
+    Component: WatchTwotoneLoop,
+    componentName: "WatchTwotoneLoop",
+  },
 ];
-
-export default { WatchBold, WatchBroken, WatchBulk, WatchLinear, WatchOutline, WatchTwotone };

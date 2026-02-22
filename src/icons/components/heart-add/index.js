@@ -43,7 +43,5 @@ export const variants = [
     slug: "heart-add-twotone",
     Component: HeartAddTwotone,
     componentName: "HeartAddTwotone",
-  }
+  },
 ];
-
-export default { HeartAddBold, HeartAddBroken, HeartAddBulk, HeartAddLinear, HeartAddOutline, HeartAddTwotone };

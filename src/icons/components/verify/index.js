@@ -43,7 +43,5 @@ export const variants = [
     slug: "verify-twotone",
     Component: VerifyTwotone,
     componentName: "VerifyTwotone",
-  }
+  },
 ];
-
-export default { VerifyBold, VerifyBroken, VerifyBulk, VerifyLinear, VerifyOutline, VerifyTwotone };

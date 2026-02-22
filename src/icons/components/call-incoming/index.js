@@ -43,7 +43,5 @@ export const variants = [
     slug: "call-incoming-twotone",
     Component: CallIncomingTwotone,
     componentName: "CallIncomingTwotone",
-  }
+  },
 ];
-
-export default { CallIncomingBold, CallIncomingBroken, CallIncomingBulk, CallIncomingLinear, CallIncomingOutline, CallIncomingTwotone };

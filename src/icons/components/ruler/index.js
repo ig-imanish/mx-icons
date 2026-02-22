@@ -43,7 +43,5 @@ export const variants = [
     slug: "ruler-twotone",
     Component: RulerTwotone,
     componentName: "RulerTwotone",
-  }
+  },
 ];
-
-export default { RulerBold, RulerBroken, RulerBulk, RulerLinear, RulerOutline, RulerTwotone };

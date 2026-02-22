@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-favorite-twotone",
     Component: MessageFavoriteTwotone,
     componentName: "MessageFavoriteTwotone",
-  }
+  },
 ];
-
-export default { MessageFavoriteBold, MessageFavoriteBroken, MessageFavoriteBulk, MessageFavoriteLinear, MessageFavoriteOutline, MessageFavoriteTwotone };

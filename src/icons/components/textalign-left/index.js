@@ -43,7 +43,5 @@ export const variants = [
     slug: "textalign-left-twotone",
     Component: TextalignLeftTwotone,
     componentName: "TextalignLeftTwotone",
-  }
+  },
 ];
-
-export default { TextalignLeftBold, TextalignLeftBroken, TextalignLeftBulk, TextalignLeftLinear, TextalignLeftOutline, TextalignLeftTwotone };

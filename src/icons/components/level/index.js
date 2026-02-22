@@ -43,7 +43,5 @@ export const variants = [
     slug: "level-twotone",
     Component: LevelTwotone,
     componentName: "LevelTwotone",
-  }
+  },
 ];
-
-export default { LevelBold, LevelBroken, LevelBulk, LevelLinear, LevelOutline, LevelTwotone };

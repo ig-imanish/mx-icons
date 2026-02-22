@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-lightning-twotone",
     Component: CloudLightningTwotone,
     componentName: "CloudLightningTwotone",
-  }
+  },
 ];
-
-export default { CloudLightningBold, CloudLightningBroken, CloudLightningBulk, CloudLightningLinear, CloudLightningOutline, CloudLightningTwotone };

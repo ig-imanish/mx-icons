@@ -43,7 +43,5 @@ export const variants = [
     slug: "play-cricle-twotone",
     Component: PlayCricleTwotone,
     componentName: "PlayCricleTwotone",
-  }
+  },
 ];
-
-export default { PlayCricleBold, PlayCricleBroken, PlayCricleBulk, PlayCricleLinear, PlayCricleOutline, PlayCricleTwotone };

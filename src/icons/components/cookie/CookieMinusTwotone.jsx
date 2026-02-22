@@ -1,0 +1,51 @@
+import Icon from "../../Icon";
+
+export default function CookieMinusTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGPyjZQcSj">
+			<g fill="currentColor">
+				<path d="M12 4c-4.42 0 -8 3.58 -8 8c0 4.42 3.58 8 8 8c4.42 0 8 -3.58 8 -8v-1h-2c-0.55 0 -1 -0.45 -1 -1v-1h-2c-0.55 0 -1 -0.45 -1 -1v-1h-1c-0.55 0 -1 -0.45 -1 -1Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="56">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="56;0" />
+					<animate attributeName="fill-opacity" begin="0.6s" dur="0.15s" fill="freeze" to="0.3" />
+				</path>
+				<circle cx="9.5" cy="7.5" r="1.5" opacity="0">
+					<animate attributeName="opacity" begin="0.85s" dur="0.1s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="11" cy="17.5" r="1.5" opacity="0">
+					<animate attributeName="opacity" begin="0.95s" dur="0.1s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="6.5" cy="11.5" r="1.5" opacity="0">
+					<animate attributeName="opacity" begin="1.05s" dur="0.1s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="16.5" cy="14.5" r="1.5" opacity="0">
+					<animate attributeName="opacity" begin="1.15s" dur="0.1s" fill="freeze" to="1" />
+				</circle>
+				<circle cx="11.5" cy="12.5" r="1.5" opacity="0">
+					<animate attributeName="opacity" begin="1.25s" dur="0.1s" fill="freeze" to="1" />
+				</circle>
+			</g>
+			<path d="M19 13c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z" fill="currentColor" opacity="0">
+				<set attributeName="opacity" to="1" begin="1.35s" fill="freeze" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGPyjZQcSj)" />
+	<path d="M16 19h6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8" stroke-dashoffset="8">
+		<animate attributeName="stroke-dashoffset" begin="1.35s" dur="0.2s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

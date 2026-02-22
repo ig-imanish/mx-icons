@@ -43,7 +43,5 @@ export const variants = [
     slug: "mobile-programming-twotone",
     Component: MobileProgrammingTwotone,
     componentName: "MobileProgrammingTwotone",
-  }
+  },
 ];
-
-export default { MobileProgrammingBold, MobileProgrammingBroken, MobileProgrammingBulk, MobileProgrammingLinear, MobileProgrammingOutline, MobileProgrammingTwotone };

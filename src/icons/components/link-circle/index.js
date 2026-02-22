@@ -43,7 +43,5 @@ export const variants = [
     slug: "link-circle-twotone",
     Component: LinkCircleTwotone,
     componentName: "LinkCircleTwotone",
-  }
+  },
 ];
-
-export default { LinkCircleBold, LinkCircleBroken, LinkCircleBulk, LinkCircleLinear, LinkCircleOutline, LinkCircleTwotone };

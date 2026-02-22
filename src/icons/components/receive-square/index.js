@@ -43,7 +43,5 @@ export const variants = [
     slug: "receive-square-twotone",
     Component: ReceiveSquareTwotone,
     componentName: "ReceiveSquareTwotone",
-  }
+  },
 ];
-
-export default { ReceiveSquareBold, ReceiveSquareBroken, ReceiveSquareBulk, ReceiveSquareLinear, ReceiveSquareOutline, ReceiveSquareTwotone };

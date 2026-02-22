@@ -43,7 +43,5 @@ export const variants = [
     slug: "data-twotone",
     Component: DataTwotone,
     componentName: "DataTwotone",
-  }
+  },
 ];
-
-export default { DataBold, DataBroken, DataBulk, DataLinear, DataOutline, DataTwotone };

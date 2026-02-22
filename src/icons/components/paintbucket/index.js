@@ -43,7 +43,5 @@ export const variants = [
     slug: "paintbucket-twotone",
     Component: PaintbucketTwotone,
     componentName: "PaintbucketTwotone",
-  }
+  },
 ];
-
-export default { PaintbucketBold, PaintbucketBroken, PaintbucketBulk, PaintbucketLinear, PaintbucketOutline, PaintbucketTwotone };

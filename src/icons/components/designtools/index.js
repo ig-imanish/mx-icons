@@ -43,7 +43,5 @@ export const variants = [
     slug: "designtools-twotone",
     Component: DesigntoolsTwotone,
     componentName: "DesigntoolsTwotone",
-  }
+  },
 ];
-
-export default { DesigntoolsBold, DesigntoolsBroken, DesigntoolsBulk, DesigntoolsLinear, DesigntoolsOutline, DesigntoolsTwotone };

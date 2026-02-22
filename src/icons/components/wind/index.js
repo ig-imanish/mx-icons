@@ -43,7 +43,5 @@ export const variants = [
     slug: "wind-twotone",
     Component: WindTwotone,
     componentName: "WindTwotone",
-  }
+  },
 ];
-
-export default { WindBold, WindBroken, WindBulk, WindLinear, WindOutline, WindTwotone };

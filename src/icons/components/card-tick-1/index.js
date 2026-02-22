@@ -10,40 +10,38 @@ export { CardTick1Bold, CardTick1Broken, CardTick1Bulk, CardTick1Linear, CardTic
 export const variants = [
   {
     variant: "bold",
-    slug: "card-tick-1-bold",
+    slug: "card-tick1-bold",
     Component: CardTick1Bold,
     componentName: "CardTick1Bold",
   },
   {
     variant: "broken",
-    slug: "card-tick-1-broken",
+    slug: "card-tick1-broken",
     Component: CardTick1Broken,
     componentName: "CardTick1Broken",
   },
   {
     variant: "bulk",
-    slug: "card-tick-1-bulk",
+    slug: "card-tick1-bulk",
     Component: CardTick1Bulk,
     componentName: "CardTick1Bulk",
   },
   {
     variant: "linear",
-    slug: "card-tick-1-linear",
+    slug: "card-tick1-linear",
     Component: CardTick1Linear,
     componentName: "CardTick1Linear",
   },
   {
     variant: "outline",
-    slug: "card-tick-1-outline",
+    slug: "card-tick1-outline",
     Component: CardTick1Outline,
     componentName: "CardTick1Outline",
   },
   {
     variant: "twotone",
-    slug: "card-tick-1-twotone",
+    slug: "card-tick1-twotone",
     Component: CardTick1Twotone,
     componentName: "CardTick1Twotone",
-  }
+  },
 ];
-
-export default { CardTick1Bold, CardTick1Broken, CardTick1Bulk, CardTick1Linear, CardTick1Outline, CardTick1Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "pen-close-twotone",
     Component: PenCloseTwotone,
     componentName: "PenCloseTwotone",
-  }
+  },
 ];
-
-export default { PenCloseBold, PenCloseBroken, PenCloseBulk, PenCloseLinear, PenCloseOutline, PenCloseTwotone };

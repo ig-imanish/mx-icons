@@ -43,7 +43,5 @@ export const variants = [
     slug: "trash-twotone",
     Component: TrashTwotone,
     componentName: "TrashTwotone",
-  }
+  },
 ];
-
-export default { TrashBold, TrashBroken, TrashBulk, TrashLinear, TrashOutline, TrashTwotone };

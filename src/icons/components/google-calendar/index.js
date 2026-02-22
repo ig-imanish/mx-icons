@@ -1,14 +1,9 @@
 import GoogleCalendarBold from "./GoogleCalendarBold";
+import GoogleCalendarBulk from "./GoogleCalendarBulk";
 import GoogleCalendarLinear from "./GoogleCalendarLinear";
 import GoogleCalendarTwoTone from "./GoogleCalendarTwoTone";
-import GoogleCalendarBulk from "./GoogleCalendarBulk";
 
-export {
-  GoogleCalendarBold,
-  GoogleCalendarLinear,
-  GoogleCalendarTwoTone,
-  GoogleCalendarBulk,
-};
+export { GoogleCalendarBold, GoogleCalendarBulk, GoogleCalendarLinear, GoogleCalendarTwoTone };
 
 export const variants = [
   {
@@ -18,6 +13,12 @@ export const variants = [
     componentName: "GoogleCalendarBold",
   },
   {
+    variant: "bulk",
+    slug: "google-calendar-bulk",
+    Component: GoogleCalendarBulk,
+    componentName: "GoogleCalendarBulk",
+  },
+  {
     variant: "linear",
     slug: "google-calendar-linear",
     Component: GoogleCalendarLinear,
@@ -25,21 +26,8 @@ export const variants = [
   },
   {
     variant: "twotone",
-    slug: "google-calendar-twotone",
+    slug: "google-calendar-two-tone",
     Component: GoogleCalendarTwoTone,
     componentName: "GoogleCalendarTwoTone",
   },
-  {
-    variant: "bulk",
-    slug: "google-calendar-bulk",
-    Component: GoogleCalendarBulk,
-    componentName: "GoogleCalendarBulk",
-  },
 ];
-
-export default {
-  GoogleCalendarBold,
-  GoogleCalendarLinear,
-  GoogleCalendarTwoTone,
-  GoogleCalendarBulk,
-};

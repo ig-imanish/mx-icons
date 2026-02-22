@@ -43,7 +43,5 @@ export const variants = [
     slug: "more-circle-twotone",
     Component: MoreCircleTwotone,
     componentName: "MoreCircleTwotone",
-  }
+  },
 ];
-
-export default { MoreCircleBold, MoreCircleBroken, MoreCircleBulk, MoreCircleLinear, MoreCircleOutline, MoreCircleTwotone };

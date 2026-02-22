@@ -43,7 +43,5 @@ export const variants = [
     slug: "archive-twotone",
     Component: ArchiveTwotone,
     componentName: "ArchiveTwotone",
-  }
+  },
 ];
-
-export default { ArchiveBold, ArchiveBroken, ArchiveBulk, ArchiveLinear, ArchiveOutline, ArchiveTwotone };

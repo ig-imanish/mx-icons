@@ -10,40 +10,38 @@ export { ArrowRight1Bold, ArrowRight1Broken, ArrowRight1Bulk, ArrowRight1Linear,
 export const variants = [
   {
     variant: "bold",
-    slug: "arrow-right-1-bold",
+    slug: "arrow-right1-bold",
     Component: ArrowRight1Bold,
     componentName: "ArrowRight1Bold",
   },
   {
     variant: "broken",
-    slug: "arrow-right-1-broken",
+    slug: "arrow-right1-broken",
     Component: ArrowRight1Broken,
     componentName: "ArrowRight1Broken",
   },
   {
     variant: "bulk",
-    slug: "arrow-right-1-bulk",
+    slug: "arrow-right1-bulk",
     Component: ArrowRight1Bulk,
     componentName: "ArrowRight1Bulk",
   },
   {
     variant: "linear",
-    slug: "arrow-right-1-linear",
+    slug: "arrow-right1-linear",
     Component: ArrowRight1Linear,
     componentName: "ArrowRight1Linear",
   },
   {
     variant: "outline",
-    slug: "arrow-right-1-outline",
+    slug: "arrow-right1-outline",
     Component: ArrowRight1Outline,
     componentName: "ArrowRight1Outline",
   },
   {
     variant: "twotone",
-    slug: "arrow-right-1-twotone",
+    slug: "arrow-right1-twotone",
     Component: ArrowRight1Twotone,
     componentName: "ArrowRight1Twotone",
-  }
+  },
 ];
-
-export default { ArrowRight1Bold, ArrowRight1Broken, ArrowRight1Bulk, ArrowRight1Linear, ArrowRight1Outline, ArrowRight1Twotone };

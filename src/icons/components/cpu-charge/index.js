@@ -43,7 +43,5 @@ export const variants = [
     slug: "cpu-charge-twotone",
     Component: CpuChargeTwotone,
     componentName: "CpuChargeTwotone",
-  }
+  },
 ];
-
-export default { CpuChargeBold, CpuChargeBroken, CpuChargeBulk, CpuChargeLinear, CpuChargeOutline, CpuChargeTwotone };

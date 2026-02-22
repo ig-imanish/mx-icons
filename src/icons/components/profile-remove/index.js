@@ -43,7 +43,5 @@ export const variants = [
     slug: "profile-remove-twotone",
     Component: ProfileRemoveTwotone,
     componentName: "ProfileRemoveTwotone",
-  }
+  },
 ];
-
-export default { ProfileRemoveBold, ProfileRemoveBroken, ProfileRemoveBulk, ProfileRemoveLinear, ProfileRemoveOutline, ProfileRemoveTwotone };

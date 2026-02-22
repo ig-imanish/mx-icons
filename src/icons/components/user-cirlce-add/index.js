@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-cirlce-add-twotone",
     Component: UserCirlceAddTwotone,
     componentName: "UserCirlceAddTwotone",
-  }
+  },
 ];
-
-export default { UserCirlceAddBold, UserCirlceAddBroken, UserCirlceAddBulk, UserCirlceAddLinear, UserCirlceAddOutline, UserCirlceAddTwotone };

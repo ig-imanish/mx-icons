@@ -43,7 +43,5 @@ export const variants = [
     slug: "volume-up-twotone",
     Component: VolumeUpTwotone,
     componentName: "VolumeUpTwotone",
-  }
+  },
 ];
-
-export default { VolumeUpBold, VolumeUpBroken, VolumeUpBulk, VolumeUpLinear, VolumeUpOutline, VolumeUpTwotone };

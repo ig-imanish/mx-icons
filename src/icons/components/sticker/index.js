@@ -43,7 +43,5 @@ export const variants = [
     slug: "sticker-twotone",
     Component: StickerTwotone,
     componentName: "StickerTwotone",
-  }
+  },
 ];
-
-export default { StickerBold, StickerBroken, StickerBulk, StickerLinear, StickerOutline, StickerTwotone };

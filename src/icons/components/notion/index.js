@@ -24,5 +24,3 @@ export const variants = [
     componentName: "NotionMini",
   },
 ];
-
-export default { NotionBold, NotionLinear, NotionMini };

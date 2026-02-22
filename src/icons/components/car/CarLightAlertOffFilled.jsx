@@ -1,0 +1,61 @@
+import Icon from "../../Icon";
+
+export default function CarLightAlertOffFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVG9MS31ddK">
+			<g stroke-linecap="round" stroke-linejoin="round">
+				<g fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8">
+					<path d="M8 6h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M8 10h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M8 14h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="1s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M8 18h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+				</g>
+				<path d="M18 12c0 -3.31 -3.5 -6.25 -8.25 -6.25c-0.5 0 -1.75 2.75 -1.75 6.25c0 3.5 1.25 6.25 1.75 6.25c4.75 0 8.25 -2.94 8.25 -6.25Z" stroke="currentColor" fill="currentColor" stroke-width="4" />
+				<g stroke-width="2">
+					<path d="M18 12c0 -3.31 -3.5 -6.25 -8.25 -6.25c-0.5 0 -1.75 2.75 -1.75 6.25c0 3.5 1.25 6.25 1.75 6.25c4.75 0 8.25 -2.94 8.25 -6.25Z" stroke="currentColor" fill="currentColor" stroke-dasharray="40" fill-opacity="0">
+						<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="40;0" />
+						<animate attributeName="fill-opacity" begin="2.2s" dur="0.4s" fill="freeze" to="1" />
+					</path>
+					<path d="M0 11h26" stroke="currentColor" fill="none" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+						<animate attributeName="stroke-dashoffset" begin="1.4s" dur="0.4s" fill="freeze" to="0" />
+					</path>
+				</g>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVG9MS31ddK)" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M0 13h26" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+			<animate attributeName="stroke-dashoffset" begin="1.4s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+		<path d="M22 8v4" stroke-dasharray="6" stroke-dashoffset="6">
+			<animate attributeName="stroke-dashoffset" begin="1.8s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M22 16v0.01" stroke-dasharray="4" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="2s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

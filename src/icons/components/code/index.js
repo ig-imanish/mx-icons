@@ -43,7 +43,5 @@ export const variants = [
     slug: "code-twotone",
     Component: CodeTwotone,
     componentName: "CodeTwotone",
-  }
+  },
 ];
-
-export default { CodeBold, CodeBroken, CodeBulk, CodeLinear, CodeOutline, CodeTwotone };

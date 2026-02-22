@@ -43,7 +43,5 @@ export const variants = [
     slug: "sun-fog-twotone",
     Component: SunFogTwotone,
     componentName: "SunFogTwotone",
-  }
+  },
 ];
-
-export default { SunFogBold, SunFogBroken, SunFogBulk, SunFogLinear, SunFogOutline, SunFogTwotone };

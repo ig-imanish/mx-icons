@@ -43,7 +43,5 @@ export const variants = [
     slug: "format-circle-twotone",
     Component: FormatCircleTwotone,
     componentName: "FormatCircleTwotone",
-  }
+  },
 ];
-
-export default { FormatCircleBold, FormatCircleBroken, FormatCircleBulk, FormatCircleLinear, FormatCircleOutline, FormatCircleTwotone };

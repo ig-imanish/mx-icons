@@ -10,40 +10,38 @@ export { House2Bold, House2Broken, House2Bulk, House2Linear, House2Outline, Hous
 export const variants = [
   {
     variant: "bold",
-    slug: "house-2-bold",
+    slug: "house2-bold",
     Component: House2Bold,
     componentName: "House2Bold",
   },
   {
     variant: "broken",
-    slug: "house-2-broken",
+    slug: "house2-broken",
     Component: House2Broken,
     componentName: "House2Broken",
   },
   {
     variant: "bulk",
-    slug: "house-2-bulk",
+    slug: "house2-bulk",
     Component: House2Bulk,
     componentName: "House2Bulk",
   },
   {
     variant: "linear",
-    slug: "house-2-linear",
+    slug: "house2-linear",
     Component: House2Linear,
     componentName: "House2Linear",
   },
   {
     variant: "outline",
-    slug: "house-2-outline",
+    slug: "house2-outline",
     Component: House2Outline,
     componentName: "House2Outline",
   },
   {
     variant: "twotone",
-    slug: "house-2-twotone",
+    slug: "house2-twotone",
     Component: House2Twotone,
     componentName: "House2Twotone",
-  }
+  },
 ];
-
-export default { House2Bold, House2Broken, House2Bulk, House2Linear, House2Outline, House2Twotone };

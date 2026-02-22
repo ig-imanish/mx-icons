@@ -43,7 +43,5 @@ export const variants = [
     slug: "import-twotone",
     Component: ImportTwotone,
     componentName: "ImportTwotone",
-  }
+  },
 ];
-
-export default { ImportBold, ImportBroken, ImportBulk, ImportLinear, ImportOutline, ImportTwotone };

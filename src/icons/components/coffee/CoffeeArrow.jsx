@@ -1,0 +1,33 @@
+import Icon from "../../Icon";
+
+export default function CoffeeArrow({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M14 4v7c0 1.66 -1.34 3 -3 3h-4c-1.66 0 -3 -1.34 -3 -3v-7Z" stroke-dasharray="40">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="40;0" />
+		</path>
+		<path d="M14 4h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3" stroke-dasharray="16" stroke-dashoffset="16">
+			<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M4 18h15.5" stroke-dasharray="18" stroke-dashoffset="18">
+			<animate attributeName="stroke-dashoffset" begin="1s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M19.5 18l-3 -3M19.5 18l-3 3" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="1.3s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

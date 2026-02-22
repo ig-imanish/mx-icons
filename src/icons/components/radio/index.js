@@ -43,7 +43,5 @@ export const variants = [
     slug: "radio-twotone",
     Component: RadioTwotone,
     componentName: "RadioTwotone",
-  }
+  },
 ];
-
-export default { RadioBold, RadioBroken, RadioBulk, RadioLinear, RadioOutline, RadioTwotone };

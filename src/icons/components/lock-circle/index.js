@@ -43,7 +43,5 @@ export const variants = [
     slug: "lock-circle-twotone",
     Component: LockCircleTwotone,
     componentName: "LockCircleTwotone",
-  }
+  },
 ];
-
-export default { LockCircleBold, LockCircleBroken, LockCircleBulk, LockCircleLinear, LockCircleOutline, LockCircleTwotone };

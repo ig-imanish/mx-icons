@@ -43,7 +43,5 @@ export const variants = [
     slug: "shield-cross-twotone",
     Component: ShieldCrossTwotone,
     componentName: "ShieldCrossTwotone",
-  }
+  },
 ];
-
-export default { ShieldCrossBold, ShieldCrossBroken, ShieldCrossBulk, ShieldCrossLinear, ShieldCrossOutline, ShieldCrossTwotone };

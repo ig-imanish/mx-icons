@@ -43,7 +43,5 @@ export const variants = [
     slug: "align-horizontally-twotone",
     Component: AlignHorizontallyTwotone,
     componentName: "AlignHorizontallyTwotone",
-  }
+  },
 ];
-
-export default { AlignHorizontallyBold, AlignHorizontallyBroken, AlignHorizontallyBulk, AlignHorizontallyLinear, AlignHorizontallyOutline, AlignHorizontallyTwotone };

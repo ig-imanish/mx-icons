@@ -1,21 +1,21 @@
-import RocketLinear from "./RocketLinear";
 import RocketBold from "./RocketBold";
+import RocketLinear from "./RocketLinear";
 import RocketMini from "./RocketMini";
 
-export { RocketLinear, RocketBold, RocketMini };
+export { RocketBold, RocketLinear, RocketMini };
 
 export const variants = [
-  {
-    variant: "linear",
-    slug: "rocket-linear",
-    Component: RocketLinear,
-    componentName: "RocketLinear",
-  },
   {
     variant: "bold",
     slug: "rocket-bold",
     Component: RocketBold,
     componentName: "RocketBold",
+  },
+  {
+    variant: "linear",
+    slug: "rocket-linear",
+    Component: RocketLinear,
+    componentName: "RocketLinear",
   },
   {
     variant: "mini",
@@ -24,5 +24,3 @@ export const variants = [
     componentName: "RocketMini",
   },
 ];
-
-export default { RocketLinear, RocketBold, RocketMini };

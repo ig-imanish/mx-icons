@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function MapMarkerRadiusFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGEc2sYdAr">
+			<path d="M12 18c0 0 -5.14 -6 -5.14 -9.86c0 -2.84 2.3 -5.14 5.14 -5.14c2.84 0 5.14 2.3 5.14 5.14c0 3.86 -5.14 9.86 -5.14 9.86Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="42" fill-opacity="0">
+				<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="42;0" />
+				<animate attributeName="fill-opacity" begin="0.5s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<circle cx="12" cy="8.143" fill="currentColor">
+				<animate attributeName="r" begin="1s" dur="0.2s" fill="freeze" to="2.5" />
+			</circle>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGEc2sYdAr)" />
+		<path d="M12 18c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0l0 0c0 0 0 0 0 0c0 0 0 0 0 0Z">
+			<animate attributeName="d" begin="1.3s" dur="0.2s" fill="freeze" to="M12 21c3.3 0 6 -1.1 6 -2.5c0 -0.7 -0.7 -1.3 -1.8 -1.8l0.6 -0.9c2 0.8 3.2 1.9 3.2 3.2c0 2.2 -3.6 4 -8 4c-4.4 0 -8 -1.8 -8 -4c0 -1.3 1.2 -2.4 3.1 -3.2l0.6 0.9c-1 0.5 -1.7 1.1 -1.7 1.8c0 1.4 2.7 2.5 6 2.5Z" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

@@ -36,7 +36,5 @@ export const variants = [
     slug: "bucket-twotone",
     Component: BucketTwotone,
     componentName: "BucketTwotone",
-  }
+  },
 ];
-
-export default { BucketBold, BucketBroken, BucketBulk, BucketOutline, BucketTwotone };

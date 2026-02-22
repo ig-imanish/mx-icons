@@ -43,7 +43,5 @@ export const variants = [
     slug: "like-tag-twotone",
     Component: LikeTagTwotone,
     componentName: "LikeTagTwotone",
-  }
+  },
 ];
-
-export default { LikeTagBold, LikeTagBroken, LikeTagBulk, LikeTagLinear, LikeTagOutline, LikeTagTwotone };

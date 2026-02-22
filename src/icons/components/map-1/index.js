@@ -10,40 +10,38 @@ export { Map1Bold, Map1Broken, Map1Bulk, Map1Linear, Map1Outline, Map1Twotone };
 export const variants = [
   {
     variant: "bold",
-    slug: "map-1-bold",
+    slug: "map1-bold",
     Component: Map1Bold,
     componentName: "Map1Bold",
   },
   {
     variant: "broken",
-    slug: "map-1-broken",
+    slug: "map1-broken",
     Component: Map1Broken,
     componentName: "Map1Broken",
   },
   {
     variant: "bulk",
-    slug: "map-1-bulk",
+    slug: "map1-bulk",
     Component: Map1Bulk,
     componentName: "Map1Bulk",
   },
   {
     variant: "linear",
-    slug: "map-1-linear",
+    slug: "map1-linear",
     Component: Map1Linear,
     componentName: "Map1Linear",
   },
   {
     variant: "outline",
-    slug: "map-1-outline",
+    slug: "map1-outline",
     Component: Map1Outline,
     componentName: "Map1Outline",
   },
   {
     variant: "twotone",
-    slug: "map-1-twotone",
+    slug: "map1-twotone",
     Component: Map1Twotone,
     componentName: "Map1Twotone",
-  }
+  },
 ];
-
-export default { Map1Bold, Map1Broken, Map1Bulk, Map1Linear, Map1Outline, Map1Twotone };

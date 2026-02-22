@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-circle-twotone",
     Component: MusicCircleTwotone,
     componentName: "MusicCircleTwotone",
-  }
+  },
 ];
-
-export default { MusicCircleBold, MusicCircleBroken, MusicCircleBulk, MusicCircleLinear, MusicCircleOutline, MusicCircleTwotone };

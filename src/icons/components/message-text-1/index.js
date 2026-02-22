@@ -10,40 +10,38 @@ export { MessageText1Bold, MessageText1Broken, MessageText1Bulk, MessageText1Lin
 export const variants = [
   {
     variant: "bold",
-    slug: "message-text-1-bold",
+    slug: "message-text1-bold",
     Component: MessageText1Bold,
     componentName: "MessageText1Bold",
   },
   {
     variant: "broken",
-    slug: "message-text-1-broken",
+    slug: "message-text1-broken",
     Component: MessageText1Broken,
     componentName: "MessageText1Broken",
   },
   {
     variant: "bulk",
-    slug: "message-text-1-bulk",
+    slug: "message-text1-bulk",
     Component: MessageText1Bulk,
     componentName: "MessageText1Bulk",
   },
   {
     variant: "linear",
-    slug: "message-text-1-linear",
+    slug: "message-text1-linear",
     Component: MessageText1Linear,
     componentName: "MessageText1Linear",
   },
   {
     variant: "outline",
-    slug: "message-text-1-outline",
+    slug: "message-text1-outline",
     Component: MessageText1Outline,
     componentName: "MessageText1Outline",
   },
   {
     variant: "twotone",
-    slug: "message-text-1-twotone",
+    slug: "message-text1-twotone",
     Component: MessageText1Twotone,
     componentName: "MessageText1Twotone",
-  }
+  },
 ];
-
-export default { MessageText1Bold, MessageText1Broken, MessageText1Bulk, MessageText1Linear, MessageText1Outline, MessageText1Twotone };

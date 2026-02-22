@@ -43,7 +43,5 @@ export const variants = [
     slug: "building-twotone",
     Component: BuildingTwotone,
     componentName: "BuildingTwotone",
-  }
+  },
 ];
-
-export default { BuildingBold, BuildingBroken, BuildingBulk, BuildingLinear, BuildingOutline, BuildingTwotone };

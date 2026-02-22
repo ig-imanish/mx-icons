@@ -1,0 +1,45 @@
+import Icon from "../../Icon";
+
+export default function BuyMeACoffeeFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGjNNbJdjx">
+			<path d="M5 6c0 -2 2 0 6.5 0c4.5 0 7.5 -2 7.5 0l0 1c0 1.5 -2 2 -6.5 2c-4.5 0 -7.5 0 -7.5 -2l0 -1Z" fill="currentColor" />
+			<path d="M4 4h16v5h-16Z" fill="currentColor">
+				<animate attributeName="d" begin="0.4s" dur="0.4s" fill="freeze" to="M4 4h0v5h0Z" />
+			</path>
+		</mask>
+		<mask id="SVGgrML3bcv">
+			<path d="M10.13 18.15c-0.09 -0.86 -0.72 -6.17 -0.72 -6.17c0 0 1.94 0.33 3.1 -0.25c1.16 -0.57 2.48 -0.73 2.48 -0.73c0 0 -0.58 6.96 -0.63 7.46c-0.05 0.5 -0.9 0.84 -1.4 0.84l-1.72 0c-0.5 0 -1.02 -0.3 -1.11 -1.15Z" fill="currentColor" />
+			<path d="M8 10h8v10h-8Z" fill="currentColor">
+				<animate attributeName="d" begin="1s" dur="0.4s" fill="freeze" to="M8 10h8v0h-8Z" />
+			</path>
+		</mask>
+	</defs>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M7.5 10.5c0 0 0.83 6.93 1 8.5c0.17 1.57 1.5 2 2.5 2l2 0c1.5 0 2.88 -1.14 3 -2c0.13 -0.86 1 -12 1 -12" stroke-dasharray="32">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="32;0" />
+		</path>
+		<path d="M8 4c1.1 -0.57 2 -1 4 -1c2 0 4.5 0.5 4.5 3" stroke-dasharray="14" stroke-dashoffset="14">
+			<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGjNNbJdjx)" />
+		<path d="M0 0h24v24H0z" mask="url(#SVGgrML3bcv)" />
+	</g>
+    </Icon>
+  );
+}

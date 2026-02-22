@@ -43,7 +43,5 @@ export const variants = [
     slug: "ticket-discount-twotone",
     Component: TicketDiscountTwotone,
     componentName: "TicketDiscountTwotone",
-  }
+  },
 ];
-
-export default { TicketDiscountBold, TicketDiscountBroken, TicketDiscountBulk, TicketDiscountLinear, TicketDiscountOutline, TicketDiscountTwotone };

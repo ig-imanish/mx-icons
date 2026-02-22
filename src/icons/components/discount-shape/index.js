@@ -43,7 +43,5 @@ export const variants = [
     slug: "discount-shape-twotone",
     Component: DiscountShapeTwotone,
     componentName: "DiscountShapeTwotone",
-  }
+  },
 ];
-
-export default { DiscountShapeBold, DiscountShapeBroken, DiscountShapeBulk, DiscountShapeLinear, DiscountShapeOutline, DiscountShapeTwotone };

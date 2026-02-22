@@ -1,0 +1,38 @@
+import Icon from "../../Icon";
+
+export default function Speedometer({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGsuaH7dFW">
+			<path d="M5.64 19.36c-3.52 -3.51 -3.52 -9.21 0 -12.72c3.51 -3.52 9.21 -3.52 12.72 -0c3.52 3.51 3.52 9.21 0 12.72" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="46">
+				<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="46;0" />
+			</path>
+			<path d="M12 14c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0Z" fill="currentColor" transform="rotate(-100 12 13)">
+				<animate attributeName="d" begin="0.5s" dur="0.2s" fill="freeze" to="M17 13c0 2.76 -2.24 5 -5 5c-2.76 0 -5 -2.24 -5 -5c0 -2.76 5 -15 5 -15c0 0 5 12.24 5 15Z" />
+				<animateTransform attributeName="transform" type="rotate" begin="0.7s" dur="0.3s" fill="freeze" values="-100 12 13;65 12 13" />
+			</path>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGsuaH7dFW)" />
+		<path d="M15 13c0 1.66 -1.34 3 -3 3c-1.66 0 -3 -1.34 -3 -3c0 -1.66 3 -11 3 -11c0 0 3 9.34 3 11Z" transform="rotate(-100 12 13)" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.5s" fill="freeze" />
+			<animate attributeName="d" begin="0.5s" dur="0.2s" fill="freeze" values="M12 14c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M15 13c0 1.66 -1.34 3 -3 3c-1.66 0 -3 -1.34 -3 -3c0 -1.66 3 -11 3 -11c0 0 3 9.34 3 11Z" />
+			<animateTransform attributeName="transform" type="rotate" begin="0.7s" dur="0.3s" fill="freeze" values="-100 12 13;65 12 13" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

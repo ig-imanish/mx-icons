@@ -1,0 +1,82 @@
+import Icon from "../../Icon";
+
+export default function SunnyOutlineToMoonAltLoopTransition({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGkQb0JeyF">
+			<path d="M12 2c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M12 6c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z;M12 2c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+			<path d="M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10ZM12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6ZM12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4Z;M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10ZM12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+		</mask>
+		<mask id="SVGWlDt8cyU">
+			<path d="M18 -6c6.62 0 12 5.38 12 12c0 6.62 -5.38 12 -12 12c-6.62 0 -12 -5.38 -12 -12c0 -6.62 5.38 -12 12 -12Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M22 -6c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z;M18 -6c6.62 0 12 5.38 12 12c0 6.62 -5.38 12 -12 12c-6.62 0 -12 -5.38 -12 -12c0 -6.62 5.38 -12 12 -12Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+			<path d="M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10ZM2 12v-20h30v30h-20c5.52 0 10 -4.48 10 -10c0 -5.52 -4.48 -10 -10 -10c-5.52 0 -10 4.48 -10 10Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6ZM6 12v-20h26v26h-20c3.31 0 6 -2.69 6 -6c0 -3.31 -2.69 -6 -6 -6c-3.31 0 -6 2.69 -6 6Z;M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10ZM2 12v-20h30v30h-20c5.52 0 10 -4.48 10 -10c0 -5.52 -4.48 -10 -10 -10c-5.52 0 -10 4.48 -10 10Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M12 21v1M21 12h1M12 3v-1M3 12h-1M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+		<animate attributeName="opacity" dur="0.4s" fill="freeze" values="1;0" />
+	</path>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGkQb0JeyF)" />
+		<path d="M0 0h24v24H0z" mask="url(#SVGWlDt8cyU)" />
+	</g>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<path d="M7 6c0 6.08 4.92 11 11 11c0.53 0 1.05 -0.04 1.56 -0.11c-1.61 2.47 -4.39 4.11 -7.56 4.11c-4.97 0 -9 -4.03 -9 -9c0 -3.17 1.64 -5.95 4.11 -7.56c-0.07 0.51 -0.11 1.03 -0.11 1.56Z" stroke-width="2" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.4s" fill="freeze" />
+		</path>
+		<g stroke-dasharray="4">
+			<path d="M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="0.4s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="1.07s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="1.74s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M12 4h1.5M12 4h-1.5M12 4v1.5M12 4v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="2.41s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M18 12h1.5M18 12h-1.5M18 12v1.5M18 12v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="3.08s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="3.75s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="4.42s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="5.09s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+			<path d="M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="5.76s" dur="6s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.3;1" values="4;0;0;4;4" />
+			</path>
+		</g>
+	</g>
+    </Icon>
+  );
+}

@@ -36,7 +36,5 @@ export const variants = [
     slug: "empty-wallet-change-outline",
     Component: EmptyWalletChangeOutline,
     componentName: "EmptyWalletChangeOutline",
-  }
+  },
 ];
-
-export default { EmptyWalletChangeBold, EmptyWalletChangeBroken, EmptyWalletChangeBulk, EmptyWalletChangeLinear, EmptyWalletChangeOutline };

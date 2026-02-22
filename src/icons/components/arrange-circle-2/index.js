@@ -10,40 +10,38 @@ export { ArrangeCircle2Bold, ArrangeCircle2Broken, ArrangeCircle2Bulk, ArrangeCi
 export const variants = [
   {
     variant: "bold",
-    slug: "arrange-circle-2-bold",
+    slug: "arrange-circle2-bold",
     Component: ArrangeCircle2Bold,
     componentName: "ArrangeCircle2Bold",
   },
   {
     variant: "broken",
-    slug: "arrange-circle-2-broken",
+    slug: "arrange-circle2-broken",
     Component: ArrangeCircle2Broken,
     componentName: "ArrangeCircle2Broken",
   },
   {
     variant: "bulk",
-    slug: "arrange-circle-2-bulk",
+    slug: "arrange-circle2-bulk",
     Component: ArrangeCircle2Bulk,
     componentName: "ArrangeCircle2Bulk",
   },
   {
     variant: "linear",
-    slug: "arrange-circle-2-linear",
+    slug: "arrange-circle2-linear",
     Component: ArrangeCircle2Linear,
     componentName: "ArrangeCircle2Linear",
   },
   {
     variant: "outline",
-    slug: "arrange-circle-2-outline",
+    slug: "arrange-circle2-outline",
     Component: ArrangeCircle2Outline,
     componentName: "ArrangeCircle2Outline",
   },
   {
     variant: "twotone",
-    slug: "arrange-circle-2-twotone",
+    slug: "arrange-circle2-twotone",
     Component: ArrangeCircle2Twotone,
     componentName: "ArrangeCircle2Twotone",
-  }
+  },
 ];
-
-export default { ArrangeCircle2Bold, ArrangeCircle2Broken, ArrangeCircle2Bulk, ArrangeCircle2Linear, ArrangeCircle2Outline, ArrangeCircle2Twotone };

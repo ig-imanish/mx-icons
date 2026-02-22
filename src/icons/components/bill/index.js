@@ -43,7 +43,5 @@ export const variants = [
     slug: "bill-twotone",
     Component: BillTwotone,
     componentName: "BillTwotone",
-  }
+  },
 ];
-
-export default { BillBold, BillBroken, BillBulk, BillLinear, BillOutline, BillTwotone };

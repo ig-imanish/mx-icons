@@ -36,7 +36,5 @@ export const variants = [
     slug: "shuffle-twotone",
     Component: ShuffleTwotone,
     componentName: "ShuffleTwotone",
-  }
+  },
 ];
-
-export default { ShuffleBold, ShuffleBroken, ShuffleBulk, ShuffleOutline, ShuffleTwotone };

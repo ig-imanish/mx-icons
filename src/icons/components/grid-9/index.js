@@ -10,40 +10,38 @@ export { Grid9Bold, Grid9Broken, Grid9Bulk, Grid9Linear, Grid9Outline, Grid9Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "grid-9-bold",
+    slug: "grid9-bold",
     Component: Grid9Bold,
     componentName: "Grid9Bold",
   },
   {
     variant: "broken",
-    slug: "grid-9-broken",
+    slug: "grid9-broken",
     Component: Grid9Broken,
     componentName: "Grid9Broken",
   },
   {
     variant: "bulk",
-    slug: "grid-9-bulk",
+    slug: "grid9-bulk",
     Component: Grid9Bulk,
     componentName: "Grid9Bulk",
   },
   {
     variant: "linear",
-    slug: "grid-9-linear",
+    slug: "grid9-linear",
     Component: Grid9Linear,
     componentName: "Grid9Linear",
   },
   {
     variant: "outline",
-    slug: "grid-9-outline",
+    slug: "grid9-outline",
     Component: Grid9Outline,
     componentName: "Grid9Outline",
   },
   {
     variant: "twotone",
-    slug: "grid-9-twotone",
+    slug: "grid9-twotone",
     Component: Grid9Twotone,
     componentName: "Grid9Twotone",
-  }
+  },
 ];
-
-export default { Grid9Bold, Grid9Broken, Grid9Bulk, Grid9Linear, Grid9Outline, Grid9Twotone };

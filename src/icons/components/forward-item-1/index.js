@@ -5,10 +5,8 @@ export { ForwardItem1Linear };
 export const variants = [
   {
     variant: "linear",
-    slug: "forward-item-1-linear",
+    slug: "forward-item1-linear",
     Component: ForwardItem1Linear,
     componentName: "ForwardItem1Linear",
-  }
+  },
 ];
-
-export default { ForwardItem1Linear };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "rotate-right-twotone",
     Component: RotateRightTwotone,
     componentName: "RotateRightTwotone",
-  }
+  },
 ];
-
-export default { RotateRightBold, RotateRightBroken, RotateRightBulk, RotateRightLinear, RotateRightOutline, RotateRightTwotone };

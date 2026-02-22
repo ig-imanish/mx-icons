@@ -43,7 +43,5 @@ export const variants = [
     slug: "lamp-slash-twotone",
     Component: LampSlashTwotone,
     componentName: "LampSlashTwotone",
-  }
+  },
 ];
-
-export default { LampSlashBold, LampSlashBroken, LampSlashBulk, LampSlashLinear, LampSlashOutline, LampSlashTwotone };

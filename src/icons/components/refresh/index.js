@@ -43,7 +43,5 @@ export const variants = [
     slug: "refresh-twotone",
     Component: RefreshTwotone,
     componentName: "RefreshTwotone",
-  }
+  },
 ];
-
-export default { RefreshBold, RefreshBroken, RefreshBulk, RefreshLinear, RefreshOutline, RefreshTwotone };

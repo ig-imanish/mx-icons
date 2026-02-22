@@ -1,9 +1,16 @@
-import DiscordLinear from "./DiscordLinear";
 import DiscordBold from "./DiscordBold";
+import DiscordLinear from "./DiscordLinear";
+import DiscordTwotone from "./DiscordTwotone";
 
-export { DiscordLinear, DiscordBold };
+export { DiscordBold, DiscordLinear, DiscordTwotone };
 
 export const variants = [
+  {
+    variant: "bold",
+    slug: "discord-bold",
+    Component: DiscordBold,
+    componentName: "DiscordBold",
+  },
   {
     variant: "linear",
     slug: "discord-linear",
@@ -11,11 +18,9 @@ export const variants = [
     componentName: "DiscordLinear",
   },
   {
-    variant: "bold",
-    slug: "discord-bold",
-    Component: DiscordBold,
-    componentName: "DiscordBold",
+    variant: "twotone",
+    slug: "discord-twotone",
+    Component: DiscordTwotone,
+    componentName: "DiscordTwotone",
   },
 ];
-
-export default { DiscordLinear, DiscordBold };

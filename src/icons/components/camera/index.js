@@ -43,7 +43,5 @@ export const variants = [
     slug: "camera-twotone",
     Component: CameraTwotone,
     componentName: "CameraTwotone",
-  }
+  },
 ];
-
-export default { CameraBold, CameraBroken, CameraBulk, CameraLinear, CameraOutline, CameraTwotone };

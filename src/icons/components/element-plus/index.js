@@ -43,7 +43,5 @@ export const variants = [
     slug: "element-plus-twotone",
     Component: ElementPlusTwotone,
     componentName: "ElementPlusTwotone",
-  }
+  },
 ];
-
-export default { ElementPlusBold, ElementPlusBroken, ElementPlusBulk, ElementPlusLinear, ElementPlusOutline, ElementPlusTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "paperclip-twotone",
     Component: PaperclipTwotone,
     componentName: "PaperclipTwotone",
-  }
+  },
 ];
-
-export default { PaperclipBold, PaperclipBroken, PaperclipBulk, PaperclipLinear, PaperclipOutline, PaperclipTwotone };

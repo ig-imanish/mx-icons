@@ -43,7 +43,5 @@ export const variants = [
     slug: "notification-favorite-twotone",
     Component: NotificationFavoriteTwotone,
     componentName: "NotificationFavoriteTwotone",
-  }
+  },
 ];
-
-export default { NotificationFavoriteBold, NotificationFavoriteBroken, NotificationFavoriteBulk, NotificationFavoriteLinear, NotificationFavoriteOutline, NotificationFavoriteTwotone };

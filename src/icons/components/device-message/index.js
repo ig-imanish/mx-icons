@@ -43,7 +43,5 @@ export const variants = [
     slug: "device-message-twotone",
     Component: DeviceMessageTwotone,
     componentName: "DeviceMessageTwotone",
-  }
+  },
 ];
-
-export default { DeviceMessageBold, DeviceMessageBroken, DeviceMessageBulk, DeviceMessageLinear, DeviceMessageOutline, DeviceMessageTwotone };

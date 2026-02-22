@@ -43,7 +43,5 @@ export const variants = [
     slug: "arrange-square-twotone",
     Component: ArrangeSquareTwotone,
     componentName: "ArrangeSquareTwotone",
-  }
+  },
 ];
-
-export default { ArrangeSquareBold, ArrangeSquareBroken, ArrangeSquareBulk, ArrangeSquareLinear, ArrangeSquareOutline, ArrangeSquareTwotone };

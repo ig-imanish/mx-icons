@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-copy-twotone",
     Component: DocumentCopyTwotone,
     componentName: "DocumentCopyTwotone",
-  }
+  },
 ];
-
-export default { DocumentCopyBold, DocumentCopyBroken, DocumentCopyBulk, DocumentCopyLinear, DocumentCopyOutline, DocumentCopyTwotone };

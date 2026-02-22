@@ -43,7 +43,5 @@ export const variants = [
     slug: "favorite-chart-twotone",
     Component: FavoriteChartTwotone,
     componentName: "FavoriteChartTwotone",
-  }
+  },
 ];
-
-export default { FavoriteChartBold, FavoriteChartBroken, FavoriteChartBulk, FavoriteChartLinear, FavoriteChartOutline, FavoriteChartTwotone };

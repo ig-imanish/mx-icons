@@ -43,7 +43,5 @@ export const variants = [
     slug: "flash-circle-twotone",
     Component: FlashCircleTwotone,
     componentName: "FlashCircleTwotone",
-  }
+  },
 ];
-
-export default { FlashCircleBold, FlashCircleBroken, FlashCircleBulk, FlashCircleLinear, FlashCircleOutline, FlashCircleTwotone };

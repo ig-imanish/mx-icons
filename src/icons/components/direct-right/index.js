@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-right-twotone",
     Component: DirectRightTwotone,
     componentName: "DirectRightTwotone",
-  }
+  },
 ];
-
-export default { DirectRightBold, DirectRightBroken, DirectRightBulk, DirectRightLinear, DirectRightOutline, DirectRightTwotone };

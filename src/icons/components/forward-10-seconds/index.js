@@ -10,40 +10,38 @@ export { Forward10SSecondsBold, Forward10SSecondsBroken, Forward10SSecondsBulk, 
 export const variants = [
   {
     variant: "bold",
-    slug: "forward-10-seconds-bold",
+    slug: "forward10-s-seconds-bold",
     Component: Forward10SSecondsBold,
     componentName: "Forward10SSecondsBold",
   },
   {
     variant: "broken",
-    slug: "forward-10-seconds-broken",
+    slug: "forward10-s-seconds-broken",
     Component: Forward10SSecondsBroken,
     componentName: "Forward10SSecondsBroken",
   },
   {
     variant: "bulk",
-    slug: "forward-10-seconds-bulk",
+    slug: "forward10-s-seconds-bulk",
     Component: Forward10SSecondsBulk,
     componentName: "Forward10SSecondsBulk",
   },
   {
     variant: "linear",
-    slug: "forward-10-seconds-linear",
+    slug: "forward10-s-seconds-linear",
     Component: Forward10SSecondsLinear,
     componentName: "Forward10SSecondsLinear",
   },
   {
     variant: "outline",
-    slug: "forward-10-seconds-outline",
+    slug: "forward10-s-seconds-outline",
     Component: Forward10SSecondsOutline,
     componentName: "Forward10SSecondsOutline",
   },
   {
     variant: "twotone",
-    slug: "forward-10-seconds-twotone",
+    slug: "forward10-s-seconds-twotone",
     Component: Forward10SSecondsTwotone,
     componentName: "Forward10SSecondsTwotone",
-  }
+  },
 ];
-
-export default { Forward10SSecondsBold, Forward10SSecondsBroken, Forward10SSecondsBulk, Forward10SSecondsLinear, Forward10SSecondsOutline, Forward10SSecondsTwotone };

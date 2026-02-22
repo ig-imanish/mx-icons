@@ -1,0 +1,35 @@
+import Icon from "../../Icon";
+
+export default function AccountAlert({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<g stroke-dasharray="22">
+			<path d="M5 21v-1c0 -2.21 1.79 -4 4 -4h4c2.21 0 4 1.79 4 4v1">
+				<animate attributeName="stroke-dashoffset" dur="0.3s" fill="freeze" values="22;0" />
+			</path>
+			<path d="M11 13c-1.66 0 -3 -1.34 -3 -3c0 -1.66 1.34 -3 3 -3c1.66 0 3 1.34 3 3c0 1.66 -1.34 3 -3 3Z" stroke-dashoffset="22">
+				<animate attributeName="stroke-dashoffset" begin="0.3s" dur="0.3s" fill="freeze" to="0" />
+			</path>
+		</g>
+		<path d="M20 3v4" stroke-dasharray="6" stroke-dashoffset="6">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M20 11v0.01" stroke-dasharray="4" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

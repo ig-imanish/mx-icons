@@ -43,7 +43,5 @@ export const variants = [
     slug: "safe-home-twotone",
     Component: SafeHomeTwotone,
     componentName: "SafeHomeTwotone",
-  }
+  },
 ];
-
-export default { SafeHomeBold, SafeHomeBroken, SafeHomeBulk, SafeHomeLinear, SafeHomeOutline, SafeHomeTwotone };

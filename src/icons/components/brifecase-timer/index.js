@@ -43,7 +43,5 @@ export const variants = [
     slug: "brifecase-timer-twotone",
     Component: BrifecaseTimerTwotone,
     componentName: "BrifecaseTimerTwotone",
-  }
+  },
 ];
-
-export default { BrifecaseTimerBold, BrifecaseTimerBroken, BrifecaseTimerBulk, BrifecaseTimerLinear, BrifecaseTimerOutline, BrifecaseTimerTwotone };

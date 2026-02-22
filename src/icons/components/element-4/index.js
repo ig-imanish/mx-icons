@@ -10,40 +10,38 @@ export { Element4Bold, Element4Broken, Element4Bulk, Element4Linear, Element4Out
 export const variants = [
   {
     variant: "bold",
-    slug: "element-4-bold",
+    slug: "element4-bold",
     Component: Element4Bold,
     componentName: "Element4Bold",
   },
   {
     variant: "broken",
-    slug: "element-4-broken",
+    slug: "element4-broken",
     Component: Element4Broken,
     componentName: "Element4Broken",
   },
   {
     variant: "bulk",
-    slug: "element-4-bulk",
+    slug: "element4-bulk",
     Component: Element4Bulk,
     componentName: "Element4Bulk",
   },
   {
     variant: "linear",
-    slug: "element-4-linear",
+    slug: "element4-linear",
     Component: Element4Linear,
     componentName: "Element4Linear",
   },
   {
     variant: "outline",
-    slug: "element-4-outline",
+    slug: "element4-outline",
     Component: Element4Outline,
     componentName: "Element4Outline",
   },
   {
     variant: "twotone",
-    slug: "element-4-twotone",
+    slug: "element4-twotone",
     Component: Element4Twotone,
     componentName: "Element4Twotone",
-  }
+  },
 ];
-
-export default { Element4Bold, Element4Broken, Element4Bulk, Element4Linear, Element4Outline, Element4Twotone };

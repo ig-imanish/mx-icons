@@ -43,7 +43,5 @@ export const variants = [
     slug: "like-twotone",
     Component: LikeTwotone,
     componentName: "LikeTwotone",
-  }
+  },
 ];
-
-export default { LikeBold, LikeBroken, LikeBulk, LikeLinear, LikeOutline, LikeTwotone };

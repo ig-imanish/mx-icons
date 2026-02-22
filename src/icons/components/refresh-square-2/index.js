@@ -10,40 +10,38 @@ export { RefreshSquare2Bold, RefreshSquare2Broken, RefreshSquare2Bulk, RefreshSq
 export const variants = [
   {
     variant: "bold",
-    slug: "refresh-square-2-bold",
+    slug: "refresh-square2-bold",
     Component: RefreshSquare2Bold,
     componentName: "RefreshSquare2Bold",
   },
   {
     variant: "broken",
-    slug: "refresh-square-2-broken",
+    slug: "refresh-square2-broken",
     Component: RefreshSquare2Broken,
     componentName: "RefreshSquare2Broken",
   },
   {
     variant: "bulk",
-    slug: "refresh-square-2-bulk",
+    slug: "refresh-square2-bulk",
     Component: RefreshSquare2Bulk,
     componentName: "RefreshSquare2Bulk",
   },
   {
     variant: "linear",
-    slug: "refresh-square-2-linear",
+    slug: "refresh-square2-linear",
     Component: RefreshSquare2Linear,
     componentName: "RefreshSquare2Linear",
   },
   {
     variant: "outline",
-    slug: "refresh-square-2-outline",
+    slug: "refresh-square2-outline",
     Component: RefreshSquare2Outline,
     componentName: "RefreshSquare2Outline",
   },
   {
     variant: "twotone",
-    slug: "refresh-square-2-twotone",
+    slug: "refresh-square2-twotone",
     Component: RefreshSquare2Twotone,
     componentName: "RefreshSquare2Twotone",
-  }
+  },
 ];
-
-export default { RefreshSquare2Bold, RefreshSquare2Broken, RefreshSquare2Bulk, RefreshSquare2Linear, RefreshSquare2Outline, RefreshSquare2Twotone };

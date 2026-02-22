@@ -43,7 +43,5 @@ export const variants = [
     slug: "diagram-twotone",
     Component: DiagramTwotone,
     componentName: "DiagramTwotone",
-  }
+  },
 ];
-
-export default { DiagramBold, DiagramBroken, DiagramBulk, DiagramLinear, DiagramOutline, DiagramTwotone };

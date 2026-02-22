@@ -29,7 +29,5 @@ export const variants = [
     slug: "truck-time-outline",
     Component: TruckTimeOutline,
     componentName: "TruckTimeOutline",
-  }
+  },
 ];
-
-export default { TruckTimeBold, TruckTimeBulk, TruckTimeLinear, TruckTimeOutline };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "record-twotone",
     Component: RecordTwotone,
     componentName: "RecordTwotone",
-  }
+  },
 ];
-
-export default { RecordBold, RecordBroken, RecordBulk, RecordLinear, RecordOutline, RecordTwotone };

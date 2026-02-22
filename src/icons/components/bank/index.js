@@ -43,7 +43,5 @@ export const variants = [
     slug: "bank-twotone",
     Component: BankTwotone,
     componentName: "BankTwotone",
-  }
+  },
 ];
-
-export default { BankBold, BankBroken, BankBulk, BankLinear, BankOutline, BankTwotone };

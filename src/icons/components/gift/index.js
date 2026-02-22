@@ -43,7 +43,5 @@ export const variants = [
     slug: "gift-twotone",
     Component: GiftTwotone,
     componentName: "GiftTwotone",
-  }
+  },
 ];
-
-export default { GiftBold, GiftBroken, GiftBulk, GiftLinear, GiftOutline, GiftTwotone };

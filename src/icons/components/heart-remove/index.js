@@ -43,7 +43,5 @@ export const variants = [
     slug: "heart-remove-twotone",
     Component: HeartRemoveTwotone,
     componentName: "HeartRemoveTwotone",
-  }
+  },
 ];
-
-export default { HeartRemoveBold, HeartRemoveBroken, HeartRemoveBulk, HeartRemoveLinear, HeartRemoveOutline, HeartRemoveTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "emoji-normal-twotone",
     Component: EmojiNormalTwotone,
     componentName: "EmojiNormalTwotone",
-  }
+  },
 ];
-
-export default { EmojiNormalBold, EmojiNormalBroken, EmojiNormalBulk, EmojiNormalLinear, EmojiNormalOutline, EmojiNormalTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "element-equal-twotone",
     Component: ElementEqualTwotone,
     componentName: "ElementEqualTwotone",
-  }
+  },
 ];
-
-export default { ElementEqualBold, ElementEqualBroken, ElementEqualBulk, ElementEqualLinear, ElementEqualOutline, ElementEqualTwotone };

@@ -10,40 +10,38 @@ export { ReceiveSquare2Bold, ReceiveSquare2Broken, ReceiveSquare2Bulk, ReceiveSq
 export const variants = [
   {
     variant: "bold",
-    slug: "receive-square-2-bold",
+    slug: "receive-square2-bold",
     Component: ReceiveSquare2Bold,
     componentName: "ReceiveSquare2Bold",
   },
   {
     variant: "broken",
-    slug: "receive-square-2-broken",
+    slug: "receive-square2-broken",
     Component: ReceiveSquare2Broken,
     componentName: "ReceiveSquare2Broken",
   },
   {
     variant: "bulk",
-    slug: "receive-square-2-bulk",
+    slug: "receive-square2-bulk",
     Component: ReceiveSquare2Bulk,
     componentName: "ReceiveSquare2Bulk",
   },
   {
     variant: "linear",
-    slug: "receive-square-2-linear",
+    slug: "receive-square2-linear",
     Component: ReceiveSquare2Linear,
     componentName: "ReceiveSquare2Linear",
   },
   {
     variant: "outline",
-    slug: "receive-square-2-outline",
+    slug: "receive-square2-outline",
     Component: ReceiveSquare2Outline,
     componentName: "ReceiveSquare2Outline",
   },
   {
     variant: "twotone",
-    slug: "receive-square-2-twotone",
+    slug: "receive-square2-twotone",
     Component: ReceiveSquare2Twotone,
     componentName: "ReceiveSquare2Twotone",
-  }
+  },
 ];
-
-export default { ReceiveSquare2Bold, ReceiveSquare2Broken, ReceiveSquare2Bulk, ReceiveSquare2Linear, ReceiveSquare2Outline, ReceiveSquare2Twotone };

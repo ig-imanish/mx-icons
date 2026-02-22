@@ -43,7 +43,5 @@ export const variants = [
     slug: "path-twotone",
     Component: PathTwotone,
     componentName: "PathTwotone",
-  }
+  },
 ];
-
-export default { PathBold, PathBroken, PathBulk, PathLinear, PathOutline, PathTwotone };

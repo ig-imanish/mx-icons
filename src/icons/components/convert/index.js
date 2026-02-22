@@ -43,7 +43,5 @@ export const variants = [
     slug: "convert-twotone",
     Component: ConvertTwotone,
     componentName: "ConvertTwotone",
-  }
+  },
 ];
-
-export default { ConvertBold, ConvertBroken, ConvertBulk, ConvertLinear, ConvertOutline, ConvertTwotone };

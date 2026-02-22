@@ -43,7 +43,5 @@ export const variants = [
     slug: "sms-tracking-twotone",
     Component: SmsTrackingTwotone,
     componentName: "SmsTrackingTwotone",
-  }
+  },
 ];
-
-export default { SmsTrackingBold, SmsTrackingBroken, SmsTrackingBulk, SmsTrackingLinear, SmsTrackingOutline, SmsTrackingTwotone };

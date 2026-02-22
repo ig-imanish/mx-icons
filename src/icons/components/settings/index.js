@@ -43,7 +43,5 @@ export const variants = [
     slug: "settings-twotone",
     Component: SettingsTwotone,
     componentName: "SettingsTwotone",
-  }
+  },
 ];
-
-export default { SettingsBold, SettingsBroken, SettingsBulk, SettingsLinear, SettingsOutline, SettingsTwotone };

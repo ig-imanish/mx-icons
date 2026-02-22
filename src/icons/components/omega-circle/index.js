@@ -43,7 +43,5 @@ export const variants = [
     slug: "omega-circle-twotone",
     Component: OmegaCircleTwotone,
     componentName: "OmegaCircleTwotone",
-  }
+  },
 ];
-
-export default { OmegaCircleBold, OmegaCircleBroken, OmegaCircleBulk, OmegaCircleLinear, OmegaCircleOutline, OmegaCircleTwotone };

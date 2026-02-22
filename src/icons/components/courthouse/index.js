@@ -43,7 +43,5 @@ export const variants = [
     slug: "courthouse-twotone",
     Component: CourthouseTwotone,
     componentName: "CourthouseTwotone",
-  }
+  },
 ];
-
-export default { CourthouseBold, CourthouseBroken, CourthouseBulk, CourthouseLinear, CourthouseOutline, CourthouseTwotone };

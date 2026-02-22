@@ -43,7 +43,5 @@ export const variants = [
     slug: "security-card-twotone",
     Component: SecurityCardTwotone,
     componentName: "SecurityCardTwotone",
-  }
+  },
 ];
-
-export default { SecurityCardBold, SecurityCardBroken, SecurityCardBulk, SecurityCardLinear, SecurityCardOutline, SecurityCardTwotone };

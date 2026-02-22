@@ -1,0 +1,31 @@
+import Icon from "../../Icon";
+
+export default function PixelfedFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGM90UkbaZ">
+			<path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="60" fill-opacity="0">
+				<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+				<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<path d="M11.21 14.18h1.83c1.73 0 3.13 -1.36 3.13 -3.05c0 -1.68 -1.4 -3.05 -3.13 -3.05h-2.65c-1 0 -1.81 0.79 -1.81 1.76v6.84l2.62 -2.51Z" fill="currentColor" opacity="0">
+				<animate attributeName="opacity" begin="1.1s" dur="0.2s" fill="freeze" to="1" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGM90UkbaZ)" />
+    </Icon>
+  );
+}

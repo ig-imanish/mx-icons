@@ -1,0 +1,40 @@
+import Icon from "../../Icon";
+
+export default function DownloadOffOutline({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVG1APdjfKy">
+			<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<g stroke="currentColor">
+					<path d="M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5" stroke-dasharray="20">
+						<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="20;0" />
+					</path>
+					<path d="M6 19h12" stroke-dasharray="14" stroke-dashoffset="14">
+						<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+				</g>
+				<path d="M0 11h24" stroke="currentColor" transform="rotate(45 13 12)" stroke-dasharray="26" stroke-dashoffset="26">
+					<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.4s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVG1APdjfKy)" />
+	<path d="M1 13h22" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 13 12)" stroke-dasharray="24" stroke-dashoffset="24">
+		<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

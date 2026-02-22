@@ -43,7 +43,5 @@ export const variants = [
     slug: "maximize-twotone",
     Component: MaximizeTwotone,
     componentName: "MaximizeTwotone",
-  }
+  },
 ];
-
-export default { MaximizeBold, MaximizeBroken, MaximizeBulk, MaximizeLinear, MaximizeOutline, MaximizeTwotone };

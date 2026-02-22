@@ -43,7 +43,5 @@ export const variants = [
     slug: "filter-square-twotone",
     Component: FilterSquareTwotone,
     componentName: "FilterSquareTwotone",
-  }
+  },
 ];
-
-export default { FilterSquareBold, FilterSquareBroken, FilterSquareBulk, FilterSquareLinear, FilterSquareOutline, FilterSquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "call-remove-twotone",
     Component: CallRemoveTwotone,
     componentName: "CallRemoveTwotone",
-  }
+  },
 ];
-
-export default { CallRemoveBold, CallRemoveBroken, CallRemoveBulk, CallRemoveLinear, CallRemoveOutline, CallRemoveTwotone };

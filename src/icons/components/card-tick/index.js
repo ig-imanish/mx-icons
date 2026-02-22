@@ -43,7 +43,5 @@ export const variants = [
     slug: "card-tick-twotone",
     Component: CardTickTwotone,
     componentName: "CardTickTwotone",
-  }
+  },
 ];
-
-export default { CardTickBold, CardTickBroken, CardTickBulk, CardTickLinear, CardTickOutline, CardTickTwotone };

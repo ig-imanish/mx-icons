@@ -43,7 +43,5 @@ export const variants = [
     slug: "headphones-twotone",
     Component: HeadphonesTwotone,
     componentName: "HeadphonesTwotone",
-  }
+  },
 ];
-
-export default { HeadphonesBold, HeadphonesBroken, HeadphonesBulk, HeadphonesLinear, HeadphonesOutline, HeadphonesTwotone };

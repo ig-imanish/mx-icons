@@ -43,7 +43,5 @@ export const variants = [
     slug: "slider-vertical-twotone",
     Component: SliderVerticalTwotone,
     componentName: "SliderVerticalTwotone",
-  }
+  },
 ];
-
-export default { SliderVerticalBold, SliderVerticalBroken, SliderVerticalBulk, SliderVerticalLinear, SliderVerticalOutline, SliderVerticalTwotone };

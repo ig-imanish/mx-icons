@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-minus-twotone",
     Component: UserMinusTwotone,
     componentName: "UserMinusTwotone",
-  }
+  },
 ];
-
-export default { UserMinusBold, UserMinusBroken, UserMinusBulk, UserMinusLinear, UserMinusOutline, UserMinusTwotone };

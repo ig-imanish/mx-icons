@@ -43,7 +43,5 @@ export const variants = [
     slug: "shield-tick-twotone",
     Component: ShieldTickTwotone,
     componentName: "ShieldTickTwotone",
-  }
+  },
 ];
-
-export default { ShieldTickBold, ShieldTickBroken, ShieldTickBulk, ShieldTickLinear, ShieldTickOutline, ShieldTickTwotone };

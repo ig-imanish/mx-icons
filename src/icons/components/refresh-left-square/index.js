@@ -43,7 +43,5 @@ export const variants = [
     slug: "refresh-left-square-twotone",
     Component: RefreshLeftSquareTwotone,
     componentName: "RefreshLeftSquareTwotone",
-  }
+  },
 ];
-
-export default { RefreshLeftSquareBold, RefreshLeftSquareBroken, RefreshLeftSquareBulk, RefreshLeftSquareLinear, RefreshLeftSquareOutline, RefreshLeftSquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "book-twotone",
     Component: BookTwotone,
     componentName: "BookTwotone",
-  }
+  },
 ];
-
-export default { BookBold, BookBroken, BookBulk, BookLinear, BookOutline, BookTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "house-twotone",
     Component: HouseTwotone,
     componentName: "HouseTwotone",
-  }
+  },
 ];
-
-export default { HouseBold, HouseBroken, HouseBulk, HouseLinear, HouseOutline, HouseTwotone };

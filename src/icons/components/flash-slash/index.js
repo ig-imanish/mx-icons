@@ -43,7 +43,5 @@ export const variants = [
     slug: "flash-slash-twotone",
     Component: FlashSlashTwotone,
     componentName: "FlashSlashTwotone",
-  }
+  },
 ];
-
-export default { FlashSlashBold, FlashSlashBroken, FlashSlashBulk, FlashSlashLinear, FlashSlashOutline, FlashSlashTwotone };

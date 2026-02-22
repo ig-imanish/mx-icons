@@ -36,7 +36,5 @@ export const variants = [
     slug: "empty-wallet-time-outline",
     Component: EmptyWalletTimeOutline,
     componentName: "EmptyWalletTimeOutline",
-  }
+  },
 ];
-
-export default { EmptyWalletTimeBold, EmptyWalletTimeBroken, EmptyWalletTimeBulk, EmptyWalletTimeLinear, EmptyWalletTimeOutline };

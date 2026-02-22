@@ -1,0 +1,27 @@
+import Icon from "../../Icon";
+
+export default function TextBoxMultipleTwotoneToTextBoxTwotoneTransition({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M20 5v14c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-14c0 -0.55 0.45 -1 1 -1h14c0.55 0 1 0.45 1 1Z" fill="currentColor" fill-opacity="0.3">
+			<animate attributeName="d" dur="0.4s" fill="freeze" values="M22 3v14c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-14c0 -0.55 0.45 -1 1 -1h14c0.55 0 1 0.45 1 1Z;M20 5v14c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-14c0 -0.55 0.45 -1 1 -1h14c0.55 0 1 0.45 1 1Z" />
+		</path>
+		<path d="M8 8h8M8 12h8M8 16h5M4 5v14c0 0.55 0.45 1 1 1h14" fill="none">
+			<animate attributeName="d" dur="0.4s" fill="freeze" values="M10 6h8M10 10h8M10 14h5M2 6v15c0 0.55 0.45 1 1 1h15;M8 8h8M8 12h8M8 16h5M4 5v14c0 0.55 0.45 1 1 1h14" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

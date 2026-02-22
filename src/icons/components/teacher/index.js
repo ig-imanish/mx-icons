@@ -43,7 +43,5 @@ export const variants = [
     slug: "teacher-twotone",
     Component: TeacherTwotone,
     componentName: "TeacherTwotone",
-  }
+  },
 ];
-
-export default { TeacherBold, TeacherBroken, TeacherBulk, TeacherLinear, TeacherOutline, TeacherTwotone };

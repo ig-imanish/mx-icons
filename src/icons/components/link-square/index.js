@@ -43,7 +43,5 @@ export const variants = [
     slug: "link-square-twotone",
     Component: LinkSquareTwotone,
     componentName: "LinkSquareTwotone",
-  }
+  },
 ];
-
-export default { LinkSquareBold, LinkSquareBroken, LinkSquareBulk, LinkSquareLinear, LinkSquareOutline, LinkSquareTwotone };

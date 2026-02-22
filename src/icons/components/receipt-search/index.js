@@ -43,7 +43,5 @@ export const variants = [
     slug: "receipt-search-twotone",
     Component: ReceiptSearchTwotone,
     componentName: "ReceiptSearchTwotone",
-  }
+  },
 ];
-
-export default { ReceiptSearchBold, ReceiptSearchBroken, ReceiptSearchBulk, ReceiptSearchLinear, ReceiptSearchOutline, ReceiptSearchTwotone };

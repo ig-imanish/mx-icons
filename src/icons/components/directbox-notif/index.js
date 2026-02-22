@@ -43,7 +43,5 @@ export const variants = [
     slug: "directbox-notif-twotone",
     Component: DirectboxNotifTwotone,
     componentName: "DirectboxNotifTwotone",
-  }
+  },
 ];
-
-export default { DirectboxNotifBold, DirectboxNotifBroken, DirectboxNotifBulk, DirectboxNotifLinear, DirectboxNotifOutline, DirectboxNotifTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "profile-add-twotone",
     Component: ProfileAddTwotone,
     componentName: "ProfileAddTwotone",
-  }
+  },
 ];
-
-export default { ProfileAddBold, ProfileAddBroken, ProfileAddBulk, ProfileAddLinear, ProfileAddOutline, ProfileAddTwotone };

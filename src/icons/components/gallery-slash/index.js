@@ -43,7 +43,5 @@ export const variants = [
     slug: "gallery-slash-twotone",
     Component: GallerySlashTwotone,
     componentName: "GallerySlashTwotone",
-  }
+  },
 ];
-
-export default { GallerySlashBold, GallerySlashBroken, GallerySlashBulk, GallerySlashLinear, GallerySlashOutline, GallerySlashTwotone };

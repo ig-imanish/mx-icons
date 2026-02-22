@@ -10,40 +10,38 @@ export { Eraser1Bold, Eraser1Broken, Eraser1Bulk, Eraser1Linear, Eraser1Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "eraser-1-bold",
+    slug: "eraser1-bold",
     Component: Eraser1Bold,
     componentName: "Eraser1Bold",
   },
   {
     variant: "broken",
-    slug: "eraser-1-broken",
+    slug: "eraser1-broken",
     Component: Eraser1Broken,
     componentName: "Eraser1Broken",
   },
   {
     variant: "bulk",
-    slug: "eraser-1-bulk",
+    slug: "eraser1-bulk",
     Component: Eraser1Bulk,
     componentName: "Eraser1Bulk",
   },
   {
     variant: "linear",
-    slug: "eraser-1-linear",
+    slug: "eraser1-linear",
     Component: Eraser1Linear,
     componentName: "Eraser1Linear",
   },
   {
     variant: "outline",
-    slug: "eraser-1-outline",
+    slug: "eraser1-outline",
     Component: Eraser1Outline,
     componentName: "Eraser1Outline",
   },
   {
     variant: "twotone",
-    slug: "eraser-1-twotone",
+    slug: "eraser1-twotone",
     Component: Eraser1Twotone,
     componentName: "Eraser1Twotone",
-  }
+  },
 ];
-
-export default { Eraser1Bold, Eraser1Broken, Eraser1Bulk, Eraser1Linear, Eraser1Outline, Eraser1Twotone };

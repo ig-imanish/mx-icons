@@ -1,0 +1,47 @@
+import Icon from "../../Icon";
+
+export default function FolderCancelTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVG3axaQeAF">
+			<g stroke-linecap="round" stroke-linejoin="round">
+				<g stroke="currentColor" stroke-width="2">
+					<path d="M12 7h8c0.55 0 1 0.45 1 1v10c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-11Z" fill="currentColor" fill-opacity="0" stroke-dasharray="62">
+						<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="62;0" />
+						<animate attributeName="fill-opacity" begin="1.4s" dur="0.15s" fill="freeze" to="0.3" />
+					</path>
+					<path d="M12 7h-9v-1c0 -0.55 0.45 -1 1 -1h6Z" fill="none" opacity="0">
+						<set attributeName="opacity" to="1" begin="0.6s" fill="freeze" />
+						<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" values="M12 7h-9v0c0 0 0.45 0 1 0h6Z;M12 7h-9v-1c0 -0.55 0.45 -1 1 -1h6Z" />
+					</path>
+				</g>
+				<path d="M18.5 14c2.48 0 4.5 2.02 4.5 4.5c0 2.48 -2.02 4.5 -4.5 4.5c-2.48 0 -4.5 -2.02 -4.5 -4.5c0 -2.48 2.02 -4.5 4.5 -4.5Z" stroke="currentColor" fill="currentColor" stroke-width="6" opacity="0">
+					<set attributeName="opacity" to="1" begin="0.8s" fill="freeze" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVG3axaQeAF)" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M18.5 14c2.48 0 4.5 2.02 4.5 4.5c0 2.48 -2.02 4.5 -4.5 4.5c-2.48 0 -4.5 -2.02 -4.5 -4.5c0 -2.48 2.02 -4.5 4.5 -4.5Z" stroke-dasharray="32" stroke-dashoffset="32">
+			<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+		<path d="M16 16l5 5" stroke-dasharray="10" stroke-dashoffset="10">
+			<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

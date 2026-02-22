@@ -43,7 +43,5 @@ export const variants = [
     slug: "task-square-twotone",
     Component: TaskSquareTwotone,
     componentName: "TaskSquareTwotone",
-  }
+  },
 ];
-
-export default { TaskSquareBold, TaskSquareBroken, TaskSquareBulk, TaskSquareLinear, TaskSquareOutline, TaskSquareTwotone };

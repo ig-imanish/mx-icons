@@ -10,40 +10,38 @@ export { VolumeLow1Bold, VolumeLow1Broken, VolumeLow1Bulk, VolumeLow1Linear, Vol
 export const variants = [
   {
     variant: "bold",
-    slug: "volume-low-1-bold",
+    slug: "volume-low1-bold",
     Component: VolumeLow1Bold,
     componentName: "VolumeLow1Bold",
   },
   {
     variant: "broken",
-    slug: "volume-low-1-broken",
+    slug: "volume-low1-broken",
     Component: VolumeLow1Broken,
     componentName: "VolumeLow1Broken",
   },
   {
     variant: "bulk",
-    slug: "volume-low-1-bulk",
+    slug: "volume-low1-bulk",
     Component: VolumeLow1Bulk,
     componentName: "VolumeLow1Bulk",
   },
   {
     variant: "linear",
-    slug: "volume-low-1-linear",
+    slug: "volume-low1-linear",
     Component: VolumeLow1Linear,
     componentName: "VolumeLow1Linear",
   },
   {
     variant: "outline",
-    slug: "volume-low-1-outline",
+    slug: "volume-low1-outline",
     Component: VolumeLow1Outline,
     componentName: "VolumeLow1Outline",
   },
   {
     variant: "twotone",
-    slug: "volume-low-1-twotone",
+    slug: "volume-low1-twotone",
     Component: VolumeLow1Twotone,
     componentName: "VolumeLow1Twotone",
-  }
+  },
 ];
-
-export default { VolumeLow1Bold, VolumeLow1Broken, VolumeLow1Bulk, VolumeLow1Linear, VolumeLow1Outline, VolumeLow1Twotone };

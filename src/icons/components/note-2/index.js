@@ -10,40 +10,38 @@ export { Note2Bold, Note2Broken, Note2Bulk, Note2Linear, Note2Outline, Note2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "note-2-bold",
+    slug: "note2-bold",
     Component: Note2Bold,
     componentName: "Note2Bold",
   },
   {
     variant: "broken",
-    slug: "note-2-broken",
+    slug: "note2-broken",
     Component: Note2Broken,
     componentName: "Note2Broken",
   },
   {
     variant: "bulk",
-    slug: "note-2-bulk",
+    slug: "note2-bulk",
     Component: Note2Bulk,
     componentName: "Note2Bulk",
   },
   {
     variant: "linear",
-    slug: "note-2-linear",
+    slug: "note2-linear",
     Component: Note2Linear,
     componentName: "Note2Linear",
   },
   {
     variant: "outline",
-    slug: "note-2-outline",
+    slug: "note2-outline",
     Component: Note2Outline,
     componentName: "Note2Outline",
   },
   {
     variant: "twotone",
-    slug: "note-2-twotone",
+    slug: "note2-twotone",
     Component: Note2Twotone,
     componentName: "Note2Twotone",
-  }
+  },
 ];
-
-export default { Note2Bold, Note2Broken, Note2Bulk, Note2Linear, Note2Outline, Note2Twotone };

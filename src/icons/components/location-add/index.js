@@ -43,7 +43,5 @@ export const variants = [
     slug: "location-add-twotone",
     Component: LocationAddTwotone,
     componentName: "LocationAddTwotone",
-  }
+  },
 ];
-
-export default { LocationAddBold, LocationAddBroken, LocationAddBulk, LocationAddLinear, LocationAddOutline, LocationAddTwotone };

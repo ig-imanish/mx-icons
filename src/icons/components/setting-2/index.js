@@ -10,40 +10,38 @@ export { Setting2Bold, Setting2Broken, Setting2Bulk, Setting2Linear, Setting2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "setting-2-bold",
+    slug: "setting2-bold",
     Component: Setting2Bold,
     componentName: "Setting2Bold",
   },
   {
     variant: "broken",
-    slug: "setting-2-broken",
+    slug: "setting2-broken",
     Component: Setting2Broken,
     componentName: "Setting2Broken",
   },
   {
     variant: "bulk",
-    slug: "setting-2-bulk",
+    slug: "setting2-bulk",
     Component: Setting2Bulk,
     componentName: "Setting2Bulk",
   },
   {
     variant: "linear",
-    slug: "setting-2-linear",
+    slug: "setting2-linear",
     Component: Setting2Linear,
     componentName: "Setting2Linear",
   },
   {
     variant: "outline",
-    slug: "setting-2-outline",
+    slug: "setting2-outline",
     Component: Setting2Outline,
     componentName: "Setting2Outline",
   },
   {
     variant: "twotone",
-    slug: "setting-2-twotone",
+    slug: "setting2-twotone",
     Component: Setting2Twotone,
     componentName: "Setting2Twotone",
-  }
+  },
 ];
-
-export default { Setting2Bold, Setting2Broken, Setting2Bulk, Setting2Linear, Setting2Outline, Setting2Twotone };

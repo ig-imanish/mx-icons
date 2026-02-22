@@ -43,7 +43,5 @@ export const variants = [
     slug: "mobile-twotone",
     Component: MobileTwotone,
     componentName: "MobileTwotone",
-  }
+  },
 ];
-
-export default { MobileBold, MobileBroken, MobileBulk, MobileLinear, MobileOutline, MobileTwotone };

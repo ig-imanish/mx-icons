@@ -43,7 +43,5 @@ export const variants = [
     slug: "slider-horizontal-twotone",
     Component: SliderHorizontalTwotone,
     componentName: "SliderHorizontalTwotone",
-  }
+  },
 ];
-
-export default { SliderHorizontalBold, SliderHorizontalBroken, SliderHorizontalBulk, SliderHorizontalLinear, SliderHorizontalOutline, SliderHorizontalTwotone };

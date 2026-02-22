@@ -10,40 +10,38 @@ export { Send2Bold, Send2Broken, Send2Bulk, Send2Linear, Send2Outline, Send2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "send-2-bold",
+    slug: "send2-bold",
     Component: Send2Bold,
     componentName: "Send2Bold",
   },
   {
     variant: "broken",
-    slug: "send-2-broken",
+    slug: "send2-broken",
     Component: Send2Broken,
     componentName: "Send2Broken",
   },
   {
     variant: "bulk",
-    slug: "send-2-bulk",
+    slug: "send2-bulk",
     Component: Send2Bulk,
     componentName: "Send2Bulk",
   },
   {
     variant: "linear",
-    slug: "send-2-linear",
+    slug: "send2-linear",
     Component: Send2Linear,
     componentName: "Send2Linear",
   },
   {
     variant: "outline",
-    slug: "send-2-outline",
+    slug: "send2-outline",
     Component: Send2Outline,
     componentName: "Send2Outline",
   },
   {
     variant: "twotone",
-    slug: "send-2-twotone",
+    slug: "send2-twotone",
     Component: Send2Twotone,
     componentName: "Send2Twotone",
-  }
+  },
 ];
-
-export default { Send2Bold, Send2Broken, Send2Bulk, Send2Linear, Send2Outline, Send2Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "battery-empty-twotone",
     Component: BatteryEmptyTwotone,
     componentName: "BatteryEmptyTwotone",
-  }
+  },
 ];
-
-export default { BatteryEmptyBold, BatteryEmptyBroken, BatteryEmptyBulk, BatteryEmptyLinear, BatteryEmptyOutline, BatteryEmptyTwotone };

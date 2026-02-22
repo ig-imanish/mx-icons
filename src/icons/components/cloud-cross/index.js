@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-cross-twotone",
     Component: CloudCrossTwotone,
     componentName: "CloudCrossTwotone",
-  }
+  },
 ];
-
-export default { CloudCrossBold, CloudCrossBroken, CloudCrossBulk, CloudCrossLinear, CloudCrossOutline, CloudCrossTwotone };

@@ -10,40 +10,38 @@ export { SearchNormal1Bold, SearchNormal1Broken, SearchNormal1Bulk, SearchNormal
 export const variants = [
   {
     variant: "bold",
-    slug: "search-normal-1-bold",
+    slug: "search-normal1-bold",
     Component: SearchNormal1Bold,
     componentName: "SearchNormal1Bold",
   },
   {
     variant: "broken",
-    slug: "search-normal-1-broken",
+    slug: "search-normal1-broken",
     Component: SearchNormal1Broken,
     componentName: "SearchNormal1Broken",
   },
   {
     variant: "bulk",
-    slug: "search-normal-1-bulk",
+    slug: "search-normal1-bulk",
     Component: SearchNormal1Bulk,
     componentName: "SearchNormal1Bulk",
   },
   {
     variant: "linear",
-    slug: "search-normal-1-linear",
+    slug: "search-normal1-linear",
     Component: SearchNormal1Linear,
     componentName: "SearchNormal1Linear",
   },
   {
     variant: "outline",
-    slug: "search-normal-1-outline",
+    slug: "search-normal1-outline",
     Component: SearchNormal1Outline,
     componentName: "SearchNormal1Outline",
   },
   {
     variant: "twotone",
-    slug: "search-normal-1-twotone",
+    slug: "search-normal1-twotone",
     Component: SearchNormal1Twotone,
     componentName: "SearchNormal1Twotone",
-  }
+  },
 ];
-
-export default { SearchNormal1Bold, SearchNormal1Broken, SearchNormal1Bulk, SearchNormal1Linear, SearchNormal1Outline, SearchNormal1Twotone };

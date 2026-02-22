@@ -43,7 +43,5 @@ export const variants = [
     slug: "heart-search-twotone",
     Component: HeartSearchTwotone,
     componentName: "HeartSearchTwotone",
-  }
+  },
 ];
-
-export default { HeartSearchBold, HeartSearchBroken, HeartSearchBulk, HeartSearchLinear, HeartSearchOutline, HeartSearchTwotone };

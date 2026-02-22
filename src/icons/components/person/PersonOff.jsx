@@ -1,0 +1,40 @@
+import Icon from "../../Icon";
+
+export default function PersonOff({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGIQrlRQpZ">
+			<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<g stroke="currentColor">
+					<path d="M10 5c1.66 0 3 1.34 3 3c0 1.66 -1.34 3 -3 3c-1.66 0 -3 -1.34 -3 -3c0 -1.66 1.34 -3 3 -3Z" stroke-dasharray="22">
+						<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="22;0" />
+					</path>
+					<path d="M10 14c4 0 7 2 7 3v2h-14v-2c0 -1 3 -3 7 -3Z" stroke-dasharray="38" stroke-dashoffset="38">
+						<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.5s" fill="freeze" to="0" />
+					</path>
+				</g>
+				<path d="M0 11h24" stroke="currentColor" transform="rotate(45 12 12)" stroke-dasharray="26" stroke-dashoffset="26">
+					<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.4s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGIQrlRQpZ)" />
+	<path d="M1 13h22" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="24" stroke-dashoffset="24">
+		<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.3s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

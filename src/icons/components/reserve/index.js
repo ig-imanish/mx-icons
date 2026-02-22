@@ -43,7 +43,5 @@ export const variants = [
     slug: "reserve-twotone",
     Component: ReserveTwotone,
     componentName: "ReserveTwotone",
-  }
+  },
 ];
-
-export default { ReserveBold, ReserveBroken, ReserveBulk, ReserveLinear, ReserveOutline, ReserveTwotone };

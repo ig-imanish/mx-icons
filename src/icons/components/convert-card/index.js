@@ -36,7 +36,5 @@ export const variants = [
     slug: "convert-card-twotone",
     Component: ConvertCardTwotone,
     componentName: "ConvertCardTwotone",
-  }
+  },
 ];
-
-export default { ConvertCardBold, ConvertCardBroken, ConvertCardBulk, ConvertCardOutline, ConvertCardTwotone };

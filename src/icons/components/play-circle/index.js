@@ -43,7 +43,5 @@ export const variants = [
     slug: "play-circle-twotone",
     Component: PlayCircleTwotone,
     componentName: "PlayCircleTwotone",
-  }
+  },
 ];
-
-export default { PlayCircleBold, PlayCircleBroken, PlayCircleBulk, PlayCircleLinear, PlayCircleOutline, PlayCircleTwotone };

@@ -1,4 +1,3 @@
-import React from "react";
 import Icon from "../../Icon";
 
 export default function CloudTwotone({
@@ -15,8 +14,17 @@ export default function CloudTwotone({
       className={className}
       {...props}
     >
-      <path d="M7.26906 13.0098C6.73906 12.7398 6.14906 12.5998 5.54906 12.5998C0.869062 12.9298 0.869062 19.7398 5.54906 20.0698H16.6391C17.9891 20.0798 19.2891 19.5798 20.2791 18.6698C23.5691 15.7998 21.8091 10.0298 17.4791 9.47976C15.9191 0.109757 2.38906 3.66976 5.59906 12.5998" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.8496 9.91977C16.3696 9.65977 16.9396 9.51977 17.5196 9.50977" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M7 19c-2.5 0 -4 -2 -4 -4c0 -2 1.5 -4 4 -4c0 -3.5 2 -6 5 -6c3 0 5 2.5 5 5v1c2.5 0 4 2 4 4c0 2 -1.5 4 -4 4Z" fill="currentColor" fill-opacity="0">
+		<animate attributeName="fill-opacity" begin="0.9s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 19h-5c-2.5 0 -4 -2 -4 -4c0 -2 1.5 -4 4 -4c1 0 1.5 0.5 1.5 0.5M12 19h5c2.5 0 4 -2 4 -4c0 -2 -1.5 -4 -4 -4c-1 0 -1.5 0.5 -1.5 0.5" stroke-dasharray="22">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="22;0" />
+		</path>
+		<path d="M7 11v-1c0 -2.5 2 -5 5 -5M17 11v-1c0 -2.5 -2 -5 -5 -5" stroke-dasharray="12" stroke-dashoffset="12">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+	</g>
     </Icon>
   );
 }

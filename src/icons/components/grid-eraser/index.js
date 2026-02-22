@@ -43,7 +43,5 @@ export const variants = [
     slug: "grid-eraser-twotone",
     Component: GridEraserTwotone,
     componentName: "GridEraserTwotone",
-  }
+  },
 ];
-
-export default { GridEraserBold, GridEraserBroken, GridEraserBulk, GridEraserLinear, GridEraserOutline, GridEraserTwotone };

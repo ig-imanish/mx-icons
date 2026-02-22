@@ -43,7 +43,5 @@ export const variants = [
     slug: "link-twotone",
     Component: LinkTwotone,
     componentName: "LinkTwotone",
-  }
+  },
 ];
-
-export default { LinkBold, LinkBroken, LinkBulk, LinkLinear, LinkOutline, LinkTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "smart-car-twotone",
     Component: SmartCarTwotone,
     componentName: "SmartCarTwotone",
-  }
+  },
 ];
-
-export default { SmartCarBold, SmartCarBroken, SmartCarBulk, SmartCarLinear, SmartCarOutline, SmartCarTwotone };

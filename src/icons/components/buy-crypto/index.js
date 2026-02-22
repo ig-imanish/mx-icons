@@ -43,7 +43,5 @@ export const variants = [
     slug: "buy-crypto-twotone",
     Component: BuyCryptoTwotone,
     componentName: "BuyCryptoTwotone",
-  }
+  },
 ];
-
-export default { BuyCryptoBold, BuyCryptoBroken, BuyCryptoBulk, BuyCryptoLinear, BuyCryptoOutline, BuyCryptoTwotone };

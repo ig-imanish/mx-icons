@@ -43,7 +43,5 @@ export const variants = [
     slug: "search-zoom-in-twotone",
     Component: SearchZoomInTwotone,
     componentName: "SearchZoomInTwotone",
-  }
+  },
 ];
-
-export default { SearchZoomInBold, SearchZoomInBroken, SearchZoomInBulk, SearchZoomInLinear, SearchZoomInOutline, SearchZoomInTwotone };

@@ -10,40 +10,38 @@ export { Chart3Bold, Chart3Broken, Chart3Bulk, Chart3Linear, Chart3Outline, Char
 export const variants = [
   {
     variant: "bold",
-    slug: "chart-3-bold",
+    slug: "chart3-bold",
     Component: Chart3Bold,
     componentName: "Chart3Bold",
   },
   {
     variant: "broken",
-    slug: "chart-3-broken",
+    slug: "chart3-broken",
     Component: Chart3Broken,
     componentName: "Chart3Broken",
   },
   {
     variant: "bulk",
-    slug: "chart-3-bulk",
+    slug: "chart3-bulk",
     Component: Chart3Bulk,
     componentName: "Chart3Bulk",
   },
   {
     variant: "linear",
-    slug: "chart-3-linear",
+    slug: "chart3-linear",
     Component: Chart3Linear,
     componentName: "Chart3Linear",
   },
   {
     variant: "outline",
-    slug: "chart-3-outline",
+    slug: "chart3-outline",
     Component: Chart3Outline,
     componentName: "Chart3Outline",
   },
   {
     variant: "twotone",
-    slug: "chart-3-twotone",
+    slug: "chart3-twotone",
     Component: Chart3Twotone,
     componentName: "Chart3Twotone",
-  }
+  },
 ];
-
-export default { Chart3Bold, Chart3Broken, Chart3Bulk, Chart3Linear, Chart3Outline, Chart3Twotone };

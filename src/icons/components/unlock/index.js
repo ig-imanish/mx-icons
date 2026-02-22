@@ -43,7 +43,5 @@ export const variants = [
     slug: "unlock-twotone",
     Component: UnlockTwotone,
     componentName: "UnlockTwotone",
-  }
+  },
 ];
-
-export default { UnlockBold, UnlockBroken, UnlockBulk, UnlockLinear, UnlockOutline, UnlockTwotone };

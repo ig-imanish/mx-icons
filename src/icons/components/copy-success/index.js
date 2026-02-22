@@ -43,7 +43,5 @@ export const variants = [
     slug: "copy-success-twotone",
     Component: CopySuccessTwotone,
     componentName: "CopySuccessTwotone",
-  }
+  },
 ];
-
-export default { CopySuccessBold, CopySuccessBroken, CopySuccessBulk, CopySuccessLinear, CopySuccessOutline, CopySuccessTwotone };

@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function ExternalLink({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M11 5h-6v14h14v-6" stroke-dasharray="42">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="42;0" />
+		</path>
+		<path d="M13 11l7 -7" stroke-dasharray="12" stroke-dashoffset="12">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M21 3h-6M21 3v6" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

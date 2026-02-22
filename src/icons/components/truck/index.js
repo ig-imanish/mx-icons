@@ -29,7 +29,5 @@ export const variants = [
     slug: "truck-twotone",
     Component: TruckTwotone,
     componentName: "TruckTwotone",
-  }
+  },
 ];
-
-export default { TruckBold, TruckBroken, TruckOutline, TruckTwotone };

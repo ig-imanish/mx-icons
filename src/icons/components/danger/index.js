@@ -43,7 +43,5 @@ export const variants = [
     slug: "danger-twotone",
     Component: DangerTwotone,
     componentName: "DangerTwotone",
-  }
+  },
 ];
-
-export default { DangerBold, DangerBroken, DangerBulk, DangerLinear, DangerOutline, DangerTwotone };

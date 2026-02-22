@@ -1,0 +1,27 @@
+import Icon from "../../Icon";
+
+export default function UTurnLeft({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M17 20v-11c0 -2.76 -2.24 -5 -5 -5c-2.76 0 -5 2.24 -5 5v7" stroke-dasharray="36">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="36;0" />
+		</path>
+		<path d="M7 16l-3 -3M7 16l3 -3" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

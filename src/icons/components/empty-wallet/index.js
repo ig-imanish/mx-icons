@@ -43,7 +43,5 @@ export const variants = [
     slug: "empty-wallet-twotone",
     Component: EmptyWalletTwotone,
     componentName: "EmptyWalletTwotone",
-  }
+  },
 ];
-
-export default { EmptyWalletBold, EmptyWalletBroken, EmptyWalletBulk, EmptyWalletLinear, EmptyWalletOutline, EmptyWalletTwotone };

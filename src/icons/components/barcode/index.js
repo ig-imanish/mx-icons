@@ -43,7 +43,5 @@ export const variants = [
     slug: "barcode-twotone",
     Component: BarcodeTwotone,
     componentName: "BarcodeTwotone",
-  }
+  },
 ];
-
-export default { BarcodeBold, BarcodeBroken, BarcodeBulk, BarcodeLinear, BarcodeOutline, BarcodeTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "battery-charging-twotone",
     Component: BatteryChargingTwotone,
     componentName: "BatteryChargingTwotone",
-  }
+  },
 ];
-
-export default { BatteryChargingBold, BatteryChargingBroken, BatteryChargingBulk, BatteryChargingLinear, BatteryChargingOutline, BatteryChargingTwotone };

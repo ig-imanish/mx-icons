@@ -1,9 +1,9 @@
 import AndroidBold from "./AndroidBold";
+import AndroidBulk from "./AndroidBulk";
 import AndroidLinear from "./AndroidLinear";
 import AndroidOutline from "./AndroidOutline";
-import AndroidBulk from "./AndroidBulk";
 
-export { AndroidBold, AndroidLinear, AndroidOutline, AndroidBulk };
+export { AndroidBold, AndroidBulk, AndroidLinear, AndroidOutline };
 
 export const variants = [
   {
@@ -11,6 +11,12 @@ export const variants = [
     slug: "android-bold",
     Component: AndroidBold,
     componentName: "AndroidBold",
+  },
+  {
+    variant: "bulk",
+    slug: "android-bulk",
+    Component: AndroidBulk,
+    componentName: "AndroidBulk",
   },
   {
     variant: "linear",
@@ -24,12 +30,4 @@ export const variants = [
     Component: AndroidOutline,
     componentName: "AndroidOutline",
   },
-  {
-    variant: "bulk",
-    slug: "android-bulk",
-    Component: AndroidBulk,
-    componentName: "AndroidBulk",
-  },
 ];
-
-export default { AndroidBold, AndroidLinear, AndroidOutline, AndroidBulk };

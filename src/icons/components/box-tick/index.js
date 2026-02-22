@@ -43,7 +43,5 @@ export const variants = [
     slug: "box-tick-twotone",
     Component: BoxTickTwotone,
     componentName: "BoxTickTwotone",
-  }
+  },
 ];
-
-export default { BoxTickBold, BoxTickBroken, BoxTickBulk, BoxTickLinear, BoxTickOutline, BoxTickTwotone };

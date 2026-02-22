@@ -43,7 +43,5 @@ export const variants = [
     slug: "pen-remove-twotone",
     Component: PenRemoveTwotone,
     componentName: "PenRemoveTwotone",
-  }
+  },
 ];
-
-export default { PenRemoveBold, PenRemoveBroken, PenRemoveBulk, PenRemoveLinear, PenRemoveOutline, PenRemoveTwotone };

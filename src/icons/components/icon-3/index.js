@@ -5,10 +5,8 @@ export { Icon3Twotone };
 export const variants = [
   {
     variant: "twotone",
-    slug: "icon-3-twotone",
+    slug: "icon3-twotone",
     Component: Icon3Twotone,
     componentName: "Icon3Twotone",
-  }
+  },
 ];
-
-export default { Icon3Twotone };

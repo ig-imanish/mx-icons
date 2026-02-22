@@ -43,7 +43,5 @@ export const variants = [
     slug: "save-minus-twotone",
     Component: SaveMinusTwotone,
     componentName: "SaveMinusTwotone",
-  }
+  },
 ];
-
-export default { SaveMinusBold, SaveMinusBroken, SaveMinusBulk, SaveMinusLinear, SaveMinusOutline, SaveMinusTwotone };

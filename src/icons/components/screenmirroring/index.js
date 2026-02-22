@@ -43,7 +43,5 @@ export const variants = [
     slug: "screenmirroring-twotone",
     Component: ScreenmirroringTwotone,
     componentName: "ScreenmirroringTwotone",
-  }
+  },
 ];
-
-export default { ScreenmirroringBold, ScreenmirroringBroken, ScreenmirroringBulk, ScreenmirroringLinear, ScreenmirroringOutline, ScreenmirroringTwotone };

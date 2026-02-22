@@ -1,5 +1,4 @@
 import GooglePayBold from "./GooglePayBold";
-
 import GooglePayTwoTone from "./GooglePayTwoTone";
 
 export { GooglePayBold, GooglePayTwoTone };
@@ -13,10 +12,8 @@ export const variants = [
   },
   {
     variant: "twotone",
-    slug: "google-pay-twotone",
+    slug: "google-pay-two-tone",
     Component: GooglePayTwoTone,
     componentName: "GooglePayTwoTone",
   },
 ];
-
-export default { GooglePayBold, GooglePayTwoTone };

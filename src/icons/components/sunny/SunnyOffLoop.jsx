@@ -1,0 +1,48 @@
+import Icon from "../../Icon";
+
+export default function SunnyOffLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGPgytx5gD">
+			<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<g stroke="currentColor">
+					<path d="M12 7c2.76 0 5 2.24 5 5c0 2.76 -2.24 5 -5 5c-2.76 0 -5 -2.24 -5 -5c0 -2.76 2.24 -5 5 -5Z" stroke-dasharray="34">
+						<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="34;0" />
+					</path>
+					<path d="M12 21v1M21 12h1M12 3v-1M3 12h-1" opacity="0">
+						<animateTransform attributeName="transform" type="rotate" dur="30s" repeatCount="indefinite" values="0 12 12;360 12 12" />
+						<set attributeName="opacity" to="1" begin="0.5s" fill="freeze" />
+						<animate attributeName="d" begin="0.5s" dur="0.2s" fill="freeze" values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1" />
+					</path>
+					<path d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" opacity="0">
+						<animateTransform attributeName="transform" type="rotate" dur="30s" repeatCount="indefinite" values="0 12 12;360 12 12" />
+						<set attributeName="opacity" to="1" begin="0.7s" fill="freeze" />
+						<animate attributeName="d" begin="0.7s" dur="0.2s" fill="freeze" values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" />
+					</path>
+				</g>
+				<path d="M-1 11h26" stroke="currentColor" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+					<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.4s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGPgytx5gD)" />
+	<path d="M-2 13h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+		<animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;1" values="M-2 13h26;M0 13h26;M-2 13h26" />
+		<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.4s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

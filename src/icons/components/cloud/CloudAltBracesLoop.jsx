@@ -1,0 +1,33 @@
+import Icon from "../../Icon";
+
+export default function CloudAltBracesLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGzu76Gc9R">
+			<path d="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="60" fill-opacity="0">
+				<animate attributeName="d" dur="12s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M6 19h12c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-2.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M6 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-1.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M7 19h10c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h0v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z;M7 19h11c2.21 0 4 -1.79 4 -4c0 -2.21 -1.79 -4 -4 -4h-1v-1c0 -2.76 -2.24 -5 -5 -5c-2.42 0 -4.44 1.72 -4.9 4h-0.1c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5Z" />
+				<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+				<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<path d="M7 13c1.1 0 2 -0.9 2 -2v-1h1.5v-2h-1.5c-1.1 0 -2 0.9 -2 2v1c0 0.55 -0.45 1 -1 1h-0.5v2h0.5c0.55 0 1 0.45 1 1v1c0 1.1 0.9 2 2 2h1.5v-2h-1.5v-1c0 -1.1 -0.9 -2 -2 -2ZM17 13c-1.1 0 -2 -0.9 -2 -2v-1h-1.5v-2h1.5c1.1 0 2 0.9 2 2v1c0 0.55 0.45 1 1 1h0.5v2h-0.5c-0.55 0 -1 0.45 -1 1v1c0 1.1 -0.9 2 -2 2h-1.5v-2h1.5v-1c0 -1.1 0.9 -2 2 -2Z" fill="currentColor" transform="scale(0 1)" style="transform-origin: 12px 12px">
+				<animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.25;0.75;1" values="M7 13c1.1 0 2 -0.9 2 -2v-1h1.5v-2h-1.5c-1.1 0 -2 0.9 -2 2v1c0 0.55 -0.45 1 -1 1h-0.5v2h0.5c0.55 0 1 0.45 1 1v1c0 1.1 0.9 2 2 2h1.5v-2h-1.5v-1c0 -1.1 -0.9 -2 -2 -2ZM17 13c-1.1 0 -2 -0.9 -2 -2v-1h-1.5v-2h1.5c1.1 0 2 0.9 2 2v1c0 0.55 0.45 1 1 1h0.5v2h-0.5c-0.55 0 -1 0.45 -1 1v1c0 1.1 -0.9 2 -2 2h-1.5v-2h1.5v-1c0 -1.1 0.9 -2 2 -2Z;M6 13c1.1 0 2 -0.9 2 -2v-1h1.5v-2h-1.5c-1.1 0 -2 0.9 -2 2v1c0 0.55 -0.45 1 -1 1h-0.5v2h0.5c0.55 0 1 0.45 1 1v1c0 1.1 0.9 2 2 2h1.5v-2h-1.5v-1c0 -1.1 -0.9 -2 -2 -2ZM18 13c-1.1 0 -2 -0.9 -2 -2v-1h-1.5v-2h1.5c1.1 0 2 0.9 2 2v1c0 0.55 0.45 1 1 1h0.5v2h-0.5c-0.55 0 -1 0.45 -1 1v1c0 1.1 -0.9 2 -2 2h-1.5v-2h1.5v-1c0 -1.1 0.9 -2 2 -2Z;M8 13c1.1 0 2 -0.9 2 -2v-1h1.5v-2h-1.5c-1.1 0 -2 0.9 -2 2v1c0 0.55 -0.45 1 -1 1h-0.5v2h0.5c0.55 0 1 0.45 1 1v1c0 1.1 0.9 2 2 2h1.5v-2h-1.5v-1c0 -1.1 -0.9 -2 -2 -2ZM16 13c-1.1 0 -2 -0.9 -2 -2v-1h-1.5v-2h1.5c1.1 0 2 0.9 2 2v1c0 0.55 0.45 1 1 1h0.5v2h-0.5c-0.55 0 -1 0.45 -1 1v1c0 1.1 -0.9 2 -2 2h-1.5v-2h1.5v-1c0 -1.1 0.9 -2 2 -2Z;M7 13c1.1 0 2 -0.9 2 -2v-1h1.5v-2h-1.5c-1.1 0 -2 0.9 -2 2v1c0 0.55 -0.45 1 -1 1h-0.5v2h0.5c0.55 0 1 0.45 1 1v1c0 1.1 0.9 2 2 2h1.5v-2h-1.5v-1c0 -1.1 -0.9 -2 -2 -2ZM17 13c-1.1 0 -2 -0.9 -2 -2v-1h-1.5v-2h1.5c1.1 0 2 0.9 2 2v1c0 0.55 0.45 1 1 1h0.5v2h-0.5c-0.55 0 -1 0.45 -1 1v1c0 1.1 -0.9 2 -2 2h-1.5v-2h1.5v-1c0 -1.1 0.9 -2 2 -2Z" />
+				<animateTransform attributeName="transform" type="scale" begin="1.1s" dur="0.2s" fill="freeze" values="0 1;1 1" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGzu76Gc9R)" />
+    </Icon>
+  );
+}

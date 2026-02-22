@@ -43,7 +43,5 @@ export const variants = [
     slug: "ghost-twotone",
     Component: GhostTwotone,
     componentName: "GhostTwotone",
-  }
+  },
 ];
-
-export default { GhostBold, GhostBroken, GhostBulk, GhostLinear, GhostOutline, GhostTwotone };

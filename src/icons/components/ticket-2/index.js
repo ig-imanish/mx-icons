@@ -10,40 +10,38 @@ export { Ticket2Bold, Ticket2Broken, Ticket2Bulk, Ticket2Linear, Ticket2Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "ticket-2-bold",
+    slug: "ticket2-bold",
     Component: Ticket2Bold,
     componentName: "Ticket2Bold",
   },
   {
     variant: "broken",
-    slug: "ticket-2-broken",
+    slug: "ticket2-broken",
     Component: Ticket2Broken,
     componentName: "Ticket2Broken",
   },
   {
     variant: "bulk",
-    slug: "ticket-2-bulk",
+    slug: "ticket2-bulk",
     Component: Ticket2Bulk,
     componentName: "Ticket2Bulk",
   },
   {
     variant: "linear",
-    slug: "ticket-2-linear",
+    slug: "ticket2-linear",
     Component: Ticket2Linear,
     componentName: "Ticket2Linear",
   },
   {
     variant: "outline",
-    slug: "ticket-2-outline",
+    slug: "ticket2-outline",
     Component: Ticket2Outline,
     componentName: "Ticket2Outline",
   },
   {
     variant: "twotone",
-    slug: "ticket-2-twotone",
+    slug: "ticket2-twotone",
     Component: Ticket2Twotone,
     componentName: "Ticket2Twotone",
-  }
+  },
 ];
-
-export default { Ticket2Bold, Ticket2Broken, Ticket2Bulk, Ticket2Linear, Ticket2Outline, Ticket2Twotone };

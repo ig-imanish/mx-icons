@@ -36,7 +36,5 @@ export const variants = [
     slug: "maximize-circle-twotone",
     Component: MaximizeCircleTwotone,
     componentName: "MaximizeCircleTwotone",
-  }
+  },
 ];
-
-export default { MaximizeCircleBold, MaximizeCircleBroken, MaximizeCircleLinear, MaximizeCircleOutline, MaximizeCircleTwotone };

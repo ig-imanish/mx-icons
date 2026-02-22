@@ -43,7 +43,5 @@ export const variants = [
     slug: "eraser-twotone",
     Component: EraserTwotone,
     componentName: "EraserTwotone",
-  }
+  },
 ];
-
-export default { EraserBold, EraserBroken, EraserBulk, EraserLinear, EraserOutline, EraserTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-search-twotone",
     Component: UserSearchTwotone,
     componentName: "UserSearchTwotone",
-  }
+  },
 ];
-
-export default { UserSearchBold, UserSearchBroken, UserSearchBulk, UserSearchLinear, UserSearchOutline, UserSearchTwotone };

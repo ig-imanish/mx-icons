@@ -36,7 +36,5 @@ export const variants = [
     slug: "notification-circle-twotone",
     Component: NotificationCircleTwotone,
     componentName: "NotificationCircleTwotone",
-  }
+  },
 ];
-
-export default { NotificationCircleBroken, NotificationCircleBulk, NotificationCircleLinear, NotificationCircleOutline, NotificationCircleTwotone };

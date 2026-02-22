@@ -43,7 +43,5 @@ export const variants = [
     slug: "story-twotone",
     Component: StoryTwotone,
     componentName: "StoryTwotone",
-  }
+  },
 ];
-
-export default { StoryBold, StoryBroken, StoryBulk, StoryLinear, StoryOutline, StoryTwotone };

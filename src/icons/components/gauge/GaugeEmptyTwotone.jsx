@@ -1,0 +1,51 @@
+import Icon from "../../Icon";
+
+export default function GaugeEmptyTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="currentColor">
+		<path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="60">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+			<animate attributeName="fill-opacity" begin="1.7s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<path d="M12 16c-2.59 0 -4.85 1.21 -6.06 3l6.06 2l6.06 -2c-1.21 -1.79 -3.47 -3 -6.06 -3Z" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.6s" fill="freeze" />
+			<animate attributeName="d" begin="0.6s" dur="0.4s" fill="freeze" values="M12 21c-2.59 0 -4.85 -0.21 -6.06 -2l6.06 2l6.06 -2c-1.21 1.79 -3.47 2 -6.06 2Z;M12 16c-2.59 0 -4.85 1.21 -6.06 3l6.06 2l6.06 -2c-1.21 -1.79 -3.47 -3 -6.06 -3Z" />
+		</path>
+	</g>
+	<circle cx="12" cy="12" r="1" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+		<set attributeName="opacity" to="1" begin="1.1s" fill="freeze" />
+		<animate attributeName="r" begin="1.1s" dur="0.2s" fill="freeze" values="0;1" />
+	</circle>
+	<g fill="currentColor">
+		<circle cx="7" cy="12" transform="rotate(15 12 12)">
+			<animate attributeName="r" begin="0.9s" dur="0.2s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="7" cy="12" transform="rotate(65 12 12)">
+			<animate attributeName="r" begin="0.95s" dur="0.2s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="7" cy="12" transform="rotate(115 12 12)">
+			<animate attributeName="r" begin="1s" dur="0.2s" fill="freeze" to="1" />
+		</circle>
+		<circle cx="7" cy="12" transform="rotate(165 12 12)">
+			<animate attributeName="r" begin="1.05s" dur="0.2s" fill="freeze" to="1" />
+		</circle>
+	</g>
+	<path d="M12 12h-5.5" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8" stroke-dashoffset="8">
+		<animate attributeName="stroke-dashoffset" begin="1.3s" dur="0.2s" fill="freeze" to="0" />
+		<animateTransform attributeName="transform" type="rotate" begin="1.5s" dur="0.2s" fill="freeze" values="0 12 12;15 12 12" />
+	</path>
+    </Icon>
+  );
+}

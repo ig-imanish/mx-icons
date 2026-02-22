@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-slash-twotone",
     Component: VideoSlashTwotone,
     componentName: "VideoSlashTwotone",
-  }
+  },
 ];
-
-export default { VideoSlashBold, VideoSlashBroken, VideoSlashBulk, VideoSlashLinear, VideoSlashOutline, VideoSlashTwotone };

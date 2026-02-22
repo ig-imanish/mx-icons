@@ -43,7 +43,5 @@ export const variants = [
     slug: "scissor-twotone",
     Component: ScissorTwotone,
     componentName: "ScissorTwotone",
-  }
+  },
 ];
-
-export default { ScissorBold, ScissorBroken, ScissorBulk, ScissorLinear, ScissorOutline, ScissorTwotone };

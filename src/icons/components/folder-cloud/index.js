@@ -43,7 +43,5 @@ export const variants = [
     slug: "folder-cloud-twotone",
     Component: FolderCloudTwotone,
     componentName: "FolderCloudTwotone",
-  }
+  },
 ];
-
-export default { FolderCloudBold, FolderCloudBroken, FolderCloudBulk, FolderCloudLinear, FolderCloudOutline, FolderCloudTwotone };

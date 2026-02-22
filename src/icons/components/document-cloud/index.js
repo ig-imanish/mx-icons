@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-cloud-twotone",
     Component: DocumentCloudTwotone,
     componentName: "DocumentCloudTwotone",
-  }
+  },
 ];
-
-export default { DocumentCloudBold, DocumentCloudBroken, DocumentCloudBulk, DocumentCloudLinear, DocumentCloudOutline, DocumentCloudTwotone };

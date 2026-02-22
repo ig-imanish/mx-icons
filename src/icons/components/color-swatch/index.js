@@ -43,7 +43,5 @@ export const variants = [
     slug: "color-swatch-twotone",
     Component: ColorSwatchTwotone,
     componentName: "ColorSwatchTwotone",
-  }
+  },
 ];
-
-export default { ColorSwatchBold, ColorSwatchBroken, ColorSwatchBulk, ColorSwatchLinear, ColorSwatchOutline, ColorSwatchTwotone };

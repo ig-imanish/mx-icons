@@ -43,7 +43,5 @@ export const variants = [
     slug: "text-italic-twotone",
     Component: TextItalicTwotone,
     componentName: "TextItalicTwotone",
-  }
+  },
 ];
-
-export default { TextItalicBold, TextItalicBroken, TextItalicBulk, TextItalicLinear, TextItalicOutline, TextItalicTwotone };

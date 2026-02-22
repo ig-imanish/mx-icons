@@ -1,0 +1,33 @@
+import Icon from "../../Icon";
+
+export default function Iconify1({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="60">
+		<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+	</path>
+	<g fill="currentColor">
+		<path d="M9.5 9c0 -0.52 -0.48 -1 -1 -1c-0.52 0 -1 0.48 -1 1v1.44c0 0.52 0.48 1.06 1 1.06c0.52 0 1 -0.48 1 -1v-1.5Z" opacity="0">
+			<animate attributeName="opacity" begin="0.7s" dur="0.2s" fill="freeze" to="1" />
+		</path>
+		<path d="M16.5 9c0 -0.52 -0.48 -1 -1 -1c-0.52 0 -1 0.48 -1 1v1.44c0 0.52 0.48 1.06 1 1.06c0.52 0 1 -0.48 1 -1v-1.5Z" opacity="0">
+			<animate attributeName="opacity" begin="0.8s" dur="0.2s" fill="freeze" to="1" />
+		</path>
+		<path d="M12 18c3.13 0 5.33 -2.88 5 -3.5c-0.33 -0.63 -1.5 1.5 -5 1.5c-3.5 0 -4.69 -2.13 -5 -1.5c-0.31 0.63 1.88 3.5 5 3.5Z" opacity="0">
+			<animate attributeName="opacity" begin="1s" dur="0.2s" fill="freeze" to="1" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

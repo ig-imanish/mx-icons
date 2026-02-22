@@ -10,40 +10,38 @@ export { DocumentCode2Bold, DocumentCode2Broken, DocumentCode2Bulk, DocumentCode
 export const variants = [
   {
     variant: "bold",
-    slug: "document-code-2-bold",
+    slug: "document-code2-bold",
     Component: DocumentCode2Bold,
     componentName: "DocumentCode2Bold",
   },
   {
     variant: "broken",
-    slug: "document-code-2-broken",
+    slug: "document-code2-broken",
     Component: DocumentCode2Broken,
     componentName: "DocumentCode2Broken",
   },
   {
     variant: "bulk",
-    slug: "document-code-2-bulk",
+    slug: "document-code2-bulk",
     Component: DocumentCode2Bulk,
     componentName: "DocumentCode2Bulk",
   },
   {
     variant: "linear",
-    slug: "document-code-2-linear",
+    slug: "document-code2-linear",
     Component: DocumentCode2Linear,
     componentName: "DocumentCode2Linear",
   },
   {
     variant: "outline",
-    slug: "document-code-2-outline",
+    slug: "document-code2-outline",
     Component: DocumentCode2Outline,
     componentName: "DocumentCode2Outline",
   },
   {
     variant: "twotone",
-    slug: "document-code-2-twotone",
+    slug: "document-code2-twotone",
     Component: DocumentCode2Twotone,
     componentName: "DocumentCode2Twotone",
-  }
+  },
 ];
-
-export default { DocumentCode2Bold, DocumentCode2Broken, DocumentCode2Bulk, DocumentCode2Linear, DocumentCode2Outline, DocumentCode2Twotone };

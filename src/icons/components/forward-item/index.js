@@ -43,7 +43,5 @@ export const variants = [
     slug: "forward-item-twotone",
     Component: ForwardItemTwotone,
     componentName: "ForwardItemTwotone",
-  }
+  },
 ];
-
-export default { ForwardItemBold, ForwardItemBroken, ForwardItemBulk, ForwardItemLinear, ForwardItemOutline, ForwardItemTwotone };

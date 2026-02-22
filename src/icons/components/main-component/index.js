@@ -43,7 +43,5 @@ export const variants = [
     slug: "main-component-twotone",
     Component: MainComponentTwotone,
     componentName: "MainComponentTwotone",
-  }
+  },
 ];
-
-export default { MainComponentBold, MainComponentBroken, MainComponentBulk, MainComponentLinear, MainComponentOutline, MainComponentTwotone };

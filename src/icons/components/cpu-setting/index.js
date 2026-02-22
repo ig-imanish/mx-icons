@@ -43,7 +43,5 @@ export const variants = [
     slug: "cpu-setting-twotone",
     Component: CpuSettingTwotone,
     componentName: "CpuSettingTwotone",
-  }
+  },
 ];
-
-export default { CpuSettingBold, CpuSettingBroken, CpuSettingBulk, CpuSettingLinear, CpuSettingOutline, CpuSettingTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "shapes-twotone",
     Component: ShapesTwotone,
     componentName: "ShapesTwotone",
-  }
+  },
 ];
-
-export default { ShapesBold, ShapesBroken, ShapesBulk, ShapesLinear, ShapesOutline, ShapesTwotone };

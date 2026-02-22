@@ -43,7 +43,5 @@ export const variants = [
     slug: "box-time-twotone",
     Component: BoxTimeTwotone,
     componentName: "BoxTimeTwotone",
-  }
+  },
 ];
-
-export default { BoxTimeBold, BoxTimeBroken, BoxTimeBulk, BoxTimeLinear, BoxTimeOutline, BoxTimeTwotone };

@@ -10,40 +10,38 @@ export { Gemini2Bold, Gemini2Broken, Gemini2Bulk, Gemini2Linear, Gemini2Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "gemini-2-bold",
+    slug: "gemini2-bold",
     Component: Gemini2Bold,
     componentName: "Gemini2Bold",
   },
   {
     variant: "broken",
-    slug: "gemini-2-broken",
+    slug: "gemini2-broken",
     Component: Gemini2Broken,
     componentName: "Gemini2Broken",
   },
   {
     variant: "bulk",
-    slug: "gemini-2-bulk",
+    slug: "gemini2-bulk",
     Component: Gemini2Bulk,
     componentName: "Gemini2Bulk",
   },
   {
     variant: "linear",
-    slug: "gemini-2-linear",
+    slug: "gemini2-linear",
     Component: Gemini2Linear,
     componentName: "Gemini2Linear",
   },
   {
     variant: "outline",
-    slug: "gemini-2-outline",
+    slug: "gemini2-outline",
     Component: Gemini2Outline,
     componentName: "Gemini2Outline",
   },
   {
     variant: "twotone",
-    slug: "gemini-2-twotone",
+    slug: "gemini2-twotone",
     Component: Gemini2Twotone,
     componentName: "Gemini2Twotone",
-  }
+  },
 ];
-
-export default { Gemini2Bold, Gemini2Broken, Gemini2Bulk, Gemini2Linear, Gemini2Outline, Gemini2Twotone };

@@ -10,40 +10,38 @@ export { Clock1Bold, Clock1Broken, Clock1Bulk, Clock1Linear, Clock1Outline, Cloc
 export const variants = [
   {
     variant: "bold",
-    slug: "clock-1-bold",
+    slug: "clock1-bold",
     Component: Clock1Bold,
     componentName: "Clock1Bold",
   },
   {
     variant: "broken",
-    slug: "clock-1-broken",
+    slug: "clock1-broken",
     Component: Clock1Broken,
     componentName: "Clock1Broken",
   },
   {
     variant: "bulk",
-    slug: "clock-1-bulk",
+    slug: "clock1-bulk",
     Component: Clock1Bulk,
     componentName: "Clock1Bulk",
   },
   {
     variant: "linear",
-    slug: "clock-1-linear",
+    slug: "clock1-linear",
     Component: Clock1Linear,
     componentName: "Clock1Linear",
   },
   {
     variant: "outline",
-    slug: "clock-1-outline",
+    slug: "clock1-outline",
     Component: Clock1Outline,
     componentName: "Clock1Outline",
   },
   {
     variant: "twotone",
-    slug: "clock-1-twotone",
+    slug: "clock1-twotone",
     Component: Clock1Twotone,
     componentName: "Clock1Twotone",
-  }
+  },
 ];
-
-export default { Clock1Bold, Clock1Broken, Clock1Bulk, Clock1Linear, Clock1Outline, Clock1Twotone };

@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function Logout({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 4h-7c-0.55 0 -1 0.45 -1 1v14c0 0.55 0.45 1 1 1h7" stroke-dasharray="34">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="34;0" />
+		</path>
+		<path d="M9 12h11.5" stroke-dasharray="14" stroke-dashoffset="14">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M20.5 12l-3.5 -3.5M20.5 12l-3.5 3.5" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

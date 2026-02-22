@@ -43,7 +43,5 @@ export const variants = [
     slug: "signpost-twotone",
     Component: SignpostTwotone,
     componentName: "SignpostTwotone",
-  }
+  },
 ];
-
-export default { SignpostBold, SignpostBroken, SignpostBulk, SignpostLinear, SignpostOutline, SignpostTwotone };

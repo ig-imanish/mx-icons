@@ -10,40 +10,38 @@ export { Ranking1Bold, Ranking1Broken, Ranking1Bulk, Ranking1Linear, Ranking1Out
 export const variants = [
   {
     variant: "bold",
-    slug: "ranking-1-bold",
+    slug: "ranking1-bold",
     Component: Ranking1Bold,
     componentName: "Ranking1Bold",
   },
   {
     variant: "broken",
-    slug: "ranking-1-broken",
+    slug: "ranking1-broken",
     Component: Ranking1Broken,
     componentName: "Ranking1Broken",
   },
   {
     variant: "bulk",
-    slug: "ranking-1-bulk",
+    slug: "ranking1-bulk",
     Component: Ranking1Bulk,
     componentName: "Ranking1Bulk",
   },
   {
     variant: "linear",
-    slug: "ranking-1-linear",
+    slug: "ranking1-linear",
     Component: Ranking1Linear,
     componentName: "Ranking1Linear",
   },
   {
     variant: "outline",
-    slug: "ranking-1-outline",
+    slug: "ranking1-outline",
     Component: Ranking1Outline,
     componentName: "Ranking1Outline",
   },
   {
     variant: "twotone",
-    slug: "ranking-1-twotone",
+    slug: "ranking1-twotone",
     Component: Ranking1Twotone,
     componentName: "Ranking1Twotone",
-  }
+  },
 ];
-
-export default { Ranking1Bold, Ranking1Broken, Ranking1Bulk, Ranking1Linear, Ranking1Outline, Ranking1Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "next-twotone",
     Component: NextTwotone,
     componentName: "NextTwotone",
-  }
+  },
 ];
-
-export default { NextBold, NextBroken, NextBulk, NextLinear, NextOutline, NextTwotone };

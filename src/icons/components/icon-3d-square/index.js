@@ -10,40 +10,38 @@ export { Icon3dDSquareBold, Icon3dDSquareBroken, Icon3dDSquareBulk, Icon3dDSquar
 export const variants = [
   {
     variant: "bold",
-    slug: "icon-3d-square-bold",
+    slug: "icon3d-d-square-bold",
     Component: Icon3dDSquareBold,
     componentName: "Icon3dDSquareBold",
   },
   {
     variant: "broken",
-    slug: "icon-3d-square-broken",
+    slug: "icon3d-d-square-broken",
     Component: Icon3dDSquareBroken,
     componentName: "Icon3dDSquareBroken",
   },
   {
     variant: "bulk",
-    slug: "icon-3d-square-bulk",
+    slug: "icon3d-d-square-bulk",
     Component: Icon3dDSquareBulk,
     componentName: "Icon3dDSquareBulk",
   },
   {
     variant: "linear",
-    slug: "icon-3d-square-linear",
+    slug: "icon3d-d-square-linear",
     Component: Icon3dDSquareLinear,
     componentName: "Icon3dDSquareLinear",
   },
   {
     variant: "outline",
-    slug: "icon-3d-square-outline",
+    slug: "icon3d-d-square-outline",
     Component: Icon3dDSquareOutline,
     componentName: "Icon3dDSquareOutline",
   },
   {
     variant: "twotone",
-    slug: "icon-3d-square-twotone",
+    slug: "icon3d-d-square-twotone",
     Component: Icon3dDSquareTwotone,
     componentName: "Icon3dDSquareTwotone",
-  }
+  },
 ];
-
-export default { Icon3dDSquareBold, Icon3dDSquareBroken, Icon3dDSquareBulk, Icon3dDSquareLinear, Icon3dDSquareOutline, Icon3dDSquareTwotone };

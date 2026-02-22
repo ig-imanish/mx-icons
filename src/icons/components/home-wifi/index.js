@@ -43,7 +43,5 @@ export const variants = [
     slug: "home-wifi-twotone",
     Component: HomeWifiTwotone,
     componentName: "HomeWifiTwotone",
-  }
+  },
 ];
-
-export default { HomeWifiBold, HomeWifiBroken, HomeWifiBulk, HomeWifiLinear, HomeWifiOutline, HomeWifiTwotone };

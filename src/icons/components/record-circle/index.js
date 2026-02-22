@@ -43,7 +43,5 @@ export const variants = [
     slug: "record-circle-twotone",
     Component: RecordCircleTwotone,
     componentName: "RecordCircleTwotone",
-  }
+  },
 ];
-
-export default { RecordCircleBold, RecordCircleBroken, RecordCircleBulk, RecordCircleLinear, RecordCircleOutline, RecordCircleTwotone };

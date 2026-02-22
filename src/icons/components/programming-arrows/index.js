@@ -43,7 +43,5 @@ export const variants = [
     slug: "programming-arrows-twotone",
     Component: ProgrammingArrowsTwotone,
     componentName: "ProgrammingArrowsTwotone",
-  }
+  },
 ];
-
-export default { ProgrammingArrowsBold, ProgrammingArrowsBroken, ProgrammingArrowsBulk, ProgrammingArrowsLinear, ProgrammingArrowsOutline, ProgrammingArrowsTwotone };

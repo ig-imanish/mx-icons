@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-snow-twotone",
     Component: CloudSnowTwotone,
     componentName: "CloudSnowTwotone",
-  }
+  },
 ];
-
-export default { CloudSnowBold, CloudSnowBroken, CloudSnowBulk, CloudSnowLinear, CloudSnowOutline, CloudSnowTwotone };

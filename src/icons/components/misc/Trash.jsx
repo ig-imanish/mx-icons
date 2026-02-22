@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function Trash({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 20h5c0.5 0 1 -0.5 1 -1v-14M12 20h-5c-0.5 0 -1 -0.5 -1 -1v-14" stroke-dasharray="24">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="24;0" />
+		</path>
+		<path d="M4 5h16" stroke-dasharray="18" stroke-dashoffset="18">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M10 4h4M10 9v7M14 9v7" stroke-dasharray="10" stroke-dashoffset="10">
+			<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

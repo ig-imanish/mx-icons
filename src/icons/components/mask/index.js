@@ -43,7 +43,5 @@ export const variants = [
     slug: "mask-twotone",
     Component: MaskTwotone,
     componentName: "MaskTwotone",
-  }
+  },
 ];
-
-export default { MaskBold, MaskBroken, MaskBulk, MaskLinear, MaskOutline, MaskTwotone };

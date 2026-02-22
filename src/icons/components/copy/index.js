@@ -43,7 +43,5 @@ export const variants = [
     slug: "copy-twotone",
     Component: CopyTwotone,
     componentName: "CopyTwotone",
-  }
+  },
 ];
-
-export default { CopyBold, CopyBroken, CopyBulk, CopyLinear, CopyOutline, CopyTwotone };

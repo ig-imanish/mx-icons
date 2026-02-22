@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function MapMarkerRemoveTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="currentColor">
+		<path d="M9 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="48">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="48;0" />
+			<animate attributeName="fill-opacity" begin="0.6s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<circle cx="9" cy="9">
+			<animate attributeName="r" begin="0.85s" dur="0.2s" fill="freeze" to="2.5" />
+		</circle>
+	</g>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="10">
+		<path d="M16.5 15.5l5 5" stroke-dashoffset="10">
+			<animate attributeName="stroke-dashoffset" begin="1.15s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M16.5 20.5l5 -5" stroke-dashoffset="10">
+			<animate attributeName="stroke-dashoffset" begin="1.35s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-normal-twotone",
     Component: DirectNormalTwotone,
     componentName: "DirectNormalTwotone",
-  }
+  },
 ];
-
-export default { DirectNormalBold, DirectNormalBroken, DirectNormalBulk, DirectNormalLinear, DirectNormalOutline, DirectNormalTwotone };

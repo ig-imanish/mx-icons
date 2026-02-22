@@ -1,0 +1,28 @@
+import Icon from "../../Icon";
+
+export default function Marker({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<path d="M6 14l11 -11l4 4l-11 11l-4 -4Z" stroke-width="2" stroke-dasharray="46">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="46;0" />
+		</path>
+		<path d="M9 17l-2.5 2.5l-4 0l4.5 -4.5Z" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.5s" fill="freeze" />
+			<animate attributeName="d" begin="0.5s" dur="0.3s" fill="freeze" values="M9 17l0 0l-2 -2l0 0Z;M9 17l-2.5 2.5l-4 0l4.5 -4.5Z" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

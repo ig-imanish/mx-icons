@@ -43,7 +43,5 @@ export const variants = [
     slug: "instagram-twotone",
     Component: InstagramTwotone,
     componentName: "InstagramTwotone",
-  }
+  },
 ];
-
-export default { InstagramBold, InstagramBroken, InstagramBulk, InstagramLinear, InstagramOutline, InstagramTwotone };

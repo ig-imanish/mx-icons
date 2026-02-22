@@ -43,7 +43,5 @@ export const variants = [
     slug: "lock-twotone",
     Component: LockTwotone,
     componentName: "LockTwotone",
-  }
+  },
 ];
-
-export default { LockBold, LockBroken, LockBulk, LockLinear, LockOutline, LockTwotone };

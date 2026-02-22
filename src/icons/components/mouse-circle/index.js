@@ -43,7 +43,5 @@ export const variants = [
     slug: "mouse-circle-twotone",
     Component: MouseCircleTwotone,
     componentName: "MouseCircleTwotone",
-  }
+  },
 ];
-
-export default { MouseCircleBold, MouseCircleBroken, MouseCircleBulk, MouseCircleLinear, MouseCircleOutline, MouseCircleTwotone };

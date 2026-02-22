@@ -43,7 +43,5 @@ export const variants = [
     slug: "scan-barcode-twotone",
     Component: ScanBarcodeTwotone,
     componentName: "ScanBarcodeTwotone",
-  }
+  },
 ];
-
-export default { ScanBarcodeBold, ScanBarcodeBroken, ScanBarcodeBulk, ScanBarcodeLinear, ScanBarcodeOutline, ScanBarcodeTwotone };

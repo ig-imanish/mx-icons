@@ -43,7 +43,5 @@ export const variants = [
     slug: "bitcoin-convert-twotone",
     Component: BitcoinConvertTwotone,
     componentName: "BitcoinConvertTwotone",
-  }
+  },
 ];
-
-export default { BitcoinConvertBold, BitcoinConvertBroken, BitcoinConvertBulk, BitcoinConvertLinear, BitcoinConvertOutline, BitcoinConvertTwotone };

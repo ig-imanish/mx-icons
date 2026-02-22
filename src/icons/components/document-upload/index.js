@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-upload-twotone",
     Component: DocumentUploadTwotone,
     componentName: "DocumentUploadTwotone",
-  }
+  },
 ];
-
-export default { DocumentUploadBold, DocumentUploadBroken, DocumentUploadBulk, DocumentUploadLinear, DocumentUploadOutline, DocumentUploadTwotone };

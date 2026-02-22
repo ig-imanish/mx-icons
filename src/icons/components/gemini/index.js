@@ -43,7 +43,5 @@ export const variants = [
     slug: "gemini-twotone",
     Component: GeminiTwotone,
     componentName: "GeminiTwotone",
-  }
+  },
 ];
-
-export default { GeminiBold, GeminiBroken, GeminiBulk, GeminiLinear, GeminiOutline, GeminiTwotone };

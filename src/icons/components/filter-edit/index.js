@@ -43,7 +43,5 @@ export const variants = [
     slug: "filter-edit-twotone",
     Component: FilterEditTwotone,
     componentName: "FilterEditTwotone",
-  }
+  },
 ];
-
-export default { FilterEditBold, FilterEditBroken, FilterEditBulk, FilterEditLinear, FilterEditOutline, FilterEditTwotone };

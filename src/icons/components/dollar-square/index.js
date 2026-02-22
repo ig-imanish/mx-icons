@@ -43,7 +43,5 @@ export const variants = [
     slug: "dollar-square-twotone",
     Component: DollarSquareTwotone,
     componentName: "DollarSquareTwotone",
-  }
+  },
 ];
-
-export default { DollarSquareBold, DollarSquareBroken, DollarSquareBulk, DollarSquareLinear, DollarSquareOutline, DollarSquareTwotone };

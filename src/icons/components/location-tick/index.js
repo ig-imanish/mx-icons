@@ -43,7 +43,5 @@ export const variants = [
     slug: "location-tick-twotone",
     Component: LocationTickTwotone,
     componentName: "LocationTickTwotone",
-  }
+  },
 ];
-
-export default { LocationTickBold, LocationTickBroken, LocationTickBulk, LocationTickLinear, LocationTickOutline, LocationTickTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "milk-twotone",
     Component: MilkTwotone,
     componentName: "MilkTwotone",
-  }
+  },
 ];
-
-export default { MilkBold, MilkBroken, MilkBulk, MilkLinear, MilkOutline, MilkTwotone };

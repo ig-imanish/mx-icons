@@ -43,7 +43,5 @@ export const variants = [
     slug: "arrow-swap-horizontal-twotone",
     Component: ArrowSwapHorizontalTwotone,
     componentName: "ArrowSwapHorizontalTwotone",
-  }
+  },
 ];
-
-export default { ArrowSwapHorizontalBold, ArrowSwapHorizontalBroken, ArrowSwapHorizontalBulk, ArrowSwapHorizontalLinear, ArrowSwapHorizontalOutline, ArrowSwapHorizontalTwotone };

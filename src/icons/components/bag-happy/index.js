@@ -43,7 +43,5 @@ export const variants = [
     slug: "bag-happy-twotone",
     Component: BagHappyTwotone,
     componentName: "BagHappyTwotone",
-  }
+  },
 ];
-
-export default { BagHappyBold, BagHappyBroken, BagHappyBulk, BagHappyLinear, BagHappyOutline, BagHappyTwotone };

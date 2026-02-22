@@ -43,7 +43,5 @@ export const variants = [
     slug: "volume-slash-twotone",
     Component: VolumeSlashTwotone,
     componentName: "VolumeSlashTwotone",
-  }
+  },
 ];
-
-export default { VolumeSlashBold, VolumeSlashBroken, VolumeSlashBulk, VolumeSlashLinear, VolumeSlashOutline, VolumeSlashTwotone };

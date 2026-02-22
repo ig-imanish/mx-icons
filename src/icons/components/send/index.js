@@ -43,7 +43,5 @@ export const variants = [
     slug: "send-twotone",
     Component: SendTwotone,
     componentName: "SendTwotone",
-  }
+  },
 ];
-
-export default { SendBold, SendBroken, SendBulk, SendLinear, SendOutline, SendTwotone };

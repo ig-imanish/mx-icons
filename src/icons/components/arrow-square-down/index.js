@@ -43,7 +43,5 @@ export const variants = [
     slug: "arrow-square-down-twotone",
     Component: ArrowSquareDownTwotone,
     componentName: "ArrowSquareDownTwotone",
-  }
+  },
 ];
-
-export default { ArrowSquareDownBold, ArrowSquareDownBroken, ArrowSquareDownBulk, ArrowSquareDownLinear, ArrowSquareDownOutline, ArrowSquareDownTwotone };

@@ -10,40 +10,38 @@ export { Icon24SSupportBold, Icon24SSupportBroken, Icon24SSupportBulk, Icon24SSu
 export const variants = [
   {
     variant: "bold",
-    slug: "icon-24-support-bold",
+    slug: "icon24-s-support-bold",
     Component: Icon24SSupportBold,
     componentName: "Icon24SSupportBold",
   },
   {
     variant: "broken",
-    slug: "icon-24-support-broken",
+    slug: "icon24-s-support-broken",
     Component: Icon24SSupportBroken,
     componentName: "Icon24SSupportBroken",
   },
   {
     variant: "bulk",
-    slug: "icon-24-support-bulk",
+    slug: "icon24-s-support-bulk",
     Component: Icon24SSupportBulk,
     componentName: "Icon24SSupportBulk",
   },
   {
     variant: "linear",
-    slug: "icon-24-support-linear",
+    slug: "icon24-s-support-linear",
     Component: Icon24SSupportLinear,
     componentName: "Icon24SSupportLinear",
   },
   {
     variant: "outline",
-    slug: "icon-24-support-outline",
+    slug: "icon24-s-support-outline",
     Component: Icon24SSupportOutline,
     componentName: "Icon24SSupportOutline",
   },
   {
     variant: "twotone",
-    slug: "icon-24-support-twotone",
+    slug: "icon24-s-support-twotone",
     Component: Icon24SSupportTwotone,
     componentName: "Icon24SSupportTwotone",
-  }
+  },
 ];
-
-export default { Icon24SSupportBold, Icon24SSupportBroken, Icon24SSupportBulk, Icon24SSupportLinear, Icon24SSupportOutline, Icon24SSupportTwotone };

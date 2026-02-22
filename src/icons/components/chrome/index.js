@@ -43,7 +43,5 @@ export const variants = [
     slug: "chrome-twotone",
     Component: ChromeTwotone,
     componentName: "ChromeTwotone",
-  }
+  },
 ];
-
-export default { ChromeBold, ChromeBroken, ChromeBulk, ChromeLinear, ChromeOutline, ChromeTwotone };

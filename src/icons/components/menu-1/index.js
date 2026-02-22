@@ -10,40 +10,38 @@ export { Menu1Bold, Menu1Broken, Menu1Bulk, Menu1Linear, Menu1Outline, Menu1Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "menu-1-bold",
+    slug: "menu1-bold",
     Component: Menu1Bold,
     componentName: "Menu1Bold",
   },
   {
     variant: "broken",
-    slug: "menu-1-broken",
+    slug: "menu1-broken",
     Component: Menu1Broken,
     componentName: "Menu1Broken",
   },
   {
     variant: "bulk",
-    slug: "menu-1-bulk",
+    slug: "menu1-bulk",
     Component: Menu1Bulk,
     componentName: "Menu1Bulk",
   },
   {
     variant: "linear",
-    slug: "menu-1-linear",
+    slug: "menu1-linear",
     Component: Menu1Linear,
     componentName: "Menu1Linear",
   },
   {
     variant: "outline",
-    slug: "menu-1-outline",
+    slug: "menu1-outline",
     Component: Menu1Outline,
     componentName: "Menu1Outline",
   },
   {
     variant: "twotone",
-    slug: "menu-1-twotone",
+    slug: "menu1-twotone",
     Component: Menu1Twotone,
     componentName: "Menu1Twotone",
-  }
+  },
 ];
-
-export default { Menu1Bold, Menu1Broken, Menu1Bulk, Menu1Linear, Menu1Outline, Menu1Twotone };

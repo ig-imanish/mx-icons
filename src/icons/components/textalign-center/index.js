@@ -43,7 +43,5 @@ export const variants = [
     slug: "textalign-center-twotone",
     Component: TextalignCenterTwotone,
     componentName: "TextalignCenterTwotone",
-  }
+  },
 ];
-
-export default { TextalignCenterBold, TextalignCenterBroken, TextalignCenterBulk, TextalignCenterLinear, TextalignCenterOutline, TextalignCenterTwotone };

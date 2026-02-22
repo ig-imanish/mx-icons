@@ -43,7 +43,5 @@ export const variants = [
     slug: "repeate-music-twotone",
     Component: RepeateMusicTwotone,
     componentName: "RepeateMusicTwotone",
-  }
+  },
 ];
-
-export default { RepeateMusicBold, RepeateMusicBroken, RepeateMusicBulk, RepeateMusicLinear, RepeateMusicOutline, RepeateMusicTwotone };

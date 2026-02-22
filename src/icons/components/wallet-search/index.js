@@ -43,7 +43,5 @@ export const variants = [
     slug: "wallet-search-twotone",
     Component: WalletSearchTwotone,
     componentName: "WalletSearchTwotone",
-  }
+  },
 ];
-
-export default { WalletSearchBold, WalletSearchBroken, WalletSearchBulk, WalletSearchLinear, WalletSearchOutline, WalletSearchTwotone };

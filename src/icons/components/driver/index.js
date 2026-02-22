@@ -43,7 +43,5 @@ export const variants = [
     slug: "driver-twotone",
     Component: DriverTwotone,
     componentName: "DriverTwotone",
-  }
+  },
 ];
-
-export default { DriverBold, DriverBroken, DriverBulk, DriverLinear, DriverOutline, DriverTwotone };

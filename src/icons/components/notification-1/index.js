@@ -10,40 +10,38 @@ export { Notification1Bold, Notification1Broken, Notification1Bulk, Notification
 export const variants = [
   {
     variant: "bold",
-    slug: "notification-1-bold",
+    slug: "notification1-bold",
     Component: Notification1Bold,
     componentName: "Notification1Bold",
   },
   {
     variant: "broken",
-    slug: "notification-1-broken",
+    slug: "notification1-broken",
     Component: Notification1Broken,
     componentName: "Notification1Broken",
   },
   {
     variant: "bulk",
-    slug: "notification-1-bulk",
+    slug: "notification1-bulk",
     Component: Notification1Bulk,
     componentName: "Notification1Bulk",
   },
   {
     variant: "linear",
-    slug: "notification-1-linear",
+    slug: "notification1-linear",
     Component: Notification1Linear,
     componentName: "Notification1Linear",
   },
   {
     variant: "outline",
-    slug: "notification-1-outline",
+    slug: "notification1-outline",
     Component: Notification1Outline,
     componentName: "Notification1Outline",
   },
   {
     variant: "twotone",
-    slug: "notification-1-twotone",
+    slug: "notification1-twotone",
     Component: Notification1Twotone,
     componentName: "Notification1Twotone",
-  }
+  },
 ];
-
-export default { Notification1Bold, Notification1Broken, Notification1Bulk, Notification1Linear, Notification1Outline, Notification1Twotone };

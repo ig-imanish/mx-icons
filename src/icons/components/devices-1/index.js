@@ -9,34 +9,32 @@ export { Devices1Bold, Devices1Broken, Devices1Bulk, Devices1Linear, Devices1Out
 export const variants = [
   {
     variant: "bold",
-    slug: "devices-1-bold",
+    slug: "devices1-bold",
     Component: Devices1Bold,
     componentName: "Devices1Bold",
   },
   {
     variant: "broken",
-    slug: "devices-1-broken",
+    slug: "devices1-broken",
     Component: Devices1Broken,
     componentName: "Devices1Broken",
   },
   {
     variant: "bulk",
-    slug: "devices-1-bulk",
+    slug: "devices1-bulk",
     Component: Devices1Bulk,
     componentName: "Devices1Bulk",
   },
   {
     variant: "linear",
-    slug: "devices-1-linear",
+    slug: "devices1-linear",
     Component: Devices1Linear,
     componentName: "Devices1Linear",
   },
   {
     variant: "outline",
-    slug: "devices-1-outline",
+    slug: "devices1-outline",
     Component: Devices1Outline,
     componentName: "Devices1Outline",
-  }
+  },
 ];
-
-export default { Devices1Bold, Devices1Broken, Devices1Bulk, Devices1Linear, Devices1Outline };

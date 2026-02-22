@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-remove-twotone",
     Component: UserRemoveTwotone,
     componentName: "UserRemoveTwotone",
-  }
+  },
 ];
-
-export default { UserRemoveBold, UserRemoveBroken, UserRemoveBulk, UserRemoveLinear, UserRemoveOutline, UserRemoveTwotone };

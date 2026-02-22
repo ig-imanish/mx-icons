@@ -43,7 +43,5 @@ export const variants = [
     slug: "picture-frame-twotone",
     Component: PictureFrameTwotone,
     componentName: "PictureFrameTwotone",
-  }
+  },
 ];
-
-export default { PictureFrameBold, PictureFrameBroken, PictureFrameBulk, PictureFrameLinear, PictureFrameOutline, PictureFrameTwotone };

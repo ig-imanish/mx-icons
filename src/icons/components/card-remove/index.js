@@ -43,7 +43,5 @@ export const variants = [
     slug: "card-remove-twotone",
     Component: CardRemoveTwotone,
     componentName: "CardRemoveTwotone",
-  }
+  },
 ];
-
-export default { CardRemoveBold, CardRemoveBroken, CardRemoveBulk, CardRemoveLinear, CardRemoveOutline, CardRemoveTwotone };

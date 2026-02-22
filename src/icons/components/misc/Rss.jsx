@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function Rss({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <circle cx="5" cy="19" r="2" fill="currentColor">
+		<animate attributeName="r" dur="0.2s" fill="freeze" values="0;2" />
+	</circle>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M4 11c2.39 0 4.68 0.95 6.36 2.64c1.69 1.68 2.64 3.97 2.64 6.36" stroke-dasharray="18" stroke-dashoffset="18">
+			<animate attributeName="stroke-dashoffset" begin="0.2s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M4 4c4.24 0 8.31 1.69 11.31 4.69c3 3 4.69 7.07 4.69 11.31" stroke-dasharray="28" stroke-dashoffset="28">
+			<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

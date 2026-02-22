@@ -43,7 +43,5 @@ export const variants = [
     slug: "tag-cross-twotone",
     Component: TagCrossTwotone,
     componentName: "TagCrossTwotone",
-  }
+  },
 ];
-
-export default { TagCrossBold, TagCrossBroken, TagCrossBulk, TagCrossLinear, TagCrossOutline, TagCrossTwotone };

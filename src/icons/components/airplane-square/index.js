@@ -43,7 +43,5 @@ export const variants = [
     slug: "airplane-square-twotone",
     Component: AirplaneSquareTwotone,
     componentName: "AirplaneSquareTwotone",
-  }
+  },
 ];
-
-export default { AirplaneSquareBold, AirplaneSquareBroken, AirplaneSquareBulk, AirplaneSquareLinear, AirplaneSquareOutline, AirplaneSquareTwotone };

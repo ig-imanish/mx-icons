@@ -43,7 +43,5 @@ export const variants = [
     slug: "backward-twotone",
     Component: BackwardTwotone,
     componentName: "BackwardTwotone",
-  }
+  },
 ];
-
-export default { BackwardBold, BackwardBroken, BackwardBulk, BackwardLinear, BackwardOutline, BackwardTwotone };

@@ -10,40 +10,38 @@ export { BagCross1Bold, BagCross1Broken, BagCross1Bulk, BagCross1Linear, BagCros
 export const variants = [
   {
     variant: "bold",
-    slug: "bag-cross-1-bold",
+    slug: "bag-cross1-bold",
     Component: BagCross1Bold,
     componentName: "BagCross1Bold",
   },
   {
     variant: "broken",
-    slug: "bag-cross-1-broken",
+    slug: "bag-cross1-broken",
     Component: BagCross1Broken,
     componentName: "BagCross1Broken",
   },
   {
     variant: "bulk",
-    slug: "bag-cross-1-bulk",
+    slug: "bag-cross1-bulk",
     Component: BagCross1Bulk,
     componentName: "BagCross1Bulk",
   },
   {
     variant: "linear",
-    slug: "bag-cross-1-linear",
+    slug: "bag-cross1-linear",
     Component: BagCross1Linear,
     componentName: "BagCross1Linear",
   },
   {
     variant: "outline",
-    slug: "bag-cross-1-outline",
+    slug: "bag-cross1-outline",
     Component: BagCross1Outline,
     componentName: "BagCross1Outline",
   },
   {
     variant: "twotone",
-    slug: "bag-cross-1-twotone",
+    slug: "bag-cross1-twotone",
     Component: BagCross1Twotone,
     componentName: "BagCross1Twotone",
-  }
+  },
 ];
-
-export default { BagCross1Bold, BagCross1Broken, BagCross1Bulk, BagCross1Linear, BagCross1Outline, BagCross1Twotone };

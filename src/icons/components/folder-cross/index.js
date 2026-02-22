@@ -43,7 +43,5 @@ export const variants = [
     slug: "folder-cross-twotone",
     Component: FolderCrossTwotone,
     componentName: "FolderCrossTwotone",
-  }
+  },
 ];
-
-export default { FolderCrossBold, FolderCrossBroken, FolderCrossBulk, FolderCrossLinear, FolderCrossOutline, FolderCrossTwotone };

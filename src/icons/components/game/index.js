@@ -43,7 +43,5 @@ export const variants = [
     slug: "game-twotone",
     Component: GameTwotone,
     componentName: "GameTwotone",
-  }
+  },
 ];
-
-export default { GameBold, GameBroken, GameBulk, GameLinear, GameOutline, GameTwotone };

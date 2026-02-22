@@ -43,7 +43,5 @@ export const variants = [
     slug: "scanning-twotone",
     Component: ScanningTwotone,
     componentName: "ScanningTwotone",
-  }
+  },
 ];
-
-export default { ScanningBold, ScanningBroken, ScanningBulk, ScanningLinear, ScanningOutline, ScanningTwotone };

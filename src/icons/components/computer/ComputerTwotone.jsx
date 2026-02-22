@@ -1,0 +1,28 @@
+import Icon from "../../Icon";
+
+export default function ComputerTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 21h5M12 21h-5M12 21v-4" fill="none" stroke-dasharray="8">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="8;0" />
+		</path>
+		<path d="M12 17h-9v-12h18v12Z" fill="currentColor" fill-opacity="0" stroke-dasharray="62" stroke-dashoffset="62">
+			<animate attributeName="stroke-dashoffset" begin="0.4s" dur="0.6s" fill="freeze" to="0" />
+			<animate attributeName="fill-opacity" begin="1s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

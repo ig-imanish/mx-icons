@@ -36,7 +36,5 @@ export const variants = [
     slug: "gallery-export-twotone",
     Component: GalleryExportTwotone,
     componentName: "GalleryExportTwotone",
-  }
+  },
 ];
-
-export default { GalleryExportBold, GalleryExportBroken, GalleryExportLinear, GalleryExportOutline, GalleryExportTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "bag-timer-twotone",
     Component: BagTimerTwotone,
     componentName: "BagTimerTwotone",
-  }
+  },
 ];
-
-export default { BagTimerBold, BagTimerBroken, BagTimerBulk, BagTimerLinear, BagTimerOutline, BagTimerTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "devices-twotone",
     Component: DevicesTwotone,
     componentName: "DevicesTwotone",
-  }
+  },
 ];
-
-export default { DevicesBold, DevicesBroken, DevicesBulk, DevicesLinear, DevicesOutline, DevicesTwotone };

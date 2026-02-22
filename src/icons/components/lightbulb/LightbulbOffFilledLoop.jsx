@@ -1,0 +1,42 @@
+import Icon from "../../Icon";
+
+export default function LightbulbOffFilledLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGD2v36dix">
+			<g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="M12 17h-3v-2.8c-1.79 -1.04 -3 -2.98 -3 -5.2c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 2.22 -1.21 4.16 -3 5.2v2.8Z" stroke="currentColor" fill="currentColor" stroke-dasharray="46" fill-opacity="0">
+					<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="46;0" />
+					<animate attributeName="fill-opacity" begin="0.7s" dur="0.4s" fill="freeze" to="1" />
+				</path>
+				<g fill="none">
+					<path d="M10 21h4" stroke="currentColor" stroke-dasharray="6" stroke-dashoffset="6">
+						<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M1 11h22" stroke="currentColor" transform="rotate(45 13 12)" stroke-dasharray="24" stroke-dashoffset="24">
+						<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.3s" fill="freeze" to="0" />
+					</path>
+				</g>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGD2v36dix)" />
+	<path d="M0 13h22" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 13 12)" stroke-dasharray="24" stroke-dashoffset="24">
+		<animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;1" values="M0 13h22;M2 13h22;M0 13h22" />
+		<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.3s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

@@ -10,40 +10,38 @@ export { Mask1Bold, Mask1Broken, Mask1Bulk, Mask1Linear, Mask1Outline, Mask1Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "mask-1-bold",
+    slug: "mask1-bold",
     Component: Mask1Bold,
     componentName: "Mask1Bold",
   },
   {
     variant: "broken",
-    slug: "mask-1-broken",
+    slug: "mask1-broken",
     Component: Mask1Broken,
     componentName: "Mask1Broken",
   },
   {
     variant: "bulk",
-    slug: "mask-1-bulk",
+    slug: "mask1-bulk",
     Component: Mask1Bulk,
     componentName: "Mask1Bulk",
   },
   {
     variant: "linear",
-    slug: "mask-1-linear",
+    slug: "mask1-linear",
     Component: Mask1Linear,
     componentName: "Mask1Linear",
   },
   {
     variant: "outline",
-    slug: "mask-1-outline",
+    slug: "mask1-outline",
     Component: Mask1Outline,
     componentName: "Mask1Outline",
   },
   {
     variant: "twotone",
-    slug: "mask-1-twotone",
+    slug: "mask1-twotone",
     Component: Mask1Twotone,
     componentName: "Mask1Twotone",
-  }
+  },
 ];
-
-export default { Mask1Bold, Mask1Broken, Mask1Bulk, Mask1Linear, Mask1Outline, Mask1Twotone };

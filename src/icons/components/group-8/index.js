@@ -5,10 +5,8 @@ export { Group8Linear };
 export const variants = [
   {
     variant: "linear",
-    slug: "group-8-linear",
+    slug: "group8-linear",
     Component: Group8Linear,
     componentName: "Group8Linear",
-  }
+  },
 ];
-
-export default { Group8Linear };

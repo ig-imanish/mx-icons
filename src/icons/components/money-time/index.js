@@ -43,7 +43,5 @@ export const variants = [
     slug: "money-time-twotone",
     Component: MoneyTimeTwotone,
     componentName: "MoneyTimeTwotone",
-  }
+  },
 ];
-
-export default { MoneyTimeBold, MoneyTimeBroken, MoneyTimeBulk, MoneyTimeLinear, MoneyTimeOutline, MoneyTimeTwotone };

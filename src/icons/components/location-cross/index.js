@@ -43,7 +43,5 @@ export const variants = [
     slug: "location-cross-twotone",
     Component: LocationCrossTwotone,
     componentName: "LocationCrossTwotone",
-  }
+  },
 ];
-
-export default { LocationCrossBold, LocationCrossBroken, LocationCrossBulk, LocationCrossLinear, LocationCrossOutline, LocationCrossTwotone };

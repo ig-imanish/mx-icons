@@ -43,7 +43,5 @@ export const variants = [
     slug: "pen-add-twotone",
     Component: PenAddTwotone,
     componentName: "PenAddTwotone",
-  }
+  },
 ];
-
-export default { PenAddBold, PenAddBroken, PenAddBulk, PenAddLinear, PenAddOutline, PenAddTwotone };

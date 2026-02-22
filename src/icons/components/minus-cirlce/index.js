@@ -43,7 +43,5 @@ export const variants = [
     slug: "minus-cirlce-twotone",
     Component: MinusCirlceTwotone,
     componentName: "MinusCirlceTwotone",
-  }
+  },
 ];
-
-export default { MinusCirlceBold, MinusCirlceBroken, MinusCirlceBulk, MinusCirlceLinear, MinusCirlceOutline, MinusCirlceTwotone };

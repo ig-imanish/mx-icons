@@ -43,7 +43,5 @@ export const variants = [
     slug: "location-slash-twotone",
     Component: LocationSlashTwotone,
     componentName: "LocationSlashTwotone",
-  }
+  },
 ];
-
-export default { LocationSlashBold, LocationSlashBroken, LocationSlashBulk, LocationSlashLinear, LocationSlashOutline, LocationSlashTwotone };

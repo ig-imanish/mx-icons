@@ -43,7 +43,5 @@ export const variants = [
     slug: "brush-twotone",
     Component: BrushTwotone,
     componentName: "BrushTwotone",
-  }
+  },
 ];
-
-export default { BrushBold, BrushBroken, BrushBulk, BrushLinear, BrushOutline, BrushTwotone };

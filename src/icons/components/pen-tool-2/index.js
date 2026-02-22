@@ -10,40 +10,38 @@ export { PenTool2Bold, PenTool2Broken, PenTool2Bulk, PenTool2Linear, PenTool2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "pen-tool-2-bold",
+    slug: "pen-tool2-bold",
     Component: PenTool2Bold,
     componentName: "PenTool2Bold",
   },
   {
     variant: "broken",
-    slug: "pen-tool-2-broken",
+    slug: "pen-tool2-broken",
     Component: PenTool2Broken,
     componentName: "PenTool2Broken",
   },
   {
     variant: "bulk",
-    slug: "pen-tool-2-bulk",
+    slug: "pen-tool2-bulk",
     Component: PenTool2Bulk,
     componentName: "PenTool2Bulk",
   },
   {
     variant: "linear",
-    slug: "pen-tool-2-linear",
+    slug: "pen-tool2-linear",
     Component: PenTool2Linear,
     componentName: "PenTool2Linear",
   },
   {
     variant: "outline",
-    slug: "pen-tool-2-outline",
+    slug: "pen-tool2-outline",
     Component: PenTool2Outline,
     componentName: "PenTool2Outline",
   },
   {
     variant: "twotone",
-    slug: "pen-tool-2-twotone",
+    slug: "pen-tool2-twotone",
     Component: PenTool2Twotone,
     componentName: "PenTool2Twotone",
-  }
+  },
 ];
-
-export default { PenTool2Bold, PenTool2Broken, PenTool2Bulk, PenTool2Linear, PenTool2Outline, PenTool2Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "send-square-twotone",
     Component: SendSquareTwotone,
     componentName: "SendSquareTwotone",
-  }
+  },
 ];
-
-export default { SendSquareBold, SendSquareBroken, SendSquareBulk, SendSquareLinear, SendSquareOutline, SendSquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "tick-circle-twotone",
     Component: TickCircleTwotone,
     componentName: "TickCircleTwotone",
-  }
+  },
 ];
-
-export default { TickCircleBold, TickCircleBroken, TickCircleBulk, TickCircleLinear, TickCircleOutline, TickCircleTwotone };

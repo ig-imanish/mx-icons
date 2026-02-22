@@ -1,21 +1,19 @@
-import LinkedInLinear from "./LinkedInLinear";
 import LinkedInBold from "./LinkedInBold";
+import LinkedInLinear from "./LinkedInLinear";
 
-export { LinkedInLinear, LinkedInBold };
+export { LinkedInBold, LinkedInLinear };
 
 export const variants = [
-    {
-        variant: "bold",
-        slug: "bold",
-        Component: LinkedInBold,
-        componentName: "LinkedInBold",
-    },
-    {
-        variant: "linear",
-        slug: "linear",
-        Component: LinkedInLinear,
-        componentName: "LinkedInLinear",
-    },
+  {
+    variant: "bold",
+    slug: "linked-in-bold",
+    Component: LinkedInBold,
+    componentName: "LinkedInBold",
+  },
+  {
+    variant: "linear",
+    slug: "linked-in-linear",
+    Component: LinkedInLinear,
+    componentName: "LinkedInLinear",
+  },
 ];
-
-export default { LinkedInLinear, LinkedInBold };

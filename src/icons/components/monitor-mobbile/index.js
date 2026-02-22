@@ -43,7 +43,5 @@ export const variants = [
     slug: "monitor-mobbile-twotone",
     Component: MonitorMobbileTwotone,
     componentName: "MonitorMobbileTwotone",
-  }
+  },
 ];
-
-export default { MonitorMobbileBold, MonitorMobbileBroken, MonitorMobbileBulk, MonitorMobbileLinear, MonitorMobbileOutline, MonitorMobbileTwotone };

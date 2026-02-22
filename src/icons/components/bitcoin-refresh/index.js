@@ -43,7 +43,5 @@ export const variants = [
     slug: "bitcoin-refresh-twotone",
     Component: BitcoinRefreshTwotone,
     componentName: "BitcoinRefreshTwotone",
-  }
+  },
 ];
-
-export default { BitcoinRefreshBold, BitcoinRefreshBroken, BitcoinRefreshBulk, BitcoinRefreshLinear, BitcoinRefreshOutline, BitcoinRefreshTwotone };

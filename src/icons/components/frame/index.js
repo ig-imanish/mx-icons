@@ -43,7 +43,5 @@ export const variants = [
     slug: "frame-twotone",
     Component: FrameTwotone,
     componentName: "FrameTwotone",
-  }
+  },
 ];
-
-export default { FrameBold, FrameBroken, FrameBulk, FrameLinear, FrameOutline, FrameTwotone };

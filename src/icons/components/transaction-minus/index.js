@@ -43,7 +43,5 @@ export const variants = [
     slug: "transaction-minus-twotone",
     Component: TransactionMinusTwotone,
     componentName: "TransactionMinusTwotone",
-  }
+  },
 ];
-
-export default { TransactionMinusBold, TransactionMinusBroken, TransactionMinusBulk, TransactionMinusLinear, TransactionMinusOutline, TransactionMinusTwotone };

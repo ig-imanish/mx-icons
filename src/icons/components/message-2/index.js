@@ -10,40 +10,38 @@ export { Message2Bold, Message2Broken, Message2Bulk, Message2Linear, Message2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "message-2-bold",
+    slug: "message2-bold",
     Component: Message2Bold,
     componentName: "Message2Bold",
   },
   {
     variant: "broken",
-    slug: "message-2-broken",
+    slug: "message2-broken",
     Component: Message2Broken,
     componentName: "Message2Broken",
   },
   {
     variant: "bulk",
-    slug: "message-2-bulk",
+    slug: "message2-bulk",
     Component: Message2Bulk,
     componentName: "Message2Bulk",
   },
   {
     variant: "linear",
-    slug: "message-2-linear",
+    slug: "message2-linear",
     Component: Message2Linear,
     componentName: "Message2Linear",
   },
   {
     variant: "outline",
-    slug: "message-2-outline",
+    slug: "message2-outline",
     Component: Message2Outline,
     componentName: "Message2Outline",
   },
   {
     variant: "twotone",
-    slug: "message-2-twotone",
+    slug: "message2-twotone",
     Component: Message2Twotone,
     componentName: "Message2Twotone",
-  }
+  },
 ];
-
-export default { Message2Bold, Message2Broken, Message2Bulk, Message2Linear, Message2Outline, Message2Twotone };

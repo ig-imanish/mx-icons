@@ -43,7 +43,5 @@ export const variants = [
     slug: "math-twotone",
     Component: MathTwotone,
     componentName: "MathTwotone",
-  }
+  },
 ];
-
-export default { MathBold, MathBroken, MathBulk, MathLinear, MathOutline, MathTwotone };

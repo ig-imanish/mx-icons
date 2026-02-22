@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-download-twotone",
     Component: DocumentDownloadTwotone,
     componentName: "DocumentDownloadTwotone",
-  }
+  },
 ];
-
-export default { DocumentDownloadBold, DocumentDownloadBroken, DocumentDownloadBulk, DocumentDownloadLinear, DocumentDownloadOutline, DocumentDownloadTwotone };

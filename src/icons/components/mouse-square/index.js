@@ -43,7 +43,5 @@ export const variants = [
     slug: "mouse-square-twotone",
     Component: MouseSquareTwotone,
     componentName: "MouseSquareTwotone",
-  }
+  },
 ];
-
-export default { MouseSquareBold, MouseSquareBroken, MouseSquareBulk, MouseSquareLinear, MouseSquareOutline, MouseSquareTwotone };

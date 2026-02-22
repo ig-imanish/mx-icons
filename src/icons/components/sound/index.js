@@ -43,7 +43,5 @@ export const variants = [
     slug: "sound-twotone",
     Component: SoundTwotone,
     componentName: "SoundTwotone",
-  }
+  },
 ];
-
-export default { SoundBold, SoundBroken, SoundBulk, SoundLinear, SoundOutline, SoundTwotone };

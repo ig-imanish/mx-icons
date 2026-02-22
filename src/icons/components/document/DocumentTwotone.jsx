@@ -1,4 +1,3 @@
-import React from "react";
 import Icon from "../../Icon";
 
 export default function DocumentTwotone({
@@ -15,9 +14,17 @@ export default function DocumentTwotone({
       className={className}
       {...props}
     >
-      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.4" d="M15.75 9H8.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.4" d="M15.75 15H8.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M5 3h7.5v5.5h6.5v12.5h-14v-18Z" fill="currentColor" fill-opacity="0">
+		<animate attributeName="fill-opacity" begin="0.9s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<path d="M13 3l6 6v12h-14v-18h8" stroke-width="2" stroke-dasharray="64">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="64;0" />
+		</path>
+		<path d="M12.5 3v5.5h6.5" stroke-dasharray="14" stroke-dashoffset="14">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
     </Icon>
   );
 }

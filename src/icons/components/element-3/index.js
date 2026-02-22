@@ -10,40 +10,38 @@ export { Element3Bold, Element3Broken, Element3Bulk, Element3Linear, Element3Out
 export const variants = [
   {
     variant: "bold",
-    slug: "element-3-bold",
+    slug: "element3-bold",
     Component: Element3Bold,
     componentName: "Element3Bold",
   },
   {
     variant: "broken",
-    slug: "element-3-broken",
+    slug: "element3-broken",
     Component: Element3Broken,
     componentName: "Element3Broken",
   },
   {
     variant: "bulk",
-    slug: "element-3-bulk",
+    slug: "element3-bulk",
     Component: Element3Bulk,
     componentName: "Element3Bulk",
   },
   {
     variant: "linear",
-    slug: "element-3-linear",
+    slug: "element3-linear",
     Component: Element3Linear,
     componentName: "Element3Linear",
   },
   {
     variant: "outline",
-    slug: "element-3-outline",
+    slug: "element3-outline",
     Component: Element3Outline,
     componentName: "Element3Outline",
   },
   {
     variant: "twotone",
-    slug: "element-3-twotone",
+    slug: "element3-twotone",
     Component: Element3Twotone,
     componentName: "Element3Twotone",
-  }
+  },
 ];
-
-export default { Element3Bold, Element3Broken, Element3Bulk, Element3Linear, Element3Outline, Element3Twotone };

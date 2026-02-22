@@ -43,7 +43,5 @@ export const variants = [
     slug: "personalcard-twotone",
     Component: PersonalcardTwotone,
     componentName: "PersonalcardTwotone",
-  }
+  },
 ];
-
-export default { PersonalcardBold, PersonalcardBroken, PersonalcardBulk, PersonalcardLinear, PersonalcardOutline, PersonalcardTwotone };

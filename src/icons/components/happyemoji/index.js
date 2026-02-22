@@ -43,7 +43,5 @@ export const variants = [
     slug: "happyemoji-twotone",
     Component: HappyemojiTwotone,
     componentName: "HappyemojiTwotone",
-  }
+  },
 ];
-
-export default { HappyemojiBold, HappyemojiBroken, HappyemojiBulk, HappyemojiLinear, HappyemojiOutline, HappyemojiTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "buildings-twotone",
     Component: BuildingsTwotone,
     componentName: "BuildingsTwotone",
-  }
+  },
 ];
-
-export default { BuildingsBold, BuildingsBroken, BuildingsBulk, BuildingsLinear, BuildingsOutline, BuildingsTwotone };

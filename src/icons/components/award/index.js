@@ -43,7 +43,5 @@ export const variants = [
     slug: "award-twotone",
     Component: AwardTwotone,
     componentName: "AwardTwotone",
-  }
+  },
 ];
-
-export default { AwardBold, AwardBroken, AwardBulk, AwardLinear, AwardOutline, AwardTwotone };

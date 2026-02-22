@@ -1,0 +1,69 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# Source code
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# SVG files
+*.svg text eol=lf
+
+# Documentation
+*.txt text eol=lf
+README* text eol=lf
+CHANGELOG* text eol=lf
+LICENSE* text eol=lf
+CONTRIBUTING* text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Configs
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+.npmignore text eol=lf
+*.config.js text eol=lf
+
+# Binary files (don't normalize)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+*.otf binary
+
+# Archives
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+
+# Exclude files from export
+.github export-ignore
+.vscode export-ignore
+node_modules export-ignore
+dist export-ignore
+*.log export-ignore
+.DS_Store export-ignore

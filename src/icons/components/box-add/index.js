@@ -43,7 +43,5 @@ export const variants = [
     slug: "box-add-twotone",
     Component: BoxAddTwotone,
     componentName: "BoxAddTwotone",
-  }
+  },
 ];
-
-export default { BoxAddBold, BoxAddBroken, BoxAddBulk, BoxAddLinear, BoxAddOutline, BoxAddTwotone };

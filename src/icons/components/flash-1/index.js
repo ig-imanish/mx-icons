@@ -10,40 +10,38 @@ export { Flash1Bold, Flash1Broken, Flash1Bulk, Flash1Linear, Flash1Outline, Flas
 export const variants = [
   {
     variant: "bold",
-    slug: "flash-1-bold",
+    slug: "flash1-bold",
     Component: Flash1Bold,
     componentName: "Flash1Bold",
   },
   {
     variant: "broken",
-    slug: "flash-1-broken",
+    slug: "flash1-broken",
     Component: Flash1Broken,
     componentName: "Flash1Broken",
   },
   {
     variant: "bulk",
-    slug: "flash-1-bulk",
+    slug: "flash1-bulk",
     Component: Flash1Bulk,
     componentName: "Flash1Bulk",
   },
   {
     variant: "linear",
-    slug: "flash-1-linear",
+    slug: "flash1-linear",
     Component: Flash1Linear,
     componentName: "Flash1Linear",
   },
   {
     variant: "outline",
-    slug: "flash-1-outline",
+    slug: "flash1-outline",
     Component: Flash1Outline,
     componentName: "Flash1Outline",
   },
   {
     variant: "twotone",
-    slug: "flash-1-twotone",
+    slug: "flash1-twotone",
     Component: Flash1Twotone,
     componentName: "Flash1Twotone",
-  }
+  },
 ];
-
-export default { Flash1Bold, Flash1Broken, Flash1Bulk, Flash1Linear, Flash1Outline, Flash1Twotone };

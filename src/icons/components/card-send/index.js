@@ -43,7 +43,5 @@ export const variants = [
     slug: "card-send-twotone",
     Component: CardSendTwotone,
     componentName: "CardSendTwotone",
-  }
+  },
 ];
-
-export default { CardSendBold, CardSendBroken, CardSendBulk, CardSendLinear, CardSendOutline, CardSendTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "smart-home-twotone",
     Component: SmartHomeTwotone,
     componentName: "SmartHomeTwotone",
-  }
+  },
 ];
-
-export default { SmartHomeBold, SmartHomeBroken, SmartHomeBulk, SmartHomeLinear, SmartHomeOutline, SmartHomeTwotone };

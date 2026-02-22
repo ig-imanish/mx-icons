@@ -1,0 +1,39 @@
+import Icon from "../../Icon";
+
+export default function BriefcaseCheckTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGG14sMbbI">
+			<g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="M9 7h11c0.55 0 1 0.45 1 1v11c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-11c0 -0.55 0.45 -1 1 -1Z" fill="currentColor" fill-opacity="0" stroke-dasharray="64">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="64;0" />
+					<animate attributeName="fill-opacity" begin="1s" dur="0.15s" fill="freeze" to="0.3" />
+				</path>
+				<path d="M9 7v-3c0 -0.55 0.45 -1 1 -1h4c0.55 0 1 0.45 1 1v3" fill="none" stroke-dasharray="16" stroke-dashoffset="16">
+					<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.3s" fill="freeze" to="0" />
+				</path>
+			</g>
+			<path d="M19 13c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z" fill="currentColor" opacity="0">
+				<set attributeName="opacity" to="1" begin="1.25s" fill="freeze" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGG14sMbbI)" />
+	<path d="M16 19l1.75 1.75l3.75 -3.75" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10" stroke-dashoffset="10">
+		<animate attributeName="stroke-dashoffset" begin="1.25s" dur="0.2s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

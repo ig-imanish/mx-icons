@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-connection-twotone",
     Component: CloudConnectionTwotone,
     componentName: "CloudConnectionTwotone",
-  }
+  },
 ];
-
-export default { CloudConnectionBold, CloudConnectionBroken, CloudConnectionBulk, CloudConnectionLinear, CloudConnectionOutline, CloudConnectionTwotone };

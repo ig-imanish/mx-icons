@@ -43,7 +43,5 @@ export const variants = [
     slug: "folder-open-twotone",
     Component: FolderOpenTwotone,
     componentName: "FolderOpenTwotone",
-  }
+  },
 ];
-
-export default { FolderOpenBold, FolderOpenBroken, FolderOpenBulk, FolderOpenLinear, FolderOpenOutline, FolderOpenTwotone };

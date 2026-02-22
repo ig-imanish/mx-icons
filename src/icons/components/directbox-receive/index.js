@@ -43,7 +43,5 @@ export const variants = [
     slug: "directbox-receive-twotone",
     Component: DirectboxReceiveTwotone,
     componentName: "DirectboxReceiveTwotone",
-  }
+  },
 ];
-
-export default { DirectboxReceiveBold, DirectboxReceiveBroken, DirectboxReceiveBulk, DirectboxReceiveLinear, DirectboxReceiveOutline, DirectboxReceiveTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "toggle-on-twotone",
     Component: ToggleOnTwotone,
     componentName: "ToggleOnTwotone",
-  }
+  },
 ];
-
-export default { ToggleOnBold, ToggleOnBroken, ToggleOnBulk, ToggleOnLinear, ToggleOnOutline, ToggleOnTwotone };

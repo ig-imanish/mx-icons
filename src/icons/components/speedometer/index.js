@@ -2,10 +2,11 @@ import SpeedometerBold from "./SpeedometerBold";
 import SpeedometerBroken from "./SpeedometerBroken";
 import SpeedometerBulk from "./SpeedometerBulk";
 import SpeedometerLinear from "./SpeedometerLinear";
+import SpeedometerLoop from "./SpeedometerLoop";
 import SpeedometerOutline from "./SpeedometerOutline";
 import SpeedometerTwotone from "./SpeedometerTwotone";
 
-export { SpeedometerBold, SpeedometerBroken, SpeedometerBulk, SpeedometerLinear, SpeedometerOutline, SpeedometerTwotone };
+export { SpeedometerBold, SpeedometerBroken, SpeedometerBulk, SpeedometerLinear, SpeedometerLoop, SpeedometerOutline, SpeedometerTwotone };
 
 export const variants = [
   {
@@ -33,6 +34,12 @@ export const variants = [
     componentName: "SpeedometerLinear",
   },
   {
+    variant: "linear",
+    slug: "speedometer-loop",
+    Component: SpeedometerLoop,
+    componentName: "SpeedometerLoop",
+  },
+  {
     variant: "outline",
     slug: "speedometer-outline",
     Component: SpeedometerOutline,
@@ -43,7 +50,5 @@ export const variants = [
     slug: "speedometer-twotone",
     Component: SpeedometerTwotone,
     componentName: "SpeedometerTwotone",
-  }
+  },
 ];
-
-export default { SpeedometerBold, SpeedometerBroken, SpeedometerBulk, SpeedometerLinear, SpeedometerOutline, SpeedometerTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "flag-twotone",
     Component: FlagTwotone,
     componentName: "FlagTwotone",
-  }
+  },
 ];
-
-export default { FlagBold, FlagBroken, FlagBulk, FlagLinear, FlagOutline, FlagTwotone };

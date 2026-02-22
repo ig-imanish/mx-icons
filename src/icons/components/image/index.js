@@ -1,11 +1,12 @@
 import ImageBold from "./ImageBold";
 import ImageBroken from "./ImageBroken";
 import ImageBulk from "./ImageBulk";
+import ImageFilled from "./ImageFilled";
 import ImageLinear from "./ImageLinear";
 import ImageOutline from "./ImageOutline";
 import ImageTwotone from "./ImageTwotone";
 
-export { ImageBold, ImageBroken, ImageBulk, ImageLinear, ImageOutline, ImageTwotone };
+export { ImageBold, ImageBroken, ImageBulk, ImageFilled, ImageLinear, ImageOutline, ImageTwotone };
 
 export const variants = [
   {
@@ -27,6 +28,12 @@ export const variants = [
     componentName: "ImageBulk",
   },
   {
+    variant: "filled",
+    slug: "image-filled",
+    Component: ImageFilled,
+    componentName: "ImageFilled",
+  },
+  {
     variant: "linear",
     slug: "image-linear",
     Component: ImageLinear,
@@ -43,7 +50,5 @@ export const variants = [
     slug: "image-twotone",
     Component: ImageTwotone,
     componentName: "ImageTwotone",
-  }
+  },
 ];
-
-export default { ImageBold, ImageBroken, ImageBulk, ImageLinear, ImageOutline, ImageTwotone };

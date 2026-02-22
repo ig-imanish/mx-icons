@@ -43,7 +43,5 @@ export const variants = [
     slug: "pen-tool-twotone",
     Component: PenToolTwotone,
     componentName: "PenToolTwotone",
-  }
+  },
 ];
-
-export default { PenToolBold, PenToolBroken, PenToolBulk, PenToolLinear, PenToolOutline, PenToolTwotone };

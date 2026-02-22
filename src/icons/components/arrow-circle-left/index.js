@@ -43,7 +43,5 @@ export const variants = [
     slug: "arrow-circle-left-twotone",
     Component: ArrowCircleLeftTwotone,
     componentName: "ArrowCircleLeftTwotone",
-  }
+  },
 ];
-
-export default { ArrowCircleLeftBold, ArrowCircleLeftBroken, ArrowCircleLeftBulk, ArrowCircleLeftLinear, ArrowCircleLeftOutline, ArrowCircleLeftTwotone };

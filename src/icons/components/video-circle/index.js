@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-circle-twotone",
     Component: VideoCircleTwotone,
     componentName: "VideoCircleTwotone",
-  }
+  },
 ];
-
-export default { VideoCircleBold, VideoCircleBroken, VideoCircleBulk, VideoCircleLinear, VideoCircleOutline, VideoCircleTwotone };

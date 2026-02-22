@@ -1,0 +1,38 @@
+import Icon from "../../Icon";
+
+export default function DiscordTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M5 5l7 0.2l7 -0.2l3 10l-3 3.4h-14l-3.5 -3.4l3.5 -10Z" fill="currentColor" fill-opacity="0">
+		<animate attributeName="fill-opacity" begin="1.8s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 6h2l1 -2c0 0 2.5 0.5 4 1.5c3.53 2.35 3 9.5 3 10.5c-1.33 2.17 -5.5 3.5 -5.5 3.5l-1 -2M12 6h-2l-0.97 -2c0 0 -2.5 0.5 -4 1.5c-3.53 2.35 -3 9.5 -3 10.5c1.33 2.17 5.5 3.5 5.5 3.5l1 -2" stroke-dasharray="32">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="32;0" />
+		</path>
+		<path d="M5.5 16c5 2.5 8 2.5 13 0" stroke-dasharray="16" stroke-dashoffset="16">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.5s" fill="freeze" to="0" />
+		</path>
+	</g>
+	<g fill="currentColor">
+		<circle cx="9" cy="12">
+			<animate attributeName="r" begin="1.3s" dur="0.2s" fill="freeze" to="1.5" />
+		</circle>
+		<circle cx="15" cy="12">
+			<animate attributeName="r" begin="1.5s" dur="0.2s" fill="freeze" to="1.5" />
+		</circle>
+	</g>
+    </Icon>
+  );
+}

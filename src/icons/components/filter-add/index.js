@@ -43,7 +43,5 @@ export const variants = [
     slug: "filter-add-twotone",
     Component: FilterAddTwotone,
     componentName: "FilterAddTwotone",
-  }
+  },
 ];
-
-export default { FilterAddBold, FilterAddBroken, FilterAddBulk, FilterAddLinear, FilterAddOutline, FilterAddTwotone };

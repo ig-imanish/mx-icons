@@ -43,7 +43,5 @@ export const variants = [
     slug: "card-pos-twotone",
     Component: CardPosTwotone,
     componentName: "CardPosTwotone",
-  }
+  },
 ];
-
-export default { CardPosBold, CardPosBroken, CardPosBulk, CardPosLinear, CardPosOutline, CardPosTwotone };

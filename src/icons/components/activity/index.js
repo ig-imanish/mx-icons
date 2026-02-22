@@ -43,7 +43,5 @@ export const variants = [
     slug: "activity-twotone",
     Component: ActivityTwotone,
     componentName: "ActivityTwotone",
-  }
+  },
 ];
-
-export default { ActivityBold, ActivityBroken, ActivityBulk, ActivityLinear, ActivityOutline, ActivityTwotone };

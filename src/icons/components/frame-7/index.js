@@ -5,10 +5,8 @@ export { Frame7Broken };
 export const variants = [
   {
     variant: "broken",
-    slug: "frame-7-broken",
+    slug: "frame7-broken",
     Component: Frame7Broken,
     componentName: "Frame7Broken",
-  }
+  },
 ];
-
-export default { Frame7Broken };

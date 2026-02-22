@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-twotone",
     Component: UserTwotone,
     componentName: "UserTwotone",
-  }
+  },
 ];
-
-export default { UserBold, UserBroken, UserBulk, UserLinear, UserOutline, UserTwotone };

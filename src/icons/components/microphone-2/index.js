@@ -10,40 +10,38 @@ export { Microphone2Bold, Microphone2Broken, Microphone2Bulk, Microphone2Linear,
 export const variants = [
   {
     variant: "bold",
-    slug: "microphone-2-bold",
+    slug: "microphone2-bold",
     Component: Microphone2Bold,
     componentName: "Microphone2Bold",
   },
   {
     variant: "broken",
-    slug: "microphone-2-broken",
+    slug: "microphone2-broken",
     Component: Microphone2Broken,
     componentName: "Microphone2Broken",
   },
   {
     variant: "bulk",
-    slug: "microphone-2-bulk",
+    slug: "microphone2-bulk",
     Component: Microphone2Bulk,
     componentName: "Microphone2Bulk",
   },
   {
     variant: "linear",
-    slug: "microphone-2-linear",
+    slug: "microphone2-linear",
     Component: Microphone2Linear,
     componentName: "Microphone2Linear",
   },
   {
     variant: "outline",
-    slug: "microphone-2-outline",
+    slug: "microphone2-outline",
     Component: Microphone2Outline,
     componentName: "Microphone2Outline",
   },
   {
     variant: "twotone",
-    slug: "microphone-2-twotone",
+    slug: "microphone2-twotone",
     Component: Microphone2Twotone,
     componentName: "Microphone2Twotone",
-  }
+  },
 ];
-
-export default { Microphone2Bold, Microphone2Broken, Microphone2Bulk, Microphone2Linear, Microphone2Outline, Microphone2Twotone };

@@ -1,0 +1,39 @@
+import Icon from "../../Icon";
+
+export default function TextBoxMultiple({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M22 3v14c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-14c0 -0.55 0.45 -1 1 -1h14c0.55 0 1 0.45 1 1Z" stroke-dasharray="66">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="66;0" />
+		</path>
+		<g stroke-dasharray="10">
+			<path d="M10 6h8" stroke-dashoffset="10">
+				<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M10 10h8" stroke-dashoffset="10">
+				<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+		<path d="M10 14h5" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M2 6v15c0 0.55 0.45 1 1 1h15" opacity="0">
+			<set attributeName="opacity" to="1" begin="1.4s" fill="freeze" />
+			<animate attributeName="d" begin="1.4s" dur="0.2s" fill="freeze" values="M6 3v14c0 0.55 0.45 1 1 1h14;M2 6v15c0 0.55 0.45 1 1 1h15" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

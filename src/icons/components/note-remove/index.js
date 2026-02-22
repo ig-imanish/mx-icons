@@ -43,7 +43,5 @@ export const variants = [
     slug: "note-remove-twotone",
     Component: NoteRemoveTwotone,
     componentName: "NoteRemoveTwotone",
-  }
+  },
 ];
-
-export default { NoteRemoveBold, NoteRemoveBroken, NoteRemoveBulk, NoteRemoveLinear, NoteRemoveOutline, NoteRemoveTwotone };

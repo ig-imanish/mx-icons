@@ -43,7 +43,5 @@ export const variants = [
     slug: "location-minus-twotone",
     Component: LocationMinusTwotone,
     componentName: "LocationMinusTwotone",
-  }
+  },
 ];
-
-export default { LocationMinusBold, LocationMinusBroken, LocationMinusBulk, LocationMinusLinear, LocationMinusOutline, LocationMinusTwotone };

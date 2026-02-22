@@ -43,7 +43,5 @@ export const variants = [
     slug: "magic-star-twotone",
     Component: MagicStarTwotone,
     componentName: "MagicStarTwotone",
-  }
+  },
 ];
-
-export default { MagicStarBold, MagicStarBroken, MagicStarBulk, MagicStarLinear, MagicStarOutline, MagicStarTwotone };

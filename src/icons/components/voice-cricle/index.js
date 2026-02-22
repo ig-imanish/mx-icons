@@ -43,7 +43,5 @@ export const variants = [
     slug: "voice-cricle-twotone",
     Component: VoiceCricleTwotone,
     componentName: "VoiceCricleTwotone",
-  }
+  },
 ];
-
-export default { VoiceCricleBold, VoiceCricleBroken, VoiceCricleBulk, VoiceCricleLinear, VoiceCricleOutline, VoiceCricleTwotone };

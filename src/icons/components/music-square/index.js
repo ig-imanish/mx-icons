@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-square-twotone",
     Component: MusicSquareTwotone,
     componentName: "MusicSquareTwotone",
-  }
+  },
 ];
-
-export default { MusicSquareBold, MusicSquareBroken, MusicSquareBulk, MusicSquareLinear, MusicSquareOutline, MusicSquareTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-square-twotone",
     Component: VideoSquareTwotone,
     componentName: "VideoSquareTwotone",
-  }
+  },
 ];
-
-export default { VideoSquareBold, VideoSquareBroken, VideoSquareBulk, VideoSquareLinear, VideoSquareOutline, VideoSquareTwotone };

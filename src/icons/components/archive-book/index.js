@@ -43,7 +43,5 @@ export const variants = [
     slug: "archive-book-twotone",
     Component: ArchiveBookTwotone,
     componentName: "ArchiveBookTwotone",
-  }
+  },
 ];
-
-export default { ArchiveBookBold, ArchiveBookBroken, ArchiveBookBulk, ArchiveBookLinear, ArchiveBookOutline, ArchiveBookTwotone };

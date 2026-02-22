@@ -1,0 +1,33 @@
+import Icon from "../../Icon";
+
+export default function MonitorScreenshot({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M12 17h-10v-14h20v14Z" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="70">
+		<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="70;0" />
+	</path>
+	<path d="M10 16h4v0h-4Z" fill="currentColor">
+		<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" to="M10 16h4v6h-4Z" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 21h3M12 21h-3" stroke-dasharray="6" stroke-dashoffset="6">
+			<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+		<path d="M6 7h2M6 7v2M18 13h-2M18 13v-2" stroke-dasharray="4" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

@@ -1,0 +1,27 @@
+import Icon from "../../Icon";
+
+export default function TurnLeft({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M16 19v-8c0 -0.55 -0.45 -1 -1 -1h-11" stroke-dasharray="24">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="24;0" />
+		</path>
+		<path d="M4 10l3 -3M4 10l3 3" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

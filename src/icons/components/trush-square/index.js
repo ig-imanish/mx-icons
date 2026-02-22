@@ -43,7 +43,5 @@ export const variants = [
     slug: "trush-square-twotone",
     Component: TrushSquareTwotone,
     componentName: "TrushSquareTwotone",
-  }
+  },
 ];
-
-export default { TrushSquareBold, TrushSquareBroken, TrushSquareBulk, TrushSquareLinear, TrushSquareOutline, TrushSquareTwotone };

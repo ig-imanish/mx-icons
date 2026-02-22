@@ -43,7 +43,5 @@ export const variants = [
     slug: "printer-twotone",
     Component: PrinterTwotone,
     componentName: "PrinterTwotone",
-  }
+  },
 ];
-
-export default { PrinterBold, PrinterBroken, PrinterBulk, PrinterLinear, PrinterOutline, PrinterTwotone };

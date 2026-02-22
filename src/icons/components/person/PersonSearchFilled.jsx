@@ -1,0 +1,44 @@
+import Icon from "../../Icon";
+
+export default function PersonSearchFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVG6Tv09Wro">
+			<path d="M10 14c4 0 7 2 7 3v2h-14v-2c0 -1 3 -3 7 -3Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="38" stroke-dashoffset="38" fill-opacity="0">
+				<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.5s" fill="freeze" to="0" />
+				<animate attributeName="fill-opacity" begin="1.7s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<path d="M16 10c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z" fill="currentColor" opacity="0">
+				<set attributeName="opacity" to="1" begin="1.1s" fill="freeze" />
+			</path>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M10 5c1.66 0 3 1.34 3 3c0 1.66 -1.34 3 -3 3c-1.66 0 -3 -1.34 -3 -3c0 -1.66 1.34 -3 3 -3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="22" fill-opacity="0">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="22;0" />
+			<animate attributeName="fill-opacity" begin="1.7s" dur="0.4s" fill="freeze" to="1" />
+		</path>
+		<path d="M0 0h24v24H0z" mask="url(#SVG6Tv09Wro)" />
+		<path d="M18.12 18.12c-1.17 1.17 -3.07 1.17 -4.24 0c-1.17 -1.17 -1.17 -3.07 0 -4.24c1.17 -1.17 3.07 -1.17 4.24 0c1.17 1.17 1.17 3.07 0 4.24Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="22" stroke-dashoffset="22" fill-opacity="0">
+			<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.3s" fill="freeze" to="0" />
+			<animate attributeName="fill-opacity" begin="1.7s" dur="0.4s" fill="freeze" to="1" />
+		</path>
+	</g>
+	<path d="M18.12 18.12l2.83 2.83" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8" stroke-dashoffset="8">
+		<animate attributeName="stroke-dashoffset" begin="1.4s" dur="0.2s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

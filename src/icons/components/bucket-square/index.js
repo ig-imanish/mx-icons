@@ -43,7 +43,5 @@ export const variants = [
     slug: "bucket-square-twotone",
     Component: BucketSquareTwotone,
     componentName: "BucketSquareTwotone",
-  }
+  },
 ];
-
-export default { BucketSquareBold, BucketSquareBroken, BucketSquareBulk, BucketSquareLinear, BucketSquareOutline, BucketSquareTwotone };

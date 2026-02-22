@@ -15,7 +15,5 @@ export const variants = [
     slug: "group-linear",
     Component: GroupLinear,
     componentName: "GroupLinear",
-  }
+  },
 ];
-
-export default { GroupBulk, GroupLinear };

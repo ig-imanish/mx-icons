@@ -43,7 +43,5 @@ export const variants = [
     slug: "timer-pause-twotone",
     Component: TimerPauseTwotone,
     componentName: "TimerPauseTwotone",
-  }
+  },
 ];
-
-export default { TimerPauseBold, TimerPauseBroken, TimerPauseBulk, TimerPauseLinear, TimerPauseOutline, TimerPauseTwotone };

@@ -1,4 +1,3 @@
-import React from "react";
 import Icon from "../../Icon";
 
 export default function CakeTwotone({
@@ -15,13 +14,26 @@ export default function CakeTwotone({
       className={className}
       {...props}
     >
-      <path d="M2 22H22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3.10938 22V13C3.10938 11.34 4.59938 10 6.43938 10H17.5494C19.3894 10 20.8794 11.34 20.8794 13V22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M5.56055 10V7.17C5.56055 5.97 6.64055 5 7.98055 5H16.0305C17.3605 5 18.4405 5.97 18.4405 7.17V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.34" d="M3.5293 13.98L3.8993 13.99C4.6393 14 5.2293 14.6 5.2293 15.34V15.67C5.2293 16.41 5.8293 17.02 6.5793 17.02C7.3193 17.02 7.9293 16.42 7.9293 15.67V15.36C7.9293 14.62 8.5293 14.01 9.2793 14.01C10.0193 14.01 10.6293 14.61 10.6293 15.36V15.67C10.6293 16.41 11.2293 17.02 11.9793 17.02C12.7193 17.02 13.3293 16.42 13.3293 15.67V15.36C13.3293 14.62 13.9293 14.01 14.6793 14.01C15.4193 14.01 16.0293 14.61 16.0293 15.36V15.67C16.0293 16.41 16.6293 17.02 17.3793 17.02C18.1193 17.02 18.7293 16.42 18.7293 15.67V15.36C18.7293 14.62 19.3293 14.01 20.0793 14.01H20.5293" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.34" d="M8 5V3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.34" d="M16 5V3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path opacity="0.34" d="M12 5V2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 21h8v-9c0 -1.1 -0.9 -2 -2 -2h-6M12 21h-8v-9c0 -1.1 0.9 -2 2 -2h6" stroke-dasharray="30">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="30;0" />
+		</path>
+		<path d="M12 10v-2" stroke-dasharray="4" stroke-dashoffset="4">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M4 16h1c2 0 3.5 -2 3.5 -2c0 0 1.5 2 3.5 2c2 0 3.5 -2 3.5 -2c0 0 1.5 2 3.5 2h1" stroke-dasharray="22" stroke-dashoffset="22">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+	</g>
+	<g fill="currentColor">
+		<path d="M14 4c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -4 2 -4c0 0 2 2.9 2 4Z" opacity="0">
+			<set attributeName="opacity" to="1" begin="1s" fill="freeze" />
+			<animate attributeName="d" begin="1s" dur="0.2s" fill="freeze" values="M13 5c0 0.5 -0.5 1 -1 1c-0.5 0 -1 -0.5 -1 -1c0 -0.5 1 -1 1 -1c0 0 1 0.5 1 1Z;M14 4c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -4 2 -4c0 0 2 2.9 2 4Z" />
+		</path>
+		<path d="M15.5 14c0 0 -1.5 2 -3.5 2c-2 0 -3.5 -2 -3.5 -2c0 0 -1.5 2 -3.5 2h-1v5h16v-5h-1c-2 0 -3.5 -2 -3.5 -2Z" fill-opacity="0">
+			<animate attributeName="fill-opacity" begin="1.2s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+	</g>
     </Icon>
   );
 }

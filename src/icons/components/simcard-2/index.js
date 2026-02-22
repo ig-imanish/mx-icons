@@ -10,40 +10,38 @@ export { Simcard2Bold, Simcard2Broken, Simcard2Bulk, Simcard2Linear, Simcard2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "simcard-2-bold",
+    slug: "simcard2-bold",
     Component: Simcard2Bold,
     componentName: "Simcard2Bold",
   },
   {
     variant: "broken",
-    slug: "simcard-2-broken",
+    slug: "simcard2-broken",
     Component: Simcard2Broken,
     componentName: "Simcard2Broken",
   },
   {
     variant: "bulk",
-    slug: "simcard-2-bulk",
+    slug: "simcard2-bulk",
     Component: Simcard2Bulk,
     componentName: "Simcard2Bulk",
   },
   {
     variant: "linear",
-    slug: "simcard-2-linear",
+    slug: "simcard2-linear",
     Component: Simcard2Linear,
     componentName: "Simcard2Linear",
   },
   {
     variant: "outline",
-    slug: "simcard-2-outline",
+    slug: "simcard2-outline",
     Component: Simcard2Outline,
     componentName: "Simcard2Outline",
   },
   {
     variant: "twotone",
-    slug: "simcard-2-twotone",
+    slug: "simcard2-twotone",
     Component: Simcard2Twotone,
     componentName: "Simcard2Twotone",
-  }
+  },
 ];
-
-export default { Simcard2Bold, Simcard2Broken, Simcard2Bulk, Simcard2Linear, Simcard2Outline, Simcard2Twotone };

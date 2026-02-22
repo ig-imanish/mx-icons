@@ -10,40 +10,38 @@ export { Receipt21Bold, Receipt21Broken, Receipt21Bulk, Receipt21Linear, Receipt
 export const variants = [
   {
     variant: "bold",
-    slug: "receipt-2-1-bold",
+    slug: "receipt21-bold",
     Component: Receipt21Bold,
     componentName: "Receipt21Bold",
   },
   {
     variant: "broken",
-    slug: "receipt-2-1-broken",
+    slug: "receipt21-broken",
     Component: Receipt21Broken,
     componentName: "Receipt21Broken",
   },
   {
     variant: "bulk",
-    slug: "receipt-2-1-bulk",
+    slug: "receipt21-bulk",
     Component: Receipt21Bulk,
     componentName: "Receipt21Bulk",
   },
   {
     variant: "linear",
-    slug: "receipt-2-1-linear",
+    slug: "receipt21-linear",
     Component: Receipt21Linear,
     componentName: "Receipt21Linear",
   },
   {
     variant: "outline",
-    slug: "receipt-2-1-outline",
+    slug: "receipt21-outline",
     Component: Receipt21Outline,
     componentName: "Receipt21Outline",
   },
   {
     variant: "twotone",
-    slug: "receipt-2-1-twotone",
+    slug: "receipt21-twotone",
     Component: Receipt21Twotone,
     componentName: "Receipt21Twotone",
-  }
+  },
 ];
-
-export default { Receipt21Bold, Receipt21Broken, Receipt21Bulk, Receipt21Linear, Receipt21Outline, Receipt21Twotone };

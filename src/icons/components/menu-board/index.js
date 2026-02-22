@@ -43,7 +43,5 @@ export const variants = [
     slug: "menu-board-twotone",
     Component: MenuBoardTwotone,
     componentName: "MenuBoardTwotone",
-  }
+  },
 ];
-
-export default { MenuBoardBold, MenuBoardBroken, MenuBoardBulk, MenuBoardLinear, MenuBoardOutline, MenuBoardTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "shield-slash-twotone",
     Component: ShieldSlashTwotone,
     componentName: "ShieldSlashTwotone",
-  }
+  },
 ];
-
-export default { ShieldSlashBold, ShieldSlashBroken, ShieldSlashBulk, ShieldSlashLinear, ShieldSlashOutline, ShieldSlashTwotone };

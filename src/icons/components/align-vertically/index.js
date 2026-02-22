@@ -43,7 +43,5 @@ export const variants = [
     slug: "align-vertically-twotone",
     Component: AlignVerticallyTwotone,
     componentName: "AlignVerticallyTwotone",
-  }
+  },
 ];
-
-export default { AlignVerticallyBold, AlignVerticallyBroken, AlignVerticallyBulk, AlignVerticallyLinear, AlignVerticallyOutline, AlignVerticallyTwotone };

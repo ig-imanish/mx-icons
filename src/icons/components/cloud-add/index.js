@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-add-twotone",
     Component: CloudAddTwotone,
     componentName: "CloudAddTwotone",
-  }
+  },
 ];
-
-export default { CloudAddBold, CloudAddBroken, CloudAddBulk, CloudAddLinear, CloudAddOutline, CloudAddTwotone };

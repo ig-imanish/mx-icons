@@ -43,7 +43,5 @@ export const variants = [
     slug: "info-circle-twotone",
     Component: InfoCircleTwotone,
     componentName: "InfoCircleTwotone",
-  }
+  },
 ];
-
-export default { InfoCircleBold, InfoCircleBroken, InfoCircleBulk, InfoCircleLinear, InfoCircleOutline, InfoCircleTwotone };

@@ -10,40 +10,38 @@ export { FlashCircle1Bold, FlashCircle1Broken, FlashCircle1Bulk, FlashCircle1Lin
 export const variants = [
   {
     variant: "bold",
-    slug: "flash-circle-1-bold",
+    slug: "flash-circle1-bold",
     Component: FlashCircle1Bold,
     componentName: "FlashCircle1Bold",
   },
   {
     variant: "broken",
-    slug: "flash-circle-1-broken",
+    slug: "flash-circle1-broken",
     Component: FlashCircle1Broken,
     componentName: "FlashCircle1Broken",
   },
   {
     variant: "bulk",
-    slug: "flash-circle-1-bulk",
+    slug: "flash-circle1-bulk",
     Component: FlashCircle1Bulk,
     componentName: "FlashCircle1Bulk",
   },
   {
     variant: "linear",
-    slug: "flash-circle-1-linear",
+    slug: "flash-circle1-linear",
     Component: FlashCircle1Linear,
     componentName: "FlashCircle1Linear",
   },
   {
     variant: "outline",
-    slug: "flash-circle-1-outline",
+    slug: "flash-circle1-outline",
     Component: FlashCircle1Outline,
     componentName: "FlashCircle1Outline",
   },
   {
     variant: "twotone",
-    slug: "flash-circle-1-twotone",
+    slug: "flash-circle1-twotone",
     Component: FlashCircle1Twotone,
     componentName: "FlashCircle1Twotone",
-  }
+  },
 ];
-
-export default { FlashCircle1Bold, FlashCircle1Broken, FlashCircle1Bulk, FlashCircle1Linear, FlashCircle1Outline, FlashCircle1Twotone };

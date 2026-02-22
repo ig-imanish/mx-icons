@@ -43,7 +43,5 @@ export const variants = [
     slug: "clipboard-tick-twotone",
     Component: ClipboardTickTwotone,
     componentName: "ClipboardTickTwotone",
-  }
+  },
 ];
-
-export default { ClipboardTickBold, ClipboardTickBroken, ClipboardTickBulk, ClipboardTickLinear, ClipboardTickOutline, ClipboardTickTwotone };

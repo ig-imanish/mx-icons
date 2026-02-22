@@ -43,7 +43,5 @@ export const variants = [
     slug: "global-edit-twotone",
     Component: GlobalEditTwotone,
     componentName: "GlobalEditTwotone",
-  }
+  },
 ];
-
-export default { GlobalEditBold, GlobalEditBroken, GlobalEditBulk, GlobalEditLinear, GlobalEditOutline, GlobalEditTwotone };

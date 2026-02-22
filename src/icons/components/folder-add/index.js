@@ -43,7 +43,5 @@ export const variants = [
     slug: "folder-add-twotone",
     Component: FolderAddTwotone,
     componentName: "FolderAddTwotone",
-  }
+  },
 ];
-
-export default { FolderAddBold, FolderAddBroken, FolderAddBulk, FolderAddLinear, FolderAddOutline, FolderAddTwotone };

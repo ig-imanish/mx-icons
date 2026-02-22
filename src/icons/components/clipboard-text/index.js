@@ -43,7 +43,5 @@ export const variants = [
     slug: "clipboard-text-twotone",
     Component: ClipboardTextTwotone,
     componentName: "ClipboardTextTwotone",
-  }
+  },
 ];
-
-export default { ClipboardTextBold, ClipboardTextBroken, ClipboardTextBulk, ClipboardTextLinear, ClipboardTextOutline, ClipboardTextTwotone };

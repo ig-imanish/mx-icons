@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function CloudUpTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M7 19c-2.5 0 -4 -2 -4 -4c0 -2 1.5 -4 4 -4c0 -3.5 2 -6 5 -6c3 0 5 2.5 5 5v1c2.5 0 4 2 4 4c0 2 -1.5 4 -4 4Z" fill="currentColor" fill-opacity="0">
+		<animate attributeName="fill-opacity" begin="0.9s" dur="0.15s" fill="freeze" to="0.3" />
+	</path>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M8 19h-1c-2.5 0 -4 -2 -4 -4c0 -2 1.5 -4 4 -4c1 0 1.5 0.5 1.5 0.5M16 19h1c2.5 0 4 -2 4 -4c0 -2 -1.5 -4 -4 -4c-1 0 -1.5 0.5 -1.5 0.5" stroke-dasharray="18">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="18;0" />
+		</path>
+		<path d="M7 11v-1c0 -2.5 2 -5 5 -5M17 11v-1c0 -2.5 -2 -5 -5 -5" stroke-dasharray="12" stroke-dashoffset="12">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.4s" fill="freeze" to="0" />
+		</path>
+		<path d="M12 20v-6" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="1.15s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M12 13l2 2M12 13l-2 2" stroke-dasharray="6" stroke-dashoffset="6">
+			<animate attributeName="stroke-dashoffset" begin="1.35s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

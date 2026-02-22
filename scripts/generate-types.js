@@ -21,23 +21,23 @@ console.log("🔍 Parsing index.js for icon exports...");
 // Read the index.js file
 const indexContent = fs.readFileSync(INDEX_JS_PATH, "utf-8");
 
-// Extract all icon component names from import statements
-const importRegex = /import \{ ([^}]+) \} from/g;
+// Extract all icon component names from export statements
+const exportRegex = /export \{ ([^}]+) \} from/g;
 const iconNames = new Set();
 
 let match;
-while ((match = importRegex.exec(indexContent)) !== null) {
-  const imports = match[1].split(",").map((s) => s.trim());
-  imports.forEach((importName) => {
-    // Skip 'variants as ...' imports
-    if (!importName.includes("variants")) {
-      iconNames.add(importName);
+while ((match = exportRegex.exec(indexContent)) !== null) {
+  const exports = match[1].split(",").map((s) => s.trim());
+  exports.forEach((exportName) => {
+    // Skip 'Icon' export
+    if (exportName !== "Icon") {
+      iconNames.add(exportName);
     }
   });
 }
 
-// Also extract Icon default import
-if (indexContent.includes("import Icon from")) {
+// Also check for direct Icon export
+if (indexContent.includes("export { Icon }")) {
   iconNames.add("Icon");
 }
 

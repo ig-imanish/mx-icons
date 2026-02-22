@@ -43,7 +43,5 @@ export const variants = [
     slug: "recovery-convert-twotone",
     Component: RecoveryConvertTwotone,
     componentName: "RecoveryConvertTwotone",
-  }
+  },
 ];
-
-export default { RecoveryConvertBold, RecoveryConvertBroken, RecoveryConvertBulk, RecoveryConvertLinear, RecoveryConvertOutline, RecoveryConvertTwotone };

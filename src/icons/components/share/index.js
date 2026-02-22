@@ -43,7 +43,5 @@ export const variants = [
     slug: "share-twotone",
     Component: ShareTwotone,
     componentName: "ShareTwotone",
-  }
+  },
 ];
-
-export default { ShareBold, ShareBroken, ShareBulk, ShareLinear, ShareOutline, ShareTwotone };

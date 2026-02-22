@@ -43,7 +43,5 @@ export const variants = [
     slug: "information-twotone",
     Component: InformationTwotone,
     componentName: "InformationTwotone",
-  }
+  },
 ];
-
-export default { InformationBold, InformationBroken, InformationBulk, InformationLinear, InformationOutline, InformationTwotone };

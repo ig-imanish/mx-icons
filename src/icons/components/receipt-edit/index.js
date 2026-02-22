@@ -43,7 +43,5 @@ export const variants = [
     slug: "receipt-edit-twotone",
     Component: ReceiptEditTwotone,
     componentName: "ReceiptEditTwotone",
-  }
+  },
 ];
-
-export default { ReceiptEditBold, ReceiptEditBroken, ReceiptEditBulk, ReceiptEditLinear, ReceiptEditOutline, ReceiptEditTwotone };

@@ -3,9 +3,15 @@ import SunBroken from "./SunBroken";
 import SunBulk from "./SunBulk";
 import SunLinear from "./SunLinear";
 import SunOutline from "./SunOutline";
+import SunRising from "./SunRising";
+import SunRisingFilled from "./SunRisingFilled";
+import SunRisingFilledLoop from "./SunRisingFilledLoop";
+import SunRisingLoop from "./SunRisingLoop";
+import SunRisingTwotone from "./SunRisingTwotone";
+import SunRisingTwotoneLoop from "./SunRisingTwotoneLoop";
 import SunTwotone from "./SunTwotone";
 
-export { SunBold, SunBroken, SunBulk, SunLinear, SunOutline, SunTwotone };
+export { SunBold, SunBroken, SunBulk, SunLinear, SunOutline, SunRising, SunRisingFilled, SunRisingFilledLoop, SunRisingLoop, SunRisingTwotone, SunRisingTwotoneLoop, SunTwotone };
 
 export const variants = [
   {
@@ -39,11 +45,45 @@ export const variants = [
     componentName: "SunOutline",
   },
   {
+    variant: "linear",
+    slug: "sun-rising",
+    Component: SunRising,
+    componentName: "SunRising",
+  },
+  {
+    variant: "filled",
+    slug: "sun-rising-filled",
+    Component: SunRisingFilled,
+    componentName: "SunRisingFilled",
+  },
+  {
+    variant: "filled",
+    slug: "sun-rising-filled-loop",
+    Component: SunRisingFilledLoop,
+    componentName: "SunRisingFilledLoop",
+  },
+  {
+    variant: "linear",
+    slug: "sun-rising-loop",
+    Component: SunRisingLoop,
+    componentName: "SunRisingLoop",
+  },
+  {
+    variant: "twotone",
+    slug: "sun-rising-twotone",
+    Component: SunRisingTwotone,
+    componentName: "SunRisingTwotone",
+  },
+  {
+    variant: "twotone",
+    slug: "sun-rising-twotone-loop",
+    Component: SunRisingTwotoneLoop,
+    componentName: "SunRisingTwotoneLoop",
+  },
+  {
     variant: "twotone",
     slug: "sun-twotone",
     Component: SunTwotone,
     componentName: "SunTwotone",
-  }
+  },
 ];
-
-export default { SunBold, SunBroken, SunBulk, SunLinear, SunOutline, SunTwotone };

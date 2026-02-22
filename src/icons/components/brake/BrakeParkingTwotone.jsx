@@ -1,0 +1,38 @@
+import Icon from "../../Icon";
+
+export default function BrakeParkingTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8" fill="currentColor" fill-opacity="0" stroke-dasharray="54">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="54;0" />
+			<animate attributeName="fill-opacity" begin="1.8s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<g fill="none">
+			<g stroke-dasharray="20">
+				<path d="M4.22 4.22c-4.29 4.3 -4.29 11.26 0 15.56" stroke-dashoffset="20">
+					<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" fill="freeze" to="0" />
+				</path>
+				<path d="M19.78 4.22c4.29 4.3 4.29 11.26 0 15.56" stroke-dashoffset="20">
+					<animate attributeName="stroke-dashoffset" begin="1s" dur="0.3s" fill="freeze" to="0" />
+				</path>
+			</g>
+			<path d="M10.5 16v-8h3c0.55 0 1 0.45 1 1v2c0 0.55 -0.45 1 -1 1h-3" stroke-dasharray="22" stroke-dashoffset="22">
+				<animate attributeName="stroke-dashoffset" begin="1.3s" dur="0.5s" fill="freeze" to="0" />
+			</path>
+		</g>
+	</g>
+    </Icon>
+  );
+}

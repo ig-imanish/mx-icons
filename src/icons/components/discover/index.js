@@ -43,7 +43,5 @@ export const variants = [
     slug: "discover-twotone",
     Component: DiscoverTwotone,
     componentName: "DiscoverTwotone",
-  }
+  },
 ];
-
-export default { DiscoverBold, DiscoverBroken, DiscoverBulk, DiscoverLinear, DiscoverOutline, DiscoverTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "search-status-twotone",
     Component: SearchStatusTwotone,
     componentName: "SearchStatusTwotone",
-  }
+  },
 ];
-
-export default { SearchStatusBold, SearchStatusBroken, SearchStatusBulk, SearchStatusLinear, SearchStatusOutline, SearchStatusTwotone };

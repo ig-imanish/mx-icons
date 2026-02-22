@@ -43,7 +43,5 @@ export const variants = [
     slug: "lock-slash-twotone",
     Component: LockSlashTwotone,
     componentName: "LockSlashTwotone",
-  }
+  },
 ];
-
-export default { LockSlashBold, LockSlashBroken, LockSlashBulk, LockSlashLinear, LockSlashOutline, LockSlashTwotone };

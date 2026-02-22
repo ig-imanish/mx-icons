@@ -10,40 +10,38 @@ export { Building3Bold, Building3Broken, Building3Bulk, Building3Linear, Buildin
 export const variants = [
   {
     variant: "bold",
-    slug: "building-3-bold",
+    slug: "building3-bold",
     Component: Building3Bold,
     componentName: "Building3Bold",
   },
   {
     variant: "broken",
-    slug: "building-3-broken",
+    slug: "building3-broken",
     Component: Building3Broken,
     componentName: "Building3Broken",
   },
   {
     variant: "bulk",
-    slug: "building-3-bulk",
+    slug: "building3-bulk",
     Component: Building3Bulk,
     componentName: "Building3Bulk",
   },
   {
     variant: "linear",
-    slug: "building-3-linear",
+    slug: "building3-linear",
     Component: Building3Linear,
     componentName: "Building3Linear",
   },
   {
     variant: "outline",
-    slug: "building-3-outline",
+    slug: "building3-outline",
     Component: Building3Outline,
     componentName: "Building3Outline",
   },
   {
     variant: "twotone",
-    slug: "building-3-twotone",
+    slug: "building3-twotone",
     Component: Building3Twotone,
     componentName: "Building3Twotone",
-  }
+  },
 ];
-
-export default { Building3Bold, Building3Broken, Building3Bulk, Building3Linear, Building3Outline, Building3Twotone };

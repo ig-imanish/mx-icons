@@ -10,40 +10,38 @@ export { Ram2Bold, Ram2Broken, Ram2Bulk, Ram2Linear, Ram2Outline, Ram2Twotone };
 export const variants = [
   {
     variant: "bold",
-    slug: "ram-2-bold",
+    slug: "ram2-bold",
     Component: Ram2Bold,
     componentName: "Ram2Bold",
   },
   {
     variant: "broken",
-    slug: "ram-2-broken",
+    slug: "ram2-broken",
     Component: Ram2Broken,
     componentName: "Ram2Broken",
   },
   {
     variant: "bulk",
-    slug: "ram-2-bulk",
+    slug: "ram2-bulk",
     Component: Ram2Bulk,
     componentName: "Ram2Bulk",
   },
   {
     variant: "linear",
-    slug: "ram-2-linear",
+    slug: "ram2-linear",
     Component: Ram2Linear,
     componentName: "Ram2Linear",
   },
   {
     variant: "outline",
-    slug: "ram-2-outline",
+    slug: "ram2-outline",
     Component: Ram2Outline,
     componentName: "Ram2Outline",
   },
   {
     variant: "twotone",
-    slug: "ram-2-twotone",
+    slug: "ram2-twotone",
     Component: Ram2Twotone,
     componentName: "Ram2Twotone",
-  }
+  },
 ];
-
-export default { Ram2Bold, Ram2Broken, Ram2Bulk, Ram2Linear, Ram2Outline, Ram2Twotone };

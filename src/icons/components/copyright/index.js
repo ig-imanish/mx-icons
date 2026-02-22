@@ -43,7 +43,5 @@ export const variants = [
     slug: "copyright-twotone",
     Component: CopyrightTwotone,
     componentName: "CopyrightTwotone",
-  }
+  },
 ];
-
-export default { CopyrightBold, CopyrightBroken, CopyrightBulk, CopyrightLinear, CopyrightOutline, CopyrightTwotone };

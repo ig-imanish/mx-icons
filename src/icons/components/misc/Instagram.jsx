@@ -1,0 +1,30 @@
+import Icon from "../../Icon";
+
+export default function Instagram({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z" stroke-dasharray="66">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="66;0" />
+		</path>
+		<path d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4" stroke-dasharray="28" stroke-dashoffset="28">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s" fill="freeze" to="0" />
+		</path>
+	</g>
+	<circle cx="17" cy="7" r="1.5" fill="currentColor" opacity="0">
+		<animate attributeName="opacity" begin="1.3s" dur="0.2s" fill="freeze" to="1" />
+	</circle>
+    </Icon>
+  );
+}

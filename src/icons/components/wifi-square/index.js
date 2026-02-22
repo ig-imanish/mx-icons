@@ -43,7 +43,5 @@ export const variants = [
     slug: "wifi-square-twotone",
     Component: WifiSquareTwotone,
     componentName: "WifiSquareTwotone",
-  }
+  },
 ];
-
-export default { WifiSquareBold, WifiSquareBroken, WifiSquareBulk, WifiSquareLinear, WifiSquareOutline, WifiSquareTwotone };

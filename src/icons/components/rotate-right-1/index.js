@@ -10,40 +10,38 @@ export { RotateRight1Bold, RotateRight1Broken, RotateRight1Bulk, RotateRight1Lin
 export const variants = [
   {
     variant: "bold",
-    slug: "rotate-right-1-bold",
+    slug: "rotate-right1-bold",
     Component: RotateRight1Bold,
     componentName: "RotateRight1Bold",
   },
   {
     variant: "broken",
-    slug: "rotate-right-1-broken",
+    slug: "rotate-right1-broken",
     Component: RotateRight1Broken,
     componentName: "RotateRight1Broken",
   },
   {
     variant: "bulk",
-    slug: "rotate-right-1-bulk",
+    slug: "rotate-right1-bulk",
     Component: RotateRight1Bulk,
     componentName: "RotateRight1Bulk",
   },
   {
     variant: "linear",
-    slug: "rotate-right-1-linear",
+    slug: "rotate-right1-linear",
     Component: RotateRight1Linear,
     componentName: "RotateRight1Linear",
   },
   {
     variant: "outline",
-    slug: "rotate-right-1-outline",
+    slug: "rotate-right1-outline",
     Component: RotateRight1Outline,
     componentName: "RotateRight1Outline",
   },
   {
     variant: "twotone",
-    slug: "rotate-right-1-twotone",
+    slug: "rotate-right1-twotone",
     Component: RotateRight1Twotone,
     componentName: "RotateRight1Twotone",
-  }
+  },
 ];
-
-export default { RotateRight1Bold, RotateRight1Broken, RotateRight1Bulk, RotateRight1Linear, RotateRight1Outline, RotateRight1Twotone };

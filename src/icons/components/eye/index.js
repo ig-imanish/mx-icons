@@ -36,7 +36,5 @@ export const variants = [
     slug: "eye-twotone",
     Component: EyeTwotone,
     componentName: "EyeTwotone",
-  }
+  },
 ];
-
-export default { EyeBold, EyeBroken, EyeLinear, EyeOutline, EyeTwotone };

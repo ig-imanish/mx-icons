@@ -43,7 +43,5 @@ export const variants = [
     slug: "battery-disable-twotone",
     Component: BatteryDisableTwotone,
     componentName: "BatteryDisableTwotone",
-  }
+  },
 ];
-
-export default { BatteryDisableBold, BatteryDisableBroken, BatteryDisableBulk, BatteryDisableLinear, BatteryDisableOutline, BatteryDisableTwotone };

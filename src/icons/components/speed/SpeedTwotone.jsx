@@ -1,0 +1,39 @@
+import Icon from "../../Icon";
+
+export default function SpeedTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGo6x1Yd0V">
+			<path d="M5 19v0c-0.3 0 -0.59 -0.15 -0.74 -0.41c-0.8 -1.34 -1.26 -2.91 -1.26 -4.59c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 1.68 -0.46 3.25 -1.26 4.59c-0.15 0.26 -0.44 0.41 -0.74 0.41Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="56">
+				<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="56;0" />
+				<animate attributeName="fill-opacity" begin="1.1s" dur="0.15s" fill="freeze" to="0.3" />
+			</path>
+			<path d="M12 14c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0Z" fill="currentColor" transform="rotate(-100 12 14)">
+				<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" to="M16 14c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 4 -14 4 -14c0 0 4 11.79 4 14Z" />
+				<animateTransform attributeName="transform" type="rotate" begin="0.8s" dur="0.3s" fill="freeze" values="-100 12 14;45 12 14" />
+			</path>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGo6x1Yd0V)" />
+		<path d="M14 14c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -10 2 -10c0 0 2 8.9 2 10Z" transform="rotate(-100 12 14)" opacity="0">
+			<set attributeName="opacity" to="1" begin="0.6s" fill="freeze" />
+			<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" values="M12 14c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0Z;M14 14c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2c0 -1.1 2 -10 2 -10c0 0 2 8.9 2 10Z" />
+			<animateTransform attributeName="transform" type="rotate" begin="0.8s" dur="0.3s" fill="freeze" values="-100 12 14;45 12 14" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

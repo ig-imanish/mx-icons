@@ -10,40 +10,38 @@ export { Setting3Bold, Setting3Broken, Setting3Bulk, Setting3Linear, Setting3Out
 export const variants = [
   {
     variant: "bold",
-    slug: "setting-3-bold",
+    slug: "setting3-bold",
     Component: Setting3Bold,
     componentName: "Setting3Bold",
   },
   {
     variant: "broken",
-    slug: "setting-3-broken",
+    slug: "setting3-broken",
     Component: Setting3Broken,
     componentName: "Setting3Broken",
   },
   {
     variant: "bulk",
-    slug: "setting-3-bulk",
+    slug: "setting3-bulk",
     Component: Setting3Bulk,
     componentName: "Setting3Bulk",
   },
   {
     variant: "linear",
-    slug: "setting-3-linear",
+    slug: "setting3-linear",
     Component: Setting3Linear,
     componentName: "Setting3Linear",
   },
   {
     variant: "outline",
-    slug: "setting-3-outline",
+    slug: "setting3-outline",
     Component: Setting3Outline,
     componentName: "Setting3Outline",
   },
   {
     variant: "twotone",
-    slug: "setting-3-twotone",
+    slug: "setting3-twotone",
     Component: Setting3Twotone,
     componentName: "Setting3Twotone",
-  }
+  },
 ];
-
-export default { Setting3Bold, Setting3Broken, Setting3Bulk, Setting3Linear, Setting3Outline, Setting3Twotone };

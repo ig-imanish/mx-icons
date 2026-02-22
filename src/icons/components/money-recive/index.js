@@ -43,7 +43,5 @@ export const variants = [
     slug: "money-recive-twotone",
     Component: MoneyReciveTwotone,
     componentName: "MoneyReciveTwotone",
-  }
+  },
 ];
-
-export default { MoneyReciveBold, MoneyReciveBroken, MoneyReciveBulk, MoneyReciveLinear, MoneyReciveOutline, MoneyReciveTwotone };

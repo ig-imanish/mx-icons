@@ -43,7 +43,5 @@ export const variants = [
     slug: "language-circle-twotone",
     Component: LanguageCircleTwotone,
     componentName: "LanguageCircleTwotone",
-  }
+  },
 ];
-
-export default { LanguageCircleBold, LanguageCircleBroken, LanguageCircleBulk, LanguageCircleLinear, LanguageCircleOutline, LanguageCircleTwotone };

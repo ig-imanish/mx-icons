@@ -9,34 +9,32 @@ export { Forbidden2Bold, Forbidden2Broken, Forbidden2Bulk, Forbidden2Outline, Fo
 export const variants = [
   {
     variant: "bold",
-    slug: "forbidden-2-bold",
+    slug: "forbidden2-bold",
     Component: Forbidden2Bold,
     componentName: "Forbidden2Bold",
   },
   {
     variant: "broken",
-    slug: "forbidden-2-broken",
+    slug: "forbidden2-broken",
     Component: Forbidden2Broken,
     componentName: "Forbidden2Broken",
   },
   {
     variant: "bulk",
-    slug: "forbidden-2-bulk",
+    slug: "forbidden2-bulk",
     Component: Forbidden2Bulk,
     componentName: "Forbidden2Bulk",
   },
   {
     variant: "outline",
-    slug: "forbidden-2-outline",
+    slug: "forbidden2-outline",
     Component: Forbidden2Outline,
     componentName: "Forbidden2Outline",
   },
   {
     variant: "twotone",
-    slug: "forbidden-2-twotone",
+    slug: "forbidden2-twotone",
     Component: Forbidden2Twotone,
     componentName: "Forbidden2Twotone",
-  }
+  },
 ];
-
-export default { Forbidden2Bold, Forbidden2Broken, Forbidden2Bulk, Forbidden2Outline, Forbidden2Twotone };

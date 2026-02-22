@@ -43,7 +43,5 @@ export const variants = [
     slug: "logout-twotone",
     Component: LogoutTwotone,
     componentName: "LogoutTwotone",
-  }
+  },
 ];
-
-export default { LogoutBold, LogoutBroken, LogoutBulk, LogoutLinear, LogoutOutline, LogoutTwotone };

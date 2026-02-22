@@ -10,40 +10,38 @@ export { Arrow3Bold, Arrow3Broken, Arrow3Bulk, Arrow3Linear, Arrow3Outline, Arro
 export const variants = [
   {
     variant: "bold",
-    slug: "arrow-3-bold",
+    slug: "arrow3-bold",
     Component: Arrow3Bold,
     componentName: "Arrow3Bold",
   },
   {
     variant: "broken",
-    slug: "arrow-3-broken",
+    slug: "arrow3-broken",
     Component: Arrow3Broken,
     componentName: "Arrow3Broken",
   },
   {
     variant: "bulk",
-    slug: "arrow-3-bulk",
+    slug: "arrow3-bulk",
     Component: Arrow3Bulk,
     componentName: "Arrow3Bulk",
   },
   {
     variant: "linear",
-    slug: "arrow-3-linear",
+    slug: "arrow3-linear",
     Component: Arrow3Linear,
     componentName: "Arrow3Linear",
   },
   {
     variant: "outline",
-    slug: "arrow-3-outline",
+    slug: "arrow3-outline",
     Component: Arrow3Outline,
     componentName: "Arrow3Outline",
   },
   {
     variant: "twotone",
-    slug: "arrow-3-twotone",
+    slug: "arrow3-twotone",
     Component: Arrow3Twotone,
     componentName: "Arrow3Twotone",
-  }
+  },
 ];
-
-export default { Arrow3Bold, Arrow3Broken, Arrow3Bulk, Arrow3Linear, Arrow3Outline, Arrow3Twotone };

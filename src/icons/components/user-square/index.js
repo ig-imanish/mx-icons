@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-square-twotone",
     Component: UserSquareTwotone,
     componentName: "UserSquareTwotone",
-  }
+  },
 ];
-
-export default { UserSquareBold, UserSquareBroken, UserSquareBulk, UserSquareLinear, UserSquareOutline, UserSquareTwotone };

@@ -10,40 +10,38 @@ export { Setting5Bold, Setting5Broken, Setting5Bulk, Setting5Linear, Setting5Out
 export const variants = [
   {
     variant: "bold",
-    slug: "setting-5-bold",
+    slug: "setting5-bold",
     Component: Setting5Bold,
     componentName: "Setting5Bold",
   },
   {
     variant: "broken",
-    slug: "setting-5-broken",
+    slug: "setting5-broken",
     Component: Setting5Broken,
     componentName: "Setting5Broken",
   },
   {
     variant: "bulk",
-    slug: "setting-5-bulk",
+    slug: "setting5-bulk",
     Component: Setting5Bulk,
     componentName: "Setting5Bulk",
   },
   {
     variant: "linear",
-    slug: "setting-5-linear",
+    slug: "setting5-linear",
     Component: Setting5Linear,
     componentName: "Setting5Linear",
   },
   {
     variant: "outline",
-    slug: "setting-5-outline",
+    slug: "setting5-outline",
     Component: Setting5Outline,
     componentName: "Setting5Outline",
   },
   {
     variant: "twotone",
-    slug: "setting-5-twotone",
+    slug: "setting5-twotone",
     Component: Setting5Twotone,
     componentName: "Setting5Twotone",
-  }
+  },
 ];
-
-export default { Setting5Bold, Setting5Broken, Setting5Bulk, Setting5Linear, Setting5Outline, Setting5Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "shopping-bag-twotone",
     Component: ShoppingBagTwotone,
     componentName: "ShoppingBagTwotone",
-  }
+  },
 ];
-
-export default { ShoppingBagBold, ShoppingBagBroken, ShoppingBagBulk, ShoppingBagLinear, ShoppingBagOutline, ShoppingBagTwotone };

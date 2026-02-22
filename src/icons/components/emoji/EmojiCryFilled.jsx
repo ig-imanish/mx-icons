@@ -1,0 +1,49 @@
+import Icon from "../../Icon";
+
+export default function EmojiCryFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGVL6nBe5C">
+			<g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9" stroke="currentColor" fill="currentColor" stroke-dasharray="60" fill-opacity="0">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+					<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+				</path>
+				<g fill="none" stroke="currentColor">
+					<g stroke-dasharray="4">
+						<path d="M9 9v1" stroke-dashoffset="4">
+							<animate attributeName="stroke-dashoffset" begin="1.1s" dur="0.2s" fill="freeze" to="0" />
+						</path>
+						<path d="M15 9v1" stroke-dashoffset="4">
+							<animate attributeName="stroke-dashoffset" begin="1.3s" dur="0.2s" fill="freeze" to="0" />
+						</path>
+					</g>
+					<path d="M8 16c0.5 -1 1.79 -2 4 -2c2.21 0 3.5 1 4 2" stroke-dasharray="12" stroke-dashoffset="12">
+						<animate attributeName="stroke-dashoffset" begin="1.6s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+				</g>
+			</g>
+			<path d="M9.55 12c1.19 1.88 2.45 4.18 2.45 5.5c0 2.5 -2 4.5 -4.5 4.5c-2.5 0 -4.5 -2 -4.5 -4.5c0 -1.32 1.26 -3.62 2.45 -5.5Z" fill="currentColor" opacity="0">
+				<animate attributeName="opacity" begin="1.3s" dur="0.2s" fill="freeze" to="1" />
+			</path>
+			<path d="M7.5 13c0 0 2.5 3.12 2.5 4.5c0 1.38 -1.12 2.5 -2.5 2.5c-1.38 0 -2.5 -1.12 -2.5 -2.5c0 -1.38 2.5 -4.5 2.5 -4.5Z" fill="currentColor" opacity="0">
+				<animate attributeName="opacity" begin="1.3s" dur="0.2s" fill="freeze" to="1" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGVL6nBe5C)" />
+    </Icon>
+  );
+}

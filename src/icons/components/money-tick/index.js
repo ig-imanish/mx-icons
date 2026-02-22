@@ -43,7 +43,5 @@ export const variants = [
     slug: "money-tick-twotone",
     Component: MoneyTickTwotone,
     componentName: "MoneyTickTwotone",
-  }
+  },
 ];
-
-export default { MoneyTickBold, MoneyTickBroken, MoneyTickBulk, MoneyTickLinear, MoneyTickOutline, MoneyTickTwotone };

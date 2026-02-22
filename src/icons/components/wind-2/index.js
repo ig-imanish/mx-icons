@@ -10,40 +10,38 @@ export { Wind2Bold, Wind2Broken, Wind2Bulk, Wind2Linear, Wind2Outline, Wind2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "wind-2-bold",
+    slug: "wind2-bold",
     Component: Wind2Bold,
     componentName: "Wind2Bold",
   },
   {
     variant: "broken",
-    slug: "wind-2-broken",
+    slug: "wind2-broken",
     Component: Wind2Broken,
     componentName: "Wind2Broken",
   },
   {
     variant: "bulk",
-    slug: "wind-2-bulk",
+    slug: "wind2-bulk",
     Component: Wind2Bulk,
     componentName: "Wind2Bulk",
   },
   {
     variant: "linear",
-    slug: "wind-2-linear",
+    slug: "wind2-linear",
     Component: Wind2Linear,
     componentName: "Wind2Linear",
   },
   {
     variant: "outline",
-    slug: "wind-2-outline",
+    slug: "wind2-outline",
     Component: Wind2Outline,
     componentName: "Wind2Outline",
   },
   {
     variant: "twotone",
-    slug: "wind-2-twotone",
+    slug: "wind2-twotone",
     Component: Wind2Twotone,
     componentName: "Wind2Twotone",
-  }
+  },
 ];
-
-export default { Wind2Bold, Wind2Broken, Wind2Bulk, Wind2Linear, Wind2Outline, Wind2Twotone };

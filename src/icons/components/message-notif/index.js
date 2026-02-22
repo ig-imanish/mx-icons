@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-notif-twotone",
     Component: MessageNotifTwotone,
     componentName: "MessageNotifTwotone",
-  }
+  },
 ];
-
-export default { MessageNotifBold, MessageNotifBroken, MessageNotifBulk, MessageNotifLinear, MessageNotifOutline, MessageNotifTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "align-bottom-twotone",
     Component: AlignBottomTwotone,
     componentName: "AlignBottomTwotone",
-  }
+  },
 ];
-
-export default { AlignBottomBold, AlignBottomBroken, AlignBottomBulk, AlignBottomLinear, AlignBottomOutline, AlignBottomTwotone };

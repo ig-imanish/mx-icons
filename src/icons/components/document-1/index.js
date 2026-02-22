@@ -10,40 +10,38 @@ export { Document1Bold, Document1Broken, Document1Bulk, Document1Linear, Documen
 export const variants = [
   {
     variant: "bold",
-    slug: "document-1-bold",
+    slug: "document1-bold",
     Component: Document1Bold,
     componentName: "Document1Bold",
   },
   {
     variant: "broken",
-    slug: "document-1-broken",
+    slug: "document1-broken",
     Component: Document1Broken,
     componentName: "Document1Broken",
   },
   {
     variant: "bulk",
-    slug: "document-1-bulk",
+    slug: "document1-bulk",
     Component: Document1Bulk,
     componentName: "Document1Bulk",
   },
   {
     variant: "linear",
-    slug: "document-1-linear",
+    slug: "document1-linear",
     Component: Document1Linear,
     componentName: "Document1Linear",
   },
   {
     variant: "outline",
-    slug: "document-1-outline",
+    slug: "document1-outline",
     Component: Document1Outline,
     componentName: "Document1Outline",
   },
   {
     variant: "twotone",
-    slug: "document-1-twotone",
+    slug: "document1-twotone",
     Component: Document1Twotone,
     componentName: "Document1Twotone",
-  }
+  },
 ];
-
-export default { Document1Bold, Document1Broken, Document1Bulk, Document1Linear, Document1Outline, Document1Twotone };

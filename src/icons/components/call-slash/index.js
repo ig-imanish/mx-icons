@@ -43,7 +43,5 @@ export const variants = [
     slug: "call-slash-twotone",
     Component: CallSlashTwotone,
     componentName: "CallSlashTwotone",
-  }
+  },
 ];
-
-export default { CallSlashBold, CallSlashBroken, CallSlashBulk, CallSlashLinear, CallSlashOutline, CallSlashTwotone };

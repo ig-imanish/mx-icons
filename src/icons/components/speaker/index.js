@@ -43,7 +43,5 @@ export const variants = [
     slug: "speaker-twotone",
     Component: SpeakerTwotone,
     componentName: "SpeakerTwotone",
-  }
+  },
 ];
-
-export default { SpeakerBold, SpeakerBroken, SpeakerBulk, SpeakerLinear, SpeakerOutline, SpeakerTwotone };

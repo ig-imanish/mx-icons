@@ -43,7 +43,5 @@ export const variants = [
     slug: "finger-scan-twotone",
     Component: FingerScanTwotone,
     componentName: "FingerScanTwotone",
-  }
+  },
 ];
-
-export default { FingerScanBold, FingerScanBroken, FingerScanBulk, FingerScanLinear, FingerScanOutline, FingerScanTwotone };

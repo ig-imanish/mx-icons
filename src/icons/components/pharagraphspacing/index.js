@@ -43,7 +43,5 @@ export const variants = [
     slug: "pharagraphspacing-twotone",
     Component: PharagraphspacingTwotone,
     componentName: "PharagraphspacingTwotone",
-  }
+  },
 ];
-
-export default { PharagraphspacingBold, PharagraphspacingBroken, PharagraphspacingBulk, PharagraphspacingLinear, PharagraphspacingOutline, PharagraphspacingTwotone };

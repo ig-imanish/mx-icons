@@ -10,40 +10,38 @@ export { Paperclip2Bold, Paperclip2Broken, Paperclip2Bulk, Paperclip2Linear, Pap
 export const variants = [
   {
     variant: "bold",
-    slug: "paperclip-2-bold",
+    slug: "paperclip2-bold",
     Component: Paperclip2Bold,
     componentName: "Paperclip2Bold",
   },
   {
     variant: "broken",
-    slug: "paperclip-2-broken",
+    slug: "paperclip2-broken",
     Component: Paperclip2Broken,
     componentName: "Paperclip2Broken",
   },
   {
     variant: "bulk",
-    slug: "paperclip-2-bulk",
+    slug: "paperclip2-bulk",
     Component: Paperclip2Bulk,
     componentName: "Paperclip2Bulk",
   },
   {
     variant: "linear",
-    slug: "paperclip-2-linear",
+    slug: "paperclip2-linear",
     Component: Paperclip2Linear,
     componentName: "Paperclip2Linear",
   },
   {
     variant: "outline",
-    slug: "paperclip-2-outline",
+    slug: "paperclip2-outline",
     Component: Paperclip2Outline,
     componentName: "Paperclip2Outline",
   },
   {
     variant: "twotone",
-    slug: "paperclip-2-twotone",
+    slug: "paperclip2-twotone",
     Component: Paperclip2Twotone,
     componentName: "Paperclip2Twotone",
-  }
+  },
 ];
-
-export default { Paperclip2Bold, Paperclip2Broken, Paperclip2Bulk, Paperclip2Linear, Paperclip2Outline, Paperclip2Twotone };

@@ -10,40 +10,38 @@ export { Calendar2Bold, Calendar2Broken, Calendar2Bulk, Calendar2Linear, Calenda
 export const variants = [
   {
     variant: "bold",
-    slug: "calendar-2-bold",
+    slug: "calendar2-bold",
     Component: Calendar2Bold,
     componentName: "Calendar2Bold",
   },
   {
     variant: "broken",
-    slug: "calendar-2-broken",
+    slug: "calendar2-broken",
     Component: Calendar2Broken,
     componentName: "Calendar2Broken",
   },
   {
     variant: "bulk",
-    slug: "calendar-2-bulk",
+    slug: "calendar2-bulk",
     Component: Calendar2Bulk,
     componentName: "Calendar2Bulk",
   },
   {
     variant: "linear",
-    slug: "calendar-2-linear",
+    slug: "calendar2-linear",
     Component: Calendar2Linear,
     componentName: "Calendar2Linear",
   },
   {
     variant: "outline",
-    slug: "calendar-2-outline",
+    slug: "calendar2-outline",
     Component: Calendar2Outline,
     componentName: "Calendar2Outline",
   },
   {
     variant: "twotone",
-    slug: "calendar-2-twotone",
+    slug: "calendar2-twotone",
     Component: Calendar2Twotone,
     componentName: "Calendar2Twotone",
-  }
+  },
 ];
-
-export default { Calendar2Bold, Calendar2Broken, Calendar2Bulk, Calendar2Linear, Calendar2Outline, Calendar2Twotone };

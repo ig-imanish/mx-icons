@@ -10,40 +10,38 @@ export { ArrowUp3Bold, ArrowUp3Broken, ArrowUp3Bulk, ArrowUp3Linear, ArrowUp3Out
 export const variants = [
   {
     variant: "bold",
-    slug: "arrow-up-3-bold",
+    slug: "arrow-up3-bold",
     Component: ArrowUp3Bold,
     componentName: "ArrowUp3Bold",
   },
   {
     variant: "broken",
-    slug: "arrow-up-3-broken",
+    slug: "arrow-up3-broken",
     Component: ArrowUp3Broken,
     componentName: "ArrowUp3Broken",
   },
   {
     variant: "bulk",
-    slug: "arrow-up-3-bulk",
+    slug: "arrow-up3-bulk",
     Component: ArrowUp3Bulk,
     componentName: "ArrowUp3Bulk",
   },
   {
     variant: "linear",
-    slug: "arrow-up-3-linear",
+    slug: "arrow-up3-linear",
     Component: ArrowUp3Linear,
     componentName: "ArrowUp3Linear",
   },
   {
     variant: "outline",
-    slug: "arrow-up-3-outline",
+    slug: "arrow-up3-outline",
     Component: ArrowUp3Outline,
     componentName: "ArrowUp3Outline",
   },
   {
     variant: "twotone",
-    slug: "arrow-up-3-twotone",
+    slug: "arrow-up3-twotone",
     Component: ArrowUp3Twotone,
     componentName: "ArrowUp3Twotone",
-  }
+  },
 ];
-
-export default { ArrowUp3Bold, ArrowUp3Broken, ArrowUp3Bulk, ArrowUp3Linear, ArrowUp3Outline, ArrowUp3Twotone };

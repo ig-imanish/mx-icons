@@ -43,7 +43,5 @@ export const variants = [
     slug: "add-twotone",
     Component: AddTwotone,
     componentName: "AddTwotone",
-  }
+  },
 ];
-
-export default { AddBold, AddBroken, AddBulk, AddLinear, AddOutline, AddTwotone };

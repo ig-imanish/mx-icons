@@ -10,40 +10,38 @@ export { Bluetooth2Bold, Bluetooth2Broken, Bluetooth2Bulk, Bluetooth2Linear, Blu
 export const variants = [
   {
     variant: "bold",
-    slug: "bluetooth-2-bold",
+    slug: "bluetooth2-bold",
     Component: Bluetooth2Bold,
     componentName: "Bluetooth2Bold",
   },
   {
     variant: "broken",
-    slug: "bluetooth-2-broken",
+    slug: "bluetooth2-broken",
     Component: Bluetooth2Broken,
     componentName: "Bluetooth2Broken",
   },
   {
     variant: "bulk",
-    slug: "bluetooth-2-bulk",
+    slug: "bluetooth2-bulk",
     Component: Bluetooth2Bulk,
     componentName: "Bluetooth2Bulk",
   },
   {
     variant: "linear",
-    slug: "bluetooth-2-linear",
+    slug: "bluetooth2-linear",
     Component: Bluetooth2Linear,
     componentName: "Bluetooth2Linear",
   },
   {
     variant: "outline",
-    slug: "bluetooth-2-outline",
+    slug: "bluetooth2-outline",
     Component: Bluetooth2Outline,
     componentName: "Bluetooth2Outline",
   },
   {
     variant: "twotone",
-    slug: "bluetooth-2-twotone",
+    slug: "bluetooth2-twotone",
     Component: Bluetooth2Twotone,
     componentName: "Bluetooth2Twotone",
-  }
+  },
 ];
-
-export default { Bluetooth2Bold, Bluetooth2Broken, Bluetooth2Bulk, Bluetooth2Linear, Bluetooth2Outline, Bluetooth2Twotone };

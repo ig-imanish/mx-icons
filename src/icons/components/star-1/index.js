@@ -10,40 +10,38 @@ export { Star1Bold, Star1Broken, Star1Bulk, Star1Linear, Star1Outline, Star1Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "star-1-bold",
+    slug: "star1-bold",
     Component: Star1Bold,
     componentName: "Star1Bold",
   },
   {
     variant: "broken",
-    slug: "star-1-broken",
+    slug: "star1-broken",
     Component: Star1Broken,
     componentName: "Star1Broken",
   },
   {
     variant: "bulk",
-    slug: "star-1-bulk",
+    slug: "star1-bulk",
     Component: Star1Bulk,
     componentName: "Star1Bulk",
   },
   {
     variant: "linear",
-    slug: "star-1-linear",
+    slug: "star1-linear",
     Component: Star1Linear,
     componentName: "Star1Linear",
   },
   {
     variant: "outline",
-    slug: "star-1-outline",
+    slug: "star1-outline",
     Component: Star1Outline,
     componentName: "Star1Outline",
   },
   {
     variant: "twotone",
-    slug: "star-1-twotone",
+    slug: "star1-twotone",
     Component: Star1Twotone,
     componentName: "Star1Twotone",
-  }
+  },
 ];
-
-export default { Star1Bold, Star1Broken, Star1Bulk, Star1Linear, Star1Outline, Star1Twotone };

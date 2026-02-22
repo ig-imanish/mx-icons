@@ -10,40 +10,38 @@ export { Profile2uUserBold, Profile2uUserBroken, Profile2uUserBulk, Profile2uUse
 export const variants = [
   {
     variant: "bold",
-    slug: "profile-2user-bold",
+    slug: "profile2u-user-bold",
     Component: Profile2uUserBold,
     componentName: "Profile2uUserBold",
   },
   {
     variant: "broken",
-    slug: "profile-2user-broken",
+    slug: "profile2u-user-broken",
     Component: Profile2uUserBroken,
     componentName: "Profile2uUserBroken",
   },
   {
     variant: "bulk",
-    slug: "profile-2user-bulk",
+    slug: "profile2u-user-bulk",
     Component: Profile2uUserBulk,
     componentName: "Profile2uUserBulk",
   },
   {
     variant: "linear",
-    slug: "profile-2user-linear",
+    slug: "profile2u-user-linear",
     Component: Profile2uUserLinear,
     componentName: "Profile2uUserLinear",
   },
   {
     variant: "outline",
-    slug: "profile-2user-outline",
+    slug: "profile2u-user-outline",
     Component: Profile2uUserOutline,
     componentName: "Profile2uUserOutline",
   },
   {
     variant: "twotone",
-    slug: "profile-2user-twotone",
+    slug: "profile2u-user-twotone",
     Component: Profile2uUserTwotone,
     componentName: "Profile2uUserTwotone",
-  }
+  },
 ];
-
-export default { Profile2uUserBold, Profile2uUserBroken, Profile2uUserBulk, Profile2uUserLinear, Profile2uUserOutline, Profile2uUserTwotone };

@@ -10,40 +10,38 @@ export { Path2Bold, Path2Broken, Path2Bulk, Path2Linear, Path2Outline, Path2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "path-2-bold",
+    slug: "path2-bold",
     Component: Path2Bold,
     componentName: "Path2Bold",
   },
   {
     variant: "broken",
-    slug: "path-2-broken",
+    slug: "path2-broken",
     Component: Path2Broken,
     componentName: "Path2Broken",
   },
   {
     variant: "bulk",
-    slug: "path-2-bulk",
+    slug: "path2-bulk",
     Component: Path2Bulk,
     componentName: "Path2Bulk",
   },
   {
     variant: "linear",
-    slug: "path-2-linear",
+    slug: "path2-linear",
     Component: Path2Linear,
     componentName: "Path2Linear",
   },
   {
     variant: "outline",
-    slug: "path-2-outline",
+    slug: "path2-outline",
     Component: Path2Outline,
     componentName: "Path2Outline",
   },
   {
     variant: "twotone",
-    slug: "path-2-twotone",
+    slug: "path2-twotone",
     Component: Path2Twotone,
     componentName: "Path2Twotone",
-  }
+  },
 ];
-
-export default { Path2Bold, Path2Broken, Path2Bulk, Path2Linear, Path2Outline, Path2Twotone };

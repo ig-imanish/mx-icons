@@ -1,10 +1,10 @@
 import GoogleBold from "./GoogleBold";
+import GoogleBroken from "./GoogleBroken";
+import GoogleBulk from "./GoogleBulk";
 import GoogleLinear from "./GoogleLinear";
 import GoogleOutline from "./GoogleOutline";
-import GoogleBulk from "./GoogleBulk";
-import GoogleBroken from "./GoogleBroken";
 
-export { GoogleBold, GoogleLinear, GoogleOutline, GoogleBulk, GoogleBroken };
+export { GoogleBold, GoogleBroken, GoogleBulk, GoogleLinear, GoogleOutline };
 
 export const variants = [
   {
@@ -12,6 +12,18 @@ export const variants = [
     slug: "google-bold",
     Component: GoogleBold,
     componentName: "GoogleBold",
+  },
+  {
+    variant: "broken",
+    slug: "google-broken",
+    Component: GoogleBroken,
+    componentName: "GoogleBroken",
+  },
+  {
+    variant: "bulk",
+    slug: "google-bulk",
+    Component: GoogleBulk,
+    componentName: "GoogleBulk",
   },
   {
     variant: "linear",
@@ -25,24 +37,4 @@ export const variants = [
     Component: GoogleOutline,
     componentName: "GoogleOutline",
   },
-  {
-    variant: "bulk",
-    slug: "google-bulk",
-    Component: GoogleBulk,
-    componentName: "GoogleBulk",
-  },
-  {
-    variant: "broken",
-    slug: "google-broken",
-    Component: GoogleBroken,
-    componentName: "GoogleBroken",
-  },
 ];
-
-export default {
-  GoogleBold,
-  GoogleLinear,
-  GoogleOutline,
-  GoogleBulk,
-  GoogleBroken,
-};

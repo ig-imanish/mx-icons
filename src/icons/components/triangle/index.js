@@ -43,7 +43,5 @@ export const variants = [
     slug: "triangle-twotone",
     Component: TriangleTwotone,
     componentName: "TriangleTwotone",
-  }
+  },
 ];
-
-export default { TriangleBold, TriangleBroken, TriangleBulk, TriangleLinear, TriangleOutline, TriangleTwotone };

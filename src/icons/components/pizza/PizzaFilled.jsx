@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function PizzaFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGNQCx2dAZ">
+			<path d="M4 6.45c2.01 -2.12 4.85 -3.45 8 -3.45c3.15 0 5.99 1.33 8 3.45l-8 13.55Z" stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="52" fill-opacity="0">
+				<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="52;0" />
+				<animate attributeName="fill-opacity" begin="0.6s" dur="0.4s" fill="freeze" to="1" />
+			</path>
+			<g fill="currentColor">
+				<circle cx="9" cy="7">
+					<animate attributeName="r" begin="1.1s" dur="0.2s" fill="freeze" to="2" />
+				</circle>
+				<circle cx="12" cy="13">
+					<animate attributeName="r" begin="1.3s" dur="0.2s" fill="freeze" to="2" />
+				</circle>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGNQCx2dAZ)" />
+    </Icon>
+  );
+}

@@ -43,7 +43,5 @@ export const variants = [
     slug: "sort-twotone",
     Component: SortTwotone,
     componentName: "SortTwotone",
-  }
+  },
 ];
-
-export default { SortBold, SortBroken, SortBulk, SortLinear, SortOutline, SortTwotone };

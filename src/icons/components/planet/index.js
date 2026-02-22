@@ -1,21 +1,21 @@
-import PlanetLinear from "./PlanetLinear";
 import PlanetBold from "./PlanetBold";
+import PlanetLinear from "./PlanetLinear";
 import PlanetMini from "./PlanetMini";
 
-export { PlanetLinear, PlanetBold, PlanetMini };
+export { PlanetBold, PlanetLinear, PlanetMini };
 
 export const variants = [
-  {
-    variant: "linear",
-    slug: "planet-linear",
-    Component: PlanetLinear,
-    componentName: "PlanetLinear",
-  },
   {
     variant: "bold",
     slug: "planet-bold",
     Component: PlanetBold,
     componentName: "PlanetBold",
+  },
+  {
+    variant: "linear",
+    slug: "planet-linear",
+    Component: PlanetLinear,
+    componentName: "PlanetLinear",
   },
   {
     variant: "mini",
@@ -24,5 +24,3 @@ export const variants = [
     componentName: "PlanetMini",
   },
 ];
-
-export default { PlanetLinear, PlanetBold, PlanetMini };

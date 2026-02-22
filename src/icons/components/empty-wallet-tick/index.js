@@ -43,7 +43,5 @@ export const variants = [
     slug: "empty-wallet-tick-twotone",
     Component: EmptyWalletTickTwotone,
     componentName: "EmptyWalletTickTwotone",
-  }
+  },
 ];
-
-export default { EmptyWalletTickBold, EmptyWalletTickBroken, EmptyWalletTickBulk, EmptyWalletTickLinear, EmptyWalletTickOutline, EmptyWalletTickTwotone };

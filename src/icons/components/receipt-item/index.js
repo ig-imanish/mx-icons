@@ -43,7 +43,5 @@ export const variants = [
     slug: "receipt-item-twotone",
     Component: ReceiptItemTwotone,
     componentName: "ReceiptItemTwotone",
-  }
+  },
 ];
-
-export default { ReceiptItemBold, ReceiptItemBroken, ReceiptItemBulk, ReceiptItemLinear, ReceiptItemOutline, ReceiptItemTwotone };

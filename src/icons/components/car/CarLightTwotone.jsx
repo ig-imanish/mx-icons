@@ -1,0 +1,47 @@
+import Icon from "../../Icon";
+
+export default function CarLightTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVG3UdwJdEw">
+			<g stroke-linecap="round" stroke-linejoin="round">
+				<g fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8">
+					<path d="M11 6h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M11 10h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M11 14h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="1s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+					<path d="M11 18h-6" stroke-dashoffset="8">
+						<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.2s" fill="freeze" to="0" />
+					</path>
+				</g>
+				<path d="M21 12c0 -3.31 -3.5 -6.25 -8.25 -6.25c-0.5 0 -1.75 2.75 -1.75 6.25c0 3.5 1.25 6.25 1.75 6.25c4.75 0 8.25 -2.94 8.25 -6.25Z" stroke="currentColor" fill="currentColor" stroke-width="4" />
+			</g>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVG3UdwJdEw)" />
+		<path d="M21 12c0 -3.31 -3.5 -6.25 -8.25 -6.25c-0.5 0 -1.75 2.75 -1.75 6.25c0 3.5 1.25 6.25 1.75 6.25c4.75 0 8.25 -2.94 8.25 -6.25Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray="40">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="40;0" />
+			<animate attributeName="fill-opacity" begin="1.4s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

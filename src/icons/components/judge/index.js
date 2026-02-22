@@ -43,7 +43,5 @@ export const variants = [
     slug: "judge-twotone",
     Component: JudgeTwotone,
     componentName: "JudgeTwotone",
-  }
+  },
 ];
-
-export default { JudgeBold, JudgeBroken, JudgeBulk, JudgeLinear, JudgeOutline, JudgeTwotone };

@@ -1,0 +1,40 @@
+import Icon from "../../Icon";
+
+export default function MapMarkerAltOffTwotoneLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVG4MIYOb5Y">
+			<g fill="currentColor">
+				<path d="M12 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0">
+					<animate attributeName="d" dur="0.4s" fill="freeze" keyTimes="0;0.7;1" values="M12 20.5c0 0 -1 -1.5 -1 -2.5c0 -0.5 0.5 -1 1 -1c0.5 0 1 0.5 1 1c0 1 -1 2.5 -1 2.5Z;M12 20.5c0 0 -7 -7.5 -7 -12.5c0 -3.5 3 -7 7 -7c4 0 7 3.5 7 7c0 5 -7 12.5 -7 12.5Z;M12 20.5c0 0 -6 -7 -6 -11.5c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 4.5 -6 11.5 -6 11.5Z" />
+					<animateTransform attributeName="transform" type="rotate" dur="3s" repeatCount="indefinite" keyTimes="0;0.3;0.4;0.54;0.6;0.68;0.7;1" values="0 12 20.5;0 12 20.5;-8 12 20.5;0 12 20.5;5 12 20.5;-2 12 20.5;0 12 20.5;0 12 20.5" />
+					<animate attributeName="fill-opacity" begin="0.4s" dur="0.15s" fill="freeze" to="0.3" />
+				</path>
+				<circle cx="12" cy="9">
+					<animate attributeName="r" begin="0.65s" dur="0.2s" fill="freeze" to="2.5" />
+				</circle>
+			</g>
+			<path d="M-1 11h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+				<animate attributeName="stroke-dashoffset" begin="0.85s" dur="0.4s" fill="freeze" to="0" />
+			</path>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVG4MIYOb5Y)" />
+	<path d="M-1 13h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(45 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+		<animate attributeName="stroke-dashoffset" begin="0.85s" dur="0.4s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

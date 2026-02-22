@@ -43,7 +43,5 @@ export const variants = [
     slug: "trend-up-twotone",
     Component: TrendUpTwotone,
     componentName: "TrendUpTwotone",
-  }
+  },
 ];
-
-export default { TrendUpBold, TrendUpBroken, TrendUpBulk, TrendUpLinear, TrendUpOutline, TrendUpTwotone };

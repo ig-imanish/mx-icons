@@ -10,40 +10,38 @@ export { Brush2Bold, Brush2Broken, Brush2Bulk, Brush2Linear, Brush2Outline, Brus
 export const variants = [
   {
     variant: "bold",
-    slug: "brush-2-bold",
+    slug: "brush2-bold",
     Component: Brush2Bold,
     componentName: "Brush2Bold",
   },
   {
     variant: "broken",
-    slug: "brush-2-broken",
+    slug: "brush2-broken",
     Component: Brush2Broken,
     componentName: "Brush2Broken",
   },
   {
     variant: "bulk",
-    slug: "brush-2-bulk",
+    slug: "brush2-bulk",
     Component: Brush2Bulk,
     componentName: "Brush2Bulk",
   },
   {
     variant: "linear",
-    slug: "brush-2-linear",
+    slug: "brush2-linear",
     Component: Brush2Linear,
     componentName: "Brush2Linear",
   },
   {
     variant: "outline",
-    slug: "brush-2-outline",
+    slug: "brush2-outline",
     Component: Brush2Outline,
     componentName: "Brush2Outline",
   },
   {
     variant: "twotone",
-    slug: "brush-2-twotone",
+    slug: "brush2-twotone",
     Component: Brush2Twotone,
     componentName: "Brush2Twotone",
-  }
+  },
 ];
-
-export default { Brush2Bold, Brush2Broken, Brush2Bulk, Brush2Linear, Brush2Outline, Brush2Twotone };

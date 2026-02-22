@@ -10,40 +10,38 @@ export { SliderHorizontal1Bold, SliderHorizontal1Broken, SliderHorizontal1Bulk, 
 export const variants = [
   {
     variant: "bold",
-    slug: "slider-horizontal-1-bold",
+    slug: "slider-horizontal1-bold",
     Component: SliderHorizontal1Bold,
     componentName: "SliderHorizontal1Bold",
   },
   {
     variant: "broken",
-    slug: "slider-horizontal-1-broken",
+    slug: "slider-horizontal1-broken",
     Component: SliderHorizontal1Broken,
     componentName: "SliderHorizontal1Broken",
   },
   {
     variant: "bulk",
-    slug: "slider-horizontal-1-bulk",
+    slug: "slider-horizontal1-bulk",
     Component: SliderHorizontal1Bulk,
     componentName: "SliderHorizontal1Bulk",
   },
   {
     variant: "linear",
-    slug: "slider-horizontal-1-linear",
+    slug: "slider-horizontal1-linear",
     Component: SliderHorizontal1Linear,
     componentName: "SliderHorizontal1Linear",
   },
   {
     variant: "outline",
-    slug: "slider-horizontal-1-outline",
+    slug: "slider-horizontal1-outline",
     Component: SliderHorizontal1Outline,
     componentName: "SliderHorizontal1Outline",
   },
   {
     variant: "twotone",
-    slug: "slider-horizontal-1-twotone",
+    slug: "slider-horizontal1-twotone",
     Component: SliderHorizontal1Twotone,
     componentName: "SliderHorizontal1Twotone",
-  }
+  },
 ];
-
-export default { SliderHorizontal1Bold, SliderHorizontal1Broken, SliderHorizontal1Bulk, SliderHorizontal1Linear, SliderHorizontal1Outline, SliderHorizontal1Twotone };

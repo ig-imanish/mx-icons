@@ -43,7 +43,5 @@ export const variants = [
     slug: "computing-twotone",
     Component: ComputingTwotone,
     componentName: "ComputingTwotone",
-  }
+  },
 ];
-
-export default { ComputingBold, ComputingBroken, ComputingBulk, ComputingLinear, ComputingOutline, ComputingTwotone };

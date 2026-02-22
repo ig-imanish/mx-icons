@@ -22,7 +22,5 @@ export const variants = [
     slug: "profile-twotone",
     Component: ProfileTwotone,
     componentName: "ProfileTwotone",
-  }
+  },
 ];
-
-export default { ProfileBulk, ProfileLinear, ProfileTwotone };

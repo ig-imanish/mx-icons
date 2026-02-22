@@ -43,7 +43,5 @@ export const variants = [
     slug: "presention-chart-twotone",
     Component: PresentionChartTwotone,
     componentName: "PresentionChartTwotone",
-  }
+  },
 ];
-
-export default { PresentionChartBold, PresentionChartBroken, PresentionChartBulk, PresentionChartLinear, PresentionChartOutline, PresentionChartTwotone };

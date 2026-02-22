@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function Telegram({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21 5l-2.5 15M21 5l-12 8.5" stroke-dasharray="18">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="18;0" />
+		</path>
+		<path d="M21 5l-19 7.5" stroke-dasharray="24">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="24;0" />
+		</path>
+		<path d="M18.5 20l-9.5 -6.5" stroke-dasharray="14" stroke-dashoffset="14">
+			<animate attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M2 12.5l7 1" stroke-dasharray="10" stroke-dashoffset="10">
+			<animate attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+		<path d="M12 16l-3 3M9 13.5l0 5.5" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

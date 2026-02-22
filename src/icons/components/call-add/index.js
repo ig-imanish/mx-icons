@@ -43,7 +43,5 @@ export const variants = [
     slug: "call-add-twotone",
     Component: CallAddTwotone,
     componentName: "CallAddTwotone",
-  }
+  },
 ];
-
-export default { CallAddBold, CallAddBroken, CallAddBulk, CallAddLinear, CallAddOutline, CallAddTwotone };

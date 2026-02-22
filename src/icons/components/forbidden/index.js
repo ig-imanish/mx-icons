@@ -36,7 +36,5 @@ export const variants = [
     slug: "forbidden-twotone",
     Component: ForbiddenTwotone,
     componentName: "ForbiddenTwotone",
-  }
+  },
 ];
-
-export default { ForbiddenBold, ForbiddenBroken, ForbiddenBulk, ForbiddenOutline, ForbiddenTwotone };

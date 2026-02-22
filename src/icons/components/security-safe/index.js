@@ -43,7 +43,5 @@ export const variants = [
     slug: "security-safe-twotone",
     Component: SecuritySafeTwotone,
     componentName: "SecuritySafeTwotone",
-  }
+  },
 ];
-
-export default { SecuritySafeBold, SecuritySafeBroken, SecuritySafeBulk, SecuritySafeLinear, SecuritySafeOutline, SecuritySafeTwotone };

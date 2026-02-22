@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-playlist-twotone",
     Component: MusicPlaylistTwotone,
     componentName: "MusicPlaylistTwotone",
-  }
+  },
 ];
-
-export default { MusicPlaylistBold, MusicPlaylistBroken, MusicPlaylistBulk, MusicPlaylistLinear, MusicPlaylistOutline, MusicPlaylistTwotone };

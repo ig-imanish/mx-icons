@@ -10,40 +10,38 @@ export { Hierarchy2Bold, Hierarchy2Broken, Hierarchy2Bulk, Hierarchy2Linear, Hie
 export const variants = [
   {
     variant: "bold",
-    slug: "hierarchy-2-bold",
+    slug: "hierarchy2-bold",
     Component: Hierarchy2Bold,
     componentName: "Hierarchy2Bold",
   },
   {
     variant: "broken",
-    slug: "hierarchy-2-broken",
+    slug: "hierarchy2-broken",
     Component: Hierarchy2Broken,
     componentName: "Hierarchy2Broken",
   },
   {
     variant: "bulk",
-    slug: "hierarchy-2-bulk",
+    slug: "hierarchy2-bulk",
     Component: Hierarchy2Bulk,
     componentName: "Hierarchy2Bulk",
   },
   {
     variant: "linear",
-    slug: "hierarchy-2-linear",
+    slug: "hierarchy2-linear",
     Component: Hierarchy2Linear,
     componentName: "Hierarchy2Linear",
   },
   {
     variant: "outline",
-    slug: "hierarchy-2-outline",
+    slug: "hierarchy2-outline",
     Component: Hierarchy2Outline,
     componentName: "Hierarchy2Outline",
   },
   {
     variant: "twotone",
-    slug: "hierarchy-2-twotone",
+    slug: "hierarchy2-twotone",
     Component: Hierarchy2Twotone,
     componentName: "Hierarchy2Twotone",
-  }
+  },
 ];
-
-export default { Hierarchy2Bold, Hierarchy2Broken, Hierarchy2Bulk, Hierarchy2Linear, Hierarchy2Outline, Hierarchy2Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "document-sketch-twotone",
     Component: DocumentSketchTwotone,
     componentName: "DocumentSketchTwotone",
-  }
+  },
 ];
-
-export default { DocumentSketchBold, DocumentSketchBroken, DocumentSketchBulk, DocumentSketchLinear, DocumentSketchOutline, DocumentSketchTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "timer-start-twotone",
     Component: TimerStartTwotone,
     componentName: "TimerStartTwotone",
-  }
+  },
 ];
-
-export default { TimerStartBold, TimerStartBroken, TimerStartBulk, TimerStartLinear, TimerStartOutline, TimerStartTwotone };

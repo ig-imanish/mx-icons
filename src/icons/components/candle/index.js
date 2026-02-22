@@ -43,7 +43,5 @@ export const variants = [
     slug: "candle-twotone",
     Component: CandleTwotone,
     componentName: "CandleTwotone",
-  }
+  },
 ];
-
-export default { CandleBold, CandleBroken, CandleBulk, CandleLinear, CandleOutline, CandleTwotone };

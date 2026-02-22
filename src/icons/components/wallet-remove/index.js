@@ -43,7 +43,5 @@ export const variants = [
     slug: "wallet-remove-twotone",
     Component: WalletRemoveTwotone,
     componentName: "WalletRemoveTwotone",
-  }
+  },
 ];
-
-export default { WalletRemoveBold, WalletRemoveBroken, WalletRemoveBulk, WalletRemoveLinear, WalletRemoveOutline, WalletRemoveTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "lovely-twotone",
     Component: LovelyTwotone,
     componentName: "LovelyTwotone",
-  }
+  },
 ];
-
-export default { LovelyBold, LovelyBroken, LovelyBulk, LovelyLinear, LovelyOutline, LovelyTwotone };

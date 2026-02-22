@@ -43,7 +43,5 @@ export const variants = [
     slug: "profile-delete-twotone",
     Component: ProfileDeleteTwotone,
     componentName: "ProfileDeleteTwotone",
-  }
+  },
 ];
-
-export default { ProfileDeleteBold, ProfileDeleteBroken, ProfileDeleteBulk, ProfileDeleteLinear, ProfileDeleteOutline, ProfileDeleteTwotone };

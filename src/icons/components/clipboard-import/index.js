@@ -43,7 +43,5 @@ export const variants = [
     slug: "clipboard-import-twotone",
     Component: ClipboardImportTwotone,
     componentName: "ClipboardImportTwotone",
-  }
+  },
 ];
-
-export default { ClipboardImportBold, ClipboardImportBroken, ClipboardImportBulk, ClipboardImportLinear, ClipboardImportOutline, ClipboardImportTwotone };

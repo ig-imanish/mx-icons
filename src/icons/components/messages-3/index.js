@@ -10,40 +10,38 @@ export { Messages3Bold, Messages3Broken, Messages3Bulk, Messages3Linear, Message
 export const variants = [
   {
     variant: "bold",
-    slug: "messages-3-bold",
+    slug: "messages3-bold",
     Component: Messages3Bold,
     componentName: "Messages3Bold",
   },
   {
     variant: "broken",
-    slug: "messages-3-broken",
+    slug: "messages3-broken",
     Component: Messages3Broken,
     componentName: "Messages3Broken",
   },
   {
     variant: "bulk",
-    slug: "messages-3-bulk",
+    slug: "messages3-bulk",
     Component: Messages3Bulk,
     componentName: "Messages3Bulk",
   },
   {
     variant: "linear",
-    slug: "messages-3-linear",
+    slug: "messages3-linear",
     Component: Messages3Linear,
     componentName: "Messages3Linear",
   },
   {
     variant: "outline",
-    slug: "messages-3-outline",
+    slug: "messages3-outline",
     Component: Messages3Outline,
     componentName: "Messages3Outline",
   },
   {
     variant: "twotone",
-    slug: "messages-3-twotone",
+    slug: "messages3-twotone",
     Component: Messages3Twotone,
     componentName: "Messages3Twotone",
-  }
+  },
 ];
-
-export default { Messages3Bold, Messages3Broken, Messages3Bulk, Messages3Linear, Messages3Outline, Messages3Twotone };

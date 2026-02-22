@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-dashboard-twotone",
     Component: MusicDashboardTwotone,
     componentName: "MusicDashboardTwotone",
-  }
+  },
 ];
-
-export default { MusicDashboardBold, MusicDashboardBroken, MusicDashboardBulk, MusicDashboardLinear, MusicDashboardOutline, MusicDashboardTwotone };

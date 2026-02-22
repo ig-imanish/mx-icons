@@ -10,40 +10,38 @@ export { Crown1Bold, Crown1Broken, Crown1Bulk, Crown1Linear, Crown1Outline, Crow
 export const variants = [
   {
     variant: "bold",
-    slug: "crown-1-bold",
+    slug: "crown1-bold",
     Component: Crown1Bold,
     componentName: "Crown1Bold",
   },
   {
     variant: "broken",
-    slug: "crown-1-broken",
+    slug: "crown1-broken",
     Component: Crown1Broken,
     componentName: "Crown1Broken",
   },
   {
     variant: "bulk",
-    slug: "crown-1-bulk",
+    slug: "crown1-bulk",
     Component: Crown1Bulk,
     componentName: "Crown1Bulk",
   },
   {
     variant: "linear",
-    slug: "crown-1-linear",
+    slug: "crown1-linear",
     Component: Crown1Linear,
     componentName: "Crown1Linear",
   },
   {
     variant: "outline",
-    slug: "crown-1-outline",
+    slug: "crown1-outline",
     Component: Crown1Outline,
     componentName: "Crown1Outline",
   },
   {
     variant: "twotone",
-    slug: "crown-1-twotone",
+    slug: "crown1-twotone",
     Component: Crown1Twotone,
     componentName: "Crown1Twotone",
-  }
+  },
 ];
-
-export default { Crown1Bold, Crown1Broken, Crown1Bulk, Crown1Linear, Crown1Outline, Crown1Twotone };

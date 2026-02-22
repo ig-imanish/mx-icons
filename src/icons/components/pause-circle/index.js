@@ -43,7 +43,5 @@ export const variants = [
     slug: "pause-circle-twotone",
     Component: PauseCircleTwotone,
     componentName: "PauseCircleTwotone",
-  }
+  },
 ];
-
-export default { PauseCircleBold, PauseCircleBroken, PauseCircleBulk, PauseCircleLinear, PauseCircleOutline, PauseCircleTwotone };

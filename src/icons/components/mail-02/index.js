@@ -1,21 +1,19 @@
-import Mail02Linear from "./Mail02Linear";
 import Mail02Bold from "./Mail02Bold";
+import Mail02Linear from "./Mail02Linear";
 
-export { Mail02Linear, Mail02Bold };
+export { Mail02Bold, Mail02Linear };
 
 export const variants = [
   {
-    variant: "linear",
-    slug: "mail-02-linear",
-    Component: Mail02Linear,
-    componentName: "Mail02Linear",
-  },
-  {
     variant: "bold",
-    slug: "mail-02-bold",
+    slug: "mail02-bold",
     Component: Mail02Bold,
     componentName: "Mail02Bold",
   },
+  {
+    variant: "linear",
+    slug: "mail02-linear",
+    Component: Mail02Linear,
+    componentName: "Mail02Linear",
+  },
 ];
-
-export default { Mail02Linear, Mail02Bold };

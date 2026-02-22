@@ -43,7 +43,5 @@ export const variants = [
     slug: "woman-twotone",
     Component: WomanTwotone,
     componentName: "WomanTwotone",
-  }
+  },
 ];
-
-export default { WomanBold, WomanBroken, WomanBulk, WomanLinear, WomanOutline, WomanTwotone };

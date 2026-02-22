@@ -43,7 +43,5 @@ export const variants = [
     slug: "moneys-twotone",
     Component: MoneysTwotone,
     componentName: "MoneysTwotone",
-  }
+  },
 ];
-
-export default { MoneysBold, MoneysBroken, MoneysBulk, MoneysLinear, MoneysOutline, MoneysTwotone };

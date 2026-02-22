@@ -43,7 +43,5 @@ export const variants = [
     slug: "graph-twotone",
     Component: GraphTwotone,
     componentName: "GraphTwotone",
-  }
+  },
 ];
-
-export default { GraphBold, GraphBroken, GraphBulk, GraphLinear, GraphOutline, GraphTwotone };

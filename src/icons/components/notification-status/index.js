@@ -43,7 +43,5 @@ export const variants = [
     slug: "notification-status-twotone",
     Component: NotificationStatusTwotone,
     componentName: "NotificationStatusTwotone",
-  }
+  },
 ];
-
-export default { NotificationStatusBold, NotificationStatusBroken, NotificationStatusBulk, NotificationStatusLinear, NotificationStatusOutline, NotificationStatusTwotone };

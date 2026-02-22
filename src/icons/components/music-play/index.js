@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-play-twotone",
     Component: MusicPlayTwotone,
     componentName: "MusicPlayTwotone",
-  }
+  },
 ];
-
-export default { MusicPlayBold, MusicPlayBroken, MusicPlayBulk, MusicPlayLinear, MusicPlayOutline, MusicPlayTwotone };

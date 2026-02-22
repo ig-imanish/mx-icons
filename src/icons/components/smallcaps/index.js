@@ -43,7 +43,5 @@ export const variants = [
     slug: "smallcaps-twotone",
     Component: SmallcapsTwotone,
     componentName: "SmallcapsTwotone",
-  }
+  },
 ];
-
-export default { SmallcapsBold, SmallcapsBroken, SmallcapsBulk, SmallcapsLinear, SmallcapsOutline, SmallcapsTwotone };

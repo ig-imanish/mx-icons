@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-filter-twotone",
     Component: MusicFilterTwotone,
     componentName: "MusicFilterTwotone",
-  }
+  },
 ];
-
-export default { MusicFilterBold, MusicFilterBroken, MusicFilterBulk, MusicFilterLinear, MusicFilterOutline, MusicFilterTwotone };

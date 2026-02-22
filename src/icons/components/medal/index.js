@@ -43,7 +43,5 @@ export const variants = [
     slug: "medal-twotone",
     Component: MedalTwotone,
     componentName: "MedalTwotone",
-  }
+  },
 ];
-
-export default { MedalBold, MedalBroken, MedalBulk, MedalLinear, MedalOutline, MedalTwotone };

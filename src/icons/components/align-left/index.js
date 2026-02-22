@@ -43,7 +43,5 @@ export const variants = [
     slug: "align-left-twotone",
     Component: AlignLeftTwotone,
     componentName: "AlignLeftTwotone",
-  }
+  },
 ];
-
-export default { AlignLeftBold, AlignLeftBroken, AlignLeftBulk, AlignLeftLinear, AlignLeftOutline, AlignLeftTwotone };

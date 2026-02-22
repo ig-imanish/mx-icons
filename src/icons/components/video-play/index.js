@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-play-twotone",
     Component: VideoPlayTwotone,
     componentName: "VideoPlayTwotone",
-  }
+  },
 ];
-
-export default { VideoPlayBold, VideoPlayBroken, VideoPlayBulk, VideoPlayLinear, VideoPlayOutline, VideoPlayTwotone };

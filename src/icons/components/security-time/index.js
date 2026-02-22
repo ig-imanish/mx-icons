@@ -43,7 +43,5 @@ export const variants = [
     slug: "security-time-twotone",
     Component: SecurityTimeTwotone,
     componentName: "SecurityTimeTwotone",
-  }
+  },
 ];
-
-export default { SecurityTimeBold, SecurityTimeBroken, SecurityTimeBulk, SecurityTimeLinear, SecurityTimeOutline, SecurityTimeTwotone };

@@ -10,40 +10,38 @@ export { Icon3dDRotateBold, Icon3dDRotateBroken, Icon3dDRotateBulk, Icon3dDRotat
 export const variants = [
   {
     variant: "bold",
-    slug: "icon-3d-rotate-bold",
+    slug: "icon3d-d-rotate-bold",
     Component: Icon3dDRotateBold,
     componentName: "Icon3dDRotateBold",
   },
   {
     variant: "broken",
-    slug: "icon-3d-rotate-broken",
+    slug: "icon3d-d-rotate-broken",
     Component: Icon3dDRotateBroken,
     componentName: "Icon3dDRotateBroken",
   },
   {
     variant: "bulk",
-    slug: "icon-3d-rotate-bulk",
+    slug: "icon3d-d-rotate-bulk",
     Component: Icon3dDRotateBulk,
     componentName: "Icon3dDRotateBulk",
   },
   {
     variant: "linear",
-    slug: "icon-3d-rotate-linear",
+    slug: "icon3d-d-rotate-linear",
     Component: Icon3dDRotateLinear,
     componentName: "Icon3dDRotateLinear",
   },
   {
     variant: "outline",
-    slug: "icon-3d-rotate-outline",
+    slug: "icon3d-d-rotate-outline",
     Component: Icon3dDRotateOutline,
     componentName: "Icon3dDRotateOutline",
   },
   {
     variant: "twotone",
-    slug: "icon-3d-rotate-twotone",
+    slug: "icon3d-d-rotate-twotone",
     Component: Icon3dDRotateTwotone,
     componentName: "Icon3dDRotateTwotone",
-  }
+  },
 ];
-
-export default { Icon3dDRotateBold, Icon3dDRotateBroken, Icon3dDRotateBulk, Icon3dDRotateLinear, Icon3dDRotateOutline, Icon3dDRotateTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-notification-twotone",
     Component: DirectNotificationTwotone,
     componentName: "DirectNotificationTwotone",
-  }
+  },
 ];
-
-export default { DirectNotificationBold, DirectNotificationBroken, DirectNotificationBulk, DirectNotificationLinear, DirectNotificationOutline, DirectNotificationTwotone };

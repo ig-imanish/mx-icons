@@ -43,7 +43,5 @@ export const variants = [
     slug: "repeat-circle-twotone",
     Component: RepeatCircleTwotone,
     componentName: "RepeatCircleTwotone",
-  }
+  },
 ];
-
-export default { RepeatCircleBold, RepeatCircleBroken, RepeatCircleBulk, RepeatCircleLinear, RepeatCircleOutline, RepeatCircleTwotone };

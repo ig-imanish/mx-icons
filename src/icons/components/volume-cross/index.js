@@ -43,7 +43,5 @@ export const variants = [
     slug: "volume-cross-twotone",
     Component: VolumeCrossTwotone,
     componentName: "VolumeCrossTwotone",
-  }
+  },
 ];
-
-export default { VolumeCrossBold, VolumeCrossBroken, VolumeCrossBulk, VolumeCrossLinear, VolumeCrossOutline, VolumeCrossTwotone };

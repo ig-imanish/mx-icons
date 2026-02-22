@@ -10,40 +10,38 @@ export { Frame4Bold, Frame4Broken, Frame4Bulk, Frame4Linear, Frame4Outline, Fram
 export const variants = [
   {
     variant: "bold",
-    slug: "frame-4-bold",
+    slug: "frame4-bold",
     Component: Frame4Bold,
     componentName: "Frame4Bold",
   },
   {
     variant: "broken",
-    slug: "frame-4-broken",
+    slug: "frame4-broken",
     Component: Frame4Broken,
     componentName: "Frame4Broken",
   },
   {
     variant: "bulk",
-    slug: "frame-4-bulk",
+    slug: "frame4-bulk",
     Component: Frame4Bulk,
     componentName: "Frame4Bulk",
   },
   {
     variant: "linear",
-    slug: "frame-4-linear",
+    slug: "frame4-linear",
     Component: Frame4Linear,
     componentName: "Frame4Linear",
   },
   {
     variant: "outline",
-    slug: "frame-4-outline",
+    slug: "frame4-outline",
     Component: Frame4Outline,
     componentName: "Frame4Outline",
   },
   {
     variant: "twotone",
-    slug: "frame-4-twotone",
+    slug: "frame4-twotone",
     Component: Frame4Twotone,
     componentName: "Frame4Twotone",
-  }
+  },
 ];
-
-export default { Frame4Bold, Frame4Broken, Frame4Bulk, Frame4Linear, Frame4Outline, Frame4Twotone };

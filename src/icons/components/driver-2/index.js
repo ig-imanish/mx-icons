@@ -10,40 +10,38 @@ export { Driver2Bold, Driver2Broken, Driver2Bulk, Driver2Linear, Driver2Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "driver-2-bold",
+    slug: "driver2-bold",
     Component: Driver2Bold,
     componentName: "Driver2Bold",
   },
   {
     variant: "broken",
-    slug: "driver-2-broken",
+    slug: "driver2-broken",
     Component: Driver2Broken,
     componentName: "Driver2Broken",
   },
   {
     variant: "bulk",
-    slug: "driver-2-bulk",
+    slug: "driver2-bulk",
     Component: Driver2Bulk,
     componentName: "Driver2Bulk",
   },
   {
     variant: "linear",
-    slug: "driver-2-linear",
+    slug: "driver2-linear",
     Component: Driver2Linear,
     componentName: "Driver2Linear",
   },
   {
     variant: "outline",
-    slug: "driver-2-outline",
+    slug: "driver2-outline",
     Component: Driver2Outline,
     componentName: "Driver2Outline",
   },
   {
     variant: "twotone",
-    slug: "driver-2-twotone",
+    slug: "driver2-twotone",
     Component: Driver2Twotone,
     componentName: "Driver2Twotone",
-  }
+  },
 ];
-
-export default { Driver2Bold, Driver2Broken, Driver2Bulk, Driver2Linear, Driver2Outline, Driver2Twotone };

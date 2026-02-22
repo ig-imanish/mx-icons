@@ -43,7 +43,5 @@ export const variants = [
     slug: "blend-twotone",
     Component: BlendTwotone,
     componentName: "BlendTwotone",
-  }
+  },
 ];
-
-export default { BlendBold, BlendBroken, BlendBulk, BlendLinear, BlendOutline, BlendTwotone };

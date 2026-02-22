@@ -43,7 +43,5 @@ export const variants = [
     slug: "user-tick-twotone",
     Component: UserTickTwotone,
     componentName: "UserTickTwotone",
-  }
+  },
 ];
-
-export default { UserTickBold, UserTickBroken, UserTickBulk, UserTickLinear, UserTickOutline, UserTickTwotone };

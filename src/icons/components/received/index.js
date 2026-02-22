@@ -43,7 +43,5 @@ export const variants = [
     slug: "received-twotone",
     Component: ReceivedTwotone,
     componentName: "ReceivedTwotone",
-  }
+  },
 ];
-
-export default { ReceivedBold, ReceivedBroken, ReceivedBulk, ReceivedLinear, ReceivedOutline, ReceivedTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "attach-square-twotone",
     Component: AttachSquareTwotone,
     componentName: "AttachSquareTwotone",
-  }
+  },
 ];
-
-export default { AttachSquareBold, AttachSquareBroken, AttachSquareBulk, AttachSquareLinear, AttachSquareOutline, AttachSquareTwotone };

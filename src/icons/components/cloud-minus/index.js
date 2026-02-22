@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-minus-twotone",
     Component: CloudMinusTwotone,
     componentName: "CloudMinusTwotone",
-  }
+  },
 ];
-
-export default { CloudMinusBold, CloudMinusBroken, CloudMinusBulk, CloudMinusLinear, CloudMinusOutline, CloudMinusTwotone };

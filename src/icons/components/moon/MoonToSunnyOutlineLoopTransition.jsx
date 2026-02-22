@@ -1,0 +1,61 @@
+import Icon from "../../Icon";
+
+export default function MoonToSunnyOutlineLoopTransition({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGMWRvKbXU">
+			<path d="M12 6c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M12 2c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z;M12 6c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z" />
+			</path>
+			<g fill="currentColor">
+				<path d="M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z">
+					<animate attributeName="d" dur="0.4s" fill="freeze" values="M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10Z;M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6Z" />
+					<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+				</path>
+				<path d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4Z">
+					<animate attributeName="d" dur="0.4s" fill="freeze" values="M12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z;M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4Z" />
+				</path>
+			</g>
+		</mask>
+		<mask id="SVGkPPKVcTy">
+			<path d="M22 -6c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M18 -6c6.62 0 12 5.38 12 12c0 6.62 -5.38 12 -12 12c-6.62 0 -12 -5.38 -12 -12c0 -6.62 5.38 -12 12 -12Z;M22 -6c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+			<path d="M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6ZM6 12v-20h26v26h-20c3.31 0 6 -2.69 6 -6c0 -3.31 -2.69 -6 -6 -6c-3.31 0 -6 2.69 -6 6Z" fill="currentColor">
+				<animate attributeName="d" dur="0.4s" fill="freeze" values="M18 -4c5.52 0 10 4.48 10 10c0 5.52 -4.48 10 -10 10c-5.52 0 -10 -4.48 -10 -10c0 -5.52 4.48 -10 10 -10ZM2 12v-20h30v30h-20c5.52 0 10 -4.48 10 -10c0 -5.52 -4.48 -10 -10 -10c-5.52 0 -10 4.48 -10 10Z;M22 -4c3.31 0 6 2.69 6 6c0 3.31 -2.69 6 -6 6c-3.31 0 -6 -2.69 -6 -6c0 -3.31 2.69 -6 6 -6ZM6 12v-20h26v26h-20c3.31 0 6 -2.69 6 -6c0 -3.31 -2.69 -6 -6 -6c-3.31 0 -6 2.69 -6 6Z" />
+				<set attributeName="opacity" to="0" begin="0.4s" fill="freeze" />
+			</path>
+		</mask>
+	</defs>
+	<g fill="currentColor">
+		<path d="M0 0h24v24H0z" mask="url(#SVGMWRvKbXU)" />
+		<path d="M0 0h24v24H0z" mask="url(#SVGkPPKVcTy)" />
+	</g>
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 21v1M21 12h1M12 3v-1M3 12h-1" opacity="0">
+			<animateTransform attributeName="transform" type="rotate" dur="30s" repeatCount="indefinite" values="0 12 12;360 12 12" />
+			<set attributeName="opacity" to="1" begin="0.4s" fill="freeze" />
+			<animate attributeName="d" begin="0.4s" dur="0.2s" fill="freeze" values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1" />
+		</path>
+		<path d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" opacity="0">
+			<animateTransform attributeName="transform" type="rotate" dur="30s" repeatCount="indefinite" values="0 12 12;360 12 12" />
+			<set attributeName="opacity" to="1" begin="0.6s" fill="freeze" />
+			<animate attributeName="d" begin="0.6s" dur="0.2s" fill="freeze" values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

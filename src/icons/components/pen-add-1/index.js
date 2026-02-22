@@ -5,10 +5,8 @@ export { PenAdd1Linear };
 export const variants = [
   {
     variant: "linear",
-    slug: "pen-add-1-linear",
+    slug: "pen-add1-linear",
     Component: PenAdd1Linear,
     componentName: "PenAdd1Linear",
-  }
+  },
 ];
-
-export default { PenAdd1Linear };

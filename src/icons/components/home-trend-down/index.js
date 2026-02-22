@@ -43,7 +43,5 @@ export const variants = [
     slug: "home-trend-down-twotone",
     Component: HomeTrendDownTwotone,
     componentName: "HomeTrendDownTwotone",
-  }
+  },
 ];
-
-export default { HomeTrendDownBold, HomeTrendDownBroken, HomeTrendDownBulk, HomeTrendDownLinear, HomeTrendDownOutline, HomeTrendDownTwotone };

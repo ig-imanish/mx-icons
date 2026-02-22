@@ -43,7 +43,5 @@ export const variants = [
     slug: "grid-edit-twotone",
     Component: GridEditTwotone,
     componentName: "GridEditTwotone",
-  }
+  },
 ];
-
-export default { GridEditBold, GridEditBroken, GridEditBulk, GridEditLinear, GridEditOutline, GridEditTwotone };

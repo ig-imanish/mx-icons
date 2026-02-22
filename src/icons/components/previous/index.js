@@ -43,7 +43,5 @@ export const variants = [
     slug: "previous-twotone",
     Component: PreviousTwotone,
     componentName: "PreviousTwotone",
-  }
+  },
 ];
-
-export default { PreviousBold, PreviousBroken, PreviousBulk, PreviousLinear, PreviousOutline, PreviousTwotone };

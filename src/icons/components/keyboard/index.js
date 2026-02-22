@@ -43,7 +43,5 @@ export const variants = [
     slug: "keyboard-twotone",
     Component: KeyboardTwotone,
     componentName: "KeyboardTwotone",
-  }
+  },
 ];
-
-export default { KeyboardBold, KeyboardBroken, KeyboardBulk, KeyboardLinear, KeyboardOutline, KeyboardTwotone };

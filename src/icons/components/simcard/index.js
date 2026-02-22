@@ -43,7 +43,5 @@ export const variants = [
     slug: "simcard-twotone",
     Component: SimcardTwotone,
     componentName: "SimcardTwotone",
-  }
+  },
 ];
-
-export default { SimcardBold, SimcardBroken, SimcardBulk, SimcardLinear, SimcardOutline, SimcardTwotone };

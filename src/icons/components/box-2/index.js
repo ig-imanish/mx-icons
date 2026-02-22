@@ -10,40 +10,38 @@ export { Box2Bold, Box2Broken, Box2Bulk, Box2Linear, Box2Outline, Box2Twotone };
 export const variants = [
   {
     variant: "bold",
-    slug: "box-2-bold",
+    slug: "box2-bold",
     Component: Box2Bold,
     componentName: "Box2Bold",
   },
   {
     variant: "broken",
-    slug: "box-2-broken",
+    slug: "box2-broken",
     Component: Box2Broken,
     componentName: "Box2Broken",
   },
   {
     variant: "bulk",
-    slug: "box-2-bulk",
+    slug: "box2-bulk",
     Component: Box2Bulk,
     componentName: "Box2Bulk",
   },
   {
     variant: "linear",
-    slug: "box-2-linear",
+    slug: "box2-linear",
     Component: Box2Linear,
     componentName: "Box2Linear",
   },
   {
     variant: "outline",
-    slug: "box-2-outline",
+    slug: "box2-outline",
     Component: Box2Outline,
     componentName: "Box2Outline",
   },
   {
     variant: "twotone",
-    slug: "box-2-twotone",
+    slug: "box2-twotone",
     Component: Box2Twotone,
     componentName: "Box2Twotone",
-  }
+  },
 ];
-
-export default { Box2Bold, Box2Broken, Box2Bulk, Box2Linear, Box2Outline, Box2Twotone };

@@ -10,40 +10,38 @@ export { Grid6Bold, Grid6Broken, Grid6Bulk, Grid6Linear, Grid6Outline, Grid6Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "grid-6-bold",
+    slug: "grid6-bold",
     Component: Grid6Bold,
     componentName: "Grid6Bold",
   },
   {
     variant: "broken",
-    slug: "grid-6-broken",
+    slug: "grid6-broken",
     Component: Grid6Broken,
     componentName: "Grid6Broken",
   },
   {
     variant: "bulk",
-    slug: "grid-6-bulk",
+    slug: "grid6-bulk",
     Component: Grid6Bulk,
     componentName: "Grid6Bulk",
   },
   {
     variant: "linear",
-    slug: "grid-6-linear",
+    slug: "grid6-linear",
     Component: Grid6Linear,
     componentName: "Grid6Linear",
   },
   {
     variant: "outline",
-    slug: "grid-6-outline",
+    slug: "grid6-outline",
     Component: Grid6Outline,
     componentName: "Grid6Outline",
   },
   {
     variant: "twotone",
-    slug: "grid-6-twotone",
+    slug: "grid6-twotone",
     Component: Grid6Twotone,
     componentName: "Grid6Twotone",
-  }
+  },
 ];
-
-export default { Grid6Bold, Grid6Broken, Grid6Bulk, Grid6Linear, Grid6Outline, Grid6Twotone };

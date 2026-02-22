@@ -1,0 +1,35 @@
+import Icon from "../../Icon";
+
+export default function EmojiFrown({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9" stroke-dasharray="60">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+		</path>
+		<g stroke-dasharray="4">
+			<path d="M9 9v1" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M15 9v1" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+		<path d="M8 16c0.5 -1 1.79 -2 4 -2c2.21 0 3.5 1 4 2" stroke-dasharray="12" stroke-dashoffset="12">
+			<animate attributeName="stroke-dashoffset" begin="1s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

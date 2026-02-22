@@ -43,7 +43,5 @@ export const variants = [
     slug: "routing-twotone",
     Component: RoutingTwotone,
     componentName: "RoutingTwotone",
-  }
+  },
 ];
-
-export default { RoutingBold, RoutingBroken, RoutingBulk, RoutingLinear, RoutingOutline, RoutingTwotone };

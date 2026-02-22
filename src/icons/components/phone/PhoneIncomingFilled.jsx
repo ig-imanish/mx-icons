@@ -1,0 +1,33 @@
+import Icon from "../../Icon";
+
+export default function PhoneIncomingFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M8 3c0.5 0 2.5 4.5 2.5 5c0 1 -1.5 2 -2 3c-0.5 1 0.5 2 1.5 3c0.39 0.39 2 2 3 1.5c1 -0.5 2 -2 3 -2c0.5 0 5 2 5 2.5c0 2 -1.5 3.5 -3 4c-1.5 0.5 -2.5 0.5 -4.5 0c-2 -0.5 -3.5 -1 -6 -3.5c-2.5 -2.5 -3 -4 -3.5 -6c-0.5 -2 -0.5 -3 0 -4.5c0.5 -1.5 2 -3 4 -3Z" fill="currentColor" stroke-dasharray="62" fill-opacity="0">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="62;0" />
+			<animate attributeName="fill-opacity" begin="1.1s" dur="0.4s" fill="freeze" to="1" />
+		</path>
+		<g fill="none">
+			<path d="M20 4l-4 4" stroke-dasharray="8" stroke-dashoffset="8">
+				<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M16 8h4M16 8v-4" stroke-dasharray="6" stroke-dashoffset="6">
+				<animate attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+	</g>
+    </Icon>
+  );
+}

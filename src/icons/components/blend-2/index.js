@@ -10,40 +10,38 @@ export { Blend2Bold, Blend2Broken, Blend2Bulk, Blend2Linear, Blend2Outline, Blen
 export const variants = [
   {
     variant: "bold",
-    slug: "blend-2-bold",
+    slug: "blend2-bold",
     Component: Blend2Bold,
     componentName: "Blend2Bold",
   },
   {
     variant: "broken",
-    slug: "blend-2-broken",
+    slug: "blend2-broken",
     Component: Blend2Broken,
     componentName: "Blend2Broken",
   },
   {
     variant: "bulk",
-    slug: "blend-2-bulk",
+    slug: "blend2-bulk",
     Component: Blend2Bulk,
     componentName: "Blend2Bulk",
   },
   {
     variant: "linear",
-    slug: "blend-2-linear",
+    slug: "blend2-linear",
     Component: Blend2Linear,
     componentName: "Blend2Linear",
   },
   {
     variant: "outline",
-    slug: "blend-2-outline",
+    slug: "blend2-outline",
     Component: Blend2Outline,
     componentName: "Blend2Outline",
   },
   {
     variant: "twotone",
-    slug: "blend-2-twotone",
+    slug: "blend2-twotone",
     Component: Blend2Twotone,
     componentName: "Blend2Twotone",
-  }
+  },
 ];
-
-export default { Blend2Bold, Blend2Broken, Blend2Bulk, Blend2Linear, Blend2Outline, Blend2Twotone };

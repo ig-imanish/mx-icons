@@ -10,40 +10,38 @@ export { ArrowUp2Bold, ArrowUp2Broken, ArrowUp2Bulk, ArrowUp2Linear, ArrowUp2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "arrow-up-2-bold",
+    slug: "arrow-up2-bold",
     Component: ArrowUp2Bold,
     componentName: "ArrowUp2Bold",
   },
   {
     variant: "broken",
-    slug: "arrow-up-2-broken",
+    slug: "arrow-up2-broken",
     Component: ArrowUp2Broken,
     componentName: "ArrowUp2Broken",
   },
   {
     variant: "bulk",
-    slug: "arrow-up-2-bulk",
+    slug: "arrow-up2-bulk",
     Component: ArrowUp2Bulk,
     componentName: "ArrowUp2Bulk",
   },
   {
     variant: "linear",
-    slug: "arrow-up-2-linear",
+    slug: "arrow-up2-linear",
     Component: ArrowUp2Linear,
     componentName: "ArrowUp2Linear",
   },
   {
     variant: "outline",
-    slug: "arrow-up-2-outline",
+    slug: "arrow-up2-outline",
     Component: ArrowUp2Outline,
     componentName: "ArrowUp2Outline",
   },
   {
     variant: "twotone",
-    slug: "arrow-up-2-twotone",
+    slug: "arrow-up2-twotone",
     Component: ArrowUp2Twotone,
     componentName: "ArrowUp2Twotone",
-  }
+  },
 ];
-
-export default { ArrowUp2Bold, ArrowUp2Broken, ArrowUp2Bulk, ArrowUp2Linear, ArrowUp2Outline, ArrowUp2Twotone };

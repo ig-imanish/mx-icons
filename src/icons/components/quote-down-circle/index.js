@@ -43,7 +43,5 @@ export const variants = [
     slug: "quote-down-circle-twotone",
     Component: QuoteDownCircleTwotone,
     componentName: "QuoteDownCircleTwotone",
-  }
+  },
 ];
-
-export default { QuoteDownCircleBold, QuoteDownCircleBroken, QuoteDownCircleBulk, QuoteDownCircleLinear, QuoteDownCircleOutline, QuoteDownCircleTwotone };

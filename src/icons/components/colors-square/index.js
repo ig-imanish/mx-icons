@@ -43,7 +43,5 @@ export const variants = [
     slug: "colors-square-twotone",
     Component: ColorsSquareTwotone,
     componentName: "ColorsSquareTwotone",
-  }
+  },
 ];
-
-export default { ColorsSquareBold, ColorsSquareBroken, ColorsSquareBulk, ColorsSquareLinear, ColorsSquareOutline, ColorsSquareTwotone };

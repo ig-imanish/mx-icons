@@ -10,40 +10,38 @@ export { Archive1Bold, Archive1Broken, Archive1Bulk, Archive1Linear, Archive1Out
 export const variants = [
   {
     variant: "bold",
-    slug: "archive-1-bold",
+    slug: "archive1-bold",
     Component: Archive1Bold,
     componentName: "Archive1Bold",
   },
   {
     variant: "broken",
-    slug: "archive-1-broken",
+    slug: "archive1-broken",
     Component: Archive1Broken,
     componentName: "Archive1Broken",
   },
   {
     variant: "bulk",
-    slug: "archive-1-bulk",
+    slug: "archive1-bulk",
     Component: Archive1Bulk,
     componentName: "Archive1Bulk",
   },
   {
     variant: "linear",
-    slug: "archive-1-linear",
+    slug: "archive1-linear",
     Component: Archive1Linear,
     componentName: "Archive1Linear",
   },
   {
     variant: "outline",
-    slug: "archive-1-outline",
+    slug: "archive1-outline",
     Component: Archive1Outline,
     componentName: "Archive1Outline",
   },
   {
     variant: "twotone",
-    slug: "archive-1-twotone",
+    slug: "archive1-twotone",
     Component: Archive1Twotone,
     componentName: "Archive1Twotone",
-  }
+  },
 ];
-
-export default { Archive1Bold, Archive1Broken, Archive1Bulk, Archive1Linear, Archive1Outline, Archive1Twotone };

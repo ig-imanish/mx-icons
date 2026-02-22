@@ -43,7 +43,5 @@ export const variants = [
     slug: "lamp-charge-twotone",
     Component: LampChargeTwotone,
     componentName: "LampChargeTwotone",
-  }
+  },
 ];
-
-export default { LampChargeBold, LampChargeBroken, LampChargeBulk, LampChargeLinear, LampChargeOutline, LampChargeTwotone };

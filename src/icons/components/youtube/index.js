@@ -1,9 +1,23 @@
-import YoutubeLinear from "./YoutubeLinear";
 import YoutubeBold from "./YoutubeBold";
+import YoutubeFilled from "./YoutubeFilled";
+import YoutubeLinear from "./YoutubeLinear";
+import YoutubeTwotone from "./YoutubeTwotone";
 
-export { YoutubeLinear, YoutubeBold };
+export { YoutubeBold, YoutubeFilled, YoutubeLinear, YoutubeTwotone };
 
 export const variants = [
+  {
+    variant: "bold",
+    slug: "youtube-bold",
+    Component: YoutubeBold,
+    componentName: "YoutubeBold",
+  },
+  {
+    variant: "filled",
+    slug: "youtube-filled",
+    Component: YoutubeFilled,
+    componentName: "YoutubeFilled",
+  },
   {
     variant: "linear",
     slug: "youtube-linear",
@@ -11,11 +25,9 @@ export const variants = [
     componentName: "YoutubeLinear",
   },
   {
-    variant: "bold",
-    slug: "youtube-bold",
-    Component: YoutubeBold,
-    componentName: "YoutubeBold",
+    variant: "twotone",
+    slug: "youtube-twotone",
+    Component: YoutubeTwotone,
+    componentName: "YoutubeTwotone",
   },
 ];
-
-export default { YoutubeLinear, YoutubeBold };

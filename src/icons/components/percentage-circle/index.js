@@ -36,7 +36,5 @@ export const variants = [
     slug: "percentage-circle-twotone",
     Component: PercentageCircleTwotone,
     componentName: "PercentageCircleTwotone",
-  }
+  },
 ];
-
-export default { PercentageCircleBold, PercentageCircleBroken, PercentageCircleBulk, PercentageCircleOutline, PercentageCircleTwotone };

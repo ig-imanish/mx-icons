@@ -43,7 +43,5 @@ export const variants = [
     slug: "repeate-one-twotone",
     Component: RepeateOneTwotone,
     componentName: "RepeateOneTwotone",
-  }
+  },
 ];
-
-export default { RepeateOneBold, RepeateOneBroken, RepeateOneBulk, RepeateOneLinear, RepeateOneOutline, RepeateOneTwotone };

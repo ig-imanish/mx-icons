@@ -43,7 +43,5 @@ export const variants = [
     slug: "voice-square-twotone",
     Component: VoiceSquareTwotone,
     componentName: "VoiceSquareTwotone",
-  }
+  },
 ];
-
-export default { VoiceSquareBold, VoiceSquareBroken, VoiceSquareBulk, VoiceSquareLinear, VoiceSquareOutline, VoiceSquareTwotone };

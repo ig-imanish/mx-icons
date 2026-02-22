@@ -43,7 +43,5 @@ export const variants = [
     slug: "crop-twotone",
     Component: CropTwotone,
     componentName: "CropTwotone",
-  }
+  },
 ];
-
-export default { CropBold, CropBroken, CropBulk, CropLinear, CropOutline, CropTwotone };

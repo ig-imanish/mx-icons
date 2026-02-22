@@ -1,0 +1,37 @@
+import Icon from "../../Icon";
+
+export default function PhoneOffFilledLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <defs>
+		<mask id="SVGmtEVjexe">
+			<g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="M8 3c0.5 0 2.5 4.5 2.5 5c0 1 -1.5 2 -2 3c-0.5 1 0.5 2 1.5 3c0.39 0.39 2 2 3 1.5c1 -0.5 2 -2 3 -2c0.5 0 5 2 5 2.5c0 2 -1.5 3.5 -3 4c-1.5 0.5 -2.5 0.5 -4.5 0c-2 -0.5 -3.5 -1 -6 -3.5c-2.5 -2.5 -3 -4 -3.5 -6c-0.5 -2 -0.5 -3 0 -4.5c0.5 -1.5 2 -3 4 -3Z" stroke="currentColor" fill="currentColor" stroke-dasharray="62" fill-opacity="0">
+					<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="62;0" />
+					<animateTransform attributeName="transform" type="rotate" dur="2.7s" repeatCount="indefinite" keyTimes="0;0.035;0.07;0.105;0.14;0.175;0.21;0.245;0.28;1" values="0 12 12;15 12 12;0 12 12;-12 12 12;0 12 12;12 12 12;0 12 12;-15 12 12;0 12 12;0 12 12" />
+					<animate attributeName="fill-opacity" begin="0.7s" dur="0.4s" fill="freeze" to="1" />
+				</path>
+				<path d="M-1 11h26" stroke="currentColor" fill="none" transform="rotate(135 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+					<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.4s" fill="freeze" to="0" />
+				</path>
+			</g>
+		</mask>
+	</defs>
+	<path d="M0 0h24v24H0z" fill="currentColor" mask="url(#SVGmtEVjexe)" />
+	<path d="M-1 13h26" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(135 12 12)" stroke-dasharray="28" stroke-dashoffset="28">
+		<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.4s" fill="freeze" to="0" />
+	</path>
+    </Icon>
+  );
+}

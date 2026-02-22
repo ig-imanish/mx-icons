@@ -43,7 +43,5 @@ export const variants = [
     slug: "magicpen-twotone",
     Component: MagicpenTwotone,
     componentName: "MagicpenTwotone",
-  }
+  },
 ];
-
-export default { MagicpenBold, MagicpenBroken, MagicpenBulk, MagicpenLinear, MagicpenOutline, MagicpenTwotone };

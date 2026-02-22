@@ -10,40 +10,38 @@ export { Maximize4Bold, Maximize4Broken, Maximize4Bulk, Maximize4Linear, Maximiz
 export const variants = [
   {
     variant: "bold",
-    slug: "maximize-4-bold",
+    slug: "maximize4-bold",
     Component: Maximize4Bold,
     componentName: "Maximize4Bold",
   },
   {
     variant: "broken",
-    slug: "maximize-4-broken",
+    slug: "maximize4-broken",
     Component: Maximize4Broken,
     componentName: "Maximize4Broken",
   },
   {
     variant: "bulk",
-    slug: "maximize-4-bulk",
+    slug: "maximize4-bulk",
     Component: Maximize4Bulk,
     componentName: "Maximize4Bulk",
   },
   {
     variant: "linear",
-    slug: "maximize-4-linear",
+    slug: "maximize4-linear",
     Component: Maximize4Linear,
     componentName: "Maximize4Linear",
   },
   {
     variant: "outline",
-    slug: "maximize-4-outline",
+    slug: "maximize4-outline",
     Component: Maximize4Outline,
     componentName: "Maximize4Outline",
   },
   {
     variant: "twotone",
-    slug: "maximize-4-twotone",
+    slug: "maximize4-twotone",
     Component: Maximize4Twotone,
     componentName: "Maximize4Twotone",
-  }
+  },
 ];
-
-export default { Maximize4Bold, Maximize4Broken, Maximize4Bulk, Maximize4Linear, Maximize4Outline, Maximize4Twotone };

@@ -29,7 +29,5 @@ export const variants = [
     slug: "arrow-swap-outline",
     Component: ArrowSwapOutline,
     componentName: "ArrowSwapOutline",
-  }
+  },
 ];
-
-export default { ArrowSwapBold, ArrowSwapBroken, ArrowSwapBulk, ArrowSwapOutline };

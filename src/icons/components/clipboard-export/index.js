@@ -43,7 +43,5 @@ export const variants = [
     slug: "clipboard-export-twotone",
     Component: ClipboardExportTwotone,
     componentName: "ClipboardExportTwotone",
-  }
+  },
 ];
-
-export default { ClipboardExportBold, ClipboardExportBroken, ClipboardExportBulk, ClipboardExportLinear, ClipboardExportOutline, ClipboardExportTwotone };

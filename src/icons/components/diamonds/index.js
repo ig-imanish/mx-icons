@@ -43,7 +43,5 @@ export const variants = [
     slug: "diamonds-twotone",
     Component: DiamondsTwotone,
     componentName: "DiamondsTwotone",
-  }
+  },
 ];
-
-export default { DiamondsBold, DiamondsBroken, DiamondsBulk, DiamondsLinear, DiamondsOutline, DiamondsTwotone };

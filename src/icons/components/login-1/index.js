@@ -10,40 +10,38 @@ export { Login1Bold, Login1Broken, Login1Bulk, Login1Linear, Login1Outline, Logi
 export const variants = [
   {
     variant: "bold",
-    slug: "login-1-bold",
+    slug: "login1-bold",
     Component: Login1Bold,
     componentName: "Login1Bold",
   },
   {
     variant: "broken",
-    slug: "login-1-broken",
+    slug: "login1-broken",
     Component: Login1Broken,
     componentName: "Login1Broken",
   },
   {
     variant: "bulk",
-    slug: "login-1-bulk",
+    slug: "login1-bulk",
     Component: Login1Bulk,
     componentName: "Login1Bulk",
   },
   {
     variant: "linear",
-    slug: "login-1-linear",
+    slug: "login1-linear",
     Component: Login1Linear,
     componentName: "Login1Linear",
   },
   {
     variant: "outline",
-    slug: "login-1-outline",
+    slug: "login1-outline",
     Component: Login1Outline,
     componentName: "Login1Outline",
   },
   {
     variant: "twotone",
-    slug: "login-1-twotone",
+    slug: "login1-twotone",
     Component: Login1Twotone,
     componentName: "Login1Twotone",
-  }
+  },
 ];
-
-export default { Login1Bold, Login1Broken, Login1Bulk, Login1Linear, Login1Outline, Login1Twotone };

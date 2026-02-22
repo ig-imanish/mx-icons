@@ -43,7 +43,5 @@ export const variants = [
     slug: "gps-slash-twotone",
     Component: GpsSlashTwotone,
     componentName: "GpsSlashTwotone",
-  }
+  },
 ];
-
-export default { GpsSlashBold, GpsSlashBroken, GpsSlashBulk, GpsSlashLinear, GpsSlashOutline, GpsSlashTwotone };

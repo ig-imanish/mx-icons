@@ -43,7 +43,5 @@ export const variants = [
     slug: "gameboy-twotone",
     Component: GameboyTwotone,
     componentName: "GameboyTwotone",
-  }
+  },
 ];
-
-export default { GameboyBold, GameboyBroken, GameboyBulk, GameboyLinear, GameboyOutline, GameboyTwotone };

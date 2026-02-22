@@ -10,40 +10,38 @@ export { Buildings2Bold, Buildings2Broken, Buildings2Bulk, Buildings2Linear, Bui
 export const variants = [
   {
     variant: "bold",
-    slug: "buildings-2-bold",
+    slug: "buildings2-bold",
     Component: Buildings2Bold,
     componentName: "Buildings2Bold",
   },
   {
     variant: "broken",
-    slug: "buildings-2-broken",
+    slug: "buildings2-broken",
     Component: Buildings2Broken,
     componentName: "Buildings2Broken",
   },
   {
     variant: "bulk",
-    slug: "buildings-2-bulk",
+    slug: "buildings2-bulk",
     Component: Buildings2Bulk,
     componentName: "Buildings2Bulk",
   },
   {
     variant: "linear",
-    slug: "buildings-2-linear",
+    slug: "buildings2-linear",
     Component: Buildings2Linear,
     componentName: "Buildings2Linear",
   },
   {
     variant: "outline",
-    slug: "buildings-2-outline",
+    slug: "buildings2-outline",
     Component: Buildings2Outline,
     componentName: "Buildings2Outline",
   },
   {
     variant: "twotone",
-    slug: "buildings-2-twotone",
+    slug: "buildings2-twotone",
     Component: Buildings2Twotone,
     componentName: "Buildings2Twotone",
-  }
+  },
 ];
-
-export default { Buildings2Bold, Buildings2Broken, Buildings2Bulk, Buildings2Linear, Buildings2Outline, Buildings2Twotone };

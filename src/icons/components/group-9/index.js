@@ -5,10 +5,8 @@ export { Group9Linear };
 export const variants = [
   {
     variant: "linear",
-    slug: "group-9-linear",
+    slug: "group9-linear",
     Component: Group9Linear,
     componentName: "Group9Linear",
-  }
+  },
 ];
-
-export default { Group9Linear };

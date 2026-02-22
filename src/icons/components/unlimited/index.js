@@ -43,7 +43,5 @@ export const variants = [
     slug: "unlimited-twotone",
     Component: UnlimitedTwotone,
     componentName: "UnlimitedTwotone",
-  }
+  },
 ];
-
-export default { UnlimitedBold, UnlimitedBroken, UnlimitedBulk, UnlimitedLinear, UnlimitedOutline, UnlimitedTwotone };

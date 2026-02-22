@@ -43,7 +43,5 @@ export const variants = [
     slug: "weight-twotone",
     Component: WeightTwotone,
     componentName: "WeightTwotone",
-  }
+  },
 ];
-
-export default { WeightBold, WeightBroken, WeightBulk, WeightLinear, WeightOutline, WeightTwotone };

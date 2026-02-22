@@ -43,7 +43,5 @@ export const variants = [
     slug: "route-square-twotone",
     Component: RouteSquareTwotone,
     componentName: "RouteSquareTwotone",
-  }
+  },
 ];
-
-export default { RouteSquareBold, RouteSquareBroken, RouteSquareBulk, RouteSquareLinear, RouteSquareOutline, RouteSquareTwotone };

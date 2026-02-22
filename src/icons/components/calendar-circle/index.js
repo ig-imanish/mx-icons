@@ -43,7 +43,5 @@ export const variants = [
     slug: "calendar-circle-twotone",
     Component: CalendarCircleTwotone,
     componentName: "CalendarCircleTwotone",
-  }
+  },
 ];
-
-export default { CalendarCircleBold, CalendarCircleBroken, CalendarCircleBulk, CalendarCircleLinear, CalendarCircleOutline, CalendarCircleTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "calendar-edit-twotone",
     Component: CalendarEditTwotone,
     componentName: "CalendarEditTwotone",
-  }
+  },
 ];
-
-export default { CalendarEditBold, CalendarEditBroken, CalendarEditBulk, CalendarEditLinear, CalendarEditOutline, CalendarEditTwotone };

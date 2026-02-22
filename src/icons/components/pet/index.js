@@ -43,7 +43,5 @@ export const variants = [
     slug: "pet-twotone",
     Component: PetTwotone,
     componentName: "PetTwotone",
-  }
+  },
 ];
-
-export default { PetBold, PetBroken, PetBulk, PetLinear, PetOutline, PetTwotone };

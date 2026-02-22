@@ -5,10 +5,8 @@ export { Scissor2Linear };
 export const variants = [
   {
     variant: "linear",
-    slug: "scissor-2-linear",
+    slug: "scissor2-linear",
     Component: Scissor2Linear,
     componentName: "Scissor2Linear",
-  }
+  },
 ];
-
-export default { Scissor2Linear };

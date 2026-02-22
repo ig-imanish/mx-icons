@@ -43,7 +43,5 @@ export const variants = [
     slug: "firstline-twotone",
     Component: FirstlineTwotone,
     componentName: "FirstlineTwotone",
-  }
+  },
 ];
-
-export default { FirstlineBold, FirstlineBroken, FirstlineBulk, FirstlineLinear, FirstlineOutline, FirstlineTwotone };

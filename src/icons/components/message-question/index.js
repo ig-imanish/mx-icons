@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-question-twotone",
     Component: MessageQuestionTwotone,
     componentName: "MessageQuestionTwotone",
-  }
+  },
 ];
-
-export default { MessageQuestionBold, MessageQuestionBroken, MessageQuestionBulk, MessageQuestionLinear, MessageQuestionOutline, MessageQuestionTwotone };

@@ -10,40 +10,38 @@ export { RulerAndpenBold, RulerAndpenBroken, RulerAndpenBulk, RulerAndpenLinear,
 export const variants = [
   {
     variant: "bold",
-    slug: "rulerandpen-bold",
+    slug: "ruler-andpen-bold",
     Component: RulerAndpenBold,
     componentName: "RulerAndpenBold",
   },
   {
     variant: "broken",
-    slug: "rulerandpen-broken",
+    slug: "ruler-andpen-broken",
     Component: RulerAndpenBroken,
     componentName: "RulerAndpenBroken",
   },
   {
     variant: "bulk",
-    slug: "rulerandpen-bulk",
+    slug: "ruler-andpen-bulk",
     Component: RulerAndpenBulk,
     componentName: "RulerAndpenBulk",
   },
   {
     variant: "linear",
-    slug: "rulerandpen-linear",
+    slug: "ruler-andpen-linear",
     Component: RulerAndpenLinear,
     componentName: "RulerAndpenLinear",
   },
   {
     variant: "outline",
-    slug: "rulerandpen-outline",
+    slug: "ruler-andpen-outline",
     Component: RulerAndpenOutline,
     componentName: "RulerAndpenOutline",
   },
   {
     variant: "twotone",
-    slug: "rulerandpen-twotone",
+    slug: "ruler-andpen-twotone",
     Component: RulerAndpenTwotone,
     componentName: "RulerAndpenTwotone",
-  }
+  },
 ];
-
-export default { RulerAndpenBold, RulerAndpenBroken, RulerAndpenBulk, RulerAndpenLinear, RulerAndpenOutline, RulerAndpenTwotone };

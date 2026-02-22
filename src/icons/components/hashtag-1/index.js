@@ -10,40 +10,38 @@ export { Hashtag1Bold, Hashtag1Broken, Hashtag1Bulk, Hashtag1Linear, Hashtag1Out
 export const variants = [
   {
     variant: "bold",
-    slug: "hashtag-1-bold",
+    slug: "hashtag1-bold",
     Component: Hashtag1Bold,
     componentName: "Hashtag1Bold",
   },
   {
     variant: "broken",
-    slug: "hashtag-1-broken",
+    slug: "hashtag1-broken",
     Component: Hashtag1Broken,
     componentName: "Hashtag1Broken",
   },
   {
     variant: "bulk",
-    slug: "hashtag-1-bulk",
+    slug: "hashtag1-bulk",
     Component: Hashtag1Bulk,
     componentName: "Hashtag1Bulk",
   },
   {
     variant: "linear",
-    slug: "hashtag-1-linear",
+    slug: "hashtag1-linear",
     Component: Hashtag1Linear,
     componentName: "Hashtag1Linear",
   },
   {
     variant: "outline",
-    slug: "hashtag-1-outline",
+    slug: "hashtag1-outline",
     Component: Hashtag1Outline,
     componentName: "Hashtag1Outline",
   },
   {
     variant: "twotone",
-    slug: "hashtag-1-twotone",
+    slug: "hashtag1-twotone",
     Component: Hashtag1Twotone,
     componentName: "Hashtag1Twotone",
-  }
+  },
 ];
-
-export default { Hashtag1Bold, Hashtag1Broken, Hashtag1Bulk, Hashtag1Linear, Hashtag1Outline, Hashtag1Twotone };

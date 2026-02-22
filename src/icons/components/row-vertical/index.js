@@ -43,7 +43,5 @@ export const variants = [
     slug: "row-vertical-twotone",
     Component: RowVerticalTwotone,
     componentName: "RowVerticalTwotone",
-  }
+  },
 ];
-
-export default { RowVerticalBold, RowVerticalBroken, RowVerticalBulk, RowVerticalLinear, RowVerticalOutline, RowVerticalTwotone };

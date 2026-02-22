@@ -43,7 +43,5 @@ export const variants = [
     slug: "clock-twotone",
     Component: ClockTwotone,
     componentName: "ClockTwotone",
-  }
+  },
 ];
-
-export default { ClockBold, ClockBroken, ClockBulk, ClockLinear, ClockOutline, ClockTwotone };

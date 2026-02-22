@@ -10,40 +10,38 @@ export { MessageAdd1Bold, MessageAdd1Broken, MessageAdd1Bulk, MessageAdd1Linear,
 export const variants = [
   {
     variant: "bold",
-    slug: "message-add-1-bold",
+    slug: "message-add1-bold",
     Component: MessageAdd1Bold,
     componentName: "MessageAdd1Bold",
   },
   {
     variant: "broken",
-    slug: "message-add-1-broken",
+    slug: "message-add1-broken",
     Component: MessageAdd1Broken,
     componentName: "MessageAdd1Broken",
   },
   {
     variant: "bulk",
-    slug: "message-add-1-bulk",
+    slug: "message-add1-bulk",
     Component: MessageAdd1Bulk,
     componentName: "MessageAdd1Bulk",
   },
   {
     variant: "linear",
-    slug: "message-add-1-linear",
+    slug: "message-add1-linear",
     Component: MessageAdd1Linear,
     componentName: "MessageAdd1Linear",
   },
   {
     variant: "outline",
-    slug: "message-add-1-outline",
+    slug: "message-add1-outline",
     Component: MessageAdd1Outline,
     componentName: "MessageAdd1Outline",
   },
   {
     variant: "twotone",
-    slug: "message-add-1-twotone",
+    slug: "message-add1-twotone",
     Component: MessageAdd1Twotone,
     componentName: "MessageAdd1Twotone",
-  }
+  },
 ];
-
-export default { MessageAdd1Bold, MessageAdd1Broken, MessageAdd1Bulk, MessageAdd1Linear, MessageAdd1Outline, MessageAdd1Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "notification-bing-twotone",
     Component: NotificationBingTwotone,
     componentName: "NotificationBingTwotone",
-  }
+  },
 ];
-
-export default { NotificationBingBold, NotificationBingBroken, NotificationBingBulk, NotificationBingLinear, NotificationBingOutline, NotificationBingTwotone };

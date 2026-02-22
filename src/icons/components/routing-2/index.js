@@ -10,40 +10,38 @@ export { Routing2Bold, Routing2Broken, Routing2Bulk, Routing2Linear, Routing2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "routing-2-bold",
+    slug: "routing2-bold",
     Component: Routing2Bold,
     componentName: "Routing2Bold",
   },
   {
     variant: "broken",
-    slug: "routing-2-broken",
+    slug: "routing2-broken",
     Component: Routing2Broken,
     componentName: "Routing2Broken",
   },
   {
     variant: "bulk",
-    slug: "routing-2-bulk",
+    slug: "routing2-bulk",
     Component: Routing2Bulk,
     componentName: "Routing2Bulk",
   },
   {
     variant: "linear",
-    slug: "routing-2-linear",
+    slug: "routing2-linear",
     Component: Routing2Linear,
     componentName: "Routing2Linear",
   },
   {
     variant: "outline",
-    slug: "routing-2-outline",
+    slug: "routing2-outline",
     Component: Routing2Outline,
     componentName: "Routing2Outline",
   },
   {
     variant: "twotone",
-    slug: "routing-2-twotone",
+    slug: "routing2-twotone",
     Component: Routing2Twotone,
     componentName: "Routing2Twotone",
-  }
+  },
 ];
-
-export default { Routing2Bold, Routing2Broken, Routing2Bulk, Routing2Linear, Routing2Outline, Routing2Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-tick-twotone",
     Component: MessageTickTwotone,
     componentName: "MessageTickTwotone",
-  }
+  },
 ];
-
-export default { MessageTickBold, MessageTickBroken, MessageTickBulk, MessageTickLinear, MessageTickOutline, MessageTickTwotone };

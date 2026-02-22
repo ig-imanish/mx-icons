@@ -43,7 +43,5 @@ export const variants = [
     slug: "grammerly-twotone",
     Component: GrammerlyTwotone,
     componentName: "GrammerlyTwotone",
-  }
+  },
 ];
-
-export default { GrammerlyBold, GrammerlyBroken, GrammerlyBulk, GrammerlyLinear, GrammerlyOutline, GrammerlyTwotone };

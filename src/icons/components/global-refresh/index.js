@@ -43,7 +43,5 @@ export const variants = [
     slug: "global-refresh-twotone",
     Component: GlobalRefreshTwotone,
     componentName: "GlobalRefreshTwotone",
-  }
+  },
 ];
-
-export default { GlobalRefreshBold, GlobalRefreshBroken, GlobalRefreshBulk, GlobalRefreshLinear, GlobalRefreshOutline, GlobalRefreshTwotone };

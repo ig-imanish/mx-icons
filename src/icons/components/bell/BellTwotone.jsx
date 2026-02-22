@@ -1,0 +1,31 @@
+import Icon from "../../Icon";
+
+export default function BellTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 3v2" fill="none" stroke-dasharray="4">
+			<animate attributeName="stroke-dashoffset" dur="0.2s" fill="freeze" values="4;0" />
+		</path>
+		<path d="M12 5c-3.31 0 -6 2.69 -6 6l0 6c-1 0 -2 1 -2 2h8M12 5c3.31 0 6 2.69 6 6l0 6c1 0 2 1 2 2h-8" fill="currentColor" fill-opacity="0" stroke-dasharray="30" stroke-dashoffset="30">
+			<animate attributeName="stroke-dashoffset" begin="0.2s" dur="0.4s" fill="freeze" to="0" />
+			<animate attributeName="fill-opacity" begin="0.9s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<path d="M10 20c0 1.1 0.9 2 2 2c1.1 0 2 -0.9 2 -2" fill="none" stroke-dasharray="10" stroke-dashoffset="10">
+			<animate attributeName="stroke-dashoffset" begin="0.7s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

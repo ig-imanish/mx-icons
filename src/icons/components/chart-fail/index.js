@@ -22,7 +22,5 @@ export const variants = [
     slug: "chart-fail-outline",
     Component: ChartFailOutline,
     componentName: "ChartFailOutline",
-  }
+  },
 ];
-
-export default { ChartFailBold, ChartFailBroken, ChartFailOutline };

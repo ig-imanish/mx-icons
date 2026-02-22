@@ -43,7 +43,5 @@ export const variants = [
     slug: "stop-circle-twotone",
     Component: StopCircleTwotone,
     componentName: "StopCircleTwotone",
-  }
+  },
 ];
-
-export default { StopCircleBold, StopCircleBroken, StopCircleBulk, StopCircleLinear, StopCircleOutline, StopCircleTwotone };

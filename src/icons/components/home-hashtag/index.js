@@ -43,7 +43,5 @@ export const variants = [
     slug: "home-hashtag-twotone",
     Component: HomeHashtagTwotone,
     componentName: "HomeHashtagTwotone",
-  }
+  },
 ];
-
-export default { HomeHashtagBold, HomeHashtagBroken, HomeHashtagBulk, HomeHashtagLinear, HomeHashtagOutline, HomeHashtagTwotone };

@@ -1,0 +1,29 @@
+import Icon from "../../Icon";
+
+export default function MyLocation({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M12 4c4.42 0 8 3.58 8 8c0 4.42 -3.58 8 -8 8c-4.42 0 -8 -3.58 -8 -8c0 -4.42 3.58 -8 8 -8Z" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="54">
+		<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="54;0" />
+	</path>
+	<circle cx="12" cy="12" fill="currentColor">
+		<animate attributeName="r" begin="0.9s" dur="0.2s" fill="freeze" to="4" />
+	</circle>
+	<path d="M12 4v-2M20 12h2M12 20v2M4 12h-2" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+		<set attributeName="opacity" to="1" begin="0.7s" fill="freeze" />
+		<animate attributeName="d" begin="0.7s" dur="0.2s" fill="freeze" values="M12 4v0M20 12h0M12 20v0M4 12h0;M12 4v-2M20 12h2M12 20v2M4 12h-2" />
+	</path>
+    </Icon>
+  );
+}

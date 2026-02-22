@@ -43,7 +43,5 @@ export const variants = [
     slug: "microphone-slash-twotone",
     Component: MicrophoneSlashTwotone,
     componentName: "MicrophoneSlashTwotone",
-  }
+  },
 ];
-
-export default { MicrophoneSlashBold, MicrophoneSlashBroken, MicrophoneSlashBulk, MicrophoneSlashLinear, MicrophoneSlashOutline, MicrophoneSlashTwotone };

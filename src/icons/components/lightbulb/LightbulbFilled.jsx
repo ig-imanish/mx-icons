@@ -1,0 +1,28 @@
+import Icon from "../../Icon";
+
+export default function LightbulbFilled({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 17h-3v-2.8c-1.79 -1.04 -3 -2.98 -3 -5.2c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 2.22 -1.21 4.16 -3 5.2v2.8Z" fill="currentColor" stroke-dasharray="46" fill-opacity="0">
+			<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="46;0" />
+			<animate attributeName="fill-opacity" begin="0.7s" dur="0.4s" fill="freeze" to="1" />
+		</path>
+		<path d="M10 21h4" fill="none" stroke-dasharray="6" stroke-dashoffset="6">
+			<animate attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

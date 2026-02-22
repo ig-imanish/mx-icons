@@ -10,40 +10,38 @@ export { Weight1Bold, Weight1Broken, Weight1Bulk, Weight1Linear, Weight1Outline,
 export const variants = [
   {
     variant: "bold",
-    slug: "weight-1-bold",
+    slug: "weight1-bold",
     Component: Weight1Bold,
     componentName: "Weight1Bold",
   },
   {
     variant: "broken",
-    slug: "weight-1-broken",
+    slug: "weight1-broken",
     Component: Weight1Broken,
     componentName: "Weight1Broken",
   },
   {
     variant: "bulk",
-    slug: "weight-1-bulk",
+    slug: "weight1-bulk",
     Component: Weight1Bulk,
     componentName: "Weight1Bulk",
   },
   {
     variant: "linear",
-    slug: "weight-1-linear",
+    slug: "weight1-linear",
     Component: Weight1Linear,
     componentName: "Weight1Linear",
   },
   {
     variant: "outline",
-    slug: "weight-1-outline",
+    slug: "weight1-outline",
     Component: Weight1Outline,
     componentName: "Weight1Outline",
   },
   {
     variant: "twotone",
-    slug: "weight-1-twotone",
+    slug: "weight1-twotone",
     Component: Weight1Twotone,
     componentName: "Weight1Twotone",
-  }
+  },
 ];
-
-export default { Weight1Bold, Weight1Broken, Weight1Bulk, Weight1Linear, Weight1Outline, Weight1Twotone };

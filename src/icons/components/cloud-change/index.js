@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-change-twotone",
     Component: CloudChangeTwotone,
     componentName: "CloudChangeTwotone",
-  }
+  },
 ];
-
-export default { CloudChangeBold, CloudChangeBroken, CloudChangeBulk, CloudChangeLinear, CloudChangeOutline, CloudChangeTwotone };

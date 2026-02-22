@@ -43,7 +43,5 @@ export const variants = [
     slug: "dislike-twotone",
     Component: DislikeTwotone,
     componentName: "DislikeTwotone",
-  }
+  },
 ];
-
-export default { DislikeBold, DislikeBroken, DislikeBulk, DislikeLinear, DislikeOutline, DislikeTwotone };

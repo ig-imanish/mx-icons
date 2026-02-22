@@ -43,7 +43,5 @@ export const variants = [
     slug: "electricity-twotone",
     Component: ElectricityTwotone,
     componentName: "ElectricityTwotone",
-  }
+  },
 ];
-
-export default { ElectricityBold, ElectricityBroken, ElectricityBulk, ElectricityLinear, ElectricityOutline, ElectricityTwotone };

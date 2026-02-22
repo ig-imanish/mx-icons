@@ -43,7 +43,5 @@ export const variants = [
     slug: "key-square-twotone",
     Component: KeySquareTwotone,
     componentName: "KeySquareTwotone",
-  }
+  },
 ];
-
-export default { KeySquareBold, KeySquareBroken, KeySquareBulk, KeySquareLinear, KeySquareOutline, KeySquareTwotone };

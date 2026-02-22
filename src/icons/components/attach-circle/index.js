@@ -43,7 +43,5 @@ export const variants = [
     slug: "attach-circle-twotone",
     Component: AttachCircleTwotone,
     componentName: "AttachCircleTwotone",
-  }
+  },
 ];
-
-export default { AttachCircleBold, AttachCircleBroken, AttachCircleBulk, AttachCircleLinear, AttachCircleOutline, AttachCircleTwotone };

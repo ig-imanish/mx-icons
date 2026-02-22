@@ -43,7 +43,5 @@ export const variants = [
     slug: "heart-tick-twotone",
     Component: HeartTickTwotone,
     componentName: "HeartTickTwotone",
-  }
+  },
 ];
-
-export default { HeartTickBold, HeartTickBroken, HeartTickBulk, HeartTickLinear, HeartTickOutline, HeartTickTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "radar-twotone",
     Component: RadarTwotone,
     componentName: "RadarTwotone",
-  }
+  },
 ];
-
-export default { RadarBold, RadarBroken, RadarBulk, RadarLinear, RadarOutline, RadarTwotone };

@@ -10,40 +10,38 @@ export { Flag2Bold, Flag2Broken, Flag2Bulk, Flag2Linear, Flag2Outline, Flag2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "flag-2-bold",
+    slug: "flag2-bold",
     Component: Flag2Bold,
     componentName: "Flag2Bold",
   },
   {
     variant: "broken",
-    slug: "flag-2-broken",
+    slug: "flag2-broken",
     Component: Flag2Broken,
     componentName: "Flag2Broken",
   },
   {
     variant: "bulk",
-    slug: "flag-2-bulk",
+    slug: "flag2-bulk",
     Component: Flag2Bulk,
     componentName: "Flag2Bulk",
   },
   {
     variant: "linear",
-    slug: "flag-2-linear",
+    slug: "flag2-linear",
     Component: Flag2Linear,
     componentName: "Flag2Linear",
   },
   {
     variant: "outline",
-    slug: "flag-2-outline",
+    slug: "flag2-outline",
     Component: Flag2Outline,
     componentName: "Flag2Outline",
   },
   {
     variant: "twotone",
-    slug: "flag-2-twotone",
+    slug: "flag2-twotone",
     Component: Flag2Twotone,
     componentName: "Flag2Twotone",
-  }
+  },
 ];
-
-export default { Flag2Bold, Flag2Broken, Flag2Bulk, Flag2Linear, Flag2Outline, Flag2Twotone };

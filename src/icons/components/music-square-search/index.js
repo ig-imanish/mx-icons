@@ -43,7 +43,5 @@ export const variants = [
     slug: "music-square-search-twotone",
     Component: MusicSquareSearchTwotone,
     componentName: "MusicSquareSearchTwotone",
-  }
+  },
 ];
-
-export default { MusicSquareSearchBold, MusicSquareSearchBroken, MusicSquareSearchBulk, MusicSquareSearchLinear, MusicSquareSearchOutline, MusicSquareSearchTwotone };

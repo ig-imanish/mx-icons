@@ -43,7 +43,5 @@ export const variants = [
     slug: "cloud-notif-twotone",
     Component: CloudNotifTwotone,
     componentName: "CloudNotifTwotone",
-  }
+  },
 ];
-
-export default { CloudNotifBold, CloudNotifBroken, CloudNotifBulk, CloudNotifLinear, CloudNotifOutline, CloudNotifTwotone };

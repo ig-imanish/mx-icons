@@ -1,16 +1,9 @@
 import GooglePlayBold from "./GooglePlayBold";
+import GooglePlayBulk from "./GooglePlayBulk";
 import GooglePlayLinear from "./GooglePlayLinear";
 import GooglePlayOutline from "./GooglePlayOutline";
-import GooglePlayBulk from "./GooglePlayBulk";
 
-
-export {
-  GooglePlayBold,
-  GooglePlayLinear,
-  GooglePlayOutline,
-  GooglePlayBulk,
-
-};
+export { GooglePlayBold, GooglePlayBulk, GooglePlayLinear, GooglePlayOutline };
 
 export const variants = [
   {
@@ -18,6 +11,12 @@ export const variants = [
     slug: "google-play-bold",
     Component: GooglePlayBold,
     componentName: "GooglePlayBold",
+  },
+  {
+    variant: "bulk",
+    slug: "google-play-bulk",
+    Component: GooglePlayBulk,
+    componentName: "GooglePlayBulk",
   },
   {
     variant: "linear",
@@ -31,19 +30,4 @@ export const variants = [
     Component: GooglePlayOutline,
     componentName: "GooglePlayOutline",
   },
-  {
-    variant: "bulk",
-    slug: "google-play-bulk",
-    Component: GooglePlayBulk,
-    componentName: "GooglePlayBulk",
-  },
- 
 ];
-
-export default {
-  GooglePlayBold,
-  GooglePlayLinear,
-  GooglePlayOutline,
-  GooglePlayBulk,
-
-};

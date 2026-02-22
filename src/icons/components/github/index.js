@@ -1,16 +1,13 @@
-import GithubLinear from "./GithubLinear";
 import GithubBold from "./GithubBold";
 import GithubBulk from "./GithubBulk";
+import GithubLinear from "./GithubLinear";
+import GithubLoop from "./GithubLoop";
+import GithubTwotone from "./GithubTwotone";
+import GithubTwotoneLoop from "./GithubTwotoneLoop";
 
-export { GithubLinear, GithubBold, GithubBulk };
+export { GithubBold, GithubBulk, GithubLinear, GithubLoop, GithubTwotone, GithubTwotoneLoop };
 
 export const variants = [
-  {
-    variant: "linear",
-    slug: "github-linear",
-    Component: GithubLinear,
-    componentName: "GithubLinear",
-  },
   {
     variant: "bold",
     slug: "github-bold",
@@ -23,6 +20,28 @@ export const variants = [
     Component: GithubBulk,
     componentName: "GithubBulk",
   },
+  {
+    variant: "linear",
+    slug: "github-linear",
+    Component: GithubLinear,
+    componentName: "GithubLinear",
+  },
+  {
+    variant: "linear",
+    slug: "github-loop",
+    Component: GithubLoop,
+    componentName: "GithubLoop",
+  },
+  {
+    variant: "twotone",
+    slug: "github-twotone",
+    Component: GithubTwotone,
+    componentName: "GithubTwotone",
+  },
+  {
+    variant: "twotone",
+    slug: "github-twotone-loop",
+    Component: GithubTwotoneLoop,
+    componentName: "GithubTwotoneLoop",
+  },
 ];
-
-export default { GithubLinear, GithubBold, GithubBulk };

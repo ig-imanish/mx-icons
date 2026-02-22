@@ -10,40 +10,38 @@ export { Frame2Bold, Frame2Broken, Frame2Bulk, Frame2Linear, Frame2Outline, Fram
 export const variants = [
   {
     variant: "bold",
-    slug: "frame-2-bold",
+    slug: "frame2-bold",
     Component: Frame2Bold,
     componentName: "Frame2Bold",
   },
   {
     variant: "broken",
-    slug: "frame-2-broken",
+    slug: "frame2-broken",
     Component: Frame2Broken,
     componentName: "Frame2Broken",
   },
   {
     variant: "bulk",
-    slug: "frame-2-bulk",
+    slug: "frame2-bulk",
     Component: Frame2Bulk,
     componentName: "Frame2Bulk",
   },
   {
     variant: "linear",
-    slug: "frame-2-linear",
+    slug: "frame2-linear",
     Component: Frame2Linear,
     componentName: "Frame2Linear",
   },
   {
     variant: "outline",
-    slug: "frame-2-outline",
+    slug: "frame2-outline",
     Component: Frame2Outline,
     componentName: "Frame2Outline",
   },
   {
     variant: "twotone",
-    slug: "frame-2-twotone",
+    slug: "frame2-twotone",
     Component: Frame2Twotone,
     componentName: "Frame2Twotone",
-  }
+  },
 ];
-
-export default { Frame2Bold, Frame2Broken, Frame2Bulk, Frame2Linear, Frame2Outline, Frame2Twotone };

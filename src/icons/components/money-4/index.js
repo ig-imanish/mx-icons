@@ -10,40 +10,38 @@ export { Money4Bold, Money4Broken, Money4Bulk, Money4Linear, Money4Outline, Mone
 export const variants = [
   {
     variant: "bold",
-    slug: "money-4-bold",
+    slug: "money4-bold",
     Component: Money4Bold,
     componentName: "Money4Bold",
   },
   {
     variant: "broken",
-    slug: "money-4-broken",
+    slug: "money4-broken",
     Component: Money4Broken,
     componentName: "Money4Broken",
   },
   {
     variant: "bulk",
-    slug: "money-4-bulk",
+    slug: "money4-bulk",
     Component: Money4Bulk,
     componentName: "Money4Bulk",
   },
   {
     variant: "linear",
-    slug: "money-4-linear",
+    slug: "money4-linear",
     Component: Money4Linear,
     componentName: "Money4Linear",
   },
   {
     variant: "outline",
-    slug: "money-4-outline",
+    slug: "money4-outline",
     Component: Money4Outline,
     componentName: "Money4Outline",
   },
   {
     variant: "twotone",
-    slug: "money-4-twotone",
+    slug: "money4-twotone",
     Component: Money4Twotone,
     componentName: "Money4Twotone",
-  }
+  },
 ];
-
-export default { Money4Bold, Money4Broken, Money4Bulk, Money4Linear, Money4Outline, Money4Twotone };

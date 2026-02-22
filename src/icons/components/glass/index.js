@@ -43,7 +43,5 @@ export const variants = [
     slug: "glass-twotone",
     Component: GlassTwotone,
     componentName: "GlassTwotone",
-  }
+  },
 ];
-
-export default { GlassBold, GlassBroken, GlassBulk, GlassLinear, GlassOutline, GlassTwotone };

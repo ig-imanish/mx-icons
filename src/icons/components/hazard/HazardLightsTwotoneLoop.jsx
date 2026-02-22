@@ -1,0 +1,29 @@
+import Icon from "../../Icon";
+
+export default function HazardLightsTwotoneLoop({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 10l4 7h-8Z" fill="currentColor" fill-opacity="0" stroke-dasharray="28">
+			<animate attributeName="stroke-dashoffset" dur="0.4s" fill="freeze" values="28;0" />
+			<animate attributeName="fill-opacity" begin="0.6s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<path d="M12 10l4 7h-8Z" fill="none" opacity="0">
+			<animate attributeName="d" begin="0.4s" dur="0.8s" repeatCount="indefinite" keyTimes="0;0.25;1" values="M12 10l4 7h-8Z;M12 4l9.25 16h-18.5Z;M12 4l9.25 16h-18.5Z" />
+			<animate attributeName="opacity" begin="0.4s" dur="0.8s" repeatCount="indefinite" keyTimes="0;0.1;0.75;1" values="0;1;1;0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

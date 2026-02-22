@@ -43,7 +43,5 @@ export const variants = [
     slug: "message-remove-twotone",
     Component: MessageRemoveTwotone,
     componentName: "MessageRemoveTwotone",
-  }
+  },
 ];
-
-export default { MessageRemoveBold, MessageRemoveBroken, MessageRemoveBulk, MessageRemoveLinear, MessageRemoveOutline, MessageRemoveTwotone };

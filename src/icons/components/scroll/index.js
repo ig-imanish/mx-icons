@@ -43,7 +43,5 @@ export const variants = [
     slug: "scroll-twotone",
     Component: ScrollTwotone,
     componentName: "ScrollTwotone",
-  }
+  },
 ];
-
-export default { ScrollBold, ScrollBroken, ScrollBulk, ScrollLinear, ScrollOutline, ScrollTwotone };

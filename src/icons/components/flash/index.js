@@ -43,7 +43,5 @@ export const variants = [
     slug: "flash-twotone",
     Component: FlashTwotone,
     componentName: "FlashTwotone",
-  }
+  },
 ];
-
-export default { FlashBold, FlashBroken, FlashBulk, FlashLinear, FlashOutline, FlashTwotone };

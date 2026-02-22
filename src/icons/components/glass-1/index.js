@@ -10,40 +10,38 @@ export { Glass1Bold, Glass1Broken, Glass1Bulk, Glass1Linear, Glass1Outline, Glas
 export const variants = [
   {
     variant: "bold",
-    slug: "glass-1-bold",
+    slug: "glass1-bold",
     Component: Glass1Bold,
     componentName: "Glass1Bold",
   },
   {
     variant: "broken",
-    slug: "glass-1-broken",
+    slug: "glass1-broken",
     Component: Glass1Broken,
     componentName: "Glass1Broken",
   },
   {
     variant: "bulk",
-    slug: "glass-1-bulk",
+    slug: "glass1-bulk",
     Component: Glass1Bulk,
     componentName: "Glass1Bulk",
   },
   {
     variant: "linear",
-    slug: "glass-1-linear",
+    slug: "glass1-linear",
     Component: Glass1Linear,
     componentName: "Glass1Linear",
   },
   {
     variant: "outline",
-    slug: "glass-1-outline",
+    slug: "glass1-outline",
     Component: Glass1Outline,
     componentName: "Glass1Outline",
   },
   {
     variant: "twotone",
-    slug: "glass-1-twotone",
+    slug: "glass1-twotone",
     Component: Glass1Twotone,
     componentName: "Glass1Twotone",
-  }
+  },
 ];
-
-export default { Glass1Bold, Glass1Broken, Glass1Bulk, Glass1Linear, Glass1Outline, Glass1Twotone };

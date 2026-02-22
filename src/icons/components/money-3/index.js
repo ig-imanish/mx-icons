@@ -10,40 +10,38 @@ export { Money3Bold, Money3Broken, Money3Bulk, Money3Linear, Money3Outline, Mone
 export const variants = [
   {
     variant: "bold",
-    slug: "money-3-bold",
+    slug: "money3-bold",
     Component: Money3Bold,
     componentName: "Money3Bold",
   },
   {
     variant: "broken",
-    slug: "money-3-broken",
+    slug: "money3-broken",
     Component: Money3Broken,
     componentName: "Money3Broken",
   },
   {
     variant: "bulk",
-    slug: "money-3-bulk",
+    slug: "money3-bulk",
     Component: Money3Bulk,
     componentName: "Money3Bulk",
   },
   {
     variant: "linear",
-    slug: "money-3-linear",
+    slug: "money3-linear",
     Component: Money3Linear,
     componentName: "Money3Linear",
   },
   {
     variant: "outline",
-    slug: "money-3-outline",
+    slug: "money3-outline",
     Component: Money3Outline,
     componentName: "Money3Outline",
   },
   {
     variant: "twotone",
-    slug: "money-3-twotone",
+    slug: "money3-twotone",
     Component: Money3Twotone,
     componentName: "Money3Twotone",
-  }
+  },
 ];
-
-export default { Money3Bold, Money3Broken, Money3Bulk, Money3Linear, Money3Outline, Money3Twotone };

@@ -29,7 +29,5 @@ export const variants = [
     slug: "arrow-circle-up-outline",
     Component: ArrowCircleUpOutline,
     componentName: "ArrowCircleUpOutline",
-  }
+  },
 ];
-
-export default { ArrowCircleUpBold, ArrowCircleUpBroken, ArrowCircleUpBulk, ArrowCircleUpOutline };

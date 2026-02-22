@@ -43,7 +43,5 @@ export const variants = [
     slug: "bezier-twotone",
     Component: BezierTwotone,
     componentName: "BezierTwotone",
-  }
+  },
 ];
-
-export default { BezierBold, BezierBroken, BezierBulk, BezierLinear, BezierOutline, BezierTwotone };

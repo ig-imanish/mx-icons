@@ -43,7 +43,5 @@ export const variants = [
     slug: "card-receive-twotone",
     Component: CardReceiveTwotone,
     componentName: "CardReceiveTwotone",
-  }
+  },
 ];
-
-export default { CardReceiveBold, CardReceiveBroken, CardReceiveBulk, CardReceiveLinear, CardReceiveOutline, CardReceiveTwotone };

@@ -10,40 +10,38 @@ export { More2Bold, More2Broken, More2Bulk, More2Linear, More2Outline, More2Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "more-2-bold",
+    slug: "more2-bold",
     Component: More2Bold,
     componentName: "More2Bold",
   },
   {
     variant: "broken",
-    slug: "more-2-broken",
+    slug: "more2-broken",
     Component: More2Broken,
     componentName: "More2Broken",
   },
   {
     variant: "bulk",
-    slug: "more-2-bulk",
+    slug: "more2-bulk",
     Component: More2Bulk,
     componentName: "More2Bulk",
   },
   {
     variant: "linear",
-    slug: "more-2-linear",
+    slug: "more2-linear",
     Component: More2Linear,
     componentName: "More2Linear",
   },
   {
     variant: "outline",
-    slug: "more-2-outline",
+    slug: "more2-outline",
     Component: More2Outline,
     componentName: "More2Outline",
   },
   {
     variant: "twotone",
-    slug: "more-2-twotone",
+    slug: "more2-twotone",
     Component: More2Twotone,
     componentName: "More2Twotone",
-  }
+  },
 ];
-
-export default { More2Bold, More2Broken, More2Bulk, More2Linear, More2Outline, More2Twotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "gallery-tick-twotone",
     Component: GalleryTickTwotone,
     componentName: "GalleryTickTwotone",
-  }
+  },
 ];
-
-export default { GalleryTickBold, GalleryTickBroken, GalleryTickBulk, GalleryTickLinear, GalleryTickOutline, GalleryTickTwotone };

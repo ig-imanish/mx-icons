@@ -43,7 +43,5 @@ export const variants = [
     slug: "quote-up-square-twotone",
     Component: QuoteUpSquareTwotone,
     componentName: "QuoteUpSquareTwotone",
-  }
+  },
 ];
-
-export default { QuoteUpSquareBold, QuoteUpSquareBroken, QuoteUpSquareBulk, QuoteUpSquareLinear, QuoteUpSquareOutline, QuoteUpSquareTwotone };

@@ -1,0 +1,36 @@
+import Icon from "../../Icon";
+
+export default function EmojiFrownOpenTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9" fill="currentColor" fill-opacity="0" stroke-dasharray="60">
+			<animate attributeName="stroke-dashoffset" dur="0.6s" fill="freeze" values="60;0" />
+			<animate attributeName="fill-opacity" begin="1.2s" dur="0.15s" fill="freeze" to="0.3" />
+		</path>
+		<g fill="none" stroke-dasharray="4">
+			<path d="M9 9v1" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+			<path d="M15 9v1" stroke-dashoffset="4">
+				<animate attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" fill="freeze" to="0" />
+			</path>
+		</g>
+	</g>
+	<path d="M12 15c-3.25 0 -4.5 0 -4.5 0c0 0 0.45 0 1 0c0.75 0 0.5 0 3.5 0c3 0 2.75 0 3.5 0c0.55 0 1 0 1 0c0 0 -1.25 0 -4.5 0Z" fill="currentColor">
+		<animate attributeName="d" begin="1s" dur="0.2s" fill="freeze" to="M12 13c-3.25 0 -4.5 2.45 -4.5 3c0 0.55 0.45 1 1 1c0.75 0 0.5 -0.5 3.5 -0.5c3 0 2.75 0.5 3.5 0.5c0.55 0 1 -0.45 1 -1c0 -0.55 -1.25 -3 -4.5 -3Z" />
+	</path>
+    </Icon>
+  );
+}

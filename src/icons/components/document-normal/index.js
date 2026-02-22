@@ -36,7 +36,5 @@ export const variants = [
     slug: "document-normal-outline",
     Component: DocumentNormalOutline,
     componentName: "DocumentNormalOutline",
-  }
+  },
 ];
-
-export default { DocumentNormalBold, DocumentNormalBroken, DocumentNormalBulk, DocumentNormalLinear, DocumentNormalOutline };

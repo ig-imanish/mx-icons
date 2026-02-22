@@ -43,7 +43,5 @@ export const variants = [
     slug: "blur-twotone",
     Component: BlurTwotone,
     componentName: "BlurTwotone",
-  }
+  },
 ];
-
-export default { BlurBold, BlurBroken, BlurBulk, BlurLinear, BlurOutline, BlurTwotone };

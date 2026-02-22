@@ -1,21 +1,19 @@
-import NewTwitterLinear from "./NewTwitterLinear";
 import NewTwitterBulk from "./NewTwitterBulk";
+import NewTwitterLinear from "./NewTwitterLinear";
 
-export { NewTwitterLinear, NewTwitterBulk };
+export { NewTwitterBulk, NewTwitterLinear };
 
 export const variants = [
-  {
-    variant: "linear",
-    slug: "new-twitter-linear",
-    Component: NewTwitterLinear,
-    componentName: "NewTwitterLinear",
-  },
   {
     variant: "bulk",
     slug: "new-twitter-bulk",
     Component: NewTwitterBulk,
     componentName: "NewTwitterBulk",
   },
+  {
+    variant: "linear",
+    slug: "new-twitter-linear",
+    Component: NewTwitterLinear,
+    componentName: "NewTwitterLinear",
+  },
 ];
-
-export default { NewTwitterLinear, NewTwitterBulk };

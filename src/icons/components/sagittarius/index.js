@@ -43,7 +43,5 @@ export const variants = [
     slug: "sagittarius-twotone",
     Component: SagittariusTwotone,
     componentName: "SagittariusTwotone",
-  }
+  },
 ];
-
-export default { SagittariusBold, SagittariusBroken, SagittariusBulk, SagittariusLinear, SagittariusOutline, SagittariusTwotone };

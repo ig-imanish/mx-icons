@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-tick-twotone",
     Component: VideoTickTwotone,
     componentName: "VideoTickTwotone",
-  }
+  },
 ];
-
-export default { VideoTickBold, VideoTickBroken, VideoTickBulk, VideoTickLinear, VideoTickOutline, VideoTickTwotone };

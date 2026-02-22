@@ -43,7 +43,5 @@ export const variants = [
     slug: "search-normal-twotone",
     Component: SearchNormalTwotone,
     componentName: "SearchNormalTwotone",
-  }
+  },
 ];
-
-export default { SearchNormalBold, SearchNormalBroken, SearchNormalBulk, SearchNormalLinear, SearchNormalOutline, SearchNormalTwotone };

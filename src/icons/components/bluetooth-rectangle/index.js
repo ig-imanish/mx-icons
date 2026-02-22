@@ -43,7 +43,5 @@ export const variants = [
     slug: "bluetooth-rectangle-twotone",
     Component: BluetoothRectangleTwotone,
     componentName: "BluetoothRectangleTwotone",
-  }
+  },
 ];
-
-export default { BluetoothRectangleBold, BluetoothRectangleBroken, BluetoothRectangleBulk, BluetoothRectangleLinear, BluetoothRectangleOutline, BluetoothRectangleTwotone };

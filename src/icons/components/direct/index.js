@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-twotone",
     Component: DirectTwotone,
     componentName: "DirectTwotone",
-  }
+  },
 ];
-
-export default { DirectBold, DirectBroken, DirectBulk, DirectLinear, DirectOutline, DirectTwotone };

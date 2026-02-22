@@ -10,40 +10,38 @@ export { Receipt2Bold, Receipt2Broken, Receipt2Bulk, Receipt2Linear, Receipt2Out
 export const variants = [
   {
     variant: "bold",
-    slug: "receipt-2-bold",
+    slug: "receipt2-bold",
     Component: Receipt2Bold,
     componentName: "Receipt2Bold",
   },
   {
     variant: "broken",
-    slug: "receipt-2-broken",
+    slug: "receipt2-broken",
     Component: Receipt2Broken,
     componentName: "Receipt2Broken",
   },
   {
     variant: "bulk",
-    slug: "receipt-2-bulk",
+    slug: "receipt2-bulk",
     Component: Receipt2Bulk,
     componentName: "Receipt2Bulk",
   },
   {
     variant: "linear",
-    slug: "receipt-2-linear",
+    slug: "receipt2-linear",
     Component: Receipt2Linear,
     componentName: "Receipt2Linear",
   },
   {
     variant: "outline",
-    slug: "receipt-2-outline",
+    slug: "receipt2-outline",
     Component: Receipt2Outline,
     componentName: "Receipt2Outline",
   },
   {
     variant: "twotone",
-    slug: "receipt-2-twotone",
+    slug: "receipt2-twotone",
     Component: Receipt2Twotone,
     componentName: "Receipt2Twotone",
-  }
+  },
 ];
-
-export default { Receipt2Bold, Receipt2Broken, Receipt2Bulk, Receipt2Linear, Receipt2Outline, Receipt2Twotone };

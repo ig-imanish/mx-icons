@@ -43,7 +43,5 @@ export const variants = [
     slug: "health-twotone",
     Component: HealthTwotone,
     componentName: "HealthTwotone",
-  }
+  },
 ];
-
-export default { HealthBold, HealthBroken, HealthBulk, HealthLinear, HealthOutline, HealthTwotone };

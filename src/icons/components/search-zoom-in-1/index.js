@@ -10,40 +10,38 @@ export { SearchZoomIn1Bold, SearchZoomIn1Broken, SearchZoomIn1Bulk, SearchZoomIn
 export const variants = [
   {
     variant: "bold",
-    slug: "search-zoom-in-1-bold",
+    slug: "search-zoom-in1-bold",
     Component: SearchZoomIn1Bold,
     componentName: "SearchZoomIn1Bold",
   },
   {
     variant: "broken",
-    slug: "search-zoom-in-1-broken",
+    slug: "search-zoom-in1-broken",
     Component: SearchZoomIn1Broken,
     componentName: "SearchZoomIn1Broken",
   },
   {
     variant: "bulk",
-    slug: "search-zoom-in-1-bulk",
+    slug: "search-zoom-in1-bulk",
     Component: SearchZoomIn1Bulk,
     componentName: "SearchZoomIn1Bulk",
   },
   {
     variant: "linear",
-    slug: "search-zoom-in-1-linear",
+    slug: "search-zoom-in1-linear",
     Component: SearchZoomIn1Linear,
     componentName: "SearchZoomIn1Linear",
   },
   {
     variant: "outline",
-    slug: "search-zoom-in-1-outline",
+    slug: "search-zoom-in1-outline",
     Component: SearchZoomIn1Outline,
     componentName: "SearchZoomIn1Outline",
   },
   {
     variant: "twotone",
-    slug: "search-zoom-in-1-twotone",
+    slug: "search-zoom-in1-twotone",
     Component: SearchZoomIn1Twotone,
     componentName: "SearchZoomIn1Twotone",
-  }
+  },
 ];
-
-export default { SearchZoomIn1Bold, SearchZoomIn1Broken, SearchZoomIn1Bulk, SearchZoomIn1Linear, SearchZoomIn1Outline, SearchZoomIn1Twotone };

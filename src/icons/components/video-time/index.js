@@ -43,7 +43,5 @@ export const variants = [
     slug: "video-time-twotone",
     Component: VideoTimeTwotone,
     componentName: "VideoTimeTwotone",
-  }
+  },
 ];
-
-export default { VideoTimeBold, VideoTimeBroken, VideoTimeBulk, VideoTimeLinear, VideoTimeOutline, VideoTimeTwotone };

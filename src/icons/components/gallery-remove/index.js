@@ -43,7 +43,5 @@ export const variants = [
     slug: "gallery-remove-twotone",
     Component: GalleryRemoveTwotone,
     componentName: "GalleryRemoveTwotone",
-  }
+  },
 ];
-
-export default { GalleryRemoveBold, GalleryRemoveBroken, GalleryRemoveBulk, GalleryRemoveLinear, GalleryRemoveOutline, GalleryRemoveTwotone };

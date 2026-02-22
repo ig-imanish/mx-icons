@@ -43,7 +43,5 @@ export const variants = [
     slug: "omega-square-twotone",
     Component: OmegaSquareTwotone,
     componentName: "OmegaSquareTwotone",
-  }
+  },
 ];
-
-export default { OmegaSquareBold, OmegaSquareBroken, OmegaSquareBulk, OmegaSquareLinear, OmegaSquareOutline, OmegaSquareTwotone };

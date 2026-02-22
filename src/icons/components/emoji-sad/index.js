@@ -43,7 +43,5 @@ export const variants = [
     slug: "emoji-sad-twotone",
     Component: EmojiSadTwotone,
     componentName: "EmojiSadTwotone",
-  }
+  },
 ];
-
-export default { EmojiSadBold, EmojiSadBroken, EmojiSadBulk, EmojiSadLinear, EmojiSadOutline, EmojiSadTwotone };

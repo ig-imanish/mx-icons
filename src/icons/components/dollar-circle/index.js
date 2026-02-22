@@ -36,7 +36,5 @@ export const variants = [
     slug: "dollar-circle-twotone",
     Component: DollarCircleTwotone,
     componentName: "DollarCircleTwotone",
-  }
+  },
 ];
-
-export default { DollarCircleBold, DollarCircleBulk, DollarCircleLinear, DollarCircleOutline, DollarCircleTwotone };

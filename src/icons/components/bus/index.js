@@ -43,7 +43,5 @@ export const variants = [
     slug: "bus-twotone",
     Component: BusTwotone,
     componentName: "BusTwotone",
-  }
+  },
 ];
-
-export default { BusBold, BusBroken, BusBulk, BusLinear, BusOutline, BusTwotone };

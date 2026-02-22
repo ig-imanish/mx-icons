@@ -10,40 +10,38 @@ export { MicrophoneSlash1Bold, MicrophoneSlash1Broken, MicrophoneSlash1Bulk, Mic
 export const variants = [
   {
     variant: "bold",
-    slug: "microphone-slash-1-bold",
+    slug: "microphone-slash1-bold",
     Component: MicrophoneSlash1Bold,
     componentName: "MicrophoneSlash1Bold",
   },
   {
     variant: "broken",
-    slug: "microphone-slash-1-broken",
+    slug: "microphone-slash1-broken",
     Component: MicrophoneSlash1Broken,
     componentName: "MicrophoneSlash1Broken",
   },
   {
     variant: "bulk",
-    slug: "microphone-slash-1-bulk",
+    slug: "microphone-slash1-bulk",
     Component: MicrophoneSlash1Bulk,
     componentName: "MicrophoneSlash1Bulk",
   },
   {
     variant: "linear",
-    slug: "microphone-slash-1-linear",
+    slug: "microphone-slash1-linear",
     Component: MicrophoneSlash1Linear,
     componentName: "MicrophoneSlash1Linear",
   },
   {
     variant: "outline",
-    slug: "microphone-slash-1-outline",
+    slug: "microphone-slash1-outline",
     Component: MicrophoneSlash1Outline,
     componentName: "MicrophoneSlash1Outline",
   },
   {
     variant: "twotone",
-    slug: "microphone-slash-1-twotone",
+    slug: "microphone-slash1-twotone",
     Component: MicrophoneSlash1Twotone,
     componentName: "MicrophoneSlash1Twotone",
-  }
+  },
 ];
-
-export default { MicrophoneSlash1Bold, MicrophoneSlash1Broken, MicrophoneSlash1Bulk, MicrophoneSlash1Linear, MicrophoneSlash1Outline, MicrophoneSlash1Twotone };

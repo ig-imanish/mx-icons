@@ -1,21 +1,19 @@
-import CancelCircleLinear from "./CancelCircleLinear";
 import CancelCircleBold from "./CancelCircleBold";
+import CancelCircleLinear from "./CancelCircleLinear";
 
-export { CancelCircleLinear, CancelCircleBold };
+export { CancelCircleBold, CancelCircleLinear };
 
 export const variants = [
-  {
-    variant: "linear",
-    slug: "cancel-circle-linear",
-    Component: CancelCircleLinear,
-    componentName: "CancelCircleLinear",
-  },
   {
     variant: "bold",
     slug: "cancel-circle-bold",
     Component: CancelCircleBold,
     componentName: "CancelCircleBold",
   },
+  {
+    variant: "linear",
+    slug: "cancel-circle-linear",
+    Component: CancelCircleLinear,
+    componentName: "CancelCircleLinear",
+  },
 ];
-
-export default { CancelCircleLinear, CancelCircleBold };

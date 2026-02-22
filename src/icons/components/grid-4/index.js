@@ -10,40 +10,38 @@ export { Grid4Bold, Grid4Broken, Grid4Bulk, Grid4Linear, Grid4Outline, Grid4Twot
 export const variants = [
   {
     variant: "bold",
-    slug: "grid-4-bold",
+    slug: "grid4-bold",
     Component: Grid4Bold,
     componentName: "Grid4Bold",
   },
   {
     variant: "broken",
-    slug: "grid-4-broken",
+    slug: "grid4-broken",
     Component: Grid4Broken,
     componentName: "Grid4Broken",
   },
   {
     variant: "bulk",
-    slug: "grid-4-bulk",
+    slug: "grid4-bulk",
     Component: Grid4Bulk,
     componentName: "Grid4Bulk",
   },
   {
     variant: "linear",
-    slug: "grid-4-linear",
+    slug: "grid4-linear",
     Component: Grid4Linear,
     componentName: "Grid4Linear",
   },
   {
     variant: "outline",
-    slug: "grid-4-outline",
+    slug: "grid4-outline",
     Component: Grid4Outline,
     componentName: "Grid4Outline",
   },
   {
     variant: "twotone",
-    slug: "grid-4-twotone",
+    slug: "grid4-twotone",
     Component: Grid4Twotone,
     componentName: "Grid4Twotone",
-  }
+  },
 ];
-
-export default { Grid4Bold, Grid4Broken, Grid4Bulk, Grid4Linear, Grid4Outline, Grid4Twotone };

@@ -1,0 +1,38 @@
+import Icon from "../../Icon";
+
+export default function Construction({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<g stroke-width="2">
+			<path d="M21 21h-18v-2c0 -1 1 -2 2 -2h14c1 0 2 1 2 2v2Z" stroke-dasharray="46">
+				<animate attributeName="stroke-dashoffset" dur="0.5s" fill="freeze" values="46;0" />
+			</path>
+			<path d="M6 17l6 -15M18 17l-6 -15" stroke-dasharray="20" stroke-dashoffset="20">
+				<animate attributeName="stroke-dashoffset" begin="0.6s" dur="0.5s" fill="freeze" to="0" />
+			</path>
+		</g>
+		<path d="M8 12l4.5 -2.5" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="1.2s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M6 16l7.5 -4" stroke-dasharray="12" stroke-dashoffset="12">
+			<animate attributeName="stroke-dashoffset" begin="1.4s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+		<path d="M9.5 17l5 -2.5" stroke-dasharray="8" stroke-dashoffset="8">
+			<animate attributeName="stroke-dashoffset" begin="1.6s" dur="0.2s" fill="freeze" to="0" />
+		</path>
+	</g>
+    </Icon>
+  );
+}

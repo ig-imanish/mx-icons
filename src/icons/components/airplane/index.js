@@ -43,7 +43,5 @@ export const variants = [
     slug: "airplane-twotone",
     Component: AirplaneTwotone,
     componentName: "AirplaneTwotone",
-  }
+  },
 ];
-
-export default { AirplaneBold, AirplaneBroken, AirplaneBulk, AirplaneLinear, AirplaneOutline, AirplaneTwotone };

@@ -43,7 +43,5 @@ export const variants = [
     slug: "direct-inbox-twotone",
     Component: DirectInboxTwotone,
     componentName: "DirectInboxTwotone",
-  }
+  },
 ];
-
-export default { DirectInboxBold, DirectInboxBroken, DirectInboxBulk, DirectInboxLinear, DirectInboxOutline, DirectInboxTwotone };
