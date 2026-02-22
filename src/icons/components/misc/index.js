@@ -100,7 +100,7 @@ export { Account, Alert, At, Beer, Bell, Bluesky, Brake, Briefcase, Cake, Calend
 export const variants = [
   {
     variant: "linear",
-    slug: "account",
+    slug: "account-animated",
     Component: Account,
     componentName: "Account",
   },

@@ -9883,7 +9883,7 @@ export const icons = [
     name: "Misc",
     slug: "misc",
     variants: [
-      { variant: "linear", slug: "account", componentName: "Account", Component: Account },
+      { variant: "linear", slug: "account-animated", componentName: "Account", Component: Account },
       { variant: "linear", slug: "alert", componentName: "Alert", Component: Alert },
       { variant: "linear", slug: "at", componentName: "At", Component: At },
       { variant: "linear", slug: "beer", componentName: "Beer", Component: Beer },

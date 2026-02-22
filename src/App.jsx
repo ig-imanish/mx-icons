@@ -219,6 +219,11 @@ function App() {
   }
 
   function openIconModal(icon) {
+    // Safety check: don't open modal if component is invalid
+    if (!icon || !icon.Component || typeof icon.Component !== 'function') {
+      console.warn('Cannot open modal for invalid icon:', icon?.slug, icon?.componentName);
+      return;
+    }
     setSelectedIcon(icon);
     setIconSize(24);
     setIconColor(isDarkMode ? "#f8fafc" : "#292D32");
@@ -444,22 +449,47 @@ function App() {
         )}
 
         <div className="icons-grid">
-          {paginatedIcons.map((icon) => (
-            <button
-              key={icon.slug}
-              className="icon-card"
-              onClick={() => openIconModal(icon)}
-              title={`Customize ${icon.componentName}`}
-            >
-              <div className="icon-display">
-                <icon.Component
-                  size={24}
-                  color={isDarkMode ? "#f8fafc" : "#3B3C3D"}
-                />
-              </div>
-              <div className="icon-name">{icon.componentName}</div>
-            </button>
-          ))}
+          {paginatedIcons.map((icon, index) => {
+            // Safety check: ensure Component exists
+            if (!icon || !icon.Component) {
+              console.warn(`Missing Component at index ${index}:`, {
+                slug: icon?.slug,
+                componentName: icon?.componentName,
+                groupName: icon?.groupName,
+                groupSlug: icon?.groupSlug,
+                hasComponent: !!icon?.Component,
+                componentType: typeof icon?.Component
+              });
+              return null;
+            }
+            
+            if (typeof icon.Component !== 'function') {
+              console.error(`Invalid Component at index ${index}:`, {
+                slug: icon.slug,
+                componentName: icon.componentName,
+                componentType: typeof icon.Component,
+                componentValue: icon.Component
+              });
+              return null;
+            }
+            
+            return (
+              <button
+                key={`${icon.groupSlug}-${icon.slug}-${index}`}
+                className="icon-card"
+                onClick={() => openIconModal(icon)}
+                title={`Customize ${icon.componentName}`}
+              >
+                <div className="icon-display">
+                  <icon.Component
+                    size={24}
+                    color={isDarkMode ? "#f8fafc" : "#3B3C3D"}
+                  />
+                </div>
+                <div className="icon-name">{icon.componentName}</div>
+              </button>
+            );
+          })}
         </div>
 
         {totalPages > 1 && (
@@ -486,7 +516,7 @@ function App() {
           </div>
         )}
 
-        {selectedIcon && (
+        {selectedIcon && selectedIcon.Component && (
           <div className="modal-overlay" onClick={closeIconModal}>
             <div className="modal-card" onClick={(e) => e.stopPropagation()}>
               <button className="modal-close" onClick={closeIconModal}>

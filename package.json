@@ -48,7 +48,6 @@
     "lint": "eslint .",
     "generate:types": "node scripts/generate-types.js",
     "copy:types": "node -e \"const fs=require('fs'); fs.copyFileSync('src/icons/index.d.ts','dist/index.d.ts'); if(fs.existsSync('src/icons/Icon.d.ts')){fs.copyFileSync('src/icons/Icon.d.ts','dist/Icon.d.ts')}\"",
-    "prepare:lib": "npm run rebuild && npm run build:lib",
     "validate": "npm run lint && npm run build:lib"
   },
   "devDependencies": {
