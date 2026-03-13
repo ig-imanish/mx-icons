@@ -443,7 +443,7 @@ function App() {
           </div>
         )}
 
-        <div className="icons-grid">
+        <div className="icons-grid" key={currentPage}>
           {paginatedIcons.map((icon) => (
             <button
               key={icon.slug}
