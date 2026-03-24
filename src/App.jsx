@@ -1,7 +1,15 @@
 ﻿import { useMemo, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./App.css";
-import { icons as ICONS, CopyLinear, TickCircleLinear, GithubLinear, GitForkLinear, StarOutline, NewTwitterLinear } from "./icons";
+import {
+  icons as ICONS,
+  CopyLinear,
+  TickCircleLinear,
+  GithubLinear,
+  GitForkLinear,
+  StarOutline,
+  NewTwitterLinear,
+} from "./icons";
 import { matchesAlias } from "./icons/aliases";
 
 function App() {
@@ -159,7 +167,7 @@ function App() {
       // Show only the selected variant
       ICONS.forEach((group) => {
         const variantIcon = group.variants?.find(
-          (v) => v.variant === activeVariant
+          (v) => v.variant === activeVariant,
         );
         if (variantIcon) {
           list.push({
@@ -188,7 +196,7 @@ function App() {
       // Also check if the search query matches any alias
       const matchesAliasSearch = matchesAlias(
         icon.groupSlug || icon.slug || "",
-        q
+        q,
       );
 
       return matchesDirectSearch || matchesAliasSearch;
@@ -228,12 +236,18 @@ function App() {
     setSelectedIcon(null);
   }
 
+  const handleReset = () => {
+    setQuery("");
+    setActiveVariant("all");
+    setCurrentPage(1);
+  };
+
   return (
     <div className="app">
       <header className="header">
         <div className="header-content">
           <div className="header-top">
-            <div className="logo-section">
+            <div className="logo-section" onClick={handleReset}>
               <div className="logo-icon">
                 <img src="/mx-icons.png" alt="" />
               </div>
@@ -284,7 +298,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <NewTwitterLinear color="" height={16} width={16}/>
+                <NewTwitterLinear color="" height={16} width={16} />
                 Share on Twitter
               </a>
 
@@ -297,7 +311,11 @@ function App() {
               >
                 <div className={`github-card ${isDarkMode ? "dark" : "light"}`}>
                   <div className="github-left">
-                    <GithubLinear color={isDarkMode ? "white" : "black"} height={16} width={16} />
+                    <GithubLinear
+                      color={isDarkMode ? "white" : "black"}
+                      height={16}
+                      width={16}
+                    />
                   </div>
 
                   <div className="github-right">
@@ -311,16 +329,20 @@ function App() {
                           height={12}
                         />
                         <span>{gitStars}</span>
-
                       </div>
 
                       <div className="stat">
-                        <GitForkLinear color={isDarkMode ? "white" : "black"} height={15} width={15} />
+                        <GitForkLinear
+                          color={isDarkMode ? "white" : "black"}
+                          height={15}
+                          width={15}
+                        />
                         <span>{gitForks}</span>
                       </div>
                     </div>
                   </div>
-                </div></a>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -383,7 +405,7 @@ function App() {
             </button> */}
           </div>
         </div>
-      </header >
+      </header>
 
       <div className="container">
         <div className="search-wrapper">
@@ -405,8 +427,9 @@ function App() {
           {allVariants.map((variant) => (
             <button
               key={variant}
-              className={`variant-tab ${activeVariant === variant ? "active" : ""
-                }`}
+              className={`variant-tab ${
+                activeVariant === variant ? "active" : ""
+              }`}
               onClick={() => setActiveVariant(variant)}
             >
               {variant.charAt(0).toUpperCase() + variant.slice(1)}
@@ -529,12 +552,13 @@ function App() {
                 <h3>How to use</h3>
                 <pre>
                   <button
-                    className={`code-copy-btn ${copiedIcon === "code" ? "copied" : ""
-                      }`}
+                    className={`code-copy-btn ${
+                      copiedIcon === "code" ? "copied" : ""
+                    }`}
                     data-tooltip="Copy to clipboard"
                     onClick={() =>
                       copyCode(
-                        `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
+                        `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`,
                       )
                     }
                     aria-label="Copy code"
@@ -579,11 +603,12 @@ function App() {
                   </code>
                 </pre>
                 <button
-                  className={`copy-button ${copiedIcon === "code" ? "copied" : ""
-                    }`}
+                  className={`copy-button ${
+                    copiedIcon === "code" ? "copied" : ""
+                  }`}
                   onClick={() =>
                     copyCode(
-                      `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
+                      `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`,
                     )
                   }
                 >
@@ -643,7 +668,11 @@ function App() {
                 <h3>Resources</h3>
                 <ul>
                   <li>
-                    <a href="https://github.com/ig-imanish/mx-icons/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/ig-imanish/mx-icons/blob/main/README.md"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Documentation
                     </a>
                   </li>
@@ -651,7 +680,11 @@ function App() {
                     <a href="https://github.com/ig-imanish/mx-icons">GitHub</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ig-imanish/mx-icons/releases" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/ig-imanish/mx-icons/releases"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Releases
                     </a>
                   </li>
@@ -662,22 +695,38 @@ function App() {
                 <h3>Community</h3>
                 <ul>
                   <li>
-                    <a href="https://github.com/ig-imanish/mx-icons/discussions" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/ig-imanish/mx-icons/discussions"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Discussions
                     </a>
                   </li>
                   <li>
-                    <a href="https://x.com/mx_icons" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://x.com/mx_icons"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Twitter
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/ig-imanish/mx-icons/issues" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/ig-imanish/mx-icons/issues"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Report Issue
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/ig-imanish/mx-icons/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/ig-imanish/mx-icons/blob/main/CONTRIBUTING.md"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Contributing
                     </a>
                   </li>
@@ -688,12 +737,20 @@ function App() {
                 <h3>More</h3>
                 <ul>
                   <li>
-                    <a href="https://github.com/ig-imanish/mx-icons/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/ig-imanish/mx-icons/blob/main/LICENSE"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       License
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.npmjs.com/package/mx-icons" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.npmjs.com/package/mx-icons"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       NPM Package
                     </a>
                   </li>
@@ -741,7 +798,7 @@ function App() {
           </div>
         </div>
       </footer>
-    </div >
+    </div>
   );
 }
 
