@@ -239,7 +239,7 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="header-top">
-            <div className="logo-section" onClick={handleReset}>
+            <div className="logo-section" onClick={handleReset} role="button" aria-label="Reset search and filters">
               <div className="logo-icon">
                 <img src="/mx-icons.png" alt="" />
               </div>
