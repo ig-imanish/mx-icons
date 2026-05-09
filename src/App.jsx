@@ -228,12 +228,18 @@ function App() {
     setSelectedIcon(null);
   }
 
+  const handleReset = () => {
+  setQuery("");
+  setActiveVariant("all");
+  setCurrentPage(1);
+};
+
   return (
     <div className="app">
       <header className="header">
         <div className="header-content">
           <div className="header-top">
-            <div className="logo-section">
+            <div className="logo-section" onClick={handleReset} role="button" aria-label="Reset search and filters">
               <div className="logo-icon">
                 <img src="/mx-icons.png" alt="" />
               </div>
