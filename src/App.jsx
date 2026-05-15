@@ -209,12 +209,41 @@ function App() {
   }
 
   async function copyCode(code) {
+    let copied = false;
+
     try {
-      await navigator.clipboard.writeText(code);
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(code);
+        copied = true;
+      }
+    } catch (e) {
+      console.error("clipboard api copy failed", e);
+    }
+
+    if (!copied) {
+      const textarea = document.createElement("textarea");
+      textarea.value = code;
+      textarea.setAttribute("readonly", "");
+      textarea.style.position = "fixed";
+      textarea.style.top = "-9999px";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        copied = document.execCommand("copy");
+      } catch (e) {
+        console.error("fallback copy failed", e);
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    }
+
+    if (copied) {
       setCopiedIcon("code");
       setTimeout(() => setCopiedIcon(null), 1500);
-    } catch (e) {
-      console.error("copy failed", e);
+    } else {
+      console.error("copy failed");
     }
   }
 
@@ -456,6 +485,7 @@ function App() {
               className="icon-card"
               onClick={() => openIconModal(icon)}
               title={`Customize ${icon.componentName}`}
+              aria-label={`Customize ${icon.componentName}`}
             >
               <div className="icon-display">
                 <icon.Component
@@ -494,40 +524,58 @@ function App() {
 
         {selectedIcon && (
           <div className="modal-overlay" onClick={closeIconModal}>
-            <div className="modal-card" onClick={(e) => e.stopPropagation()}>
-              <button className="modal-close" onClick={closeIconModal}>
-                ✕
+            <div
+              className="modal-card"
+              onClick={(e) => e.stopPropagation()}
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="icon-modal-title"
+            >
+              <button
+                className="modal-close"
+                onClick={closeIconModal}
+                aria-label="Close icon details"
+              >
+                <span className="modal-close-icon" aria-hidden="true" />
               </button>
 
-              <h2 className="modal-title">{selectedIcon.componentName}</h2>
-
-              <div className="modal-preview ">
-                <selectedIcon.Component size={iconSize} color={iconColor} />
+              <div className="modal-header">
+                <h2 id="icon-modal-title" className="modal-title">
+                  {selectedIcon.componentName}
+                </h2>
               </div>
 
-              <div className="modal-controls ">
-                <div className="control-group">
-                  <label>
-                    Size: <strong>{iconSize}px</strong>
-                  </label>
-                  <input
-                    type="range"
-                    min="8"
-                    max="96"
-                    value={iconSize}
-                    onChange={(e) => setIconSize(Number(e.target.value))}
-                  />
+              <div className="modal-customizer">
+                <div className="modal-preview">
+                  <selectedIcon.Component size={iconSize} color={iconColor} />
                 </div>
 
-                <div className="control-group">
-                  <label>
-                    Color: <strong>{iconColor}</strong>
-                  </label>
-                  <input
-                    type="color"
-                    value={iconColor}
-                    onChange={(e) => setIconColor(e.target.value)}
-                  />
+                <div className="modal-controls">
+                  <div className="control-group">
+                    <label htmlFor="icon-size-control">
+                      Size <strong>{iconSize}px</strong>
+                    </label>
+                    <input
+                      id="icon-size-control"
+                      type="range"
+                      min="8"
+                      max="96"
+                      value={iconSize}
+                      onChange={(e) => setIconSize(Number(e.target.value))}
+                    />
+                  </div>
+
+                  <div className="control-group">
+                    <label htmlFor="icon-color-control">
+                      Color <strong>{iconColor}</strong>
+                    </label>
+                    <input
+                      id="icon-color-control"
+                      type="color"
+                      value={iconColor}
+                      onChange={(e) => setIconColor(e.target.value)}
+                    />
+                  </div>
                 </div>
               </div>
 
@@ -536,11 +584,11 @@ function App() {
                 <pre>
                   <button
                     className={`code-copy-btn ${copiedIcon === "code" ? "copied" : ""
-                      }`}
+                    }`}
                     data-tooltip="Copy to clipboard"
                     onClick={() =>
                       copyCode(
-                        `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
+                        `import {\n  ${selectedIcon.componentName}\n} from 'mx-icons'\n\n<${selectedIcon.componentName}\n  size={${iconSize}}\n  color="${iconColor}"\n/>`
                       )
                     }
                     aria-label="Copy code"
@@ -559,11 +607,13 @@ function App() {
                   </button>
                   <code>
                     <span className="keyword">import</span>
-                    <span className="punctuation"> {"{ "}</span>
+                    <span className="punctuation"> {"{"}</span>
+                    {"\n  "}
                     <span className="component-name">
                       {selectedIcon.componentName}
                     </span>
-                    <span className="punctuation">{" } "}</span>
+                    {"\n"}
+                    <span className="punctuation">{"} "}</span>
                     <span className="keyword">from</span>
                     <span className="prop-value"> 'mx-icons'</span>
                     {"\n\n"}
@@ -584,41 +634,6 @@ function App() {
                     <span className="punctuation">{"/>"}</span>
                   </code>
                 </pre>
-                <button
-                  className={`copy-button ${copiedIcon === "code" ? "copied" : ""
-                    }`}
-                  onClick={() =>
-                    copyCode(
-                      `import { ${selectedIcon.componentName} } from 'mx-icons'\n\n<${selectedIcon.componentName} size={${iconSize}} color="${iconColor}" />`
-                    )
-                  }
-                >
-                  {copiedIcon === "code" ? (
-                    <>
-                      <TickCircleLinear
-                        size={16}
-                        color={isDarkMode ? "#ffffff" : "#000000"}
-                      />
-                      <span
-                        style={{ color: isDarkMode ? "#ffffff" : "#000000" }}
-                      >
-                        Copied!
-                      </span>
-                    </>
-                  ) : (
-                    <>
-                      <CopyLinear
-                        size={16}
-                        color={isDarkMode ? "#ffffff" : "#000000"}
-                      />
-                      <span
-                        style={{ color: isDarkMode ? "#ffffff" : "#000000" }}
-                      >
-                        Copy Code
-                      </span>
-                    </>
-                  )}
-                </button>
               </div>
             </div>
           </div>
