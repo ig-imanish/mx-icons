@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ig-imanish/mx-icons"
+    "url": "git+https://github.com/ig-imanish/mx-icons.git"
   },
   "homepage": "https://github.com/ig-imanish/mx-icons#readme",
   "peerDependencies": {
