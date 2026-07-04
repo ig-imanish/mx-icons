@@ -1,0 +1,24 @@
+import React from "react";
+import Icon from "../../Icon";
+
+export default function SwimmingTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path opacity="0.5" d="M22 15.7728C20.4123 15.3987 19.5955 14.4796 18.9199 13.4574C18.4965 12.8168 17.5655 12.8558 17.1055 13.4706C16.0541 14.8762 14.4844 16.0004 12 16.0004C9.49345 16.0004 7.91806 14.57 6.86651 13.2239C6.42721 12.6616 5.58617 12.6691 5.20168 13.2702C4.50078 14.366 3.68402 15.376 2 15.7728" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path opacity="0.5" d="M22 20.7728C20.4123 20.3987 19.5955 19.4796 18.9199 18.4574C18.4965 17.8168 17.5655 17.8558 17.1055 18.4706C16.0541 19.8762 14.4844 21.0004 12 21.0004C9.49345 21.0004 7.91806 19.57 6.86651 18.2239C6.42721 17.6616 5.58617 17.6691 5.20168 18.2702C4.50078 19.366 3.68402 20.376 2 20.7728" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M4 11.5L7.47693 9.41382C8.27334 8.93597 8.4485 7.85657 7.84407 7.15139L6.85636 5.99906C6.37314 5.4353 6.40542 4.59455 6.93046 4.06952C7.51004 3.48994 8.45844 3.51955 9.00074 4.13415L15.5 11.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M17 8C18.3807 8 19.5 6.88071 19.5 5.5C19.5 4.11929 18.3807 3 17 3C15.6193 3 14.5 4.11929 14.5 5.5C14.5 6.88071 15.6193 8 17 8Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </Icon>
+  );
+}

@@ -4,6 +4,30 @@
 
 export const iconMeta = [
   {
+    "name": "Accessibility",
+    "slug": "accessibility",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Accumulator",
+    "slug": "accumulator",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Activity",
     "slug": "activity",
     "variants": [
@@ -40,6 +64,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Add Folder",
+    "slug": "add-folder",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Add Square",
     "slug": "add-square",
     "variants": [
@@ -54,6 +90,150 @@ export const iconMeta = [
   {
     "name": "Additem",
     "slug": "additem",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Adhesive Plaster",
+    "slug": "adhesive-plaster",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Adhesive Plaster 2",
+    "slug": "adhesive-plaster-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds",
+    "slug": "airbuds",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Case",
+    "slug": "airbuds-case",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Case Charge",
+    "slug": "airbuds-case-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Case Minimalistic",
+    "slug": "airbuds-case-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Case Open",
+    "slug": "airbuds-case-open",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Charge",
+    "slug": "airbuds-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Check",
+    "slug": "airbuds-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Left",
+    "slug": "airbuds-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Remove",
+    "slug": "airbuds-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Airbuds Right",
+    "slug": "airbuds-right",
     "variants": [
       "bold",
       "broken",
@@ -136,8 +316,116 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Alarm Add",
+    "slug": "alarm-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alarm Pause",
+    "slug": "alarm-pause",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alarm Play",
+    "slug": "alarm-play",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alarm Remove",
+    "slug": "alarm-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alarm Sleep",
+    "slug": "alarm-sleep",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alarm Turn Off",
+    "slug": "alarm-turn-off",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Album",
+    "slug": "album",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Align Bottom",
     "slug": "align-bottom",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Align Horizontal Center",
+    "slug": "align-horizontal-center",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Align Horizontal Spacing",
+    "slug": "align-horizontal-spacing",
     "variants": [
       "bold",
       "broken",
@@ -184,8 +472,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Align Top",
+    "slug": "align-top",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Align Vertical Center",
+    "slug": "align-vertical-center",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Align Vertical Spacing",
+    "slug": "align-vertical-spacing",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Align Vertically",
     "slug": "align-vertically",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alt Arrow Down",
+    "slug": "alt-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alt Arrow Left",
+    "slug": "alt-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alt Arrow Right",
+    "slug": "alt-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Alt Arrow Up",
+    "slug": "alt-arrow-up",
     "variants": [
       "bold",
       "broken",
@@ -280,6 +652,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Archive Check",
+    "slug": "archive-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Archive Down",
+    "slug": "archive-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Archive Down Minimalistic",
+    "slug": "archive-down-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Archive Minimalistic",
+    "slug": "archive-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Archive Minus",
     "slug": "archive-minus",
     "variants": [
@@ -306,6 +726,54 @@ export const iconMeta = [
   {
     "name": "Archive Tick",
     "slug": "archive-tick",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Archive Up",
+    "slug": "archive-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Archive Up Minimalistic",
+    "slug": "archive-up-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Armchair",
+    "slug": "armchair",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Armchair 2",
+    "slug": "armchair-2",
     "variants": [
       "bold",
       "broken",
@@ -544,6 +1012,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Arrow Left Down",
+    "slug": "arrow-left-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrow Left Up",
+    "slug": "arrow-left-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Arrow Right",
     "slug": "arrow-right",
     "variants": [
@@ -594,6 +1086,30 @@ export const iconMeta = [
   {
     "name": "Arrow Right 4",
     "slug": "arrow-right-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrow Right Down",
+    "slug": "arrow-right-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrow Right Up",
+    "slug": "arrow-right-up",
     "variants": [
       "bold",
       "broken",
@@ -688,6 +1204,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Arrow To Down Left",
+    "slug": "arrow-to-down-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrow To Down Right",
+    "slug": "arrow-to-down-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrow To Top Left",
+    "slug": "arrow-to-top-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrow To Top Right",
+    "slug": "arrow-to-top-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Arrow Up",
     "slug": "arrow-up",
     "variants": [
@@ -736,6 +1300,222 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Arrows Action Export",
+    "slug": "arrows-action-export",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Forward",
+    "slug": "arrows-action-forward",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Import",
+    "slug": "arrows-action-import",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Login",
+    "slug": "arrows-action-login",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Logout",
+    "slug": "arrows-action-logout",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Maximize",
+    "slug": "arrows-action-maximize",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Receive Square",
+    "slug": "arrows-action-receive-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Action Send Square",
+    "slug": "arrows-action-send-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Arrow Down",
+    "slug": "arrows-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Arrow Left",
+    "slug": "arrows-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Arrow Right",
+    "slug": "arrows-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Arrow Up",
+    "slug": "arrows-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Refresh",
+    "slug": "arrows-refresh",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Arrows Refresh Circle",
+    "slug": "arrows-refresh-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Asteroid",
+    "slug": "asteroid",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Astronomy Planet",
+    "slug": "astronomy-planet",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Astronomy Rocket",
+    "slug": "astronomy-rocket",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Atom",
+    "slug": "atom",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Attach Circle",
     "slug": "attach-circle",
     "variants": [
@@ -772,6 +1552,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Augmented Reality",
+    "slug": "augmented-reality",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Autobrightness",
     "slug": "autobrightness",
     "variants": [
@@ -798,6 +1590,30 @@ export const iconMeta = [
   {
     "name": "Back Square",
     "slug": "back-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Backpack",
+    "slug": "backpack",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Backspace",
+    "slug": "backspace",
     "variants": [
       "bold",
       "broken",
@@ -880,6 +1696,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Bacteria",
+    "slug": "bacteria",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Bag",
     "slug": "bag",
     "variants": [
@@ -894,6 +1722,54 @@ export const iconMeta = [
   {
     "name": "Bag 2",
     "slug": "bag-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag 3",
+    "slug": "bag-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag 4",
+    "slug": "bag-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag 5",
+    "slug": "bag-5",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag Check",
+    "slug": "bag-check",
     "variants": [
       "bold",
       "broken",
@@ -940,6 +1816,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Bag Heart",
+    "slug": "bag-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag Music",
+    "slug": "bag-music",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag Music 2",
+    "slug": "bag-music-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bag Smile",
+    "slug": "bag-smile",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Bag Tick",
     "slug": "bag-tick",
     "variants": [
@@ -976,8 +1900,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Balloon",
+    "slug": "balloon",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Balls",
+    "slug": "balls",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Bank",
     "slug": "bank",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Banknote",
+    "slug": "banknote",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Banknote 2",
+    "slug": "banknote-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bar Chair",
+    "slug": "bar-chair",
     "variants": [
       "bold",
       "broken",
@@ -1000,8 +1984,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Basketball",
+    "slug": "basketball",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bath",
+    "slug": "bath",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Battery 3full",
     "slug": "battery-3full",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Battery Charge",
+    "slug": "battery-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Battery Charge Minimalistic",
+    "slug": "battery-charge-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -1072,6 +2104,174 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Battery Full Minimalistic",
+    "slug": "battery-full-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Battery Half",
+    "slug": "battery-half",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Battery Half Minimalistic",
+    "slug": "battery-half-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Battery Low",
+    "slug": "battery-low",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Battery Low Minimalistic",
+    "slug": "battery-low-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bed",
+    "slug": "bed",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bedside Table",
+    "slug": "bedside-table",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bedside Table 2",
+    "slug": "bedside-table-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bedside Table 3",
+    "slug": "bedside-table-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bedside Table 4",
+    "slug": "bedside-table-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bell",
+    "slug": "bell",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bell Bing",
+    "slug": "bell-bing",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bell Off",
+    "slug": "bell-off",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Benzene Ring",
+    "slug": "benzene-ring",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Bezier",
     "slug": "bezier",
     "variants": [
@@ -1096,8 +2296,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Bicycling",
+    "slug": "bicycling",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bicycling Round",
+    "slug": "bicycling-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Bill",
     "slug": "bill",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bill 2",
+    "slug": "bill-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bill Check",
+    "slug": "bill-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bill Cross",
+    "slug": "bill-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bill List",
+    "slug": "bill-list",
     "variants": [
       "bold",
       "broken",
@@ -1134,6 +2406,42 @@ export const iconMeta = [
   {
     "name": "Bitcoin Refresh",
     "slug": "bitcoin-refresh",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Black Hole",
+    "slug": "black-hole",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Black Hole 2",
+    "slug": "black-hole-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Black Hole 3",
+    "slug": "black-hole-3",
     "variants": [
       "bold",
       "broken",
@@ -1216,6 +2524,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Bluetooth Square",
+    "slug": "bluetooth-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bluetooth Wave",
+    "slug": "bluetooth-wave",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Blur",
     "slug": "blur",
     "variants": [
@@ -1230,6 +2562,162 @@ export const iconMeta = [
   {
     "name": "Blur 1",
     "slug": "blur-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Body",
+    "slug": "body",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Body Shape",
+    "slug": "body-shape",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Body Shape Minimalistic",
+    "slug": "body-shape-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bolt",
+    "slug": "bolt",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bolt Circle",
+    "slug": "bolt-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bomb",
+    "slug": "bomb",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bomb Emoji",
+    "slug": "bomb-emoji",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bomb Minimalistic",
+    "slug": "bomb-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bone",
+    "slug": "bone",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bone Broken",
+    "slug": "bone-broken",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bone Crack",
+    "slug": "bone-crack",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bones",
+    "slug": "bones",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bonfire",
+    "slug": "bonfire",
     "variants": [
       "bold",
       "broken",
@@ -1264,8 +2752,44 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Book Open",
-    "slug": "book-open",
+    "name": "Book 2",
+    "slug": "book-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Book Bookmark",
+    "slug": "book-bookmark",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Book Bookmark Minimalistic",
+    "slug": "book-bookmark-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Book Minimalistic",
+    "slug": "book-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -1324,6 +2848,90 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Bookmark Circle",
+    "slug": "bookmark-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bookmark Opened",
+    "slug": "bookmark-opened",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bookmark Square",
+    "slug": "bookmark-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bookmark Square Minimalistic",
+    "slug": "bookmark-square-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Boombox",
+    "slug": "boombox",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bottle",
+    "slug": "bottle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bowling",
+    "slug": "bowling",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Box",
     "slug": "box",
     "variants": [
@@ -1372,32 +2980,8 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Box Caret Left",
-    "slug": "box-caret-left",
-    "variants": [
-      "bold",
-      "broken",
-      "bulk",
-      "linear",
-      "outline",
-      "twotone"
-    ]
-  },
-  {
-    "name": "Box Caret Right",
-    "slug": "box-caret-right",
-    "variants": [
-      "bold",
-      "broken",
-      "bulk",
-      "linear",
-      "outline",
-      "twotone"
-    ]
-  },
-  {
-    "name": "Box Caret Up",
-    "slug": "box-caret-up",
+    "name": "Box Minimalistic",
+    "slug": "box-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -1446,6 +3030,30 @@ export const iconMeta = [
   {
     "name": "Box Time",
     "slug": "box-time",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Branching Paths Down",
+    "slug": "branching-paths-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Branching Paths Up",
+    "slug": "branching-paths-up",
     "variants": [
       "bold",
       "broken",
@@ -1648,6 +3256,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Bug",
+    "slug": "bug",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Bug Minimalistic",
+    "slug": "bug-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Building",
     "slug": "building",
     "variants": [
@@ -1684,6 +3316,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Building Buildings",
+    "slug": "building-buildings",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Building Buildings 2",
+    "slug": "building-buildings-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Building Hospital",
+    "slug": "building-hospital",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Building House",
+    "slug": "building-house",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Buildings",
     "slug": "buildings",
     "variants": [
@@ -1708,6 +3388,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Buildings 3",
+    "slug": "buildings-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Buliding",
     "slug": "buliding",
     "variants": [
@@ -1722,6 +3414,54 @@ export const iconMeta = [
   {
     "name": "Bus",
     "slug": "bus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Business Chart",
+    "slug": "business-chart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Business Chart 2",
+    "slug": "business-chart-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Business Chart Square",
+    "slug": "business-chart-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Business Graph",
+    "slug": "business-graph",
     "variants": [
       "bold",
       "broken",
@@ -1758,6 +3498,18 @@ export const iconMeta = [
   {
     "name": "Calculator",
     "slug": "calculator",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Calculator Minimalistic",
+    "slug": "calculator-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -1828,8 +3580,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Calendar Date",
+    "slug": "calendar-date",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Calendar Edit",
     "slug": "calendar-edit",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Calendar Mark",
+    "slug": "calendar-mark",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Calendar Minimalistic",
+    "slug": "calendar-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -1912,8 +3700,104 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Call Cancel",
+    "slug": "call-cancel",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Cancel Rounded",
+    "slug": "call-cancel-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Chat",
+    "slug": "call-chat",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Chat Rounded",
+    "slug": "call-chat-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Dropped",
+    "slug": "call-dropped",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Dropped Rounded",
+    "slug": "call-dropped-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Call Incoming",
     "slug": "call-incoming",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Medicine",
+    "slug": "call-medicine",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Call Medicine Rounded",
+    "slug": "call-medicine-rounded",
     "variants": [
       "bold",
       "broken",
@@ -1960,6 +3844,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Call Record Circle",
+    "slug": "call-record-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Call Remove",
     "slug": "call-remove",
     "variants": [
@@ -1996,8 +3892,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Camera Add",
+    "slug": "camera-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Camera Minimalistic",
+    "slug": "camera-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Camera Rotate",
+    "slug": "camera-rotate",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Camera Slash",
     "slug": "camera-slash",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Camera Square",
+    "slug": "camera-square",
     "variants": [
       "bold",
       "broken",
@@ -2058,6 +4002,18 @@ export const iconMeta = [
   {
     "name": "Card",
     "slug": "card",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Card 2",
+    "slug": "card-2",
     "variants": [
       "bold",
       "broken",
@@ -2152,6 +4108,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Card Search",
+    "slug": "card-search",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Card Send",
     "slug": "card-send",
     "variants": [
@@ -2200,8 +4168,284 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Card Transfer",
+    "slug": "card-transfer",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cardholder",
+    "slug": "cardholder",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Cards",
     "slug": "cards",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart",
+    "slug": "cart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart 2",
+    "slug": "cart-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart 3",
+    "slug": "cart-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart 4",
+    "slug": "cart-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart 5",
+    "slug": "cart-5",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Check",
+    "slug": "cart-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Cross",
+    "slug": "cart-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Large",
+    "slug": "cart-large",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Large 2",
+    "slug": "cart-large-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Large 3",
+    "slug": "cart-large-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Large 4",
+    "slug": "cart-large-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Large Minimalistic",
+    "slug": "cart-large-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cart Plus",
+    "slug": "cart-plus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Case",
+    "slug": "case",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Case Minimalistic",
+    "slug": "case-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Case Round",
+    "slug": "case-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Case Round Minimalistic",
+    "slug": "case-round-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cash Out",
+    "slug": "cash-out",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cassette",
+    "slug": "cassette",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cassette 2",
+    "slug": "cassette-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cat",
+    "slug": "cat",
     "variants": [
       "bold",
       "broken",
@@ -2238,6 +4482,42 @@ export const iconMeta = [
   {
     "name": "Cd",
     "slug": "cd",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chair",
+    "slug": "chair",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chair 2",
+    "slug": "chair-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chandelier",
+    "slug": "chandelier",
     "variants": [
       "bold",
       "broken",
@@ -2344,8 +4624,296 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Chat Dots",
+    "slug": "chat-dots",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Line",
+    "slug": "chat-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round",
+    "slug": "chat-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Call",
+    "slug": "chat-round-call",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Check",
+    "slug": "chat-round-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Dots",
+    "slug": "chat-round-dots",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Like",
+    "slug": "chat-round-like",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Line",
+    "slug": "chat-round-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Money",
+    "slug": "chat-round-money",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Unread",
+    "slug": "chat-round-unread",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Round Video",
+    "slug": "chat-round-video",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square",
+    "slug": "chat-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square 2",
+    "slug": "chat-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square Arrow",
+    "slug": "chat-square-arrow",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square Call",
+    "slug": "chat-square-call",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square Check",
+    "slug": "chat-square-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square Code",
+    "slug": "chat-square-code",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Square Like",
+    "slug": "chat-square-like",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chat Unread",
+    "slug": "chat-unread",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Check",
     "slug": "check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Check Circle",
+    "slug": "check-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Check Read",
+    "slug": "check-read",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Check Square",
+    "slug": "check-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Checklist",
+    "slug": "checklist",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Checklist Minimalistic",
+    "slug": "checklist-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -2368,6 +4936,42 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Chef Hat",
+    "slug": "chef-hat",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chef Hat Heart",
+    "slug": "chef-hat-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Chef Hat Minimalistic",
+    "slug": "chef-hat-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Chrome",
     "slug": "chrome",
     "variants": [
@@ -2380,8 +4984,128 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Circle Chart Line",
-    "slug": "circle-chart-line",
+    "name": "Circle Bottom Down",
+    "slug": "circle-bottom-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Circle Bottom Up",
+    "slug": "circle-bottom-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Circle Top Down",
+    "slug": "circle-top-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Circle Top Up",
+    "slug": "circle-top-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "City",
+    "slug": "city",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clapperboard",
+    "slug": "clapperboard",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clapperboard Edit",
+    "slug": "clapperboard-edit",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clapperboard Open",
+    "slug": "clapperboard-open",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clapperboard Open Play",
+    "slug": "clapperboard-open-play",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clapperboard Play",
+    "slug": "clapperboard-play",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clapperboard Text",
+    "slug": "clapperboard-text",
     "variants": [
       "bold",
       "broken",
@@ -2394,6 +5118,18 @@ export const iconMeta = [
   {
     "name": "Clipboard",
     "slug": "clipboard",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clipboard Add",
+    "slug": "clipboard-add",
     "variants": [
       "bold",
       "broken",
@@ -2440,8 +5176,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Clipboard Heart",
+    "slug": "clipboard-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Clipboard Import",
     "slug": "clipboard-import",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clipboard List",
+    "slug": "clipboard-list",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clipboard Remove",
+    "slug": "clipboard-remove",
     "variants": [
       "bold",
       "broken",
@@ -2500,6 +5272,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Clock Circle",
+    "slug": "clock-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clock Square",
+    "slug": "clock-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Close Circle",
     "slug": "close-circle",
     "variants": [
@@ -2514,6 +5310,30 @@ export const iconMeta = [
   {
     "name": "Close Square",
     "slug": "close-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Closet",
+    "slug": "closet",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Closet 2",
+    "slug": "closet-2",
     "variants": [
       "bold",
       "broken",
@@ -2548,8 +5368,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Cloud Bolt",
+    "slug": "cloud-bolt",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Bolt Minimalistic",
+    "slug": "cloud-bolt-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Cloud Change",
     "slug": "cloud-change",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Check",
+    "slug": "cloud-check",
     "variants": [
       "bold",
       "broken",
@@ -2584,8 +5440,32 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Cloud Download",
+    "slug": "cloud-download",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Cloud Drizzle",
     "slug": "cloud-drizzle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud File",
+    "slug": "cloud-file",
     "variants": [
       "bold",
       "broken",
@@ -2656,6 +5536,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Cloud Rain",
+    "slug": "cloud-rain",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Cloud Remove",
     "slug": "cloud-remove",
     "variants": [
@@ -2680,8 +5572,140 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Cloud Snowfall",
+    "slug": "cloud-snowfall",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Snowfall Minimalistic",
+    "slug": "cloud-snowfall-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Storage",
+    "slug": "cloud-storage",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Storm",
+    "slug": "cloud-storm",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Sun",
+    "slug": "cloud-sun",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Sun 2",
+    "slug": "cloud-sun-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Cloud Sunny",
     "slug": "cloud-sunny",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Upload",
+    "slug": "cloud-upload",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Waterdrop",
+    "slug": "cloud-waterdrop",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloud Waterdrops",
+    "slug": "cloud-waterdrops",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Clouds",
+    "slug": "clouds",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cloudy Moon",
+    "slug": "cloudy-moon",
     "variants": [
       "bold",
       "broken",
@@ -2716,8 +5740,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Code 2",
+    "slug": "code-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Code Circle",
     "slug": "code-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Code File",
+    "slug": "code-file",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Code Scan",
+    "slug": "code-scan",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Code Square",
+    "slug": "code-square",
     "variants": [
       "bold",
       "broken",
@@ -2812,6 +5884,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Colour Tuning",
+    "slug": "colour-tuning",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Command",
     "slug": "command",
     "variants": [
@@ -2826,6 +5910,42 @@ export const iconMeta = [
   {
     "name": "Command Square",
     "slug": "command-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Compass",
+    "slug": "compass",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Compass Big",
+    "slug": "compass-big",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Compass Square",
+    "slug": "compass-square",
     "variants": [
       "bold",
       "broken",
@@ -2872,8 +5992,68 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Connect",
-    "slug": "connect",
+    "name": "Conditioner",
+    "slug": "conditioner",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Conditioner 2",
+    "slug": "conditioner-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Confetti",
+    "slug": "confetti",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Confetti Minimalistic",
+    "slug": "confetti-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Confounded Circle",
+    "slug": "confounded-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Confounded Square",
+    "slug": "confounded-square",
     "variants": [
       "bold",
       "broken",
@@ -2980,6 +6160,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Corkscrew",
+    "slug": "corkscrew",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cosmetic",
+    "slug": "cosmetic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Course Down",
+    "slug": "course-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Course Up",
+    "slug": "course-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Courthouse",
     "slug": "courthouse",
     "variants": [
@@ -2994,6 +6222,18 @@ export const iconMeta = [
   {
     "name": "Cpu",
     "slug": "cpu",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cpu Bolt",
+    "slug": "cpu-bolt",
     "variants": [
       "bold",
       "broken",
@@ -3040,8 +6280,8 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Credit Cards",
-    "slug": "credit-cards",
+    "name": "Crop",
+    "slug": "crop",
     "variants": [
       "bold",
       "broken",
@@ -3052,8 +6292,8 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Crop",
-    "slug": "crop",
+    "name": "Crop Minimalistic",
+    "slug": "crop-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -3088,6 +6328,42 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Crown Line",
+    "slug": "crown-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Crown Minimalistic",
+    "slug": "crown-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Crown Star",
+    "slug": "crown-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Cup",
     "slug": "cup",
     "variants": [
@@ -3100,8 +6376,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Cup First",
+    "slug": "cup-first",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cup Hot",
+    "slug": "cup-hot",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cup Music",
+    "slug": "cup-music",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cup Paper",
+    "slug": "cup-paper",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cup Star",
+    "slug": "cup-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Cursor Square",
+    "slug": "cursor-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Danger",
     "slug": "danger",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Danger Circle",
+    "slug": "danger-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Danger Square",
+    "slug": "danger-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Danger Triangle",
+    "slug": "danger-triangle",
     "variants": [
       "bold",
       "broken",
@@ -3126,6 +6522,30 @@ export const iconMeta = [
   {
     "name": "Data 2",
     "slug": "data-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Database",
+    "slug": "database",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Delivery",
+    "slug": "delivery",
     "variants": [
       "bold",
       "broken",
@@ -3184,6 +6604,138 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Devices Bluetooth",
+    "slug": "devices-bluetooth",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Bluetooth Circle",
+    "slug": "devices-bluetooth-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Cpu",
+    "slug": "devices-cpu",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Devices",
+    "slug": "devices-devices",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Gameboy",
+    "slug": "devices-gameboy",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Keyboard",
+    "slug": "devices-keyboard",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Monitor",
+    "slug": "devices-monitor",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Mouse",
+    "slug": "devices-mouse",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Mouse Circle",
+    "slug": "devices-mouse-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Printer",
+    "slug": "devices-printer",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Devices Radio",
+    "slug": "devices-radio",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Diagram",
     "slug": "diagram",
     "variants": [
@@ -3196,8 +6748,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Diagram Down",
+    "slug": "diagram-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Diagram Up",
+    "slug": "diagram-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dialog",
+    "slug": "dialog",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dialog 2",
+    "slug": "dialog-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Diamonds",
     "slug": "diamonds",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Diploma",
+    "slug": "diploma",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Diploma Verified",
+    "slug": "diploma-verified",
     "variants": [
       "bold",
       "broken",
@@ -3424,6 +7048,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Diskette",
+    "slug": "diskette",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Dislike",
     "slug": "dislike",
     "variants": [
@@ -3436,8 +7072,20 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Doc Folder",
-    "slug": "doc-folder",
+    "name": "Display",
+    "slug": "display",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dna",
+    "slug": "dna",
     "variants": [
       "bold",
       "broken",
@@ -3462,6 +7110,30 @@ export const iconMeta = [
   {
     "name": "Document 1",
     "slug": "document-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Document 2",
+    "slug": "document-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Document Add",
+    "slug": "document-add",
     "variants": [
       "bold",
       "broken",
@@ -3580,6 +7252,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Document Medicine",
+    "slug": "document-medicine",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Document Normal",
     "slug": "document-normal",
     "variants": [
@@ -3652,8 +7336,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Documents",
+    "slug": "documents",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Documents Minimalistic",
+    "slug": "documents-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dollar",
+    "slug": "dollar",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Dollar Circle",
     "slug": "dollar-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dollar Minimalistic",
+    "slug": "dollar-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -3676,8 +7408,8 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Dots",
-    "slug": "dots",
+    "name": "Donut",
+    "slug": "donut",
     "variants": [
       "bold",
       "broken",
@@ -3688,8 +7420,104 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Dots Vertical",
-    "slug": "dots-vertical",
+    "name": "Donut Bitten",
+    "slug": "donut-bitten",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Double Alt Arrow Down",
+    "slug": "double-alt-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Double Alt Arrow Left",
+    "slug": "double-alt-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Double Alt Arrow Right",
+    "slug": "double-alt-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Double Alt Arrow Up",
+    "slug": "double-alt-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Download",
+    "slug": "download",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Download Minimalistic",
+    "slug": "download-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Download Square",
+    "slug": "download-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Download Twice Square",
+    "slug": "download-twice-square",
     "variants": [
       "bold",
       "broken",
@@ -3760,6 +7588,150 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Dropper",
+    "slug": "dropper",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dropper 2",
+    "slug": "dropper-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dropper 3",
+    "slug": "dropper-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dropper Minimalistic",
+    "slug": "dropper-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dropper Minimalistic 2",
+    "slug": "dropper-minimalistic-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dumbbell",
+    "slug": "dumbbell",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dumbbell Large",
+    "slug": "dumbbell-large",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dumbbell Large Minimalistic",
+    "slug": "dumbbell-large-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dumbbell Small",
+    "slug": "dumbbell-small",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dumbbells",
+    "slug": "dumbbells",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Dumbbells 2",
+    "slug": "dumbbells-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Earth",
+    "slug": "earth",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Edit",
     "slug": "edit",
     "variants": [
@@ -3774,6 +7746,18 @@ export const iconMeta = [
   {
     "name": "Edit 2",
     "slug": "edit-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Electric Refueling",
+    "slug": "electric-refueling",
     "variants": [
       "bold",
       "broken",
@@ -3858,6 +7842,30 @@ export const iconMeta = [
   {
     "name": "Element Plus",
     "slug": "element-plus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Emoji Funny Circle",
+    "slug": "emoji-funny-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Emoji Funny Square",
+    "slug": "emoji-funny-square",
     "variants": [
       "bold",
       "broken",
@@ -3976,6 +7984,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "End Call",
+    "slug": "end-call",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "End Call Rounded",
+    "slug": "end-call-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Eraser",
     "slug": "eraser",
     "variants": [
@@ -4002,6 +8034,66 @@ export const iconMeta = [
   {
     "name": "Eraser 2",
     "slug": "eraser-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Eraser Circle",
+    "slug": "eraser-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Eraser Square",
+    "slug": "eraser-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Euro",
+    "slug": "euro",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Exit",
+    "slug": "exit",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Explicit",
+    "slug": "explicit",
     "variants": [
       "bold",
       "broken",
@@ -4060,6 +8152,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Expressionless Circle",
+    "slug": "expressionless-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Expressionless Square",
+    "slug": "expressionless-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "External Drive",
     "slug": "external-drive",
     "variants": [
@@ -4084,6 +8200,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Eye Closed",
+    "slug": "eye-closed",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Eye Scan",
+    "slug": "eye-scan",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Eye Slash",
     "slug": "eye-slash",
     "variants": [
@@ -4096,8 +8236,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Face Scan Circle",
+    "slug": "face-scan-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Face Scan Square",
+    "slug": "face-scan-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Facebook",
     "slug": "facebook",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Facemask Circle",
+    "slug": "facemask-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Facemask Square",
+    "slug": "facemask-square",
     "variants": [
       "bold",
       "broken",
@@ -4122,6 +8310,186 @@ export const iconMeta = [
   {
     "name": "Favorite Chart",
     "slug": "favorite-chart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Feed",
+    "slug": "feed",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ferris Wheel",
+    "slug": "ferris-wheel",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Figma File",
+    "slug": "figma-file",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File",
+    "slug": "file",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Check",
+    "slug": "file-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Corrupted",
+    "slug": "file-corrupted",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Download",
+    "slug": "file-download",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Favourite",
+    "slug": "file-favourite",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Left",
+    "slug": "file-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Remove",
+    "slug": "file-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Right",
+    "slug": "file-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Send",
+    "slug": "file-send",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Smile",
+    "slug": "file-smile",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "File Text",
+    "slug": "file-text",
     "variants": [
       "bold",
       "broken",
@@ -4216,6 +8584,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Filters",
+    "slug": "filters",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Finger Cricle",
     "slug": "finger-cricle",
     "variants": [
@@ -4230,6 +8610,42 @@ export const iconMeta = [
   {
     "name": "Finger Scan",
     "slug": "finger-scan",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Fire",
+    "slug": "fire",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Fire Minimalistic",
+    "slug": "fire-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Fire Square",
+    "slug": "fire-square",
     "variants": [
       "bold",
       "broken",
@@ -4348,8 +8764,104 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Flash Drive",
+    "slug": "flash-drive",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Flash Slash",
     "slug": "flash-slash",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Flashlight",
+    "slug": "flashlight",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Flashlight On",
+    "slug": "flashlight-on",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Flip Horizontal",
+    "slug": "flip-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Flip Vertical",
+    "slug": "flip-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Floor Lamp",
+    "slug": "floor-lamp",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Floor Lamp Minimalistic",
+    "slug": "floor-lamp-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Fog",
+    "slug": "fog",
     "variants": [
       "bold",
       "broken",
@@ -4396,6 +8908,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Folder Check",
+    "slug": "folder-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Folder Cloud",
     "slug": "folder-cloud",
     "variants": [
@@ -4432,8 +8956,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Folder Error",
+    "slug": "folder-error",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Folder Favorite",
     "slug": "folder-favorite",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folder Favourite Bookmark",
+    "slug": "folder-favourite-bookmark",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folder Favourite Star",
+    "slug": "folder-favourite-star",
     "variants": [
       "bold",
       "broken",
@@ -4468,6 +9028,102 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Folder Path Connect",
+    "slug": "folder-path-connect",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folder Security",
+    "slug": "folder-security",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folder With Files",
+    "slug": "folder-with-files",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folders Folder",
+    "slug": "folders-folder",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folders Folder 2",
+    "slug": "folders-folder-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folders Folder Cloud",
+    "slug": "folders-folder-cloud",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Folders Folder Open",
+    "slug": "folders-folder-open",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Football",
+    "slug": "football",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Forbidden",
     "slug": "forbidden",
     "variants": [
@@ -4482,6 +9138,18 @@ export const iconMeta = [
   {
     "name": "Forbidden 2",
     "slug": "forbidden-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Forbidden Circle",
+    "slug": "forbidden-circle",
     "variants": [
       "bold",
       "broken",
@@ -4552,6 +9220,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Forward 2",
+    "slug": "forward-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Forward 5 Seconds",
     "slug": "forward-5-seconds",
     "variants": [
@@ -4588,8 +9268,32 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Forward Right",
+    "slug": "forward-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Forward Square",
     "slug": "forward-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Four K",
+    "slug": "four-k",
     "variants": [
       "bold",
       "broken",
@@ -4696,6 +9400,66 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Fridge",
+    "slug": "fridge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Fuel",
+    "slug": "fuel",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Full Screen",
+    "slug": "full-screen",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Full Screen Circle",
+    "slug": "full-screen-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Full Screen Square",
+    "slug": "full-screen-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Gallery",
     "slug": "gallery",
     "variants": [
@@ -4710,6 +9474,42 @@ export const iconMeta = [
   {
     "name": "Gallery Add",
     "slug": "gallery-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gallery Check",
+    "slug": "gallery-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gallery Circle",
+    "slug": "gallery-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gallery Download",
+    "slug": "gallery-download",
     "variants": [
       "bold",
       "broken",
@@ -4756,6 +9556,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Gallery Favourite",
+    "slug": "gallery-favourite",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Gallery Import",
     "slug": "gallery-import",
     "variants": [
@@ -4768,8 +9580,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Gallery Minimalistic",
+    "slug": "gallery-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Gallery Remove",
     "slug": "gallery-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gallery Round",
+    "slug": "gallery-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gallery Send",
+    "slug": "gallery-send",
     "variants": [
       "bold",
       "broken",
@@ -4804,6 +9652,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Gallery Wide",
+    "slug": "gallery-wide",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Game",
     "slug": "game",
     "variants": [
@@ -4828,8 +9688,8 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Gas Station",
-    "slug": "gas-station",
+    "name": "Gamepad",
+    "slug": "gamepad",
     "variants": [
       "bold",
       "broken",
@@ -4840,8 +9700,68 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Gear",
-    "slug": "gear",
+    "name": "Gamepad Charge",
+    "slug": "gamepad-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gamepad Minimalistic",
+    "slug": "gamepad-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gamepad No Charge",
+    "slug": "gamepad-no-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gamepad Old",
+    "slug": "gamepad-old",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Garage",
+    "slug": "garage",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Gas Station",
+    "slug": "gas-station",
     "variants": [
       "bold",
       "broken",
@@ -4878,6 +9798,18 @@ export const iconMeta = [
   {
     "name": "Ghost",
     "slug": "ghost",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ghost Smile",
+    "slug": "ghost-smile",
     "variants": [
       "bold",
       "broken",
@@ -4948,8 +9880,8 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Glassy",
-    "slug": "glassy",
+    "name": "Glasses",
+    "slug": "glasses",
     "variants": [
       "bold",
       "broken",
@@ -5008,8 +9940,32 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Globus",
+    "slug": "globus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Gmail",
     "slug": "gmail",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Golf",
+    "slug": "golf",
     "variants": [
       "bold",
       "broken",
@@ -5154,6 +10110,66 @@ export const iconMeta = [
   {
     "name": "Graph",
     "slug": "graph",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Graph Down",
+    "slug": "graph-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Graph Down New",
+    "slug": "graph-down-new",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Graph New",
+    "slug": "graph-new",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Graph New Up",
+    "slug": "graph-new-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Graph Up",
+    "slug": "graph-up",
     "variants": [
       "bold",
       "broken",
@@ -5452,8 +10468,92 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Hammer",
-    "slug": "hammer",
+    "name": "Hamburger Menu",
+    "slug": "hamburger-menu",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hand Heart",
+    "slug": "hand-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hand Money",
+    "slug": "hand-money",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hand Pills",
+    "slug": "hand-pills",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hand Shake",
+    "slug": "hand-shake",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hand Stars",
+    "slug": "hand-stars",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hanger",
+    "slug": "hanger",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hanger 2",
+    "slug": "hanger-2",
     "variants": [
       "bold",
       "broken",
@@ -5500,8 +10600,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Hashtag Chat",
+    "slug": "hashtag-chat",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hashtag Circle",
+    "slug": "hashtag-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Hashtag Down",
     "slug": "hashtag-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hashtag Square",
+    "slug": "hashtag-square",
     "variants": [
       "bold",
       "broken",
@@ -5548,6 +10684,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Headphones Round",
+    "slug": "headphones-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Headphones Round Sound",
+    "slug": "headphones-round-sound",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Headphones Square",
+    "slug": "headphones-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Headphones Square Sound",
+    "slug": "headphones-square-sound",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Health",
     "slug": "health",
     "variants": [
@@ -5584,6 +10768,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Heart Angle",
+    "slug": "heart-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Heart Broken",
+    "slug": "heart-broken",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Heart Circle",
     "slug": "heart-circle",
     "variants": [
@@ -5598,6 +10806,42 @@ export const iconMeta = [
   {
     "name": "Heart Edit",
     "slug": "heart-edit",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Heart Lock",
+    "slug": "heart-lock",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Heart Pulse",
+    "slug": "heart-pulse",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Heart Pulse 2",
+    "slug": "heart-pulse-2",
     "variants": [
       "bold",
       "broken",
@@ -5632,6 +10876,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Heart Shine",
+    "slug": "heart-shine",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Heart Slash",
     "slug": "heart-slash",
     "variants": [
@@ -5646,6 +10902,42 @@ export const iconMeta = [
   {
     "name": "Heart Tick",
     "slug": "heart-tick",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Heart Unlock",
+    "slug": "heart-unlock",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hearts",
+    "slug": "hearts",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Help",
+    "slug": "help",
     "variants": [
       "bold",
       "broken",
@@ -5728,6 +11020,102 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "High Definition",
+    "slug": "high-definition",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "High Quality",
+    "slug": "high-quality",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hiking",
+    "slug": "hiking",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hiking Minimalistic",
+    "slug": "hiking-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hiking Round",
+    "slug": "hiking-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "History",
+    "slug": "history",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "History 2",
+    "slug": "history-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "History 3",
+    "slug": "history-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Home",
     "slug": "home",
     "variants": [
@@ -5764,8 +11152,116 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Home Add",
+    "slug": "home-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Add Angle",
+    "slug": "home-add-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Angle",
+    "slug": "home-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Angle 2",
+    "slug": "home-angle-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Home Hashtag",
     "slug": "home-hashtag",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Lamp",
+    "slug": "home-lamp",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Mirror",
+    "slug": "home-mirror",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Smile",
+    "slug": "home-smile",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Smile Angle",
+    "slug": "home-smile-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Speaker",
+    "slug": "home-speaker",
     "variants": [
       "bold",
       "broken",
@@ -5800,6 +11296,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Home Wi Fi",
+    "slug": "home-wi-fi",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Home Wi Fi Angle",
+    "slug": "home-wi-fi-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Home Wifi",
     "slug": "home-wifi",
     "variants": [
@@ -5824,6 +11344,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Hourglass",
+    "slug": "hourglass",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Hourglass Line",
+    "slug": "hourglass-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "House",
     "slug": "house",
     "variants": [
@@ -5838,6 +11382,18 @@ export const iconMeta = [
   {
     "name": "House 2",
     "slug": "house-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "I Phone",
+    "slug": "i-phone",
     "variants": [
       "bold",
       "broken",
@@ -6016,8 +11572,140 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Inbox",
+    "slug": "inbox",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Inbox Archive",
+    "slug": "inbox-archive",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Inbox In",
+    "slug": "inbox-in",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Inbox Line",
+    "slug": "inbox-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Inbox Out",
+    "slug": "inbox-out",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Inbox Unread",
+    "slug": "inbox-unread",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Incognito",
+    "slug": "incognito",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Incoming Call",
+    "slug": "incoming-call",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Incoming Call Rounded",
+    "slug": "incoming-call-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Infinite",
+    "slug": "infinite",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Info Circle",
     "slug": "info-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Info Square",
+    "slug": "info-square",
     "variants": [
       "bold",
       "broken",
@@ -6042,6 +11730,78 @@ export const iconMeta = [
   {
     "name": "Instagram",
     "slug": "instagram",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "It Code",
+    "slug": "it-code",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "It Code Circle",
+    "slug": "it-code-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "It Command",
+    "slug": "it-command",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "It Hashtag",
+    "slug": "it-hashtag",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Jar Of Pills",
+    "slug": "jar-of-pills",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Jar Of Pills 2",
+    "slug": "jar-of-pills-2",
     "variants": [
       "bold",
       "broken",
@@ -6088,8 +11848,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Key Minimalistic",
+    "slug": "key-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Key Minimalistic 2",
+    "slug": "key-minimalistic-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Key Minimalistic Square",
+    "slug": "key-minimalistic-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Key Minimalistic Square 2",
+    "slug": "key-minimalistic-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Key Minimalistic Square 3",
+    "slug": "key-minimalistic-square-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Key Square",
     "slug": "key-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Key Square 2",
+    "slug": "key-square-2",
     "variants": [
       "bold",
       "broken",
@@ -6114,6 +11946,30 @@ export const iconMeta = [
   {
     "name": "Keyboard Open",
     "slug": "keyboard-open",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Kick Scooter",
+    "slug": "kick-scooter",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ladle",
+    "slug": "ladle",
     "variants": [
       "bold",
       "broken",
@@ -6208,8 +12064,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Laptop",
+    "slug": "laptop",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Laptop 2",
+    "slug": "laptop-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Laptop 3",
+    "slug": "laptop-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Laptop Minimalistic",
+    "slug": "laptop-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Layer",
     "slug": "layer",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Layers",
+    "slug": "layers",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Layers Minimalistic",
+    "slug": "layers-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Leaf",
+    "slug": "leaf",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Letter",
+    "slug": "letter",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Letter Opened",
+    "slug": "letter-opened",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Letter Unread",
+    "slug": "letter-unread",
     "variants": [
       "bold",
       "broken",
@@ -6232,8 +12208,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Library",
+    "slug": "library",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Lifebuoy",
     "slug": "lifebuoy",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lightbulb",
+    "slug": "lightbulb",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lightbulb Bolt",
+    "slug": "lightbulb-bolt",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lightbulb Minimalistic",
+    "slug": "lightbulb-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lightning",
+    "slug": "lightning",
     "variants": [
       "bold",
       "broken",
@@ -6280,8 +12316,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Like Dislike 1",
+    "slug": "like-dislike-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Like Heart",
+    "slug": "like-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Like Like",
+    "slug": "like-like",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Like Medal Star",
+    "slug": "like-medal-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Like Shapes",
     "slug": "like-shapes",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Like Star",
+    "slug": "like-star",
     "variants": [
       "bold",
       "broken",
@@ -6352,8 +12448,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Link Broken",
+    "slug": "link-broken",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Link Broken Minimalistic",
+    "slug": "link-broken-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Link Circle",
     "slug": "link-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Link Minimalistic",
+    "slug": "link-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Link Minimalistic 2",
+    "slug": "link-minimalistic-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Link Round",
+    "slug": "link-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Link Round Angle",
+    "slug": "link-round-angle",
     "variants": [
       "bold",
       "broken",
@@ -6378,6 +12546,198 @@ export const iconMeta = [
   {
     "name": "Linkedin",
     "slug": "linkedin",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List",
+    "slug": "list",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Arrow Down",
+    "slug": "list-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Arrow Down Minimalistic",
+    "slug": "list-arrow-down-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Arrow Up",
+    "slug": "list-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Arrow Up Minimalistic",
+    "slug": "list-arrow-up-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Check",
+    "slug": "list-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Check Minimalistic",
+    "slug": "list-check-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Cross",
+    "slug": "list-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Cross Minimalistic",
+    "slug": "list-cross-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Down",
+    "slug": "list-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Down Minimalistic",
+    "slug": "list-down-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Heart",
+    "slug": "list-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Heart Minimalistic",
+    "slug": "list-heart-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Up",
+    "slug": "list-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Up Minimalistic",
+    "slug": "list-up-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "List Vertical",
+    "slug": "list-vertical",
     "variants": [
       "bold",
       "broken",
@@ -6496,8 +12856,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Lock Keyhole",
+    "slug": "lock-keyhole",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lock Keyhole Minimalistic",
+    "slug": "lock-keyhole-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lock Keyhole Minimalistic Unlocked",
+    "slug": "lock-keyhole-minimalistic-unlocked",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lock Keyhole Unlocked",
+    "slug": "lock-keyhole-unlocked",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lock Password",
+    "slug": "lock-password",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lock Password Unlocked",
+    "slug": "lock-password-unlocked",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Lock Slash",
     "slug": "lock-slash",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Lock Unlocked",
+    "slug": "lock-unlocked",
     "variants": [
       "bold",
       "broken",
@@ -6532,6 +12976,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Login 2",
+    "slug": "login-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Login 3",
+    "slug": "login-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Logout",
     "slug": "logout",
     "variants": [
@@ -6546,6 +13014,30 @@ export const iconMeta = [
   {
     "name": "Logout 1",
     "slug": "logout-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Logout 2",
+    "slug": "logout-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Logout 3",
+    "slug": "logout-3",
     "variants": [
       "bold",
       "broken",
@@ -6580,6 +13072,42 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Magic Stick",
+    "slug": "magic-stick",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magic Stick 2",
+    "slug": "magic-stick-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magic Stick 3",
+    "slug": "magic-stick-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Magicpen",
     "slug": "magicpen",
     "variants": [
@@ -6592,8 +13120,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Magnet",
+    "slug": "magnet",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magnet Wave",
+    "slug": "magnet-wave",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magnifier",
+    "slug": "magnifier",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magnifier Bug",
+    "slug": "magnifier-bug",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magnifier Zoom In",
+    "slug": "magnifier-zoom-in",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Magnifier Zoom Out",
+    "slug": "magnifier-zoom-out",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Mail 02",
     "slug": "mail-02",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mailbox",
+    "slug": "mailbox",
     "variants": [
       "bold",
       "broken",
@@ -6664,6 +13276,270 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Map Arrow Down",
+    "slug": "map-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Arrow Left",
+    "slug": "map-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Arrow Right",
+    "slug": "map-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Arrow Square",
+    "slug": "map-arrow-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Arrow Up",
+    "slug": "map-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Global",
+    "slug": "map-global",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Gps",
+    "slug": "map-gps",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Map",
+    "slug": "map-map",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point",
+    "slug": "map-point",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Add",
+    "slug": "map-point-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Favourite",
+    "slug": "map-point-favourite",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Hospital",
+    "slug": "map-point-hospital",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Remove",
+    "slug": "map-point-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Rotate",
+    "slug": "map-point-rotate",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point School",
+    "slug": "map-point-school",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Search",
+    "slug": "map-point-search",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Point Wave",
+    "slug": "map-point-wave",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Radar",
+    "slug": "map-radar",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Radar 2",
+    "slug": "map-radar-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Routing",
+    "slug": "map-routing",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Routing 2",
+    "slug": "map-routing-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Map Signpost",
+    "slug": "map-signpost",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Mask",
     "slug": "mask",
     "variants": [
@@ -6702,6 +13578,42 @@ export const iconMeta = [
   {
     "name": "Mask 3",
     "slug": "mask-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mask Happy",
+    "slug": "mask-happy",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mask Sad",
+    "slug": "mask-sad",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Masks",
+    "slug": "masks",
     "variants": [
       "bold",
       "broken",
@@ -6808,6 +13720,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Maximize Square",
+    "slug": "maximize-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Maximize Square 2",
+    "slug": "maximize-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Maximize Square 3",
+    "slug": "maximize-square-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Maximize Square Minimalistic",
+    "slug": "maximize-square-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Medal",
     "slug": "medal",
     "variants": [
@@ -6820,8 +13780,152 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Medal Ribbon",
+    "slug": "medal-ribbon",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Medal Ribbon Star",
+    "slug": "medal-ribbon-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Medal Ribbons Star",
+    "slug": "medal-ribbons-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Medal Star",
     "slug": "medal-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Medal Star Circle",
+    "slug": "medal-star-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Medal Star Square",
+    "slug": "medal-star-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Medical Kit",
+    "slug": "medical-kit",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Medicine Health",
+    "slug": "medicine-health",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Meditation",
+    "slug": "meditation",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Meditation Round",
+    "slug": "meditation-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Men",
+    "slug": "men",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mention Circle",
+    "slug": "mention-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mention Square",
+    "slug": "mention-square",
     "variants": [
       "bold",
       "broken",
@@ -6858,6 +13962,42 @@ export const iconMeta = [
   {
     "name": "Menu Board",
     "slug": "menu-board",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Menu Dots",
+    "slug": "menu-dots",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Menu Dots Circle",
+    "slug": "menu-dots-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Menu Dots Square",
+    "slug": "menu-dots-square",
     "variants": [
       "bold",
       "broken",
@@ -7132,6 +14272,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Messages Paperclip",
+    "slug": "messages-paperclip",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Messages Paperclip 2",
+    "slug": "messages-paperclip-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Microphone",
     "slug": "microphone",
     "variants": [
@@ -7146,6 +14310,30 @@ export const iconMeta = [
   {
     "name": "Microphone 2",
     "slug": "microphone-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Microphone 3",
+    "slug": "microphone-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Microphone Large",
+    "slug": "microphone-large",
     "variants": [
       "bold",
       "broken",
@@ -7216,8 +14404,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Minimalistic Magnifier",
+    "slug": "minimalistic-magnifier",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimalistic Magnifier Bug",
+    "slug": "minimalistic-magnifier-bug",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimalistic Magnifier Zoom In",
+    "slug": "minimalistic-magnifier-zoom-in",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimalistic Magnifier Zoom Out",
+    "slug": "minimalistic-magnifier-zoom-out",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimize",
+    "slug": "minimize",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimize Square",
+    "slug": "minimize-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimize Square 2",
+    "slug": "minimize-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimize Square 3",
+    "slug": "minimize-square-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minimize Square Minimalistic",
+    "slug": "minimize-square-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Minus",
     "slug": "minus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Minus Circle",
+    "slug": "minus-circle",
     "variants": [
       "bold",
       "broken",
@@ -7254,6 +14562,42 @@ export const iconMeta = [
   {
     "name": "Mirror",
     "slug": "mirror",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mirror 2",
+    "slug": "mirror-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mirror Left",
+    "slug": "mirror-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mirror Right",
+    "slug": "mirror-right",
     "variants": [
       "bold",
       "broken",
@@ -7360,6 +14704,66 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Money Bag",
+    "slug": "money-bag",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Bill",
+    "slug": "money-bill",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Card",
+    "slug": "money-card",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Card Receive",
+    "slug": "money-card-receive",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Card Send",
+    "slug": "money-card-send",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Money Change",
     "slug": "money-change",
     "variants": [
@@ -7420,6 +14824,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Money Tag",
+    "slug": "money-tag",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Money Tick",
     "slug": "money-tick",
     "variants": [
@@ -7432,8 +14848,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Money Ticket",
+    "slug": "money-ticket",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Money Time",
     "slug": "money-time",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Wallet",
+    "slug": "money-wallet",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Wallet 2",
+    "slug": "money-wallet-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Money Wallet Money",
+    "slug": "money-wallet-money",
     "variants": [
       "bold",
       "broken",
@@ -7468,6 +14932,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Monitor Camera",
+    "slug": "monitor-camera",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Monitor Mobbile",
     "slug": "monitor-mobbile",
     "variants": [
@@ -7492,8 +14968,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Monitor Smartphone",
+    "slug": "monitor-smartphone",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Moon",
     "slug": "moon",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Moon Fog",
+    "slug": "moon-fog",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Moon Sleep",
+    "slug": "moon-sleep",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Moon Stars",
+    "slug": "moon-stars",
     "variants": [
       "bold",
       "broken",
@@ -7588,8 +15112,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Mouse Minimalistic",
+    "slug": "mouse-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Mouse Square",
     "slug": "mouse-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Move To Folder",
+    "slug": "move-to-folder",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Mug",
+    "slug": "mug",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Multiple Forward Left",
+    "slug": "multiple-forward-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Multiple Forward Right",
+    "slug": "multiple-forward-right",
     "variants": [
       "bold",
       "broken",
@@ -7648,8 +15232,104 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Music Library",
+    "slug": "music-library",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Music Library 2",
     "slug": "music-library-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Note",
+    "slug": "music-note",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Note 2",
+    "slug": "music-note-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Note 3",
+    "slug": "music-note-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Note 4",
+    "slug": "music-note-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Note Slider",
+    "slug": "music-note-slider",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Note Slider 2",
+    "slug": "music-note-slider-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Music Notes",
+    "slug": "music-notes",
     "variants": [
       "bold",
       "broken",
@@ -7734,6 +15414,18 @@ export const iconMeta = [
   {
     "name": "Musicnote",
     "slug": "musicnote",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Muted",
+    "slug": "muted",
     "variants": [
       "bold",
       "broken",
@@ -7876,6 +15568,150 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Notebook",
+    "slug": "notebook",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notebook 2",
+    "slug": "notebook-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notebook Bookmark",
+    "slug": "notebook-bookmark",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notebook Minimalistic",
+    "slug": "notebook-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notebook Square",
+    "slug": "notebook-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes",
+    "slug": "notes",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes Archive",
+    "slug": "notes-archive",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes Clipboard",
+    "slug": "notes-clipboard",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes Clipboard Text",
+    "slug": "notes-clipboard-text",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes Document",
+    "slug": "notes-document",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes Document Text",
+    "slug": "notes-document-text",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notes Minimalistic",
+    "slug": "notes-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Notification",
     "slug": "notification",
     "variants": [
@@ -7936,6 +15772,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Notification Lines Remove",
+    "slug": "notification-lines-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notification Remove",
+    "slug": "notification-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Notification Status",
     "slug": "notification-status",
     "variants": [
@@ -7948,8 +15808,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Notification Unread",
+    "slug": "notification-unread",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Notification Unread Lines",
+    "slug": "notification-unread-lines",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Notion",
     "slug": "notion",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Object Scan",
+    "slug": "object-scan",
     "variants": [
       "bold",
       "broken",
@@ -8008,8 +15904,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Outgoing Call",
+    "slug": "outgoing-call",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Outgoing Call Rounded",
+    "slug": "outgoing-call-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Oven Mitts",
+    "slug": "oven-mitts",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Oven Mitts Minimalistic",
+    "slug": "oven-mitts-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Paint Roller",
+    "slug": "paint-roller",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Paintbucket",
     "slug": "paintbucket",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Palette",
+    "slug": "palette",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Palette 2",
+    "slug": "palette-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Palette Round",
+    "slug": "palette-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Panorama",
+    "slug": "panorama",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Paper Bin",
+    "slug": "paper-bin",
     "variants": [
       "bold",
       "broken",
@@ -8044,8 +16060,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Paperclip Rounded",
+    "slug": "paperclip-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Paperclip Rounded 2",
+    "slug": "paperclip-rounded-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Paragraph Spacing",
+    "slug": "paragraph-spacing",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Parts Bus",
+    "slug": "parts-bus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Parts Gas Station",
+    "slug": "parts-gas-station",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Passport",
+    "slug": "passport",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Passport Minimalistic",
+    "slug": "passport-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Password",
+    "slug": "password",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Password Check",
     "slug": "password-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Password Minimalistic",
+    "slug": "password-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Password Minimalistic Input",
+    "slug": "password-minimalistic-input",
     "variants": [
       "bold",
       "broken",
@@ -8116,6 +16252,42 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Paw",
+    "slug": "paw",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pen",
+    "slug": "pen",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pen 2",
+    "slug": "pen-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Pen Add",
     "slug": "pen-add",
     "variants": [
@@ -8154,6 +16326,30 @@ export const iconMeta = [
   {
     "name": "Pen Close 1",
     "slug": "pen-close-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pen New Round",
+    "slug": "pen-new-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pen New Square",
+    "slug": "pen-new-square",
     "variants": [
       "bold",
       "broken",
@@ -8248,6 +16444,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "People Nearby",
+    "slug": "people-nearby",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Percentage Circle",
     "slug": "percentage-circle",
     "variants": [
@@ -8262,6 +16470,18 @@ export const iconMeta = [
   {
     "name": "Percentage Square",
     "slug": "percentage-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Perfume",
+    "slug": "perfume",
     "variants": [
       "bold",
       "broken",
@@ -8308,6 +16528,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Phone",
+    "slug": "phone",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Phone Calling",
+    "slug": "phone-calling",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Phone Calling Rounded",
+    "slug": "phone-calling-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Phone Rounded",
+    "slug": "phone-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Picture Frame",
     "slug": "picture-frame",
     "variants": [
@@ -8320,8 +16588,248 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Pie Chart",
+    "slug": "pie-chart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pie Chart 2",
+    "slug": "pie-chart-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pie Chart 3",
+    "slug": "pie-chart-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pill",
+    "slug": "pill",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pills",
+    "slug": "pills",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pills 2",
+    "slug": "pills-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pills 3",
+    "slug": "pills-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pin",
+    "slug": "pin",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pin Circle",
+    "slug": "pin-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pin List",
+    "slug": "pin-list",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pip",
+    "slug": "pip",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pip 2",
+    "slug": "pip-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pipette",
+    "slug": "pipette",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Plain",
+    "slug": "plain",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Plain 2",
+    "slug": "plain-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Plain 3",
+    "slug": "plain-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Planet",
     "slug": "planet",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Planet 2",
+    "slug": "planet-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Planet 3",
+    "slug": "planet-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Planet 4",
+    "slug": "planet-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Plate",
+    "slug": "plate",
     "variants": [
       "bold",
       "broken",
@@ -8382,6 +16890,186 @@ export const iconMeta = [
   {
     "name": "Play Remove",
     "slug": "play-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Play Stream",
+    "slug": "play-stream",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Playback Speed",
+    "slug": "playback-speed",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Playlist",
+    "slug": "playlist",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Playlist 2",
+    "slug": "playlist-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Playlist Minimalistic",
+    "slug": "playlist-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Playlist Minimalistic 2",
+    "slug": "playlist-minimalistic-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Playlist Minimalistic 3",
+    "slug": "playlist-minimalistic-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Plug Circle",
+    "slug": "plug-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Plus Minus",
+    "slug": "plus-minus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Podcast",
+    "slug": "podcast",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Point On Map",
+    "slug": "point-on-map",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Point On Map Perspective",
+    "slug": "point-on-map-perspective",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Posts Carousel Horizontal",
+    "slug": "posts-carousel-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Posts Carousel Vertical",
+    "slug": "posts-carousel-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Power",
+    "slug": "power",
     "variants": [
       "bold",
       "broken",
@@ -8704,6 +17392,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Presentation Graph",
+    "slug": "presentation-graph",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Presention Chart",
     "slug": "presention-chart",
     "variants": [
@@ -8730,6 +17430,30 @@ export const iconMeta = [
   {
     "name": "Printer",
     "slug": "printer",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Printer 2",
+    "slug": "printer-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Printer Minimalistic",
+    "slug": "printer-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -8836,6 +17560,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Programming",
+    "slug": "programming",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Programming Arrow",
     "slug": "programming-arrow",
     "variants": [
@@ -8850,6 +17586,126 @@ export const iconMeta = [
   {
     "name": "Programming Arrows",
     "slug": "programming-arrows",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Projector",
+    "slug": "projector",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pulse",
+    "slug": "pulse",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Pulse 2",
+    "slug": "pulse-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Qr Code",
+    "slug": "qr-code",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Question Circle",
+    "slug": "question-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Question Square",
+    "slug": "question-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Quit Full Screen",
+    "slug": "quit-full-screen",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Quit Full Screen Circle",
+    "slug": "quit-full-screen-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Quit Full Screen Square",
+    "slug": "quit-full-screen-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Quit Pip",
+    "slug": "quit-pip",
     "variants": [
       "bold",
       "broken",
@@ -8968,8 +17824,32 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Radial Blur",
+    "slug": "radial-blur",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Radio",
     "slug": "radio",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Radio Minimalistic",
+    "slug": "radio-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -9208,6 +18088,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Receive Twice Square",
+    "slug": "receive-twice-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Received",
     "slug": "received",
     "variants": [
@@ -9232,8 +18124,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Record Audio Circle",
+    "slug": "record-audio-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Record Circle",
     "slug": "record-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Record Minimalistic",
+    "slug": "record-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Record Square",
+    "slug": "record-square",
     "variants": [
       "bold",
       "broken",
@@ -9258,6 +18186,30 @@ export const iconMeta = [
   {
     "name": "Redo",
     "slug": "redo",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Reel",
+    "slug": "reel",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Reel 2",
+    "slug": "reel-2",
     "variants": [
       "bold",
       "broken",
@@ -9328,8 +18280,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Refresh Square",
+    "slug": "refresh-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Refresh Square 2",
     "slug": "refresh-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Remote Controller",
+    "slug": "remote-controller",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Remote Controller 2",
+    "slug": "remote-controller-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Remote Controller Minimalistic",
+    "slug": "remote-controller-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Remove Folder",
+    "slug": "remove-folder",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Reorder",
+    "slug": "reorder",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Reorder 2",
+    "slug": "reorder-2",
     "variants": [
       "bold",
       "broken",
@@ -9364,6 +18400,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Repeat One",
+    "slug": "repeat-one",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Repeat One Minimalistic",
+    "slug": "repeat-one-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Repeate Music",
     "slug": "repeate-music",
     "variants": [
@@ -9388,6 +18448,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Reply",
+    "slug": "reply",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Reply 2",
+    "slug": "reply-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Reserve",
     "slug": "reserve",
     "variants": [
@@ -9400,8 +18484,200 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Restart",
+    "slug": "restart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Restart Circle",
+    "slug": "restart-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Restart Square",
+    "slug": "restart-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Revote",
+    "slug": "revote",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind 10 Seconds Back",
+    "slug": "rewind-10-seconds-back",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind 10 Seconds Forward",
+    "slug": "rewind-10-seconds-forward",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind 15 Seconds Back",
+    "slug": "rewind-15-seconds-back",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind 15 Seconds Forward",
+    "slug": "rewind-15-seconds-forward",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind 5 Seconds Back",
+    "slug": "rewind-5-seconds-back",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind 5 Seconds Forward",
+    "slug": "rewind-5-seconds-forward",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind Back",
+    "slug": "rewind-back",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind Back Circle",
+    "slug": "rewind-back-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind Forward",
+    "slug": "rewind-forward",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rewind Forward Circle",
+    "slug": "rewind-forward-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Rocket",
     "slug": "rocket",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rocket 2",
+    "slug": "rocket-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rolling Pin",
+    "slug": "rolling-pin",
     "variants": [
       "bold",
       "broken",
@@ -9460,6 +18736,330 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Round Alt Arrow Down",
+    "slug": "round-alt-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Alt Arrow Left",
+    "slug": "round-alt-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Alt Arrow Right",
+    "slug": "round-alt-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Alt Arrow Up",
+    "slug": "round-alt-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Down",
+    "slug": "round-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Left",
+    "slug": "round-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Left Down",
+    "slug": "round-arrow-left-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Left Up",
+    "slug": "round-arrow-left-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Right",
+    "slug": "round-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Right Down",
+    "slug": "round-arrow-right-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Right Up",
+    "slug": "round-arrow-right-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Arrow Up",
+    "slug": "round-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Double Alt Arrow Down",
+    "slug": "round-double-alt-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Double Alt Arrow Left",
+    "slug": "round-double-alt-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Double Alt Arrow Right",
+    "slug": "round-double-alt-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Double Alt Arrow Up",
+    "slug": "round-double-alt-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Graph",
+    "slug": "round-graph",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Sort Horizontal",
+    "slug": "round-sort-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Sort Vertical",
+    "slug": "round-sort-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Transfer Diagonal",
+    "slug": "round-transfer-diagonal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Transfer Horizontal",
+    "slug": "round-transfer-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Round Transfer Vertical",
+    "slug": "round-transfer-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rounded Magnifier",
+    "slug": "rounded-magnifier",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rounded Magnifier Bug",
+    "slug": "rounded-magnifier-bug",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rounded Magnifier Zoom In",
+    "slug": "rounded-magnifier-zoom-in",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rounded Magnifier Zoom Out",
+    "slug": "rounded-magnifier-zoom-out",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Route",
+    "slug": "route",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Route Square",
     "slug": "route-square",
     "variants": [
@@ -9496,6 +19096,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Routing 3",
+    "slug": "routing-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Row Horizontal",
     "slug": "row-horizontal",
     "variants": [
@@ -9520,8 +19132,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Ruble",
+    "slug": "ruble",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Rugby",
+    "slug": "rugby",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Ruler",
     "slug": "ruler",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ruler Angular",
+    "slug": "ruler-angular",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ruler Cross Pen",
+    "slug": "ruler-cross-pen",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ruler Pen",
+    "slug": "ruler-pen",
     "variants": [
       "bold",
       "broken",
@@ -9544,6 +19216,90 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Running",
+    "slug": "running",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Running 2",
+    "slug": "running-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Running Round",
+    "slug": "running-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sad Circle",
+    "slug": "sad-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sad Square",
+    "slug": "sad-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Safe 2",
+    "slug": "safe-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Safe Circle",
+    "slug": "safe-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Safe Home",
     "slug": "safe-home",
     "variants": [
@@ -9556,8 +19312,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Safe Square",
+    "slug": "safe-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sagittarius",
     "slug": "sagittarius",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sale",
+    "slug": "sale",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sale Square",
+    "slug": "sale-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Satellite",
+    "slug": "satellite",
     "variants": [
       "bold",
       "broken",
@@ -9616,6 +19420,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Scale",
+    "slug": "scale",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Scan",
     "slug": "scan",
     "variants": [
@@ -9652,8 +19468,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Scanner 2",
+    "slug": "scanner-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Scanning",
     "slug": "scanning",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "School Book",
+    "slug": "school-book",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "School Bookmark",
+    "slug": "school-bookmark",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "School Calculator",
+    "slug": "school-calculator",
     "variants": [
       "bold",
       "broken",
@@ -9700,6 +19564,78 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Scissors",
+    "slug": "scissors",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Scissors Square",
+    "slug": "scissors-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Scooter",
+    "slug": "scooter",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Screen Share",
+    "slug": "screen-share",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Screencast",
+    "slug": "screencast",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Screencast 2",
+    "slug": "screencast-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Screenmirroring",
     "slug": "screenmirroring",
     "variants": [
@@ -9714,6 +19650,18 @@ export const iconMeta = [
   {
     "name": "Scroll",
     "slug": "scroll",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sd Card",
+    "slug": "sd-card",
     "variants": [
       "bold",
       "broken",
@@ -9868,8 +19816,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Security Eye",
+    "slug": "security-eye",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Security Key",
+    "slug": "security-key",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Security Key Square",
+    "slug": "security-key-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Security Lock",
+    "slug": "security-lock",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Security Safe",
     "slug": "security-safe",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Security Scanner",
+    "slug": "security-scanner",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Security Shield",
+    "slug": "security-shield",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Security Shield Cross",
+    "slug": "security-shield-cross",
     "variants": [
       "bold",
       "broken",
@@ -9964,6 +19996,102 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Send Twice Square",
+    "slug": "send-twice-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server",
+    "slug": "server",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server 2",
+    "slug": "server-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server Minimalistic",
+    "slug": "server-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server Path",
+    "slug": "server-path",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server Square",
+    "slug": "server-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server Square Cloud",
+    "slug": "server-square-cloud",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Server Square Update",
+    "slug": "server-square-update",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Setting",
     "slug": "setting",
     "variants": [
@@ -10036,6 +20164,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Settings Minimalistic",
+    "slug": "settings-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Settings Settings",
+    "slug": "settings-settings",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shapes",
     "slug": "shapes",
     "variants": [
@@ -10084,6 +20236,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Share Circle",
+    "slug": "share-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shield",
     "slug": "shield",
     "variants": [
@@ -10096,8 +20260,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Shield Check",
+    "slug": "shield-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shield Cross",
     "slug": "shield-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Keyhole",
+    "slug": "shield-keyhole",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Keyhole Minimalistic",
+    "slug": "shield-keyhole-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Minimalistic",
+    "slug": "shield-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Minus",
+    "slug": "shield-minus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Network",
+    "slug": "shield-network",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Plus",
+    "slug": "shield-plus",
     "variants": [
       "bold",
       "broken",
@@ -10144,8 +20392,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Shield Star",
+    "slug": "shield-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shield Tick",
     "slug": "shield-tick",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Up",
+    "slug": "shield-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield User",
+    "slug": "shield-user",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shield Warning",
+    "slug": "shield-warning",
     "variants": [
       "bold",
       "broken",
@@ -10168,6 +20464,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Shock Absorber",
+    "slug": "shock-absorber",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shop",
     "slug": "shop",
     "variants": [
@@ -10180,8 +20488,32 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Shop 2",
+    "slug": "shop-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shop Add",
     "slug": "shop-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shop Minimalistic",
+    "slug": "shop-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -10216,8 +20548,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Shopping Bag 1",
+    "slug": "shopping-bag-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shopping Bag 2",
+    "slug": "shopping-bag-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shopping Bag Cross",
+    "slug": "shopping-bag-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Shopping Cart",
     "slug": "shopping-cart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Shopping Shop",
+    "slug": "shopping-shop",
     "variants": [
       "bold",
       "broken",
@@ -10240,6 +20620,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Sidebar",
+    "slug": "sidebar",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sidebar Bottom",
     "slug": "sidebar-bottom",
     "variants": [
@@ -10252,8 +20644,32 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Sidebar Code",
+    "slug": "sidebar-code",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sidebar Left",
     "slug": "sidebar-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sidebar Minimalistic",
+    "slug": "sidebar-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -10300,6 +20716,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Signpost 2",
+    "slug": "signpost-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sim Card",
+    "slug": "sim-card",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sim Card Minimalistic",
+    "slug": "sim-card-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sim Cards",
+    "slug": "sim-cards",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Simcard",
     "slug": "simcard",
     "variants": [
@@ -10336,6 +20800,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Siren",
+    "slug": "siren",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Siren Rounded",
+    "slug": "siren-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Size",
     "slug": "size",
     "variants": [
@@ -10348,8 +20836,152 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Skateboard",
+    "slug": "skateboard",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Skateboarding",
+    "slug": "skateboarding",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Skateboarding Round",
+    "slug": "skateboarding-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Skip Next",
+    "slug": "skip-next",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Skip Previous",
+    "slug": "skip-previous",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Skirt",
+    "slug": "skirt",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Slash",
     "slug": "slash",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Slash Circle",
+    "slug": "slash-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Slash Square",
+    "slug": "slash-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sledgehammer",
+    "slug": "sledgehammer",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sleeping",
+    "slug": "sleeping",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sleeping Circle",
+    "slug": "sleeping-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sleeping Square",
+    "slug": "sleeping-square",
     "variants": [
       "bold",
       "broken",
@@ -10396,6 +21028,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Slider Minimalistic Horizontal",
+    "slug": "slider-minimalistic-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Slider Vertical",
     "slug": "slider-vertical",
     "variants": [
@@ -10410,6 +21054,18 @@ export const iconMeta = [
   {
     "name": "Slider Vertical 1",
     "slug": "slider-vertical-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Slider Vertical Minimalistic",
+    "slug": "slider-vertical-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -10446,6 +21102,186 @@ export const iconMeta = [
   {
     "name": "Smart Home",
     "slug": "smart-home",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smart Home Angle",
+    "slug": "smart-home-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smart Speaker",
+    "slug": "smart-speaker",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smart Speaker 2",
+    "slug": "smart-speaker-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smart Speaker Minimalistic",
+    "slug": "smart-speaker-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smart Vacuum Cleaner",
+    "slug": "smart-vacuum-cleaner",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smart Vacuum Cleaner 2",
+    "slug": "smart-vacuum-cleaner-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone",
+    "slug": "smartphone",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone 2",
+    "slug": "smartphone-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone Rotate 2",
+    "slug": "smartphone-rotate-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone Rotate Angle",
+    "slug": "smartphone-rotate-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone Rotate Orientation",
+    "slug": "smartphone-rotate-orientation",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone Update",
+    "slug": "smartphone-update",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smartphone Vibration",
+    "slug": "smartphone-vibration",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smile Circle",
+    "slug": "smile-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Smile Square",
+    "slug": "smile-square",
     "variants": [
       "bold",
       "broken",
@@ -10540,8 +21376,140 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Snowflake",
+    "slug": "snowflake",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Socket",
+    "slug": "socket",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sofa",
+    "slug": "sofa",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sofa 2",
+    "slug": "sofa-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sofa 3",
+    "slug": "sofa-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sort",
     "slug": "sort",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sort By Alphabet",
+    "slug": "sort-by-alphabet",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sort By Time",
+    "slug": "sort-by-time",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sort From Bottom To Top",
+    "slug": "sort-from-bottom-to-top",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sort From Top To Bottom",
+    "slug": "sort-from-top-to-bottom",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sort Horizontal",
+    "slug": "sort-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sort Vertical",
+    "slug": "sort-vertical",
     "variants": [
       "bold",
       "broken",
@@ -10564,32 +21532,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Soundwave",
+    "slug": "soundwave",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Soundwave Circle",
+    "slug": "soundwave-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Soundwave Square",
+    "slug": "soundwave-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sparkle",
     "slug": "sparkle",
-    "variants": [
-      "bold",
-      "broken",
-      "bulk",
-      "linear",
-      "outline",
-      "twotone"
-    ]
-  },
-  {
-    "name": "Sparkle 2",
-    "slug": "sparkle-2",
-    "variants": [
-      "bold",
-      "broken",
-      "bulk",
-      "linear",
-      "outline",
-      "twotone"
-    ]
-  },
-  {
-    "name": "Sparkle 3",
-    "slug": "sparkle-3",
     "variants": [
       "bold",
       "broken",
@@ -10612,6 +21592,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Speaker Minimalistic",
+    "slug": "speaker-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Special Effects",
+    "slug": "special-effects",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Speedometer",
     "slug": "speedometer",
     "variants": [
@@ -10624,8 +21628,404 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Square Feather",
-    "slug": "square-feather",
+    "name": "Speedometer Low",
+    "slug": "speedometer-low",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Speedometer Max",
+    "slug": "speedometer-max",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Speedometer Middle",
+    "slug": "speedometer-middle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sports Ranking",
+    "slug": "sports-ranking",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Academic Cap",
+    "slug": "square-academic-cap",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Academic Cap 2",
+    "slug": "square-academic-cap-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Alt Arrow Down",
+    "slug": "square-alt-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Alt Arrow Left",
+    "slug": "square-alt-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Alt Arrow Right",
+    "slug": "square-alt-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Alt Arrow Up",
+    "slug": "square-alt-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Down",
+    "slug": "square-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Left",
+    "slug": "square-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Left Down",
+    "slug": "square-arrow-left-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Left Up",
+    "slug": "square-arrow-left-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Right",
+    "slug": "square-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Right Down",
+    "slug": "square-arrow-right-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Right Up",
+    "slug": "square-arrow-right-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Arrow Up",
+    "slug": "square-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Bottom Down",
+    "slug": "square-bottom-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Bottom Up",
+    "slug": "square-bottom-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Double Alt Arrow Down",
+    "slug": "square-double-alt-arrow-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Double Alt Arrow Left",
+    "slug": "square-double-alt-arrow-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Double Alt Arrow Right",
+    "slug": "square-double-alt-arrow-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Double Alt Arrow Up",
+    "slug": "square-double-alt-arrow-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Forward",
+    "slug": "square-forward",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Share Line",
+    "slug": "square-share-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Sort Horizontal",
+    "slug": "square-sort-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Sort Vertical",
+    "slug": "square-sort-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Top Down",
+    "slug": "square-top-down",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Top Up",
+    "slug": "square-top-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Transfer Horizontal",
+    "slug": "square-transfer-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Square Transfer Vertical",
+    "slug": "square-transfer-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ssd Round",
+    "slug": "ssd-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ssd Square",
+    "slug": "ssd-square",
     "variants": [
       "bold",
       "broken",
@@ -10660,8 +22060,212 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Star 2",
+    "slug": "star-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Angle",
+    "slug": "star-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Circle",
+    "slug": "star-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Fall",
+    "slug": "star-fall",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Fall 2",
+    "slug": "star-fall-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Fall Minimalistic",
+    "slug": "star-fall-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Fall Minimalistic 2",
+    "slug": "star-fall-minimalistic-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Rainbow",
+    "slug": "star-rainbow",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Ring",
+    "slug": "star-ring",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Rings",
+    "slug": "star-rings",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Star Shine",
+    "slug": "star-shine",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Star Slash",
     "slug": "star-slash",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stars",
+    "slug": "stars",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stars 2",
+    "slug": "stars-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stars Line",
+    "slug": "stars-line",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stars Minimalistic",
+    "slug": "stars-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Station",
+    "slug": "station",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Station Minimalistic",
+    "slug": "station-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -10696,8 +22300,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Stethoscope",
+    "slug": "stethoscope",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sticker",
     "slug": "sticker",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sticker Circle",
+    "slug": "sticker-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sticker Smile Circle",
+    "slug": "sticker-smile-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sticker Smile Circle 2",
+    "slug": "sticker-smile-circle-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sticker Smile Square",
+    "slug": "sticker-smile-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sticker Square",
+    "slug": "sticker-square",
     "variants": [
       "bold",
       "broken",
@@ -10744,8 +22420,116 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Stopwatch",
+    "slug": "stopwatch",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stopwatch Pause",
+    "slug": "stopwatch-pause",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stopwatch Play",
+    "slug": "stopwatch-play",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Story",
     "slug": "story",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stream",
+    "slug": "stream",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Streets",
+    "slug": "streets",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Streets Map Point",
+    "slug": "streets-map-point",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Streets Navigation",
+    "slug": "streets-navigation",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stretching",
+    "slug": "stretching",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Stretching Round",
+    "slug": "stretching-round",
     "variants": [
       "bold",
       "broken",
@@ -10780,8 +22564,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Structure",
+    "slug": "structure",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Subtitle",
     "slug": "subtitle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Subtitles",
+    "slug": "subtitles",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Suitcase",
+    "slug": "suitcase",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Suitcase Lines",
+    "slug": "suitcase-lines",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Suitcase Tag",
+    "slug": "suitcase-tag",
     "variants": [
       "bold",
       "broken",
@@ -10816,8 +22660,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Sun 2",
+    "slug": "sun-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Sun Fog",
     "slug": "sun-fog",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sunrise",
+    "slug": "sunrise",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Sunset",
+    "slug": "sunset",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Suspension",
+    "slug": "suspension",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Suspension Bolt",
+    "slug": "suspension-bolt",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Suspension Cross",
+    "slug": "suspension-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Swimming",
+    "slug": "swimming",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Syringe",
+    "slug": "syringe",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "T Shirt",
+    "slug": "t-shirt",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tablet",
+    "slug": "tablet",
     "variants": [
       "bold",
       "broken",
@@ -10864,6 +22828,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Tag Horizontal",
+    "slug": "tag-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tag Price",
+    "slug": "tag-price",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Tag Right",
     "slug": "tag-right",
     "variants": [
@@ -10878,6 +22866,18 @@ export const iconMeta = [
   {
     "name": "Tag User",
     "slug": "tag-user",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Target",
+    "slug": "target",
     "variants": [
       "bold",
       "broken",
@@ -10912,6 +22912,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Tea Cup",
+    "slug": "tea-cup",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Teacher",
     "slug": "teacher",
     "variants": [
@@ -10926,6 +22938,78 @@ export const iconMeta = [
   {
     "name": "Telegram",
     "slug": "telegram",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Telescope",
+    "slug": "telescope",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Temperature",
+    "slug": "temperature",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tennis",
+    "slug": "tennis",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tennis 2",
+    "slug": "tennis-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Test Tube",
+    "slug": "test-tube",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Test Tube Minimalistic",
+    "slug": "test-tube-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -10972,6 +23056,198 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Text Bold Circle",
+    "slug": "text-bold-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Bold Square",
+    "slug": "text-bold-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Circle",
+    "slug": "text-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Cross",
+    "slug": "text-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Cross Circle",
+    "slug": "text-cross-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Cross Square",
+    "slug": "text-cross-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Field",
+    "slug": "text-field",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Field Focus",
+    "slug": "text-field-focus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Eraser",
+    "slug": "text-formatting-eraser",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Link",
+    "slug": "text-formatting-link",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Link Circle",
+    "slug": "text-formatting-link-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Link Square",
+    "slug": "text-formatting-link-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Text",
+    "slug": "text-formatting-text",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Text Bold",
+    "slug": "text-formatting-text-bold",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Text Italic",
+    "slug": "text-formatting-text-italic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Formatting Text Underline",
+    "slug": "text-formatting-text-underline",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Text Italic",
     "slug": "text-italic",
     "variants": [
@@ -10984,8 +23260,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Text Italic Circle",
+    "slug": "text-italic-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Italic Square",
+    "slug": "text-italic-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Selection",
+    "slug": "text-selection",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Square",
+    "slug": "text-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Square 2",
+    "slug": "text-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Text Underline",
     "slug": "text-underline",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Underline Circle",
+    "slug": "text-underline-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Text Underline Cross",
+    "slug": "text-underline-cross",
     "variants": [
       "bold",
       "broken",
@@ -11068,6 +23428,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Thermometer",
+    "slug": "thermometer",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Three Squares",
+    "slug": "three-squares",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Tick Circle",
     "slug": "tick-circle",
     "variants": [
@@ -11082,6 +23466,18 @@ export const iconMeta = [
   {
     "name": "Tick Square",
     "slug": "tick-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ticker Star",
+    "slug": "ticker-star",
     "variants": [
       "bold",
       "broken",
@@ -11140,8 +23536,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Ticket Sale",
+    "slug": "ticket-sale",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Ticket Star",
     "slug": "ticket-star",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Time Alarm",
+    "slug": "time-alarm",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Time Calendar",
+    "slug": "time-calendar",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Time Calendar Add",
+    "slug": "time-calendar-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Time Calendar Search",
+    "slug": "time-calendar-search",
     "variants": [
       "bold",
       "broken",
@@ -11200,6 +23656,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "To Pip",
+    "slug": "to-pip",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Toggle Off",
     "slug": "toggle-off",
     "variants": [
@@ -11248,8 +23716,128 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Tools Align Bottom",
+    "slug": "tools-align-bottom",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tools Align Left",
+    "slug": "tools-align-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tools Align Right",
+    "slug": "tools-align-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tools Crop",
+    "slug": "tools-crop",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tools Ruler",
+    "slug": "tools-ruler",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tornado",
+    "slug": "tornado",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tornado Small",
+    "slug": "tornado-small",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Trade",
     "slug": "trade",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Traffic",
+    "slug": "traffic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Traffic Economy",
+    "slug": "traffic-economy",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tram",
+    "slug": "tram",
     "variants": [
       "bold",
       "broken",
@@ -11272,8 +23860,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Transfer Horizontal",
+    "slug": "transfer-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Transfer Vertical",
+    "slug": "transfer-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Translate",
     "slug": "translate",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Translation",
+    "slug": "translation",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Translation 2",
+    "slug": "translation-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Transmission",
+    "slug": "transmission",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Transmission Circle",
+    "slug": "transmission-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Transmission Square",
+    "slug": "transmission-square",
     "variants": [
       "bold",
       "broken",
@@ -11296,8 +23968,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Trash Bin 2",
+    "slug": "trash-bin-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Trash Bin Minimalistic",
+    "slug": "trash-bin-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Trash Bin Minimalistic 2",
+    "slug": "trash-bin-minimalistic-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Trash Bin Trash",
+    "slug": "trash-bin-trash",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Treadmill",
+    "slug": "treadmill",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Treadmill Round",
+    "slug": "treadmill-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Tree",
     "slug": "tree",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Trellis",
+    "slug": "trellis",
     "variants": [
       "bold",
       "broken",
@@ -11416,6 +24172,126 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Tuning",
+    "slug": "tuning",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tuning 2",
+    "slug": "tuning-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tuning 3",
+    "slug": "tuning-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tuning 4",
+    "slug": "tuning-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tuning Square",
+    "slug": "tuning-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tuning Square 2",
+    "slug": "tuning-square-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Turntable",
+    "slug": "turntable",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Turntable Minimalistic",
+    "slug": "turntable-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Turntable Music Note",
+    "slug": "turntable-music-note",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Tv",
+    "slug": "tv",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Twitch",
     "slug": "twitch",
     "variants": [
@@ -11440,8 +24316,488 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Ufo",
+    "slug": "ufo",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ufo 2",
+    "slug": "ufo-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ufo 3",
+    "slug": "ufo-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Add Circle",
+    "slug": "ui-add-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Add Square",
+    "slug": "ui-add-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Battery Full",
+    "slug": "ui-battery-full",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Box",
+    "slug": "ui-box",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Broom",
+    "slug": "ui-broom",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Close Circle",
+    "slug": "ui-close-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Close Square",
+    "slug": "ui-close-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Copy",
+    "slug": "ui-copy",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Copyright",
+    "slug": "ui-copyright",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Creative Commons",
+    "slug": "ui-creative-commons",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Crown",
+    "slug": "ui-crown",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Cup",
+    "slug": "ui-cup",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Danger",
+    "slug": "ui-danger",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Filter",
+    "slug": "ui-filter",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Flag",
+    "slug": "ui-flag",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Flag 2",
+    "slug": "ui-flag-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Forbidden",
+    "slug": "ui-forbidden",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Ghost",
+    "slug": "ui-ghost",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Gift",
+    "slug": "ui-gift",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Home",
+    "slug": "ui-home",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Home 2",
+    "slug": "ui-home-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Info Circle",
+    "slug": "ui-info-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Minus Square",
+    "slug": "ui-minus-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Share",
+    "slug": "ui-share",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Slider Horizontal",
+    "slug": "ui-slider-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Slider Vertical",
+    "slug": "ui-slider-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Smart Home",
+    "slug": "ui-smart-home",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Ui Sort",
+    "slug": "ui-sort",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Umbrella",
+    "slug": "umbrella",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Undo",
     "slug": "undo",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Left",
+    "slug": "undo-left",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Left Round",
+    "slug": "undo-left-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Left Round Square",
+    "slug": "undo-left-round-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Left Square",
+    "slug": "undo-left-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Right",
+    "slug": "undo-right",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Right Round",
+    "slug": "undo-right-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Right Round Square",
+    "slug": "undo-right-round-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Undo Right Square",
+    "slug": "undo-right-square",
     "variants": [
       "bold",
       "broken",
@@ -11476,6 +24832,126 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Unread",
+    "slug": "unread",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Upload",
+    "slug": "upload",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Upload Minimalistic",
+    "slug": "upload-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Upload Square",
+    "slug": "upload-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Upload Track",
+    "slug": "upload-track",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Upload Track 2",
+    "slug": "upload-track-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Upload Twice Square",
+    "slug": "upload-twice-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Usb",
+    "slug": "usb",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Usb Circle",
+    "slug": "usb-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Usb Square",
+    "slug": "usb-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "User",
     "slug": "user",
     "variants": [
@@ -11500,8 +24976,92 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "User Block",
+    "slug": "user-block",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Block Rounded",
+    "slug": "user-block-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Check",
+    "slug": "user-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Check Rounded",
+    "slug": "user-check-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Circle",
+    "slug": "user-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "User Cirlce Add",
     "slug": "user-cirlce-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Cross",
+    "slug": "user-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Cross Rounded",
+    "slug": "user-cross-rounded",
     "variants": [
       "bold",
       "broken",
@@ -11524,8 +25084,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "User Hand Up",
+    "slug": "user-hand-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Hands",
+    "slug": "user-hands",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Heart",
+    "slug": "user-heart",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Heart Rounded",
+    "slug": "user-heart-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Id",
+    "slug": "user-id",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "User Minus",
     "slug": "user-minus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Minus Rounded",
+    "slug": "user-minus-rounded",
     "variants": [
       "bold",
       "broken",
@@ -11548,6 +25180,30 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "User Plus",
+    "slug": "user-plus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Plus Rounded",
+    "slug": "user-plus-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "User Remove",
     "slug": "user-remove",
     "variants": [
@@ -11560,8 +25216,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "User Rounded",
+    "slug": "user-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "User Search",
     "slug": "user-search",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Speak",
+    "slug": "user-speak",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "User Speak Rounded",
+    "slug": "user-speak-rounded",
     "variants": [
       "bold",
       "broken",
@@ -11608,6 +25300,66 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Users Group Rounded",
+    "slug": "users-group-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Users Group Two Rounded",
+    "slug": "users-group-two-rounded",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Users User",
+    "slug": "users-user",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Users User Minus",
+    "slug": "users-user-minus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Verified Check",
+    "slug": "verified-check",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Verify",
     "slug": "verify",
     "variants": [
@@ -11644,8 +25396,152 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Video Camera",
+    "slug": "video-camera",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Video Circle",
     "slug": "video-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame",
+    "slug": "video-frame",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame 2",
+    "slug": "video-frame-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame Cut",
+    "slug": "video-frame-cut",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame Cut 2",
+    "slug": "video-frame-cut-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame Play Horizontal",
+    "slug": "video-frame-play-horizontal",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame Play Vertical",
+    "slug": "video-frame-play-vertical",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Frame Replace",
+    "slug": "video-frame-replace",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Gallery",
+    "slug": "video-gallery",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Gallery Add",
+    "slug": "video-gallery-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Gallery Edit",
+    "slug": "video-gallery-edit",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Gallery Remove",
+    "slug": "video-gallery-remove",
     "variants": [
       "bold",
       "broken",
@@ -11668,8 +25564,80 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Video Library",
+    "slug": "video-library",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Microphone",
+    "slug": "video-microphone",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Microphone 2",
+    "slug": "video-microphone-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Music Library 2",
+    "slug": "video-music-library-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Video Octagon",
     "slug": "video-octagon",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Pause",
+    "slug": "video-pause",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Pause Circle",
+    "slug": "video-pause-circle",
     "variants": [
       "bold",
       "broken",
@@ -11692,8 +25660,68 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Video Play 1",
+    "slug": "video-play-1",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Play Circle",
+    "slug": "video-play-circle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Record",
+    "slug": "video-record",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Video Remove",
     "slug": "video-remove",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Repeat",
+    "slug": "video-repeat",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Shuffle",
+    "slug": "video-shuffle",
     "variants": [
       "bold",
       "broken",
@@ -11718,6 +25746,30 @@ export const iconMeta = [
   {
     "name": "Video Square",
     "slug": "video-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Stop",
+    "slug": "video-stop",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Stop Circle",
+    "slug": "video-stop-circle",
     "variants": [
       "bold",
       "broken",
@@ -11764,6 +25816,102 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Video Volume",
+    "slug": "video-volume",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Video Volume Cross",
+    "slug": "video-volume-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Videocamera",
+    "slug": "videocamera",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Videocamera Add",
+    "slug": "videocamera-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Videocamera Record",
+    "slug": "videocamera-record",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Vinyl",
+    "slug": "vinyl",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Vinyl Record",
+    "slug": "vinyl-record",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Virus",
+    "slug": "virus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Voice Cricle",
     "slug": "voice-cricle",
     "variants": [
@@ -11778,6 +25926,30 @@ export const iconMeta = [
   {
     "name": "Voice Square",
     "slug": "voice-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Volleyball",
+    "slug": "volleyball",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Volleyball 2",
+    "slug": "volleyball-2",
     "variants": [
       "bold",
       "broken",
@@ -11814,6 +25986,30 @@ export const iconMeta = [
   {
     "name": "Volume High",
     "slug": "volume-high",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Volume Knob",
+    "slug": "volume-knob",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Volume Loud",
+    "slug": "volume-loud",
     "variants": [
       "bold",
       "broken",
@@ -11872,8 +26068,56 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Volume Small",
+    "slug": "volume-small",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Volume Up",
     "slug": "volume-up",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wad Of Money",
+    "slug": "wad-of-money",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Walking",
+    "slug": "walking",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Walking Round",
+    "slug": "walking-round",
     "variants": [
       "bold",
       "broken",
@@ -12028,8 +26272,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Wallpaper",
+    "slug": "wallpaper",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Warning 2",
     "slug": "warning-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Washing Machine",
+    "slug": "washing-machine",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Washing Machine Minimalistic",
+    "slug": "washing-machine-minimalistic",
     "variants": [
       "bold",
       "broken",
@@ -12052,8 +26332,212 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Watch Round",
+    "slug": "watch-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Watch Square",
+    "slug": "watch-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Watch Square Minimalistic",
+    "slug": "watch-square-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Watch Square Minimalistic Charge",
+    "slug": "watch-square-minimalistic-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Watch Status",
     "slug": "watch-status",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Water",
+    "slug": "water",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Water Sun",
+    "slug": "water-sun",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Waterdrop",
+    "slug": "waterdrop",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Waterdrops",
+    "slug": "waterdrops",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Cloud",
+    "slug": "weather-cloud",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Cloud Cross",
+    "slug": "weather-cloud-cross",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Cloud Minus",
+    "slug": "weather-cloud-minus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Cloud Plus",
+    "slug": "weather-cloud-plus",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Moon",
+    "slug": "weather-moon",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Sun",
+    "slug": "weather-sun",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Sun Fog",
+    "slug": "weather-sun-fog",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weather Wind",
+    "slug": "weather-wind",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Weigher",
+    "slug": "weigher",
     "variants": [
       "bold",
       "broken",
@@ -12100,6 +26584,162 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Wheel",
+    "slug": "wheel",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wheel Angle",
+    "slug": "wheel-angle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Whisk",
+    "slug": "whisk",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wi Fi Router",
+    "slug": "wi-fi-router",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wi Fi Router Minimalistic",
+    "slug": "wi-fi-router-minimalistic",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wi Fi Router Round",
+    "slug": "wi-fi-router-round",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget",
+    "slug": "widget",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget 2",
+    "slug": "widget-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget 3",
+    "slug": "widget-3",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget 4",
+    "slug": "widget-4",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget 5",
+    "slug": "widget-5",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget 6",
+    "slug": "widget-6",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Widget Add",
+    "slug": "widget-add",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Wifi",
     "slug": "wifi",
     "variants": [
@@ -12114,6 +26754,18 @@ export const iconMeta = [
   {
     "name": "Wifi Square",
     "slug": "wifi-square",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Win Rar",
+    "slug": "win-rar",
     "variants": [
       "bold",
       "broken",
@@ -12148,6 +26800,54 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Window Frame",
+    "slug": "window-frame",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wineglass",
+    "slug": "wineglass",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wineglass Triangle",
+    "slug": "wineglass-triangle",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Wireless Charge",
+    "slug": "wireless-charge",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Woman",
     "slug": "woman",
     "variants": [
@@ -12160,8 +26860,44 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Women",
+    "slug": "women",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Xxx",
+    "slug": "xxx",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Youtube",
     "slug": "youtube",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Zip File",
+    "slug": "zip-file",
     "variants": [
       "bold",
       "broken",

@@ -1,0 +1,24 @@
+import React from "react";
+import Icon from "../../Icon";
+
+export default function MaskHappyLinear({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M21 12V6.71888C21 4.52896 21 3.434 20.2927 2.83487C19.5855 2.23574 18.5045 2.41591 16.3424 2.77626L15.288 2.95199C13.6477 3.22537 12.8276 3.36205 12 3.36205C11.1724 3.36205 10.3523 3.22537 8.71202 2.95199L7.6576 2.77626C5.49553 2.41591 4.4145 2.23574 3.70725 2.83487C3 3.434 3 4.52896 3 6.71888V12C3 17.4903 7.23896 20.1547 9.89856 21.286C10.62 21.5929 10.9807 21.7464 12 21.7464C13.0193 21.7464 13.38 21.5929 14.1014 21.286C16.761 20.1547 21 17.4903 21 12Z" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M6.5 9C6.79112 8.4174 7.57665 8 8.5 8C9.42335 8 10.2089 8.4174 10.5 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M13.5 9C13.7911 8.4174 14.5766 8 15.5 8C16.4234 8 17.2089 8.4174 17.5 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M8.5 14C8.5 14 9.55 15 12 15C14.45 15 15.5 14 15.5 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+    </Icon>
+  );
+}

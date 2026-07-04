@@ -1,0 +1,26 @@
+import React from "react";
+import Icon from "../../Icon";
+
+export default function TimeCalendarSearchTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M22 14V12C22 8.22876 22 6.34315 20.8284 5.17157C19.6569 4 17.7712 4 14 4H10C6.22876 4 4.34315 4 3.17157 5.17157C2 6.34315 2 8.22876 2 12V14C2 17.7712 2 19.6569 3.17157 20.8284C4.34315 22 6.22876 22 10 22H14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path opacity="0.5" d="M7 4V2.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path opacity="0.5" d="M17 4V2.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path opacity="0.5" d="M2 9H22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <circle cx="18" cy="18" r="3" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M20.5 20.5L22 22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+    </Icon>
+  );
+}

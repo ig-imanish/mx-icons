@@ -1,0 +1,23 @@
+import React from "react";
+import Icon from "../../Icon";
+
+export default function PrinterMinimalisticBroken({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <path d="M22 12C22 14.8284 22 16.2426 21.1213 17.1213C20.48 17.7626 19.5535 17.9359 18 17.9827M6 17.9827C4.44655 17.9359 3.51998 17.7626 2.87868 17.1213C2 16.2426 2 14.8284 2 12C2 9.17157 2 7.75736 2.87868 6.87868C3.75736 6 5.17157 6 8 6H16C18.8284 6 20.2426 6 21.1213 6.87868C21.4211 7.17848 21.6186 7.54062 21.7487 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M17.9827 6C17.9359 4.44655 17.7626 3.51998 17.1213 2.87868C16.2426 2 14.8284 2 12 2C9.17157 2 7.75736 2 6.87868 2.87868C6.23738 3.51998 6.06413 4.44655 6.01732 6M18 12V16C18 18.8284 18 20.2426 17.1213 21.1213C16.48 21.7626 15.5535 21.9359 14 21.9827M6 12V16C6 18.8284 6 20.2426 6.87868 21.1213C7.51998 21.7626 8.44655 21.9359 10 21.9827" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M12 11.0003C15.4115 11.0003 17.8729 11.7128 19.5 12.4434M4.5 12.4434C5.40307 12.0379 6.56314 11.638 8 11.3623" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+    </Icon>
+  );
+}

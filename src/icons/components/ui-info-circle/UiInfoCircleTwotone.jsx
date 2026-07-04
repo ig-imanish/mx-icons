@@ -1,0 +1,23 @@
+import React from "react";
+import Icon from "../../Icon";
+
+export default function UiInfoCircleTwotone({
+  size = 24,
+  color = "#292D32",
+  className = "",
+  ...props
+}) {
+  return (
+    <Icon
+      size={size}
+      color={color}
+      fill="none"
+      className={className}
+      {...props}
+    >
+      <circle opacity="0.5" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M12 17V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <circle cx="1" cy="1" r="1" transform="matrix(1 0 0 -1 11 9)" fill="currentColor"/>
+    </Icon>
+  );
+}

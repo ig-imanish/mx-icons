@@ -12011,6 +12011,8729 @@ export {
   GitForkBold
 };
 
+
+import { variants as variantsAltArrowDown } from "./components/alt-arrow-down";
+import { AltArrowDownBold } from "./components/alt-arrow-down";
+import { AltArrowDownBroken } from "./components/alt-arrow-down";
+import { AltArrowDownBulk } from "./components/alt-arrow-down";
+import { AltArrowDownLinear } from "./components/alt-arrow-down";
+import { AltArrowDownOutline } from "./components/alt-arrow-down";
+import { AltArrowDownTwotone } from "./components/alt-arrow-down";
+import { variants as variantsAltArrowLeft } from "./components/alt-arrow-left";
+import { AltArrowLeftBold } from "./components/alt-arrow-left";
+import { AltArrowLeftBroken } from "./components/alt-arrow-left";
+import { AltArrowLeftBulk } from "./components/alt-arrow-left";
+import { AltArrowLeftLinear } from "./components/alt-arrow-left";
+import { AltArrowLeftOutline } from "./components/alt-arrow-left";
+import { AltArrowLeftTwotone } from "./components/alt-arrow-left";
+import { variants as variantsAltArrowRight } from "./components/alt-arrow-right";
+import { AltArrowRightBold } from "./components/alt-arrow-right";
+import { AltArrowRightBroken } from "./components/alt-arrow-right";
+import { AltArrowRightBulk } from "./components/alt-arrow-right";
+import { AltArrowRightLinear } from "./components/alt-arrow-right";
+import { AltArrowRightOutline } from "./components/alt-arrow-right";
+import { AltArrowRightTwotone } from "./components/alt-arrow-right";
+import { variants as variantsAltArrowUp } from "./components/alt-arrow-up";
+import { AltArrowUpBold } from "./components/alt-arrow-up";
+import { AltArrowUpBroken } from "./components/alt-arrow-up";
+import { AltArrowUpBulk } from "./components/alt-arrow-up";
+import { AltArrowUpLinear } from "./components/alt-arrow-up";
+import { AltArrowUpOutline } from "./components/alt-arrow-up";
+import { AltArrowUpTwotone } from "./components/alt-arrow-up";
+import { variants as variantsArrowsArrowDown } from "./components/arrows-arrow-down";
+import { ArrowsArrowDownBold } from "./components/arrows-arrow-down";
+import { ArrowsArrowDownBroken } from "./components/arrows-arrow-down";
+import { ArrowsArrowDownBulk } from "./components/arrows-arrow-down";
+import { ArrowsArrowDownLinear } from "./components/arrows-arrow-down";
+import { ArrowsArrowDownOutline } from "./components/arrows-arrow-down";
+import { ArrowsArrowDownTwotone } from "./components/arrows-arrow-down";
+import { variants as variantsArrowsArrowLeft } from "./components/arrows-arrow-left";
+import { ArrowsArrowLeftBold } from "./components/arrows-arrow-left";
+import { ArrowsArrowLeftBroken } from "./components/arrows-arrow-left";
+import { ArrowsArrowLeftBulk } from "./components/arrows-arrow-left";
+import { ArrowsArrowLeftLinear } from "./components/arrows-arrow-left";
+import { ArrowsArrowLeftOutline } from "./components/arrows-arrow-left";
+import { ArrowsArrowLeftTwotone } from "./components/arrows-arrow-left";
+import { variants as variantsArrowLeftDown } from "./components/arrow-left-down";
+import { ArrowLeftDownBold } from "./components/arrow-left-down";
+import { ArrowLeftDownBroken } from "./components/arrow-left-down";
+import { ArrowLeftDownBulk } from "./components/arrow-left-down";
+import { ArrowLeftDownLinear } from "./components/arrow-left-down";
+import { ArrowLeftDownOutline } from "./components/arrow-left-down";
+import { ArrowLeftDownTwotone } from "./components/arrow-left-down";
+import { variants as variantsArrowLeftUp } from "./components/arrow-left-up";
+import { ArrowLeftUpBold } from "./components/arrow-left-up";
+import { ArrowLeftUpBroken } from "./components/arrow-left-up";
+import { ArrowLeftUpBulk } from "./components/arrow-left-up";
+import { ArrowLeftUpLinear } from "./components/arrow-left-up";
+import { ArrowLeftUpOutline } from "./components/arrow-left-up";
+import { ArrowLeftUpTwotone } from "./components/arrow-left-up";
+import { variants as variantsArrowsArrowRight } from "./components/arrows-arrow-right";
+import { ArrowsArrowRightBold } from "./components/arrows-arrow-right";
+import { ArrowsArrowRightBroken } from "./components/arrows-arrow-right";
+import { ArrowsArrowRightBulk } from "./components/arrows-arrow-right";
+import { ArrowsArrowRightLinear } from "./components/arrows-arrow-right";
+import { ArrowsArrowRightOutline } from "./components/arrows-arrow-right";
+import { ArrowsArrowRightTwotone } from "./components/arrows-arrow-right";
+import { variants as variantsArrowRightDown } from "./components/arrow-right-down";
+import { ArrowRightDownBold } from "./components/arrow-right-down";
+import { ArrowRightDownBroken } from "./components/arrow-right-down";
+import { ArrowRightDownBulk } from "./components/arrow-right-down";
+import { ArrowRightDownLinear } from "./components/arrow-right-down";
+import { ArrowRightDownOutline } from "./components/arrow-right-down";
+import { ArrowRightDownTwotone } from "./components/arrow-right-down";
+import { variants as variantsArrowRightUp } from "./components/arrow-right-up";
+import { ArrowRightUpBold } from "./components/arrow-right-up";
+import { ArrowRightUpBroken } from "./components/arrow-right-up";
+import { ArrowRightUpBulk } from "./components/arrow-right-up";
+import { ArrowRightUpLinear } from "./components/arrow-right-up";
+import { ArrowRightUpOutline } from "./components/arrow-right-up";
+import { ArrowRightUpTwotone } from "./components/arrow-right-up";
+import { variants as variantsArrowsArrowUp } from "./components/arrows-arrow-up";
+import { ArrowsArrowUpBold } from "./components/arrows-arrow-up";
+import { ArrowsArrowUpBroken } from "./components/arrows-arrow-up";
+import { ArrowsArrowUpBulk } from "./components/arrows-arrow-up";
+import { ArrowsArrowUpLinear } from "./components/arrows-arrow-up";
+import { ArrowsArrowUpOutline } from "./components/arrows-arrow-up";
+import { ArrowsArrowUpTwotone } from "./components/arrows-arrow-up";
+import { variants as variantsDoubleAltArrowDown } from "./components/double-alt-arrow-down";
+import { DoubleAltArrowDownBold } from "./components/double-alt-arrow-down";
+import { DoubleAltArrowDownBroken } from "./components/double-alt-arrow-down";
+import { DoubleAltArrowDownBulk } from "./components/double-alt-arrow-down";
+import { DoubleAltArrowDownLinear } from "./components/double-alt-arrow-down";
+import { DoubleAltArrowDownOutline } from "./components/double-alt-arrow-down";
+import { DoubleAltArrowDownTwotone } from "./components/double-alt-arrow-down";
+import { variants as variantsDoubleAltArrowLeft } from "./components/double-alt-arrow-left";
+import { DoubleAltArrowLeftBold } from "./components/double-alt-arrow-left";
+import { DoubleAltArrowLeftBroken } from "./components/double-alt-arrow-left";
+import { DoubleAltArrowLeftBulk } from "./components/double-alt-arrow-left";
+import { DoubleAltArrowLeftLinear } from "./components/double-alt-arrow-left";
+import { DoubleAltArrowLeftOutline } from "./components/double-alt-arrow-left";
+import { DoubleAltArrowLeftTwotone } from "./components/double-alt-arrow-left";
+import { variants as variantsDoubleAltArrowRight } from "./components/double-alt-arrow-right";
+import { DoubleAltArrowRightBold } from "./components/double-alt-arrow-right";
+import { DoubleAltArrowRightBroken } from "./components/double-alt-arrow-right";
+import { DoubleAltArrowRightBulk } from "./components/double-alt-arrow-right";
+import { DoubleAltArrowRightLinear } from "./components/double-alt-arrow-right";
+import { DoubleAltArrowRightOutline } from "./components/double-alt-arrow-right";
+import { DoubleAltArrowRightTwotone } from "./components/double-alt-arrow-right";
+import { variants as variantsDoubleAltArrowUp } from "./components/double-alt-arrow-up";
+import { DoubleAltArrowUpBold } from "./components/double-alt-arrow-up";
+import { DoubleAltArrowUpBroken } from "./components/double-alt-arrow-up";
+import { DoubleAltArrowUpBulk } from "./components/double-alt-arrow-up";
+import { DoubleAltArrowUpLinear } from "./components/double-alt-arrow-up";
+import { DoubleAltArrowUpOutline } from "./components/double-alt-arrow-up";
+import { DoubleAltArrowUpTwotone } from "./components/double-alt-arrow-up";
+import { variants as variantsArrowsRefresh } from "./components/arrows-refresh";
+import { ArrowsRefreshBold } from "./components/arrows-refresh";
+import { ArrowsRefreshBroken } from "./components/arrows-refresh";
+import { ArrowsRefreshBulk } from "./components/arrows-refresh";
+import { ArrowsRefreshLinear } from "./components/arrows-refresh";
+import { ArrowsRefreshOutline } from "./components/arrows-refresh";
+import { ArrowsRefreshTwotone } from "./components/arrows-refresh";
+import { variants as variantsArrowsRefreshCircle } from "./components/arrows-refresh-circle";
+import { ArrowsRefreshCircleBold } from "./components/arrows-refresh-circle";
+import { ArrowsRefreshCircleBroken } from "./components/arrows-refresh-circle";
+import { ArrowsRefreshCircleBulk } from "./components/arrows-refresh-circle";
+import { ArrowsRefreshCircleLinear } from "./components/arrows-refresh-circle";
+import { ArrowsRefreshCircleOutline } from "./components/arrows-refresh-circle";
+import { ArrowsRefreshCircleTwotone } from "./components/arrows-refresh-circle";
+import { variants as variantsRefreshSquare } from "./components/refresh-square";
+import { RefreshSquareBold } from "./components/refresh-square";
+import { RefreshSquareBroken } from "./components/refresh-square";
+import { RefreshSquareBulk } from "./components/refresh-square";
+import { RefreshSquareLinear } from "./components/refresh-square";
+import { RefreshSquareOutline } from "./components/refresh-square";
+import { RefreshSquareTwotone } from "./components/refresh-square";
+import { variants as variantsRestart } from "./components/restart";
+import { RestartBold } from "./components/restart";
+import { RestartBroken } from "./components/restart";
+import { RestartBulk } from "./components/restart";
+import { RestartLinear } from "./components/restart";
+import { RestartOutline } from "./components/restart";
+import { RestartTwotone } from "./components/restart";
+import { variants as variantsRestartCircle } from "./components/restart-circle";
+import { RestartCircleBold } from "./components/restart-circle";
+import { RestartCircleBroken } from "./components/restart-circle";
+import { RestartCircleBulk } from "./components/restart-circle";
+import { RestartCircleLinear } from "./components/restart-circle";
+import { RestartCircleOutline } from "./components/restart-circle";
+import { RestartCircleTwotone } from "./components/restart-circle";
+import { variants as variantsRestartSquare } from "./components/restart-square";
+import { RestartSquareBold } from "./components/restart-square";
+import { RestartSquareBroken } from "./components/restart-square";
+import { RestartSquareBulk } from "./components/restart-square";
+import { RestartSquareLinear } from "./components/restart-square";
+import { RestartSquareOutline } from "./components/restart-square";
+import { RestartSquareTwotone } from "./components/restart-square";
+import { variants as variantsRoundAltArrowDown } from "./components/round-alt-arrow-down";
+import { RoundAltArrowDownBold } from "./components/round-alt-arrow-down";
+import { RoundAltArrowDownBroken } from "./components/round-alt-arrow-down";
+import { RoundAltArrowDownBulk } from "./components/round-alt-arrow-down";
+import { RoundAltArrowDownLinear } from "./components/round-alt-arrow-down";
+import { RoundAltArrowDownOutline } from "./components/round-alt-arrow-down";
+import { RoundAltArrowDownTwotone } from "./components/round-alt-arrow-down";
+import { variants as variantsRoundAltArrowLeft } from "./components/round-alt-arrow-left";
+import { RoundAltArrowLeftBold } from "./components/round-alt-arrow-left";
+import { RoundAltArrowLeftBroken } from "./components/round-alt-arrow-left";
+import { RoundAltArrowLeftBulk } from "./components/round-alt-arrow-left";
+import { RoundAltArrowLeftLinear } from "./components/round-alt-arrow-left";
+import { RoundAltArrowLeftOutline } from "./components/round-alt-arrow-left";
+import { RoundAltArrowLeftTwotone } from "./components/round-alt-arrow-left";
+import { variants as variantsRoundAltArrowRight } from "./components/round-alt-arrow-right";
+import { RoundAltArrowRightBold } from "./components/round-alt-arrow-right";
+import { RoundAltArrowRightBroken } from "./components/round-alt-arrow-right";
+import { RoundAltArrowRightBulk } from "./components/round-alt-arrow-right";
+import { RoundAltArrowRightLinear } from "./components/round-alt-arrow-right";
+import { RoundAltArrowRightOutline } from "./components/round-alt-arrow-right";
+import { RoundAltArrowRightTwotone } from "./components/round-alt-arrow-right";
+import { variants as variantsRoundAltArrowUp } from "./components/round-alt-arrow-up";
+import { RoundAltArrowUpBold } from "./components/round-alt-arrow-up";
+import { RoundAltArrowUpBroken } from "./components/round-alt-arrow-up";
+import { RoundAltArrowUpBulk } from "./components/round-alt-arrow-up";
+import { RoundAltArrowUpLinear } from "./components/round-alt-arrow-up";
+import { RoundAltArrowUpOutline } from "./components/round-alt-arrow-up";
+import { RoundAltArrowUpTwotone } from "./components/round-alt-arrow-up";
+import { variants as variantsRoundArrowDown } from "./components/round-arrow-down";
+import { RoundArrowDownBold } from "./components/round-arrow-down";
+import { RoundArrowDownBroken } from "./components/round-arrow-down";
+import { RoundArrowDownBulk } from "./components/round-arrow-down";
+import { RoundArrowDownLinear } from "./components/round-arrow-down";
+import { RoundArrowDownOutline } from "./components/round-arrow-down";
+import { RoundArrowDownTwotone } from "./components/round-arrow-down";
+import { variants as variantsRoundArrowLeft } from "./components/round-arrow-left";
+import { RoundArrowLeftBold } from "./components/round-arrow-left";
+import { RoundArrowLeftBroken } from "./components/round-arrow-left";
+import { RoundArrowLeftBulk } from "./components/round-arrow-left";
+import { RoundArrowLeftLinear } from "./components/round-arrow-left";
+import { RoundArrowLeftOutline } from "./components/round-arrow-left";
+import { RoundArrowLeftTwotone } from "./components/round-arrow-left";
+import { variants as variantsRoundArrowLeftDown } from "./components/round-arrow-left-down";
+import { RoundArrowLeftDownBold } from "./components/round-arrow-left-down";
+import { RoundArrowLeftDownBroken } from "./components/round-arrow-left-down";
+import { RoundArrowLeftDownBulk } from "./components/round-arrow-left-down";
+import { RoundArrowLeftDownLinear } from "./components/round-arrow-left-down";
+import { RoundArrowLeftDownOutline } from "./components/round-arrow-left-down";
+import { RoundArrowLeftDownTwotone } from "./components/round-arrow-left-down";
+import { variants as variantsRoundArrowLeftUp } from "./components/round-arrow-left-up";
+import { RoundArrowLeftUpBold } from "./components/round-arrow-left-up";
+import { RoundArrowLeftUpBroken } from "./components/round-arrow-left-up";
+import { RoundArrowLeftUpBulk } from "./components/round-arrow-left-up";
+import { RoundArrowLeftUpLinear } from "./components/round-arrow-left-up";
+import { RoundArrowLeftUpOutline } from "./components/round-arrow-left-up";
+import { RoundArrowLeftUpTwotone } from "./components/round-arrow-left-up";
+import { variants as variantsRoundArrowRight } from "./components/round-arrow-right";
+import { RoundArrowRightBold } from "./components/round-arrow-right";
+import { RoundArrowRightBroken } from "./components/round-arrow-right";
+import { RoundArrowRightBulk } from "./components/round-arrow-right";
+import { RoundArrowRightLinear } from "./components/round-arrow-right";
+import { RoundArrowRightOutline } from "./components/round-arrow-right";
+import { RoundArrowRightTwotone } from "./components/round-arrow-right";
+import { variants as variantsRoundArrowRightDown } from "./components/round-arrow-right-down";
+import { RoundArrowRightDownBold } from "./components/round-arrow-right-down";
+import { RoundArrowRightDownBroken } from "./components/round-arrow-right-down";
+import { RoundArrowRightDownBulk } from "./components/round-arrow-right-down";
+import { RoundArrowRightDownLinear } from "./components/round-arrow-right-down";
+import { RoundArrowRightDownOutline } from "./components/round-arrow-right-down";
+import { RoundArrowRightDownTwotone } from "./components/round-arrow-right-down";
+import { variants as variantsRoundArrowRightUp } from "./components/round-arrow-right-up";
+import { RoundArrowRightUpBold } from "./components/round-arrow-right-up";
+import { RoundArrowRightUpBroken } from "./components/round-arrow-right-up";
+import { RoundArrowRightUpBulk } from "./components/round-arrow-right-up";
+import { RoundArrowRightUpLinear } from "./components/round-arrow-right-up";
+import { RoundArrowRightUpOutline } from "./components/round-arrow-right-up";
+import { RoundArrowRightUpTwotone } from "./components/round-arrow-right-up";
+import { variants as variantsRoundArrowUp } from "./components/round-arrow-up";
+import { RoundArrowUpBold } from "./components/round-arrow-up";
+import { RoundArrowUpBroken } from "./components/round-arrow-up";
+import { RoundArrowUpBulk } from "./components/round-arrow-up";
+import { RoundArrowUpLinear } from "./components/round-arrow-up";
+import { RoundArrowUpOutline } from "./components/round-arrow-up";
+import { RoundArrowUpTwotone } from "./components/round-arrow-up";
+import { variants as variantsRoundDoubleAltArrowDown } from "./components/round-double-alt-arrow-down";
+import { RoundDoubleAltArrowDownBold } from "./components/round-double-alt-arrow-down";
+import { RoundDoubleAltArrowDownBroken } from "./components/round-double-alt-arrow-down";
+import { RoundDoubleAltArrowDownBulk } from "./components/round-double-alt-arrow-down";
+import { RoundDoubleAltArrowDownLinear } from "./components/round-double-alt-arrow-down";
+import { RoundDoubleAltArrowDownOutline } from "./components/round-double-alt-arrow-down";
+import { RoundDoubleAltArrowDownTwotone } from "./components/round-double-alt-arrow-down";
+import { variants as variantsRoundDoubleAltArrowLeft } from "./components/round-double-alt-arrow-left";
+import { RoundDoubleAltArrowLeftBold } from "./components/round-double-alt-arrow-left";
+import { RoundDoubleAltArrowLeftBroken } from "./components/round-double-alt-arrow-left";
+import { RoundDoubleAltArrowLeftBulk } from "./components/round-double-alt-arrow-left";
+import { RoundDoubleAltArrowLeftLinear } from "./components/round-double-alt-arrow-left";
+import { RoundDoubleAltArrowLeftOutline } from "./components/round-double-alt-arrow-left";
+import { RoundDoubleAltArrowLeftTwotone } from "./components/round-double-alt-arrow-left";
+import { variants as variantsRoundDoubleAltArrowRight } from "./components/round-double-alt-arrow-right";
+import { RoundDoubleAltArrowRightBold } from "./components/round-double-alt-arrow-right";
+import { RoundDoubleAltArrowRightBroken } from "./components/round-double-alt-arrow-right";
+import { RoundDoubleAltArrowRightBulk } from "./components/round-double-alt-arrow-right";
+import { RoundDoubleAltArrowRightLinear } from "./components/round-double-alt-arrow-right";
+import { RoundDoubleAltArrowRightOutline } from "./components/round-double-alt-arrow-right";
+import { RoundDoubleAltArrowRightTwotone } from "./components/round-double-alt-arrow-right";
+import { variants as variantsRoundDoubleAltArrowUp } from "./components/round-double-alt-arrow-up";
+import { RoundDoubleAltArrowUpBold } from "./components/round-double-alt-arrow-up";
+import { RoundDoubleAltArrowUpBroken } from "./components/round-double-alt-arrow-up";
+import { RoundDoubleAltArrowUpBulk } from "./components/round-double-alt-arrow-up";
+import { RoundDoubleAltArrowUpLinear } from "./components/round-double-alt-arrow-up";
+import { RoundDoubleAltArrowUpOutline } from "./components/round-double-alt-arrow-up";
+import { RoundDoubleAltArrowUpTwotone } from "./components/round-double-alt-arrow-up";
+import { variants as variantsRoundSortHorizontal } from "./components/round-sort-horizontal";
+import { RoundSortHorizontalBold } from "./components/round-sort-horizontal";
+import { RoundSortHorizontalBroken } from "./components/round-sort-horizontal";
+import { RoundSortHorizontalBulk } from "./components/round-sort-horizontal";
+import { RoundSortHorizontalLinear } from "./components/round-sort-horizontal";
+import { RoundSortHorizontalOutline } from "./components/round-sort-horizontal";
+import { RoundSortHorizontalTwotone } from "./components/round-sort-horizontal";
+import { variants as variantsRoundSortVertical } from "./components/round-sort-vertical";
+import { RoundSortVerticalBold } from "./components/round-sort-vertical";
+import { RoundSortVerticalBroken } from "./components/round-sort-vertical";
+import { RoundSortVerticalBulk } from "./components/round-sort-vertical";
+import { RoundSortVerticalLinear } from "./components/round-sort-vertical";
+import { RoundSortVerticalOutline } from "./components/round-sort-vertical";
+import { RoundSortVerticalTwotone } from "./components/round-sort-vertical";
+import { variants as variantsRoundTransferDiagonal } from "./components/round-transfer-diagonal";
+import { RoundTransferDiagonalBold } from "./components/round-transfer-diagonal";
+import { RoundTransferDiagonalBroken } from "./components/round-transfer-diagonal";
+import { RoundTransferDiagonalBulk } from "./components/round-transfer-diagonal";
+import { RoundTransferDiagonalLinear } from "./components/round-transfer-diagonal";
+import { RoundTransferDiagonalOutline } from "./components/round-transfer-diagonal";
+import { RoundTransferDiagonalTwotone } from "./components/round-transfer-diagonal";
+import { variants as variantsRoundTransferHorizontal } from "./components/round-transfer-horizontal";
+import { RoundTransferHorizontalBold } from "./components/round-transfer-horizontal";
+import { RoundTransferHorizontalBroken } from "./components/round-transfer-horizontal";
+import { RoundTransferHorizontalBulk } from "./components/round-transfer-horizontal";
+import { RoundTransferHorizontalLinear } from "./components/round-transfer-horizontal";
+import { RoundTransferHorizontalOutline } from "./components/round-transfer-horizontal";
+import { RoundTransferHorizontalTwotone } from "./components/round-transfer-horizontal";
+import { variants as variantsRoundTransferVertical } from "./components/round-transfer-vertical";
+import { RoundTransferVerticalBold } from "./components/round-transfer-vertical";
+import { RoundTransferVerticalBroken } from "./components/round-transfer-vertical";
+import { RoundTransferVerticalBulk } from "./components/round-transfer-vertical";
+import { RoundTransferVerticalLinear } from "./components/round-transfer-vertical";
+import { RoundTransferVerticalOutline } from "./components/round-transfer-vertical";
+import { RoundTransferVerticalTwotone } from "./components/round-transfer-vertical";
+import { variants as variantsSortHorizontal } from "./components/sort-horizontal";
+import { SortHorizontalBold } from "./components/sort-horizontal";
+import { SortHorizontalBroken } from "./components/sort-horizontal";
+import { SortHorizontalBulk } from "./components/sort-horizontal";
+import { SortHorizontalLinear } from "./components/sort-horizontal";
+import { SortHorizontalOutline } from "./components/sort-horizontal";
+import { SortHorizontalTwotone } from "./components/sort-horizontal";
+import { variants as variantsSortVertical } from "./components/sort-vertical";
+import { SortVerticalBold } from "./components/sort-vertical";
+import { SortVerticalBroken } from "./components/sort-vertical";
+import { SortVerticalBulk } from "./components/sort-vertical";
+import { SortVerticalLinear } from "./components/sort-vertical";
+import { SortVerticalOutline } from "./components/sort-vertical";
+import { SortVerticalTwotone } from "./components/sort-vertical";
+import { variants as variantsSquareAltArrowDown } from "./components/square-alt-arrow-down";
+import { SquareAltArrowDownBold } from "./components/square-alt-arrow-down";
+import { SquareAltArrowDownBroken } from "./components/square-alt-arrow-down";
+import { SquareAltArrowDownBulk } from "./components/square-alt-arrow-down";
+import { SquareAltArrowDownLinear } from "./components/square-alt-arrow-down";
+import { SquareAltArrowDownOutline } from "./components/square-alt-arrow-down";
+import { SquareAltArrowDownTwotone } from "./components/square-alt-arrow-down";
+import { variants as variantsSquareAltArrowLeft } from "./components/square-alt-arrow-left";
+import { SquareAltArrowLeftBold } from "./components/square-alt-arrow-left";
+import { SquareAltArrowLeftBroken } from "./components/square-alt-arrow-left";
+import { SquareAltArrowLeftBulk } from "./components/square-alt-arrow-left";
+import { SquareAltArrowLeftLinear } from "./components/square-alt-arrow-left";
+import { SquareAltArrowLeftOutline } from "./components/square-alt-arrow-left";
+import { SquareAltArrowLeftTwotone } from "./components/square-alt-arrow-left";
+import { variants as variantsSquareAltArrowRight } from "./components/square-alt-arrow-right";
+import { SquareAltArrowRightBold } from "./components/square-alt-arrow-right";
+import { SquareAltArrowRightBroken } from "./components/square-alt-arrow-right";
+import { SquareAltArrowRightBulk } from "./components/square-alt-arrow-right";
+import { SquareAltArrowRightLinear } from "./components/square-alt-arrow-right";
+import { SquareAltArrowRightOutline } from "./components/square-alt-arrow-right";
+import { SquareAltArrowRightTwotone } from "./components/square-alt-arrow-right";
+import { variants as variantsSquareAltArrowUp } from "./components/square-alt-arrow-up";
+import { SquareAltArrowUpBold } from "./components/square-alt-arrow-up";
+import { SquareAltArrowUpBroken } from "./components/square-alt-arrow-up";
+import { SquareAltArrowUpBulk } from "./components/square-alt-arrow-up";
+import { SquareAltArrowUpLinear } from "./components/square-alt-arrow-up";
+import { SquareAltArrowUpOutline } from "./components/square-alt-arrow-up";
+import { SquareAltArrowUpTwotone } from "./components/square-alt-arrow-up";
+import { variants as variantsSquareArrowDown } from "./components/square-arrow-down";
+import { SquareArrowDownBold } from "./components/square-arrow-down";
+import { SquareArrowDownBroken } from "./components/square-arrow-down";
+import { SquareArrowDownBulk } from "./components/square-arrow-down";
+import { SquareArrowDownLinear } from "./components/square-arrow-down";
+import { SquareArrowDownOutline } from "./components/square-arrow-down";
+import { SquareArrowDownTwotone } from "./components/square-arrow-down";
+import { variants as variantsSquareArrowLeft } from "./components/square-arrow-left";
+import { SquareArrowLeftBold } from "./components/square-arrow-left";
+import { SquareArrowLeftBroken } from "./components/square-arrow-left";
+import { SquareArrowLeftBulk } from "./components/square-arrow-left";
+import { SquareArrowLeftLinear } from "./components/square-arrow-left";
+import { SquareArrowLeftOutline } from "./components/square-arrow-left";
+import { SquareArrowLeftTwotone } from "./components/square-arrow-left";
+import { variants as variantsSquareArrowLeftDown } from "./components/square-arrow-left-down";
+import { SquareArrowLeftDownBold } from "./components/square-arrow-left-down";
+import { SquareArrowLeftDownBroken } from "./components/square-arrow-left-down";
+import { SquareArrowLeftDownBulk } from "./components/square-arrow-left-down";
+import { SquareArrowLeftDownLinear } from "./components/square-arrow-left-down";
+import { SquareArrowLeftDownOutline } from "./components/square-arrow-left-down";
+import { SquareArrowLeftDownTwotone } from "./components/square-arrow-left-down";
+import { variants as variantsSquareArrowLeftUp } from "./components/square-arrow-left-up";
+import { SquareArrowLeftUpBold } from "./components/square-arrow-left-up";
+import { SquareArrowLeftUpBroken } from "./components/square-arrow-left-up";
+import { SquareArrowLeftUpBulk } from "./components/square-arrow-left-up";
+import { SquareArrowLeftUpLinear } from "./components/square-arrow-left-up";
+import { SquareArrowLeftUpOutline } from "./components/square-arrow-left-up";
+import { SquareArrowLeftUpTwotone } from "./components/square-arrow-left-up";
+import { variants as variantsSquareArrowRight } from "./components/square-arrow-right";
+import { SquareArrowRightBold } from "./components/square-arrow-right";
+import { SquareArrowRightBroken } from "./components/square-arrow-right";
+import { SquareArrowRightBulk } from "./components/square-arrow-right";
+import { SquareArrowRightLinear } from "./components/square-arrow-right";
+import { SquareArrowRightOutline } from "./components/square-arrow-right";
+import { SquareArrowRightTwotone } from "./components/square-arrow-right";
+import { variants as variantsSquareArrowRightDown } from "./components/square-arrow-right-down";
+import { SquareArrowRightDownBold } from "./components/square-arrow-right-down";
+import { SquareArrowRightDownBroken } from "./components/square-arrow-right-down";
+import { SquareArrowRightDownBulk } from "./components/square-arrow-right-down";
+import { SquareArrowRightDownLinear } from "./components/square-arrow-right-down";
+import { SquareArrowRightDownOutline } from "./components/square-arrow-right-down";
+import { SquareArrowRightDownTwotone } from "./components/square-arrow-right-down";
+import { variants as variantsSquareArrowRightUp } from "./components/square-arrow-right-up";
+import { SquareArrowRightUpBold } from "./components/square-arrow-right-up";
+import { SquareArrowRightUpBroken } from "./components/square-arrow-right-up";
+import { SquareArrowRightUpBulk } from "./components/square-arrow-right-up";
+import { SquareArrowRightUpLinear } from "./components/square-arrow-right-up";
+import { SquareArrowRightUpOutline } from "./components/square-arrow-right-up";
+import { SquareArrowRightUpTwotone } from "./components/square-arrow-right-up";
+import { variants as variantsSquareArrowUp } from "./components/square-arrow-up";
+import { SquareArrowUpBold } from "./components/square-arrow-up";
+import { SquareArrowUpBroken } from "./components/square-arrow-up";
+import { SquareArrowUpBulk } from "./components/square-arrow-up";
+import { SquareArrowUpLinear } from "./components/square-arrow-up";
+import { SquareArrowUpOutline } from "./components/square-arrow-up";
+import { SquareArrowUpTwotone } from "./components/square-arrow-up";
+import { variants as variantsSquareDoubleAltArrowDown } from "./components/square-double-alt-arrow-down";
+import { SquareDoubleAltArrowDownBold } from "./components/square-double-alt-arrow-down";
+import { SquareDoubleAltArrowDownBroken } from "./components/square-double-alt-arrow-down";
+import { SquareDoubleAltArrowDownBulk } from "./components/square-double-alt-arrow-down";
+import { SquareDoubleAltArrowDownLinear } from "./components/square-double-alt-arrow-down";
+import { SquareDoubleAltArrowDownOutline } from "./components/square-double-alt-arrow-down";
+import { SquareDoubleAltArrowDownTwotone } from "./components/square-double-alt-arrow-down";
+import { variants as variantsSquareDoubleAltArrowLeft } from "./components/square-double-alt-arrow-left";
+import { SquareDoubleAltArrowLeftBold } from "./components/square-double-alt-arrow-left";
+import { SquareDoubleAltArrowLeftBroken } from "./components/square-double-alt-arrow-left";
+import { SquareDoubleAltArrowLeftBulk } from "./components/square-double-alt-arrow-left";
+import { SquareDoubleAltArrowLeftLinear } from "./components/square-double-alt-arrow-left";
+import { SquareDoubleAltArrowLeftOutline } from "./components/square-double-alt-arrow-left";
+import { SquareDoubleAltArrowLeftTwotone } from "./components/square-double-alt-arrow-left";
+import { variants as variantsSquareDoubleAltArrowRight } from "./components/square-double-alt-arrow-right";
+import { SquareDoubleAltArrowRightBold } from "./components/square-double-alt-arrow-right";
+import { SquareDoubleAltArrowRightBroken } from "./components/square-double-alt-arrow-right";
+import { SquareDoubleAltArrowRightBulk } from "./components/square-double-alt-arrow-right";
+import { SquareDoubleAltArrowRightLinear } from "./components/square-double-alt-arrow-right";
+import { SquareDoubleAltArrowRightOutline } from "./components/square-double-alt-arrow-right";
+import { SquareDoubleAltArrowRightTwotone } from "./components/square-double-alt-arrow-right";
+import { variants as variantsSquareDoubleAltArrowUp } from "./components/square-double-alt-arrow-up";
+import { SquareDoubleAltArrowUpBold } from "./components/square-double-alt-arrow-up";
+import { SquareDoubleAltArrowUpBroken } from "./components/square-double-alt-arrow-up";
+import { SquareDoubleAltArrowUpBulk } from "./components/square-double-alt-arrow-up";
+import { SquareDoubleAltArrowUpLinear } from "./components/square-double-alt-arrow-up";
+import { SquareDoubleAltArrowUpOutline } from "./components/square-double-alt-arrow-up";
+import { SquareDoubleAltArrowUpTwotone } from "./components/square-double-alt-arrow-up";
+import { variants as variantsSquareSortHorizontal } from "./components/square-sort-horizontal";
+import { SquareSortHorizontalBold } from "./components/square-sort-horizontal";
+import { SquareSortHorizontalBroken } from "./components/square-sort-horizontal";
+import { SquareSortHorizontalBulk } from "./components/square-sort-horizontal";
+import { SquareSortHorizontalLinear } from "./components/square-sort-horizontal";
+import { SquareSortHorizontalOutline } from "./components/square-sort-horizontal";
+import { SquareSortHorizontalTwotone } from "./components/square-sort-horizontal";
+import { variants as variantsSquareSortVertical } from "./components/square-sort-vertical";
+import { SquareSortVerticalBold } from "./components/square-sort-vertical";
+import { SquareSortVerticalBroken } from "./components/square-sort-vertical";
+import { SquareSortVerticalBulk } from "./components/square-sort-vertical";
+import { SquareSortVerticalLinear } from "./components/square-sort-vertical";
+import { SquareSortVerticalOutline } from "./components/square-sort-vertical";
+import { SquareSortVerticalTwotone } from "./components/square-sort-vertical";
+import { variants as variantsSquareTransferHorizontal } from "./components/square-transfer-horizontal";
+import { SquareTransferHorizontalBold } from "./components/square-transfer-horizontal";
+import { SquareTransferHorizontalBroken } from "./components/square-transfer-horizontal";
+import { SquareTransferHorizontalBulk } from "./components/square-transfer-horizontal";
+import { SquareTransferHorizontalLinear } from "./components/square-transfer-horizontal";
+import { SquareTransferHorizontalOutline } from "./components/square-transfer-horizontal";
+import { SquareTransferHorizontalTwotone } from "./components/square-transfer-horizontal";
+import { variants as variantsSquareTransferVertical } from "./components/square-transfer-vertical";
+import { SquareTransferVerticalBold } from "./components/square-transfer-vertical";
+import { SquareTransferVerticalBroken } from "./components/square-transfer-vertical";
+import { SquareTransferVerticalBulk } from "./components/square-transfer-vertical";
+import { SquareTransferVerticalLinear } from "./components/square-transfer-vertical";
+import { SquareTransferVerticalOutline } from "./components/square-transfer-vertical";
+import { SquareTransferVerticalTwotone } from "./components/square-transfer-vertical";
+import { variants as variantsTransferHorizontal } from "./components/transfer-horizontal";
+import { TransferHorizontalBold } from "./components/transfer-horizontal";
+import { TransferHorizontalBroken } from "./components/transfer-horizontal";
+import { TransferHorizontalBulk } from "./components/transfer-horizontal";
+import { TransferHorizontalLinear } from "./components/transfer-horizontal";
+import { TransferHorizontalOutline } from "./components/transfer-horizontal";
+import { TransferHorizontalTwotone } from "./components/transfer-horizontal";
+import { variants as variantsTransferVertical } from "./components/transfer-vertical";
+import { TransferVerticalBold } from "./components/transfer-vertical";
+import { TransferVerticalBroken } from "./components/transfer-vertical";
+import { TransferVerticalBulk } from "./components/transfer-vertical";
+import { TransferVerticalLinear } from "./components/transfer-vertical";
+import { TransferVerticalOutline } from "./components/transfer-vertical";
+import { TransferVerticalTwotone } from "./components/transfer-vertical";
+import { variants as variantsArrowToDownLeft } from "./components/arrow-to-down-left";
+import { ArrowToDownLeftBold } from "./components/arrow-to-down-left";
+import { ArrowToDownLeftBroken } from "./components/arrow-to-down-left";
+import { ArrowToDownLeftBulk } from "./components/arrow-to-down-left";
+import { ArrowToDownLeftLinear } from "./components/arrow-to-down-left";
+import { ArrowToDownLeftOutline } from "./components/arrow-to-down-left";
+import { ArrowToDownLeftTwotone } from "./components/arrow-to-down-left";
+import { variants as variantsArrowToDownRight } from "./components/arrow-to-down-right";
+import { ArrowToDownRightBold } from "./components/arrow-to-down-right";
+import { ArrowToDownRightBroken } from "./components/arrow-to-down-right";
+import { ArrowToDownRightBulk } from "./components/arrow-to-down-right";
+import { ArrowToDownRightLinear } from "./components/arrow-to-down-right";
+import { ArrowToDownRightOutline } from "./components/arrow-to-down-right";
+import { ArrowToDownRightTwotone } from "./components/arrow-to-down-right";
+import { variants as variantsArrowToTopLeft } from "./components/arrow-to-top-left";
+import { ArrowToTopLeftBold } from "./components/arrow-to-top-left";
+import { ArrowToTopLeftBroken } from "./components/arrow-to-top-left";
+import { ArrowToTopLeftBulk } from "./components/arrow-to-top-left";
+import { ArrowToTopLeftLinear } from "./components/arrow-to-top-left";
+import { ArrowToTopLeftOutline } from "./components/arrow-to-top-left";
+import { ArrowToTopLeftTwotone } from "./components/arrow-to-top-left";
+import { variants as variantsArrowToTopRight } from "./components/arrow-to-top-right";
+import { ArrowToTopRightBold } from "./components/arrow-to-top-right";
+import { ArrowToTopRightBroken } from "./components/arrow-to-top-right";
+import { ArrowToTopRightBulk } from "./components/arrow-to-top-right";
+import { ArrowToTopRightLinear } from "./components/arrow-to-top-right";
+import { ArrowToTopRightOutline } from "./components/arrow-to-top-right";
+import { ArrowToTopRightTwotone } from "./components/arrow-to-top-right";
+import { variants as variantsCircleBottomDown } from "./components/circle-bottom-down";
+import { CircleBottomDownBold } from "./components/circle-bottom-down";
+import { CircleBottomDownBroken } from "./components/circle-bottom-down";
+import { CircleBottomDownBulk } from "./components/circle-bottom-down";
+import { CircleBottomDownLinear } from "./components/circle-bottom-down";
+import { CircleBottomDownOutline } from "./components/circle-bottom-down";
+import { CircleBottomDownTwotone } from "./components/circle-bottom-down";
+import { variants as variantsCircleBottomUp } from "./components/circle-bottom-up";
+import { CircleBottomUpBold } from "./components/circle-bottom-up";
+import { CircleBottomUpBroken } from "./components/circle-bottom-up";
+import { CircleBottomUpBulk } from "./components/circle-bottom-up";
+import { CircleBottomUpLinear } from "./components/circle-bottom-up";
+import { CircleBottomUpOutline } from "./components/circle-bottom-up";
+import { CircleBottomUpTwotone } from "./components/circle-bottom-up";
+import { variants as variantsCircleTopDown } from "./components/circle-top-down";
+import { CircleTopDownBold } from "./components/circle-top-down";
+import { CircleTopDownBroken } from "./components/circle-top-down";
+import { CircleTopDownBulk } from "./components/circle-top-down";
+import { CircleTopDownLinear } from "./components/circle-top-down";
+import { CircleTopDownOutline } from "./components/circle-top-down";
+import { CircleTopDownTwotone } from "./components/circle-top-down";
+import { variants as variantsCircleTopUp } from "./components/circle-top-up";
+import { CircleTopUpBold } from "./components/circle-top-up";
+import { CircleTopUpBroken } from "./components/circle-top-up";
+import { CircleTopUpBulk } from "./components/circle-top-up";
+import { CircleTopUpLinear } from "./components/circle-top-up";
+import { CircleTopUpOutline } from "./components/circle-top-up";
+import { CircleTopUpTwotone } from "./components/circle-top-up";
+import { variants as variantsDownload } from "./components/download";
+import { DownloadBold } from "./components/download";
+import { DownloadBroken } from "./components/download";
+import { DownloadBulk } from "./components/download";
+import { DownloadLinear } from "./components/download";
+import { DownloadOutline } from "./components/download";
+import { DownloadTwotone } from "./components/download";
+import { variants as variantsDownloadMinimalistic } from "./components/download-minimalistic";
+import { DownloadMinimalisticBold } from "./components/download-minimalistic";
+import { DownloadMinimalisticBroken } from "./components/download-minimalistic";
+import { DownloadMinimalisticBulk } from "./components/download-minimalistic";
+import { DownloadMinimalisticLinear } from "./components/download-minimalistic";
+import { DownloadMinimalisticOutline } from "./components/download-minimalistic";
+import { DownloadMinimalisticTwotone } from "./components/download-minimalistic";
+import { variants as variantsDownloadSquare } from "./components/download-square";
+import { DownloadSquareBold } from "./components/download-square";
+import { DownloadSquareBroken } from "./components/download-square";
+import { DownloadSquareBulk } from "./components/download-square";
+import { DownloadSquareLinear } from "./components/download-square";
+import { DownloadSquareOutline } from "./components/download-square";
+import { DownloadSquareTwotone } from "./components/download-square";
+import { variants as variantsDownloadTwiceSquare } from "./components/download-twice-square";
+import { DownloadTwiceSquareBold } from "./components/download-twice-square";
+import { DownloadTwiceSquareBroken } from "./components/download-twice-square";
+import { DownloadTwiceSquareBulk } from "./components/download-twice-square";
+import { DownloadTwiceSquareLinear } from "./components/download-twice-square";
+import { DownloadTwiceSquareOutline } from "./components/download-twice-square";
+import { DownloadTwiceSquareTwotone } from "./components/download-twice-square";
+import { variants as variantsExit } from "./components/exit";
+import { ExitBold } from "./components/exit";
+import { ExitBroken } from "./components/exit";
+import { ExitBulk } from "./components/exit";
+import { ExitLinear } from "./components/exit";
+import { ExitOutline } from "./components/exit";
+import { ExitTwotone } from "./components/exit";
+import { variants as variantsArrowsActionExport } from "./components/arrows-action-export";
+import { ArrowsActionExportBold } from "./components/arrows-action-export";
+import { ArrowsActionExportBroken } from "./components/arrows-action-export";
+import { ArrowsActionExportBulk } from "./components/arrows-action-export";
+import { ArrowsActionExportLinear } from "./components/arrows-action-export";
+import { ArrowsActionExportOutline } from "./components/arrows-action-export";
+import { ArrowsActionExportTwotone } from "./components/arrows-action-export";
+import { variants as variantsArrowsActionForward } from "./components/arrows-action-forward";
+import { ArrowsActionForwardBold } from "./components/arrows-action-forward";
+import { ArrowsActionForwardBroken } from "./components/arrows-action-forward";
+import { ArrowsActionForwardBulk } from "./components/arrows-action-forward";
+import { ArrowsActionForwardLinear } from "./components/arrows-action-forward";
+import { ArrowsActionForwardOutline } from "./components/arrows-action-forward";
+import { ArrowsActionForwardTwotone } from "./components/arrows-action-forward";
+import { variants as variantsForward2 } from "./components/forward-2";
+import { Forward2Bold } from "./components/forward-2";
+import { Forward2Broken } from "./components/forward-2";
+import { Forward2Bulk } from "./components/forward-2";
+import { Forward2Linear } from "./components/forward-2";
+import { Forward2Outline } from "./components/forward-2";
+import { Forward2Twotone } from "./components/forward-2";
+import { variants as variantsArrowsActionImport } from "./components/arrows-action-import";
+import { ArrowsActionImportBold } from "./components/arrows-action-import";
+import { ArrowsActionImportBroken } from "./components/arrows-action-import";
+import { ArrowsActionImportBulk } from "./components/arrows-action-import";
+import { ArrowsActionImportLinear } from "./components/arrows-action-import";
+import { ArrowsActionImportOutline } from "./components/arrows-action-import";
+import { ArrowsActionImportTwotone } from "./components/arrows-action-import";
+import { variants as variantsArrowsActionLogin } from "./components/arrows-action-login";
+import { ArrowsActionLoginBold } from "./components/arrows-action-login";
+import { ArrowsActionLoginBroken } from "./components/arrows-action-login";
+import { ArrowsActionLoginBulk } from "./components/arrows-action-login";
+import { ArrowsActionLoginLinear } from "./components/arrows-action-login";
+import { ArrowsActionLoginOutline } from "./components/arrows-action-login";
+import { ArrowsActionLoginTwotone } from "./components/arrows-action-login";
+import { variants as variantsLogin2 } from "./components/login-2";
+import { Login2Bold } from "./components/login-2";
+import { Login2Broken } from "./components/login-2";
+import { Login2Bulk } from "./components/login-2";
+import { Login2Linear } from "./components/login-2";
+import { Login2Outline } from "./components/login-2";
+import { Login2Twotone } from "./components/login-2";
+import { variants as variantsLogin3 } from "./components/login-3";
+import { Login3Bold } from "./components/login-3";
+import { Login3Broken } from "./components/login-3";
+import { Login3Bulk } from "./components/login-3";
+import { Login3Linear } from "./components/login-3";
+import { Login3Outline } from "./components/login-3";
+import { Login3Twotone } from "./components/login-3";
+import { variants as variantsArrowsActionLogout } from "./components/arrows-action-logout";
+import { ArrowsActionLogoutBold } from "./components/arrows-action-logout";
+import { ArrowsActionLogoutBroken } from "./components/arrows-action-logout";
+import { ArrowsActionLogoutBulk } from "./components/arrows-action-logout";
+import { ArrowsActionLogoutLinear } from "./components/arrows-action-logout";
+import { ArrowsActionLogoutOutline } from "./components/arrows-action-logout";
+import { ArrowsActionLogoutTwotone } from "./components/arrows-action-logout";
+import { variants as variantsLogout2 } from "./components/logout-2";
+import { Logout2Bold } from "./components/logout-2";
+import { Logout2Broken } from "./components/logout-2";
+import { Logout2Bulk } from "./components/logout-2";
+import { Logout2Linear } from "./components/logout-2";
+import { Logout2Outline } from "./components/logout-2";
+import { Logout2Twotone } from "./components/logout-2";
+import { variants as variantsLogout3 } from "./components/logout-3";
+import { Logout3Bold } from "./components/logout-3";
+import { Logout3Broken } from "./components/logout-3";
+import { Logout3Bulk } from "./components/logout-3";
+import { Logout3Linear } from "./components/logout-3";
+import { Logout3Outline } from "./components/logout-3";
+import { Logout3Twotone } from "./components/logout-3";
+import { variants as variantsArrowsActionMaximize } from "./components/arrows-action-maximize";
+import { ArrowsActionMaximizeBold } from "./components/arrows-action-maximize";
+import { ArrowsActionMaximizeBroken } from "./components/arrows-action-maximize";
+import { ArrowsActionMaximizeBulk } from "./components/arrows-action-maximize";
+import { ArrowsActionMaximizeLinear } from "./components/arrows-action-maximize";
+import { ArrowsActionMaximizeOutline } from "./components/arrows-action-maximize";
+import { ArrowsActionMaximizeTwotone } from "./components/arrows-action-maximize";
+import { variants as variantsMaximizeSquare } from "./components/maximize-square";
+import { MaximizeSquareBold } from "./components/maximize-square";
+import { MaximizeSquareBroken } from "./components/maximize-square";
+import { MaximizeSquareBulk } from "./components/maximize-square";
+import { MaximizeSquareLinear } from "./components/maximize-square";
+import { MaximizeSquareOutline } from "./components/maximize-square";
+import { MaximizeSquareTwotone } from "./components/maximize-square";
+import { variants as variantsMaximizeSquare2 } from "./components/maximize-square-2";
+import { MaximizeSquare2Bold } from "./components/maximize-square-2";
+import { MaximizeSquare2Broken } from "./components/maximize-square-2";
+import { MaximizeSquare2Bulk } from "./components/maximize-square-2";
+import { MaximizeSquare2Linear } from "./components/maximize-square-2";
+import { MaximizeSquare2Outline } from "./components/maximize-square-2";
+import { MaximizeSquare2Twotone } from "./components/maximize-square-2";
+import { variants as variantsMaximizeSquare3 } from "./components/maximize-square-3";
+import { MaximizeSquare3Bold } from "./components/maximize-square-3";
+import { MaximizeSquare3Broken } from "./components/maximize-square-3";
+import { MaximizeSquare3Bulk } from "./components/maximize-square-3";
+import { MaximizeSquare3Linear } from "./components/maximize-square-3";
+import { MaximizeSquare3Outline } from "./components/maximize-square-3";
+import { MaximizeSquare3Twotone } from "./components/maximize-square-3";
+import { variants as variantsMaximizeSquareMinimalistic } from "./components/maximize-square-minimalistic";
+import { MaximizeSquareMinimalisticBold } from "./components/maximize-square-minimalistic";
+import { MaximizeSquareMinimalisticBroken } from "./components/maximize-square-minimalistic";
+import { MaximizeSquareMinimalisticBulk } from "./components/maximize-square-minimalistic";
+import { MaximizeSquareMinimalisticLinear } from "./components/maximize-square-minimalistic";
+import { MaximizeSquareMinimalisticOutline } from "./components/maximize-square-minimalistic";
+import { MaximizeSquareMinimalisticTwotone } from "./components/maximize-square-minimalistic";
+import { variants as variantsMinimize } from "./components/minimize";
+import { MinimizeBold } from "./components/minimize";
+import { MinimizeBroken } from "./components/minimize";
+import { MinimizeBulk } from "./components/minimize";
+import { MinimizeLinear } from "./components/minimize";
+import { MinimizeOutline } from "./components/minimize";
+import { MinimizeTwotone } from "./components/minimize";
+import { variants as variantsMinimizeSquare } from "./components/minimize-square";
+import { MinimizeSquareBold } from "./components/minimize-square";
+import { MinimizeSquareBroken } from "./components/minimize-square";
+import { MinimizeSquareBulk } from "./components/minimize-square";
+import { MinimizeSquareLinear } from "./components/minimize-square";
+import { MinimizeSquareOutline } from "./components/minimize-square";
+import { MinimizeSquareTwotone } from "./components/minimize-square";
+import { variants as variantsMinimizeSquare2 } from "./components/minimize-square-2";
+import { MinimizeSquare2Bold } from "./components/minimize-square-2";
+import { MinimizeSquare2Broken } from "./components/minimize-square-2";
+import { MinimizeSquare2Bulk } from "./components/minimize-square-2";
+import { MinimizeSquare2Linear } from "./components/minimize-square-2";
+import { MinimizeSquare2Outline } from "./components/minimize-square-2";
+import { MinimizeSquare2Twotone } from "./components/minimize-square-2";
+import { variants as variantsMinimizeSquare3 } from "./components/minimize-square-3";
+import { MinimizeSquare3Bold } from "./components/minimize-square-3";
+import { MinimizeSquare3Broken } from "./components/minimize-square-3";
+import { MinimizeSquare3Bulk } from "./components/minimize-square-3";
+import { MinimizeSquare3Linear } from "./components/minimize-square-3";
+import { MinimizeSquare3Outline } from "./components/minimize-square-3";
+import { MinimizeSquare3Twotone } from "./components/minimize-square-3";
+import { variants as variantsMinimizeSquareMinimalistic } from "./components/minimize-square-minimalistic";
+import { MinimizeSquareMinimalisticBold } from "./components/minimize-square-minimalistic";
+import { MinimizeSquareMinimalisticBroken } from "./components/minimize-square-minimalistic";
+import { MinimizeSquareMinimalisticBulk } from "./components/minimize-square-minimalistic";
+import { MinimizeSquareMinimalisticLinear } from "./components/minimize-square-minimalistic";
+import { MinimizeSquareMinimalisticOutline } from "./components/minimize-square-minimalistic";
+import { MinimizeSquareMinimalisticTwotone } from "./components/minimize-square-minimalistic";
+import { variants as variantsArrowsActionReceiveSquare } from "./components/arrows-action-receive-square";
+import { ArrowsActionReceiveSquareBold } from "./components/arrows-action-receive-square";
+import { ArrowsActionReceiveSquareBroken } from "./components/arrows-action-receive-square";
+import { ArrowsActionReceiveSquareBulk } from "./components/arrows-action-receive-square";
+import { ArrowsActionReceiveSquareLinear } from "./components/arrows-action-receive-square";
+import { ArrowsActionReceiveSquareOutline } from "./components/arrows-action-receive-square";
+import { ArrowsActionReceiveSquareTwotone } from "./components/arrows-action-receive-square";
+import { variants as variantsReceiveTwiceSquare } from "./components/receive-twice-square";
+import { ReceiveTwiceSquareBold } from "./components/receive-twice-square";
+import { ReceiveTwiceSquareBroken } from "./components/receive-twice-square";
+import { ReceiveTwiceSquareBulk } from "./components/receive-twice-square";
+import { ReceiveTwiceSquareLinear } from "./components/receive-twice-square";
+import { ReceiveTwiceSquareOutline } from "./components/receive-twice-square";
+import { ReceiveTwiceSquareTwotone } from "./components/receive-twice-square";
+import { variants as variantsReorder2 } from "./components/reorder-2";
+import { Reorder2Bold } from "./components/reorder-2";
+import { Reorder2Broken } from "./components/reorder-2";
+import { Reorder2Bulk } from "./components/reorder-2";
+import { Reorder2Linear } from "./components/reorder-2";
+import { Reorder2Outline } from "./components/reorder-2";
+import { Reorder2Twotone } from "./components/reorder-2";
+import { variants as variantsReply } from "./components/reply";
+import { ReplyBold } from "./components/reply";
+import { ReplyBroken } from "./components/reply";
+import { ReplyBulk } from "./components/reply";
+import { ReplyLinear } from "./components/reply";
+import { ReplyOutline } from "./components/reply";
+import { ReplyTwotone } from "./components/reply";
+import { variants as variantsReply2 } from "./components/reply-2";
+import { Reply2Bold } from "./components/reply-2";
+import { Reply2Broken } from "./components/reply-2";
+import { Reply2Bulk } from "./components/reply-2";
+import { Reply2Linear } from "./components/reply-2";
+import { Reply2Outline } from "./components/reply-2";
+import { Reply2Twotone } from "./components/reply-2";
+import { variants as variantsScale } from "./components/scale";
+import { ScaleBold } from "./components/scale";
+import { ScaleBroken } from "./components/scale";
+import { ScaleBulk } from "./components/scale";
+import { ScaleLinear } from "./components/scale";
+import { ScaleOutline } from "./components/scale";
+import { ScaleTwotone } from "./components/scale";
+import { variants as variantsScreenShare } from "./components/screen-share";
+import { ScreenShareBold } from "./components/screen-share";
+import { ScreenShareBroken } from "./components/screen-share";
+import { ScreenShareBulk } from "./components/screen-share";
+import { ScreenShareLinear } from "./components/screen-share";
+import { ScreenShareOutline } from "./components/screen-share";
+import { ScreenShareTwotone } from "./components/screen-share";
+import { variants as variantsArrowsActionSendSquare } from "./components/arrows-action-send-square";
+import { ArrowsActionSendSquareBold } from "./components/arrows-action-send-square";
+import { ArrowsActionSendSquareBroken } from "./components/arrows-action-send-square";
+import { ArrowsActionSendSquareBulk } from "./components/arrows-action-send-square";
+import { ArrowsActionSendSquareLinear } from "./components/arrows-action-send-square";
+import { ArrowsActionSendSquareOutline } from "./components/arrows-action-send-square";
+import { ArrowsActionSendSquareTwotone } from "./components/arrows-action-send-square";
+import { variants as variantsSendTwiceSquare } from "./components/send-twice-square";
+import { SendTwiceSquareBold } from "./components/send-twice-square";
+import { SendTwiceSquareBroken } from "./components/send-twice-square";
+import { SendTwiceSquareBulk } from "./components/send-twice-square";
+import { SendTwiceSquareLinear } from "./components/send-twice-square";
+import { SendTwiceSquareOutline } from "./components/send-twice-square";
+import { SendTwiceSquareTwotone } from "./components/send-twice-square";
+import { variants as variantsSquareBottomDown } from "./components/square-bottom-down";
+import { SquareBottomDownBold } from "./components/square-bottom-down";
+import { SquareBottomDownBroken } from "./components/square-bottom-down";
+import { SquareBottomDownBulk } from "./components/square-bottom-down";
+import { SquareBottomDownLinear } from "./components/square-bottom-down";
+import { SquareBottomDownOutline } from "./components/square-bottom-down";
+import { SquareBottomDownTwotone } from "./components/square-bottom-down";
+import { variants as variantsSquareBottomUp } from "./components/square-bottom-up";
+import { SquareBottomUpBold } from "./components/square-bottom-up";
+import { SquareBottomUpBroken } from "./components/square-bottom-up";
+import { SquareBottomUpBulk } from "./components/square-bottom-up";
+import { SquareBottomUpLinear } from "./components/square-bottom-up";
+import { SquareBottomUpOutline } from "./components/square-bottom-up";
+import { SquareBottomUpTwotone } from "./components/square-bottom-up";
+import { variants as variantsSquareTopDown } from "./components/square-top-down";
+import { SquareTopDownBold } from "./components/square-top-down";
+import { SquareTopDownBroken } from "./components/square-top-down";
+import { SquareTopDownBulk } from "./components/square-top-down";
+import { SquareTopDownLinear } from "./components/square-top-down";
+import { SquareTopDownOutline } from "./components/square-top-down";
+import { SquareTopDownTwotone } from "./components/square-top-down";
+import { variants as variantsSquareTopUp } from "./components/square-top-up";
+import { SquareTopUpBold } from "./components/square-top-up";
+import { SquareTopUpBroken } from "./components/square-top-up";
+import { SquareTopUpBulk } from "./components/square-top-up";
+import { SquareTopUpLinear } from "./components/square-top-up";
+import { SquareTopUpOutline } from "./components/square-top-up";
+import { SquareTopUpTwotone } from "./components/square-top-up";
+import { variants as variantsUndoLeft } from "./components/undo-left";
+import { UndoLeftBold } from "./components/undo-left";
+import { UndoLeftBroken } from "./components/undo-left";
+import { UndoLeftBulk } from "./components/undo-left";
+import { UndoLeftLinear } from "./components/undo-left";
+import { UndoLeftOutline } from "./components/undo-left";
+import { UndoLeftTwotone } from "./components/undo-left";
+import { variants as variantsUndoLeftRound } from "./components/undo-left-round";
+import { UndoLeftRoundBold } from "./components/undo-left-round";
+import { UndoLeftRoundBroken } from "./components/undo-left-round";
+import { UndoLeftRoundBulk } from "./components/undo-left-round";
+import { UndoLeftRoundLinear } from "./components/undo-left-round";
+import { UndoLeftRoundOutline } from "./components/undo-left-round";
+import { UndoLeftRoundTwotone } from "./components/undo-left-round";
+import { variants as variantsUndoLeftRoundSquare } from "./components/undo-left-round-square";
+import { UndoLeftRoundSquareBold } from "./components/undo-left-round-square";
+import { UndoLeftRoundSquareBroken } from "./components/undo-left-round-square";
+import { UndoLeftRoundSquareBulk } from "./components/undo-left-round-square";
+import { UndoLeftRoundSquareLinear } from "./components/undo-left-round-square";
+import { UndoLeftRoundSquareOutline } from "./components/undo-left-round-square";
+import { UndoLeftRoundSquareTwotone } from "./components/undo-left-round-square";
+import { variants as variantsUndoLeftSquare } from "./components/undo-left-square";
+import { UndoLeftSquareBold } from "./components/undo-left-square";
+import { UndoLeftSquareBroken } from "./components/undo-left-square";
+import { UndoLeftSquareBulk } from "./components/undo-left-square";
+import { UndoLeftSquareLinear } from "./components/undo-left-square";
+import { UndoLeftSquareOutline } from "./components/undo-left-square";
+import { UndoLeftSquareTwotone } from "./components/undo-left-square";
+import { variants as variantsUndoRight } from "./components/undo-right";
+import { UndoRightBold } from "./components/undo-right";
+import { UndoRightBroken } from "./components/undo-right";
+import { UndoRightBulk } from "./components/undo-right";
+import { UndoRightLinear } from "./components/undo-right";
+import { UndoRightOutline } from "./components/undo-right";
+import { UndoRightTwotone } from "./components/undo-right";
+import { variants as variantsUndoRightRound } from "./components/undo-right-round";
+import { UndoRightRoundBold } from "./components/undo-right-round";
+import { UndoRightRoundBroken } from "./components/undo-right-round";
+import { UndoRightRoundBulk } from "./components/undo-right-round";
+import { UndoRightRoundLinear } from "./components/undo-right-round";
+import { UndoRightRoundOutline } from "./components/undo-right-round";
+import { UndoRightRoundTwotone } from "./components/undo-right-round";
+import { variants as variantsUndoRightRoundSquare } from "./components/undo-right-round-square";
+import { UndoRightRoundSquareBold } from "./components/undo-right-round-square";
+import { UndoRightRoundSquareBroken } from "./components/undo-right-round-square";
+import { UndoRightRoundSquareBulk } from "./components/undo-right-round-square";
+import { UndoRightRoundSquareLinear } from "./components/undo-right-round-square";
+import { UndoRightRoundSquareOutline } from "./components/undo-right-round-square";
+import { UndoRightRoundSquareTwotone } from "./components/undo-right-round-square";
+import { variants as variantsUndoRightSquare } from "./components/undo-right-square";
+import { UndoRightSquareBold } from "./components/undo-right-square";
+import { UndoRightSquareBroken } from "./components/undo-right-square";
+import { UndoRightSquareBulk } from "./components/undo-right-square";
+import { UndoRightSquareLinear } from "./components/undo-right-square";
+import { UndoRightSquareOutline } from "./components/undo-right-square";
+import { UndoRightSquareTwotone } from "./components/undo-right-square";
+import { variants as variantsUpload } from "./components/upload";
+import { UploadBold } from "./components/upload";
+import { UploadBroken } from "./components/upload";
+import { UploadBulk } from "./components/upload";
+import { UploadLinear } from "./components/upload";
+import { UploadOutline } from "./components/upload";
+import { UploadTwotone } from "./components/upload";
+import { variants as variantsUploadMinimalistic } from "./components/upload-minimalistic";
+import { UploadMinimalisticBold } from "./components/upload-minimalistic";
+import { UploadMinimalisticBroken } from "./components/upload-minimalistic";
+import { UploadMinimalisticBulk } from "./components/upload-minimalistic";
+import { UploadMinimalisticLinear } from "./components/upload-minimalistic";
+import { UploadMinimalisticOutline } from "./components/upload-minimalistic";
+import { UploadMinimalisticTwotone } from "./components/upload-minimalistic";
+import { variants as variantsUploadSquare } from "./components/upload-square";
+import { UploadSquareBold } from "./components/upload-square";
+import { UploadSquareBroken } from "./components/upload-square";
+import { UploadSquareBulk } from "./components/upload-square";
+import { UploadSquareLinear } from "./components/upload-square";
+import { UploadSquareOutline } from "./components/upload-square";
+import { UploadSquareTwotone } from "./components/upload-square";
+import { variants as variantsUploadTwiceSquare } from "./components/upload-twice-square";
+import { UploadTwiceSquareBold } from "./components/upload-twice-square";
+import { UploadTwiceSquareBroken } from "./components/upload-twice-square";
+import { UploadTwiceSquareBulk } from "./components/upload-twice-square";
+import { UploadTwiceSquareLinear } from "./components/upload-twice-square";
+import { UploadTwiceSquareOutline } from "./components/upload-twice-square";
+import { UploadTwiceSquareTwotone } from "./components/upload-twice-square";
+import { variants as variantsAsteroid } from "./components/asteroid";
+import { AsteroidBold } from "./components/asteroid";
+import { AsteroidBroken } from "./components/asteroid";
+import { AsteroidBulk } from "./components/asteroid";
+import { AsteroidLinear } from "./components/asteroid";
+import { AsteroidOutline } from "./components/asteroid";
+import { AsteroidTwotone } from "./components/asteroid";
+import { variants as variantsAtom } from "./components/atom";
+import { AtomBold } from "./components/atom";
+import { AtomBroken } from "./components/atom";
+import { AtomBulk } from "./components/atom";
+import { AtomLinear } from "./components/atom";
+import { AtomOutline } from "./components/atom";
+import { AtomTwotone } from "./components/atom";
+import { variants as variantsBlackHole } from "./components/black-hole";
+import { BlackHoleBold } from "./components/black-hole";
+import { BlackHoleBroken } from "./components/black-hole";
+import { BlackHoleBulk } from "./components/black-hole";
+import { BlackHoleLinear } from "./components/black-hole";
+import { BlackHoleOutline } from "./components/black-hole";
+import { BlackHoleTwotone } from "./components/black-hole";
+import { variants as variantsBlackHole2 } from "./components/black-hole-2";
+import { BlackHole2Bold } from "./components/black-hole-2";
+import { BlackHole2Broken } from "./components/black-hole-2";
+import { BlackHole2Bulk } from "./components/black-hole-2";
+import { BlackHole2Linear } from "./components/black-hole-2";
+import { BlackHole2Outline } from "./components/black-hole-2";
+import { BlackHole2Twotone } from "./components/black-hole-2";
+import { variants as variantsBlackHole3 } from "./components/black-hole-3";
+import { BlackHole3Bold } from "./components/black-hole-3";
+import { BlackHole3Broken } from "./components/black-hole-3";
+import { BlackHole3Bulk } from "./components/black-hole-3";
+import { BlackHole3Linear } from "./components/black-hole-3";
+import { BlackHole3Outline } from "./components/black-hole-3";
+import { BlackHole3Twotone } from "./components/black-hole-3";
+import { variants as variantsEarth } from "./components/earth";
+import { EarthBold } from "./components/earth";
+import { EarthBroken } from "./components/earth";
+import { EarthBulk } from "./components/earth";
+import { EarthLinear } from "./components/earth";
+import { EarthOutline } from "./components/earth";
+import { EarthTwotone } from "./components/earth";
+import { variants as variantsInfinite } from "./components/infinite";
+import { InfiniteBold } from "./components/infinite";
+import { InfiniteBroken } from "./components/infinite";
+import { InfiniteBulk } from "./components/infinite";
+import { InfiniteLinear } from "./components/infinite";
+import { InfiniteOutline } from "./components/infinite";
+import { InfiniteTwotone } from "./components/infinite";
+import { variants as variantsMen } from "./components/men";
+import { MenBold } from "./components/men";
+import { MenBroken } from "./components/men";
+import { MenBulk } from "./components/men";
+import { MenLinear } from "./components/men";
+import { MenOutline } from "./components/men";
+import { MenTwotone } from "./components/men";
+import { variants as variantsAstronomyPlanet } from "./components/astronomy-planet";
+import { AstronomyPlanetBold } from "./components/astronomy-planet";
+import { AstronomyPlanetBroken } from "./components/astronomy-planet";
+import { AstronomyPlanetBulk } from "./components/astronomy-planet";
+import { AstronomyPlanetLinear } from "./components/astronomy-planet";
+import { AstronomyPlanetOutline } from "./components/astronomy-planet";
+import { AstronomyPlanetTwotone } from "./components/astronomy-planet";
+import { variants as variantsPlanet2 } from "./components/planet-2";
+import { Planet2Bold } from "./components/planet-2";
+import { Planet2Broken } from "./components/planet-2";
+import { Planet2Bulk } from "./components/planet-2";
+import { Planet2Linear } from "./components/planet-2";
+import { Planet2Outline } from "./components/planet-2";
+import { Planet2Twotone } from "./components/planet-2";
+import { variants as variantsPlanet3 } from "./components/planet-3";
+import { Planet3Bold } from "./components/planet-3";
+import { Planet3Broken } from "./components/planet-3";
+import { Planet3Bulk } from "./components/planet-3";
+import { Planet3Linear } from "./components/planet-3";
+import { Planet3Outline } from "./components/planet-3";
+import { Planet3Twotone } from "./components/planet-3";
+import { variants as variantsPlanet4 } from "./components/planet-4";
+import { Planet4Bold } from "./components/planet-4";
+import { Planet4Broken } from "./components/planet-4";
+import { Planet4Bulk } from "./components/planet-4";
+import { Planet4Linear } from "./components/planet-4";
+import { Planet4Outline } from "./components/planet-4";
+import { Planet4Twotone } from "./components/planet-4";
+import { variants as variantsAstronomyRocket } from "./components/astronomy-rocket";
+import { AstronomyRocketBold } from "./components/astronomy-rocket";
+import { AstronomyRocketBroken } from "./components/astronomy-rocket";
+import { AstronomyRocketBulk } from "./components/astronomy-rocket";
+import { AstronomyRocketLinear } from "./components/astronomy-rocket";
+import { AstronomyRocketOutline } from "./components/astronomy-rocket";
+import { AstronomyRocketTwotone } from "./components/astronomy-rocket";
+import { variants as variantsRocket2 } from "./components/rocket-2";
+import { Rocket2Bold } from "./components/rocket-2";
+import { Rocket2Broken } from "./components/rocket-2";
+import { Rocket2Bulk } from "./components/rocket-2";
+import { Rocket2Linear } from "./components/rocket-2";
+import { Rocket2Outline } from "./components/rocket-2";
+import { Rocket2Twotone } from "./components/rocket-2";
+import { variants as variantsSatellite } from "./components/satellite";
+import { SatelliteBold } from "./components/satellite";
+import { SatelliteBroken } from "./components/satellite";
+import { SatelliteBulk } from "./components/satellite";
+import { SatelliteLinear } from "./components/satellite";
+import { SatelliteOutline } from "./components/satellite";
+import { SatelliteTwotone } from "./components/satellite";
+import { variants as variantsStar2 } from "./components/star-2";
+import { Star2Bold } from "./components/star-2";
+import { Star2Broken } from "./components/star-2";
+import { Star2Bulk } from "./components/star-2";
+import { Star2Linear } from "./components/star-2";
+import { Star2Outline } from "./components/star-2";
+import { Star2Twotone } from "./components/star-2";
+import { variants as variantsStarAngle } from "./components/star-angle";
+import { StarAngleBold } from "./components/star-angle";
+import { StarAngleBroken } from "./components/star-angle";
+import { StarAngleBulk } from "./components/star-angle";
+import { StarAngleLinear } from "./components/star-angle";
+import { StarAngleOutline } from "./components/star-angle";
+import { StarAngleTwotone } from "./components/star-angle";
+import { variants as variantsStarCircle } from "./components/star-circle";
+import { StarCircleBold } from "./components/star-circle";
+import { StarCircleBroken } from "./components/star-circle";
+import { StarCircleBulk } from "./components/star-circle";
+import { StarCircleLinear } from "./components/star-circle";
+import { StarCircleOutline } from "./components/star-circle";
+import { StarCircleTwotone } from "./components/star-circle";
+import { variants as variantsStarFall } from "./components/star-fall";
+import { StarFallBold } from "./components/star-fall";
+import { StarFallBroken } from "./components/star-fall";
+import { StarFallBulk } from "./components/star-fall";
+import { StarFallLinear } from "./components/star-fall";
+import { StarFallOutline } from "./components/star-fall";
+import { StarFallTwotone } from "./components/star-fall";
+import { variants as variantsStarFall2 } from "./components/star-fall-2";
+import { StarFall2Bold } from "./components/star-fall-2";
+import { StarFall2Broken } from "./components/star-fall-2";
+import { StarFall2Bulk } from "./components/star-fall-2";
+import { StarFall2Linear } from "./components/star-fall-2";
+import { StarFall2Outline } from "./components/star-fall-2";
+import { StarFall2Twotone } from "./components/star-fall-2";
+import { variants as variantsStarFallMinimalistic } from "./components/star-fall-minimalistic";
+import { StarFallMinimalisticBold } from "./components/star-fall-minimalistic";
+import { StarFallMinimalisticBroken } from "./components/star-fall-minimalistic";
+import { StarFallMinimalisticBulk } from "./components/star-fall-minimalistic";
+import { StarFallMinimalisticLinear } from "./components/star-fall-minimalistic";
+import { StarFallMinimalisticOutline } from "./components/star-fall-minimalistic";
+import { StarFallMinimalisticTwotone } from "./components/star-fall-minimalistic";
+import { variants as variantsStarFallMinimalistic2 } from "./components/star-fall-minimalistic-2";
+import { StarFallMinimalistic2Bold } from "./components/star-fall-minimalistic-2";
+import { StarFallMinimalistic2Broken } from "./components/star-fall-minimalistic-2";
+import { StarFallMinimalistic2Bulk } from "./components/star-fall-minimalistic-2";
+import { StarFallMinimalistic2Linear } from "./components/star-fall-minimalistic-2";
+import { StarFallMinimalistic2Outline } from "./components/star-fall-minimalistic-2";
+import { StarFallMinimalistic2Twotone } from "./components/star-fall-minimalistic-2";
+import { variants as variantsStarRainbow } from "./components/star-rainbow";
+import { StarRainbowBold } from "./components/star-rainbow";
+import { StarRainbowBroken } from "./components/star-rainbow";
+import { StarRainbowBulk } from "./components/star-rainbow";
+import { StarRainbowLinear } from "./components/star-rainbow";
+import { StarRainbowOutline } from "./components/star-rainbow";
+import { StarRainbowTwotone } from "./components/star-rainbow";
+import { variants as variantsStarRing } from "./components/star-ring";
+import { StarRingBold } from "./components/star-ring";
+import { StarRingBroken } from "./components/star-ring";
+import { StarRingBulk } from "./components/star-ring";
+import { StarRingLinear } from "./components/star-ring";
+import { StarRingOutline } from "./components/star-ring";
+import { StarRingTwotone } from "./components/star-ring";
+import { variants as variantsStarRings } from "./components/star-rings";
+import { StarRingsBold } from "./components/star-rings";
+import { StarRingsBroken } from "./components/star-rings";
+import { StarRingsBulk } from "./components/star-rings";
+import { StarRingsLinear } from "./components/star-rings";
+import { StarRingsOutline } from "./components/star-rings";
+import { StarRingsTwotone } from "./components/star-rings";
+import { variants as variantsStars2 } from "./components/stars-2";
+import { Stars2Bold } from "./components/stars-2";
+import { Stars2Broken } from "./components/stars-2";
+import { Stars2Bulk } from "./components/stars-2";
+import { Stars2Linear } from "./components/stars-2";
+import { Stars2Outline } from "./components/stars-2";
+import { Stars2Twotone } from "./components/stars-2";
+import { variants as variantsStarsLine } from "./components/stars-line";
+import { StarsLineBold } from "./components/stars-line";
+import { StarsLineBroken } from "./components/stars-line";
+import { StarsLineBulk } from "./components/stars-line";
+import { StarsLineLinear } from "./components/stars-line";
+import { StarsLineOutline } from "./components/stars-line";
+import { StarsLineTwotone } from "./components/stars-line";
+import { variants as variantsStarsMinimalistic } from "./components/stars-minimalistic";
+import { StarsMinimalisticBold } from "./components/stars-minimalistic";
+import { StarsMinimalisticBroken } from "./components/stars-minimalistic";
+import { StarsMinimalisticBulk } from "./components/stars-minimalistic";
+import { StarsMinimalisticLinear } from "./components/stars-minimalistic";
+import { StarsMinimalisticOutline } from "./components/stars-minimalistic";
+import { StarsMinimalisticTwotone } from "./components/stars-minimalistic";
+import { variants as variantsUfo } from "./components/ufo";
+import { UfoBold } from "./components/ufo";
+import { UfoBroken } from "./components/ufo";
+import { UfoBulk } from "./components/ufo";
+import { UfoLinear } from "./components/ufo";
+import { UfoOutline } from "./components/ufo";
+import { UfoTwotone } from "./components/ufo";
+import { variants as variantsUfo2 } from "./components/ufo-2";
+import { Ufo2Bold } from "./components/ufo-2";
+import { Ufo2Broken } from "./components/ufo-2";
+import { Ufo2Bulk } from "./components/ufo-2";
+import { Ufo2Linear } from "./components/ufo-2";
+import { Ufo2Outline } from "./components/ufo-2";
+import { Ufo2Twotone } from "./components/ufo-2";
+import { variants as variantsUfo3 } from "./components/ufo-3";
+import { Ufo3Bold } from "./components/ufo-3";
+import { Ufo3Broken } from "./components/ufo-3";
+import { Ufo3Bulk } from "./components/ufo-3";
+import { Ufo3Linear } from "./components/ufo-3";
+import { Ufo3Outline } from "./components/ufo-3";
+import { Ufo3Twotone } from "./components/ufo-3";
+import { variants as variantsWomen } from "./components/women";
+import { WomenBold } from "./components/women";
+import { WomenBroken } from "./components/women";
+import { WomenBulk } from "./components/women";
+import { WomenLinear } from "./components/women";
+import { WomenOutline } from "./components/women";
+import { WomenTwotone } from "./components/women";
+import { variants as variantsBuildingBuildings } from "./components/building-buildings";
+import { BuildingBuildingsBold } from "./components/building-buildings";
+import { BuildingBuildingsBroken } from "./components/building-buildings";
+import { BuildingBuildingsBulk } from "./components/building-buildings";
+import { BuildingBuildingsLinear } from "./components/building-buildings";
+import { BuildingBuildingsOutline } from "./components/building-buildings";
+import { BuildingBuildingsTwotone } from "./components/building-buildings";
+import { variants as variantsBuildingBuildings2 } from "./components/building-buildings-2";
+import { BuildingBuildings2Bold } from "./components/building-buildings-2";
+import { BuildingBuildings2Broken } from "./components/building-buildings-2";
+import { BuildingBuildings2Bulk } from "./components/building-buildings-2";
+import { BuildingBuildings2Linear } from "./components/building-buildings-2";
+import { BuildingBuildings2Outline } from "./components/building-buildings-2";
+import { BuildingBuildings2Twotone } from "./components/building-buildings-2";
+import { variants as variantsBuildings3 } from "./components/buildings-3";
+import { Buildings3Bold } from "./components/buildings-3";
+import { Buildings3Broken } from "./components/buildings-3";
+import { Buildings3Bulk } from "./components/buildings-3";
+import { Buildings3Linear } from "./components/buildings-3";
+import { Buildings3Outline } from "./components/buildings-3";
+import { Buildings3Twotone } from "./components/buildings-3";
+import { variants as variantsCity } from "./components/city";
+import { CityBold } from "./components/city";
+import { CityBroken } from "./components/city";
+import { CityBulk } from "./components/city";
+import { CityLinear } from "./components/city";
+import { CityOutline } from "./components/city";
+import { CityTwotone } from "./components/city";
+import { variants as variantsGarage } from "./components/garage";
+import { GarageBold } from "./components/garage";
+import { GarageBroken } from "./components/garage";
+import { GarageBulk } from "./components/garage";
+import { GarageLinear } from "./components/garage";
+import { GarageOutline } from "./components/garage";
+import { GarageTwotone } from "./components/garage";
+import { variants as variantsBuildingHospital } from "./components/building-hospital";
+import { BuildingHospitalBold } from "./components/building-hospital";
+import { BuildingHospitalBroken } from "./components/building-hospital";
+import { BuildingHospitalBulk } from "./components/building-hospital";
+import { BuildingHospitalLinear } from "./components/building-hospital";
+import { BuildingHospitalOutline } from "./components/building-hospital";
+import { BuildingHospitalTwotone } from "./components/building-hospital";
+import { variants as variantsBuildingHouse } from "./components/building-house";
+import { BuildingHouseBold } from "./components/building-house";
+import { BuildingHouseBroken } from "./components/building-house";
+import { BuildingHouseBulk } from "./components/building-house";
+import { BuildingHouseLinear } from "./components/building-house";
+import { BuildingHouseOutline } from "./components/building-house";
+import { BuildingHouseTwotone } from "./components/building-house";
+import { variants as variantsBusinessChart } from "./components/business-chart";
+import { BusinessChartBold } from "./components/business-chart";
+import { BusinessChartBroken } from "./components/business-chart";
+import { BusinessChartBulk } from "./components/business-chart";
+import { BusinessChartLinear } from "./components/business-chart";
+import { BusinessChartOutline } from "./components/business-chart";
+import { BusinessChartTwotone } from "./components/business-chart";
+import { variants as variantsBusinessChart2 } from "./components/business-chart-2";
+import { BusinessChart2Bold } from "./components/business-chart-2";
+import { BusinessChart2Broken } from "./components/business-chart-2";
+import { BusinessChart2Bulk } from "./components/business-chart-2";
+import { BusinessChart2Linear } from "./components/business-chart-2";
+import { BusinessChart2Outline } from "./components/business-chart-2";
+import { BusinessChart2Twotone } from "./components/business-chart-2";
+import { variants as variantsBusinessChartSquare } from "./components/business-chart-square";
+import { BusinessChartSquareBold } from "./components/business-chart-square";
+import { BusinessChartSquareBroken } from "./components/business-chart-square";
+import { BusinessChartSquareBulk } from "./components/business-chart-square";
+import { BusinessChartSquareLinear } from "./components/business-chart-square";
+import { BusinessChartSquareOutline } from "./components/business-chart-square";
+import { BusinessChartSquareTwotone } from "./components/business-chart-square";
+import { variants as variantsChatSquare2 } from "./components/chat-square-2";
+import { ChatSquare2Bold } from "./components/chat-square-2";
+import { ChatSquare2Broken } from "./components/chat-square-2";
+import { ChatSquare2Bulk } from "./components/chat-square-2";
+import { ChatSquare2Linear } from "./components/chat-square-2";
+import { ChatSquare2Outline } from "./components/chat-square-2";
+import { ChatSquare2Twotone } from "./components/chat-square-2";
+import { variants as variantsCourseDown } from "./components/course-down";
+import { CourseDownBold } from "./components/course-down";
+import { CourseDownBroken } from "./components/course-down";
+import { CourseDownBulk } from "./components/course-down";
+import { CourseDownLinear } from "./components/course-down";
+import { CourseDownOutline } from "./components/course-down";
+import { CourseDownTwotone } from "./components/course-down";
+import { variants as variantsCourseUp } from "./components/course-up";
+import { CourseUpBold } from "./components/course-up";
+import { CourseUpBroken } from "./components/course-up";
+import { CourseUpBulk } from "./components/course-up";
+import { CourseUpLinear } from "./components/course-up";
+import { CourseUpOutline } from "./components/course-up";
+import { CourseUpTwotone } from "./components/course-up";
+import { variants as variantsDiagramDown } from "./components/diagram-down";
+import { DiagramDownBold } from "./components/diagram-down";
+import { DiagramDownBroken } from "./components/diagram-down";
+import { DiagramDownBulk } from "./components/diagram-down";
+import { DiagramDownLinear } from "./components/diagram-down";
+import { DiagramDownOutline } from "./components/diagram-down";
+import { DiagramDownTwotone } from "./components/diagram-down";
+import { variants as variantsDiagramUp } from "./components/diagram-up";
+import { DiagramUpBold } from "./components/diagram-up";
+import { DiagramUpBroken } from "./components/diagram-up";
+import { DiagramUpBulk } from "./components/diagram-up";
+import { DiagramUpLinear } from "./components/diagram-up";
+import { DiagramUpOutline } from "./components/diagram-up";
+import { DiagramUpTwotone } from "./components/diagram-up";
+import { variants as variantsBusinessGraph } from "./components/business-graph";
+import { BusinessGraphBold } from "./components/business-graph";
+import { BusinessGraphBroken } from "./components/business-graph";
+import { BusinessGraphBulk } from "./components/business-graph";
+import { BusinessGraphLinear } from "./components/business-graph";
+import { BusinessGraphOutline } from "./components/business-graph";
+import { BusinessGraphTwotone } from "./components/business-graph";
+import { variants as variantsGraphDown } from "./components/graph-down";
+import { GraphDownBold } from "./components/graph-down";
+import { GraphDownBroken } from "./components/graph-down";
+import { GraphDownBulk } from "./components/graph-down";
+import { GraphDownLinear } from "./components/graph-down";
+import { GraphDownOutline } from "./components/graph-down";
+import { GraphDownTwotone } from "./components/graph-down";
+import { variants as variantsGraphDownNew } from "./components/graph-down-new";
+import { GraphDownNewBold } from "./components/graph-down-new";
+import { GraphDownNewBroken } from "./components/graph-down-new";
+import { GraphDownNewBulk } from "./components/graph-down-new";
+import { GraphDownNewLinear } from "./components/graph-down-new";
+import { GraphDownNewOutline } from "./components/graph-down-new";
+import { GraphDownNewTwotone } from "./components/graph-down-new";
+import { variants as variantsGraphNew } from "./components/graph-new";
+import { GraphNewBold } from "./components/graph-new";
+import { GraphNewBroken } from "./components/graph-new";
+import { GraphNewBulk } from "./components/graph-new";
+import { GraphNewLinear } from "./components/graph-new";
+import { GraphNewOutline } from "./components/graph-new";
+import { GraphNewTwotone } from "./components/graph-new";
+import { variants as variantsGraphNewUp } from "./components/graph-new-up";
+import { GraphNewUpBold } from "./components/graph-new-up";
+import { GraphNewUpBroken } from "./components/graph-new-up";
+import { GraphNewUpBulk } from "./components/graph-new-up";
+import { GraphNewUpLinear } from "./components/graph-new-up";
+import { GraphNewUpOutline } from "./components/graph-new-up";
+import { GraphNewUpTwotone } from "./components/graph-new-up";
+import { variants as variantsGraphUp } from "./components/graph-up";
+import { GraphUpBold } from "./components/graph-up";
+import { GraphUpBroken } from "./components/graph-up";
+import { GraphUpBulk } from "./components/graph-up";
+import { GraphUpLinear } from "./components/graph-up";
+import { GraphUpOutline } from "./components/graph-up";
+import { GraphUpTwotone } from "./components/graph-up";
+import { variants as variantsPieChart } from "./components/pie-chart";
+import { PieChartBold } from "./components/pie-chart";
+import { PieChartBroken } from "./components/pie-chart";
+import { PieChartBulk } from "./components/pie-chart";
+import { PieChartLinear } from "./components/pie-chart";
+import { PieChartOutline } from "./components/pie-chart";
+import { PieChartTwotone } from "./components/pie-chart";
+import { variants as variantsPieChart2 } from "./components/pie-chart-2";
+import { PieChart2Bold } from "./components/pie-chart-2";
+import { PieChart2Broken } from "./components/pie-chart-2";
+import { PieChart2Bulk } from "./components/pie-chart-2";
+import { PieChart2Linear } from "./components/pie-chart-2";
+import { PieChart2Outline } from "./components/pie-chart-2";
+import { PieChart2Twotone } from "./components/pie-chart-2";
+import { variants as variantsPieChart3 } from "./components/pie-chart-3";
+import { PieChart3Bold } from "./components/pie-chart-3";
+import { PieChart3Broken } from "./components/pie-chart-3";
+import { PieChart3Bulk } from "./components/pie-chart-3";
+import { PieChart3Linear } from "./components/pie-chart-3";
+import { PieChart3Outline } from "./components/pie-chart-3";
+import { PieChart3Twotone } from "./components/pie-chart-3";
+import { variants as variantsPresentationGraph } from "./components/presentation-graph";
+import { PresentationGraphBold } from "./components/presentation-graph";
+import { PresentationGraphBroken } from "./components/presentation-graph";
+import { PresentationGraphBulk } from "./components/presentation-graph";
+import { PresentationGraphLinear } from "./components/presentation-graph";
+import { PresentationGraphOutline } from "./components/presentation-graph";
+import { PresentationGraphTwotone } from "./components/presentation-graph";
+import { variants as variantsRoundGraph } from "./components/round-graph";
+import { RoundGraphBold } from "./components/round-graph";
+import { RoundGraphBroken } from "./components/round-graph";
+import { RoundGraphBulk } from "./components/round-graph";
+import { RoundGraphLinear } from "./components/round-graph";
+import { RoundGraphOutline } from "./components/round-graph";
+import { RoundGraphTwotone } from "./components/round-graph";
+import { variants as variantsCallCancel } from "./components/call-cancel";
+import { CallCancelBold } from "./components/call-cancel";
+import { CallCancelBroken } from "./components/call-cancel";
+import { CallCancelBulk } from "./components/call-cancel";
+import { CallCancelLinear } from "./components/call-cancel";
+import { CallCancelOutline } from "./components/call-cancel";
+import { CallCancelTwotone } from "./components/call-cancel";
+import { variants as variantsCallCancelRounded } from "./components/call-cancel-rounded";
+import { CallCancelRoundedBold } from "./components/call-cancel-rounded";
+import { CallCancelRoundedBroken } from "./components/call-cancel-rounded";
+import { CallCancelRoundedBulk } from "./components/call-cancel-rounded";
+import { CallCancelRoundedLinear } from "./components/call-cancel-rounded";
+import { CallCancelRoundedOutline } from "./components/call-cancel-rounded";
+import { CallCancelRoundedTwotone } from "./components/call-cancel-rounded";
+import { variants as variantsCallChat } from "./components/call-chat";
+import { CallChatBold } from "./components/call-chat";
+import { CallChatBroken } from "./components/call-chat";
+import { CallChatBulk } from "./components/call-chat";
+import { CallChatLinear } from "./components/call-chat";
+import { CallChatOutline } from "./components/call-chat";
+import { CallChatTwotone } from "./components/call-chat";
+import { variants as variantsCallChatRounded } from "./components/call-chat-rounded";
+import { CallChatRoundedBold } from "./components/call-chat-rounded";
+import { CallChatRoundedBroken } from "./components/call-chat-rounded";
+import { CallChatRoundedBulk } from "./components/call-chat-rounded";
+import { CallChatRoundedLinear } from "./components/call-chat-rounded";
+import { CallChatRoundedOutline } from "./components/call-chat-rounded";
+import { CallChatRoundedTwotone } from "./components/call-chat-rounded";
+import { variants as variantsCallDropped } from "./components/call-dropped";
+import { CallDroppedBold } from "./components/call-dropped";
+import { CallDroppedBroken } from "./components/call-dropped";
+import { CallDroppedBulk } from "./components/call-dropped";
+import { CallDroppedLinear } from "./components/call-dropped";
+import { CallDroppedOutline } from "./components/call-dropped";
+import { CallDroppedTwotone } from "./components/call-dropped";
+import { variants as variantsCallDroppedRounded } from "./components/call-dropped-rounded";
+import { CallDroppedRoundedBold } from "./components/call-dropped-rounded";
+import { CallDroppedRoundedBroken } from "./components/call-dropped-rounded";
+import { CallDroppedRoundedBulk } from "./components/call-dropped-rounded";
+import { CallDroppedRoundedLinear } from "./components/call-dropped-rounded";
+import { CallDroppedRoundedOutline } from "./components/call-dropped-rounded";
+import { CallDroppedRoundedTwotone } from "./components/call-dropped-rounded";
+import { variants as variantsCallMedicine } from "./components/call-medicine";
+import { CallMedicineBold } from "./components/call-medicine";
+import { CallMedicineBroken } from "./components/call-medicine";
+import { CallMedicineBulk } from "./components/call-medicine";
+import { CallMedicineLinear } from "./components/call-medicine";
+import { CallMedicineOutline } from "./components/call-medicine";
+import { CallMedicineTwotone } from "./components/call-medicine";
+import { variants as variantsCallMedicineRounded } from "./components/call-medicine-rounded";
+import { CallMedicineRoundedBold } from "./components/call-medicine-rounded";
+import { CallMedicineRoundedBroken } from "./components/call-medicine-rounded";
+import { CallMedicineRoundedBulk } from "./components/call-medicine-rounded";
+import { CallMedicineRoundedLinear } from "./components/call-medicine-rounded";
+import { CallMedicineRoundedOutline } from "./components/call-medicine-rounded";
+import { CallMedicineRoundedTwotone } from "./components/call-medicine-rounded";
+import { variants as variantsEndCall } from "./components/end-call";
+import { EndCallBold } from "./components/end-call";
+import { EndCallBroken } from "./components/end-call";
+import { EndCallBulk } from "./components/end-call";
+import { EndCallLinear } from "./components/end-call";
+import { EndCallOutline } from "./components/end-call";
+import { EndCallTwotone } from "./components/end-call";
+import { variants as variantsEndCallRounded } from "./components/end-call-rounded";
+import { EndCallRoundedBold } from "./components/end-call-rounded";
+import { EndCallRoundedBroken } from "./components/end-call-rounded";
+import { EndCallRoundedBulk } from "./components/end-call-rounded";
+import { EndCallRoundedLinear } from "./components/end-call-rounded";
+import { EndCallRoundedOutline } from "./components/end-call-rounded";
+import { EndCallRoundedTwotone } from "./components/end-call-rounded";
+import { variants as variantsIncomingCall } from "./components/incoming-call";
+import { IncomingCallBold } from "./components/incoming-call";
+import { IncomingCallBroken } from "./components/incoming-call";
+import { IncomingCallBulk } from "./components/incoming-call";
+import { IncomingCallLinear } from "./components/incoming-call";
+import { IncomingCallOutline } from "./components/incoming-call";
+import { IncomingCallTwotone } from "./components/incoming-call";
+import { variants as variantsIncomingCallRounded } from "./components/incoming-call-rounded";
+import { IncomingCallRoundedBold } from "./components/incoming-call-rounded";
+import { IncomingCallRoundedBroken } from "./components/incoming-call-rounded";
+import { IncomingCallRoundedBulk } from "./components/incoming-call-rounded";
+import { IncomingCallRoundedLinear } from "./components/incoming-call-rounded";
+import { IncomingCallRoundedOutline } from "./components/incoming-call-rounded";
+import { IncomingCallRoundedTwotone } from "./components/incoming-call-rounded";
+import { variants as variantsOutgoingCall } from "./components/outgoing-call";
+import { OutgoingCallBold } from "./components/outgoing-call";
+import { OutgoingCallBroken } from "./components/outgoing-call";
+import { OutgoingCallBulk } from "./components/outgoing-call";
+import { OutgoingCallLinear } from "./components/outgoing-call";
+import { OutgoingCallOutline } from "./components/outgoing-call";
+import { OutgoingCallTwotone } from "./components/outgoing-call";
+import { variants as variantsOutgoingCallRounded } from "./components/outgoing-call-rounded";
+import { OutgoingCallRoundedBold } from "./components/outgoing-call-rounded";
+import { OutgoingCallRoundedBroken } from "./components/outgoing-call-rounded";
+import { OutgoingCallRoundedBulk } from "./components/outgoing-call-rounded";
+import { OutgoingCallRoundedLinear } from "./components/outgoing-call-rounded";
+import { OutgoingCallRoundedOutline } from "./components/outgoing-call-rounded";
+import { OutgoingCallRoundedTwotone } from "./components/outgoing-call-rounded";
+import { variants as variantsPhone } from "./components/phone";
+import { PhoneBold } from "./components/phone";
+import { PhoneBroken } from "./components/phone";
+import { PhoneBulk } from "./components/phone";
+import { PhoneLinear } from "./components/phone";
+import { PhoneOutline } from "./components/phone";
+import { PhoneTwotone } from "./components/phone";
+import { variants as variantsPhoneCalling } from "./components/phone-calling";
+import { PhoneCallingBold } from "./components/phone-calling";
+import { PhoneCallingBroken } from "./components/phone-calling";
+import { PhoneCallingBulk } from "./components/phone-calling";
+import { PhoneCallingLinear } from "./components/phone-calling";
+import { PhoneCallingOutline } from "./components/phone-calling";
+import { PhoneCallingTwotone } from "./components/phone-calling";
+import { variants as variantsPhoneCallingRounded } from "./components/phone-calling-rounded";
+import { PhoneCallingRoundedBold } from "./components/phone-calling-rounded";
+import { PhoneCallingRoundedBroken } from "./components/phone-calling-rounded";
+import { PhoneCallingRoundedBulk } from "./components/phone-calling-rounded";
+import { PhoneCallingRoundedLinear } from "./components/phone-calling-rounded";
+import { PhoneCallingRoundedOutline } from "./components/phone-calling-rounded";
+import { PhoneCallingRoundedTwotone } from "./components/phone-calling-rounded";
+import { variants as variantsPhoneRounded } from "./components/phone-rounded";
+import { PhoneRoundedBold } from "./components/phone-rounded";
+import { PhoneRoundedBroken } from "./components/phone-rounded";
+import { PhoneRoundedBulk } from "./components/phone-rounded";
+import { PhoneRoundedLinear } from "./components/phone-rounded";
+import { PhoneRoundedOutline } from "./components/phone-rounded";
+import { PhoneRoundedTwotone } from "./components/phone-rounded";
+import { variants as variantsCallRecordCircle } from "./components/call-record-circle";
+import { CallRecordCircleBold } from "./components/call-record-circle";
+import { CallRecordCircleBroken } from "./components/call-record-circle";
+import { CallRecordCircleBulk } from "./components/call-record-circle";
+import { CallRecordCircleLinear } from "./components/call-record-circle";
+import { CallRecordCircleOutline } from "./components/call-record-circle";
+import { CallRecordCircleTwotone } from "./components/call-record-circle";
+import { variants as variantsRecordMinimalistic } from "./components/record-minimalistic";
+import { RecordMinimalisticBold } from "./components/record-minimalistic";
+import { RecordMinimalisticBroken } from "./components/record-minimalistic";
+import { RecordMinimalisticBulk } from "./components/record-minimalistic";
+import { RecordMinimalisticLinear } from "./components/record-minimalistic";
+import { RecordMinimalisticOutline } from "./components/record-minimalistic";
+import { RecordMinimalisticTwotone } from "./components/record-minimalistic";
+import { variants as variantsRecordSquare } from "./components/record-square";
+import { RecordSquareBold } from "./components/record-square";
+import { RecordSquareBroken } from "./components/record-square";
+import { RecordSquareBulk } from "./components/record-square";
+import { RecordSquareLinear } from "./components/record-square";
+import { RecordSquareOutline } from "./components/record-square";
+import { RecordSquareTwotone } from "./components/record-square";
+import { variants as variantsAirbuds } from "./components/airbuds";
+import { AirbudsBold } from "./components/airbuds";
+import { AirbudsBroken } from "./components/airbuds";
+import { AirbudsBulk } from "./components/airbuds";
+import { AirbudsLinear } from "./components/airbuds";
+import { AirbudsOutline } from "./components/airbuds";
+import { AirbudsTwotone } from "./components/airbuds";
+import { variants as variantsAirbudsCase } from "./components/airbuds-case";
+import { AirbudsCaseBold } from "./components/airbuds-case";
+import { AirbudsCaseBroken } from "./components/airbuds-case";
+import { AirbudsCaseBulk } from "./components/airbuds-case";
+import { AirbudsCaseLinear } from "./components/airbuds-case";
+import { AirbudsCaseOutline } from "./components/airbuds-case";
+import { AirbudsCaseTwotone } from "./components/airbuds-case";
+import { variants as variantsAirbudsCaseCharge } from "./components/airbuds-case-charge";
+import { AirbudsCaseChargeBold } from "./components/airbuds-case-charge";
+import { AirbudsCaseChargeBroken } from "./components/airbuds-case-charge";
+import { AirbudsCaseChargeBulk } from "./components/airbuds-case-charge";
+import { AirbudsCaseChargeLinear } from "./components/airbuds-case-charge";
+import { AirbudsCaseChargeOutline } from "./components/airbuds-case-charge";
+import { AirbudsCaseChargeTwotone } from "./components/airbuds-case-charge";
+import { variants as variantsAirbudsCaseMinimalistic } from "./components/airbuds-case-minimalistic";
+import { AirbudsCaseMinimalisticBold } from "./components/airbuds-case-minimalistic";
+import { AirbudsCaseMinimalisticBroken } from "./components/airbuds-case-minimalistic";
+import { AirbudsCaseMinimalisticBulk } from "./components/airbuds-case-minimalistic";
+import { AirbudsCaseMinimalisticLinear } from "./components/airbuds-case-minimalistic";
+import { AirbudsCaseMinimalisticOutline } from "./components/airbuds-case-minimalistic";
+import { AirbudsCaseMinimalisticTwotone } from "./components/airbuds-case-minimalistic";
+import { variants as variantsAirbudsCaseOpen } from "./components/airbuds-case-open";
+import { AirbudsCaseOpenBold } from "./components/airbuds-case-open";
+import { AirbudsCaseOpenBroken } from "./components/airbuds-case-open";
+import { AirbudsCaseOpenBulk } from "./components/airbuds-case-open";
+import { AirbudsCaseOpenLinear } from "./components/airbuds-case-open";
+import { AirbudsCaseOpenOutline } from "./components/airbuds-case-open";
+import { AirbudsCaseOpenTwotone } from "./components/airbuds-case-open";
+import { variants as variantsAirbudsCharge } from "./components/airbuds-charge";
+import { AirbudsChargeBold } from "./components/airbuds-charge";
+import { AirbudsChargeBroken } from "./components/airbuds-charge";
+import { AirbudsChargeBulk } from "./components/airbuds-charge";
+import { AirbudsChargeLinear } from "./components/airbuds-charge";
+import { AirbudsChargeOutline } from "./components/airbuds-charge";
+import { AirbudsChargeTwotone } from "./components/airbuds-charge";
+import { variants as variantsAirbudsCheck } from "./components/airbuds-check";
+import { AirbudsCheckBold } from "./components/airbuds-check";
+import { AirbudsCheckBroken } from "./components/airbuds-check";
+import { AirbudsCheckBulk } from "./components/airbuds-check";
+import { AirbudsCheckLinear } from "./components/airbuds-check";
+import { AirbudsCheckOutline } from "./components/airbuds-check";
+import { AirbudsCheckTwotone } from "./components/airbuds-check";
+import { variants as variantsAirbudsLeft } from "./components/airbuds-left";
+import { AirbudsLeftBold } from "./components/airbuds-left";
+import { AirbudsLeftBroken } from "./components/airbuds-left";
+import { AirbudsLeftBulk } from "./components/airbuds-left";
+import { AirbudsLeftLinear } from "./components/airbuds-left";
+import { AirbudsLeftOutline } from "./components/airbuds-left";
+import { AirbudsLeftTwotone } from "./components/airbuds-left";
+import { variants as variantsAirbudsRemove } from "./components/airbuds-remove";
+import { AirbudsRemoveBold } from "./components/airbuds-remove";
+import { AirbudsRemoveBroken } from "./components/airbuds-remove";
+import { AirbudsRemoveBulk } from "./components/airbuds-remove";
+import { AirbudsRemoveLinear } from "./components/airbuds-remove";
+import { AirbudsRemoveOutline } from "./components/airbuds-remove";
+import { AirbudsRemoveTwotone } from "./components/airbuds-remove";
+import { variants as variantsAirbudsRight } from "./components/airbuds-right";
+import { AirbudsRightBold } from "./components/airbuds-right";
+import { AirbudsRightBroken } from "./components/airbuds-right";
+import { AirbudsRightBulk } from "./components/airbuds-right";
+import { AirbudsRightLinear } from "./components/airbuds-right";
+import { AirbudsRightOutline } from "./components/airbuds-right";
+import { AirbudsRightTwotone } from "./components/airbuds-right";
+import { variants as variantsDevicesBluetooth } from "./components/devices-bluetooth";
+import { DevicesBluetoothBold } from "./components/devices-bluetooth";
+import { DevicesBluetoothBroken } from "./components/devices-bluetooth";
+import { DevicesBluetoothBulk } from "./components/devices-bluetooth";
+import { DevicesBluetoothLinear } from "./components/devices-bluetooth";
+import { DevicesBluetoothOutline } from "./components/devices-bluetooth";
+import { DevicesBluetoothTwotone } from "./components/devices-bluetooth";
+import { variants as variantsDevicesBluetoothCircle } from "./components/devices-bluetooth-circle";
+import { DevicesBluetoothCircleBold } from "./components/devices-bluetooth-circle";
+import { DevicesBluetoothCircleBroken } from "./components/devices-bluetooth-circle";
+import { DevicesBluetoothCircleBulk } from "./components/devices-bluetooth-circle";
+import { DevicesBluetoothCircleLinear } from "./components/devices-bluetooth-circle";
+import { DevicesBluetoothCircleOutline } from "./components/devices-bluetooth-circle";
+import { DevicesBluetoothCircleTwotone } from "./components/devices-bluetooth-circle";
+import { variants as variantsBluetoothSquare } from "./components/bluetooth-square";
+import { BluetoothSquareBold } from "./components/bluetooth-square";
+import { BluetoothSquareBroken } from "./components/bluetooth-square";
+import { BluetoothSquareBulk } from "./components/bluetooth-square";
+import { BluetoothSquareLinear } from "./components/bluetooth-square";
+import { BluetoothSquareOutline } from "./components/bluetooth-square";
+import { BluetoothSquareTwotone } from "./components/bluetooth-square";
+import { variants as variantsBluetoothWave } from "./components/bluetooth-wave";
+import { BluetoothWaveBold } from "./components/bluetooth-wave";
+import { BluetoothWaveBroken } from "./components/bluetooth-wave";
+import { BluetoothWaveBulk } from "./components/bluetooth-wave";
+import { BluetoothWaveLinear } from "./components/bluetooth-wave";
+import { BluetoothWaveOutline } from "./components/bluetooth-wave";
+import { BluetoothWaveTwotone } from "./components/bluetooth-wave";
+import { variants as variantsBoombox } from "./components/boombox";
+import { BoomboxBold } from "./components/boombox";
+import { BoomboxBroken } from "./components/boombox";
+import { BoomboxBulk } from "./components/boombox";
+import { BoomboxLinear } from "./components/boombox";
+import { BoomboxOutline } from "./components/boombox";
+import { BoomboxTwotone } from "./components/boombox";
+import { variants as variantsCassette } from "./components/cassette";
+import { CassetteBold } from "./components/cassette";
+import { CassetteBroken } from "./components/cassette";
+import { CassetteBulk } from "./components/cassette";
+import { CassetteLinear } from "./components/cassette";
+import { CassetteOutline } from "./components/cassette";
+import { CassetteTwotone } from "./components/cassette";
+import { variants as variantsCassette2 } from "./components/cassette-2";
+import { Cassette2Bold } from "./components/cassette-2";
+import { Cassette2Broken } from "./components/cassette-2";
+import { Cassette2Bulk } from "./components/cassette-2";
+import { Cassette2Linear } from "./components/cassette-2";
+import { Cassette2Outline } from "./components/cassette-2";
+import { Cassette2Twotone } from "./components/cassette-2";
+import { variants as variantsCloudStorage } from "./components/cloud-storage";
+import { CloudStorageBold } from "./components/cloud-storage";
+import { CloudStorageBroken } from "./components/cloud-storage";
+import { CloudStorageBulk } from "./components/cloud-storage";
+import { CloudStorageLinear } from "./components/cloud-storage";
+import { CloudStorageOutline } from "./components/cloud-storage";
+import { CloudStorageTwotone } from "./components/cloud-storage";
+import { variants as variantsDevicesCpu } from "./components/devices-cpu";
+import { DevicesCpuBold } from "./components/devices-cpu";
+import { DevicesCpuBroken } from "./components/devices-cpu";
+import { DevicesCpuBulk } from "./components/devices-cpu";
+import { DevicesCpuLinear } from "./components/devices-cpu";
+import { DevicesCpuOutline } from "./components/devices-cpu";
+import { DevicesCpuTwotone } from "./components/devices-cpu";
+import { variants as variantsCpuBolt } from "./components/cpu-bolt";
+import { CpuBoltBold } from "./components/cpu-bolt";
+import { CpuBoltBroken } from "./components/cpu-bolt";
+import { CpuBoltBulk } from "./components/cpu-bolt";
+import { CpuBoltLinear } from "./components/cpu-bolt";
+import { CpuBoltOutline } from "./components/cpu-bolt";
+import { CpuBoltTwotone } from "./components/cpu-bolt";
+import { variants as variantsDevicesDevices } from "./components/devices-devices";
+import { DevicesDevicesBold } from "./components/devices-devices";
+import { DevicesDevicesBroken } from "./components/devices-devices";
+import { DevicesDevicesBulk } from "./components/devices-devices";
+import { DevicesDevicesLinear } from "./components/devices-devices";
+import { DevicesDevicesOutline } from "./components/devices-devices";
+import { DevicesDevicesTwotone } from "./components/devices-devices";
+import { variants as variantsDiskette } from "./components/diskette";
+import { DisketteBold } from "./components/diskette";
+import { DisketteBroken } from "./components/diskette";
+import { DisketteBulk } from "./components/diskette";
+import { DisketteLinear } from "./components/diskette";
+import { DisketteOutline } from "./components/diskette";
+import { DisketteTwotone } from "./components/diskette";
+import { variants as variantsDisplay } from "./components/display";
+import { DisplayBold } from "./components/display";
+import { DisplayBroken } from "./components/display";
+import { DisplayBulk } from "./components/display";
+import { DisplayLinear } from "./components/display";
+import { DisplayOutline } from "./components/display";
+import { DisplayTwotone } from "./components/display";
+import { variants as variantsFlashDrive } from "./components/flash-drive";
+import { FlashDriveBold } from "./components/flash-drive";
+import { FlashDriveBroken } from "./components/flash-drive";
+import { FlashDriveBulk } from "./components/flash-drive";
+import { FlashDriveLinear } from "./components/flash-drive";
+import { FlashDriveOutline } from "./components/flash-drive";
+import { FlashDriveTwotone } from "./components/flash-drive";
+import { variants as variantsDevicesGameboy } from "./components/devices-gameboy";
+import { DevicesGameboyBold } from "./components/devices-gameboy";
+import { DevicesGameboyBroken } from "./components/devices-gameboy";
+import { DevicesGameboyBulk } from "./components/devices-gameboy";
+import { DevicesGameboyLinear } from "./components/devices-gameboy";
+import { DevicesGameboyOutline } from "./components/devices-gameboy";
+import { DevicesGameboyTwotone } from "./components/devices-gameboy";
+import { variants as variantsGamepad } from "./components/gamepad";
+import { GamepadBold } from "./components/gamepad";
+import { GamepadBroken } from "./components/gamepad";
+import { GamepadBulk } from "./components/gamepad";
+import { GamepadLinear } from "./components/gamepad";
+import { GamepadOutline } from "./components/gamepad";
+import { GamepadTwotone } from "./components/gamepad";
+import { variants as variantsGamepadCharge } from "./components/gamepad-charge";
+import { GamepadChargeBold } from "./components/gamepad-charge";
+import { GamepadChargeBroken } from "./components/gamepad-charge";
+import { GamepadChargeBulk } from "./components/gamepad-charge";
+import { GamepadChargeLinear } from "./components/gamepad-charge";
+import { GamepadChargeOutline } from "./components/gamepad-charge";
+import { GamepadChargeTwotone } from "./components/gamepad-charge";
+import { variants as variantsGamepadMinimalistic } from "./components/gamepad-minimalistic";
+import { GamepadMinimalisticBold } from "./components/gamepad-minimalistic";
+import { GamepadMinimalisticBroken } from "./components/gamepad-minimalistic";
+import { GamepadMinimalisticBulk } from "./components/gamepad-minimalistic";
+import { GamepadMinimalisticLinear } from "./components/gamepad-minimalistic";
+import { GamepadMinimalisticOutline } from "./components/gamepad-minimalistic";
+import { GamepadMinimalisticTwotone } from "./components/gamepad-minimalistic";
+import { variants as variantsGamepadNoCharge } from "./components/gamepad-no-charge";
+import { GamepadNoChargeBold } from "./components/gamepad-no-charge";
+import { GamepadNoChargeBroken } from "./components/gamepad-no-charge";
+import { GamepadNoChargeBulk } from "./components/gamepad-no-charge";
+import { GamepadNoChargeLinear } from "./components/gamepad-no-charge";
+import { GamepadNoChargeOutline } from "./components/gamepad-no-charge";
+import { GamepadNoChargeTwotone } from "./components/gamepad-no-charge";
+import { variants as variantsGamepadOld } from "./components/gamepad-old";
+import { GamepadOldBold } from "./components/gamepad-old";
+import { GamepadOldBroken } from "./components/gamepad-old";
+import { GamepadOldBulk } from "./components/gamepad-old";
+import { GamepadOldLinear } from "./components/gamepad-old";
+import { GamepadOldOutline } from "./components/gamepad-old";
+import { GamepadOldTwotone } from "./components/gamepad-old";
+import { variants as variantsHeadphonesRound } from "./components/headphones-round";
+import { HeadphonesRoundBold } from "./components/headphones-round";
+import { HeadphonesRoundBroken } from "./components/headphones-round";
+import { HeadphonesRoundBulk } from "./components/headphones-round";
+import { HeadphonesRoundLinear } from "./components/headphones-round";
+import { HeadphonesRoundOutline } from "./components/headphones-round";
+import { HeadphonesRoundTwotone } from "./components/headphones-round";
+import { variants as variantsHeadphonesRoundSound } from "./components/headphones-round-sound";
+import { HeadphonesRoundSoundBold } from "./components/headphones-round-sound";
+import { HeadphonesRoundSoundBroken } from "./components/headphones-round-sound";
+import { HeadphonesRoundSoundBulk } from "./components/headphones-round-sound";
+import { HeadphonesRoundSoundLinear } from "./components/headphones-round-sound";
+import { HeadphonesRoundSoundOutline } from "./components/headphones-round-sound";
+import { HeadphonesRoundSoundTwotone } from "./components/headphones-round-sound";
+import { variants as variantsHeadphonesSquare } from "./components/headphones-square";
+import { HeadphonesSquareBold } from "./components/headphones-square";
+import { HeadphonesSquareBroken } from "./components/headphones-square";
+import { HeadphonesSquareBulk } from "./components/headphones-square";
+import { HeadphonesSquareLinear } from "./components/headphones-square";
+import { HeadphonesSquareOutline } from "./components/headphones-square";
+import { HeadphonesSquareTwotone } from "./components/headphones-square";
+import { variants as variantsHeadphonesSquareSound } from "./components/headphones-square-sound";
+import { HeadphonesSquareSoundBold } from "./components/headphones-square-sound";
+import { HeadphonesSquareSoundBroken } from "./components/headphones-square-sound";
+import { HeadphonesSquareSoundBulk } from "./components/headphones-square-sound";
+import { HeadphonesSquareSoundLinear } from "./components/headphones-square-sound";
+import { HeadphonesSquareSoundOutline } from "./components/headphones-square-sound";
+import { HeadphonesSquareSoundTwotone } from "./components/headphones-square-sound";
+import { variants as variantsIPhone } from "./components/i-phone";
+import { IPhoneBold } from "./components/i-phone";
+import { IPhoneBroken } from "./components/i-phone";
+import { IPhoneBulk } from "./components/i-phone";
+import { IPhoneLinear } from "./components/i-phone";
+import { IPhoneOutline } from "./components/i-phone";
+import { IPhoneTwotone } from "./components/i-phone";
+import { variants as variantsDevicesKeyboard } from "./components/devices-keyboard";
+import { DevicesKeyboardBold } from "./components/devices-keyboard";
+import { DevicesKeyboardBroken } from "./components/devices-keyboard";
+import { DevicesKeyboardBulk } from "./components/devices-keyboard";
+import { DevicesKeyboardLinear } from "./components/devices-keyboard";
+import { DevicesKeyboardOutline } from "./components/devices-keyboard";
+import { DevicesKeyboardTwotone } from "./components/devices-keyboard";
+import { variants as variantsLaptop } from "./components/laptop";
+import { LaptopBold } from "./components/laptop";
+import { LaptopBroken } from "./components/laptop";
+import { LaptopBulk } from "./components/laptop";
+import { LaptopLinear } from "./components/laptop";
+import { LaptopOutline } from "./components/laptop";
+import { LaptopTwotone } from "./components/laptop";
+import { variants as variantsLaptop2 } from "./components/laptop-2";
+import { Laptop2Bold } from "./components/laptop-2";
+import { Laptop2Broken } from "./components/laptop-2";
+import { Laptop2Bulk } from "./components/laptop-2";
+import { Laptop2Linear } from "./components/laptop-2";
+import { Laptop2Outline } from "./components/laptop-2";
+import { Laptop2Twotone } from "./components/laptop-2";
+import { variants as variantsLaptop3 } from "./components/laptop-3";
+import { Laptop3Bold } from "./components/laptop-3";
+import { Laptop3Broken } from "./components/laptop-3";
+import { Laptop3Bulk } from "./components/laptop-3";
+import { Laptop3Linear } from "./components/laptop-3";
+import { Laptop3Outline } from "./components/laptop-3";
+import { Laptop3Twotone } from "./components/laptop-3";
+import { variants as variantsLaptopMinimalistic } from "./components/laptop-minimalistic";
+import { LaptopMinimalisticBold } from "./components/laptop-minimalistic";
+import { LaptopMinimalisticBroken } from "./components/laptop-minimalistic";
+import { LaptopMinimalisticBulk } from "./components/laptop-minimalistic";
+import { LaptopMinimalisticLinear } from "./components/laptop-minimalistic";
+import { LaptopMinimalisticOutline } from "./components/laptop-minimalistic";
+import { LaptopMinimalisticTwotone } from "./components/laptop-minimalistic";
+import { variants as variantsLightbulb } from "./components/lightbulb";
+import { LightbulbBold } from "./components/lightbulb";
+import { LightbulbBroken } from "./components/lightbulb";
+import { LightbulbBulk } from "./components/lightbulb";
+import { LightbulbLinear } from "./components/lightbulb";
+import { LightbulbOutline } from "./components/lightbulb";
+import { LightbulbTwotone } from "./components/lightbulb";
+import { variants as variantsLightbulbBolt } from "./components/lightbulb-bolt";
+import { LightbulbBoltBold } from "./components/lightbulb-bolt";
+import { LightbulbBoltBroken } from "./components/lightbulb-bolt";
+import { LightbulbBoltBulk } from "./components/lightbulb-bolt";
+import { LightbulbBoltLinear } from "./components/lightbulb-bolt";
+import { LightbulbBoltOutline } from "./components/lightbulb-bolt";
+import { LightbulbBoltTwotone } from "./components/lightbulb-bolt";
+import { variants as variantsLightbulbMinimalistic } from "./components/lightbulb-minimalistic";
+import { LightbulbMinimalisticBold } from "./components/lightbulb-minimalistic";
+import { LightbulbMinimalisticBroken } from "./components/lightbulb-minimalistic";
+import { LightbulbMinimalisticBulk } from "./components/lightbulb-minimalistic";
+import { LightbulbMinimalisticLinear } from "./components/lightbulb-minimalistic";
+import { LightbulbMinimalisticOutline } from "./components/lightbulb-minimalistic";
+import { LightbulbMinimalisticTwotone } from "./components/lightbulb-minimalistic";
+import { variants as variantsLightning } from "./components/lightning";
+import { LightningBold } from "./components/lightning";
+import { LightningBroken } from "./components/lightning";
+import { LightningBulk } from "./components/lightning";
+import { LightningLinear } from "./components/lightning";
+import { LightningOutline } from "./components/lightning";
+import { LightningTwotone } from "./components/lightning";
+import { variants as variantsDevicesMonitor } from "./components/devices-monitor";
+import { DevicesMonitorBold } from "./components/devices-monitor";
+import { DevicesMonitorBroken } from "./components/devices-monitor";
+import { DevicesMonitorBulk } from "./components/devices-monitor";
+import { DevicesMonitorLinear } from "./components/devices-monitor";
+import { DevicesMonitorOutline } from "./components/devices-monitor";
+import { DevicesMonitorTwotone } from "./components/devices-monitor";
+import { variants as variantsMonitorCamera } from "./components/monitor-camera";
+import { MonitorCameraBold } from "./components/monitor-camera";
+import { MonitorCameraBroken } from "./components/monitor-camera";
+import { MonitorCameraBulk } from "./components/monitor-camera";
+import { MonitorCameraLinear } from "./components/monitor-camera";
+import { MonitorCameraOutline } from "./components/monitor-camera";
+import { MonitorCameraTwotone } from "./components/monitor-camera";
+import { variants as variantsMonitorSmartphone } from "./components/monitor-smartphone";
+import { MonitorSmartphoneBold } from "./components/monitor-smartphone";
+import { MonitorSmartphoneBroken } from "./components/monitor-smartphone";
+import { MonitorSmartphoneBulk } from "./components/monitor-smartphone";
+import { MonitorSmartphoneLinear } from "./components/monitor-smartphone";
+import { MonitorSmartphoneOutline } from "./components/monitor-smartphone";
+import { MonitorSmartphoneTwotone } from "./components/monitor-smartphone";
+import { variants as variantsDevicesMouse } from "./components/devices-mouse";
+import { DevicesMouseBold } from "./components/devices-mouse";
+import { DevicesMouseBroken } from "./components/devices-mouse";
+import { DevicesMouseBulk } from "./components/devices-mouse";
+import { DevicesMouseLinear } from "./components/devices-mouse";
+import { DevicesMouseOutline } from "./components/devices-mouse";
+import { DevicesMouseTwotone } from "./components/devices-mouse";
+import { variants as variantsDevicesMouseCircle } from "./components/devices-mouse-circle";
+import { DevicesMouseCircleBold } from "./components/devices-mouse-circle";
+import { DevicesMouseCircleBroken } from "./components/devices-mouse-circle";
+import { DevicesMouseCircleBulk } from "./components/devices-mouse-circle";
+import { DevicesMouseCircleLinear } from "./components/devices-mouse-circle";
+import { DevicesMouseCircleOutline } from "./components/devices-mouse-circle";
+import { DevicesMouseCircleTwotone } from "./components/devices-mouse-circle";
+import { variants as variantsMouseMinimalistic } from "./components/mouse-minimalistic";
+import { MouseMinimalisticBold } from "./components/mouse-minimalistic";
+import { MouseMinimalisticBroken } from "./components/mouse-minimalistic";
+import { MouseMinimalisticBulk } from "./components/mouse-minimalistic";
+import { MouseMinimalisticLinear } from "./components/mouse-minimalistic";
+import { MouseMinimalisticOutline } from "./components/mouse-minimalistic";
+import { MouseMinimalisticTwotone } from "./components/mouse-minimalistic";
+import { variants as variantsPlugCircle } from "./components/plug-circle";
+import { PlugCircleBold } from "./components/plug-circle";
+import { PlugCircleBroken } from "./components/plug-circle";
+import { PlugCircleBulk } from "./components/plug-circle";
+import { PlugCircleLinear } from "./components/plug-circle";
+import { PlugCircleOutline } from "./components/plug-circle";
+import { PlugCircleTwotone } from "./components/plug-circle";
+import { variants as variantsDevicesPrinter } from "./components/devices-printer";
+import { DevicesPrinterBold } from "./components/devices-printer";
+import { DevicesPrinterBroken } from "./components/devices-printer";
+import { DevicesPrinterBulk } from "./components/devices-printer";
+import { DevicesPrinterLinear } from "./components/devices-printer";
+import { DevicesPrinterOutline } from "./components/devices-printer";
+import { DevicesPrinterTwotone } from "./components/devices-printer";
+import { variants as variantsPrinter2 } from "./components/printer-2";
+import { Printer2Bold } from "./components/printer-2";
+import { Printer2Broken } from "./components/printer-2";
+import { Printer2Bulk } from "./components/printer-2";
+import { Printer2Linear } from "./components/printer-2";
+import { Printer2Outline } from "./components/printer-2";
+import { Printer2Twotone } from "./components/printer-2";
+import { variants as variantsPrinterMinimalistic } from "./components/printer-minimalistic";
+import { PrinterMinimalisticBold } from "./components/printer-minimalistic";
+import { PrinterMinimalisticBroken } from "./components/printer-minimalistic";
+import { PrinterMinimalisticBulk } from "./components/printer-minimalistic";
+import { PrinterMinimalisticLinear } from "./components/printer-minimalistic";
+import { PrinterMinimalisticOutline } from "./components/printer-minimalistic";
+import { PrinterMinimalisticTwotone } from "./components/printer-minimalistic";
+import { variants as variantsProjector } from "./components/projector";
+import { ProjectorBold } from "./components/projector";
+import { ProjectorBroken } from "./components/projector";
+import { ProjectorBulk } from "./components/projector";
+import { ProjectorLinear } from "./components/projector";
+import { ProjectorOutline } from "./components/projector";
+import { ProjectorTwotone } from "./components/projector";
+import { variants as variantsDevicesRadio } from "./components/devices-radio";
+import { DevicesRadioBold } from "./components/devices-radio";
+import { DevicesRadioBroken } from "./components/devices-radio";
+import { DevicesRadioBulk } from "./components/devices-radio";
+import { DevicesRadioLinear } from "./components/devices-radio";
+import { DevicesRadioOutline } from "./components/devices-radio";
+import { DevicesRadioTwotone } from "./components/devices-radio";
+import { variants as variantsRadioMinimalistic } from "./components/radio-minimalistic";
+import { RadioMinimalisticBold } from "./components/radio-minimalistic";
+import { RadioMinimalisticBroken } from "./components/radio-minimalistic";
+import { RadioMinimalisticBulk } from "./components/radio-minimalistic";
+import { RadioMinimalisticLinear } from "./components/radio-minimalistic";
+import { RadioMinimalisticOutline } from "./components/radio-minimalistic";
+import { RadioMinimalisticTwotone } from "./components/radio-minimalistic";
+import { variants as variantsSdCard } from "./components/sd-card";
+import { SdCardBold } from "./components/sd-card";
+import { SdCardBroken } from "./components/sd-card";
+import { SdCardBulk } from "./components/sd-card";
+import { SdCardLinear } from "./components/sd-card";
+import { SdCardOutline } from "./components/sd-card";
+import { SdCardTwotone } from "./components/sd-card";
+import { variants as variantsServer } from "./components/server";
+import { ServerBold } from "./components/server";
+import { ServerBroken } from "./components/server";
+import { ServerBulk } from "./components/server";
+import { ServerLinear } from "./components/server";
+import { ServerOutline } from "./components/server";
+import { ServerTwotone } from "./components/server";
+import { variants as variantsServer2 } from "./components/server-2";
+import { Server2Bold } from "./components/server-2";
+import { Server2Broken } from "./components/server-2";
+import { Server2Bulk } from "./components/server-2";
+import { Server2Linear } from "./components/server-2";
+import { Server2Outline } from "./components/server-2";
+import { Server2Twotone } from "./components/server-2";
+import { variants as variantsServerMinimalistic } from "./components/server-minimalistic";
+import { ServerMinimalisticBold } from "./components/server-minimalistic";
+import { ServerMinimalisticBroken } from "./components/server-minimalistic";
+import { ServerMinimalisticBulk } from "./components/server-minimalistic";
+import { ServerMinimalisticLinear } from "./components/server-minimalistic";
+import { ServerMinimalisticOutline } from "./components/server-minimalistic";
+import { ServerMinimalisticTwotone } from "./components/server-minimalistic";
+import { variants as variantsServerPath } from "./components/server-path";
+import { ServerPathBold } from "./components/server-path";
+import { ServerPathBroken } from "./components/server-path";
+import { ServerPathBulk } from "./components/server-path";
+import { ServerPathLinear } from "./components/server-path";
+import { ServerPathOutline } from "./components/server-path";
+import { ServerPathTwotone } from "./components/server-path";
+import { variants as variantsServerSquare } from "./components/server-square";
+import { ServerSquareBold } from "./components/server-square";
+import { ServerSquareBroken } from "./components/server-square";
+import { ServerSquareBulk } from "./components/server-square";
+import { ServerSquareLinear } from "./components/server-square";
+import { ServerSquareOutline } from "./components/server-square";
+import { ServerSquareTwotone } from "./components/server-square";
+import { variants as variantsServerSquareCloud } from "./components/server-square-cloud";
+import { ServerSquareCloudBold } from "./components/server-square-cloud";
+import { ServerSquareCloudBroken } from "./components/server-square-cloud";
+import { ServerSquareCloudBulk } from "./components/server-square-cloud";
+import { ServerSquareCloudLinear } from "./components/server-square-cloud";
+import { ServerSquareCloudOutline } from "./components/server-square-cloud";
+import { ServerSquareCloudTwotone } from "./components/server-square-cloud";
+import { variants as variantsServerSquareUpdate } from "./components/server-square-update";
+import { ServerSquareUpdateBold } from "./components/server-square-update";
+import { ServerSquareUpdateBroken } from "./components/server-square-update";
+import { ServerSquareUpdateBulk } from "./components/server-square-update";
+import { ServerSquareUpdateLinear } from "./components/server-square-update";
+import { ServerSquareUpdateOutline } from "./components/server-square-update";
+import { ServerSquareUpdateTwotone } from "./components/server-square-update";
+import { variants as variantsSimCard } from "./components/sim-card";
+import { SimCardBold } from "./components/sim-card";
+import { SimCardBroken } from "./components/sim-card";
+import { SimCardBulk } from "./components/sim-card";
+import { SimCardLinear } from "./components/sim-card";
+import { SimCardOutline } from "./components/sim-card";
+import { SimCardTwotone } from "./components/sim-card";
+import { variants as variantsSimCardMinimalistic } from "./components/sim-card-minimalistic";
+import { SimCardMinimalisticBold } from "./components/sim-card-minimalistic";
+import { SimCardMinimalisticBroken } from "./components/sim-card-minimalistic";
+import { SimCardMinimalisticBulk } from "./components/sim-card-minimalistic";
+import { SimCardMinimalisticLinear } from "./components/sim-card-minimalistic";
+import { SimCardMinimalisticOutline } from "./components/sim-card-minimalistic";
+import { SimCardMinimalisticTwotone } from "./components/sim-card-minimalistic";
+import { variants as variantsSimCards } from "./components/sim-cards";
+import { SimCardsBold } from "./components/sim-cards";
+import { SimCardsBroken } from "./components/sim-cards";
+import { SimCardsBulk } from "./components/sim-cards";
+import { SimCardsLinear } from "./components/sim-cards";
+import { SimCardsOutline } from "./components/sim-cards";
+import { SimCardsTwotone } from "./components/sim-cards";
+import { variants as variantsSmartSpeaker } from "./components/smart-speaker";
+import { SmartSpeakerBold } from "./components/smart-speaker";
+import { SmartSpeakerBroken } from "./components/smart-speaker";
+import { SmartSpeakerBulk } from "./components/smart-speaker";
+import { SmartSpeakerLinear } from "./components/smart-speaker";
+import { SmartSpeakerOutline } from "./components/smart-speaker";
+import { SmartSpeakerTwotone } from "./components/smart-speaker";
+import { variants as variantsSmartSpeaker2 } from "./components/smart-speaker-2";
+import { SmartSpeaker2Bold } from "./components/smart-speaker-2";
+import { SmartSpeaker2Broken } from "./components/smart-speaker-2";
+import { SmartSpeaker2Bulk } from "./components/smart-speaker-2";
+import { SmartSpeaker2Linear } from "./components/smart-speaker-2";
+import { SmartSpeaker2Outline } from "./components/smart-speaker-2";
+import { SmartSpeaker2Twotone } from "./components/smart-speaker-2";
+import { variants as variantsSmartSpeakerMinimalistic } from "./components/smart-speaker-minimalistic";
+import { SmartSpeakerMinimalisticBold } from "./components/smart-speaker-minimalistic";
+import { SmartSpeakerMinimalisticBroken } from "./components/smart-speaker-minimalistic";
+import { SmartSpeakerMinimalisticBulk } from "./components/smart-speaker-minimalistic";
+import { SmartSpeakerMinimalisticLinear } from "./components/smart-speaker-minimalistic";
+import { SmartSpeakerMinimalisticOutline } from "./components/smart-speaker-minimalistic";
+import { SmartSpeakerMinimalisticTwotone } from "./components/smart-speaker-minimalistic";
+import { variants as variantsSmartphone } from "./components/smartphone";
+import { SmartphoneBold } from "./components/smartphone";
+import { SmartphoneBroken } from "./components/smartphone";
+import { SmartphoneBulk } from "./components/smartphone";
+import { SmartphoneLinear } from "./components/smartphone";
+import { SmartphoneOutline } from "./components/smartphone";
+import { SmartphoneTwotone } from "./components/smartphone";
+import { variants as variantsSmartphone2 } from "./components/smartphone-2";
+import { Smartphone2Bold } from "./components/smartphone-2";
+import { Smartphone2Broken } from "./components/smartphone-2";
+import { Smartphone2Bulk } from "./components/smartphone-2";
+import { Smartphone2Linear } from "./components/smartphone-2";
+import { Smartphone2Outline } from "./components/smartphone-2";
+import { Smartphone2Twotone } from "./components/smartphone-2";
+import { variants as variantsSmartphoneRotate2 } from "./components/smartphone-rotate-2";
+import { SmartphoneRotate2Bold } from "./components/smartphone-rotate-2";
+import { SmartphoneRotate2Broken } from "./components/smartphone-rotate-2";
+import { SmartphoneRotate2Bulk } from "./components/smartphone-rotate-2";
+import { SmartphoneRotate2Linear } from "./components/smartphone-rotate-2";
+import { SmartphoneRotate2Outline } from "./components/smartphone-rotate-2";
+import { SmartphoneRotate2Twotone } from "./components/smartphone-rotate-2";
+import { variants as variantsSmartphoneRotateAngle } from "./components/smartphone-rotate-angle";
+import { SmartphoneRotateAngleBold } from "./components/smartphone-rotate-angle";
+import { SmartphoneRotateAngleBroken } from "./components/smartphone-rotate-angle";
+import { SmartphoneRotateAngleBulk } from "./components/smartphone-rotate-angle";
+import { SmartphoneRotateAngleLinear } from "./components/smartphone-rotate-angle";
+import { SmartphoneRotateAngleOutline } from "./components/smartphone-rotate-angle";
+import { SmartphoneRotateAngleTwotone } from "./components/smartphone-rotate-angle";
+import { variants as variantsSmartphoneRotateOrientation } from "./components/smartphone-rotate-orientation";
+import { SmartphoneRotateOrientationBold } from "./components/smartphone-rotate-orientation";
+import { SmartphoneRotateOrientationBroken } from "./components/smartphone-rotate-orientation";
+import { SmartphoneRotateOrientationBulk } from "./components/smartphone-rotate-orientation";
+import { SmartphoneRotateOrientationLinear } from "./components/smartphone-rotate-orientation";
+import { SmartphoneRotateOrientationOutline } from "./components/smartphone-rotate-orientation";
+import { SmartphoneRotateOrientationTwotone } from "./components/smartphone-rotate-orientation";
+import { variants as variantsSmartphoneUpdate } from "./components/smartphone-update";
+import { SmartphoneUpdateBold } from "./components/smartphone-update";
+import { SmartphoneUpdateBroken } from "./components/smartphone-update";
+import { SmartphoneUpdateBulk } from "./components/smartphone-update";
+import { SmartphoneUpdateLinear } from "./components/smartphone-update";
+import { SmartphoneUpdateOutline } from "./components/smartphone-update";
+import { SmartphoneUpdateTwotone } from "./components/smartphone-update";
+import { variants as variantsSmartphoneVibration } from "./components/smartphone-vibration";
+import { SmartphoneVibrationBold } from "./components/smartphone-vibration";
+import { SmartphoneVibrationBroken } from "./components/smartphone-vibration";
+import { SmartphoneVibrationBulk } from "./components/smartphone-vibration";
+import { SmartphoneVibrationLinear } from "./components/smartphone-vibration";
+import { SmartphoneVibrationOutline } from "./components/smartphone-vibration";
+import { SmartphoneVibrationTwotone } from "./components/smartphone-vibration";
+import { variants as variantsSocket } from "./components/socket";
+import { SocketBold } from "./components/socket";
+import { SocketBroken } from "./components/socket";
+import { SocketBulk } from "./components/socket";
+import { SocketLinear } from "./components/socket";
+import { SocketOutline } from "./components/socket";
+import { SocketTwotone } from "./components/socket";
+import { variants as variantsSsdRound } from "./components/ssd-round";
+import { SsdRoundBold } from "./components/ssd-round";
+import { SsdRoundBroken } from "./components/ssd-round";
+import { SsdRoundBulk } from "./components/ssd-round";
+import { SsdRoundLinear } from "./components/ssd-round";
+import { SsdRoundOutline } from "./components/ssd-round";
+import { SsdRoundTwotone } from "./components/ssd-round";
+import { variants as variantsSsdSquare } from "./components/ssd-square";
+import { SsdSquareBold } from "./components/ssd-square";
+import { SsdSquareBroken } from "./components/ssd-square";
+import { SsdSquareBulk } from "./components/ssd-square";
+import { SsdSquareLinear } from "./components/ssd-square";
+import { SsdSquareOutline } from "./components/ssd-square";
+import { SsdSquareTwotone } from "./components/ssd-square";
+import { variants as variantsTablet } from "./components/tablet";
+import { TabletBold } from "./components/tablet";
+import { TabletBroken } from "./components/tablet";
+import { TabletBulk } from "./components/tablet";
+import { TabletLinear } from "./components/tablet";
+import { TabletOutline } from "./components/tablet";
+import { TabletTwotone } from "./components/tablet";
+import { variants as variantsTelescope } from "./components/telescope";
+import { TelescopeBold } from "./components/telescope";
+import { TelescopeBroken } from "./components/telescope";
+import { TelescopeBulk } from "./components/telescope";
+import { TelescopeLinear } from "./components/telescope";
+import { TelescopeOutline } from "./components/telescope";
+import { TelescopeTwotone } from "./components/telescope";
+import { variants as variantsTurntable } from "./components/turntable";
+import { TurntableBold } from "./components/turntable";
+import { TurntableBroken } from "./components/turntable";
+import { TurntableBulk } from "./components/turntable";
+import { TurntableLinear } from "./components/turntable";
+import { TurntableOutline } from "./components/turntable";
+import { TurntableTwotone } from "./components/turntable";
+import { variants as variantsTurntableMinimalistic } from "./components/turntable-minimalistic";
+import { TurntableMinimalisticBold } from "./components/turntable-minimalistic";
+import { TurntableMinimalisticBroken } from "./components/turntable-minimalistic";
+import { TurntableMinimalisticBulk } from "./components/turntable-minimalistic";
+import { TurntableMinimalisticLinear } from "./components/turntable-minimalistic";
+import { TurntableMinimalisticOutline } from "./components/turntable-minimalistic";
+import { TurntableMinimalisticTwotone } from "./components/turntable-minimalistic";
+import { variants as variantsTurntableMusicNote } from "./components/turntable-music-note";
+import { TurntableMusicNoteBold } from "./components/turntable-music-note";
+import { TurntableMusicNoteBroken } from "./components/turntable-music-note";
+import { TurntableMusicNoteBulk } from "./components/turntable-music-note";
+import { TurntableMusicNoteLinear } from "./components/turntable-music-note";
+import { TurntableMusicNoteOutline } from "./components/turntable-music-note";
+import { TurntableMusicNoteTwotone } from "./components/turntable-music-note";
+import { variants as variantsTv } from "./components/tv";
+import { TvBold } from "./components/tv";
+import { TvBroken } from "./components/tv";
+import { TvBulk } from "./components/tv";
+import { TvLinear } from "./components/tv";
+import { TvOutline } from "./components/tv";
+import { TvTwotone } from "./components/tv";
+import { variants as variantsWeigher } from "./components/weigher";
+import { WeigherBold } from "./components/weigher";
+import { WeigherBroken } from "./components/weigher";
+import { WeigherBulk } from "./components/weigher";
+import { WeigherLinear } from "./components/weigher";
+import { WeigherOutline } from "./components/weigher";
+import { WeigherTwotone } from "./components/weigher";
+import { variants as variantsWirelessCharge } from "./components/wireless-charge";
+import { WirelessChargeBold } from "./components/wireless-charge";
+import { WirelessChargeBroken } from "./components/wireless-charge";
+import { WirelessChargeBulk } from "./components/wireless-charge";
+import { WirelessChargeLinear } from "./components/wireless-charge";
+import { WirelessChargeOutline } from "./components/wireless-charge";
+import { WirelessChargeTwotone } from "./components/wireless-charge";
+import { variants as variantsConfoundedCircle } from "./components/confounded-circle";
+import { ConfoundedCircleBold } from "./components/confounded-circle";
+import { ConfoundedCircleBroken } from "./components/confounded-circle";
+import { ConfoundedCircleBulk } from "./components/confounded-circle";
+import { ConfoundedCircleLinear } from "./components/confounded-circle";
+import { ConfoundedCircleOutline } from "./components/confounded-circle";
+import { ConfoundedCircleTwotone } from "./components/confounded-circle";
+import { variants as variantsConfoundedSquare } from "./components/confounded-square";
+import { ConfoundedSquareBold } from "./components/confounded-square";
+import { ConfoundedSquareBroken } from "./components/confounded-square";
+import { ConfoundedSquareBulk } from "./components/confounded-square";
+import { ConfoundedSquareLinear } from "./components/confounded-square";
+import { ConfoundedSquareOutline } from "./components/confounded-square";
+import { ConfoundedSquareTwotone } from "./components/confounded-square";
+import { variants as variantsEmojiFunnyCircle } from "./components/emoji-funny-circle";
+import { EmojiFunnyCircleBold } from "./components/emoji-funny-circle";
+import { EmojiFunnyCircleBroken } from "./components/emoji-funny-circle";
+import { EmojiFunnyCircleBulk } from "./components/emoji-funny-circle";
+import { EmojiFunnyCircleLinear } from "./components/emoji-funny-circle";
+import { EmojiFunnyCircleOutline } from "./components/emoji-funny-circle";
+import { EmojiFunnyCircleTwotone } from "./components/emoji-funny-circle";
+import { variants as variantsEmojiFunnySquare } from "./components/emoji-funny-square";
+import { EmojiFunnySquareBold } from "./components/emoji-funny-square";
+import { EmojiFunnySquareBroken } from "./components/emoji-funny-square";
+import { EmojiFunnySquareBulk } from "./components/emoji-funny-square";
+import { EmojiFunnySquareLinear } from "./components/emoji-funny-square";
+import { EmojiFunnySquareOutline } from "./components/emoji-funny-square";
+import { EmojiFunnySquareTwotone } from "./components/emoji-funny-square";
+import { variants as variantsExpressionlessCircle } from "./components/expressionless-circle";
+import { ExpressionlessCircleBold } from "./components/expressionless-circle";
+import { ExpressionlessCircleBroken } from "./components/expressionless-circle";
+import { ExpressionlessCircleBulk } from "./components/expressionless-circle";
+import { ExpressionlessCircleLinear } from "./components/expressionless-circle";
+import { ExpressionlessCircleOutline } from "./components/expressionless-circle";
+import { ExpressionlessCircleTwotone } from "./components/expressionless-circle";
+import { variants as variantsExpressionlessSquare } from "./components/expressionless-square";
+import { ExpressionlessSquareBold } from "./components/expressionless-square";
+import { ExpressionlessSquareBroken } from "./components/expressionless-square";
+import { ExpressionlessSquareBulk } from "./components/expressionless-square";
+import { ExpressionlessSquareLinear } from "./components/expressionless-square";
+import { ExpressionlessSquareOutline } from "./components/expressionless-square";
+import { ExpressionlessSquareTwotone } from "./components/expressionless-square";
+import { variants as variantsFaceScanCircle } from "./components/face-scan-circle";
+import { FaceScanCircleBold } from "./components/face-scan-circle";
+import { FaceScanCircleBroken } from "./components/face-scan-circle";
+import { FaceScanCircleBulk } from "./components/face-scan-circle";
+import { FaceScanCircleLinear } from "./components/face-scan-circle";
+import { FaceScanCircleOutline } from "./components/face-scan-circle";
+import { FaceScanCircleTwotone } from "./components/face-scan-circle";
+import { variants as variantsFaceScanSquare } from "./components/face-scan-square";
+import { FaceScanSquareBold } from "./components/face-scan-square";
+import { FaceScanSquareBroken } from "./components/face-scan-square";
+import { FaceScanSquareBulk } from "./components/face-scan-square";
+import { FaceScanSquareLinear } from "./components/face-scan-square";
+import { FaceScanSquareOutline } from "./components/face-scan-square";
+import { FaceScanSquareTwotone } from "./components/face-scan-square";
+import { variants as variantsFacemaskCircle } from "./components/facemask-circle";
+import { FacemaskCircleBold } from "./components/facemask-circle";
+import { FacemaskCircleBroken } from "./components/facemask-circle";
+import { FacemaskCircleBulk } from "./components/facemask-circle";
+import { FacemaskCircleLinear } from "./components/facemask-circle";
+import { FacemaskCircleOutline } from "./components/facemask-circle";
+import { FacemaskCircleTwotone } from "./components/facemask-circle";
+import { variants as variantsFacemaskSquare } from "./components/facemask-square";
+import { FacemaskSquareBold } from "./components/facemask-square";
+import { FacemaskSquareBroken } from "./components/facemask-square";
+import { FacemaskSquareBulk } from "./components/facemask-square";
+import { FacemaskSquareLinear } from "./components/facemask-square";
+import { FacemaskSquareOutline } from "./components/facemask-square";
+import { FacemaskSquareTwotone } from "./components/facemask-square";
+import { variants as variantsSadCircle } from "./components/sad-circle";
+import { SadCircleBold } from "./components/sad-circle";
+import { SadCircleBroken } from "./components/sad-circle";
+import { SadCircleBulk } from "./components/sad-circle";
+import { SadCircleLinear } from "./components/sad-circle";
+import { SadCircleOutline } from "./components/sad-circle";
+import { SadCircleTwotone } from "./components/sad-circle";
+import { variants as variantsSadSquare } from "./components/sad-square";
+import { SadSquareBold } from "./components/sad-square";
+import { SadSquareBroken } from "./components/sad-square";
+import { SadSquareBulk } from "./components/sad-square";
+import { SadSquareLinear } from "./components/sad-square";
+import { SadSquareOutline } from "./components/sad-square";
+import { SadSquareTwotone } from "./components/sad-square";
+import { variants as variantsSleepingCircle } from "./components/sleeping-circle";
+import { SleepingCircleBold } from "./components/sleeping-circle";
+import { SleepingCircleBroken } from "./components/sleeping-circle";
+import { SleepingCircleBulk } from "./components/sleeping-circle";
+import { SleepingCircleLinear } from "./components/sleeping-circle";
+import { SleepingCircleOutline } from "./components/sleeping-circle";
+import { SleepingCircleTwotone } from "./components/sleeping-circle";
+import { variants as variantsSleepingSquare } from "./components/sleeping-square";
+import { SleepingSquareBold } from "./components/sleeping-square";
+import { SleepingSquareBroken } from "./components/sleeping-square";
+import { SleepingSquareBulk } from "./components/sleeping-square";
+import { SleepingSquareLinear } from "./components/sleeping-square";
+import { SleepingSquareOutline } from "./components/sleeping-square";
+import { SleepingSquareTwotone } from "./components/sleeping-square";
+import { variants as variantsSmileCircle } from "./components/smile-circle";
+import { SmileCircleBold } from "./components/smile-circle";
+import { SmileCircleBroken } from "./components/smile-circle";
+import { SmileCircleBulk } from "./components/smile-circle";
+import { SmileCircleLinear } from "./components/smile-circle";
+import { SmileCircleOutline } from "./components/smile-circle";
+import { SmileCircleTwotone } from "./components/smile-circle";
+import { variants as variantsSmileSquare } from "./components/smile-square";
+import { SmileSquareBold } from "./components/smile-square";
+import { SmileSquareBroken } from "./components/smile-square";
+import { SmileSquareBulk } from "./components/smile-square";
+import { SmileSquareLinear } from "./components/smile-square";
+import { SmileSquareOutline } from "./components/smile-square";
+import { SmileSquareTwotone } from "./components/smile-square";
+import { variants as variantsStickerCircle } from "./components/sticker-circle";
+import { StickerCircleBold } from "./components/sticker-circle";
+import { StickerCircleBroken } from "./components/sticker-circle";
+import { StickerCircleBulk } from "./components/sticker-circle";
+import { StickerCircleLinear } from "./components/sticker-circle";
+import { StickerCircleOutline } from "./components/sticker-circle";
+import { StickerCircleTwotone } from "./components/sticker-circle";
+import { variants as variantsStickerSmileCircle } from "./components/sticker-smile-circle";
+import { StickerSmileCircleBold } from "./components/sticker-smile-circle";
+import { StickerSmileCircleBroken } from "./components/sticker-smile-circle";
+import { StickerSmileCircleBulk } from "./components/sticker-smile-circle";
+import { StickerSmileCircleLinear } from "./components/sticker-smile-circle";
+import { StickerSmileCircleOutline } from "./components/sticker-smile-circle";
+import { StickerSmileCircleTwotone } from "./components/sticker-smile-circle";
+import { variants as variantsStickerSmileCircle2 } from "./components/sticker-smile-circle-2";
+import { StickerSmileCircle2Bold } from "./components/sticker-smile-circle-2";
+import { StickerSmileCircle2Broken } from "./components/sticker-smile-circle-2";
+import { StickerSmileCircle2Bulk } from "./components/sticker-smile-circle-2";
+import { StickerSmileCircle2Linear } from "./components/sticker-smile-circle-2";
+import { StickerSmileCircle2Outline } from "./components/sticker-smile-circle-2";
+import { StickerSmileCircle2Twotone } from "./components/sticker-smile-circle-2";
+import { variants as variantsStickerSmileSquare } from "./components/sticker-smile-square";
+import { StickerSmileSquareBold } from "./components/sticker-smile-square";
+import { StickerSmileSquareBroken } from "./components/sticker-smile-square";
+import { StickerSmileSquareBulk } from "./components/sticker-smile-square";
+import { StickerSmileSquareLinear } from "./components/sticker-smile-square";
+import { StickerSmileSquareOutline } from "./components/sticker-smile-square";
+import { StickerSmileSquareTwotone } from "./components/sticker-smile-square";
+import { variants as variantsStickerSquare } from "./components/sticker-square";
+import { StickerSquareBold } from "./components/sticker-square";
+import { StickerSquareBroken } from "./components/sticker-square";
+import { StickerSquareBulk } from "./components/sticker-square";
+import { StickerSquareLinear } from "./components/sticker-square";
+import { StickerSquareOutline } from "./components/sticker-square";
+import { StickerSquareTwotone } from "./components/sticker-square";
+import { variants as variantsCloudFile } from "./components/cloud-file";
+import { CloudFileBold } from "./components/cloud-file";
+import { CloudFileBroken } from "./components/cloud-file";
+import { CloudFileBulk } from "./components/cloud-file";
+import { CloudFileLinear } from "./components/cloud-file";
+import { CloudFileOutline } from "./components/cloud-file";
+import { CloudFileTwotone } from "./components/cloud-file";
+import { variants as variantsCodeFile } from "./components/code-file";
+import { CodeFileBold } from "./components/code-file";
+import { CodeFileBroken } from "./components/code-file";
+import { CodeFileBulk } from "./components/code-file";
+import { CodeFileLinear } from "./components/code-file";
+import { CodeFileOutline } from "./components/code-file";
+import { CodeFileTwotone } from "./components/code-file";
+import { variants as variantsFigmaFile } from "./components/figma-file";
+import { FigmaFileBold } from "./components/figma-file";
+import { FigmaFileBroken } from "./components/figma-file";
+import { FigmaFileBulk } from "./components/figma-file";
+import { FigmaFileLinear } from "./components/figma-file";
+import { FigmaFileOutline } from "./components/figma-file";
+import { FigmaFileTwotone } from "./components/figma-file";
+import { variants as variantsFile } from "./components/file";
+import { FileBold } from "./components/file";
+import { FileBroken } from "./components/file";
+import { FileBulk } from "./components/file";
+import { FileLinear } from "./components/file";
+import { FileOutline } from "./components/file";
+import { FileTwotone } from "./components/file";
+import { variants as variantsFileCheck } from "./components/file-check";
+import { FileCheckBold } from "./components/file-check";
+import { FileCheckBroken } from "./components/file-check";
+import { FileCheckBulk } from "./components/file-check";
+import { FileCheckLinear } from "./components/file-check";
+import { FileCheckOutline } from "./components/file-check";
+import { FileCheckTwotone } from "./components/file-check";
+import { variants as variantsFileCorrupted } from "./components/file-corrupted";
+import { FileCorruptedBold } from "./components/file-corrupted";
+import { FileCorruptedBroken } from "./components/file-corrupted";
+import { FileCorruptedBulk } from "./components/file-corrupted";
+import { FileCorruptedLinear } from "./components/file-corrupted";
+import { FileCorruptedOutline } from "./components/file-corrupted";
+import { FileCorruptedTwotone } from "./components/file-corrupted";
+import { variants as variantsFileDownload } from "./components/file-download";
+import { FileDownloadBold } from "./components/file-download";
+import { FileDownloadBroken } from "./components/file-download";
+import { FileDownloadBulk } from "./components/file-download";
+import { FileDownloadLinear } from "./components/file-download";
+import { FileDownloadOutline } from "./components/file-download";
+import { FileDownloadTwotone } from "./components/file-download";
+import { variants as variantsFileFavourite } from "./components/file-favourite";
+import { FileFavouriteBold } from "./components/file-favourite";
+import { FileFavouriteBroken } from "./components/file-favourite";
+import { FileFavouriteBulk } from "./components/file-favourite";
+import { FileFavouriteLinear } from "./components/file-favourite";
+import { FileFavouriteOutline } from "./components/file-favourite";
+import { FileFavouriteTwotone } from "./components/file-favourite";
+import { variants as variantsFileLeft } from "./components/file-left";
+import { FileLeftBold } from "./components/file-left";
+import { FileLeftBroken } from "./components/file-left";
+import { FileLeftBulk } from "./components/file-left";
+import { FileLeftLinear } from "./components/file-left";
+import { FileLeftOutline } from "./components/file-left";
+import { FileLeftTwotone } from "./components/file-left";
+import { variants as variantsFileRemove } from "./components/file-remove";
+import { FileRemoveBold } from "./components/file-remove";
+import { FileRemoveBroken } from "./components/file-remove";
+import { FileRemoveBulk } from "./components/file-remove";
+import { FileRemoveLinear } from "./components/file-remove";
+import { FileRemoveOutline } from "./components/file-remove";
+import { FileRemoveTwotone } from "./components/file-remove";
+import { variants as variantsFileRight } from "./components/file-right";
+import { FileRightBold } from "./components/file-right";
+import { FileRightBroken } from "./components/file-right";
+import { FileRightBulk } from "./components/file-right";
+import { FileRightLinear } from "./components/file-right";
+import { FileRightOutline } from "./components/file-right";
+import { FileRightTwotone } from "./components/file-right";
+import { variants as variantsFileSend } from "./components/file-send";
+import { FileSendBold } from "./components/file-send";
+import { FileSendBroken } from "./components/file-send";
+import { FileSendBulk } from "./components/file-send";
+import { FileSendLinear } from "./components/file-send";
+import { FileSendOutline } from "./components/file-send";
+import { FileSendTwotone } from "./components/file-send";
+import { variants as variantsFileSmile } from "./components/file-smile";
+import { FileSmileBold } from "./components/file-smile";
+import { FileSmileBroken } from "./components/file-smile";
+import { FileSmileBulk } from "./components/file-smile";
+import { FileSmileLinear } from "./components/file-smile";
+import { FileSmileOutline } from "./components/file-smile";
+import { FileSmileTwotone } from "./components/file-smile";
+import { variants as variantsFileText } from "./components/file-text";
+import { FileTextBold } from "./components/file-text";
+import { FileTextBroken } from "./components/file-text";
+import { FileTextBulk } from "./components/file-text";
+import { FileTextLinear } from "./components/file-text";
+import { FileTextOutline } from "./components/file-text";
+import { FileTextTwotone } from "./components/file-text";
+import { variants as variantsZipFile } from "./components/zip-file";
+import { ZipFileBold } from "./components/zip-file";
+import { ZipFileBroken } from "./components/zip-file";
+import { ZipFileBulk } from "./components/zip-file";
+import { ZipFileLinear } from "./components/zip-file";
+import { ZipFileOutline } from "./components/zip-file";
+import { ZipFileTwotone } from "./components/zip-file";
+import { variants as variantsAddFolder } from "./components/add-folder";
+import { AddFolderBold } from "./components/add-folder";
+import { AddFolderBroken } from "./components/add-folder";
+import { AddFolderBulk } from "./components/add-folder";
+import { AddFolderLinear } from "./components/add-folder";
+import { AddFolderOutline } from "./components/add-folder";
+import { AddFolderTwotone } from "./components/add-folder";
+import { variants as variantsFoldersFolder } from "./components/folders-folder";
+import { FoldersFolderBold } from "./components/folders-folder";
+import { FoldersFolderBroken } from "./components/folders-folder";
+import { FoldersFolderBulk } from "./components/folders-folder";
+import { FoldersFolderLinear } from "./components/folders-folder";
+import { FoldersFolderOutline } from "./components/folders-folder";
+import { FoldersFolderTwotone } from "./components/folders-folder";
+import { variants as variantsFoldersFolder2 } from "./components/folders-folder-2";
+import { FoldersFolder2Bold } from "./components/folders-folder-2";
+import { FoldersFolder2Broken } from "./components/folders-folder-2";
+import { FoldersFolder2Bulk } from "./components/folders-folder-2";
+import { FoldersFolder2Linear } from "./components/folders-folder-2";
+import { FoldersFolder2Outline } from "./components/folders-folder-2";
+import { FoldersFolder2Twotone } from "./components/folders-folder-2";
+import { variants as variantsFolderCheck } from "./components/folder-check";
+import { FolderCheckBold } from "./components/folder-check";
+import { FolderCheckBroken } from "./components/folder-check";
+import { FolderCheckBulk } from "./components/folder-check";
+import { FolderCheckLinear } from "./components/folder-check";
+import { FolderCheckOutline } from "./components/folder-check";
+import { FolderCheckTwotone } from "./components/folder-check";
+import { variants as variantsFoldersFolderCloud } from "./components/folders-folder-cloud";
+import { FoldersFolderCloudBold } from "./components/folders-folder-cloud";
+import { FoldersFolderCloudBroken } from "./components/folders-folder-cloud";
+import { FoldersFolderCloudBulk } from "./components/folders-folder-cloud";
+import { FoldersFolderCloudLinear } from "./components/folders-folder-cloud";
+import { FoldersFolderCloudOutline } from "./components/folders-folder-cloud";
+import { FoldersFolderCloudTwotone } from "./components/folders-folder-cloud";
+import { variants as variantsFolderError } from "./components/folder-error";
+import { FolderErrorBold } from "./components/folder-error";
+import { FolderErrorBroken } from "./components/folder-error";
+import { FolderErrorBulk } from "./components/folder-error";
+import { FolderErrorLinear } from "./components/folder-error";
+import { FolderErrorOutline } from "./components/folder-error";
+import { FolderErrorTwotone } from "./components/folder-error";
+import { variants as variantsFolderFavouriteBookmark } from "./components/folder-favourite-bookmark";
+import { FolderFavouriteBookmarkBold } from "./components/folder-favourite-bookmark";
+import { FolderFavouriteBookmarkBroken } from "./components/folder-favourite-bookmark";
+import { FolderFavouriteBookmarkBulk } from "./components/folder-favourite-bookmark";
+import { FolderFavouriteBookmarkLinear } from "./components/folder-favourite-bookmark";
+import { FolderFavouriteBookmarkOutline } from "./components/folder-favourite-bookmark";
+import { FolderFavouriteBookmarkTwotone } from "./components/folder-favourite-bookmark";
+import { variants as variantsFolderFavouriteStar } from "./components/folder-favourite-star";
+import { FolderFavouriteStarBold } from "./components/folder-favourite-star";
+import { FolderFavouriteStarBroken } from "./components/folder-favourite-star";
+import { FolderFavouriteStarBulk } from "./components/folder-favourite-star";
+import { FolderFavouriteStarLinear } from "./components/folder-favourite-star";
+import { FolderFavouriteStarOutline } from "./components/folder-favourite-star";
+import { FolderFavouriteStarTwotone } from "./components/folder-favourite-star";
+import { variants as variantsFoldersFolderOpen } from "./components/folders-folder-open";
+import { FoldersFolderOpenBold } from "./components/folders-folder-open";
+import { FoldersFolderOpenBroken } from "./components/folders-folder-open";
+import { FoldersFolderOpenBulk } from "./components/folders-folder-open";
+import { FoldersFolderOpenLinear } from "./components/folders-folder-open";
+import { FoldersFolderOpenOutline } from "./components/folders-folder-open";
+import { FoldersFolderOpenTwotone } from "./components/folders-folder-open";
+import { variants as variantsFolderPathConnect } from "./components/folder-path-connect";
+import { FolderPathConnectBold } from "./components/folder-path-connect";
+import { FolderPathConnectBroken } from "./components/folder-path-connect";
+import { FolderPathConnectBulk } from "./components/folder-path-connect";
+import { FolderPathConnectLinear } from "./components/folder-path-connect";
+import { FolderPathConnectOutline } from "./components/folder-path-connect";
+import { FolderPathConnectTwotone } from "./components/folder-path-connect";
+import { variants as variantsFolderSecurity } from "./components/folder-security";
+import { FolderSecurityBold } from "./components/folder-security";
+import { FolderSecurityBroken } from "./components/folder-security";
+import { FolderSecurityBulk } from "./components/folder-security";
+import { FolderSecurityLinear } from "./components/folder-security";
+import { FolderSecurityOutline } from "./components/folder-security";
+import { FolderSecurityTwotone } from "./components/folder-security";
+import { variants as variantsFolderWithFiles } from "./components/folder-with-files";
+import { FolderWithFilesBold } from "./components/folder-with-files";
+import { FolderWithFilesBroken } from "./components/folder-with-files";
+import { FolderWithFilesBulk } from "./components/folder-with-files";
+import { FolderWithFilesLinear } from "./components/folder-with-files";
+import { FolderWithFilesOutline } from "./components/folder-with-files";
+import { FolderWithFilesTwotone } from "./components/folder-with-files";
+import { variants as variantsMoveToFolder } from "./components/move-to-folder";
+import { MoveToFolderBold } from "./components/move-to-folder";
+import { MoveToFolderBroken } from "./components/move-to-folder";
+import { MoveToFolderBulk } from "./components/move-to-folder";
+import { MoveToFolderLinear } from "./components/move-to-folder";
+import { MoveToFolderOutline } from "./components/move-to-folder";
+import { MoveToFolderTwotone } from "./components/move-to-folder";
+import { variants as variantsRemoveFolder } from "./components/remove-folder";
+import { RemoveFolderBold } from "./components/remove-folder";
+import { RemoveFolderBroken } from "./components/remove-folder";
+import { RemoveFolderBulk } from "./components/remove-folder";
+import { RemoveFolderLinear } from "./components/remove-folder";
+import { RemoveFolderOutline } from "./components/remove-folder";
+import { RemoveFolderTwotone } from "./components/remove-folder";
+import { variants as variantsBottle } from "./components/bottle";
+import { BottleBold } from "./components/bottle";
+import { BottleBroken } from "./components/bottle";
+import { BottleBulk } from "./components/bottle";
+import { BottleLinear } from "./components/bottle";
+import { BottleOutline } from "./components/bottle";
+import { BottleTwotone } from "./components/bottle";
+import { variants as variantsChefHat } from "./components/chef-hat";
+import { ChefHatBold } from "./components/chef-hat";
+import { ChefHatBroken } from "./components/chef-hat";
+import { ChefHatBulk } from "./components/chef-hat";
+import { ChefHatLinear } from "./components/chef-hat";
+import { ChefHatOutline } from "./components/chef-hat";
+import { ChefHatTwotone } from "./components/chef-hat";
+import { variants as variantsChefHatHeart } from "./components/chef-hat-heart";
+import { ChefHatHeartBold } from "./components/chef-hat-heart";
+import { ChefHatHeartBroken } from "./components/chef-hat-heart";
+import { ChefHatHeartBulk } from "./components/chef-hat-heart";
+import { ChefHatHeartLinear } from "./components/chef-hat-heart";
+import { ChefHatHeartOutline } from "./components/chef-hat-heart";
+import { ChefHatHeartTwotone } from "./components/chef-hat-heart";
+import { variants as variantsChefHatMinimalistic } from "./components/chef-hat-minimalistic";
+import { ChefHatMinimalisticBold } from "./components/chef-hat-minimalistic";
+import { ChefHatMinimalisticBroken } from "./components/chef-hat-minimalistic";
+import { ChefHatMinimalisticBulk } from "./components/chef-hat-minimalistic";
+import { ChefHatMinimalisticLinear } from "./components/chef-hat-minimalistic";
+import { ChefHatMinimalisticOutline } from "./components/chef-hat-minimalistic";
+import { ChefHatMinimalisticTwotone } from "./components/chef-hat-minimalistic";
+import { variants as variantsCorkscrew } from "./components/corkscrew";
+import { CorkscrewBold } from "./components/corkscrew";
+import { CorkscrewBroken } from "./components/corkscrew";
+import { CorkscrewBulk } from "./components/corkscrew";
+import { CorkscrewLinear } from "./components/corkscrew";
+import { CorkscrewOutline } from "./components/corkscrew";
+import { CorkscrewTwotone } from "./components/corkscrew";
+import { variants as variantsCupHot } from "./components/cup-hot";
+import { CupHotBold } from "./components/cup-hot";
+import { CupHotBroken } from "./components/cup-hot";
+import { CupHotBulk } from "./components/cup-hot";
+import { CupHotLinear } from "./components/cup-hot";
+import { CupHotOutline } from "./components/cup-hot";
+import { CupHotTwotone } from "./components/cup-hot";
+import { variants as variantsCupPaper } from "./components/cup-paper";
+import { CupPaperBold } from "./components/cup-paper";
+import { CupPaperBroken } from "./components/cup-paper";
+import { CupPaperBulk } from "./components/cup-paper";
+import { CupPaperLinear } from "./components/cup-paper";
+import { CupPaperOutline } from "./components/cup-paper";
+import { CupPaperTwotone } from "./components/cup-paper";
+import { variants as variantsDonut } from "./components/donut";
+import { DonutBold } from "./components/donut";
+import { DonutBroken } from "./components/donut";
+import { DonutBulk } from "./components/donut";
+import { DonutLinear } from "./components/donut";
+import { DonutOutline } from "./components/donut";
+import { DonutTwotone } from "./components/donut";
+import { variants as variantsDonutBitten } from "./components/donut-bitten";
+import { DonutBittenBold } from "./components/donut-bitten";
+import { DonutBittenBroken } from "./components/donut-bitten";
+import { DonutBittenBulk } from "./components/donut-bitten";
+import { DonutBittenLinear } from "./components/donut-bitten";
+import { DonutBittenOutline } from "./components/donut-bitten";
+import { DonutBittenTwotone } from "./components/donut-bitten";
+import { variants as variantsLadle } from "./components/ladle";
+import { LadleBold } from "./components/ladle";
+import { LadleBroken } from "./components/ladle";
+import { LadleBulk } from "./components/ladle";
+import { LadleLinear } from "./components/ladle";
+import { LadleOutline } from "./components/ladle";
+import { LadleTwotone } from "./components/ladle";
+import { variants as variantsMug } from "./components/mug";
+import { MugBold } from "./components/mug";
+import { MugBroken } from "./components/mug";
+import { MugBulk } from "./components/mug";
+import { MugLinear } from "./components/mug";
+import { MugOutline } from "./components/mug";
+import { MugTwotone } from "./components/mug";
+import { variants as variantsOvenMitts } from "./components/oven-mitts";
+import { OvenMittsBold } from "./components/oven-mitts";
+import { OvenMittsBroken } from "./components/oven-mitts";
+import { OvenMittsBulk } from "./components/oven-mitts";
+import { OvenMittsLinear } from "./components/oven-mitts";
+import { OvenMittsOutline } from "./components/oven-mitts";
+import { OvenMittsTwotone } from "./components/oven-mitts";
+import { variants as variantsOvenMittsMinimalistic } from "./components/oven-mitts-minimalistic";
+import { OvenMittsMinimalisticBold } from "./components/oven-mitts-minimalistic";
+import { OvenMittsMinimalisticBroken } from "./components/oven-mitts-minimalistic";
+import { OvenMittsMinimalisticBulk } from "./components/oven-mitts-minimalistic";
+import { OvenMittsMinimalisticLinear } from "./components/oven-mitts-minimalistic";
+import { OvenMittsMinimalisticOutline } from "./components/oven-mitts-minimalistic";
+import { OvenMittsMinimalisticTwotone } from "./components/oven-mitts-minimalistic";
+import { variants as variantsRollingPin } from "./components/rolling-pin";
+import { RollingPinBold } from "./components/rolling-pin";
+import { RollingPinBroken } from "./components/rolling-pin";
+import { RollingPinBulk } from "./components/rolling-pin";
+import { RollingPinLinear } from "./components/rolling-pin";
+import { RollingPinOutline } from "./components/rolling-pin";
+import { RollingPinTwotone } from "./components/rolling-pin";
+import { variants as variantsTeaCup } from "./components/tea-cup";
+import { TeaCupBold } from "./components/tea-cup";
+import { TeaCupBroken } from "./components/tea-cup";
+import { TeaCupBulk } from "./components/tea-cup";
+import { TeaCupLinear } from "./components/tea-cup";
+import { TeaCupOutline } from "./components/tea-cup";
+import { TeaCupTwotone } from "./components/tea-cup";
+import { variants as variantsWhisk } from "./components/whisk";
+import { WhiskBold } from "./components/whisk";
+import { WhiskBroken } from "./components/whisk";
+import { WhiskBulk } from "./components/whisk";
+import { WhiskLinear } from "./components/whisk";
+import { WhiskOutline } from "./components/whisk";
+import { WhiskTwotone } from "./components/whisk";
+import { variants as variantsWineglass } from "./components/wineglass";
+import { WineglassBold } from "./components/wineglass";
+import { WineglassBroken } from "./components/wineglass";
+import { WineglassBulk } from "./components/wineglass";
+import { WineglassLinear } from "./components/wineglass";
+import { WineglassOutline } from "./components/wineglass";
+import { WineglassTwotone } from "./components/wineglass";
+import { variants as variantsWineglassTriangle } from "./components/wineglass-triangle";
+import { WineglassTriangleBold } from "./components/wineglass-triangle";
+import { WineglassTriangleBroken } from "./components/wineglass-triangle";
+import { WineglassTriangleBulk } from "./components/wineglass-triangle";
+import { WineglassTriangleLinear } from "./components/wineglass-triangle";
+import { WineglassTriangleOutline } from "./components/wineglass-triangle";
+import { WineglassTriangleTwotone } from "./components/wineglass-triangle";
+import { variants as variantsHandHeart } from "./components/hand-heart";
+import { HandHeartBold } from "./components/hand-heart";
+import { HandHeartBroken } from "./components/hand-heart";
+import { HandHeartBulk } from "./components/hand-heart";
+import { HandHeartLinear } from "./components/hand-heart";
+import { HandHeartOutline } from "./components/hand-heart";
+import { HandHeartTwotone } from "./components/hand-heart";
+import { variants as variantsHandMoney } from "./components/hand-money";
+import { HandMoneyBold } from "./components/hand-money";
+import { HandMoneyBroken } from "./components/hand-money";
+import { HandMoneyBulk } from "./components/hand-money";
+import { HandMoneyLinear } from "./components/hand-money";
+import { HandMoneyOutline } from "./components/hand-money";
+import { HandMoneyTwotone } from "./components/hand-money";
+import { variants as variantsHandPills } from "./components/hand-pills";
+import { HandPillsBold } from "./components/hand-pills";
+import { HandPillsBroken } from "./components/hand-pills";
+import { HandPillsBulk } from "./components/hand-pills";
+import { HandPillsLinear } from "./components/hand-pills";
+import { HandPillsOutline } from "./components/hand-pills";
+import { HandPillsTwotone } from "./components/hand-pills";
+import { variants as variantsHandShake } from "./components/hand-shake";
+import { HandShakeBold } from "./components/hand-shake";
+import { HandShakeBroken } from "./components/hand-shake";
+import { HandShakeBulk } from "./components/hand-shake";
+import { HandShakeLinear } from "./components/hand-shake";
+import { HandShakeOutline } from "./components/hand-shake";
+import { HandShakeTwotone } from "./components/hand-shake";
+import { variants as variantsHandStars } from "./components/hand-stars";
+import { HandStarsBold } from "./components/hand-stars";
+import { HandStarsBroken } from "./components/hand-stars";
+import { HandStarsBulk } from "./components/hand-stars";
+import { HandStarsLinear } from "./components/hand-stars";
+import { HandStarsOutline } from "./components/hand-stars";
+import { HandStarsTwotone } from "./components/hand-stars";
+import { variants as variantsArmchair } from "./components/armchair";
+import { ArmchairBold } from "./components/armchair";
+import { ArmchairBroken } from "./components/armchair";
+import { ArmchairBulk } from "./components/armchair";
+import { ArmchairLinear } from "./components/armchair";
+import { ArmchairOutline } from "./components/armchair";
+import { ArmchairTwotone } from "./components/armchair";
+import { variants as variantsArmchair2 } from "./components/armchair-2";
+import { Armchair2Bold } from "./components/armchair-2";
+import { Armchair2Broken } from "./components/armchair-2";
+import { Armchair2Bulk } from "./components/armchair-2";
+import { Armchair2Linear } from "./components/armchair-2";
+import { Armchair2Outline } from "./components/armchair-2";
+import { Armchair2Twotone } from "./components/armchair-2";
+import { variants as variantsBarChair } from "./components/bar-chair";
+import { BarChairBold } from "./components/bar-chair";
+import { BarChairBroken } from "./components/bar-chair";
+import { BarChairBulk } from "./components/bar-chair";
+import { BarChairLinear } from "./components/bar-chair";
+import { BarChairOutline } from "./components/bar-chair";
+import { BarChairTwotone } from "./components/bar-chair";
+import { variants as variantsBath } from "./components/bath";
+import { BathBold } from "./components/bath";
+import { BathBroken } from "./components/bath";
+import { BathBulk } from "./components/bath";
+import { BathLinear } from "./components/bath";
+import { BathOutline } from "./components/bath";
+import { BathTwotone } from "./components/bath";
+import { variants as variantsBed } from "./components/bed";
+import { BedBold } from "./components/bed";
+import { BedBroken } from "./components/bed";
+import { BedBulk } from "./components/bed";
+import { BedLinear } from "./components/bed";
+import { BedOutline } from "./components/bed";
+import { BedTwotone } from "./components/bed";
+import { variants as variantsBedsideTable } from "./components/bedside-table";
+import { BedsideTableBold } from "./components/bedside-table";
+import { BedsideTableBroken } from "./components/bedside-table";
+import { BedsideTableBulk } from "./components/bedside-table";
+import { BedsideTableLinear } from "./components/bedside-table";
+import { BedsideTableOutline } from "./components/bedside-table";
+import { BedsideTableTwotone } from "./components/bedside-table";
+import { variants as variantsBedsideTable2 } from "./components/bedside-table-2";
+import { BedsideTable2Bold } from "./components/bedside-table-2";
+import { BedsideTable2Broken } from "./components/bedside-table-2";
+import { BedsideTable2Bulk } from "./components/bedside-table-2";
+import { BedsideTable2Linear } from "./components/bedside-table-2";
+import { BedsideTable2Outline } from "./components/bedside-table-2";
+import { BedsideTable2Twotone } from "./components/bedside-table-2";
+import { variants as variantsBedsideTable3 } from "./components/bedside-table-3";
+import { BedsideTable3Bold } from "./components/bedside-table-3";
+import { BedsideTable3Broken } from "./components/bedside-table-3";
+import { BedsideTable3Bulk } from "./components/bedside-table-3";
+import { BedsideTable3Linear } from "./components/bedside-table-3";
+import { BedsideTable3Outline } from "./components/bedside-table-3";
+import { BedsideTable3Twotone } from "./components/bedside-table-3";
+import { variants as variantsBedsideTable4 } from "./components/bedside-table-4";
+import { BedsideTable4Bold } from "./components/bedside-table-4";
+import { BedsideTable4Broken } from "./components/bedside-table-4";
+import { BedsideTable4Bulk } from "./components/bedside-table-4";
+import { BedsideTable4Linear } from "./components/bedside-table-4";
+import { BedsideTable4Outline } from "./components/bedside-table-4";
+import { BedsideTable4Twotone } from "./components/bedside-table-4";
+import { variants as variantsChair } from "./components/chair";
+import { ChairBold } from "./components/chair";
+import { ChairBroken } from "./components/chair";
+import { ChairBulk } from "./components/chair";
+import { ChairLinear } from "./components/chair";
+import { ChairOutline } from "./components/chair";
+import { ChairTwotone } from "./components/chair";
+import { variants as variantsChair2 } from "./components/chair-2";
+import { Chair2Bold } from "./components/chair-2";
+import { Chair2Broken } from "./components/chair-2";
+import { Chair2Bulk } from "./components/chair-2";
+import { Chair2Linear } from "./components/chair-2";
+import { Chair2Outline } from "./components/chair-2";
+import { Chair2Twotone } from "./components/chair-2";
+import { variants as variantsChandelier } from "./components/chandelier";
+import { ChandelierBold } from "./components/chandelier";
+import { ChandelierBroken } from "./components/chandelier";
+import { ChandelierBulk } from "./components/chandelier";
+import { ChandelierLinear } from "./components/chandelier";
+import { ChandelierOutline } from "./components/chandelier";
+import { ChandelierTwotone } from "./components/chandelier";
+import { variants as variantsCloset } from "./components/closet";
+import { ClosetBold } from "./components/closet";
+import { ClosetBroken } from "./components/closet";
+import { ClosetBulk } from "./components/closet";
+import { ClosetLinear } from "./components/closet";
+import { ClosetOutline } from "./components/closet";
+import { ClosetTwotone } from "./components/closet";
+import { variants as variantsCloset2 } from "./components/closet-2";
+import { Closet2Bold } from "./components/closet-2";
+import { Closet2Broken } from "./components/closet-2";
+import { Closet2Bulk } from "./components/closet-2";
+import { Closet2Linear } from "./components/closet-2";
+import { Closet2Outline } from "./components/closet-2";
+import { Closet2Twotone } from "./components/closet-2";
+import { variants as variantsConditioner } from "./components/conditioner";
+import { ConditionerBold } from "./components/conditioner";
+import { ConditionerBroken } from "./components/conditioner";
+import { ConditionerBulk } from "./components/conditioner";
+import { ConditionerLinear } from "./components/conditioner";
+import { ConditionerOutline } from "./components/conditioner";
+import { ConditionerTwotone } from "./components/conditioner";
+import { variants as variantsConditioner2 } from "./components/conditioner-2";
+import { Conditioner2Bold } from "./components/conditioner-2";
+import { Conditioner2Broken } from "./components/conditioner-2";
+import { Conditioner2Bulk } from "./components/conditioner-2";
+import { Conditioner2Linear } from "./components/conditioner-2";
+import { Conditioner2Outline } from "./components/conditioner-2";
+import { Conditioner2Twotone } from "./components/conditioner-2";
+import { variants as variantsFloorLamp } from "./components/floor-lamp";
+import { FloorLampBold } from "./components/floor-lamp";
+import { FloorLampBroken } from "./components/floor-lamp";
+import { FloorLampBulk } from "./components/floor-lamp";
+import { FloorLampLinear } from "./components/floor-lamp";
+import { FloorLampOutline } from "./components/floor-lamp";
+import { FloorLampTwotone } from "./components/floor-lamp";
+import { variants as variantsFloorLampMinimalistic } from "./components/floor-lamp-minimalistic";
+import { FloorLampMinimalisticBold } from "./components/floor-lamp-minimalistic";
+import { FloorLampMinimalisticBroken } from "./components/floor-lamp-minimalistic";
+import { FloorLampMinimalisticBulk } from "./components/floor-lamp-minimalistic";
+import { FloorLampMinimalisticLinear } from "./components/floor-lamp-minimalistic";
+import { FloorLampMinimalisticOutline } from "./components/floor-lamp-minimalistic";
+import { FloorLampMinimalisticTwotone } from "./components/floor-lamp-minimalistic";
+import { variants as variantsFridge } from "./components/fridge";
+import { FridgeBold } from "./components/fridge";
+import { FridgeBroken } from "./components/fridge";
+import { FridgeBulk } from "./components/fridge";
+import { FridgeLinear } from "./components/fridge";
+import { FridgeOutline } from "./components/fridge";
+import { FridgeTwotone } from "./components/fridge";
+import { variants as variantsHomeLamp } from "./components/home-lamp";
+import { HomeLampBold } from "./components/home-lamp";
+import { HomeLampBroken } from "./components/home-lamp";
+import { HomeLampBulk } from "./components/home-lamp";
+import { HomeLampLinear } from "./components/home-lamp";
+import { HomeLampOutline } from "./components/home-lamp";
+import { HomeLampTwotone } from "./components/home-lamp";
+import { variants as variantsHomeMirror } from "./components/home-mirror";
+import { HomeMirrorBold } from "./components/home-mirror";
+import { HomeMirrorBroken } from "./components/home-mirror";
+import { HomeMirrorBulk } from "./components/home-mirror";
+import { HomeMirrorLinear } from "./components/home-mirror";
+import { HomeMirrorOutline } from "./components/home-mirror";
+import { HomeMirrorTwotone } from "./components/home-mirror";
+import { variants as variantsRemoteController } from "./components/remote-controller";
+import { RemoteControllerBold } from "./components/remote-controller";
+import { RemoteControllerBroken } from "./components/remote-controller";
+import { RemoteControllerBulk } from "./components/remote-controller";
+import { RemoteControllerLinear } from "./components/remote-controller";
+import { RemoteControllerOutline } from "./components/remote-controller";
+import { RemoteControllerTwotone } from "./components/remote-controller";
+import { variants as variantsRemoteController2 } from "./components/remote-controller-2";
+import { RemoteController2Bold } from "./components/remote-controller-2";
+import { RemoteController2Broken } from "./components/remote-controller-2";
+import { RemoteController2Bulk } from "./components/remote-controller-2";
+import { RemoteController2Linear } from "./components/remote-controller-2";
+import { RemoteController2Outline } from "./components/remote-controller-2";
+import { RemoteController2Twotone } from "./components/remote-controller-2";
+import { variants as variantsRemoteControllerMinimalistic } from "./components/remote-controller-minimalistic";
+import { RemoteControllerMinimalisticBold } from "./components/remote-controller-minimalistic";
+import { RemoteControllerMinimalisticBroken } from "./components/remote-controller-minimalistic";
+import { RemoteControllerMinimalisticBulk } from "./components/remote-controller-minimalistic";
+import { RemoteControllerMinimalisticLinear } from "./components/remote-controller-minimalistic";
+import { RemoteControllerMinimalisticOutline } from "./components/remote-controller-minimalistic";
+import { RemoteControllerMinimalisticTwotone } from "./components/remote-controller-minimalistic";
+import { variants as variantsSmartVacuumCleaner } from "./components/smart-vacuum-cleaner";
+import { SmartVacuumCleanerBold } from "./components/smart-vacuum-cleaner";
+import { SmartVacuumCleanerBroken } from "./components/smart-vacuum-cleaner";
+import { SmartVacuumCleanerBulk } from "./components/smart-vacuum-cleaner";
+import { SmartVacuumCleanerLinear } from "./components/smart-vacuum-cleaner";
+import { SmartVacuumCleanerOutline } from "./components/smart-vacuum-cleaner";
+import { SmartVacuumCleanerTwotone } from "./components/smart-vacuum-cleaner";
+import { variants as variantsSmartVacuumCleaner2 } from "./components/smart-vacuum-cleaner-2";
+import { SmartVacuumCleaner2Bold } from "./components/smart-vacuum-cleaner-2";
+import { SmartVacuumCleaner2Broken } from "./components/smart-vacuum-cleaner-2";
+import { SmartVacuumCleaner2Bulk } from "./components/smart-vacuum-cleaner-2";
+import { SmartVacuumCleaner2Linear } from "./components/smart-vacuum-cleaner-2";
+import { SmartVacuumCleaner2Outline } from "./components/smart-vacuum-cleaner-2";
+import { SmartVacuumCleaner2Twotone } from "./components/smart-vacuum-cleaner-2";
+import { variants as variantsSofa } from "./components/sofa";
+import { SofaBold } from "./components/sofa";
+import { SofaBroken } from "./components/sofa";
+import { SofaBulk } from "./components/sofa";
+import { SofaLinear } from "./components/sofa";
+import { SofaOutline } from "./components/sofa";
+import { SofaTwotone } from "./components/sofa";
+import { variants as variantsSofa2 } from "./components/sofa-2";
+import { Sofa2Bold } from "./components/sofa-2";
+import { Sofa2Broken } from "./components/sofa-2";
+import { Sofa2Bulk } from "./components/sofa-2";
+import { Sofa2Linear } from "./components/sofa-2";
+import { Sofa2Outline } from "./components/sofa-2";
+import { Sofa2Twotone } from "./components/sofa-2";
+import { variants as variantsSofa3 } from "./components/sofa-3";
+import { Sofa3Bold } from "./components/sofa-3";
+import { Sofa3Broken } from "./components/sofa-3";
+import { Sofa3Bulk } from "./components/sofa-3";
+import { Sofa3Linear } from "./components/sofa-3";
+import { Sofa3Outline } from "./components/sofa-3";
+import { Sofa3Twotone } from "./components/sofa-3";
+import { variants as variantsHomeSpeaker } from "./components/home-speaker";
+import { HomeSpeakerBold } from "./components/home-speaker";
+import { HomeSpeakerBroken } from "./components/home-speaker";
+import { HomeSpeakerBulk } from "./components/home-speaker";
+import { HomeSpeakerLinear } from "./components/home-speaker";
+import { HomeSpeakerOutline } from "./components/home-speaker";
+import { HomeSpeakerTwotone } from "./components/home-speaker";
+import { variants as variantsSpeakerMinimalistic } from "./components/speaker-minimalistic";
+import { SpeakerMinimalisticBold } from "./components/speaker-minimalistic";
+import { SpeakerMinimalisticBroken } from "./components/speaker-minimalistic";
+import { SpeakerMinimalisticBulk } from "./components/speaker-minimalistic";
+import { SpeakerMinimalisticLinear } from "./components/speaker-minimalistic";
+import { SpeakerMinimalisticOutline } from "./components/speaker-minimalistic";
+import { SpeakerMinimalisticTwotone } from "./components/speaker-minimalistic";
+import { variants as variantsTrellis } from "./components/trellis";
+import { TrellisBold } from "./components/trellis";
+import { TrellisBroken } from "./components/trellis";
+import { TrellisBulk } from "./components/trellis";
+import { TrellisLinear } from "./components/trellis";
+import { TrellisOutline } from "./components/trellis";
+import { TrellisTwotone } from "./components/trellis";
+import { variants as variantsVolumeKnob } from "./components/volume-knob";
+import { VolumeKnobBold } from "./components/volume-knob";
+import { VolumeKnobBroken } from "./components/volume-knob";
+import { VolumeKnobBulk } from "./components/volume-knob";
+import { VolumeKnobLinear } from "./components/volume-knob";
+import { VolumeKnobOutline } from "./components/volume-knob";
+import { VolumeKnobTwotone } from "./components/volume-knob";
+import { variants as variantsWashingMachine } from "./components/washing-machine";
+import { WashingMachineBold } from "./components/washing-machine";
+import { WashingMachineBroken } from "./components/washing-machine";
+import { WashingMachineBulk } from "./components/washing-machine";
+import { WashingMachineLinear } from "./components/washing-machine";
+import { WashingMachineOutline } from "./components/washing-machine";
+import { WashingMachineTwotone } from "./components/washing-machine";
+import { variants as variantsWashingMachineMinimalistic } from "./components/washing-machine-minimalistic";
+import { WashingMachineMinimalisticBold } from "./components/washing-machine-minimalistic";
+import { WashingMachineMinimalisticBroken } from "./components/washing-machine-minimalistic";
+import { WashingMachineMinimalisticBulk } from "./components/washing-machine-minimalistic";
+import { WashingMachineMinimalisticLinear } from "./components/washing-machine-minimalistic";
+import { WashingMachineMinimalisticOutline } from "./components/washing-machine-minimalistic";
+import { WashingMachineMinimalisticTwotone } from "./components/washing-machine-minimalistic";
+import { variants as variantsBug } from "./components/bug";
+import { BugBold } from "./components/bug";
+import { BugBroken } from "./components/bug";
+import { BugBulk } from "./components/bug";
+import { BugLinear } from "./components/bug";
+import { BugOutline } from "./components/bug";
+import { BugTwotone } from "./components/bug";
+import { variants as variantsBugMinimalistic } from "./components/bug-minimalistic";
+import { BugMinimalisticBold } from "./components/bug-minimalistic";
+import { BugMinimalisticBroken } from "./components/bug-minimalistic";
+import { BugMinimalisticBulk } from "./components/bug-minimalistic";
+import { BugMinimalisticLinear } from "./components/bug-minimalistic";
+import { BugMinimalisticOutline } from "./components/bug-minimalistic";
+import { BugMinimalisticTwotone } from "./components/bug-minimalistic";
+import { variants as variantsItCode } from "./components/it-code";
+import { ItCodeBold } from "./components/it-code";
+import { ItCodeBroken } from "./components/it-code";
+import { ItCodeBulk } from "./components/it-code";
+import { ItCodeLinear } from "./components/it-code";
+import { ItCodeOutline } from "./components/it-code";
+import { ItCodeTwotone } from "./components/it-code";
+import { variants as variantsCode2 } from "./components/code-2";
+import { Code2Bold } from "./components/code-2";
+import { Code2Broken } from "./components/code-2";
+import { Code2Bulk } from "./components/code-2";
+import { Code2Linear } from "./components/code-2";
+import { Code2Outline } from "./components/code-2";
+import { Code2Twotone } from "./components/code-2";
+import { variants as variantsItCodeCircle } from "./components/it-code-circle";
+import { ItCodeCircleBold } from "./components/it-code-circle";
+import { ItCodeCircleBroken } from "./components/it-code-circle";
+import { ItCodeCircleBulk } from "./components/it-code-circle";
+import { ItCodeCircleLinear } from "./components/it-code-circle";
+import { ItCodeCircleOutline } from "./components/it-code-circle";
+import { ItCodeCircleTwotone } from "./components/it-code-circle";
+import { variants as variantsCodeSquare } from "./components/code-square";
+import { CodeSquareBold } from "./components/code-square";
+import { CodeSquareBroken } from "./components/code-square";
+import { CodeSquareBulk } from "./components/code-square";
+import { CodeSquareLinear } from "./components/code-square";
+import { CodeSquareOutline } from "./components/code-square";
+import { CodeSquareTwotone } from "./components/code-square";
+import { variants as variantsItCommand } from "./components/it-command";
+import { ItCommandBold } from "./components/it-command";
+import { ItCommandBroken } from "./components/it-command";
+import { ItCommandBulk } from "./components/it-command";
+import { ItCommandLinear } from "./components/it-command";
+import { ItCommandOutline } from "./components/it-command";
+import { ItCommandTwotone } from "./components/it-command";
+import { variants as variantsItHashtag } from "./components/it-hashtag";
+import { ItHashtagBold } from "./components/it-hashtag";
+import { ItHashtagBroken } from "./components/it-hashtag";
+import { ItHashtagBulk } from "./components/it-hashtag";
+import { ItHashtagLinear } from "./components/it-hashtag";
+import { ItHashtagOutline } from "./components/it-hashtag";
+import { ItHashtagTwotone } from "./components/it-hashtag";
+import { variants as variantsHashtagChat } from "./components/hashtag-chat";
+import { HashtagChatBold } from "./components/hashtag-chat";
+import { HashtagChatBroken } from "./components/hashtag-chat";
+import { HashtagChatBulk } from "./components/hashtag-chat";
+import { HashtagChatLinear } from "./components/hashtag-chat";
+import { HashtagChatOutline } from "./components/hashtag-chat";
+import { HashtagChatTwotone } from "./components/hashtag-chat";
+import { variants as variantsHashtagCircle } from "./components/hashtag-circle";
+import { HashtagCircleBold } from "./components/hashtag-circle";
+import { HashtagCircleBroken } from "./components/hashtag-circle";
+import { HashtagCircleBulk } from "./components/hashtag-circle";
+import { HashtagCircleLinear } from "./components/hashtag-circle";
+import { HashtagCircleOutline } from "./components/hashtag-circle";
+import { HashtagCircleTwotone } from "./components/hashtag-circle";
+import { variants as variantsHashtagSquare } from "./components/hashtag-square";
+import { HashtagSquareBold } from "./components/hashtag-square";
+import { HashtagSquareBroken } from "./components/hashtag-square";
+import { HashtagSquareBulk } from "./components/hashtag-square";
+import { HashtagSquareLinear } from "./components/hashtag-square";
+import { HashtagSquareOutline } from "./components/hashtag-square";
+import { HashtagSquareTwotone } from "./components/hashtag-square";
+import { variants as variantsProgramming } from "./components/programming";
+import { ProgrammingBold } from "./components/programming";
+import { ProgrammingBroken } from "./components/programming";
+import { ProgrammingBulk } from "./components/programming";
+import { ProgrammingLinear } from "./components/programming";
+import { ProgrammingOutline } from "./components/programming";
+import { ProgrammingTwotone } from "./components/programming";
+import { variants as variantsScreencast } from "./components/screencast";
+import { ScreencastBold } from "./components/screencast";
+import { ScreencastBroken } from "./components/screencast";
+import { ScreencastBulk } from "./components/screencast";
+import { ScreencastLinear } from "./components/screencast";
+import { ScreencastOutline } from "./components/screencast";
+import { ScreencastTwotone } from "./components/screencast";
+import { variants as variantsScreencast2 } from "./components/screencast-2";
+import { Screencast2Bold } from "./components/screencast-2";
+import { Screencast2Broken } from "./components/screencast-2";
+import { Screencast2Bulk } from "./components/screencast-2";
+import { Screencast2Linear } from "./components/screencast-2";
+import { Screencast2Outline } from "./components/screencast-2";
+import { Screencast2Twotone } from "./components/screencast-2";
+import { variants as variantsSidebar } from "./components/sidebar";
+import { SidebarBold } from "./components/sidebar";
+import { SidebarBroken } from "./components/sidebar";
+import { SidebarBulk } from "./components/sidebar";
+import { SidebarLinear } from "./components/sidebar";
+import { SidebarOutline } from "./components/sidebar";
+import { SidebarTwotone } from "./components/sidebar";
+import { variants as variantsSidebarCode } from "./components/sidebar-code";
+import { SidebarCodeBold } from "./components/sidebar-code";
+import { SidebarCodeBroken } from "./components/sidebar-code";
+import { SidebarCodeBulk } from "./components/sidebar-code";
+import { SidebarCodeLinear } from "./components/sidebar-code";
+import { SidebarCodeOutline } from "./components/sidebar-code";
+import { SidebarCodeTwotone } from "./components/sidebar-code";
+import { variants as variantsSidebarMinimalistic } from "./components/sidebar-minimalistic";
+import { SidebarMinimalisticBold } from "./components/sidebar-minimalistic";
+import { SidebarMinimalisticBroken } from "./components/sidebar-minimalistic";
+import { SidebarMinimalisticBulk } from "./components/sidebar-minimalistic";
+import { SidebarMinimalisticLinear } from "./components/sidebar-minimalistic";
+import { SidebarMinimalisticOutline } from "./components/sidebar-minimalistic";
+import { SidebarMinimalisticTwotone } from "./components/sidebar-minimalistic";
+import { variants as variantsSlashCircle } from "./components/slash-circle";
+import { SlashCircleBold } from "./components/slash-circle";
+import { SlashCircleBroken } from "./components/slash-circle";
+import { SlashCircleBulk } from "./components/slash-circle";
+import { SlashCircleLinear } from "./components/slash-circle";
+import { SlashCircleOutline } from "./components/slash-circle";
+import { SlashCircleTwotone } from "./components/slash-circle";
+import { variants as variantsSlashSquare } from "./components/slash-square";
+import { SlashSquareBold } from "./components/slash-square";
+import { SlashSquareBroken } from "./components/slash-square";
+import { SlashSquareBulk } from "./components/slash-square";
+import { SlashSquareLinear } from "./components/slash-square";
+import { SlashSquareOutline } from "./components/slash-square";
+import { SlashSquareTwotone } from "./components/slash-square";
+import { variants as variantsStation } from "./components/station";
+import { StationBold } from "./components/station";
+import { StationBroken } from "./components/station";
+import { StationBulk } from "./components/station";
+import { StationLinear } from "./components/station";
+import { StationOutline } from "./components/station";
+import { StationTwotone } from "./components/station";
+import { variants as variantsStationMinimalistic } from "./components/station-minimalistic";
+import { StationMinimalisticBold } from "./components/station-minimalistic";
+import { StationMinimalisticBroken } from "./components/station-minimalistic";
+import { StationMinimalisticBulk } from "./components/station-minimalistic";
+import { StationMinimalisticLinear } from "./components/station-minimalistic";
+import { StationMinimalisticOutline } from "./components/station-minimalistic";
+import { StationMinimalisticTwotone } from "./components/station-minimalistic";
+import { variants as variantsStructure } from "./components/structure";
+import { StructureBold } from "./components/structure";
+import { StructureBroken } from "./components/structure";
+import { StructureBulk } from "./components/structure";
+import { StructureLinear } from "./components/structure";
+import { StructureOutline } from "./components/structure";
+import { StructureTwotone } from "./components/structure";
+import { variants as variantsTranslation } from "./components/translation";
+import { TranslationBold } from "./components/translation";
+import { TranslationBroken } from "./components/translation";
+import { TranslationBulk } from "./components/translation";
+import { TranslationLinear } from "./components/translation";
+import { TranslationOutline } from "./components/translation";
+import { TranslationTwotone } from "./components/translation";
+import { variants as variantsTranslation2 } from "./components/translation-2";
+import { Translation2Bold } from "./components/translation-2";
+import { Translation2Broken } from "./components/translation-2";
+import { Translation2Bulk } from "./components/translation-2";
+import { Translation2Linear } from "./components/translation-2";
+import { Translation2Outline } from "./components/translation-2";
+import { Translation2Twotone } from "./components/translation-2";
+import { variants as variantsUsb } from "./components/usb";
+import { UsbBold } from "./components/usb";
+import { UsbBroken } from "./components/usb";
+import { UsbBulk } from "./components/usb";
+import { UsbLinear } from "./components/usb";
+import { UsbOutline } from "./components/usb";
+import { UsbTwotone } from "./components/usb";
+import { variants as variantsUsbCircle } from "./components/usb-circle";
+import { UsbCircleBold } from "./components/usb-circle";
+import { UsbCircleBroken } from "./components/usb-circle";
+import { UsbCircleBulk } from "./components/usb-circle";
+import { UsbCircleLinear } from "./components/usb-circle";
+import { UsbCircleOutline } from "./components/usb-circle";
+import { UsbCircleTwotone } from "./components/usb-circle";
+import { variants as variantsUsbSquare } from "./components/usb-square";
+import { UsbSquareBold } from "./components/usb-square";
+import { UsbSquareBroken } from "./components/usb-square";
+import { UsbSquareBulk } from "./components/usb-square";
+import { UsbSquareLinear } from "./components/usb-square";
+import { UsbSquareOutline } from "./components/usb-square";
+import { UsbSquareTwotone } from "./components/usb-square";
+import { variants as variantsWiFiRouter } from "./components/wi-fi-router";
+import { WiFiRouterBold } from "./components/wi-fi-router";
+import { WiFiRouterBroken } from "./components/wi-fi-router";
+import { WiFiRouterBulk } from "./components/wi-fi-router";
+import { WiFiRouterLinear } from "./components/wi-fi-router";
+import { WiFiRouterOutline } from "./components/wi-fi-router";
+import { WiFiRouterTwotone } from "./components/wi-fi-router";
+import { variants as variantsWiFiRouterMinimalistic } from "./components/wi-fi-router-minimalistic";
+import { WiFiRouterMinimalisticBold } from "./components/wi-fi-router-minimalistic";
+import { WiFiRouterMinimalisticBroken } from "./components/wi-fi-router-minimalistic";
+import { WiFiRouterMinimalisticBulk } from "./components/wi-fi-router-minimalistic";
+import { WiFiRouterMinimalisticLinear } from "./components/wi-fi-router-minimalistic";
+import { WiFiRouterMinimalisticOutline } from "./components/wi-fi-router-minimalistic";
+import { WiFiRouterMinimalisticTwotone } from "./components/wi-fi-router-minimalistic";
+import { variants as variantsWiFiRouterRound } from "./components/wi-fi-router-round";
+import { WiFiRouterRoundBold } from "./components/wi-fi-router-round";
+import { WiFiRouterRoundBroken } from "./components/wi-fi-router-round";
+import { WiFiRouterRoundBulk } from "./components/wi-fi-router-round";
+import { WiFiRouterRoundLinear } from "./components/wi-fi-router-round";
+import { WiFiRouterRoundOutline } from "./components/wi-fi-router-round";
+import { WiFiRouterRoundTwotone } from "./components/wi-fi-router-round";
+import { variants as variantsWindowFrame } from "./components/window-frame";
+import { WindowFrameBold } from "./components/window-frame";
+import { WindowFrameBroken } from "./components/window-frame";
+import { WindowFrameBulk } from "./components/window-frame";
+import { WindowFrameLinear } from "./components/window-frame";
+import { WindowFrameOutline } from "./components/window-frame";
+import { WindowFrameTwotone } from "./components/window-frame";
+import { variants as variantsLikeDislike1 } from "./components/like-dislike-1";
+import { LikeDislike1Bold } from "./components/like-dislike-1";
+import { LikeDislike1Broken } from "./components/like-dislike-1";
+import { LikeDislike1Bulk } from "./components/like-dislike-1";
+import { LikeDislike1Linear } from "./components/like-dislike-1";
+import { LikeDislike1Outline } from "./components/like-dislike-1";
+import { LikeDislike1Twotone } from "./components/like-dislike-1";
+import { variants as variantsLikeHeart } from "./components/like-heart";
+import { LikeHeartBold } from "./components/like-heart";
+import { LikeHeartBroken } from "./components/like-heart";
+import { LikeHeartBulk } from "./components/like-heart";
+import { LikeHeartLinear } from "./components/like-heart";
+import { LikeHeartOutline } from "./components/like-heart";
+import { LikeHeartTwotone } from "./components/like-heart";
+import { variants as variantsHeartAngle } from "./components/heart-angle";
+import { HeartAngleBold } from "./components/heart-angle";
+import { HeartAngleBroken } from "./components/heart-angle";
+import { HeartAngleBulk } from "./components/heart-angle";
+import { HeartAngleLinear } from "./components/heart-angle";
+import { HeartAngleOutline } from "./components/heart-angle";
+import { HeartAngleTwotone } from "./components/heart-angle";
+import { variants as variantsHeartBroken } from "./components/heart-broken";
+import { HeartBrokenBold } from "./components/heart-broken";
+import { HeartBrokenBroken } from "./components/heart-broken";
+import { HeartBrokenBulk } from "./components/heart-broken";
+import { HeartBrokenLinear } from "./components/heart-broken";
+import { HeartBrokenOutline } from "./components/heart-broken";
+import { HeartBrokenTwotone } from "./components/heart-broken";
+import { variants as variantsHeartLock } from "./components/heart-lock";
+import { HeartLockBold } from "./components/heart-lock";
+import { HeartLockBroken } from "./components/heart-lock";
+import { HeartLockBulk } from "./components/heart-lock";
+import { HeartLockLinear } from "./components/heart-lock";
+import { HeartLockOutline } from "./components/heart-lock";
+import { HeartLockTwotone } from "./components/heart-lock";
+import { variants as variantsHeartShine } from "./components/heart-shine";
+import { HeartShineBold } from "./components/heart-shine";
+import { HeartShineBroken } from "./components/heart-shine";
+import { HeartShineBulk } from "./components/heart-shine";
+import { HeartShineLinear } from "./components/heart-shine";
+import { HeartShineOutline } from "./components/heart-shine";
+import { HeartShineTwotone } from "./components/heart-shine";
+import { variants as variantsHeartUnlock } from "./components/heart-unlock";
+import { HeartUnlockBold } from "./components/heart-unlock";
+import { HeartUnlockBroken } from "./components/heart-unlock";
+import { HeartUnlockBulk } from "./components/heart-unlock";
+import { HeartUnlockLinear } from "./components/heart-unlock";
+import { HeartUnlockOutline } from "./components/heart-unlock";
+import { HeartUnlockTwotone } from "./components/heart-unlock";
+import { variants as variantsHearts } from "./components/hearts";
+import { HeartsBold } from "./components/hearts";
+import { HeartsBroken } from "./components/hearts";
+import { HeartsBulk } from "./components/hearts";
+import { HeartsLinear } from "./components/hearts";
+import { HeartsOutline } from "./components/hearts";
+import { HeartsTwotone } from "./components/hearts";
+import { variants as variantsLikeLike } from "./components/like-like";
+import { LikeLikeBold } from "./components/like-like";
+import { LikeLikeBroken } from "./components/like-like";
+import { LikeLikeBulk } from "./components/like-like";
+import { LikeLikeLinear } from "./components/like-like";
+import { LikeLikeOutline } from "./components/like-like";
+import { LikeLikeTwotone } from "./components/like-like";
+import { variants as variantsMedalRibbon } from "./components/medal-ribbon";
+import { MedalRibbonBold } from "./components/medal-ribbon";
+import { MedalRibbonBroken } from "./components/medal-ribbon";
+import { MedalRibbonBulk } from "./components/medal-ribbon";
+import { MedalRibbonLinear } from "./components/medal-ribbon";
+import { MedalRibbonOutline } from "./components/medal-ribbon";
+import { MedalRibbonTwotone } from "./components/medal-ribbon";
+import { variants as variantsMedalRibbonStar } from "./components/medal-ribbon-star";
+import { MedalRibbonStarBold } from "./components/medal-ribbon-star";
+import { MedalRibbonStarBroken } from "./components/medal-ribbon-star";
+import { MedalRibbonStarBulk } from "./components/medal-ribbon-star";
+import { MedalRibbonStarLinear } from "./components/medal-ribbon-star";
+import { MedalRibbonStarOutline } from "./components/medal-ribbon-star";
+import { MedalRibbonStarTwotone } from "./components/medal-ribbon-star";
+import { variants as variantsMedalRibbonsStar } from "./components/medal-ribbons-star";
+import { MedalRibbonsStarBold } from "./components/medal-ribbons-star";
+import { MedalRibbonsStarBroken } from "./components/medal-ribbons-star";
+import { MedalRibbonsStarBulk } from "./components/medal-ribbons-star";
+import { MedalRibbonsStarLinear } from "./components/medal-ribbons-star";
+import { MedalRibbonsStarOutline } from "./components/medal-ribbons-star";
+import { MedalRibbonsStarTwotone } from "./components/medal-ribbons-star";
+import { variants as variantsLikeMedalStar } from "./components/like-medal-star";
+import { LikeMedalStarBold } from "./components/like-medal-star";
+import { LikeMedalStarBroken } from "./components/like-medal-star";
+import { LikeMedalStarBulk } from "./components/like-medal-star";
+import { LikeMedalStarLinear } from "./components/like-medal-star";
+import { LikeMedalStarOutline } from "./components/like-medal-star";
+import { LikeMedalStarTwotone } from "./components/like-medal-star";
+import { variants as variantsMedalStarCircle } from "./components/medal-star-circle";
+import { MedalStarCircleBold } from "./components/medal-star-circle";
+import { MedalStarCircleBroken } from "./components/medal-star-circle";
+import { MedalStarCircleBulk } from "./components/medal-star-circle";
+import { MedalStarCircleLinear } from "./components/medal-star-circle";
+import { MedalStarCircleOutline } from "./components/medal-star-circle";
+import { MedalStarCircleTwotone } from "./components/medal-star-circle";
+import { variants as variantsMedalStarSquare } from "./components/medal-star-square";
+import { MedalStarSquareBold } from "./components/medal-star-square";
+import { MedalStarSquareBroken } from "./components/medal-star-square";
+import { MedalStarSquareBulk } from "./components/medal-star-square";
+import { MedalStarSquareLinear } from "./components/medal-star-square";
+import { MedalStarSquareOutline } from "./components/medal-star-square";
+import { MedalStarSquareTwotone } from "./components/medal-star-square";
+import { variants as variantsLikeStar } from "./components/like-star";
+import { LikeStarBold } from "./components/like-star";
+import { LikeStarBroken } from "./components/like-star";
+import { LikeStarBulk } from "./components/like-star";
+import { LikeStarLinear } from "./components/like-star";
+import { LikeStarOutline } from "./components/like-star";
+import { LikeStarTwotone } from "./components/like-star";
+import { variants as variantsStarShine } from "./components/star-shine";
+import { StarShineBold } from "./components/star-shine";
+import { StarShineBroken } from "./components/star-shine";
+import { StarShineBulk } from "./components/star-shine";
+import { StarShineLinear } from "./components/star-shine";
+import { StarShineOutline } from "./components/star-shine";
+import { StarShineTwotone } from "./components/star-shine";
+import { variants as variantsBill2 } from "./components/bill-2";
+import { Bill2Bold } from "./components/bill-2";
+import { Bill2Broken } from "./components/bill-2";
+import { Bill2Bulk } from "./components/bill-2";
+import { Bill2Linear } from "./components/bill-2";
+import { Bill2Outline } from "./components/bill-2";
+import { Bill2Twotone } from "./components/bill-2";
+import { variants as variantsChecklist } from "./components/checklist";
+import { ChecklistBold } from "./components/checklist";
+import { ChecklistBroken } from "./components/checklist";
+import { ChecklistBulk } from "./components/checklist";
+import { ChecklistLinear } from "./components/checklist";
+import { ChecklistOutline } from "./components/checklist";
+import { ChecklistTwotone } from "./components/checklist";
+import { variants as variantsChecklistMinimalistic } from "./components/checklist-minimalistic";
+import { ChecklistMinimalisticBold } from "./components/checklist-minimalistic";
+import { ChecklistMinimalisticBroken } from "./components/checklist-minimalistic";
+import { ChecklistMinimalisticBulk } from "./components/checklist-minimalistic";
+import { ChecklistMinimalisticLinear } from "./components/checklist-minimalistic";
+import { ChecklistMinimalisticOutline } from "./components/checklist-minimalistic";
+import { ChecklistMinimalisticTwotone } from "./components/checklist-minimalistic";
+import { variants as variantsList } from "./components/list";
+import { ListBold } from "./components/list";
+import { ListBroken } from "./components/list";
+import { ListBulk } from "./components/list";
+import { ListLinear } from "./components/list";
+import { ListOutline } from "./components/list";
+import { ListTwotone } from "./components/list";
+import { variants as variantsListArrowDown } from "./components/list-arrow-down";
+import { ListArrowDownBold } from "./components/list-arrow-down";
+import { ListArrowDownBroken } from "./components/list-arrow-down";
+import { ListArrowDownBulk } from "./components/list-arrow-down";
+import { ListArrowDownLinear } from "./components/list-arrow-down";
+import { ListArrowDownOutline } from "./components/list-arrow-down";
+import { ListArrowDownTwotone } from "./components/list-arrow-down";
+import { variants as variantsListArrowDownMinimalistic } from "./components/list-arrow-down-minimalistic";
+import { ListArrowDownMinimalisticBold } from "./components/list-arrow-down-minimalistic";
+import { ListArrowDownMinimalisticBroken } from "./components/list-arrow-down-minimalistic";
+import { ListArrowDownMinimalisticBulk } from "./components/list-arrow-down-minimalistic";
+import { ListArrowDownMinimalisticLinear } from "./components/list-arrow-down-minimalistic";
+import { ListArrowDownMinimalisticOutline } from "./components/list-arrow-down-minimalistic";
+import { ListArrowDownMinimalisticTwotone } from "./components/list-arrow-down-minimalistic";
+import { variants as variantsListArrowUp } from "./components/list-arrow-up";
+import { ListArrowUpBold } from "./components/list-arrow-up";
+import { ListArrowUpBroken } from "./components/list-arrow-up";
+import { ListArrowUpBulk } from "./components/list-arrow-up";
+import { ListArrowUpLinear } from "./components/list-arrow-up";
+import { ListArrowUpOutline } from "./components/list-arrow-up";
+import { ListArrowUpTwotone } from "./components/list-arrow-up";
+import { variants as variantsListArrowUpMinimalistic } from "./components/list-arrow-up-minimalistic";
+import { ListArrowUpMinimalisticBold } from "./components/list-arrow-up-minimalistic";
+import { ListArrowUpMinimalisticBroken } from "./components/list-arrow-up-minimalistic";
+import { ListArrowUpMinimalisticBulk } from "./components/list-arrow-up-minimalistic";
+import { ListArrowUpMinimalisticLinear } from "./components/list-arrow-up-minimalistic";
+import { ListArrowUpMinimalisticOutline } from "./components/list-arrow-up-minimalistic";
+import { ListArrowUpMinimalisticTwotone } from "./components/list-arrow-up-minimalistic";
+import { variants as variantsListCheck } from "./components/list-check";
+import { ListCheckBold } from "./components/list-check";
+import { ListCheckBroken } from "./components/list-check";
+import { ListCheckBulk } from "./components/list-check";
+import { ListCheckLinear } from "./components/list-check";
+import { ListCheckOutline } from "./components/list-check";
+import { ListCheckTwotone } from "./components/list-check";
+import { variants as variantsListCheckMinimalistic } from "./components/list-check-minimalistic";
+import { ListCheckMinimalisticBold } from "./components/list-check-minimalistic";
+import { ListCheckMinimalisticBroken } from "./components/list-check-minimalistic";
+import { ListCheckMinimalisticBulk } from "./components/list-check-minimalistic";
+import { ListCheckMinimalisticLinear } from "./components/list-check-minimalistic";
+import { ListCheckMinimalisticOutline } from "./components/list-check-minimalistic";
+import { ListCheckMinimalisticTwotone } from "./components/list-check-minimalistic";
+import { variants as variantsListCross } from "./components/list-cross";
+import { ListCrossBold } from "./components/list-cross";
+import { ListCrossBroken } from "./components/list-cross";
+import { ListCrossBulk } from "./components/list-cross";
+import { ListCrossLinear } from "./components/list-cross";
+import { ListCrossOutline } from "./components/list-cross";
+import { ListCrossTwotone } from "./components/list-cross";
+import { variants as variantsListCrossMinimalistic } from "./components/list-cross-minimalistic";
+import { ListCrossMinimalisticBold } from "./components/list-cross-minimalistic";
+import { ListCrossMinimalisticBroken } from "./components/list-cross-minimalistic";
+import { ListCrossMinimalisticBulk } from "./components/list-cross-minimalistic";
+import { ListCrossMinimalisticLinear } from "./components/list-cross-minimalistic";
+import { ListCrossMinimalisticOutline } from "./components/list-cross-minimalistic";
+import { ListCrossMinimalisticTwotone } from "./components/list-cross-minimalistic";
+import { variants as variantsListDown } from "./components/list-down";
+import { ListDownBold } from "./components/list-down";
+import { ListDownBroken } from "./components/list-down";
+import { ListDownBulk } from "./components/list-down";
+import { ListDownLinear } from "./components/list-down";
+import { ListDownOutline } from "./components/list-down";
+import { ListDownTwotone } from "./components/list-down";
+import { variants as variantsListDownMinimalistic } from "./components/list-down-minimalistic";
+import { ListDownMinimalisticBold } from "./components/list-down-minimalistic";
+import { ListDownMinimalisticBroken } from "./components/list-down-minimalistic";
+import { ListDownMinimalisticBulk } from "./components/list-down-minimalistic";
+import { ListDownMinimalisticLinear } from "./components/list-down-minimalistic";
+import { ListDownMinimalisticOutline } from "./components/list-down-minimalistic";
+import { ListDownMinimalisticTwotone } from "./components/list-down-minimalistic";
+import { variants as variantsListHeart } from "./components/list-heart";
+import { ListHeartBold } from "./components/list-heart";
+import { ListHeartBroken } from "./components/list-heart";
+import { ListHeartBulk } from "./components/list-heart";
+import { ListHeartLinear } from "./components/list-heart";
+import { ListHeartOutline } from "./components/list-heart";
+import { ListHeartTwotone } from "./components/list-heart";
+import { variants as variantsListHeartMinimalistic } from "./components/list-heart-minimalistic";
+import { ListHeartMinimalisticBold } from "./components/list-heart-minimalistic";
+import { ListHeartMinimalisticBroken } from "./components/list-heart-minimalistic";
+import { ListHeartMinimalisticBulk } from "./components/list-heart-minimalistic";
+import { ListHeartMinimalisticLinear } from "./components/list-heart-minimalistic";
+import { ListHeartMinimalisticOutline } from "./components/list-heart-minimalistic";
+import { ListHeartMinimalisticTwotone } from "./components/list-heart-minimalistic";
+import { variants as variantsListUp } from "./components/list-up";
+import { ListUpBold } from "./components/list-up";
+import { ListUpBroken } from "./components/list-up";
+import { ListUpBulk } from "./components/list-up";
+import { ListUpLinear } from "./components/list-up";
+import { ListUpOutline } from "./components/list-up";
+import { ListUpTwotone } from "./components/list-up";
+import { variants as variantsListUpMinimalistic } from "./components/list-up-minimalistic";
+import { ListUpMinimalisticBold } from "./components/list-up-minimalistic";
+import { ListUpMinimalisticBroken } from "./components/list-up-minimalistic";
+import { ListUpMinimalisticBulk } from "./components/list-up-minimalistic";
+import { ListUpMinimalisticLinear } from "./components/list-up-minimalistic";
+import { ListUpMinimalisticOutline } from "./components/list-up-minimalistic";
+import { ListUpMinimalisticTwotone } from "./components/list-up-minimalistic";
+import { variants as variantsListVertical } from "./components/list-vertical";
+import { ListVerticalBold } from "./components/list-vertical";
+import { ListVerticalBroken } from "./components/list-vertical";
+import { ListVerticalBulk } from "./components/list-vertical";
+import { ListVerticalLinear } from "./components/list-vertical";
+import { ListVerticalOutline } from "./components/list-vertical";
+import { ListVerticalTwotone } from "./components/list-vertical";
+import { variants as variantsPlaylist } from "./components/playlist";
+import { PlaylistBold } from "./components/playlist";
+import { PlaylistBroken } from "./components/playlist";
+import { PlaylistBulk } from "./components/playlist";
+import { PlaylistLinear } from "./components/playlist";
+import { PlaylistOutline } from "./components/playlist";
+import { PlaylistTwotone } from "./components/playlist";
+import { variants as variantsPlaylist2 } from "./components/playlist-2";
+import { Playlist2Bold } from "./components/playlist-2";
+import { Playlist2Broken } from "./components/playlist-2";
+import { Playlist2Bulk } from "./components/playlist-2";
+import { Playlist2Linear } from "./components/playlist-2";
+import { Playlist2Outline } from "./components/playlist-2";
+import { Playlist2Twotone } from "./components/playlist-2";
+import { variants as variantsPlaylistMinimalistic } from "./components/playlist-minimalistic";
+import { PlaylistMinimalisticBold } from "./components/playlist-minimalistic";
+import { PlaylistMinimalisticBroken } from "./components/playlist-minimalistic";
+import { PlaylistMinimalisticBulk } from "./components/playlist-minimalistic";
+import { PlaylistMinimalisticLinear } from "./components/playlist-minimalistic";
+import { PlaylistMinimalisticOutline } from "./components/playlist-minimalistic";
+import { PlaylistMinimalisticTwotone } from "./components/playlist-minimalistic";
+import { variants as variantsPlaylistMinimalistic2 } from "./components/playlist-minimalistic-2";
+import { PlaylistMinimalistic2Bold } from "./components/playlist-minimalistic-2";
+import { PlaylistMinimalistic2Broken } from "./components/playlist-minimalistic-2";
+import { PlaylistMinimalistic2Bulk } from "./components/playlist-minimalistic-2";
+import { PlaylistMinimalistic2Linear } from "./components/playlist-minimalistic-2";
+import { PlaylistMinimalistic2Outline } from "./components/playlist-minimalistic-2";
+import { PlaylistMinimalistic2Twotone } from "./components/playlist-minimalistic-2";
+import { variants as variantsPlaylistMinimalistic3 } from "./components/playlist-minimalistic-3";
+import { PlaylistMinimalistic3Bold } from "./components/playlist-minimalistic-3";
+import { PlaylistMinimalistic3Broken } from "./components/playlist-minimalistic-3";
+import { PlaylistMinimalistic3Bulk } from "./components/playlist-minimalistic-3";
+import { PlaylistMinimalistic3Linear } from "./components/playlist-minimalistic-3";
+import { PlaylistMinimalistic3Outline } from "./components/playlist-minimalistic-3";
+import { PlaylistMinimalistic3Twotone } from "./components/playlist-minimalistic-3";
+import { variants as variantsSortByAlphabet } from "./components/sort-by-alphabet";
+import { SortByAlphabetBold } from "./components/sort-by-alphabet";
+import { SortByAlphabetBroken } from "./components/sort-by-alphabet";
+import { SortByAlphabetBulk } from "./components/sort-by-alphabet";
+import { SortByAlphabetLinear } from "./components/sort-by-alphabet";
+import { SortByAlphabetOutline } from "./components/sort-by-alphabet";
+import { SortByAlphabetTwotone } from "./components/sort-by-alphabet";
+import { variants as variantsSortByTime } from "./components/sort-by-time";
+import { SortByTimeBold } from "./components/sort-by-time";
+import { SortByTimeBroken } from "./components/sort-by-time";
+import { SortByTimeBulk } from "./components/sort-by-time";
+import { SortByTimeLinear } from "./components/sort-by-time";
+import { SortByTimeOutline } from "./components/sort-by-time";
+import { SortByTimeTwotone } from "./components/sort-by-time";
+import { variants as variantsSortFromBottomToTop } from "./components/sort-from-bottom-to-top";
+import { SortFromBottomToTopBold } from "./components/sort-from-bottom-to-top";
+import { SortFromBottomToTopBroken } from "./components/sort-from-bottom-to-top";
+import { SortFromBottomToTopBulk } from "./components/sort-from-bottom-to-top";
+import { SortFromBottomToTopLinear } from "./components/sort-from-bottom-to-top";
+import { SortFromBottomToTopOutline } from "./components/sort-from-bottom-to-top";
+import { SortFromBottomToTopTwotone } from "./components/sort-from-bottom-to-top";
+import { variants as variantsSortFromTopToBottom } from "./components/sort-from-top-to-bottom";
+import { SortFromTopToBottomBold } from "./components/sort-from-top-to-bottom";
+import { SortFromTopToBottomBroken } from "./components/sort-from-top-to-bottom";
+import { SortFromTopToBottomBulk } from "./components/sort-from-top-to-bottom";
+import { SortFromTopToBottomLinear } from "./components/sort-from-top-to-bottom";
+import { SortFromTopToBottomOutline } from "./components/sort-from-top-to-bottom";
+import { SortFromTopToBottomTwotone } from "./components/sort-from-top-to-bottom";
+import { variants as variantsBranchingPathsDown } from "./components/branching-paths-down";
+import { BranchingPathsDownBold } from "./components/branching-paths-down";
+import { BranchingPathsDownBroken } from "./components/branching-paths-down";
+import { BranchingPathsDownBulk } from "./components/branching-paths-down";
+import { BranchingPathsDownLinear } from "./components/branching-paths-down";
+import { BranchingPathsDownOutline } from "./components/branching-paths-down";
+import { BranchingPathsDownTwotone } from "./components/branching-paths-down";
+import { variants as variantsBranchingPathsUp } from "./components/branching-paths-up";
+import { BranchingPathsUpBold } from "./components/branching-paths-up";
+import { BranchingPathsUpBroken } from "./components/branching-paths-up";
+import { BranchingPathsUpBulk } from "./components/branching-paths-up";
+import { BranchingPathsUpLinear } from "./components/branching-paths-up";
+import { BranchingPathsUpOutline } from "./components/branching-paths-up";
+import { BranchingPathsUpTwotone } from "./components/branching-paths-up";
+import { variants as variantsCompass } from "./components/compass";
+import { CompassBold } from "./components/compass";
+import { CompassBroken } from "./components/compass";
+import { CompassBulk } from "./components/compass";
+import { CompassLinear } from "./components/compass";
+import { CompassOutline } from "./components/compass";
+import { CompassTwotone } from "./components/compass";
+import { variants as variantsCompassBig } from "./components/compass-big";
+import { CompassBigBold } from "./components/compass-big";
+import { CompassBigBroken } from "./components/compass-big";
+import { CompassBigBulk } from "./components/compass-big";
+import { CompassBigLinear } from "./components/compass-big";
+import { CompassBigOutline } from "./components/compass-big";
+import { CompassBigTwotone } from "./components/compass-big";
+import { variants as variantsCompassSquare } from "./components/compass-square";
+import { CompassSquareBold } from "./components/compass-square";
+import { CompassSquareBroken } from "./components/compass-square";
+import { CompassSquareBulk } from "./components/compass-square";
+import { CompassSquareLinear } from "./components/compass-square";
+import { CompassSquareOutline } from "./components/compass-square";
+import { CompassSquareTwotone } from "./components/compass-square";
+import { variants as variantsMapGlobal } from "./components/map-global";
+import { MapGlobalBold } from "./components/map-global";
+import { MapGlobalBroken } from "./components/map-global";
+import { MapGlobalBulk } from "./components/map-global";
+import { MapGlobalLinear } from "./components/map-global";
+import { MapGlobalOutline } from "./components/map-global";
+import { MapGlobalTwotone } from "./components/map-global";
+import { variants as variantsGlobus } from "./components/globus";
+import { GlobusBold } from "./components/globus";
+import { GlobusBroken } from "./components/globus";
+import { GlobusBulk } from "./components/globus";
+import { GlobusLinear } from "./components/globus";
+import { GlobusOutline } from "./components/globus";
+import { GlobusTwotone } from "./components/globus";
+import { variants as variantsMapGps } from "./components/map-gps";
+import { MapGpsBold } from "./components/map-gps";
+import { MapGpsBroken } from "./components/map-gps";
+import { MapGpsBulk } from "./components/map-gps";
+import { MapGpsLinear } from "./components/map-gps";
+import { MapGpsOutline } from "./components/map-gps";
+import { MapGpsTwotone } from "./components/map-gps";
+import { variants as variantsMapMap } from "./components/map-map";
+import { MapMapBold } from "./components/map-map";
+import { MapMapBroken } from "./components/map-map";
+import { MapMapBulk } from "./components/map-map";
+import { MapMapLinear } from "./components/map-map";
+import { MapMapOutline } from "./components/map-map";
+import { MapMapTwotone } from "./components/map-map";
+import { variants as variantsMapArrowDown } from "./components/map-arrow-down";
+import { MapArrowDownBold } from "./components/map-arrow-down";
+import { MapArrowDownBroken } from "./components/map-arrow-down";
+import { MapArrowDownBulk } from "./components/map-arrow-down";
+import { MapArrowDownLinear } from "./components/map-arrow-down";
+import { MapArrowDownOutline } from "./components/map-arrow-down";
+import { MapArrowDownTwotone } from "./components/map-arrow-down";
+import { variants as variantsMapArrowLeft } from "./components/map-arrow-left";
+import { MapArrowLeftBold } from "./components/map-arrow-left";
+import { MapArrowLeftBroken } from "./components/map-arrow-left";
+import { MapArrowLeftBulk } from "./components/map-arrow-left";
+import { MapArrowLeftLinear } from "./components/map-arrow-left";
+import { MapArrowLeftOutline } from "./components/map-arrow-left";
+import { MapArrowLeftTwotone } from "./components/map-arrow-left";
+import { variants as variantsMapArrowRight } from "./components/map-arrow-right";
+import { MapArrowRightBold } from "./components/map-arrow-right";
+import { MapArrowRightBroken } from "./components/map-arrow-right";
+import { MapArrowRightBulk } from "./components/map-arrow-right";
+import { MapArrowRightLinear } from "./components/map-arrow-right";
+import { MapArrowRightOutline } from "./components/map-arrow-right";
+import { MapArrowRightTwotone } from "./components/map-arrow-right";
+import { variants as variantsMapArrowSquare } from "./components/map-arrow-square";
+import { MapArrowSquareBold } from "./components/map-arrow-square";
+import { MapArrowSquareBroken } from "./components/map-arrow-square";
+import { MapArrowSquareBulk } from "./components/map-arrow-square";
+import { MapArrowSquareLinear } from "./components/map-arrow-square";
+import { MapArrowSquareOutline } from "./components/map-arrow-square";
+import { MapArrowSquareTwotone } from "./components/map-arrow-square";
+import { variants as variantsMapArrowUp } from "./components/map-arrow-up";
+import { MapArrowUpBold } from "./components/map-arrow-up";
+import { MapArrowUpBroken } from "./components/map-arrow-up";
+import { MapArrowUpBulk } from "./components/map-arrow-up";
+import { MapArrowUpLinear } from "./components/map-arrow-up";
+import { MapArrowUpOutline } from "./components/map-arrow-up";
+import { MapArrowUpTwotone } from "./components/map-arrow-up";
+import { variants as variantsMapPoint } from "./components/map-point";
+import { MapPointBold } from "./components/map-point";
+import { MapPointBroken } from "./components/map-point";
+import { MapPointBulk } from "./components/map-point";
+import { MapPointLinear } from "./components/map-point";
+import { MapPointOutline } from "./components/map-point";
+import { MapPointTwotone } from "./components/map-point";
+import { variants as variantsMapPointAdd } from "./components/map-point-add";
+import { MapPointAddBold } from "./components/map-point-add";
+import { MapPointAddBroken } from "./components/map-point-add";
+import { MapPointAddBulk } from "./components/map-point-add";
+import { MapPointAddLinear } from "./components/map-point-add";
+import { MapPointAddOutline } from "./components/map-point-add";
+import { MapPointAddTwotone } from "./components/map-point-add";
+import { variants as variantsMapPointFavourite } from "./components/map-point-favourite";
+import { MapPointFavouriteBold } from "./components/map-point-favourite";
+import { MapPointFavouriteBroken } from "./components/map-point-favourite";
+import { MapPointFavouriteBulk } from "./components/map-point-favourite";
+import { MapPointFavouriteLinear } from "./components/map-point-favourite";
+import { MapPointFavouriteOutline } from "./components/map-point-favourite";
+import { MapPointFavouriteTwotone } from "./components/map-point-favourite";
+import { variants as variantsMapPointHospital } from "./components/map-point-hospital";
+import { MapPointHospitalBold } from "./components/map-point-hospital";
+import { MapPointHospitalBroken } from "./components/map-point-hospital";
+import { MapPointHospitalBulk } from "./components/map-point-hospital";
+import { MapPointHospitalLinear } from "./components/map-point-hospital";
+import { MapPointHospitalOutline } from "./components/map-point-hospital";
+import { MapPointHospitalTwotone } from "./components/map-point-hospital";
+import { variants as variantsMapPointRemove } from "./components/map-point-remove";
+import { MapPointRemoveBold } from "./components/map-point-remove";
+import { MapPointRemoveBroken } from "./components/map-point-remove";
+import { MapPointRemoveBulk } from "./components/map-point-remove";
+import { MapPointRemoveLinear } from "./components/map-point-remove";
+import { MapPointRemoveOutline } from "./components/map-point-remove";
+import { MapPointRemoveTwotone } from "./components/map-point-remove";
+import { variants as variantsMapPointRotate } from "./components/map-point-rotate";
+import { MapPointRotateBold } from "./components/map-point-rotate";
+import { MapPointRotateBroken } from "./components/map-point-rotate";
+import { MapPointRotateBulk } from "./components/map-point-rotate";
+import { MapPointRotateLinear } from "./components/map-point-rotate";
+import { MapPointRotateOutline } from "./components/map-point-rotate";
+import { MapPointRotateTwotone } from "./components/map-point-rotate";
+import { variants as variantsMapPointSchool } from "./components/map-point-school";
+import { MapPointSchoolBold } from "./components/map-point-school";
+import { MapPointSchoolBroken } from "./components/map-point-school";
+import { MapPointSchoolBulk } from "./components/map-point-school";
+import { MapPointSchoolLinear } from "./components/map-point-school";
+import { MapPointSchoolOutline } from "./components/map-point-school";
+import { MapPointSchoolTwotone } from "./components/map-point-school";
+import { variants as variantsMapPointSearch } from "./components/map-point-search";
+import { MapPointSearchBold } from "./components/map-point-search";
+import { MapPointSearchBroken } from "./components/map-point-search";
+import { MapPointSearchBulk } from "./components/map-point-search";
+import { MapPointSearchLinear } from "./components/map-point-search";
+import { MapPointSearchOutline } from "./components/map-point-search";
+import { MapPointSearchTwotone } from "./components/map-point-search";
+import { variants as variantsMapPointWave } from "./components/map-point-wave";
+import { MapPointWaveBold } from "./components/map-point-wave";
+import { MapPointWaveBroken } from "./components/map-point-wave";
+import { MapPointWaveBulk } from "./components/map-point-wave";
+import { MapPointWaveLinear } from "./components/map-point-wave";
+import { MapPointWaveOutline } from "./components/map-point-wave";
+import { MapPointWaveTwotone } from "./components/map-point-wave";
+import { variants as variantsPeopleNearby } from "./components/people-nearby";
+import { PeopleNearbyBold } from "./components/people-nearby";
+import { PeopleNearbyBroken } from "./components/people-nearby";
+import { PeopleNearbyBulk } from "./components/people-nearby";
+import { PeopleNearbyLinear } from "./components/people-nearby";
+import { PeopleNearbyOutline } from "./components/people-nearby";
+import { PeopleNearbyTwotone } from "./components/people-nearby";
+import { variants as variantsPointOnMap } from "./components/point-on-map";
+import { PointOnMapBold } from "./components/point-on-map";
+import { PointOnMapBroken } from "./components/point-on-map";
+import { PointOnMapBulk } from "./components/point-on-map";
+import { PointOnMapLinear } from "./components/point-on-map";
+import { PointOnMapOutline } from "./components/point-on-map";
+import { PointOnMapTwotone } from "./components/point-on-map";
+import { variants as variantsPointOnMapPerspective } from "./components/point-on-map-perspective";
+import { PointOnMapPerspectiveBold } from "./components/point-on-map-perspective";
+import { PointOnMapPerspectiveBroken } from "./components/point-on-map-perspective";
+import { PointOnMapPerspectiveBulk } from "./components/point-on-map-perspective";
+import { PointOnMapPerspectiveLinear } from "./components/point-on-map-perspective";
+import { PointOnMapPerspectiveOutline } from "./components/point-on-map-perspective";
+import { PointOnMapPerspectiveTwotone } from "./components/point-on-map-perspective";
+import { variants as variantsMapRadar } from "./components/map-radar";
+import { MapRadarBold } from "./components/map-radar";
+import { MapRadarBroken } from "./components/map-radar";
+import { MapRadarBulk } from "./components/map-radar";
+import { MapRadarLinear } from "./components/map-radar";
+import { MapRadarOutline } from "./components/map-radar";
+import { MapRadarTwotone } from "./components/map-radar";
+import { variants as variantsMapRadar2 } from "./components/map-radar-2";
+import { MapRadar2Bold } from "./components/map-radar-2";
+import { MapRadar2Broken } from "./components/map-radar-2";
+import { MapRadar2Bulk } from "./components/map-radar-2";
+import { MapRadar2Linear } from "./components/map-radar-2";
+import { MapRadar2Outline } from "./components/map-radar-2";
+import { MapRadar2Twotone } from "./components/map-radar-2";
+import { variants as variantsRoute } from "./components/route";
+import { RouteBold } from "./components/route";
+import { RouteBroken } from "./components/route";
+import { RouteBulk } from "./components/route";
+import { RouteLinear } from "./components/route";
+import { RouteOutline } from "./components/route";
+import { RouteTwotone } from "./components/route";
+import { variants as variantsMapRouting } from "./components/map-routing";
+import { MapRoutingBold } from "./components/map-routing";
+import { MapRoutingBroken } from "./components/map-routing";
+import { MapRoutingBulk } from "./components/map-routing";
+import { MapRoutingLinear } from "./components/map-routing";
+import { MapRoutingOutline } from "./components/map-routing";
+import { MapRoutingTwotone } from "./components/map-routing";
+import { variants as variantsMapRouting2 } from "./components/map-routing-2";
+import { MapRouting2Bold } from "./components/map-routing-2";
+import { MapRouting2Broken } from "./components/map-routing-2";
+import { MapRouting2Bulk } from "./components/map-routing-2";
+import { MapRouting2Linear } from "./components/map-routing-2";
+import { MapRouting2Outline } from "./components/map-routing-2";
+import { MapRouting2Twotone } from "./components/map-routing-2";
+import { variants as variantsRouting3 } from "./components/routing-3";
+import { Routing3Bold } from "./components/routing-3";
+import { Routing3Broken } from "./components/routing-3";
+import { Routing3Bulk } from "./components/routing-3";
+import { Routing3Linear } from "./components/routing-3";
+import { Routing3Outline } from "./components/routing-3";
+import { Routing3Twotone } from "./components/routing-3";
+import { variants as variantsMapSignpost } from "./components/map-signpost";
+import { MapSignpostBold } from "./components/map-signpost";
+import { MapSignpostBroken } from "./components/map-signpost";
+import { MapSignpostBulk } from "./components/map-signpost";
+import { MapSignpostLinear } from "./components/map-signpost";
+import { MapSignpostOutline } from "./components/map-signpost";
+import { MapSignpostTwotone } from "./components/map-signpost";
+import { variants as variantsSignpost2 } from "./components/signpost-2";
+import { Signpost2Bold } from "./components/signpost-2";
+import { Signpost2Broken } from "./components/signpost-2";
+import { Signpost2Bulk } from "./components/signpost-2";
+import { Signpost2Linear } from "./components/signpost-2";
+import { Signpost2Outline } from "./components/signpost-2";
+import { Signpost2Twotone } from "./components/signpost-2";
+import { variants as variantsStreets } from "./components/streets";
+import { StreetsBold } from "./components/streets";
+import { StreetsBroken } from "./components/streets";
+import { StreetsBulk } from "./components/streets";
+import { StreetsLinear } from "./components/streets";
+import { StreetsOutline } from "./components/streets";
+import { StreetsTwotone } from "./components/streets";
+import { variants as variantsStreetsMapPoint } from "./components/streets-map-point";
+import { StreetsMapPointBold } from "./components/streets-map-point";
+import { StreetsMapPointBroken } from "./components/streets-map-point";
+import { StreetsMapPointBulk } from "./components/streets-map-point";
+import { StreetsMapPointLinear } from "./components/streets-map-point";
+import { StreetsMapPointOutline } from "./components/streets-map-point";
+import { StreetsMapPointTwotone } from "./components/streets-map-point";
+import { variants as variantsStreetsNavigation } from "./components/streets-navigation";
+import { StreetsNavigationBold } from "./components/streets-navigation";
+import { StreetsNavigationBroken } from "./components/streets-navigation";
+import { StreetsNavigationBulk } from "./components/streets-navigation";
+import { StreetsNavigationLinear } from "./components/streets-navigation";
+import { StreetsNavigationOutline } from "./components/streets-navigation";
+import { StreetsNavigationTwotone } from "./components/streets-navigation";
+import { variants as variantsAdhesivePlaster } from "./components/adhesive-plaster";
+import { AdhesivePlasterBold } from "./components/adhesive-plaster";
+import { AdhesivePlasterBroken } from "./components/adhesive-plaster";
+import { AdhesivePlasterBulk } from "./components/adhesive-plaster";
+import { AdhesivePlasterLinear } from "./components/adhesive-plaster";
+import { AdhesivePlasterOutline } from "./components/adhesive-plaster";
+import { AdhesivePlasterTwotone } from "./components/adhesive-plaster";
+import { variants as variantsAdhesivePlaster2 } from "./components/adhesive-plaster-2";
+import { AdhesivePlaster2Bold } from "./components/adhesive-plaster-2";
+import { AdhesivePlaster2Broken } from "./components/adhesive-plaster-2";
+import { AdhesivePlaster2Bulk } from "./components/adhesive-plaster-2";
+import { AdhesivePlaster2Linear } from "./components/adhesive-plaster-2";
+import { AdhesivePlaster2Outline } from "./components/adhesive-plaster-2";
+import { AdhesivePlaster2Twotone } from "./components/adhesive-plaster-2";
+import { variants as variantsBacteria } from "./components/bacteria";
+import { BacteriaBold } from "./components/bacteria";
+import { BacteriaBroken } from "./components/bacteria";
+import { BacteriaBulk } from "./components/bacteria";
+import { BacteriaLinear } from "./components/bacteria";
+import { BacteriaOutline } from "./components/bacteria";
+import { BacteriaTwotone } from "./components/bacteria";
+import { variants as variantsBenzeneRing } from "./components/benzene-ring";
+import { BenzeneRingBold } from "./components/benzene-ring";
+import { BenzeneRingBroken } from "./components/benzene-ring";
+import { BenzeneRingBulk } from "./components/benzene-ring";
+import { BenzeneRingLinear } from "./components/benzene-ring";
+import { BenzeneRingOutline } from "./components/benzene-ring";
+import { BenzeneRingTwotone } from "./components/benzene-ring";
+import { variants as variantsBone } from "./components/bone";
+import { BoneBold } from "./components/bone";
+import { BoneBroken } from "./components/bone";
+import { BoneBulk } from "./components/bone";
+import { BoneLinear } from "./components/bone";
+import { BoneOutline } from "./components/bone";
+import { BoneTwotone } from "./components/bone";
+import { variants as variantsBoneBroken } from "./components/bone-broken";
+import { BoneBrokenBold } from "./components/bone-broken";
+import { BoneBrokenBroken } from "./components/bone-broken";
+import { BoneBrokenBulk } from "./components/bone-broken";
+import { BoneBrokenLinear } from "./components/bone-broken";
+import { BoneBrokenOutline } from "./components/bone-broken";
+import { BoneBrokenTwotone } from "./components/bone-broken";
+import { variants as variantsBoneCrack } from "./components/bone-crack";
+import { BoneCrackBold } from "./components/bone-crack";
+import { BoneCrackBroken } from "./components/bone-crack";
+import { BoneCrackBulk } from "./components/bone-crack";
+import { BoneCrackLinear } from "./components/bone-crack";
+import { BoneCrackOutline } from "./components/bone-crack";
+import { BoneCrackTwotone } from "./components/bone-crack";
+import { variants as variantsBones } from "./components/bones";
+import { BonesBold } from "./components/bones";
+import { BonesBroken } from "./components/bones";
+import { BonesBulk } from "./components/bones";
+import { BonesLinear } from "./components/bones";
+import { BonesOutline } from "./components/bones";
+import { BonesTwotone } from "./components/bones";
+import { variants as variantsDna } from "./components/dna";
+import { DnaBold } from "./components/dna";
+import { DnaBroken } from "./components/dna";
+import { DnaBulk } from "./components/dna";
+import { DnaLinear } from "./components/dna";
+import { DnaOutline } from "./components/dna";
+import { DnaTwotone } from "./components/dna";
+import { variants as variantsDropper } from "./components/dropper";
+import { DropperBold } from "./components/dropper";
+import { DropperBroken } from "./components/dropper";
+import { DropperBulk } from "./components/dropper";
+import { DropperLinear } from "./components/dropper";
+import { DropperOutline } from "./components/dropper";
+import { DropperTwotone } from "./components/dropper";
+import { variants as variantsDropper2 } from "./components/dropper-2";
+import { Dropper2Bold } from "./components/dropper-2";
+import { Dropper2Broken } from "./components/dropper-2";
+import { Dropper2Bulk } from "./components/dropper-2";
+import { Dropper2Linear } from "./components/dropper-2";
+import { Dropper2Outline } from "./components/dropper-2";
+import { Dropper2Twotone } from "./components/dropper-2";
+import { variants as variantsDropper3 } from "./components/dropper-3";
+import { Dropper3Bold } from "./components/dropper-3";
+import { Dropper3Broken } from "./components/dropper-3";
+import { Dropper3Bulk } from "./components/dropper-3";
+import { Dropper3Linear } from "./components/dropper-3";
+import { Dropper3Outline } from "./components/dropper-3";
+import { Dropper3Twotone } from "./components/dropper-3";
+import { variants as variantsDropperMinimalistic } from "./components/dropper-minimalistic";
+import { DropperMinimalisticBold } from "./components/dropper-minimalistic";
+import { DropperMinimalisticBroken } from "./components/dropper-minimalistic";
+import { DropperMinimalisticBulk } from "./components/dropper-minimalistic";
+import { DropperMinimalisticLinear } from "./components/dropper-minimalistic";
+import { DropperMinimalisticOutline } from "./components/dropper-minimalistic";
+import { DropperMinimalisticTwotone } from "./components/dropper-minimalistic";
+import { variants as variantsDropperMinimalistic2 } from "./components/dropper-minimalistic-2";
+import { DropperMinimalistic2Bold } from "./components/dropper-minimalistic-2";
+import { DropperMinimalistic2Broken } from "./components/dropper-minimalistic-2";
+import { DropperMinimalistic2Bulk } from "./components/dropper-minimalistic-2";
+import { DropperMinimalistic2Linear } from "./components/dropper-minimalistic-2";
+import { DropperMinimalistic2Outline } from "./components/dropper-minimalistic-2";
+import { DropperMinimalistic2Twotone } from "./components/dropper-minimalistic-2";
+import { variants as variantsMedicineHealth } from "./components/medicine-health";
+import { MedicineHealthBold } from "./components/medicine-health";
+import { MedicineHealthBroken } from "./components/medicine-health";
+import { MedicineHealthBulk } from "./components/medicine-health";
+import { MedicineHealthLinear } from "./components/medicine-health";
+import { MedicineHealthOutline } from "./components/medicine-health";
+import { MedicineHealthTwotone } from "./components/medicine-health";
+import { variants as variantsHeartPulse } from "./components/heart-pulse";
+import { HeartPulseBold } from "./components/heart-pulse";
+import { HeartPulseBroken } from "./components/heart-pulse";
+import { HeartPulseBulk } from "./components/heart-pulse";
+import { HeartPulseLinear } from "./components/heart-pulse";
+import { HeartPulseOutline } from "./components/heart-pulse";
+import { HeartPulseTwotone } from "./components/heart-pulse";
+import { variants as variantsHeartPulse2 } from "./components/heart-pulse-2";
+import { HeartPulse2Bold } from "./components/heart-pulse-2";
+import { HeartPulse2Broken } from "./components/heart-pulse-2";
+import { HeartPulse2Bulk } from "./components/heart-pulse-2";
+import { HeartPulse2Linear } from "./components/heart-pulse-2";
+import { HeartPulse2Outline } from "./components/heart-pulse-2";
+import { HeartPulse2Twotone } from "./components/heart-pulse-2";
+import { variants as variantsJarOfPills } from "./components/jar-of-pills";
+import { JarOfPillsBold } from "./components/jar-of-pills";
+import { JarOfPillsBroken } from "./components/jar-of-pills";
+import { JarOfPillsBulk } from "./components/jar-of-pills";
+import { JarOfPillsLinear } from "./components/jar-of-pills";
+import { JarOfPillsOutline } from "./components/jar-of-pills";
+import { JarOfPillsTwotone } from "./components/jar-of-pills";
+import { variants as variantsJarOfPills2 } from "./components/jar-of-pills-2";
+import { JarOfPills2Bold } from "./components/jar-of-pills-2";
+import { JarOfPills2Broken } from "./components/jar-of-pills-2";
+import { JarOfPills2Bulk } from "./components/jar-of-pills-2";
+import { JarOfPills2Linear } from "./components/jar-of-pills-2";
+import { JarOfPills2Outline } from "./components/jar-of-pills-2";
+import { JarOfPills2Twotone } from "./components/jar-of-pills-2";
+import { variants as variantsMedicalKit } from "./components/medical-kit";
+import { MedicalKitBold } from "./components/medical-kit";
+import { MedicalKitBroken } from "./components/medical-kit";
+import { MedicalKitBulk } from "./components/medical-kit";
+import { MedicalKitLinear } from "./components/medical-kit";
+import { MedicalKitOutline } from "./components/medical-kit";
+import { MedicalKitTwotone } from "./components/medical-kit";
+import { variants as variantsPill } from "./components/pill";
+import { PillBold } from "./components/pill";
+import { PillBroken } from "./components/pill";
+import { PillBulk } from "./components/pill";
+import { PillLinear } from "./components/pill";
+import { PillOutline } from "./components/pill";
+import { PillTwotone } from "./components/pill";
+import { variants as variantsPills } from "./components/pills";
+import { PillsBold } from "./components/pills";
+import { PillsBroken } from "./components/pills";
+import { PillsBulk } from "./components/pills";
+import { PillsLinear } from "./components/pills";
+import { PillsOutline } from "./components/pills";
+import { PillsTwotone } from "./components/pills";
+import { variants as variantsPills2 } from "./components/pills-2";
+import { Pills2Bold } from "./components/pills-2";
+import { Pills2Broken } from "./components/pills-2";
+import { Pills2Bulk } from "./components/pills-2";
+import { Pills2Linear } from "./components/pills-2";
+import { Pills2Outline } from "./components/pills-2";
+import { Pills2Twotone } from "./components/pills-2";
+import { variants as variantsPills3 } from "./components/pills-3";
+import { Pills3Bold } from "./components/pills-3";
+import { Pills3Broken } from "./components/pills-3";
+import { Pills3Bulk } from "./components/pills-3";
+import { Pills3Linear } from "./components/pills-3";
+import { Pills3Outline } from "./components/pills-3";
+import { Pills3Twotone } from "./components/pills-3";
+import { variants as variantsPulse } from "./components/pulse";
+import { PulseBold } from "./components/pulse";
+import { PulseBroken } from "./components/pulse";
+import { PulseBulk } from "./components/pulse";
+import { PulseLinear } from "./components/pulse";
+import { PulseOutline } from "./components/pulse";
+import { PulseTwotone } from "./components/pulse";
+import { variants as variantsPulse2 } from "./components/pulse-2";
+import { Pulse2Bold } from "./components/pulse-2";
+import { Pulse2Broken } from "./components/pulse-2";
+import { Pulse2Bulk } from "./components/pulse-2";
+import { Pulse2Linear } from "./components/pulse-2";
+import { Pulse2Outline } from "./components/pulse-2";
+import { Pulse2Twotone } from "./components/pulse-2";
+import { variants as variantsStethoscope } from "./components/stethoscope";
+import { StethoscopeBold } from "./components/stethoscope";
+import { StethoscopeBroken } from "./components/stethoscope";
+import { StethoscopeBulk } from "./components/stethoscope";
+import { StethoscopeLinear } from "./components/stethoscope";
+import { StethoscopeOutline } from "./components/stethoscope";
+import { StethoscopeTwotone } from "./components/stethoscope";
+import { variants as variantsSyringe } from "./components/syringe";
+import { SyringeBold } from "./components/syringe";
+import { SyringeBroken } from "./components/syringe";
+import { SyringeBulk } from "./components/syringe";
+import { SyringeLinear } from "./components/syringe";
+import { SyringeOutline } from "./components/syringe";
+import { SyringeTwotone } from "./components/syringe";
+import { variants as variantsTestTube } from "./components/test-tube";
+import { TestTubeBold } from "./components/test-tube";
+import { TestTubeBroken } from "./components/test-tube";
+import { TestTubeBulk } from "./components/test-tube";
+import { TestTubeLinear } from "./components/test-tube";
+import { TestTubeOutline } from "./components/test-tube";
+import { TestTubeTwotone } from "./components/test-tube";
+import { variants as variantsTestTubeMinimalistic } from "./components/test-tube-minimalistic";
+import { TestTubeMinimalisticBold } from "./components/test-tube-minimalistic";
+import { TestTubeMinimalisticBroken } from "./components/test-tube-minimalistic";
+import { TestTubeMinimalisticBulk } from "./components/test-tube-minimalistic";
+import { TestTubeMinimalisticLinear } from "./components/test-tube-minimalistic";
+import { TestTubeMinimalisticOutline } from "./components/test-tube-minimalistic";
+import { TestTubeMinimalisticTwotone } from "./components/test-tube-minimalistic";
+import { variants as variantsThermometer } from "./components/thermometer";
+import { ThermometerBold } from "./components/thermometer";
+import { ThermometerBroken } from "./components/thermometer";
+import { ThermometerBulk } from "./components/thermometer";
+import { ThermometerLinear } from "./components/thermometer";
+import { ThermometerOutline } from "./components/thermometer";
+import { ThermometerTwotone } from "./components/thermometer";
+import { variants as variantsVirus } from "./components/virus";
+import { VirusBold } from "./components/virus";
+import { VirusBroken } from "./components/virus";
+import { VirusBulk } from "./components/virus";
+import { VirusLinear } from "./components/virus";
+import { VirusOutline } from "./components/virus";
+import { VirusTwotone } from "./components/virus";
+import { variants as variantsChatDots } from "./components/chat-dots";
+import { ChatDotsBold } from "./components/chat-dots";
+import { ChatDotsBroken } from "./components/chat-dots";
+import { ChatDotsBulk } from "./components/chat-dots";
+import { ChatDotsLinear } from "./components/chat-dots";
+import { ChatDotsOutline } from "./components/chat-dots";
+import { ChatDotsTwotone } from "./components/chat-dots";
+import { variants as variantsChatLine } from "./components/chat-line";
+import { ChatLineBold } from "./components/chat-line";
+import { ChatLineBroken } from "./components/chat-line";
+import { ChatLineBulk } from "./components/chat-line";
+import { ChatLineLinear } from "./components/chat-line";
+import { ChatLineOutline } from "./components/chat-line";
+import { ChatLineTwotone } from "./components/chat-line";
+import { variants as variantsChatRound } from "./components/chat-round";
+import { ChatRoundBold } from "./components/chat-round";
+import { ChatRoundBroken } from "./components/chat-round";
+import { ChatRoundBulk } from "./components/chat-round";
+import { ChatRoundLinear } from "./components/chat-round";
+import { ChatRoundOutline } from "./components/chat-round";
+import { ChatRoundTwotone } from "./components/chat-round";
+import { variants as variantsChatRoundCall } from "./components/chat-round-call";
+import { ChatRoundCallBold } from "./components/chat-round-call";
+import { ChatRoundCallBroken } from "./components/chat-round-call";
+import { ChatRoundCallBulk } from "./components/chat-round-call";
+import { ChatRoundCallLinear } from "./components/chat-round-call";
+import { ChatRoundCallOutline } from "./components/chat-round-call";
+import { ChatRoundCallTwotone } from "./components/chat-round-call";
+import { variants as variantsChatRoundCheck } from "./components/chat-round-check";
+import { ChatRoundCheckBold } from "./components/chat-round-check";
+import { ChatRoundCheckBroken } from "./components/chat-round-check";
+import { ChatRoundCheckBulk } from "./components/chat-round-check";
+import { ChatRoundCheckLinear } from "./components/chat-round-check";
+import { ChatRoundCheckOutline } from "./components/chat-round-check";
+import { ChatRoundCheckTwotone } from "./components/chat-round-check";
+import { variants as variantsChatRoundDots } from "./components/chat-round-dots";
+import { ChatRoundDotsBold } from "./components/chat-round-dots";
+import { ChatRoundDotsBroken } from "./components/chat-round-dots";
+import { ChatRoundDotsBulk } from "./components/chat-round-dots";
+import { ChatRoundDotsLinear } from "./components/chat-round-dots";
+import { ChatRoundDotsOutline } from "./components/chat-round-dots";
+import { ChatRoundDotsTwotone } from "./components/chat-round-dots";
+import { variants as variantsChatRoundLike } from "./components/chat-round-like";
+import { ChatRoundLikeBold } from "./components/chat-round-like";
+import { ChatRoundLikeBroken } from "./components/chat-round-like";
+import { ChatRoundLikeBulk } from "./components/chat-round-like";
+import { ChatRoundLikeLinear } from "./components/chat-round-like";
+import { ChatRoundLikeOutline } from "./components/chat-round-like";
+import { ChatRoundLikeTwotone } from "./components/chat-round-like";
+import { variants as variantsChatRoundLine } from "./components/chat-round-line";
+import { ChatRoundLineBold } from "./components/chat-round-line";
+import { ChatRoundLineBroken } from "./components/chat-round-line";
+import { ChatRoundLineBulk } from "./components/chat-round-line";
+import { ChatRoundLineLinear } from "./components/chat-round-line";
+import { ChatRoundLineOutline } from "./components/chat-round-line";
+import { ChatRoundLineTwotone } from "./components/chat-round-line";
+import { variants as variantsChatRoundMoney } from "./components/chat-round-money";
+import { ChatRoundMoneyBold } from "./components/chat-round-money";
+import { ChatRoundMoneyBroken } from "./components/chat-round-money";
+import { ChatRoundMoneyBulk } from "./components/chat-round-money";
+import { ChatRoundMoneyLinear } from "./components/chat-round-money";
+import { ChatRoundMoneyOutline } from "./components/chat-round-money";
+import { ChatRoundMoneyTwotone } from "./components/chat-round-money";
+import { variants as variantsChatRoundUnread } from "./components/chat-round-unread";
+import { ChatRoundUnreadBold } from "./components/chat-round-unread";
+import { ChatRoundUnreadBroken } from "./components/chat-round-unread";
+import { ChatRoundUnreadBulk } from "./components/chat-round-unread";
+import { ChatRoundUnreadLinear } from "./components/chat-round-unread";
+import { ChatRoundUnreadOutline } from "./components/chat-round-unread";
+import { ChatRoundUnreadTwotone } from "./components/chat-round-unread";
+import { variants as variantsChatRoundVideo } from "./components/chat-round-video";
+import { ChatRoundVideoBold } from "./components/chat-round-video";
+import { ChatRoundVideoBroken } from "./components/chat-round-video";
+import { ChatRoundVideoBulk } from "./components/chat-round-video";
+import { ChatRoundVideoLinear } from "./components/chat-round-video";
+import { ChatRoundVideoOutline } from "./components/chat-round-video";
+import { ChatRoundVideoTwotone } from "./components/chat-round-video";
+import { variants as variantsChatSquare } from "./components/chat-square";
+import { ChatSquareBold } from "./components/chat-square";
+import { ChatSquareBroken } from "./components/chat-square";
+import { ChatSquareBulk } from "./components/chat-square";
+import { ChatSquareLinear } from "./components/chat-square";
+import { ChatSquareOutline } from "./components/chat-square";
+import { ChatSquareTwotone } from "./components/chat-square";
+import { variants as variantsChatSquareArrow } from "./components/chat-square-arrow";
+import { ChatSquareArrowBold } from "./components/chat-square-arrow";
+import { ChatSquareArrowBroken } from "./components/chat-square-arrow";
+import { ChatSquareArrowBulk } from "./components/chat-square-arrow";
+import { ChatSquareArrowLinear } from "./components/chat-square-arrow";
+import { ChatSquareArrowOutline } from "./components/chat-square-arrow";
+import { ChatSquareArrowTwotone } from "./components/chat-square-arrow";
+import { variants as variantsChatSquareCall } from "./components/chat-square-call";
+import { ChatSquareCallBold } from "./components/chat-square-call";
+import { ChatSquareCallBroken } from "./components/chat-square-call";
+import { ChatSquareCallBulk } from "./components/chat-square-call";
+import { ChatSquareCallLinear } from "./components/chat-square-call";
+import { ChatSquareCallOutline } from "./components/chat-square-call";
+import { ChatSquareCallTwotone } from "./components/chat-square-call";
+import { variants as variantsChatSquareCheck } from "./components/chat-square-check";
+import { ChatSquareCheckBold } from "./components/chat-square-check";
+import { ChatSquareCheckBroken } from "./components/chat-square-check";
+import { ChatSquareCheckBulk } from "./components/chat-square-check";
+import { ChatSquareCheckLinear } from "./components/chat-square-check";
+import { ChatSquareCheckOutline } from "./components/chat-square-check";
+import { ChatSquareCheckTwotone } from "./components/chat-square-check";
+import { variants as variantsChatSquareCode } from "./components/chat-square-code";
+import { ChatSquareCodeBold } from "./components/chat-square-code";
+import { ChatSquareCodeBroken } from "./components/chat-square-code";
+import { ChatSquareCodeBulk } from "./components/chat-square-code";
+import { ChatSquareCodeLinear } from "./components/chat-square-code";
+import { ChatSquareCodeOutline } from "./components/chat-square-code";
+import { ChatSquareCodeTwotone } from "./components/chat-square-code";
+import { variants as variantsChatSquareLike } from "./components/chat-square-like";
+import { ChatSquareLikeBold } from "./components/chat-square-like";
+import { ChatSquareLikeBroken } from "./components/chat-square-like";
+import { ChatSquareLikeBulk } from "./components/chat-square-like";
+import { ChatSquareLikeLinear } from "./components/chat-square-like";
+import { ChatSquareLikeOutline } from "./components/chat-square-like";
+import { ChatSquareLikeTwotone } from "./components/chat-square-like";
+import { variants as variantsChatUnread } from "./components/chat-unread";
+import { ChatUnreadBold } from "./components/chat-unread";
+import { ChatUnreadBroken } from "./components/chat-unread";
+import { ChatUnreadBulk } from "./components/chat-unread";
+import { ChatUnreadLinear } from "./components/chat-unread";
+import { ChatUnreadOutline } from "./components/chat-unread";
+import { ChatUnreadTwotone } from "./components/chat-unread";
+import { variants as variantsCheckRead } from "./components/check-read";
+import { CheckReadBold } from "./components/check-read";
+import { CheckReadBroken } from "./components/check-read";
+import { CheckReadBulk } from "./components/check-read";
+import { CheckReadLinear } from "./components/check-read";
+import { CheckReadOutline } from "./components/check-read";
+import { CheckReadTwotone } from "./components/check-read";
+import { variants as variantsDialog } from "./components/dialog";
+import { DialogBold } from "./components/dialog";
+import { DialogBroken } from "./components/dialog";
+import { DialogBulk } from "./components/dialog";
+import { DialogLinear } from "./components/dialog";
+import { DialogOutline } from "./components/dialog";
+import { DialogTwotone } from "./components/dialog";
+import { variants as variantsDialog2 } from "./components/dialog-2";
+import { Dialog2Bold } from "./components/dialog-2";
+import { Dialog2Broken } from "./components/dialog-2";
+import { Dialog2Bulk } from "./components/dialog-2";
+import { Dialog2Linear } from "./components/dialog-2";
+import { Dialog2Outline } from "./components/dialog-2";
+import { Dialog2Twotone } from "./components/dialog-2";
+import { variants as variantsForwardRight } from "./components/forward-right";
+import { ForwardRightBold } from "./components/forward-right";
+import { ForwardRightBroken } from "./components/forward-right";
+import { ForwardRightBulk } from "./components/forward-right";
+import { ForwardRightLinear } from "./components/forward-right";
+import { ForwardRightOutline } from "./components/forward-right";
+import { ForwardRightTwotone } from "./components/forward-right";
+import { variants as variantsInbox } from "./components/inbox";
+import { InboxBold } from "./components/inbox";
+import { InboxBroken } from "./components/inbox";
+import { InboxBulk } from "./components/inbox";
+import { InboxLinear } from "./components/inbox";
+import { InboxOutline } from "./components/inbox";
+import { InboxTwotone } from "./components/inbox";
+import { variants as variantsInboxArchive } from "./components/inbox-archive";
+import { InboxArchiveBold } from "./components/inbox-archive";
+import { InboxArchiveBroken } from "./components/inbox-archive";
+import { InboxArchiveBulk } from "./components/inbox-archive";
+import { InboxArchiveLinear } from "./components/inbox-archive";
+import { InboxArchiveOutline } from "./components/inbox-archive";
+import { InboxArchiveTwotone } from "./components/inbox-archive";
+import { variants as variantsInboxIn } from "./components/inbox-in";
+import { InboxInBold } from "./components/inbox-in";
+import { InboxInBroken } from "./components/inbox-in";
+import { InboxInBulk } from "./components/inbox-in";
+import { InboxInLinear } from "./components/inbox-in";
+import { InboxInOutline } from "./components/inbox-in";
+import { InboxInTwotone } from "./components/inbox-in";
+import { variants as variantsInboxLine } from "./components/inbox-line";
+import { InboxLineBold } from "./components/inbox-line";
+import { InboxLineBroken } from "./components/inbox-line";
+import { InboxLineBulk } from "./components/inbox-line";
+import { InboxLineLinear } from "./components/inbox-line";
+import { InboxLineOutline } from "./components/inbox-line";
+import { InboxLineTwotone } from "./components/inbox-line";
+import { variants as variantsInboxOut } from "./components/inbox-out";
+import { InboxOutBold } from "./components/inbox-out";
+import { InboxOutBroken } from "./components/inbox-out";
+import { InboxOutBulk } from "./components/inbox-out";
+import { InboxOutLinear } from "./components/inbox-out";
+import { InboxOutOutline } from "./components/inbox-out";
+import { InboxOutTwotone } from "./components/inbox-out";
+import { variants as variantsInboxUnread } from "./components/inbox-unread";
+import { InboxUnreadBold } from "./components/inbox-unread";
+import { InboxUnreadBroken } from "./components/inbox-unread";
+import { InboxUnreadBulk } from "./components/inbox-unread";
+import { InboxUnreadLinear } from "./components/inbox-unread";
+import { InboxUnreadOutline } from "./components/inbox-unread";
+import { InboxUnreadTwotone } from "./components/inbox-unread";
+import { variants as variantsLetter } from "./components/letter";
+import { LetterBold } from "./components/letter";
+import { LetterBroken } from "./components/letter";
+import { LetterBulk } from "./components/letter";
+import { LetterLinear } from "./components/letter";
+import { LetterOutline } from "./components/letter";
+import { LetterTwotone } from "./components/letter";
+import { variants as variantsLetterOpened } from "./components/letter-opened";
+import { LetterOpenedBold } from "./components/letter-opened";
+import { LetterOpenedBroken } from "./components/letter-opened";
+import { LetterOpenedBulk } from "./components/letter-opened";
+import { LetterOpenedLinear } from "./components/letter-opened";
+import { LetterOpenedOutline } from "./components/letter-opened";
+import { LetterOpenedTwotone } from "./components/letter-opened";
+import { variants as variantsLetterUnread } from "./components/letter-unread";
+import { LetterUnreadBold } from "./components/letter-unread";
+import { LetterUnreadBroken } from "./components/letter-unread";
+import { LetterUnreadBulk } from "./components/letter-unread";
+import { LetterUnreadLinear } from "./components/letter-unread";
+import { LetterUnreadOutline } from "./components/letter-unread";
+import { LetterUnreadTwotone } from "./components/letter-unread";
+import { variants as variantsMailbox } from "./components/mailbox";
+import { MailboxBold } from "./components/mailbox";
+import { MailboxBroken } from "./components/mailbox";
+import { MailboxBulk } from "./components/mailbox";
+import { MailboxLinear } from "./components/mailbox";
+import { MailboxOutline } from "./components/mailbox";
+import { MailboxTwotone } from "./components/mailbox";
+import { variants as variantsMultipleForwardLeft } from "./components/multiple-forward-left";
+import { MultipleForwardLeftBold } from "./components/multiple-forward-left";
+import { MultipleForwardLeftBroken } from "./components/multiple-forward-left";
+import { MultipleForwardLeftBulk } from "./components/multiple-forward-left";
+import { MultipleForwardLeftLinear } from "./components/multiple-forward-left";
+import { MultipleForwardLeftOutline } from "./components/multiple-forward-left";
+import { MultipleForwardLeftTwotone } from "./components/multiple-forward-left";
+import { variants as variantsMultipleForwardRight } from "./components/multiple-forward-right";
+import { MultipleForwardRightBold } from "./components/multiple-forward-right";
+import { MultipleForwardRightBroken } from "./components/multiple-forward-right";
+import { MultipleForwardRightBulk } from "./components/multiple-forward-right";
+import { MultipleForwardRightLinear } from "./components/multiple-forward-right";
+import { MultipleForwardRightOutline } from "./components/multiple-forward-right";
+import { MultipleForwardRightTwotone } from "./components/multiple-forward-right";
+import { variants as variantsMessagesPaperclip } from "./components/messages-paperclip";
+import { MessagesPaperclipBold } from "./components/messages-paperclip";
+import { MessagesPaperclipBroken } from "./components/messages-paperclip";
+import { MessagesPaperclipBulk } from "./components/messages-paperclip";
+import { MessagesPaperclipLinear } from "./components/messages-paperclip";
+import { MessagesPaperclipOutline } from "./components/messages-paperclip";
+import { MessagesPaperclipTwotone } from "./components/messages-paperclip";
+import { variants as variantsMessagesPaperclip2 } from "./components/messages-paperclip-2";
+import { MessagesPaperclip2Bold } from "./components/messages-paperclip-2";
+import { MessagesPaperclip2Broken } from "./components/messages-paperclip-2";
+import { MessagesPaperclip2Bulk } from "./components/messages-paperclip-2";
+import { MessagesPaperclip2Linear } from "./components/messages-paperclip-2";
+import { MessagesPaperclip2Outline } from "./components/messages-paperclip-2";
+import { MessagesPaperclip2Twotone } from "./components/messages-paperclip-2";
+import { variants as variantsPaperclipRounded } from "./components/paperclip-rounded";
+import { PaperclipRoundedBold } from "./components/paperclip-rounded";
+import { PaperclipRoundedBroken } from "./components/paperclip-rounded";
+import { PaperclipRoundedBulk } from "./components/paperclip-rounded";
+import { PaperclipRoundedLinear } from "./components/paperclip-rounded";
+import { PaperclipRoundedOutline } from "./components/paperclip-rounded";
+import { PaperclipRoundedTwotone } from "./components/paperclip-rounded";
+import { variants as variantsPaperclipRounded2 } from "./components/paperclip-rounded-2";
+import { PaperclipRounded2Bold } from "./components/paperclip-rounded-2";
+import { PaperclipRounded2Broken } from "./components/paperclip-rounded-2";
+import { PaperclipRounded2Bulk } from "./components/paperclip-rounded-2";
+import { PaperclipRounded2Linear } from "./components/paperclip-rounded-2";
+import { PaperclipRounded2Outline } from "./components/paperclip-rounded-2";
+import { PaperclipRounded2Twotone } from "./components/paperclip-rounded-2";
+import { variants as variantsPen } from "./components/pen";
+import { PenBold } from "./components/pen";
+import { PenBroken } from "./components/pen";
+import { PenBulk } from "./components/pen";
+import { PenLinear } from "./components/pen";
+import { PenOutline } from "./components/pen";
+import { PenTwotone } from "./components/pen";
+import { variants as variantsPen2 } from "./components/pen-2";
+import { Pen2Bold } from "./components/pen-2";
+import { Pen2Broken } from "./components/pen-2";
+import { Pen2Bulk } from "./components/pen-2";
+import { Pen2Linear } from "./components/pen-2";
+import { Pen2Outline } from "./components/pen-2";
+import { Pen2Twotone } from "./components/pen-2";
+import { variants as variantsPenNewRound } from "./components/pen-new-round";
+import { PenNewRoundBold } from "./components/pen-new-round";
+import { PenNewRoundBroken } from "./components/pen-new-round";
+import { PenNewRoundBulk } from "./components/pen-new-round";
+import { PenNewRoundLinear } from "./components/pen-new-round";
+import { PenNewRoundOutline } from "./components/pen-new-round";
+import { PenNewRoundTwotone } from "./components/pen-new-round";
+import { variants as variantsPenNewSquare } from "./components/pen-new-square";
+import { PenNewSquareBold } from "./components/pen-new-square";
+import { PenNewSquareBroken } from "./components/pen-new-square";
+import { PenNewSquareBulk } from "./components/pen-new-square";
+import { PenNewSquareLinear } from "./components/pen-new-square";
+import { PenNewSquareOutline } from "./components/pen-new-square";
+import { PenNewSquareTwotone } from "./components/pen-new-square";
+import { variants as variantsPlain } from "./components/plain";
+import { PlainBold } from "./components/plain";
+import { PlainBroken } from "./components/plain";
+import { PlainBulk } from "./components/plain";
+import { PlainLinear } from "./components/plain";
+import { PlainOutline } from "./components/plain";
+import { PlainTwotone } from "./components/plain";
+import { variants as variantsPlain2 } from "./components/plain-2";
+import { Plain2Bold } from "./components/plain-2";
+import { Plain2Broken } from "./components/plain-2";
+import { Plain2Bulk } from "./components/plain-2";
+import { Plain2Linear } from "./components/plain-2";
+import { Plain2Outline } from "./components/plain-2";
+import { Plain2Twotone } from "./components/plain-2";
+import { variants as variantsPlain3 } from "./components/plain-3";
+import { Plain3Bold } from "./components/plain-3";
+import { Plain3Broken } from "./components/plain-3";
+import { Plain3Bulk } from "./components/plain-3";
+import { Plain3Linear } from "./components/plain-3";
+import { Plain3Outline } from "./components/plain-3";
+import { Plain3Twotone } from "./components/plain-3";
+import { variants as variantsSquareForward } from "./components/square-forward";
+import { SquareForwardBold } from "./components/square-forward";
+import { SquareForwardBroken } from "./components/square-forward";
+import { SquareForwardBulk } from "./components/square-forward";
+import { SquareForwardLinear } from "./components/square-forward";
+import { SquareForwardOutline } from "./components/square-forward";
+import { SquareForwardTwotone } from "./components/square-forward";
+import { variants as variantsSquareShareLine } from "./components/square-share-line";
+import { SquareShareLineBold } from "./components/square-share-line";
+import { SquareShareLineBroken } from "./components/square-share-line";
+import { SquareShareLineBulk } from "./components/square-share-line";
+import { SquareShareLineLinear } from "./components/square-share-line";
+import { SquareShareLineOutline } from "./components/square-share-line";
+import { SquareShareLineTwotone } from "./components/square-share-line";
+import { variants as variantsUnread } from "./components/unread";
+import { UnreadBold } from "./components/unread";
+import { UnreadBroken } from "./components/unread";
+import { UnreadBulk } from "./components/unread";
+import { UnreadLinear } from "./components/unread";
+import { UnreadOutline } from "./components/unread";
+import { UnreadTwotone } from "./components/unread";
+import { variants as variantsBanknote } from "./components/banknote";
+import { BanknoteBold } from "./components/banknote";
+import { BanknoteBroken } from "./components/banknote";
+import { BanknoteBulk } from "./components/banknote";
+import { BanknoteLinear } from "./components/banknote";
+import { BanknoteOutline } from "./components/banknote";
+import { BanknoteTwotone } from "./components/banknote";
+import { variants as variantsBanknote2 } from "./components/banknote-2";
+import { Banknote2Bold } from "./components/banknote-2";
+import { Banknote2Broken } from "./components/banknote-2";
+import { Banknote2Bulk } from "./components/banknote-2";
+import { Banknote2Linear } from "./components/banknote-2";
+import { Banknote2Outline } from "./components/banknote-2";
+import { Banknote2Twotone } from "./components/banknote-2";
+import { variants as variantsMoneyBill } from "./components/money-bill";
+import { MoneyBillBold } from "./components/money-bill";
+import { MoneyBillBroken } from "./components/money-bill";
+import { MoneyBillBulk } from "./components/money-bill";
+import { MoneyBillLinear } from "./components/money-bill";
+import { MoneyBillOutline } from "./components/money-bill";
+import { MoneyBillTwotone } from "./components/money-bill";
+import { variants as variantsBillCheck } from "./components/bill-check";
+import { BillCheckBold } from "./components/bill-check";
+import { BillCheckBroken } from "./components/bill-check";
+import { BillCheckBulk } from "./components/bill-check";
+import { BillCheckLinear } from "./components/bill-check";
+import { BillCheckOutline } from "./components/bill-check";
+import { BillCheckTwotone } from "./components/bill-check";
+import { variants as variantsBillCross } from "./components/bill-cross";
+import { BillCrossBold } from "./components/bill-cross";
+import { BillCrossBroken } from "./components/bill-cross";
+import { BillCrossBulk } from "./components/bill-cross";
+import { BillCrossLinear } from "./components/bill-cross";
+import { BillCrossOutline } from "./components/bill-cross";
+import { BillCrossTwotone } from "./components/bill-cross";
+import { variants as variantsBillList } from "./components/bill-list";
+import { BillListBold } from "./components/bill-list";
+import { BillListBroken } from "./components/bill-list";
+import { BillListBulk } from "./components/bill-list";
+import { BillListLinear } from "./components/bill-list";
+import { BillListOutline } from "./components/bill-list";
+import { BillListTwotone } from "./components/bill-list";
+import { variants as variantsMoneyCard } from "./components/money-card";
+import { MoneyCardBold } from "./components/money-card";
+import { MoneyCardBroken } from "./components/money-card";
+import { MoneyCardBulk } from "./components/money-card";
+import { MoneyCardLinear } from "./components/money-card";
+import { MoneyCardOutline } from "./components/money-card";
+import { MoneyCardTwotone } from "./components/money-card";
+import { variants as variantsCard2 } from "./components/card-2";
+import { Card2Bold } from "./components/card-2";
+import { Card2Broken } from "./components/card-2";
+import { Card2Bulk } from "./components/card-2";
+import { Card2Linear } from "./components/card-2";
+import { Card2Outline } from "./components/card-2";
+import { Card2Twotone } from "./components/card-2";
+import { variants as variantsMoneyCardReceive } from "./components/money-card-receive";
+import { MoneyCardReceiveBold } from "./components/money-card-receive";
+import { MoneyCardReceiveBroken } from "./components/money-card-receive";
+import { MoneyCardReceiveBulk } from "./components/money-card-receive";
+import { MoneyCardReceiveLinear } from "./components/money-card-receive";
+import { MoneyCardReceiveOutline } from "./components/money-card-receive";
+import { MoneyCardReceiveTwotone } from "./components/money-card-receive";
+import { variants as variantsCardSearch } from "./components/card-search";
+import { CardSearchBold } from "./components/card-search";
+import { CardSearchBroken } from "./components/card-search";
+import { CardSearchBulk } from "./components/card-search";
+import { CardSearchLinear } from "./components/card-search";
+import { CardSearchOutline } from "./components/card-search";
+import { CardSearchTwotone } from "./components/card-search";
+import { variants as variantsMoneyCardSend } from "./components/money-card-send";
+import { MoneyCardSendBold } from "./components/money-card-send";
+import { MoneyCardSendBroken } from "./components/money-card-send";
+import { MoneyCardSendBulk } from "./components/money-card-send";
+import { MoneyCardSendLinear } from "./components/money-card-send";
+import { MoneyCardSendOutline } from "./components/money-card-send";
+import { MoneyCardSendTwotone } from "./components/money-card-send";
+import { variants as variantsCardTransfer } from "./components/card-transfer";
+import { CardTransferBold } from "./components/card-transfer";
+import { CardTransferBroken } from "./components/card-transfer";
+import { CardTransferBulk } from "./components/card-transfer";
+import { CardTransferLinear } from "./components/card-transfer";
+import { CardTransferOutline } from "./components/card-transfer";
+import { CardTransferTwotone } from "./components/card-transfer";
+import { variants as variantsCardholder } from "./components/cardholder";
+import { CardholderBold } from "./components/cardholder";
+import { CardholderBroken } from "./components/cardholder";
+import { CardholderBulk } from "./components/cardholder";
+import { CardholderLinear } from "./components/cardholder";
+import { CardholderOutline } from "./components/cardholder";
+import { CardholderTwotone } from "./components/cardholder";
+import { variants as variantsCashOut } from "./components/cash-out";
+import { CashOutBold } from "./components/cash-out";
+import { CashOutBroken } from "./components/cash-out";
+import { CashOutBulk } from "./components/cash-out";
+import { CashOutLinear } from "./components/cash-out";
+import { CashOutOutline } from "./components/cash-out";
+import { CashOutTwotone } from "./components/cash-out";
+import { variants as variantsDollar } from "./components/dollar";
+import { DollarBold } from "./components/dollar";
+import { DollarBroken } from "./components/dollar";
+import { DollarBulk } from "./components/dollar";
+import { DollarLinear } from "./components/dollar";
+import { DollarOutline } from "./components/dollar";
+import { DollarTwotone } from "./components/dollar";
+import { variants as variantsDollarMinimalistic } from "./components/dollar-minimalistic";
+import { DollarMinimalisticBold } from "./components/dollar-minimalistic";
+import { DollarMinimalisticBroken } from "./components/dollar-minimalistic";
+import { DollarMinimalisticBulk } from "./components/dollar-minimalistic";
+import { DollarMinimalisticLinear } from "./components/dollar-minimalistic";
+import { DollarMinimalisticOutline } from "./components/dollar-minimalistic";
+import { DollarMinimalisticTwotone } from "./components/dollar-minimalistic";
+import { variants as variantsEuro } from "./components/euro";
+import { EuroBold } from "./components/euro";
+import { EuroBroken } from "./components/euro";
+import { EuroBulk } from "./components/euro";
+import { EuroLinear } from "./components/euro";
+import { EuroOutline } from "./components/euro";
+import { EuroTwotone } from "./components/euro";
+import { variants as variantsMoneyBag } from "./components/money-bag";
+import { MoneyBagBold } from "./components/money-bag";
+import { MoneyBagBroken } from "./components/money-bag";
+import { MoneyBagBulk } from "./components/money-bag";
+import { MoneyBagLinear } from "./components/money-bag";
+import { MoneyBagOutline } from "./components/money-bag";
+import { MoneyBagTwotone } from "./components/money-bag";
+import { variants as variantsRuble } from "./components/ruble";
+import { RubleBold } from "./components/ruble";
+import { RubleBroken } from "./components/ruble";
+import { RubleBulk } from "./components/ruble";
+import { RubleLinear } from "./components/ruble";
+import { RubleOutline } from "./components/ruble";
+import { RubleTwotone } from "./components/ruble";
+import { variants as variantsSafe2 } from "./components/safe-2";
+import { Safe2Bold } from "./components/safe-2";
+import { Safe2Broken } from "./components/safe-2";
+import { Safe2Bulk } from "./components/safe-2";
+import { Safe2Linear } from "./components/safe-2";
+import { Safe2Outline } from "./components/safe-2";
+import { Safe2Twotone } from "./components/safe-2";
+import { variants as variantsSafeCircle } from "./components/safe-circle";
+import { SafeCircleBold } from "./components/safe-circle";
+import { SafeCircleBroken } from "./components/safe-circle";
+import { SafeCircleBulk } from "./components/safe-circle";
+import { SafeCircleLinear } from "./components/safe-circle";
+import { SafeCircleOutline } from "./components/safe-circle";
+import { SafeCircleTwotone } from "./components/safe-circle";
+import { variants as variantsSafeSquare } from "./components/safe-square";
+import { SafeSquareBold } from "./components/safe-square";
+import { SafeSquareBroken } from "./components/safe-square";
+import { SafeSquareBulk } from "./components/safe-square";
+import { SafeSquareLinear } from "./components/safe-square";
+import { SafeSquareOutline } from "./components/safe-square";
+import { SafeSquareTwotone } from "./components/safe-square";
+import { variants as variantsSale } from "./components/sale";
+import { SaleBold } from "./components/sale";
+import { SaleBroken } from "./components/sale";
+import { SaleBulk } from "./components/sale";
+import { SaleLinear } from "./components/sale";
+import { SaleOutline } from "./components/sale";
+import { SaleTwotone } from "./components/sale";
+import { variants as variantsSaleSquare } from "./components/sale-square";
+import { SaleSquareBold } from "./components/sale-square";
+import { SaleSquareBroken } from "./components/sale-square";
+import { SaleSquareBulk } from "./components/sale-square";
+import { SaleSquareLinear } from "./components/sale-square";
+import { SaleSquareOutline } from "./components/sale-square";
+import { SaleSquareTwotone } from "./components/sale-square";
+import { variants as variantsMoneyTag } from "./components/money-tag";
+import { MoneyTagBold } from "./components/money-tag";
+import { MoneyTagBroken } from "./components/money-tag";
+import { MoneyTagBulk } from "./components/money-tag";
+import { MoneyTagLinear } from "./components/money-tag";
+import { MoneyTagOutline } from "./components/money-tag";
+import { MoneyTagTwotone } from "./components/money-tag";
+import { variants as variantsTagHorizontal } from "./components/tag-horizontal";
+import { TagHorizontalBold } from "./components/tag-horizontal";
+import { TagHorizontalBroken } from "./components/tag-horizontal";
+import { TagHorizontalBulk } from "./components/tag-horizontal";
+import { TagHorizontalLinear } from "./components/tag-horizontal";
+import { TagHorizontalOutline } from "./components/tag-horizontal";
+import { TagHorizontalTwotone } from "./components/tag-horizontal";
+import { variants as variantsTagPrice } from "./components/tag-price";
+import { TagPriceBold } from "./components/tag-price";
+import { TagPriceBroken } from "./components/tag-price";
+import { TagPriceBulk } from "./components/tag-price";
+import { TagPriceLinear } from "./components/tag-price";
+import { TagPriceOutline } from "./components/tag-price";
+import { TagPriceTwotone } from "./components/tag-price";
+import { variants as variantsTickerStar } from "./components/ticker-star";
+import { TickerStarBold } from "./components/ticker-star";
+import { TickerStarBroken } from "./components/ticker-star";
+import { TickerStarBulk } from "./components/ticker-star";
+import { TickerStarLinear } from "./components/ticker-star";
+import { TickerStarOutline } from "./components/ticker-star";
+import { TickerStarTwotone } from "./components/ticker-star";
+import { variants as variantsMoneyTicket } from "./components/money-ticket";
+import { MoneyTicketBold } from "./components/money-ticket";
+import { MoneyTicketBroken } from "./components/money-ticket";
+import { MoneyTicketBulk } from "./components/money-ticket";
+import { MoneyTicketLinear } from "./components/money-ticket";
+import { MoneyTicketOutline } from "./components/money-ticket";
+import { MoneyTicketTwotone } from "./components/money-ticket";
+import { variants as variantsTicketSale } from "./components/ticket-sale";
+import { TicketSaleBold } from "./components/ticket-sale";
+import { TicketSaleBroken } from "./components/ticket-sale";
+import { TicketSaleBulk } from "./components/ticket-sale";
+import { TicketSaleLinear } from "./components/ticket-sale";
+import { TicketSaleOutline } from "./components/ticket-sale";
+import { TicketSaleTwotone } from "./components/ticket-sale";
+import { variants as variantsVerifiedCheck } from "./components/verified-check";
+import { VerifiedCheckBold } from "./components/verified-check";
+import { VerifiedCheckBroken } from "./components/verified-check";
+import { VerifiedCheckBulk } from "./components/verified-check";
+import { VerifiedCheckLinear } from "./components/verified-check";
+import { VerifiedCheckOutline } from "./components/verified-check";
+import { VerifiedCheckTwotone } from "./components/verified-check";
+import { variants as variantsWadOfMoney } from "./components/wad-of-money";
+import { WadOfMoneyBold } from "./components/wad-of-money";
+import { WadOfMoneyBroken } from "./components/wad-of-money";
+import { WadOfMoneyBulk } from "./components/wad-of-money";
+import { WadOfMoneyLinear } from "./components/wad-of-money";
+import { WadOfMoneyOutline } from "./components/wad-of-money";
+import { WadOfMoneyTwotone } from "./components/wad-of-money";
+import { variants as variantsMoneyWallet } from "./components/money-wallet";
+import { MoneyWalletBold } from "./components/money-wallet";
+import { MoneyWalletBroken } from "./components/money-wallet";
+import { MoneyWalletBulk } from "./components/money-wallet";
+import { MoneyWalletLinear } from "./components/money-wallet";
+import { MoneyWalletOutline } from "./components/money-wallet";
+import { MoneyWalletTwotone } from "./components/money-wallet";
+import { variants as variantsMoneyWallet2 } from "./components/money-wallet-2";
+import { MoneyWallet2Bold } from "./components/money-wallet-2";
+import { MoneyWallet2Broken } from "./components/money-wallet-2";
+import { MoneyWallet2Bulk } from "./components/money-wallet-2";
+import { MoneyWallet2Linear } from "./components/money-wallet-2";
+import { MoneyWallet2Outline } from "./components/money-wallet-2";
+import { MoneyWallet2Twotone } from "./components/money-wallet-2";
+import { variants as variantsMoneyWalletMoney } from "./components/money-wallet-money";
+import { MoneyWalletMoneyBold } from "./components/money-wallet-money";
+import { MoneyWalletMoneyBroken } from "./components/money-wallet-money";
+import { MoneyWalletMoneyBulk } from "./components/money-wallet-money";
+import { MoneyWalletMoneyLinear } from "./components/money-wallet-money";
+import { MoneyWalletMoneyOutline } from "./components/money-wallet-money";
+import { MoneyWalletMoneyTwotone } from "./components/money-wallet-money";
+import { variants as variantsBonfire } from "./components/bonfire";
+import { BonfireBold } from "./components/bonfire";
+import { BonfireBroken } from "./components/bonfire";
+import { BonfireBulk } from "./components/bonfire";
+import { BonfireLinear } from "./components/bonfire";
+import { BonfireOutline } from "./components/bonfire";
+import { BonfireTwotone } from "./components/bonfire";
+import { variants as variantsFire } from "./components/fire";
+import { FireBold } from "./components/fire";
+import { FireBroken } from "./components/fire";
+import { FireBulk } from "./components/fire";
+import { FireLinear } from "./components/fire";
+import { FireOutline } from "./components/fire";
+import { FireTwotone } from "./components/fire";
+import { variants as variantsFireMinimalistic } from "./components/fire-minimalistic";
+import { FireMinimalisticBold } from "./components/fire-minimalistic";
+import { FireMinimalisticBroken } from "./components/fire-minimalistic";
+import { FireMinimalisticBulk } from "./components/fire-minimalistic";
+import { FireMinimalisticLinear } from "./components/fire-minimalistic";
+import { FireMinimalisticOutline } from "./components/fire-minimalistic";
+import { FireMinimalisticTwotone } from "./components/fire-minimalistic";
+import { variants as variantsFireSquare } from "./components/fire-square";
+import { FireSquareBold } from "./components/fire-square";
+import { FireSquareBroken } from "./components/fire-square";
+import { FireSquareBulk } from "./components/fire-square";
+import { FireSquareLinear } from "./components/fire-square";
+import { FireSquareOutline } from "./components/fire-square";
+import { FireSquareTwotone } from "./components/fire-square";
+import { variants as variantsFlame } from "./components/flame";
+import { FlameBold } from "./components/flame";
+import { FlameBroken } from "./components/flame";
+import { FlameBulk } from "./components/flame";
+import { FlameLinear } from "./components/flame";
+import { FlameOutline } from "./components/flame";
+import { FlameTwotone } from "./components/flame";
+import { variants as variantsLeaf } from "./components/leaf";
+import { LeafBold } from "./components/leaf";
+import { LeafBroken } from "./components/leaf";
+import { LeafBulk } from "./components/leaf";
+import { LeafLinear } from "./components/leaf";
+import { LeafOutline } from "./components/leaf";
+import { LeafTwotone } from "./components/leaf";
+import { variants as variantsSuitcase } from "./components/suitcase";
+import { SuitcaseBold } from "./components/suitcase";
+import { SuitcaseBroken } from "./components/suitcase";
+import { SuitcaseBulk } from "./components/suitcase";
+import { SuitcaseLinear } from "./components/suitcase";
+import { SuitcaseOutline } from "./components/suitcase";
+import { SuitcaseTwotone } from "./components/suitcase";
+import { variants as variantsSuitcaseLines } from "./components/suitcase-lines";
+import { SuitcaseLinesBold } from "./components/suitcase-lines";
+import { SuitcaseLinesBroken } from "./components/suitcase-lines";
+import { SuitcaseLinesBulk } from "./components/suitcase-lines";
+import { SuitcaseLinesLinear } from "./components/suitcase-lines";
+import { SuitcaseLinesOutline } from "./components/suitcase-lines";
+import { SuitcaseLinesTwotone } from "./components/suitcase-lines";
+import { variants as variantsSuitcaseTag } from "./components/suitcase-tag";
+import { SuitcaseTagBold } from "./components/suitcase-tag";
+import { SuitcaseTagBroken } from "./components/suitcase-tag";
+import { SuitcaseTagBulk } from "./components/suitcase-tag";
+import { SuitcaseTagLinear } from "./components/suitcase-tag";
+import { SuitcaseTagOutline } from "./components/suitcase-tag";
+import { SuitcaseTagTwotone } from "./components/suitcase-tag";
+import { variants as variantsNotesArchive } from "./components/notes-archive";
+import { NotesArchiveBold } from "./components/notes-archive";
+import { NotesArchiveBroken } from "./components/notes-archive";
+import { NotesArchiveBulk } from "./components/notes-archive";
+import { NotesArchiveLinear } from "./components/notes-archive";
+import { NotesArchiveOutline } from "./components/notes-archive";
+import { NotesArchiveTwotone } from "./components/notes-archive";
+import { variants as variantsArchiveCheck } from "./components/archive-check";
+import { ArchiveCheckBold } from "./components/archive-check";
+import { ArchiveCheckBroken } from "./components/archive-check";
+import { ArchiveCheckBulk } from "./components/archive-check";
+import { ArchiveCheckLinear } from "./components/archive-check";
+import { ArchiveCheckOutline } from "./components/archive-check";
+import { ArchiveCheckTwotone } from "./components/archive-check";
+import { variants as variantsArchiveDown } from "./components/archive-down";
+import { ArchiveDownBold } from "./components/archive-down";
+import { ArchiveDownBroken } from "./components/archive-down";
+import { ArchiveDownBulk } from "./components/archive-down";
+import { ArchiveDownLinear } from "./components/archive-down";
+import { ArchiveDownOutline } from "./components/archive-down";
+import { ArchiveDownTwotone } from "./components/archive-down";
+import { variants as variantsArchiveDownMinimalistic } from "./components/archive-down-minimalistic";
+import { ArchiveDownMinimalisticBold } from "./components/archive-down-minimalistic";
+import { ArchiveDownMinimalisticBroken } from "./components/archive-down-minimalistic";
+import { ArchiveDownMinimalisticBulk } from "./components/archive-down-minimalistic";
+import { ArchiveDownMinimalisticLinear } from "./components/archive-down-minimalistic";
+import { ArchiveDownMinimalisticOutline } from "./components/archive-down-minimalistic";
+import { ArchiveDownMinimalisticTwotone } from "./components/archive-down-minimalistic";
+import { variants as variantsArchiveMinimalistic } from "./components/archive-minimalistic";
+import { ArchiveMinimalisticBold } from "./components/archive-minimalistic";
+import { ArchiveMinimalisticBroken } from "./components/archive-minimalistic";
+import { ArchiveMinimalisticBulk } from "./components/archive-minimalistic";
+import { ArchiveMinimalisticLinear } from "./components/archive-minimalistic";
+import { ArchiveMinimalisticOutline } from "./components/archive-minimalistic";
+import { ArchiveMinimalisticTwotone } from "./components/archive-minimalistic";
+import { variants as variantsArchiveUp } from "./components/archive-up";
+import { ArchiveUpBold } from "./components/archive-up";
+import { ArchiveUpBroken } from "./components/archive-up";
+import { ArchiveUpBulk } from "./components/archive-up";
+import { ArchiveUpLinear } from "./components/archive-up";
+import { ArchiveUpOutline } from "./components/archive-up";
+import { ArchiveUpTwotone } from "./components/archive-up";
+import { variants as variantsArchiveUpMinimalistic } from "./components/archive-up-minimalistic";
+import { ArchiveUpMinimalisticBold } from "./components/archive-up-minimalistic";
+import { ArchiveUpMinimalisticBroken } from "./components/archive-up-minimalistic";
+import { ArchiveUpMinimalisticBulk } from "./components/archive-up-minimalistic";
+import { ArchiveUpMinimalisticLinear } from "./components/archive-up-minimalistic";
+import { ArchiveUpMinimalisticOutline } from "./components/archive-up-minimalistic";
+import { ArchiveUpMinimalisticTwotone } from "./components/archive-up-minimalistic";
+import { variants as variantsNotesClipboard } from "./components/notes-clipboard";
+import { NotesClipboardBold } from "./components/notes-clipboard";
+import { NotesClipboardBroken } from "./components/notes-clipboard";
+import { NotesClipboardBulk } from "./components/notes-clipboard";
+import { NotesClipboardLinear } from "./components/notes-clipboard";
+import { NotesClipboardOutline } from "./components/notes-clipboard";
+import { NotesClipboardTwotone } from "./components/notes-clipboard";
+import { variants as variantsClipboardAdd } from "./components/clipboard-add";
+import { ClipboardAddBold } from "./components/clipboard-add";
+import { ClipboardAddBroken } from "./components/clipboard-add";
+import { ClipboardAddBulk } from "./components/clipboard-add";
+import { ClipboardAddLinear } from "./components/clipboard-add";
+import { ClipboardAddOutline } from "./components/clipboard-add";
+import { ClipboardAddTwotone } from "./components/clipboard-add";
+import { variants as variantsClipboardCheck } from "./components/clipboard-check";
+import { ClipboardCheckBold } from "./components/clipboard-check";
+import { ClipboardCheckBroken } from "./components/clipboard-check";
+import { ClipboardCheckBulk } from "./components/clipboard-check";
+import { ClipboardCheckLinear } from "./components/clipboard-check";
+import { ClipboardCheckOutline } from "./components/clipboard-check";
+import { ClipboardCheckTwotone } from "./components/clipboard-check";
+import { variants as variantsClipboardHeart } from "./components/clipboard-heart";
+import { ClipboardHeartBold } from "./components/clipboard-heart";
+import { ClipboardHeartBroken } from "./components/clipboard-heart";
+import { ClipboardHeartBulk } from "./components/clipboard-heart";
+import { ClipboardHeartLinear } from "./components/clipboard-heart";
+import { ClipboardHeartOutline } from "./components/clipboard-heart";
+import { ClipboardHeartTwotone } from "./components/clipboard-heart";
+import { variants as variantsClipboardList } from "./components/clipboard-list";
+import { ClipboardListBold } from "./components/clipboard-list";
+import { ClipboardListBroken } from "./components/clipboard-list";
+import { ClipboardListBulk } from "./components/clipboard-list";
+import { ClipboardListLinear } from "./components/clipboard-list";
+import { ClipboardListOutline } from "./components/clipboard-list";
+import { ClipboardListTwotone } from "./components/clipboard-list";
+import { variants as variantsClipboardRemove } from "./components/clipboard-remove";
+import { ClipboardRemoveBold } from "./components/clipboard-remove";
+import { ClipboardRemoveBroken } from "./components/clipboard-remove";
+import { ClipboardRemoveBulk } from "./components/clipboard-remove";
+import { ClipboardRemoveLinear } from "./components/clipboard-remove";
+import { ClipboardRemoveOutline } from "./components/clipboard-remove";
+import { ClipboardRemoveTwotone } from "./components/clipboard-remove";
+import { variants as variantsNotesClipboardText } from "./components/notes-clipboard-text";
+import { NotesClipboardTextBold } from "./components/notes-clipboard-text";
+import { NotesClipboardTextBroken } from "./components/notes-clipboard-text";
+import { NotesClipboardTextBulk } from "./components/notes-clipboard-text";
+import { NotesClipboardTextLinear } from "./components/notes-clipboard-text";
+import { NotesClipboardTextOutline } from "./components/notes-clipboard-text";
+import { NotesClipboardTextTwotone } from "./components/notes-clipboard-text";
+import { variants as variantsNotesDocument } from "./components/notes-document";
+import { NotesDocumentBold } from "./components/notes-document";
+import { NotesDocumentBroken } from "./components/notes-document";
+import { NotesDocumentBulk } from "./components/notes-document";
+import { NotesDocumentLinear } from "./components/notes-document";
+import { NotesDocumentOutline } from "./components/notes-document";
+import { NotesDocumentTwotone } from "./components/notes-document";
+import { variants as variantsDocumentAdd } from "./components/document-add";
+import { DocumentAddBold } from "./components/document-add";
+import { DocumentAddBroken } from "./components/document-add";
+import { DocumentAddBulk } from "./components/document-add";
+import { DocumentAddLinear } from "./components/document-add";
+import { DocumentAddOutline } from "./components/document-add";
+import { DocumentAddTwotone } from "./components/document-add";
+import { variants as variantsDocumentMedicine } from "./components/document-medicine";
+import { DocumentMedicineBold } from "./components/document-medicine";
+import { DocumentMedicineBroken } from "./components/document-medicine";
+import { DocumentMedicineBulk } from "./components/document-medicine";
+import { DocumentMedicineLinear } from "./components/document-medicine";
+import { DocumentMedicineOutline } from "./components/document-medicine";
+import { DocumentMedicineTwotone } from "./components/document-medicine";
+import { variants as variantsNotesDocumentText } from "./components/notes-document-text";
+import { NotesDocumentTextBold } from "./components/notes-document-text";
+import { NotesDocumentTextBroken } from "./components/notes-document-text";
+import { NotesDocumentTextBulk } from "./components/notes-document-text";
+import { NotesDocumentTextLinear } from "./components/notes-document-text";
+import { NotesDocumentTextOutline } from "./components/notes-document-text";
+import { NotesDocumentTextTwotone } from "./components/notes-document-text";
+import { variants as variantsDocuments } from "./components/documents";
+import { DocumentsBold } from "./components/documents";
+import { DocumentsBroken } from "./components/documents";
+import { DocumentsBulk } from "./components/documents";
+import { DocumentsLinear } from "./components/documents";
+import { DocumentsOutline } from "./components/documents";
+import { DocumentsTwotone } from "./components/documents";
+import { variants as variantsDocumentsMinimalistic } from "./components/documents-minimalistic";
+import { DocumentsMinimalisticBold } from "./components/documents-minimalistic";
+import { DocumentsMinimalisticBroken } from "./components/documents-minimalistic";
+import { DocumentsMinimalisticBulk } from "./components/documents-minimalistic";
+import { DocumentsMinimalisticLinear } from "./components/documents-minimalistic";
+import { DocumentsMinimalisticOutline } from "./components/documents-minimalistic";
+import { DocumentsMinimalisticTwotone } from "./components/documents-minimalistic";
+import { variants as variantsNotebook } from "./components/notebook";
+import { NotebookBold } from "./components/notebook";
+import { NotebookBroken } from "./components/notebook";
+import { NotebookBulk } from "./components/notebook";
+import { NotebookLinear } from "./components/notebook";
+import { NotebookOutline } from "./components/notebook";
+import { NotebookTwotone } from "./components/notebook";
+import { variants as variantsNotes } from "./components/notes";
+import { NotesBold } from "./components/notes";
+import { NotesBroken } from "./components/notes";
+import { NotesBulk } from "./components/notes";
+import { NotesLinear } from "./components/notes";
+import { NotesOutline } from "./components/notes";
+import { NotesTwotone } from "./components/notes";
+import { variants as variantsNotesMinimalistic } from "./components/notes-minimalistic";
+import { NotesMinimalisticBold } from "./components/notes-minimalistic";
+import { NotesMinimalisticBroken } from "./components/notes-minimalistic";
+import { NotesMinimalisticBulk } from "./components/notes-minimalistic";
+import { NotesMinimalisticLinear } from "./components/notes-minimalistic";
+import { NotesMinimalisticOutline } from "./components/notes-minimalistic";
+import { NotesMinimalisticTwotone } from "./components/notes-minimalistic";
+import { variants as variantsBell } from "./components/bell";
+import { BellBold } from "./components/bell";
+import { BellBroken } from "./components/bell";
+import { BellBulk } from "./components/bell";
+import { BellLinear } from "./components/bell";
+import { BellOutline } from "./components/bell";
+import { BellTwotone } from "./components/bell";
+import { variants as variantsBellBing } from "./components/bell-bing";
+import { BellBingBold } from "./components/bell-bing";
+import { BellBingBroken } from "./components/bell-bing";
+import { BellBingBulk } from "./components/bell-bing";
+import { BellBingLinear } from "./components/bell-bing";
+import { BellBingOutline } from "./components/bell-bing";
+import { BellBingTwotone } from "./components/bell-bing";
+import { variants as variantsBellOff } from "./components/bell-off";
+import { BellOffBold } from "./components/bell-off";
+import { BellOffBroken } from "./components/bell-off";
+import { BellOffBulk } from "./components/bell-off";
+import { BellOffLinear } from "./components/bell-off";
+import { BellOffOutline } from "./components/bell-off";
+import { BellOffTwotone } from "./components/bell-off";
+import { variants as variantsNotificationLinesRemove } from "./components/notification-lines-remove";
+import { NotificationLinesRemoveBold } from "./components/notification-lines-remove";
+import { NotificationLinesRemoveBroken } from "./components/notification-lines-remove";
+import { NotificationLinesRemoveBulk } from "./components/notification-lines-remove";
+import { NotificationLinesRemoveLinear } from "./components/notification-lines-remove";
+import { NotificationLinesRemoveOutline } from "./components/notification-lines-remove";
+import { NotificationLinesRemoveTwotone } from "./components/notification-lines-remove";
+import { variants as variantsNotificationRemove } from "./components/notification-remove";
+import { NotificationRemoveBold } from "./components/notification-remove";
+import { NotificationRemoveBroken } from "./components/notification-remove";
+import { NotificationRemoveBulk } from "./components/notification-remove";
+import { NotificationRemoveLinear } from "./components/notification-remove";
+import { NotificationRemoveOutline } from "./components/notification-remove";
+import { NotificationRemoveTwotone } from "./components/notification-remove";
+import { variants as variantsNotificationUnread } from "./components/notification-unread";
+import { NotificationUnreadBold } from "./components/notification-unread";
+import { NotificationUnreadBroken } from "./components/notification-unread";
+import { NotificationUnreadBulk } from "./components/notification-unread";
+import { NotificationUnreadLinear } from "./components/notification-unread";
+import { NotificationUnreadOutline } from "./components/notification-unread";
+import { NotificationUnreadTwotone } from "./components/notification-unread";
+import { variants as variantsNotificationUnreadLines } from "./components/notification-unread-lines";
+import { NotificationUnreadLinesBold } from "./components/notification-unread-lines";
+import { NotificationUnreadLinesBroken } from "./components/notification-unread-lines";
+import { NotificationUnreadLinesBulk } from "./components/notification-unread-lines";
+import { NotificationUnreadLinesLinear } from "./components/notification-unread-lines";
+import { NotificationUnreadLinesOutline } from "./components/notification-unread-lines";
+import { NotificationUnreadLinesTwotone } from "./components/notification-unread-lines";
+import { variants as variantsAccumulator } from "./components/accumulator";
+import { AccumulatorBold } from "./components/accumulator";
+import { AccumulatorBroken } from "./components/accumulator";
+import { AccumulatorBulk } from "./components/accumulator";
+import { AccumulatorLinear } from "./components/accumulator";
+import { AccumulatorOutline } from "./components/accumulator";
+import { AccumulatorTwotone } from "./components/accumulator";
+import { variants as variantsPartsBus } from "./components/parts-bus";
+import { PartsBusBold } from "./components/parts-bus";
+import { PartsBusBroken } from "./components/parts-bus";
+import { PartsBusBulk } from "./components/parts-bus";
+import { PartsBusLinear } from "./components/parts-bus";
+import { PartsBusOutline } from "./components/parts-bus";
+import { PartsBusTwotone } from "./components/parts-bus";
+import { variants as variantsElectricRefueling } from "./components/electric-refueling";
+import { ElectricRefuelingBold } from "./components/electric-refueling";
+import { ElectricRefuelingBroken } from "./components/electric-refueling";
+import { ElectricRefuelingBulk } from "./components/electric-refueling";
+import { ElectricRefuelingLinear } from "./components/electric-refueling";
+import { ElectricRefuelingOutline } from "./components/electric-refueling";
+import { ElectricRefuelingTwotone } from "./components/electric-refueling";
+import { variants as variantsPartsGasStation } from "./components/parts-gas-station";
+import { PartsGasStationBold } from "./components/parts-gas-station";
+import { PartsGasStationBroken } from "./components/parts-gas-station";
+import { PartsGasStationBulk } from "./components/parts-gas-station";
+import { PartsGasStationLinear } from "./components/parts-gas-station";
+import { PartsGasStationOutline } from "./components/parts-gas-station";
+import { PartsGasStationTwotone } from "./components/parts-gas-station";
+import { variants as variantsKickScooter } from "./components/kick-scooter";
+import { KickScooterBold } from "./components/kick-scooter";
+import { KickScooterBroken } from "./components/kick-scooter";
+import { KickScooterBulk } from "./components/kick-scooter";
+import { KickScooterLinear } from "./components/kick-scooter";
+import { KickScooterOutline } from "./components/kick-scooter";
+import { KickScooterTwotone } from "./components/kick-scooter";
+import { variants as variantsScooter } from "./components/scooter";
+import { ScooterBold } from "./components/scooter";
+import { ScooterBroken } from "./components/scooter";
+import { ScooterBulk } from "./components/scooter";
+import { ScooterLinear } from "./components/scooter";
+import { ScooterOutline } from "./components/scooter";
+import { ScooterTwotone } from "./components/scooter";
+import { variants as variantsShockAbsorber } from "./components/shock-absorber";
+import { ShockAbsorberBold } from "./components/shock-absorber";
+import { ShockAbsorberBroken } from "./components/shock-absorber";
+import { ShockAbsorberBulk } from "./components/shock-absorber";
+import { ShockAbsorberLinear } from "./components/shock-absorber";
+import { ShockAbsorberOutline } from "./components/shock-absorber";
+import { ShockAbsorberTwotone } from "./components/shock-absorber";
+import { variants as variantsSpeedometerLow } from "./components/speedometer-low";
+import { SpeedometerLowBold } from "./components/speedometer-low";
+import { SpeedometerLowBroken } from "./components/speedometer-low";
+import { SpeedometerLowBulk } from "./components/speedometer-low";
+import { SpeedometerLowLinear } from "./components/speedometer-low";
+import { SpeedometerLowOutline } from "./components/speedometer-low";
+import { SpeedometerLowTwotone } from "./components/speedometer-low";
+import { variants as variantsSpeedometerMax } from "./components/speedometer-max";
+import { SpeedometerMaxBold } from "./components/speedometer-max";
+import { SpeedometerMaxBroken } from "./components/speedometer-max";
+import { SpeedometerMaxBulk } from "./components/speedometer-max";
+import { SpeedometerMaxLinear } from "./components/speedometer-max";
+import { SpeedometerMaxOutline } from "./components/speedometer-max";
+import { SpeedometerMaxTwotone } from "./components/speedometer-max";
+import { variants as variantsSpeedometerMiddle } from "./components/speedometer-middle";
+import { SpeedometerMiddleBold } from "./components/speedometer-middle";
+import { SpeedometerMiddleBroken } from "./components/speedometer-middle";
+import { SpeedometerMiddleBulk } from "./components/speedometer-middle";
+import { SpeedometerMiddleLinear } from "./components/speedometer-middle";
+import { SpeedometerMiddleOutline } from "./components/speedometer-middle";
+import { SpeedometerMiddleTwotone } from "./components/speedometer-middle";
+import { variants as variantsSuspension } from "./components/suspension";
+import { SuspensionBold } from "./components/suspension";
+import { SuspensionBroken } from "./components/suspension";
+import { SuspensionBulk } from "./components/suspension";
+import { SuspensionLinear } from "./components/suspension";
+import { SuspensionOutline } from "./components/suspension";
+import { SuspensionTwotone } from "./components/suspension";
+import { variants as variantsSuspensionBolt } from "./components/suspension-bolt";
+import { SuspensionBoltBold } from "./components/suspension-bolt";
+import { SuspensionBoltBroken } from "./components/suspension-bolt";
+import { SuspensionBoltBulk } from "./components/suspension-bolt";
+import { SuspensionBoltLinear } from "./components/suspension-bolt";
+import { SuspensionBoltOutline } from "./components/suspension-bolt";
+import { SuspensionBoltTwotone } from "./components/suspension-bolt";
+import { variants as variantsSuspensionCross } from "./components/suspension-cross";
+import { SuspensionCrossBold } from "./components/suspension-cross";
+import { SuspensionCrossBroken } from "./components/suspension-cross";
+import { SuspensionCrossBulk } from "./components/suspension-cross";
+import { SuspensionCrossLinear } from "./components/suspension-cross";
+import { SuspensionCrossOutline } from "./components/suspension-cross";
+import { SuspensionCrossTwotone } from "./components/suspension-cross";
+import { variants as variantsTram } from "./components/tram";
+import { TramBold } from "./components/tram";
+import { TramBroken } from "./components/tram";
+import { TramBulk } from "./components/tram";
+import { TramLinear } from "./components/tram";
+import { TramOutline } from "./components/tram";
+import { TramTwotone } from "./components/tram";
+import { variants as variantsTransmission } from "./components/transmission";
+import { TransmissionBold } from "./components/transmission";
+import { TransmissionBroken } from "./components/transmission";
+import { TransmissionBulk } from "./components/transmission";
+import { TransmissionLinear } from "./components/transmission";
+import { TransmissionOutline } from "./components/transmission";
+import { TransmissionTwotone } from "./components/transmission";
+import { variants as variantsTransmissionCircle } from "./components/transmission-circle";
+import { TransmissionCircleBold } from "./components/transmission-circle";
+import { TransmissionCircleBroken } from "./components/transmission-circle";
+import { TransmissionCircleBulk } from "./components/transmission-circle";
+import { TransmissionCircleLinear } from "./components/transmission-circle";
+import { TransmissionCircleOutline } from "./components/transmission-circle";
+import { TransmissionCircleTwotone } from "./components/transmission-circle";
+import { variants as variantsTransmissionSquare } from "./components/transmission-square";
+import { TransmissionSquareBold } from "./components/transmission-square";
+import { TransmissionSquareBroken } from "./components/transmission-square";
+import { TransmissionSquareBulk } from "./components/transmission-square";
+import { TransmissionSquareLinear } from "./components/transmission-square";
+import { TransmissionSquareOutline } from "./components/transmission-square";
+import { TransmissionSquareTwotone } from "./components/transmission-square";
+import { variants as variantsWheel } from "./components/wheel";
+import { WheelBold } from "./components/wheel";
+import { WheelBroken } from "./components/wheel";
+import { WheelBulk } from "./components/wheel";
+import { WheelLinear } from "./components/wheel";
+import { WheelOutline } from "./components/wheel";
+import { WheelTwotone } from "./components/wheel";
+import { variants as variantsWheelAngle } from "./components/wheel-angle";
+import { WheelAngleBold } from "./components/wheel-angle";
+import { WheelAngleBroken } from "./components/wheel-angle";
+import { WheelAngleBulk } from "./components/wheel-angle";
+import { WheelAngleLinear } from "./components/wheel-angle";
+import { WheelAngleOutline } from "./components/wheel-angle";
+import { WheelAngleTwotone } from "./components/wheel-angle";
+import { variants as variantsBackpack } from "./components/backpack";
+import { BackpackBold } from "./components/backpack";
+import { BackpackBroken } from "./components/backpack";
+import { BackpackBulk } from "./components/backpack";
+import { BackpackLinear } from "./components/backpack";
+import { BackpackOutline } from "./components/backpack";
+import { BackpackTwotone } from "./components/backpack";
+import { variants as variantsSchoolBook } from "./components/school-book";
+import { SchoolBookBold } from "./components/school-book";
+import { SchoolBookBroken } from "./components/school-book";
+import { SchoolBookBulk } from "./components/school-book";
+import { SchoolBookLinear } from "./components/school-book";
+import { SchoolBookOutline } from "./components/school-book";
+import { SchoolBookTwotone } from "./components/school-book";
+import { variants as variantsBook2 } from "./components/book-2";
+import { Book2Bold } from "./components/book-2";
+import { Book2Broken } from "./components/book-2";
+import { Book2Bulk } from "./components/book-2";
+import { Book2Linear } from "./components/book-2";
+import { Book2Outline } from "./components/book-2";
+import { Book2Twotone } from "./components/book-2";
+import { variants as variantsBookBookmark } from "./components/book-bookmark";
+import { BookBookmarkBold } from "./components/book-bookmark";
+import { BookBookmarkBroken } from "./components/book-bookmark";
+import { BookBookmarkBulk } from "./components/book-bookmark";
+import { BookBookmarkLinear } from "./components/book-bookmark";
+import { BookBookmarkOutline } from "./components/book-bookmark";
+import { BookBookmarkTwotone } from "./components/book-bookmark";
+import { variants as variantsBookBookmarkMinimalistic } from "./components/book-bookmark-minimalistic";
+import { BookBookmarkMinimalisticBold } from "./components/book-bookmark-minimalistic";
+import { BookBookmarkMinimalisticBroken } from "./components/book-bookmark-minimalistic";
+import { BookBookmarkMinimalisticBulk } from "./components/book-bookmark-minimalistic";
+import { BookBookmarkMinimalisticLinear } from "./components/book-bookmark-minimalistic";
+import { BookBookmarkMinimalisticOutline } from "./components/book-bookmark-minimalistic";
+import { BookBookmarkMinimalisticTwotone } from "./components/book-bookmark-minimalistic";
+import { variants as variantsBookMinimalistic } from "./components/book-minimalistic";
+import { BookMinimalisticBold } from "./components/book-minimalistic";
+import { BookMinimalisticBroken } from "./components/book-minimalistic";
+import { BookMinimalisticBulk } from "./components/book-minimalistic";
+import { BookMinimalisticLinear } from "./components/book-minimalistic";
+import { BookMinimalisticOutline } from "./components/book-minimalistic";
+import { BookMinimalisticTwotone } from "./components/book-minimalistic";
+import { variants as variantsSchoolBookmark } from "./components/school-bookmark";
+import { SchoolBookmarkBold } from "./components/school-bookmark";
+import { SchoolBookmarkBroken } from "./components/school-bookmark";
+import { SchoolBookmarkBulk } from "./components/school-bookmark";
+import { SchoolBookmarkLinear } from "./components/school-bookmark";
+import { SchoolBookmarkOutline } from "./components/school-bookmark";
+import { SchoolBookmarkTwotone } from "./components/school-bookmark";
+import { variants as variantsBookmarkCircle } from "./components/bookmark-circle";
+import { BookmarkCircleBold } from "./components/bookmark-circle";
+import { BookmarkCircleBroken } from "./components/bookmark-circle";
+import { BookmarkCircleBulk } from "./components/bookmark-circle";
+import { BookmarkCircleLinear } from "./components/bookmark-circle";
+import { BookmarkCircleOutline } from "./components/bookmark-circle";
+import { BookmarkCircleTwotone } from "./components/bookmark-circle";
+import { variants as variantsBookmarkOpened } from "./components/bookmark-opened";
+import { BookmarkOpenedBold } from "./components/bookmark-opened";
+import { BookmarkOpenedBroken } from "./components/bookmark-opened";
+import { BookmarkOpenedBulk } from "./components/bookmark-opened";
+import { BookmarkOpenedLinear } from "./components/bookmark-opened";
+import { BookmarkOpenedOutline } from "./components/bookmark-opened";
+import { BookmarkOpenedTwotone } from "./components/bookmark-opened";
+import { variants as variantsBookmarkSquare } from "./components/bookmark-square";
+import { BookmarkSquareBold } from "./components/bookmark-square";
+import { BookmarkSquareBroken } from "./components/bookmark-square";
+import { BookmarkSquareBulk } from "./components/bookmark-square";
+import { BookmarkSquareLinear } from "./components/bookmark-square";
+import { BookmarkSquareOutline } from "./components/bookmark-square";
+import { BookmarkSquareTwotone } from "./components/bookmark-square";
+import { variants as variantsBookmarkSquareMinimalistic } from "./components/bookmark-square-minimalistic";
+import { BookmarkSquareMinimalisticBold } from "./components/bookmark-square-minimalistic";
+import { BookmarkSquareMinimalisticBroken } from "./components/bookmark-square-minimalistic";
+import { BookmarkSquareMinimalisticBulk } from "./components/bookmark-square-minimalistic";
+import { BookmarkSquareMinimalisticLinear } from "./components/bookmark-square-minimalistic";
+import { BookmarkSquareMinimalisticOutline } from "./components/bookmark-square-minimalistic";
+import { BookmarkSquareMinimalisticTwotone } from "./components/bookmark-square-minimalistic";
+import { variants as variantsSchoolCalculator } from "./components/school-calculator";
+import { SchoolCalculatorBold } from "./components/school-calculator";
+import { SchoolCalculatorBroken } from "./components/school-calculator";
+import { SchoolCalculatorBulk } from "./components/school-calculator";
+import { SchoolCalculatorLinear } from "./components/school-calculator";
+import { SchoolCalculatorOutline } from "./components/school-calculator";
+import { SchoolCalculatorTwotone } from "./components/school-calculator";
+import { variants as variantsCalculatorMinimalistic } from "./components/calculator-minimalistic";
+import { CalculatorMinimalisticBold } from "./components/calculator-minimalistic";
+import { CalculatorMinimalisticBroken } from "./components/calculator-minimalistic";
+import { CalculatorMinimalisticBulk } from "./components/calculator-minimalistic";
+import { CalculatorMinimalisticLinear } from "./components/calculator-minimalistic";
+import { CalculatorMinimalisticOutline } from "./components/calculator-minimalistic";
+import { CalculatorMinimalisticTwotone } from "./components/calculator-minimalistic";
+import { variants as variantsCase } from "./components/case";
+import { CaseBold } from "./components/case";
+import { CaseBroken } from "./components/case";
+import { CaseBulk } from "./components/case";
+import { CaseLinear } from "./components/case";
+import { CaseOutline } from "./components/case";
+import { CaseTwotone } from "./components/case";
+import { variants as variantsCaseMinimalistic } from "./components/case-minimalistic";
+import { CaseMinimalisticBold } from "./components/case-minimalistic";
+import { CaseMinimalisticBroken } from "./components/case-minimalistic";
+import { CaseMinimalisticBulk } from "./components/case-minimalistic";
+import { CaseMinimalisticLinear } from "./components/case-minimalistic";
+import { CaseMinimalisticOutline } from "./components/case-minimalistic";
+import { CaseMinimalisticTwotone } from "./components/case-minimalistic";
+import { variants as variantsCaseRound } from "./components/case-round";
+import { CaseRoundBold } from "./components/case-round";
+import { CaseRoundBroken } from "./components/case-round";
+import { CaseRoundBulk } from "./components/case-round";
+import { CaseRoundLinear } from "./components/case-round";
+import { CaseRoundOutline } from "./components/case-round";
+import { CaseRoundTwotone } from "./components/case-round";
+import { variants as variantsCaseRoundMinimalistic } from "./components/case-round-minimalistic";
+import { CaseRoundMinimalisticBold } from "./components/case-round-minimalistic";
+import { CaseRoundMinimalisticBroken } from "./components/case-round-minimalistic";
+import { CaseRoundMinimalisticBulk } from "./components/case-round-minimalistic";
+import { CaseRoundMinimalisticLinear } from "./components/case-round-minimalistic";
+import { CaseRoundMinimalisticOutline } from "./components/case-round-minimalistic";
+import { CaseRoundMinimalisticTwotone } from "./components/case-round-minimalistic";
+import { variants as variantsDiploma } from "./components/diploma";
+import { DiplomaBold } from "./components/diploma";
+import { DiplomaBroken } from "./components/diploma";
+import { DiplomaBulk } from "./components/diploma";
+import { DiplomaLinear } from "./components/diploma";
+import { DiplomaOutline } from "./components/diploma";
+import { DiplomaTwotone } from "./components/diploma";
+import { variants as variantsDiplomaVerified } from "./components/diploma-verified";
+import { DiplomaVerifiedBold } from "./components/diploma-verified";
+import { DiplomaVerifiedBroken } from "./components/diploma-verified";
+import { DiplomaVerifiedBulk } from "./components/diploma-verified";
+import { DiplomaVerifiedLinear } from "./components/diploma-verified";
+import { DiplomaVerifiedOutline } from "./components/diploma-verified";
+import { DiplomaVerifiedTwotone } from "./components/diploma-verified";
+import { variants as variantsDocument2 } from "./components/document-2";
+import { Document2Bold } from "./components/document-2";
+import { Document2Broken } from "./components/document-2";
+import { Document2Bulk } from "./components/document-2";
+import { Document2Linear } from "./components/document-2";
+import { Document2Outline } from "./components/document-2";
+import { Document2Twotone } from "./components/document-2";
+import { variants as variantsNotebook2 } from "./components/notebook-2";
+import { Notebook2Bold } from "./components/notebook-2";
+import { Notebook2Broken } from "./components/notebook-2";
+import { Notebook2Bulk } from "./components/notebook-2";
+import { Notebook2Linear } from "./components/notebook-2";
+import { Notebook2Outline } from "./components/notebook-2";
+import { Notebook2Twotone } from "./components/notebook-2";
+import { variants as variantsNotebookBookmark } from "./components/notebook-bookmark";
+import { NotebookBookmarkBold } from "./components/notebook-bookmark";
+import { NotebookBookmarkBroken } from "./components/notebook-bookmark";
+import { NotebookBookmarkBulk } from "./components/notebook-bookmark";
+import { NotebookBookmarkLinear } from "./components/notebook-bookmark";
+import { NotebookBookmarkOutline } from "./components/notebook-bookmark";
+import { NotebookBookmarkTwotone } from "./components/notebook-bookmark";
+import { variants as variantsNotebookMinimalistic } from "./components/notebook-minimalistic";
+import { NotebookMinimalisticBold } from "./components/notebook-minimalistic";
+import { NotebookMinimalisticBroken } from "./components/notebook-minimalistic";
+import { NotebookMinimalisticBulk } from "./components/notebook-minimalistic";
+import { NotebookMinimalisticLinear } from "./components/notebook-minimalistic";
+import { NotebookMinimalisticOutline } from "./components/notebook-minimalistic";
+import { NotebookMinimalisticTwotone } from "./components/notebook-minimalistic";
+import { variants as variantsNotebookSquare } from "./components/notebook-square";
+import { NotebookSquareBold } from "./components/notebook-square";
+import { NotebookSquareBroken } from "./components/notebook-square";
+import { NotebookSquareBulk } from "./components/notebook-square";
+import { NotebookSquareLinear } from "./components/notebook-square";
+import { NotebookSquareOutline } from "./components/notebook-square";
+import { NotebookSquareTwotone } from "./components/notebook-square";
+import { variants as variantsPassport } from "./components/passport";
+import { PassportBold } from "./components/passport";
+import { PassportBroken } from "./components/passport";
+import { PassportBulk } from "./components/passport";
+import { PassportLinear } from "./components/passport";
+import { PassportOutline } from "./components/passport";
+import { PassportTwotone } from "./components/passport";
+import { variants as variantsPassportMinimalistic } from "./components/passport-minimalistic";
+import { PassportMinimalisticBold } from "./components/passport-minimalistic";
+import { PassportMinimalisticBroken } from "./components/passport-minimalistic";
+import { PassportMinimalisticBulk } from "./components/passport-minimalistic";
+import { PassportMinimalisticLinear } from "./components/passport-minimalistic";
+import { PassportMinimalisticOutline } from "./components/passport-minimalistic";
+import { PassportMinimalisticTwotone } from "./components/passport-minimalistic";
+import { variants as variantsPlusMinus } from "./components/plus-minus";
+import { PlusMinusBold } from "./components/plus-minus";
+import { PlusMinusBroken } from "./components/plus-minus";
+import { PlusMinusBulk } from "./components/plus-minus";
+import { PlusMinusLinear } from "./components/plus-minus";
+import { PlusMinusOutline } from "./components/plus-minus";
+import { PlusMinusTwotone } from "./components/plus-minus";
+import { variants as variantsSquareAcademicCap } from "./components/square-academic-cap";
+import { SquareAcademicCapBold } from "./components/square-academic-cap";
+import { SquareAcademicCapBroken } from "./components/square-academic-cap";
+import { SquareAcademicCapBulk } from "./components/square-academic-cap";
+import { SquareAcademicCapLinear } from "./components/square-academic-cap";
+import { SquareAcademicCapOutline } from "./components/square-academic-cap";
+import { SquareAcademicCapTwotone } from "./components/square-academic-cap";
+import { variants as variantsSquareAcademicCap2 } from "./components/square-academic-cap-2";
+import { SquareAcademicCap2Bold } from "./components/square-academic-cap-2";
+import { SquareAcademicCap2Broken } from "./components/square-academic-cap-2";
+import { SquareAcademicCap2Bulk } from "./components/square-academic-cap-2";
+import { SquareAcademicCap2Linear } from "./components/square-academic-cap-2";
+import { SquareAcademicCap2Outline } from "./components/square-academic-cap-2";
+import { SquareAcademicCap2Twotone } from "./components/square-academic-cap-2";
+import { variants as variantsMagnifier } from "./components/magnifier";
+import { MagnifierBold } from "./components/magnifier";
+import { MagnifierBroken } from "./components/magnifier";
+import { MagnifierBulk } from "./components/magnifier";
+import { MagnifierLinear } from "./components/magnifier";
+import { MagnifierOutline } from "./components/magnifier";
+import { MagnifierTwotone } from "./components/magnifier";
+import { variants as variantsMagnifierBug } from "./components/magnifier-bug";
+import { MagnifierBugBold } from "./components/magnifier-bug";
+import { MagnifierBugBroken } from "./components/magnifier-bug";
+import { MagnifierBugBulk } from "./components/magnifier-bug";
+import { MagnifierBugLinear } from "./components/magnifier-bug";
+import { MagnifierBugOutline } from "./components/magnifier-bug";
+import { MagnifierBugTwotone } from "./components/magnifier-bug";
+import { variants as variantsMagnifierZoomIn } from "./components/magnifier-zoom-in";
+import { MagnifierZoomInBold } from "./components/magnifier-zoom-in";
+import { MagnifierZoomInBroken } from "./components/magnifier-zoom-in";
+import { MagnifierZoomInBulk } from "./components/magnifier-zoom-in";
+import { MagnifierZoomInLinear } from "./components/magnifier-zoom-in";
+import { MagnifierZoomInOutline } from "./components/magnifier-zoom-in";
+import { MagnifierZoomInTwotone } from "./components/magnifier-zoom-in";
+import { variants as variantsMagnifierZoomOut } from "./components/magnifier-zoom-out";
+import { MagnifierZoomOutBold } from "./components/magnifier-zoom-out";
+import { MagnifierZoomOutBroken } from "./components/magnifier-zoom-out";
+import { MagnifierZoomOutBulk } from "./components/magnifier-zoom-out";
+import { MagnifierZoomOutLinear } from "./components/magnifier-zoom-out";
+import { MagnifierZoomOutOutline } from "./components/magnifier-zoom-out";
+import { MagnifierZoomOutTwotone } from "./components/magnifier-zoom-out";
+import { variants as variantsMinimalisticMagnifier } from "./components/minimalistic-magnifier";
+import { MinimalisticMagnifierBold } from "./components/minimalistic-magnifier";
+import { MinimalisticMagnifierBroken } from "./components/minimalistic-magnifier";
+import { MinimalisticMagnifierBulk } from "./components/minimalistic-magnifier";
+import { MinimalisticMagnifierLinear } from "./components/minimalistic-magnifier";
+import { MinimalisticMagnifierOutline } from "./components/minimalistic-magnifier";
+import { MinimalisticMagnifierTwotone } from "./components/minimalistic-magnifier";
+import { variants as variantsMinimalisticMagnifierBug } from "./components/minimalistic-magnifier-bug";
+import { MinimalisticMagnifierBugBold } from "./components/minimalistic-magnifier-bug";
+import { MinimalisticMagnifierBugBroken } from "./components/minimalistic-magnifier-bug";
+import { MinimalisticMagnifierBugBulk } from "./components/minimalistic-magnifier-bug";
+import { MinimalisticMagnifierBugLinear } from "./components/minimalistic-magnifier-bug";
+import { MinimalisticMagnifierBugOutline } from "./components/minimalistic-magnifier-bug";
+import { MinimalisticMagnifierBugTwotone } from "./components/minimalistic-magnifier-bug";
+import { variants as variantsMinimalisticMagnifierZoomIn } from "./components/minimalistic-magnifier-zoom-in";
+import { MinimalisticMagnifierZoomInBold } from "./components/minimalistic-magnifier-zoom-in";
+import { MinimalisticMagnifierZoomInBroken } from "./components/minimalistic-magnifier-zoom-in";
+import { MinimalisticMagnifierZoomInBulk } from "./components/minimalistic-magnifier-zoom-in";
+import { MinimalisticMagnifierZoomInLinear } from "./components/minimalistic-magnifier-zoom-in";
+import { MinimalisticMagnifierZoomInOutline } from "./components/minimalistic-magnifier-zoom-in";
+import { MinimalisticMagnifierZoomInTwotone } from "./components/minimalistic-magnifier-zoom-in";
+import { variants as variantsMinimalisticMagnifierZoomOut } from "./components/minimalistic-magnifier-zoom-out";
+import { MinimalisticMagnifierZoomOutBold } from "./components/minimalistic-magnifier-zoom-out";
+import { MinimalisticMagnifierZoomOutBroken } from "./components/minimalistic-magnifier-zoom-out";
+import { MinimalisticMagnifierZoomOutBulk } from "./components/minimalistic-magnifier-zoom-out";
+import { MinimalisticMagnifierZoomOutLinear } from "./components/minimalistic-magnifier-zoom-out";
+import { MinimalisticMagnifierZoomOutOutline } from "./components/minimalistic-magnifier-zoom-out";
+import { MinimalisticMagnifierZoomOutTwotone } from "./components/minimalistic-magnifier-zoom-out";
+import { variants as variantsRoundedMagnifier } from "./components/rounded-magnifier";
+import { RoundedMagnifierBold } from "./components/rounded-magnifier";
+import { RoundedMagnifierBroken } from "./components/rounded-magnifier";
+import { RoundedMagnifierBulk } from "./components/rounded-magnifier";
+import { RoundedMagnifierLinear } from "./components/rounded-magnifier";
+import { RoundedMagnifierOutline } from "./components/rounded-magnifier";
+import { RoundedMagnifierTwotone } from "./components/rounded-magnifier";
+import { variants as variantsRoundedMagnifierBug } from "./components/rounded-magnifier-bug";
+import { RoundedMagnifierBugBold } from "./components/rounded-magnifier-bug";
+import { RoundedMagnifierBugBroken } from "./components/rounded-magnifier-bug";
+import { RoundedMagnifierBugBulk } from "./components/rounded-magnifier-bug";
+import { RoundedMagnifierBugLinear } from "./components/rounded-magnifier-bug";
+import { RoundedMagnifierBugOutline } from "./components/rounded-magnifier-bug";
+import { RoundedMagnifierBugTwotone } from "./components/rounded-magnifier-bug";
+import { variants as variantsRoundedMagnifierZoomIn } from "./components/rounded-magnifier-zoom-in";
+import { RoundedMagnifierZoomInBold } from "./components/rounded-magnifier-zoom-in";
+import { RoundedMagnifierZoomInBroken } from "./components/rounded-magnifier-zoom-in";
+import { RoundedMagnifierZoomInBulk } from "./components/rounded-magnifier-zoom-in";
+import { RoundedMagnifierZoomInLinear } from "./components/rounded-magnifier-zoom-in";
+import { RoundedMagnifierZoomInOutline } from "./components/rounded-magnifier-zoom-in";
+import { RoundedMagnifierZoomInTwotone } from "./components/rounded-magnifier-zoom-in";
+import { variants as variantsRoundedMagnifierZoomOut } from "./components/rounded-magnifier-zoom-out";
+import { RoundedMagnifierZoomOutBold } from "./components/rounded-magnifier-zoom-out";
+import { RoundedMagnifierZoomOutBroken } from "./components/rounded-magnifier-zoom-out";
+import { RoundedMagnifierZoomOutBulk } from "./components/rounded-magnifier-zoom-out";
+import { RoundedMagnifierZoomOutLinear } from "./components/rounded-magnifier-zoom-out";
+import { RoundedMagnifierZoomOutOutline } from "./components/rounded-magnifier-zoom-out";
+import { RoundedMagnifierZoomOutTwotone } from "./components/rounded-magnifier-zoom-out";
+import { variants as variantsBomb } from "./components/bomb";
+import { BombBold } from "./components/bomb";
+import { BombBroken } from "./components/bomb";
+import { BombBulk } from "./components/bomb";
+import { BombLinear } from "./components/bomb";
+import { BombOutline } from "./components/bomb";
+import { BombTwotone } from "./components/bomb";
+import { variants as variantsBombEmoji } from "./components/bomb-emoji";
+import { BombEmojiBold } from "./components/bomb-emoji";
+import { BombEmojiBroken } from "./components/bomb-emoji";
+import { BombEmojiBulk } from "./components/bomb-emoji";
+import { BombEmojiLinear } from "./components/bomb-emoji";
+import { BombEmojiOutline } from "./components/bomb-emoji";
+import { BombEmojiTwotone } from "./components/bomb-emoji";
+import { variants as variantsBombMinimalistic } from "./components/bomb-minimalistic";
+import { BombMinimalisticBold } from "./components/bomb-minimalistic";
+import { BombMinimalisticBroken } from "./components/bomb-minimalistic";
+import { BombMinimalisticBulk } from "./components/bomb-minimalistic";
+import { BombMinimalisticLinear } from "./components/bomb-minimalistic";
+import { BombMinimalisticOutline } from "./components/bomb-minimalistic";
+import { BombMinimalisticTwotone } from "./components/bomb-minimalistic";
+import { variants as variantsCodeScan } from "./components/code-scan";
+import { CodeScanBold } from "./components/code-scan";
+import { CodeScanBroken } from "./components/code-scan";
+import { CodeScanBulk } from "./components/code-scan";
+import { CodeScanLinear } from "./components/code-scan";
+import { CodeScanOutline } from "./components/code-scan";
+import { CodeScanTwotone } from "./components/code-scan";
+import { variants as variantsSecurityEye } from "./components/security-eye";
+import { SecurityEyeBold } from "./components/security-eye";
+import { SecurityEyeBroken } from "./components/security-eye";
+import { SecurityEyeBulk } from "./components/security-eye";
+import { SecurityEyeLinear } from "./components/security-eye";
+import { SecurityEyeOutline } from "./components/security-eye";
+import { SecurityEyeTwotone } from "./components/security-eye";
+import { variants as variantsEyeClosed } from "./components/eye-closed";
+import { EyeClosedBold } from "./components/eye-closed";
+import { EyeClosedBroken } from "./components/eye-closed";
+import { EyeClosedBulk } from "./components/eye-closed";
+import { EyeClosedLinear } from "./components/eye-closed";
+import { EyeClosedOutline } from "./components/eye-closed";
+import { EyeClosedTwotone } from "./components/eye-closed";
+import { variants as variantsEyeScan } from "./components/eye-scan";
+import { EyeScanBold } from "./components/eye-scan";
+import { EyeScanBroken } from "./components/eye-scan";
+import { EyeScanBulk } from "./components/eye-scan";
+import { EyeScanLinear } from "./components/eye-scan";
+import { EyeScanOutline } from "./components/eye-scan";
+import { EyeScanTwotone } from "./components/eye-scan";
+import { variants as variantsIncognito } from "./components/incognito";
+import { IncognitoBold } from "./components/incognito";
+import { IncognitoBroken } from "./components/incognito";
+import { IncognitoBulk } from "./components/incognito";
+import { IncognitoLinear } from "./components/incognito";
+import { IncognitoOutline } from "./components/incognito";
+import { IncognitoTwotone } from "./components/incognito";
+import { variants as variantsSecurityKey } from "./components/security-key";
+import { SecurityKeyBold } from "./components/security-key";
+import { SecurityKeyBroken } from "./components/security-key";
+import { SecurityKeyBulk } from "./components/security-key";
+import { SecurityKeyLinear } from "./components/security-key";
+import { SecurityKeyOutline } from "./components/security-key";
+import { SecurityKeyTwotone } from "./components/security-key";
+import { variants as variantsKeyMinimalistic } from "./components/key-minimalistic";
+import { KeyMinimalisticBold } from "./components/key-minimalistic";
+import { KeyMinimalisticBroken } from "./components/key-minimalistic";
+import { KeyMinimalisticBulk } from "./components/key-minimalistic";
+import { KeyMinimalisticLinear } from "./components/key-minimalistic";
+import { KeyMinimalisticOutline } from "./components/key-minimalistic";
+import { KeyMinimalisticTwotone } from "./components/key-minimalistic";
+import { variants as variantsKeyMinimalistic2 } from "./components/key-minimalistic-2";
+import { KeyMinimalistic2Bold } from "./components/key-minimalistic-2";
+import { KeyMinimalistic2Broken } from "./components/key-minimalistic-2";
+import { KeyMinimalistic2Bulk } from "./components/key-minimalistic-2";
+import { KeyMinimalistic2Linear } from "./components/key-minimalistic-2";
+import { KeyMinimalistic2Outline } from "./components/key-minimalistic-2";
+import { KeyMinimalistic2Twotone } from "./components/key-minimalistic-2";
+import { variants as variantsKeyMinimalisticSquare } from "./components/key-minimalistic-square";
+import { KeyMinimalisticSquareBold } from "./components/key-minimalistic-square";
+import { KeyMinimalisticSquareBroken } from "./components/key-minimalistic-square";
+import { KeyMinimalisticSquareBulk } from "./components/key-minimalistic-square";
+import { KeyMinimalisticSquareLinear } from "./components/key-minimalistic-square";
+import { KeyMinimalisticSquareOutline } from "./components/key-minimalistic-square";
+import { KeyMinimalisticSquareTwotone } from "./components/key-minimalistic-square";
+import { variants as variantsKeyMinimalisticSquare2 } from "./components/key-minimalistic-square-2";
+import { KeyMinimalisticSquare2Bold } from "./components/key-minimalistic-square-2";
+import { KeyMinimalisticSquare2Broken } from "./components/key-minimalistic-square-2";
+import { KeyMinimalisticSquare2Bulk } from "./components/key-minimalistic-square-2";
+import { KeyMinimalisticSquare2Linear } from "./components/key-minimalistic-square-2";
+import { KeyMinimalisticSquare2Outline } from "./components/key-minimalistic-square-2";
+import { KeyMinimalisticSquare2Twotone } from "./components/key-minimalistic-square-2";
+import { variants as variantsKeyMinimalisticSquare3 } from "./components/key-minimalistic-square-3";
+import { KeyMinimalisticSquare3Bold } from "./components/key-minimalistic-square-3";
+import { KeyMinimalisticSquare3Broken } from "./components/key-minimalistic-square-3";
+import { KeyMinimalisticSquare3Bulk } from "./components/key-minimalistic-square-3";
+import { KeyMinimalisticSquare3Linear } from "./components/key-minimalistic-square-3";
+import { KeyMinimalisticSquare3Outline } from "./components/key-minimalistic-square-3";
+import { KeyMinimalisticSquare3Twotone } from "./components/key-minimalistic-square-3";
+import { variants as variantsSecurityKeySquare } from "./components/security-key-square";
+import { SecurityKeySquareBold } from "./components/security-key-square";
+import { SecurityKeySquareBroken } from "./components/security-key-square";
+import { SecurityKeySquareBulk } from "./components/security-key-square";
+import { SecurityKeySquareLinear } from "./components/security-key-square";
+import { SecurityKeySquareOutline } from "./components/security-key-square";
+import { SecurityKeySquareTwotone } from "./components/security-key-square";
+import { variants as variantsKeySquare2 } from "./components/key-square-2";
+import { KeySquare2Bold } from "./components/key-square-2";
+import { KeySquare2Broken } from "./components/key-square-2";
+import { KeySquare2Bulk } from "./components/key-square-2";
+import { KeySquare2Linear } from "./components/key-square-2";
+import { KeySquare2Outline } from "./components/key-square-2";
+import { KeySquare2Twotone } from "./components/key-square-2";
+import { variants as variantsSecurityLock } from "./components/security-lock";
+import { SecurityLockBold } from "./components/security-lock";
+import { SecurityLockBroken } from "./components/security-lock";
+import { SecurityLockBulk } from "./components/security-lock";
+import { SecurityLockLinear } from "./components/security-lock";
+import { SecurityLockOutline } from "./components/security-lock";
+import { SecurityLockTwotone } from "./components/security-lock";
+import { variants as variantsLockKeyhole } from "./components/lock-keyhole";
+import { LockKeyholeBold } from "./components/lock-keyhole";
+import { LockKeyholeBroken } from "./components/lock-keyhole";
+import { LockKeyholeBulk } from "./components/lock-keyhole";
+import { LockKeyholeLinear } from "./components/lock-keyhole";
+import { LockKeyholeOutline } from "./components/lock-keyhole";
+import { LockKeyholeTwotone } from "./components/lock-keyhole";
+import { variants as variantsLockKeyholeMinimalistic } from "./components/lock-keyhole-minimalistic";
+import { LockKeyholeMinimalisticBold } from "./components/lock-keyhole-minimalistic";
+import { LockKeyholeMinimalisticBroken } from "./components/lock-keyhole-minimalistic";
+import { LockKeyholeMinimalisticBulk } from "./components/lock-keyhole-minimalistic";
+import { LockKeyholeMinimalisticLinear } from "./components/lock-keyhole-minimalistic";
+import { LockKeyholeMinimalisticOutline } from "./components/lock-keyhole-minimalistic";
+import { LockKeyholeMinimalisticTwotone } from "./components/lock-keyhole-minimalistic";
+import { variants as variantsLockKeyholeMinimalisticUnlocked } from "./components/lock-keyhole-minimalistic-unlocked";
+import { LockKeyholeMinimalisticUnlockedBold } from "./components/lock-keyhole-minimalistic-unlocked";
+import { LockKeyholeMinimalisticUnlockedBroken } from "./components/lock-keyhole-minimalistic-unlocked";
+import { LockKeyholeMinimalisticUnlockedBulk } from "./components/lock-keyhole-minimalistic-unlocked";
+import { LockKeyholeMinimalisticUnlockedLinear } from "./components/lock-keyhole-minimalistic-unlocked";
+import { LockKeyholeMinimalisticUnlockedOutline } from "./components/lock-keyhole-minimalistic-unlocked";
+import { LockKeyholeMinimalisticUnlockedTwotone } from "./components/lock-keyhole-minimalistic-unlocked";
+import { variants as variantsLockKeyholeUnlocked } from "./components/lock-keyhole-unlocked";
+import { LockKeyholeUnlockedBold } from "./components/lock-keyhole-unlocked";
+import { LockKeyholeUnlockedBroken } from "./components/lock-keyhole-unlocked";
+import { LockKeyholeUnlockedBulk } from "./components/lock-keyhole-unlocked";
+import { LockKeyholeUnlockedLinear } from "./components/lock-keyhole-unlocked";
+import { LockKeyholeUnlockedOutline } from "./components/lock-keyhole-unlocked";
+import { LockKeyholeUnlockedTwotone } from "./components/lock-keyhole-unlocked";
+import { variants as variantsLockPassword } from "./components/lock-password";
+import { LockPasswordBold } from "./components/lock-password";
+import { LockPasswordBroken } from "./components/lock-password";
+import { LockPasswordBulk } from "./components/lock-password";
+import { LockPasswordLinear } from "./components/lock-password";
+import { LockPasswordOutline } from "./components/lock-password";
+import { LockPasswordTwotone } from "./components/lock-password";
+import { variants as variantsLockPasswordUnlocked } from "./components/lock-password-unlocked";
+import { LockPasswordUnlockedBold } from "./components/lock-password-unlocked";
+import { LockPasswordUnlockedBroken } from "./components/lock-password-unlocked";
+import { LockPasswordUnlockedBulk } from "./components/lock-password-unlocked";
+import { LockPasswordUnlockedLinear } from "./components/lock-password-unlocked";
+import { LockPasswordUnlockedOutline } from "./components/lock-password-unlocked";
+import { LockPasswordUnlockedTwotone } from "./components/lock-password-unlocked";
+import { variants as variantsLockUnlocked } from "./components/lock-unlocked";
+import { LockUnlockedBold } from "./components/lock-unlocked";
+import { LockUnlockedBroken } from "./components/lock-unlocked";
+import { LockUnlockedBulk } from "./components/lock-unlocked";
+import { LockUnlockedLinear } from "./components/lock-unlocked";
+import { LockUnlockedOutline } from "./components/lock-unlocked";
+import { LockUnlockedTwotone } from "./components/lock-unlocked";
+import { variants as variantsObjectScan } from "./components/object-scan";
+import { ObjectScanBold } from "./components/object-scan";
+import { ObjectScanBroken } from "./components/object-scan";
+import { ObjectScanBulk } from "./components/object-scan";
+import { ObjectScanLinear } from "./components/object-scan";
+import { ObjectScanOutline } from "./components/object-scan";
+import { ObjectScanTwotone } from "./components/object-scan";
+import { variants as variantsPassword } from "./components/password";
+import { PasswordBold } from "./components/password";
+import { PasswordBroken } from "./components/password";
+import { PasswordBulk } from "./components/password";
+import { PasswordLinear } from "./components/password";
+import { PasswordOutline } from "./components/password";
+import { PasswordTwotone } from "./components/password";
+import { variants as variantsPasswordMinimalistic } from "./components/password-minimalistic";
+import { PasswordMinimalisticBold } from "./components/password-minimalistic";
+import { PasswordMinimalisticBroken } from "./components/password-minimalistic";
+import { PasswordMinimalisticBulk } from "./components/password-minimalistic";
+import { PasswordMinimalisticLinear } from "./components/password-minimalistic";
+import { PasswordMinimalisticOutline } from "./components/password-minimalistic";
+import { PasswordMinimalisticTwotone } from "./components/password-minimalistic";
+import { variants as variantsPasswordMinimalisticInput } from "./components/password-minimalistic-input";
+import { PasswordMinimalisticInputBold } from "./components/password-minimalistic-input";
+import { PasswordMinimalisticInputBroken } from "./components/password-minimalistic-input";
+import { PasswordMinimalisticInputBulk } from "./components/password-minimalistic-input";
+import { PasswordMinimalisticInputLinear } from "./components/password-minimalistic-input";
+import { PasswordMinimalisticInputOutline } from "./components/password-minimalistic-input";
+import { PasswordMinimalisticInputTwotone } from "./components/password-minimalistic-input";
+import { variants as variantsQrCode } from "./components/qr-code";
+import { QrCodeBold } from "./components/qr-code";
+import { QrCodeBroken } from "./components/qr-code";
+import { QrCodeBulk } from "./components/qr-code";
+import { QrCodeLinear } from "./components/qr-code";
+import { QrCodeOutline } from "./components/qr-code";
+import { QrCodeTwotone } from "./components/qr-code";
+import { variants as variantsSecurityScanner } from "./components/security-scanner";
+import { SecurityScannerBold } from "./components/security-scanner";
+import { SecurityScannerBroken } from "./components/security-scanner";
+import { SecurityScannerBulk } from "./components/security-scanner";
+import { SecurityScannerLinear } from "./components/security-scanner";
+import { SecurityScannerOutline } from "./components/security-scanner";
+import { SecurityScannerTwotone } from "./components/security-scanner";
+import { variants as variantsScanner2 } from "./components/scanner-2";
+import { Scanner2Bold } from "./components/scanner-2";
+import { Scanner2Broken } from "./components/scanner-2";
+import { Scanner2Bulk } from "./components/scanner-2";
+import { Scanner2Linear } from "./components/scanner-2";
+import { Scanner2Outline } from "./components/scanner-2";
+import { Scanner2Twotone } from "./components/scanner-2";
+import { variants as variantsSecurityShield } from "./components/security-shield";
+import { SecurityShieldBold } from "./components/security-shield";
+import { SecurityShieldBroken } from "./components/security-shield";
+import { SecurityShieldBulk } from "./components/security-shield";
+import { SecurityShieldLinear } from "./components/security-shield";
+import { SecurityShieldOutline } from "./components/security-shield";
+import { SecurityShieldTwotone } from "./components/security-shield";
+import { variants as variantsShieldCheck } from "./components/shield-check";
+import { ShieldCheckBold } from "./components/shield-check";
+import { ShieldCheckBroken } from "./components/shield-check";
+import { ShieldCheckBulk } from "./components/shield-check";
+import { ShieldCheckLinear } from "./components/shield-check";
+import { ShieldCheckOutline } from "./components/shield-check";
+import { ShieldCheckTwotone } from "./components/shield-check";
+import { variants as variantsSecurityShieldCross } from "./components/security-shield-cross";
+import { SecurityShieldCrossBold } from "./components/security-shield-cross";
+import { SecurityShieldCrossBroken } from "./components/security-shield-cross";
+import { SecurityShieldCrossBulk } from "./components/security-shield-cross";
+import { SecurityShieldCrossLinear } from "./components/security-shield-cross";
+import { SecurityShieldCrossOutline } from "./components/security-shield-cross";
+import { SecurityShieldCrossTwotone } from "./components/security-shield-cross";
+import { variants as variantsShieldKeyhole } from "./components/shield-keyhole";
+import { ShieldKeyholeBold } from "./components/shield-keyhole";
+import { ShieldKeyholeBroken } from "./components/shield-keyhole";
+import { ShieldKeyholeBulk } from "./components/shield-keyhole";
+import { ShieldKeyholeLinear } from "./components/shield-keyhole";
+import { ShieldKeyholeOutline } from "./components/shield-keyhole";
+import { ShieldKeyholeTwotone } from "./components/shield-keyhole";
+import { variants as variantsShieldKeyholeMinimalistic } from "./components/shield-keyhole-minimalistic";
+import { ShieldKeyholeMinimalisticBold } from "./components/shield-keyhole-minimalistic";
+import { ShieldKeyholeMinimalisticBroken } from "./components/shield-keyhole-minimalistic";
+import { ShieldKeyholeMinimalisticBulk } from "./components/shield-keyhole-minimalistic";
+import { ShieldKeyholeMinimalisticLinear } from "./components/shield-keyhole-minimalistic";
+import { ShieldKeyholeMinimalisticOutline } from "./components/shield-keyhole-minimalistic";
+import { ShieldKeyholeMinimalisticTwotone } from "./components/shield-keyhole-minimalistic";
+import { variants as variantsShieldMinimalistic } from "./components/shield-minimalistic";
+import { ShieldMinimalisticBold } from "./components/shield-minimalistic";
+import { ShieldMinimalisticBroken } from "./components/shield-minimalistic";
+import { ShieldMinimalisticBulk } from "./components/shield-minimalistic";
+import { ShieldMinimalisticLinear } from "./components/shield-minimalistic";
+import { ShieldMinimalisticOutline } from "./components/shield-minimalistic";
+import { ShieldMinimalisticTwotone } from "./components/shield-minimalistic";
+import { variants as variantsShieldMinus } from "./components/shield-minus";
+import { ShieldMinusBold } from "./components/shield-minus";
+import { ShieldMinusBroken } from "./components/shield-minus";
+import { ShieldMinusBulk } from "./components/shield-minus";
+import { ShieldMinusLinear } from "./components/shield-minus";
+import { ShieldMinusOutline } from "./components/shield-minus";
+import { ShieldMinusTwotone } from "./components/shield-minus";
+import { variants as variantsShieldNetwork } from "./components/shield-network";
+import { ShieldNetworkBold } from "./components/shield-network";
+import { ShieldNetworkBroken } from "./components/shield-network";
+import { ShieldNetworkBulk } from "./components/shield-network";
+import { ShieldNetworkLinear } from "./components/shield-network";
+import { ShieldNetworkOutline } from "./components/shield-network";
+import { ShieldNetworkTwotone } from "./components/shield-network";
+import { variants as variantsShieldPlus } from "./components/shield-plus";
+import { ShieldPlusBold } from "./components/shield-plus";
+import { ShieldPlusBroken } from "./components/shield-plus";
+import { ShieldPlusBulk } from "./components/shield-plus";
+import { ShieldPlusLinear } from "./components/shield-plus";
+import { ShieldPlusOutline } from "./components/shield-plus";
+import { ShieldPlusTwotone } from "./components/shield-plus";
+import { variants as variantsShieldStar } from "./components/shield-star";
+import { ShieldStarBold } from "./components/shield-star";
+import { ShieldStarBroken } from "./components/shield-star";
+import { ShieldStarBulk } from "./components/shield-star";
+import { ShieldStarLinear } from "./components/shield-star";
+import { ShieldStarOutline } from "./components/shield-star";
+import { ShieldStarTwotone } from "./components/shield-star";
+import { variants as variantsShieldUp } from "./components/shield-up";
+import { ShieldUpBold } from "./components/shield-up";
+import { ShieldUpBroken } from "./components/shield-up";
+import { ShieldUpBulk } from "./components/shield-up";
+import { ShieldUpLinear } from "./components/shield-up";
+import { ShieldUpOutline } from "./components/shield-up";
+import { ShieldUpTwotone } from "./components/shield-up";
+import { variants as variantsShieldUser } from "./components/shield-user";
+import { ShieldUserBold } from "./components/shield-user";
+import { ShieldUserBroken } from "./components/shield-user";
+import { ShieldUserBulk } from "./components/shield-user";
+import { ShieldUserLinear } from "./components/shield-user";
+import { ShieldUserOutline } from "./components/shield-user";
+import { ShieldUserTwotone } from "./components/shield-user";
+import { variants as variantsShieldWarning } from "./components/shield-warning";
+import { ShieldWarningBold } from "./components/shield-warning";
+import { ShieldWarningBroken } from "./components/shield-warning";
+import { ShieldWarningBulk } from "./components/shield-warning";
+import { ShieldWarningLinear } from "./components/shield-warning";
+import { ShieldWarningOutline } from "./components/shield-warning";
+import { ShieldWarningTwotone } from "./components/shield-warning";
+import { variants as variantsSiren } from "./components/siren";
+import { SirenBold } from "./components/siren";
+import { SirenBroken } from "./components/siren";
+import { SirenBulk } from "./components/siren";
+import { SirenLinear } from "./components/siren";
+import { SirenOutline } from "./components/siren";
+import { SirenTwotone } from "./components/siren";
+import { variants as variantsSirenRounded } from "./components/siren-rounded";
+import { SirenRoundedBold } from "./components/siren-rounded";
+import { SirenRoundedBroken } from "./components/siren-rounded";
+import { SirenRoundedBulk } from "./components/siren-rounded";
+import { SirenRoundedLinear } from "./components/siren-rounded";
+import { SirenRoundedOutline } from "./components/siren-rounded";
+import { SirenRoundedTwotone } from "./components/siren-rounded";
+import { variants as variantsSettingsSettings } from "./components/settings-settings";
+import { SettingsSettingsBold } from "./components/settings-settings";
+import { SettingsSettingsBroken } from "./components/settings-settings";
+import { SettingsSettingsBulk } from "./components/settings-settings";
+import { SettingsSettingsLinear } from "./components/settings-settings";
+import { SettingsSettingsOutline } from "./components/settings-settings";
+import { SettingsSettingsTwotone } from "./components/settings-settings";
+import { variants as variantsSettingsMinimalistic } from "./components/settings-minimalistic";
+import { SettingsMinimalisticBold } from "./components/settings-minimalistic";
+import { SettingsMinimalisticBroken } from "./components/settings-minimalistic";
+import { SettingsMinimalisticBulk } from "./components/settings-minimalistic";
+import { SettingsMinimalisticLinear } from "./components/settings-minimalistic";
+import { SettingsMinimalisticOutline } from "./components/settings-minimalistic";
+import { SettingsMinimalisticTwotone } from "./components/settings-minimalistic";
+import { variants as variantsTuning } from "./components/tuning";
+import { TuningBold } from "./components/tuning";
+import { TuningBroken } from "./components/tuning";
+import { TuningBulk } from "./components/tuning";
+import { TuningLinear } from "./components/tuning";
+import { TuningOutline } from "./components/tuning";
+import { TuningTwotone } from "./components/tuning";
+import { variants as variantsTuning2 } from "./components/tuning-2";
+import { Tuning2Bold } from "./components/tuning-2";
+import { Tuning2Broken } from "./components/tuning-2";
+import { Tuning2Bulk } from "./components/tuning-2";
+import { Tuning2Linear } from "./components/tuning-2";
+import { Tuning2Outline } from "./components/tuning-2";
+import { Tuning2Twotone } from "./components/tuning-2";
+import { variants as variantsTuning3 } from "./components/tuning-3";
+import { Tuning3Bold } from "./components/tuning-3";
+import { Tuning3Broken } from "./components/tuning-3";
+import { Tuning3Bulk } from "./components/tuning-3";
+import { Tuning3Linear } from "./components/tuning-3";
+import { Tuning3Outline } from "./components/tuning-3";
+import { Tuning3Twotone } from "./components/tuning-3";
+import { variants as variantsTuning4 } from "./components/tuning-4";
+import { Tuning4Bold } from "./components/tuning-4";
+import { Tuning4Broken } from "./components/tuning-4";
+import { Tuning4Bulk } from "./components/tuning-4";
+import { Tuning4Linear } from "./components/tuning-4";
+import { Tuning4Outline } from "./components/tuning-4";
+import { Tuning4Twotone } from "./components/tuning-4";
+import { variants as variantsTuningSquare } from "./components/tuning-square";
+import { TuningSquareBold } from "./components/tuning-square";
+import { TuningSquareBroken } from "./components/tuning-square";
+import { TuningSquareBulk } from "./components/tuning-square";
+import { TuningSquareLinear } from "./components/tuning-square";
+import { TuningSquareOutline } from "./components/tuning-square";
+import { TuningSquareTwotone } from "./components/tuning-square";
+import { variants as variantsTuningSquare2 } from "./components/tuning-square-2";
+import { TuningSquare2Bold } from "./components/tuning-square-2";
+import { TuningSquare2Broken } from "./components/tuning-square-2";
+import { TuningSquare2Bulk } from "./components/tuning-square-2";
+import { TuningSquare2Linear } from "./components/tuning-square-2";
+import { TuningSquare2Outline } from "./components/tuning-square-2";
+import { TuningSquare2Twotone } from "./components/tuning-square-2";
+import { variants as variantsWidget } from "./components/widget";
+import { WidgetBold } from "./components/widget";
+import { WidgetBroken } from "./components/widget";
+import { WidgetBulk } from "./components/widget";
+import { WidgetLinear } from "./components/widget";
+import { WidgetOutline } from "./components/widget";
+import { WidgetTwotone } from "./components/widget";
+import { variants as variantsWidget2 } from "./components/widget-2";
+import { Widget2Bold } from "./components/widget-2";
+import { Widget2Broken } from "./components/widget-2";
+import { Widget2Bulk } from "./components/widget-2";
+import { Widget2Linear } from "./components/widget-2";
+import { Widget2Outline } from "./components/widget-2";
+import { Widget2Twotone } from "./components/widget-2";
+import { variants as variantsWidget3 } from "./components/widget-3";
+import { Widget3Bold } from "./components/widget-3";
+import { Widget3Broken } from "./components/widget-3";
+import { Widget3Bulk } from "./components/widget-3";
+import { Widget3Linear } from "./components/widget-3";
+import { Widget3Outline } from "./components/widget-3";
+import { Widget3Twotone } from "./components/widget-3";
+import { variants as variantsWidget4 } from "./components/widget-4";
+import { Widget4Bold } from "./components/widget-4";
+import { Widget4Broken } from "./components/widget-4";
+import { Widget4Bulk } from "./components/widget-4";
+import { Widget4Linear } from "./components/widget-4";
+import { Widget4Outline } from "./components/widget-4";
+import { Widget4Twotone } from "./components/widget-4";
+import { variants as variantsWidget5 } from "./components/widget-5";
+import { Widget5Bold } from "./components/widget-5";
+import { Widget5Broken } from "./components/widget-5";
+import { Widget5Bulk } from "./components/widget-5";
+import { Widget5Linear } from "./components/widget-5";
+import { Widget5Outline } from "./components/widget-5";
+import { Widget5Twotone } from "./components/widget-5";
+import { variants as variantsWidget6 } from "./components/widget-6";
+import { Widget6Bold } from "./components/widget-6";
+import { Widget6Broken } from "./components/widget-6";
+import { Widget6Bulk } from "./components/widget-6";
+import { Widget6Linear } from "./components/widget-6";
+import { Widget6Outline } from "./components/widget-6";
+import { Widget6Twotone } from "./components/widget-6";
+import { variants as variantsWidgetAdd } from "./components/widget-add";
+import { WidgetAddBold } from "./components/widget-add";
+import { WidgetAddBroken } from "./components/widget-add";
+import { WidgetAddBulk } from "./components/widget-add";
+import { WidgetAddLinear } from "./components/widget-add";
+import { WidgetAddOutline } from "./components/widget-add";
+import { WidgetAddTwotone } from "./components/widget-add";
+import { variants as variantsShoppingBag1 } from "./components/shopping-bag-1";
+import { ShoppingBag1Bold } from "./components/shopping-bag-1";
+import { ShoppingBag1Broken } from "./components/shopping-bag-1";
+import { ShoppingBag1Bulk } from "./components/shopping-bag-1";
+import { ShoppingBag1Linear } from "./components/shopping-bag-1";
+import { ShoppingBag1Outline } from "./components/shopping-bag-1";
+import { ShoppingBag1Twotone } from "./components/shopping-bag-1";
+import { variants as variantsShoppingBag2 } from "./components/shopping-bag-2";
+import { ShoppingBag2Bold } from "./components/shopping-bag-2";
+import { ShoppingBag2Broken } from "./components/shopping-bag-2";
+import { ShoppingBag2Bulk } from "./components/shopping-bag-2";
+import { ShoppingBag2Linear } from "./components/shopping-bag-2";
+import { ShoppingBag2Outline } from "./components/shopping-bag-2";
+import { ShoppingBag2Twotone } from "./components/shopping-bag-2";
+import { variants as variantsBag3 } from "./components/bag-3";
+import { Bag3Bold } from "./components/bag-3";
+import { Bag3Broken } from "./components/bag-3";
+import { Bag3Bulk } from "./components/bag-3";
+import { Bag3Linear } from "./components/bag-3";
+import { Bag3Outline } from "./components/bag-3";
+import { Bag3Twotone } from "./components/bag-3";
+import { variants as variantsBag4 } from "./components/bag-4";
+import { Bag4Bold } from "./components/bag-4";
+import { Bag4Broken } from "./components/bag-4";
+import { Bag4Bulk } from "./components/bag-4";
+import { Bag4Linear } from "./components/bag-4";
+import { Bag4Outline } from "./components/bag-4";
+import { Bag4Twotone } from "./components/bag-4";
+import { variants as variantsBag5 } from "./components/bag-5";
+import { Bag5Bold } from "./components/bag-5";
+import { Bag5Broken } from "./components/bag-5";
+import { Bag5Bulk } from "./components/bag-5";
+import { Bag5Linear } from "./components/bag-5";
+import { Bag5Outline } from "./components/bag-5";
+import { Bag5Twotone } from "./components/bag-5";
+import { variants as variantsBagCheck } from "./components/bag-check";
+import { BagCheckBold } from "./components/bag-check";
+import { BagCheckBroken } from "./components/bag-check";
+import { BagCheckBulk } from "./components/bag-check";
+import { BagCheckLinear } from "./components/bag-check";
+import { BagCheckOutline } from "./components/bag-check";
+import { BagCheckTwotone } from "./components/bag-check";
+import { variants as variantsShoppingBagCross } from "./components/shopping-bag-cross";
+import { ShoppingBagCrossBold } from "./components/shopping-bag-cross";
+import { ShoppingBagCrossBroken } from "./components/shopping-bag-cross";
+import { ShoppingBagCrossBulk } from "./components/shopping-bag-cross";
+import { ShoppingBagCrossLinear } from "./components/shopping-bag-cross";
+import { ShoppingBagCrossOutline } from "./components/shopping-bag-cross";
+import { ShoppingBagCrossTwotone } from "./components/shopping-bag-cross";
+import { variants as variantsBagHeart } from "./components/bag-heart";
+import { BagHeartBold } from "./components/bag-heart";
+import { BagHeartBroken } from "./components/bag-heart";
+import { BagHeartBulk } from "./components/bag-heart";
+import { BagHeartLinear } from "./components/bag-heart";
+import { BagHeartOutline } from "./components/bag-heart";
+import { BagHeartTwotone } from "./components/bag-heart";
+import { variants as variantsBagMusic } from "./components/bag-music";
+import { BagMusicBold } from "./components/bag-music";
+import { BagMusicBroken } from "./components/bag-music";
+import { BagMusicBulk } from "./components/bag-music";
+import { BagMusicLinear } from "./components/bag-music";
+import { BagMusicOutline } from "./components/bag-music";
+import { BagMusicTwotone } from "./components/bag-music";
+import { variants as variantsBagMusic2 } from "./components/bag-music-2";
+import { BagMusic2Bold } from "./components/bag-music-2";
+import { BagMusic2Broken } from "./components/bag-music-2";
+import { BagMusic2Bulk } from "./components/bag-music-2";
+import { BagMusic2Linear } from "./components/bag-music-2";
+import { BagMusic2Outline } from "./components/bag-music-2";
+import { BagMusic2Twotone } from "./components/bag-music-2";
+import { variants as variantsBagSmile } from "./components/bag-smile";
+import { BagSmileBold } from "./components/bag-smile";
+import { BagSmileBroken } from "./components/bag-smile";
+import { BagSmileBulk } from "./components/bag-smile";
+import { BagSmileLinear } from "./components/bag-smile";
+import { BagSmileOutline } from "./components/bag-smile";
+import { BagSmileTwotone } from "./components/bag-smile";
+import { variants as variantsCart } from "./components/cart";
+import { CartBold } from "./components/cart";
+import { CartBroken } from "./components/cart";
+import { CartBulk } from "./components/cart";
+import { CartLinear } from "./components/cart";
+import { CartOutline } from "./components/cart";
+import { CartTwotone } from "./components/cart";
+import { variants as variantsCart2 } from "./components/cart-2";
+import { Cart2Bold } from "./components/cart-2";
+import { Cart2Broken } from "./components/cart-2";
+import { Cart2Bulk } from "./components/cart-2";
+import { Cart2Linear } from "./components/cart-2";
+import { Cart2Outline } from "./components/cart-2";
+import { Cart2Twotone } from "./components/cart-2";
+import { variants as variantsCart3 } from "./components/cart-3";
+import { Cart3Bold } from "./components/cart-3";
+import { Cart3Broken } from "./components/cart-3";
+import { Cart3Bulk } from "./components/cart-3";
+import { Cart3Linear } from "./components/cart-3";
+import { Cart3Outline } from "./components/cart-3";
+import { Cart3Twotone } from "./components/cart-3";
+import { variants as variantsCart4 } from "./components/cart-4";
+import { Cart4Bold } from "./components/cart-4";
+import { Cart4Broken } from "./components/cart-4";
+import { Cart4Bulk } from "./components/cart-4";
+import { Cart4Linear } from "./components/cart-4";
+import { Cart4Outline } from "./components/cart-4";
+import { Cart4Twotone } from "./components/cart-4";
+import { variants as variantsCart5 } from "./components/cart-5";
+import { Cart5Bold } from "./components/cart-5";
+import { Cart5Broken } from "./components/cart-5";
+import { Cart5Bulk } from "./components/cart-5";
+import { Cart5Linear } from "./components/cart-5";
+import { Cart5Outline } from "./components/cart-5";
+import { Cart5Twotone } from "./components/cart-5";
+import { variants as variantsCartCheck } from "./components/cart-check";
+import { CartCheckBold } from "./components/cart-check";
+import { CartCheckBroken } from "./components/cart-check";
+import { CartCheckBulk } from "./components/cart-check";
+import { CartCheckLinear } from "./components/cart-check";
+import { CartCheckOutline } from "./components/cart-check";
+import { CartCheckTwotone } from "./components/cart-check";
+import { variants as variantsCartCross } from "./components/cart-cross";
+import { CartCrossBold } from "./components/cart-cross";
+import { CartCrossBroken } from "./components/cart-cross";
+import { CartCrossBulk } from "./components/cart-cross";
+import { CartCrossLinear } from "./components/cart-cross";
+import { CartCrossOutline } from "./components/cart-cross";
+import { CartCrossTwotone } from "./components/cart-cross";
+import { variants as variantsCartLarge } from "./components/cart-large";
+import { CartLargeBold } from "./components/cart-large";
+import { CartLargeBroken } from "./components/cart-large";
+import { CartLargeBulk } from "./components/cart-large";
+import { CartLargeLinear } from "./components/cart-large";
+import { CartLargeOutline } from "./components/cart-large";
+import { CartLargeTwotone } from "./components/cart-large";
+import { variants as variantsCartLarge2 } from "./components/cart-large-2";
+import { CartLarge2Bold } from "./components/cart-large-2";
+import { CartLarge2Broken } from "./components/cart-large-2";
+import { CartLarge2Bulk } from "./components/cart-large-2";
+import { CartLarge2Linear } from "./components/cart-large-2";
+import { CartLarge2Outline } from "./components/cart-large-2";
+import { CartLarge2Twotone } from "./components/cart-large-2";
+import { variants as variantsCartLarge3 } from "./components/cart-large-3";
+import { CartLarge3Bold } from "./components/cart-large-3";
+import { CartLarge3Broken } from "./components/cart-large-3";
+import { CartLarge3Bulk } from "./components/cart-large-3";
+import { CartLarge3Linear } from "./components/cart-large-3";
+import { CartLarge3Outline } from "./components/cart-large-3";
+import { CartLarge3Twotone } from "./components/cart-large-3";
+import { variants as variantsCartLarge4 } from "./components/cart-large-4";
+import { CartLarge4Bold } from "./components/cart-large-4";
+import { CartLarge4Broken } from "./components/cart-large-4";
+import { CartLarge4Bulk } from "./components/cart-large-4";
+import { CartLarge4Linear } from "./components/cart-large-4";
+import { CartLarge4Outline } from "./components/cart-large-4";
+import { CartLarge4Twotone } from "./components/cart-large-4";
+import { variants as variantsCartLargeMinimalistic } from "./components/cart-large-minimalistic";
+import { CartLargeMinimalisticBold } from "./components/cart-large-minimalistic";
+import { CartLargeMinimalisticBroken } from "./components/cart-large-minimalistic";
+import { CartLargeMinimalisticBulk } from "./components/cart-large-minimalistic";
+import { CartLargeMinimalisticLinear } from "./components/cart-large-minimalistic";
+import { CartLargeMinimalisticOutline } from "./components/cart-large-minimalistic";
+import { CartLargeMinimalisticTwotone } from "./components/cart-large-minimalistic";
+import { variants as variantsCartPlus } from "./components/cart-plus";
+import { CartPlusBold } from "./components/cart-plus";
+import { CartPlusBroken } from "./components/cart-plus";
+import { CartPlusBulk } from "./components/cart-plus";
+import { CartPlusLinear } from "./components/cart-plus";
+import { CartPlusOutline } from "./components/cart-plus";
+import { CartPlusTwotone } from "./components/cart-plus";
+import { variants as variantsShoppingShop } from "./components/shopping-shop";
+import { ShoppingShopBold } from "./components/shopping-shop";
+import { ShoppingShopBroken } from "./components/shopping-shop";
+import { ShoppingShopBulk } from "./components/shopping-shop";
+import { ShoppingShopLinear } from "./components/shopping-shop";
+import { ShoppingShopOutline } from "./components/shopping-shop";
+import { ShoppingShopTwotone } from "./components/shopping-shop";
+import { variants as variantsShop2 } from "./components/shop-2";
+import { Shop2Bold } from "./components/shop-2";
+import { Shop2Broken } from "./components/shop-2";
+import { Shop2Bulk } from "./components/shop-2";
+import { Shop2Linear } from "./components/shop-2";
+import { Shop2Outline } from "./components/shop-2";
+import { Shop2Twotone } from "./components/shop-2";
+import { variants as variantsShopMinimalistic } from "./components/shop-minimalistic";
+import { ShopMinimalisticBold } from "./components/shop-minimalistic";
+import { ShopMinimalisticBroken } from "./components/shop-minimalistic";
+import { ShopMinimalisticBulk } from "./components/shop-minimalistic";
+import { ShopMinimalisticLinear } from "./components/shop-minimalistic";
+import { ShopMinimalisticOutline } from "./components/shop-minimalistic";
+import { ShopMinimalisticTwotone } from "./components/shop-minimalistic";
+import { variants as variantsBalls } from "./components/balls";
+import { BallsBold } from "./components/balls";
+import { BallsBroken } from "./components/balls";
+import { BallsBulk } from "./components/balls";
+import { BallsLinear } from "./components/balls";
+import { BallsOutline } from "./components/balls";
+import { BallsTwotone } from "./components/balls";
+import { variants as variantsBasketball } from "./components/basketball";
+import { BasketballBold } from "./components/basketball";
+import { BasketballBroken } from "./components/basketball";
+import { BasketballBulk } from "./components/basketball";
+import { BasketballLinear } from "./components/basketball";
+import { BasketballOutline } from "./components/basketball";
+import { BasketballTwotone } from "./components/basketball";
+import { variants as variantsBicycling } from "./components/bicycling";
+import { BicyclingBold } from "./components/bicycling";
+import { BicyclingBroken } from "./components/bicycling";
+import { BicyclingBulk } from "./components/bicycling";
+import { BicyclingLinear } from "./components/bicycling";
+import { BicyclingOutline } from "./components/bicycling";
+import { BicyclingTwotone } from "./components/bicycling";
+import { variants as variantsBicyclingRound } from "./components/bicycling-round";
+import { BicyclingRoundBold } from "./components/bicycling-round";
+import { BicyclingRoundBroken } from "./components/bicycling-round";
+import { BicyclingRoundBulk } from "./components/bicycling-round";
+import { BicyclingRoundLinear } from "./components/bicycling-round";
+import { BicyclingRoundOutline } from "./components/bicycling-round";
+import { BicyclingRoundTwotone } from "./components/bicycling-round";
+import { variants as variantsBodyShape } from "./components/body-shape";
+import { BodyShapeBold } from "./components/body-shape";
+import { BodyShapeBroken } from "./components/body-shape";
+import { BodyShapeBulk } from "./components/body-shape";
+import { BodyShapeLinear } from "./components/body-shape";
+import { BodyShapeOutline } from "./components/body-shape";
+import { BodyShapeTwotone } from "./components/body-shape";
+import { variants as variantsBodyShapeMinimalistic } from "./components/body-shape-minimalistic";
+import { BodyShapeMinimalisticBold } from "./components/body-shape-minimalistic";
+import { BodyShapeMinimalisticBroken } from "./components/body-shape-minimalistic";
+import { BodyShapeMinimalisticBulk } from "./components/body-shape-minimalistic";
+import { BodyShapeMinimalisticLinear } from "./components/body-shape-minimalistic";
+import { BodyShapeMinimalisticOutline } from "./components/body-shape-minimalistic";
+import { BodyShapeMinimalisticTwotone } from "./components/body-shape-minimalistic";
+import { variants as variantsBowling } from "./components/bowling";
+import { BowlingBold } from "./components/bowling";
+import { BowlingBroken } from "./components/bowling";
+import { BowlingBulk } from "./components/bowling";
+import { BowlingLinear } from "./components/bowling";
+import { BowlingOutline } from "./components/bowling";
+import { BowlingTwotone } from "./components/bowling";
+import { variants as variantsDumbbell } from "./components/dumbbell";
+import { DumbbellBold } from "./components/dumbbell";
+import { DumbbellBroken } from "./components/dumbbell";
+import { DumbbellBulk } from "./components/dumbbell";
+import { DumbbellLinear } from "./components/dumbbell";
+import { DumbbellOutline } from "./components/dumbbell";
+import { DumbbellTwotone } from "./components/dumbbell";
+import { variants as variantsDumbbellLarge } from "./components/dumbbell-large";
+import { DumbbellLargeBold } from "./components/dumbbell-large";
+import { DumbbellLargeBroken } from "./components/dumbbell-large";
+import { DumbbellLargeBulk } from "./components/dumbbell-large";
+import { DumbbellLargeLinear } from "./components/dumbbell-large";
+import { DumbbellLargeOutline } from "./components/dumbbell-large";
+import { DumbbellLargeTwotone } from "./components/dumbbell-large";
+import { variants as variantsDumbbellLargeMinimalistic } from "./components/dumbbell-large-minimalistic";
+import { DumbbellLargeMinimalisticBold } from "./components/dumbbell-large-minimalistic";
+import { DumbbellLargeMinimalisticBroken } from "./components/dumbbell-large-minimalistic";
+import { DumbbellLargeMinimalisticBulk } from "./components/dumbbell-large-minimalistic";
+import { DumbbellLargeMinimalisticLinear } from "./components/dumbbell-large-minimalistic";
+import { DumbbellLargeMinimalisticOutline } from "./components/dumbbell-large-minimalistic";
+import { DumbbellLargeMinimalisticTwotone } from "./components/dumbbell-large-minimalistic";
+import { variants as variantsDumbbellSmall } from "./components/dumbbell-small";
+import { DumbbellSmallBold } from "./components/dumbbell-small";
+import { DumbbellSmallBroken } from "./components/dumbbell-small";
+import { DumbbellSmallBulk } from "./components/dumbbell-small";
+import { DumbbellSmallLinear } from "./components/dumbbell-small";
+import { DumbbellSmallOutline } from "./components/dumbbell-small";
+import { DumbbellSmallTwotone } from "./components/dumbbell-small";
+import { variants as variantsDumbbells } from "./components/dumbbells";
+import { DumbbellsBold } from "./components/dumbbells";
+import { DumbbellsBroken } from "./components/dumbbells";
+import { DumbbellsBulk } from "./components/dumbbells";
+import { DumbbellsLinear } from "./components/dumbbells";
+import { DumbbellsOutline } from "./components/dumbbells";
+import { DumbbellsTwotone } from "./components/dumbbells";
+import { variants as variantsDumbbells2 } from "./components/dumbbells-2";
+import { Dumbbells2Bold } from "./components/dumbbells-2";
+import { Dumbbells2Broken } from "./components/dumbbells-2";
+import { Dumbbells2Bulk } from "./components/dumbbells-2";
+import { Dumbbells2Linear } from "./components/dumbbells-2";
+import { Dumbbells2Outline } from "./components/dumbbells-2";
+import { Dumbbells2Twotone } from "./components/dumbbells-2";
+import { variants as variantsFootball } from "./components/football";
+import { FootballBold } from "./components/football";
+import { FootballBroken } from "./components/football";
+import { FootballBulk } from "./components/football";
+import { FootballLinear } from "./components/football";
+import { FootballOutline } from "./components/football";
+import { FootballTwotone } from "./components/football";
+import { variants as variantsGolf } from "./components/golf";
+import { GolfBold } from "./components/golf";
+import { GolfBroken } from "./components/golf";
+import { GolfBulk } from "./components/golf";
+import { GolfLinear } from "./components/golf";
+import { GolfOutline } from "./components/golf";
+import { GolfTwotone } from "./components/golf";
+import { variants as variantsHiking } from "./components/hiking";
+import { HikingBold } from "./components/hiking";
+import { HikingBroken } from "./components/hiking";
+import { HikingBulk } from "./components/hiking";
+import { HikingLinear } from "./components/hiking";
+import { HikingOutline } from "./components/hiking";
+import { HikingTwotone } from "./components/hiking";
+import { variants as variantsHikingMinimalistic } from "./components/hiking-minimalistic";
+import { HikingMinimalisticBold } from "./components/hiking-minimalistic";
+import { HikingMinimalisticBroken } from "./components/hiking-minimalistic";
+import { HikingMinimalisticBulk } from "./components/hiking-minimalistic";
+import { HikingMinimalisticLinear } from "./components/hiking-minimalistic";
+import { HikingMinimalisticOutline } from "./components/hiking-minimalistic";
+import { HikingMinimalisticTwotone } from "./components/hiking-minimalistic";
+import { variants as variantsHikingRound } from "./components/hiking-round";
+import { HikingRoundBold } from "./components/hiking-round";
+import { HikingRoundBroken } from "./components/hiking-round";
+import { HikingRoundBulk } from "./components/hiking-round";
+import { HikingRoundLinear } from "./components/hiking-round";
+import { HikingRoundOutline } from "./components/hiking-round";
+import { HikingRoundTwotone } from "./components/hiking-round";
+import { variants as variantsMeditation } from "./components/meditation";
+import { MeditationBold } from "./components/meditation";
+import { MeditationBroken } from "./components/meditation";
+import { MeditationBulk } from "./components/meditation";
+import { MeditationLinear } from "./components/meditation";
+import { MeditationOutline } from "./components/meditation";
+import { MeditationTwotone } from "./components/meditation";
+import { variants as variantsMeditationRound } from "./components/meditation-round";
+import { MeditationRoundBold } from "./components/meditation-round";
+import { MeditationRoundBroken } from "./components/meditation-round";
+import { MeditationRoundBulk } from "./components/meditation-round";
+import { MeditationRoundLinear } from "./components/meditation-round";
+import { MeditationRoundOutline } from "./components/meditation-round";
+import { MeditationRoundTwotone } from "./components/meditation-round";
+import { variants as variantsSportsRanking } from "./components/sports-ranking";
+import { SportsRankingBold } from "./components/sports-ranking";
+import { SportsRankingBroken } from "./components/sports-ranking";
+import { SportsRankingBulk } from "./components/sports-ranking";
+import { SportsRankingLinear } from "./components/sports-ranking";
+import { SportsRankingOutline } from "./components/sports-ranking";
+import { SportsRankingTwotone } from "./components/sports-ranking";
+import { variants as variantsRugby } from "./components/rugby";
+import { RugbyBold } from "./components/rugby";
+import { RugbyBroken } from "./components/rugby";
+import { RugbyBulk } from "./components/rugby";
+import { RugbyLinear } from "./components/rugby";
+import { RugbyOutline } from "./components/rugby";
+import { RugbyTwotone } from "./components/rugby";
+import { variants as variantsRunning } from "./components/running";
+import { RunningBold } from "./components/running";
+import { RunningBroken } from "./components/running";
+import { RunningBulk } from "./components/running";
+import { RunningLinear } from "./components/running";
+import { RunningOutline } from "./components/running";
+import { RunningTwotone } from "./components/running";
+import { variants as variantsRunning2 } from "./components/running-2";
+import { Running2Bold } from "./components/running-2";
+import { Running2Broken } from "./components/running-2";
+import { Running2Bulk } from "./components/running-2";
+import { Running2Linear } from "./components/running-2";
+import { Running2Outline } from "./components/running-2";
+import { Running2Twotone } from "./components/running-2";
+import { variants as variantsRunningRound } from "./components/running-round";
+import { RunningRoundBold } from "./components/running-round";
+import { RunningRoundBroken } from "./components/running-round";
+import { RunningRoundBulk } from "./components/running-round";
+import { RunningRoundLinear } from "./components/running-round";
+import { RunningRoundOutline } from "./components/running-round";
+import { RunningRoundTwotone } from "./components/running-round";
+import { variants as variantsSkateboard } from "./components/skateboard";
+import { SkateboardBold } from "./components/skateboard";
+import { SkateboardBroken } from "./components/skateboard";
+import { SkateboardBulk } from "./components/skateboard";
+import { SkateboardLinear } from "./components/skateboard";
+import { SkateboardOutline } from "./components/skateboard";
+import { SkateboardTwotone } from "./components/skateboard";
+import { variants as variantsSkateboarding } from "./components/skateboarding";
+import { SkateboardingBold } from "./components/skateboarding";
+import { SkateboardingBroken } from "./components/skateboarding";
+import { SkateboardingBulk } from "./components/skateboarding";
+import { SkateboardingLinear } from "./components/skateboarding";
+import { SkateboardingOutline } from "./components/skateboarding";
+import { SkateboardingTwotone } from "./components/skateboarding";
+import { variants as variantsSkateboardingRound } from "./components/skateboarding-round";
+import { SkateboardingRoundBold } from "./components/skateboarding-round";
+import { SkateboardingRoundBroken } from "./components/skateboarding-round";
+import { SkateboardingRoundBulk } from "./components/skateboarding-round";
+import { SkateboardingRoundLinear } from "./components/skateboarding-round";
+import { SkateboardingRoundOutline } from "./components/skateboarding-round";
+import { SkateboardingRoundTwotone } from "./components/skateboarding-round";
+import { variants as variantsStretching } from "./components/stretching";
+import { StretchingBold } from "./components/stretching";
+import { StretchingBroken } from "./components/stretching";
+import { StretchingBulk } from "./components/stretching";
+import { StretchingLinear } from "./components/stretching";
+import { StretchingOutline } from "./components/stretching";
+import { StretchingTwotone } from "./components/stretching";
+import { variants as variantsStretchingRound } from "./components/stretching-round";
+import { StretchingRoundBold } from "./components/stretching-round";
+import { StretchingRoundBroken } from "./components/stretching-round";
+import { StretchingRoundBulk } from "./components/stretching-round";
+import { StretchingRoundLinear } from "./components/stretching-round";
+import { StretchingRoundOutline } from "./components/stretching-round";
+import { StretchingRoundTwotone } from "./components/stretching-round";
+import { variants as variantsSwimming } from "./components/swimming";
+import { SwimmingBold } from "./components/swimming";
+import { SwimmingBroken } from "./components/swimming";
+import { SwimmingBulk } from "./components/swimming";
+import { SwimmingLinear } from "./components/swimming";
+import { SwimmingOutline } from "./components/swimming";
+import { SwimmingTwotone } from "./components/swimming";
+import { variants as variantsTennis } from "./components/tennis";
+import { TennisBold } from "./components/tennis";
+import { TennisBroken } from "./components/tennis";
+import { TennisBulk } from "./components/tennis";
+import { TennisLinear } from "./components/tennis";
+import { TennisOutline } from "./components/tennis";
+import { TennisTwotone } from "./components/tennis";
+import { variants as variantsTennis2 } from "./components/tennis-2";
+import { Tennis2Bold } from "./components/tennis-2";
+import { Tennis2Broken } from "./components/tennis-2";
+import { Tennis2Bulk } from "./components/tennis-2";
+import { Tennis2Linear } from "./components/tennis-2";
+import { Tennis2Outline } from "./components/tennis-2";
+import { Tennis2Twotone } from "./components/tennis-2";
+import { variants as variantsTreadmill } from "./components/treadmill";
+import { TreadmillBold } from "./components/treadmill";
+import { TreadmillBroken } from "./components/treadmill";
+import { TreadmillBulk } from "./components/treadmill";
+import { TreadmillLinear } from "./components/treadmill";
+import { TreadmillOutline } from "./components/treadmill";
+import { TreadmillTwotone } from "./components/treadmill";
+import { variants as variantsTreadmillRound } from "./components/treadmill-round";
+import { TreadmillRoundBold } from "./components/treadmill-round";
+import { TreadmillRoundBroken } from "./components/treadmill-round";
+import { TreadmillRoundBulk } from "./components/treadmill-round";
+import { TreadmillRoundLinear } from "./components/treadmill-round";
+import { TreadmillRoundOutline } from "./components/treadmill-round";
+import { TreadmillRoundTwotone } from "./components/treadmill-round";
+import { variants as variantsVolleyball } from "./components/volleyball";
+import { VolleyballBold } from "./components/volleyball";
+import { VolleyballBroken } from "./components/volleyball";
+import { VolleyballBulk } from "./components/volleyball";
+import { VolleyballLinear } from "./components/volleyball";
+import { VolleyballOutline } from "./components/volleyball";
+import { VolleyballTwotone } from "./components/volleyball";
+import { variants as variantsVolleyball2 } from "./components/volleyball-2";
+import { Volleyball2Bold } from "./components/volleyball-2";
+import { Volleyball2Broken } from "./components/volleyball-2";
+import { Volleyball2Bulk } from "./components/volleyball-2";
+import { Volleyball2Linear } from "./components/volleyball-2";
+import { Volleyball2Outline } from "./components/volleyball-2";
+import { Volleyball2Twotone } from "./components/volleyball-2";
+import { variants as variantsWalking } from "./components/walking";
+import { WalkingBold } from "./components/walking";
+import { WalkingBroken } from "./components/walking";
+import { WalkingBulk } from "./components/walking";
+import { WalkingLinear } from "./components/walking";
+import { WalkingOutline } from "./components/walking";
+import { WalkingTwotone } from "./components/walking";
+import { variants as variantsWalkingRound } from "./components/walking-round";
+import { WalkingRoundBold } from "./components/walking-round";
+import { WalkingRoundBroken } from "./components/walking-round";
+import { WalkingRoundBulk } from "./components/walking-round";
+import { WalkingRoundLinear } from "./components/walking-round";
+import { WalkingRoundOutline } from "./components/walking-round";
+import { WalkingRoundTwotone } from "./components/walking-round";
+import { variants as variantsWater } from "./components/water";
+import { WaterBold } from "./components/water";
+import { WaterBroken } from "./components/water";
+import { WaterBulk } from "./components/water";
+import { WaterLinear } from "./components/water";
+import { WaterOutline } from "./components/water";
+import { WaterTwotone } from "./components/water";
+import { variants as variantsWaterSun } from "./components/water-sun";
+import { WaterSunBold } from "./components/water-sun";
+import { WaterSunBroken } from "./components/water-sun";
+import { WaterSunBulk } from "./components/water-sun";
+import { WaterSunLinear } from "./components/water-sun";
+import { WaterSunOutline } from "./components/water-sun";
+import { WaterSunTwotone } from "./components/water-sun";
+import { variants as variantsBackspace } from "./components/backspace";
+import { BackspaceBold } from "./components/backspace";
+import { BackspaceBroken } from "./components/backspace";
+import { BackspaceBulk } from "./components/backspace";
+import { BackspaceLinear } from "./components/backspace";
+import { BackspaceOutline } from "./components/backspace";
+import { BackspaceTwotone } from "./components/backspace";
+import { variants as variantsTextFormattingEraser } from "./components/text-formatting-eraser";
+import { TextFormattingEraserBold } from "./components/text-formatting-eraser";
+import { TextFormattingEraserBroken } from "./components/text-formatting-eraser";
+import { TextFormattingEraserBulk } from "./components/text-formatting-eraser";
+import { TextFormattingEraserLinear } from "./components/text-formatting-eraser";
+import { TextFormattingEraserOutline } from "./components/text-formatting-eraser";
+import { TextFormattingEraserTwotone } from "./components/text-formatting-eraser";
+import { variants as variantsEraserCircle } from "./components/eraser-circle";
+import { EraserCircleBold } from "./components/eraser-circle";
+import { EraserCircleBroken } from "./components/eraser-circle";
+import { EraserCircleBulk } from "./components/eraser-circle";
+import { EraserCircleLinear } from "./components/eraser-circle";
+import { EraserCircleOutline } from "./components/eraser-circle";
+import { EraserCircleTwotone } from "./components/eraser-circle";
+import { variants as variantsEraserSquare } from "./components/eraser-square";
+import { EraserSquareBold } from "./components/eraser-square";
+import { EraserSquareBroken } from "./components/eraser-square";
+import { EraserSquareBulk } from "./components/eraser-square";
+import { EraserSquareLinear } from "./components/eraser-square";
+import { EraserSquareOutline } from "./components/eraser-square";
+import { EraserSquareTwotone } from "./components/eraser-square";
+import { variants as variantsTextFormattingLink } from "./components/text-formatting-link";
+import { TextFormattingLinkBold } from "./components/text-formatting-link";
+import { TextFormattingLinkBroken } from "./components/text-formatting-link";
+import { TextFormattingLinkBulk } from "./components/text-formatting-link";
+import { TextFormattingLinkLinear } from "./components/text-formatting-link";
+import { TextFormattingLinkOutline } from "./components/text-formatting-link";
+import { TextFormattingLinkTwotone } from "./components/text-formatting-link";
+import { variants as variantsLinkBroken } from "./components/link-broken";
+import { LinkBrokenBold } from "./components/link-broken";
+import { LinkBrokenBroken } from "./components/link-broken";
+import { LinkBrokenBulk } from "./components/link-broken";
+import { LinkBrokenLinear } from "./components/link-broken";
+import { LinkBrokenOutline } from "./components/link-broken";
+import { LinkBrokenTwotone } from "./components/link-broken";
+import { variants as variantsLinkBrokenMinimalistic } from "./components/link-broken-minimalistic";
+import { LinkBrokenMinimalisticBold } from "./components/link-broken-minimalistic";
+import { LinkBrokenMinimalisticBroken } from "./components/link-broken-minimalistic";
+import { LinkBrokenMinimalisticBulk } from "./components/link-broken-minimalistic";
+import { LinkBrokenMinimalisticLinear } from "./components/link-broken-minimalistic";
+import { LinkBrokenMinimalisticOutline } from "./components/link-broken-minimalistic";
+import { LinkBrokenMinimalisticTwotone } from "./components/link-broken-minimalistic";
+import { variants as variantsTextFormattingLinkCircle } from "./components/text-formatting-link-circle";
+import { TextFormattingLinkCircleBold } from "./components/text-formatting-link-circle";
+import { TextFormattingLinkCircleBroken } from "./components/text-formatting-link-circle";
+import { TextFormattingLinkCircleBulk } from "./components/text-formatting-link-circle";
+import { TextFormattingLinkCircleLinear } from "./components/text-formatting-link-circle";
+import { TextFormattingLinkCircleOutline } from "./components/text-formatting-link-circle";
+import { TextFormattingLinkCircleTwotone } from "./components/text-formatting-link-circle";
+import { variants as variantsLinkMinimalistic } from "./components/link-minimalistic";
+import { LinkMinimalisticBold } from "./components/link-minimalistic";
+import { LinkMinimalisticBroken } from "./components/link-minimalistic";
+import { LinkMinimalisticBulk } from "./components/link-minimalistic";
+import { LinkMinimalisticLinear } from "./components/link-minimalistic";
+import { LinkMinimalisticOutline } from "./components/link-minimalistic";
+import { LinkMinimalisticTwotone } from "./components/link-minimalistic";
+import { variants as variantsLinkMinimalistic2 } from "./components/link-minimalistic-2";
+import { LinkMinimalistic2Bold } from "./components/link-minimalistic-2";
+import { LinkMinimalistic2Broken } from "./components/link-minimalistic-2";
+import { LinkMinimalistic2Bulk } from "./components/link-minimalistic-2";
+import { LinkMinimalistic2Linear } from "./components/link-minimalistic-2";
+import { LinkMinimalistic2Outline } from "./components/link-minimalistic-2";
+import { LinkMinimalistic2Twotone } from "./components/link-minimalistic-2";
+import { variants as variantsLinkRound } from "./components/link-round";
+import { LinkRoundBold } from "./components/link-round";
+import { LinkRoundBroken } from "./components/link-round";
+import { LinkRoundBulk } from "./components/link-round";
+import { LinkRoundLinear } from "./components/link-round";
+import { LinkRoundOutline } from "./components/link-round";
+import { LinkRoundTwotone } from "./components/link-round";
+import { variants as variantsLinkRoundAngle } from "./components/link-round-angle";
+import { LinkRoundAngleBold } from "./components/link-round-angle";
+import { LinkRoundAngleBroken } from "./components/link-round-angle";
+import { LinkRoundAngleBulk } from "./components/link-round-angle";
+import { LinkRoundAngleLinear } from "./components/link-round-angle";
+import { LinkRoundAngleOutline } from "./components/link-round-angle";
+import { LinkRoundAngleTwotone } from "./components/link-round-angle";
+import { variants as variantsTextFormattingLinkSquare } from "./components/text-formatting-link-square";
+import { TextFormattingLinkSquareBold } from "./components/text-formatting-link-square";
+import { TextFormattingLinkSquareBroken } from "./components/text-formatting-link-square";
+import { TextFormattingLinkSquareBulk } from "./components/text-formatting-link-square";
+import { TextFormattingLinkSquareLinear } from "./components/text-formatting-link-square";
+import { TextFormattingLinkSquareOutline } from "./components/text-formatting-link-square";
+import { TextFormattingLinkSquareTwotone } from "./components/text-formatting-link-square";
+import { variants as variantsParagraphSpacing } from "./components/paragraph-spacing";
+import { ParagraphSpacingBold } from "./components/paragraph-spacing";
+import { ParagraphSpacingBroken } from "./components/paragraph-spacing";
+import { ParagraphSpacingBulk } from "./components/paragraph-spacing";
+import { ParagraphSpacingLinear } from "./components/paragraph-spacing";
+import { ParagraphSpacingOutline } from "./components/paragraph-spacing";
+import { ParagraphSpacingTwotone } from "./components/paragraph-spacing";
+import { variants as variantsTextFormattingText } from "./components/text-formatting-text";
+import { TextFormattingTextBold } from "./components/text-formatting-text";
+import { TextFormattingTextBroken } from "./components/text-formatting-text";
+import { TextFormattingTextBulk } from "./components/text-formatting-text";
+import { TextFormattingTextLinear } from "./components/text-formatting-text";
+import { TextFormattingTextOutline } from "./components/text-formatting-text";
+import { TextFormattingTextTwotone } from "./components/text-formatting-text";
+import { variants as variantsTextFormattingTextBold } from "./components/text-formatting-text-bold";
+import { TextFormattingTextBoldBold } from "./components/text-formatting-text-bold";
+import { TextFormattingTextBoldBroken } from "./components/text-formatting-text-bold";
+import { TextFormattingTextBoldBulk } from "./components/text-formatting-text-bold";
+import { TextFormattingTextBoldLinear } from "./components/text-formatting-text-bold";
+import { TextFormattingTextBoldOutline } from "./components/text-formatting-text-bold";
+import { TextFormattingTextBoldTwotone } from "./components/text-formatting-text-bold";
+import { variants as variantsTextBoldCircle } from "./components/text-bold-circle";
+import { TextBoldCircleBold } from "./components/text-bold-circle";
+import { TextBoldCircleBroken } from "./components/text-bold-circle";
+import { TextBoldCircleBulk } from "./components/text-bold-circle";
+import { TextBoldCircleLinear } from "./components/text-bold-circle";
+import { TextBoldCircleOutline } from "./components/text-bold-circle";
+import { TextBoldCircleTwotone } from "./components/text-bold-circle";
+import { variants as variantsTextBoldSquare } from "./components/text-bold-square";
+import { TextBoldSquareBold } from "./components/text-bold-square";
+import { TextBoldSquareBroken } from "./components/text-bold-square";
+import { TextBoldSquareBulk } from "./components/text-bold-square";
+import { TextBoldSquareLinear } from "./components/text-bold-square";
+import { TextBoldSquareOutline } from "./components/text-bold-square";
+import { TextBoldSquareTwotone } from "./components/text-bold-square";
+import { variants as variantsTextCircle } from "./components/text-circle";
+import { TextCircleBold } from "./components/text-circle";
+import { TextCircleBroken } from "./components/text-circle";
+import { TextCircleBulk } from "./components/text-circle";
+import { TextCircleLinear } from "./components/text-circle";
+import { TextCircleOutline } from "./components/text-circle";
+import { TextCircleTwotone } from "./components/text-circle";
+import { variants as variantsTextCross } from "./components/text-cross";
+import { TextCrossBold } from "./components/text-cross";
+import { TextCrossBroken } from "./components/text-cross";
+import { TextCrossBulk } from "./components/text-cross";
+import { TextCrossLinear } from "./components/text-cross";
+import { TextCrossOutline } from "./components/text-cross";
+import { TextCrossTwotone } from "./components/text-cross";
+import { variants as variantsTextCrossCircle } from "./components/text-cross-circle";
+import { TextCrossCircleBold } from "./components/text-cross-circle";
+import { TextCrossCircleBroken } from "./components/text-cross-circle";
+import { TextCrossCircleBulk } from "./components/text-cross-circle";
+import { TextCrossCircleLinear } from "./components/text-cross-circle";
+import { TextCrossCircleOutline } from "./components/text-cross-circle";
+import { TextCrossCircleTwotone } from "./components/text-cross-circle";
+import { variants as variantsTextCrossSquare } from "./components/text-cross-square";
+import { TextCrossSquareBold } from "./components/text-cross-square";
+import { TextCrossSquareBroken } from "./components/text-cross-square";
+import { TextCrossSquareBulk } from "./components/text-cross-square";
+import { TextCrossSquareLinear } from "./components/text-cross-square";
+import { TextCrossSquareOutline } from "./components/text-cross-square";
+import { TextCrossSquareTwotone } from "./components/text-cross-square";
+import { variants as variantsTextField } from "./components/text-field";
+import { TextFieldBold } from "./components/text-field";
+import { TextFieldBroken } from "./components/text-field";
+import { TextFieldBulk } from "./components/text-field";
+import { TextFieldLinear } from "./components/text-field";
+import { TextFieldOutline } from "./components/text-field";
+import { TextFieldTwotone } from "./components/text-field";
+import { variants as variantsTextFieldFocus } from "./components/text-field-focus";
+import { TextFieldFocusBold } from "./components/text-field-focus";
+import { TextFieldFocusBroken } from "./components/text-field-focus";
+import { TextFieldFocusBulk } from "./components/text-field-focus";
+import { TextFieldFocusLinear } from "./components/text-field-focus";
+import { TextFieldFocusOutline } from "./components/text-field-focus";
+import { TextFieldFocusTwotone } from "./components/text-field-focus";
+import { variants as variantsTextFormattingTextItalic } from "./components/text-formatting-text-italic";
+import { TextFormattingTextItalicBold } from "./components/text-formatting-text-italic";
+import { TextFormattingTextItalicBroken } from "./components/text-formatting-text-italic";
+import { TextFormattingTextItalicBulk } from "./components/text-formatting-text-italic";
+import { TextFormattingTextItalicLinear } from "./components/text-formatting-text-italic";
+import { TextFormattingTextItalicOutline } from "./components/text-formatting-text-italic";
+import { TextFormattingTextItalicTwotone } from "./components/text-formatting-text-italic";
+import { variants as variantsTextItalicCircle } from "./components/text-italic-circle";
+import { TextItalicCircleBold } from "./components/text-italic-circle";
+import { TextItalicCircleBroken } from "./components/text-italic-circle";
+import { TextItalicCircleBulk } from "./components/text-italic-circle";
+import { TextItalicCircleLinear } from "./components/text-italic-circle";
+import { TextItalicCircleOutline } from "./components/text-italic-circle";
+import { TextItalicCircleTwotone } from "./components/text-italic-circle";
+import { variants as variantsTextItalicSquare } from "./components/text-italic-square";
+import { TextItalicSquareBold } from "./components/text-italic-square";
+import { TextItalicSquareBroken } from "./components/text-italic-square";
+import { TextItalicSquareBulk } from "./components/text-italic-square";
+import { TextItalicSquareLinear } from "./components/text-italic-square";
+import { TextItalicSquareOutline } from "./components/text-italic-square";
+import { TextItalicSquareTwotone } from "./components/text-italic-square";
+import { variants as variantsTextSelection } from "./components/text-selection";
+import { TextSelectionBold } from "./components/text-selection";
+import { TextSelectionBroken } from "./components/text-selection";
+import { TextSelectionBulk } from "./components/text-selection";
+import { TextSelectionLinear } from "./components/text-selection";
+import { TextSelectionOutline } from "./components/text-selection";
+import { TextSelectionTwotone } from "./components/text-selection";
+import { variants as variantsTextSquare } from "./components/text-square";
+import { TextSquareBold } from "./components/text-square";
+import { TextSquareBroken } from "./components/text-square";
+import { TextSquareBulk } from "./components/text-square";
+import { TextSquareLinear } from "./components/text-square";
+import { TextSquareOutline } from "./components/text-square";
+import { TextSquareTwotone } from "./components/text-square";
+import { variants as variantsTextSquare2 } from "./components/text-square-2";
+import { TextSquare2Bold } from "./components/text-square-2";
+import { TextSquare2Broken } from "./components/text-square-2";
+import { TextSquare2Bulk } from "./components/text-square-2";
+import { TextSquare2Linear } from "./components/text-square-2";
+import { TextSquare2Outline } from "./components/text-square-2";
+import { TextSquare2Twotone } from "./components/text-square-2";
+import { variants as variantsTextFormattingTextUnderline } from "./components/text-formatting-text-underline";
+import { TextFormattingTextUnderlineBold } from "./components/text-formatting-text-underline";
+import { TextFormattingTextUnderlineBroken } from "./components/text-formatting-text-underline";
+import { TextFormattingTextUnderlineBulk } from "./components/text-formatting-text-underline";
+import { TextFormattingTextUnderlineLinear } from "./components/text-formatting-text-underline";
+import { TextFormattingTextUnderlineOutline } from "./components/text-formatting-text-underline";
+import { TextFormattingTextUnderlineTwotone } from "./components/text-formatting-text-underline";
+import { variants as variantsTextUnderlineCircle } from "./components/text-underline-circle";
+import { TextUnderlineCircleBold } from "./components/text-underline-circle";
+import { TextUnderlineCircleBroken } from "./components/text-underline-circle";
+import { TextUnderlineCircleBulk } from "./components/text-underline-circle";
+import { TextUnderlineCircleLinear } from "./components/text-underline-circle";
+import { TextUnderlineCircleOutline } from "./components/text-underline-circle";
+import { TextUnderlineCircleTwotone } from "./components/text-underline-circle";
+import { variants as variantsTextUnderlineCross } from "./components/text-underline-cross";
+import { TextUnderlineCrossBold } from "./components/text-underline-cross";
+import { TextUnderlineCrossBroken } from "./components/text-underline-cross";
+import { TextUnderlineCrossBulk } from "./components/text-underline-cross";
+import { TextUnderlineCrossLinear } from "./components/text-underline-cross";
+import { TextUnderlineCrossOutline } from "./components/text-underline-cross";
+import { TextUnderlineCrossTwotone } from "./components/text-underline-cross";
+import { variants as variantsTimeAlarm } from "./components/time-alarm";
+import { TimeAlarmBold } from "./components/time-alarm";
+import { TimeAlarmBroken } from "./components/time-alarm";
+import { TimeAlarmBulk } from "./components/time-alarm";
+import { TimeAlarmLinear } from "./components/time-alarm";
+import { TimeAlarmOutline } from "./components/time-alarm";
+import { TimeAlarmTwotone } from "./components/time-alarm";
+import { variants as variantsAlarmAdd } from "./components/alarm-add";
+import { AlarmAddBold } from "./components/alarm-add";
+import { AlarmAddBroken } from "./components/alarm-add";
+import { AlarmAddBulk } from "./components/alarm-add";
+import { AlarmAddLinear } from "./components/alarm-add";
+import { AlarmAddOutline } from "./components/alarm-add";
+import { AlarmAddTwotone } from "./components/alarm-add";
+import { variants as variantsAlarmPause } from "./components/alarm-pause";
+import { AlarmPauseBold } from "./components/alarm-pause";
+import { AlarmPauseBroken } from "./components/alarm-pause";
+import { AlarmPauseBulk } from "./components/alarm-pause";
+import { AlarmPauseLinear } from "./components/alarm-pause";
+import { AlarmPauseOutline } from "./components/alarm-pause";
+import { AlarmPauseTwotone } from "./components/alarm-pause";
+import { variants as variantsAlarmPlay } from "./components/alarm-play";
+import { AlarmPlayBold } from "./components/alarm-play";
+import { AlarmPlayBroken } from "./components/alarm-play";
+import { AlarmPlayBulk } from "./components/alarm-play";
+import { AlarmPlayLinear } from "./components/alarm-play";
+import { AlarmPlayOutline } from "./components/alarm-play";
+import { AlarmPlayTwotone } from "./components/alarm-play";
+import { variants as variantsAlarmRemove } from "./components/alarm-remove";
+import { AlarmRemoveBold } from "./components/alarm-remove";
+import { AlarmRemoveBroken } from "./components/alarm-remove";
+import { AlarmRemoveBulk } from "./components/alarm-remove";
+import { AlarmRemoveLinear } from "./components/alarm-remove";
+import { AlarmRemoveOutline } from "./components/alarm-remove";
+import { AlarmRemoveTwotone } from "./components/alarm-remove";
+import { variants as variantsAlarmSleep } from "./components/alarm-sleep";
+import { AlarmSleepBold } from "./components/alarm-sleep";
+import { AlarmSleepBroken } from "./components/alarm-sleep";
+import { AlarmSleepBulk } from "./components/alarm-sleep";
+import { AlarmSleepLinear } from "./components/alarm-sleep";
+import { AlarmSleepOutline } from "./components/alarm-sleep";
+import { AlarmSleepTwotone } from "./components/alarm-sleep";
+import { variants as variantsAlarmTurnOff } from "./components/alarm-turn-off";
+import { AlarmTurnOffBold } from "./components/alarm-turn-off";
+import { AlarmTurnOffBroken } from "./components/alarm-turn-off";
+import { AlarmTurnOffBulk } from "./components/alarm-turn-off";
+import { AlarmTurnOffLinear } from "./components/alarm-turn-off";
+import { AlarmTurnOffOutline } from "./components/alarm-turn-off";
+import { AlarmTurnOffTwotone } from "./components/alarm-turn-off";
+import { variants as variantsTimeCalendar } from "./components/time-calendar";
+import { TimeCalendarBold } from "./components/time-calendar";
+import { TimeCalendarBroken } from "./components/time-calendar";
+import { TimeCalendarBulk } from "./components/time-calendar";
+import { TimeCalendarLinear } from "./components/time-calendar";
+import { TimeCalendarOutline } from "./components/time-calendar";
+import { TimeCalendarTwotone } from "./components/time-calendar";
+import { variants as variantsTimeCalendarAdd } from "./components/time-calendar-add";
+import { TimeCalendarAddBold } from "./components/time-calendar-add";
+import { TimeCalendarAddBroken } from "./components/time-calendar-add";
+import { TimeCalendarAddBulk } from "./components/time-calendar-add";
+import { TimeCalendarAddLinear } from "./components/time-calendar-add";
+import { TimeCalendarAddOutline } from "./components/time-calendar-add";
+import { TimeCalendarAddTwotone } from "./components/time-calendar-add";
+import { variants as variantsCalendarDate } from "./components/calendar-date";
+import { CalendarDateBold } from "./components/calendar-date";
+import { CalendarDateBroken } from "./components/calendar-date";
+import { CalendarDateBulk } from "./components/calendar-date";
+import { CalendarDateLinear } from "./components/calendar-date";
+import { CalendarDateOutline } from "./components/calendar-date";
+import { CalendarDateTwotone } from "./components/calendar-date";
+import { variants as variantsCalendarMark } from "./components/calendar-mark";
+import { CalendarMarkBold } from "./components/calendar-mark";
+import { CalendarMarkBroken } from "./components/calendar-mark";
+import { CalendarMarkBulk } from "./components/calendar-mark";
+import { CalendarMarkLinear } from "./components/calendar-mark";
+import { CalendarMarkOutline } from "./components/calendar-mark";
+import { CalendarMarkTwotone } from "./components/calendar-mark";
+import { variants as variantsCalendarMinimalistic } from "./components/calendar-minimalistic";
+import { CalendarMinimalisticBold } from "./components/calendar-minimalistic";
+import { CalendarMinimalisticBroken } from "./components/calendar-minimalistic";
+import { CalendarMinimalisticBulk } from "./components/calendar-minimalistic";
+import { CalendarMinimalisticLinear } from "./components/calendar-minimalistic";
+import { CalendarMinimalisticOutline } from "./components/calendar-minimalistic";
+import { CalendarMinimalisticTwotone } from "./components/calendar-minimalistic";
+import { variants as variantsTimeCalendarSearch } from "./components/time-calendar-search";
+import { TimeCalendarSearchBold } from "./components/time-calendar-search";
+import { TimeCalendarSearchBroken } from "./components/time-calendar-search";
+import { TimeCalendarSearchBulk } from "./components/time-calendar-search";
+import { TimeCalendarSearchLinear } from "./components/time-calendar-search";
+import { TimeCalendarSearchOutline } from "./components/time-calendar-search";
+import { TimeCalendarSearchTwotone } from "./components/time-calendar-search";
+import { variants as variantsClockCircle } from "./components/clock-circle";
+import { ClockCircleBold } from "./components/clock-circle";
+import { ClockCircleBroken } from "./components/clock-circle";
+import { ClockCircleBulk } from "./components/clock-circle";
+import { ClockCircleLinear } from "./components/clock-circle";
+import { ClockCircleOutline } from "./components/clock-circle";
+import { ClockCircleTwotone } from "./components/clock-circle";
+import { variants as variantsClockSquare } from "./components/clock-square";
+import { ClockSquareBold } from "./components/clock-square";
+import { ClockSquareBroken } from "./components/clock-square";
+import { ClockSquareBulk } from "./components/clock-square";
+import { ClockSquareLinear } from "./components/clock-square";
+import { ClockSquareOutline } from "./components/clock-square";
+import { ClockSquareTwotone } from "./components/clock-square";
+import { variants as variantsHistory } from "./components/history";
+import { HistoryBold } from "./components/history";
+import { HistoryBroken } from "./components/history";
+import { HistoryBulk } from "./components/history";
+import { HistoryLinear } from "./components/history";
+import { HistoryOutline } from "./components/history";
+import { HistoryTwotone } from "./components/history";
+import { variants as variantsHistory2 } from "./components/history-2";
+import { History2Bold } from "./components/history-2";
+import { History2Broken } from "./components/history-2";
+import { History2Bulk } from "./components/history-2";
+import { History2Linear } from "./components/history-2";
+import { History2Outline } from "./components/history-2";
+import { History2Twotone } from "./components/history-2";
+import { variants as variantsHistory3 } from "./components/history-3";
+import { History3Bold } from "./components/history-3";
+import { History3Broken } from "./components/history-3";
+import { History3Bulk } from "./components/history-3";
+import { History3Linear } from "./components/history-3";
+import { History3Outline } from "./components/history-3";
+import { History3Twotone } from "./components/history-3";
+import { variants as variantsHourglass } from "./components/hourglass";
+import { HourglassBold } from "./components/hourglass";
+import { HourglassBroken } from "./components/hourglass";
+import { HourglassBulk } from "./components/hourglass";
+import { HourglassLinear } from "./components/hourglass";
+import { HourglassOutline } from "./components/hourglass";
+import { HourglassTwotone } from "./components/hourglass";
+import { variants as variantsHourglassLine } from "./components/hourglass-line";
+import { HourglassLineBold } from "./components/hourglass-line";
+import { HourglassLineBroken } from "./components/hourglass-line";
+import { HourglassLineBulk } from "./components/hourglass-line";
+import { HourglassLineLinear } from "./components/hourglass-line";
+import { HourglassLineOutline } from "./components/hourglass-line";
+import { HourglassLineTwotone } from "./components/hourglass-line";
+import { variants as variantsStopwatch } from "./components/stopwatch";
+import { StopwatchBold } from "./components/stopwatch";
+import { StopwatchBroken } from "./components/stopwatch";
+import { StopwatchBulk } from "./components/stopwatch";
+import { StopwatchLinear } from "./components/stopwatch";
+import { StopwatchOutline } from "./components/stopwatch";
+import { StopwatchTwotone } from "./components/stopwatch";
+import { variants as variantsStopwatchPause } from "./components/stopwatch-pause";
+import { StopwatchPauseBold } from "./components/stopwatch-pause";
+import { StopwatchPauseBroken } from "./components/stopwatch-pause";
+import { StopwatchPauseBulk } from "./components/stopwatch-pause";
+import { StopwatchPauseLinear } from "./components/stopwatch-pause";
+import { StopwatchPauseOutline } from "./components/stopwatch-pause";
+import { StopwatchPauseTwotone } from "./components/stopwatch-pause";
+import { variants as variantsStopwatchPlay } from "./components/stopwatch-play";
+import { StopwatchPlayBold } from "./components/stopwatch-play";
+import { StopwatchPlayBroken } from "./components/stopwatch-play";
+import { StopwatchPlayBulk } from "./components/stopwatch-play";
+import { StopwatchPlayLinear } from "./components/stopwatch-play";
+import { StopwatchPlayOutline } from "./components/stopwatch-play";
+import { StopwatchPlayTwotone } from "./components/stopwatch-play";
+import { variants as variantsWatchRound } from "./components/watch-round";
+import { WatchRoundBold } from "./components/watch-round";
+import { WatchRoundBroken } from "./components/watch-round";
+import { WatchRoundBulk } from "./components/watch-round";
+import { WatchRoundLinear } from "./components/watch-round";
+import { WatchRoundOutline } from "./components/watch-round";
+import { WatchRoundTwotone } from "./components/watch-round";
+import { variants as variantsWatchSquare } from "./components/watch-square";
+import { WatchSquareBold } from "./components/watch-square";
+import { WatchSquareBroken } from "./components/watch-square";
+import { WatchSquareBulk } from "./components/watch-square";
+import { WatchSquareLinear } from "./components/watch-square";
+import { WatchSquareOutline } from "./components/watch-square";
+import { WatchSquareTwotone } from "./components/watch-square";
+import { variants as variantsWatchSquareMinimalistic } from "./components/watch-square-minimalistic";
+import { WatchSquareMinimalisticBold } from "./components/watch-square-minimalistic";
+import { WatchSquareMinimalisticBroken } from "./components/watch-square-minimalistic";
+import { WatchSquareMinimalisticBulk } from "./components/watch-square-minimalistic";
+import { WatchSquareMinimalisticLinear } from "./components/watch-square-minimalistic";
+import { WatchSquareMinimalisticOutline } from "./components/watch-square-minimalistic";
+import { WatchSquareMinimalisticTwotone } from "./components/watch-square-minimalistic";
+import { variants as variantsWatchSquareMinimalisticCharge } from "./components/watch-square-minimalistic-charge";
+import { WatchSquareMinimalisticChargeBold } from "./components/watch-square-minimalistic-charge";
+import { WatchSquareMinimalisticChargeBroken } from "./components/watch-square-minimalistic-charge";
+import { WatchSquareMinimalisticChargeBulk } from "./components/watch-square-minimalistic-charge";
+import { WatchSquareMinimalisticChargeLinear } from "./components/watch-square-minimalistic-charge";
+import { WatchSquareMinimalisticChargeOutline } from "./components/watch-square-minimalistic-charge";
+import { WatchSquareMinimalisticChargeTwotone } from "./components/watch-square-minimalistic-charge";
+import { variants as variantsToolsAlignBottom } from "./components/tools-align-bottom";
+import { ToolsAlignBottomBold } from "./components/tools-align-bottom";
+import { ToolsAlignBottomBroken } from "./components/tools-align-bottom";
+import { ToolsAlignBottomBulk } from "./components/tools-align-bottom";
+import { ToolsAlignBottomLinear } from "./components/tools-align-bottom";
+import { ToolsAlignBottomOutline } from "./components/tools-align-bottom";
+import { ToolsAlignBottomTwotone } from "./components/tools-align-bottom";
+import { variants as variantsAlignHorizontalCenter } from "./components/align-horizontal-center";
+import { AlignHorizontalCenterBold } from "./components/align-horizontal-center";
+import { AlignHorizontalCenterBroken } from "./components/align-horizontal-center";
+import { AlignHorizontalCenterBulk } from "./components/align-horizontal-center";
+import { AlignHorizontalCenterLinear } from "./components/align-horizontal-center";
+import { AlignHorizontalCenterOutline } from "./components/align-horizontal-center";
+import { AlignHorizontalCenterTwotone } from "./components/align-horizontal-center";
+import { variants as variantsAlignHorizontalSpacing } from "./components/align-horizontal-spacing";
+import { AlignHorizontalSpacingBold } from "./components/align-horizontal-spacing";
+import { AlignHorizontalSpacingBroken } from "./components/align-horizontal-spacing";
+import { AlignHorizontalSpacingBulk } from "./components/align-horizontal-spacing";
+import { AlignHorizontalSpacingLinear } from "./components/align-horizontal-spacing";
+import { AlignHorizontalSpacingOutline } from "./components/align-horizontal-spacing";
+import { AlignHorizontalSpacingTwotone } from "./components/align-horizontal-spacing";
+import { variants as variantsToolsAlignLeft } from "./components/tools-align-left";
+import { ToolsAlignLeftBold } from "./components/tools-align-left";
+import { ToolsAlignLeftBroken } from "./components/tools-align-left";
+import { ToolsAlignLeftBulk } from "./components/tools-align-left";
+import { ToolsAlignLeftLinear } from "./components/tools-align-left";
+import { ToolsAlignLeftOutline } from "./components/tools-align-left";
+import { ToolsAlignLeftTwotone } from "./components/tools-align-left";
+import { variants as variantsToolsAlignRight } from "./components/tools-align-right";
+import { ToolsAlignRightBold } from "./components/tools-align-right";
+import { ToolsAlignRightBroken } from "./components/tools-align-right";
+import { ToolsAlignRightBulk } from "./components/tools-align-right";
+import { ToolsAlignRightLinear } from "./components/tools-align-right";
+import { ToolsAlignRightOutline } from "./components/tools-align-right";
+import { ToolsAlignRightTwotone } from "./components/tools-align-right";
+import { variants as variantsAlignTop } from "./components/align-top";
+import { AlignTopBold } from "./components/align-top";
+import { AlignTopBroken } from "./components/align-top";
+import { AlignTopBulk } from "./components/align-top";
+import { AlignTopLinear } from "./components/align-top";
+import { AlignTopOutline } from "./components/align-top";
+import { AlignTopTwotone } from "./components/align-top";
+import { variants as variantsAlignVerticalCenter } from "./components/align-vertical-center";
+import { AlignVerticalCenterBold } from "./components/align-vertical-center";
+import { AlignVerticalCenterBroken } from "./components/align-vertical-center";
+import { AlignVerticalCenterBulk } from "./components/align-vertical-center";
+import { AlignVerticalCenterLinear } from "./components/align-vertical-center";
+import { AlignVerticalCenterOutline } from "./components/align-vertical-center";
+import { AlignVerticalCenterTwotone } from "./components/align-vertical-center";
+import { variants as variantsAlignVerticalSpacing } from "./components/align-vertical-spacing";
+import { AlignVerticalSpacingBold } from "./components/align-vertical-spacing";
+import { AlignVerticalSpacingBroken } from "./components/align-vertical-spacing";
+import { AlignVerticalSpacingBulk } from "./components/align-vertical-spacing";
+import { AlignVerticalSpacingLinear } from "./components/align-vertical-spacing";
+import { AlignVerticalSpacingOutline } from "./components/align-vertical-spacing";
+import { AlignVerticalSpacingTwotone } from "./components/align-vertical-spacing";
+import { variants as variantsColourTuning } from "./components/colour-tuning";
+import { ColourTuningBold } from "./components/colour-tuning";
+import { ColourTuningBroken } from "./components/colour-tuning";
+import { ColourTuningBulk } from "./components/colour-tuning";
+import { ColourTuningLinear } from "./components/colour-tuning";
+import { ColourTuningOutline } from "./components/colour-tuning";
+import { ColourTuningTwotone } from "./components/colour-tuning";
+import { variants as variantsToolsCrop } from "./components/tools-crop";
+import { ToolsCropBold } from "./components/tools-crop";
+import { ToolsCropBroken } from "./components/tools-crop";
+import { ToolsCropBulk } from "./components/tools-crop";
+import { ToolsCropLinear } from "./components/tools-crop";
+import { ToolsCropOutline } from "./components/tools-crop";
+import { ToolsCropTwotone } from "./components/tools-crop";
+import { variants as variantsCropMinimalistic } from "./components/crop-minimalistic";
+import { CropMinimalisticBold } from "./components/crop-minimalistic";
+import { CropMinimalisticBroken } from "./components/crop-minimalistic";
+import { CropMinimalisticBulk } from "./components/crop-minimalistic";
+import { CropMinimalisticLinear } from "./components/crop-minimalistic";
+import { CropMinimalisticOutline } from "./components/crop-minimalistic";
+import { CropMinimalisticTwotone } from "./components/crop-minimalistic";
+import { variants as variantsFilters } from "./components/filters";
+import { FiltersBold } from "./components/filters";
+import { FiltersBroken } from "./components/filters";
+import { FiltersBulk } from "./components/filters";
+import { FiltersLinear } from "./components/filters";
+import { FiltersOutline } from "./components/filters";
+import { FiltersTwotone } from "./components/filters";
+import { variants as variantsFlipHorizontal } from "./components/flip-horizontal";
+import { FlipHorizontalBold } from "./components/flip-horizontal";
+import { FlipHorizontalBroken } from "./components/flip-horizontal";
+import { FlipHorizontalBulk } from "./components/flip-horizontal";
+import { FlipHorizontalLinear } from "./components/flip-horizontal";
+import { FlipHorizontalOutline } from "./components/flip-horizontal";
+import { FlipHorizontalTwotone } from "./components/flip-horizontal";
+import { variants as variantsFlipVertical } from "./components/flip-vertical";
+import { FlipVerticalBold } from "./components/flip-vertical";
+import { FlipVerticalBroken } from "./components/flip-vertical";
+import { FlipVerticalBulk } from "./components/flip-vertical";
+import { FlipVerticalLinear } from "./components/flip-vertical";
+import { FlipVerticalOutline } from "./components/flip-vertical";
+import { FlipVerticalTwotone } from "./components/flip-vertical";
+import { variants as variantsLayers } from "./components/layers";
+import { LayersBold } from "./components/layers";
+import { LayersBroken } from "./components/layers";
+import { LayersBulk } from "./components/layers";
+import { LayersLinear } from "./components/layers";
+import { LayersOutline } from "./components/layers";
+import { LayersTwotone } from "./components/layers";
+import { variants as variantsLayersMinimalistic } from "./components/layers-minimalistic";
+import { LayersMinimalisticBold } from "./components/layers-minimalistic";
+import { LayersMinimalisticBroken } from "./components/layers-minimalistic";
+import { LayersMinimalisticBulk } from "./components/layers-minimalistic";
+import { LayersMinimalisticLinear } from "./components/layers-minimalistic";
+import { LayersMinimalisticOutline } from "./components/layers-minimalistic";
+import { LayersMinimalisticTwotone } from "./components/layers-minimalistic";
+import { variants as variantsMirrorLeft } from "./components/mirror-left";
+import { MirrorLeftBold } from "./components/mirror-left";
+import { MirrorLeftBroken } from "./components/mirror-left";
+import { MirrorLeftBulk } from "./components/mirror-left";
+import { MirrorLeftLinear } from "./components/mirror-left";
+import { MirrorLeftOutline } from "./components/mirror-left";
+import { MirrorLeftTwotone } from "./components/mirror-left";
+import { variants as variantsMirrorRight } from "./components/mirror-right";
+import { MirrorRightBold } from "./components/mirror-right";
+import { MirrorRightBroken } from "./components/mirror-right";
+import { MirrorRightBulk } from "./components/mirror-right";
+import { MirrorRightLinear } from "./components/mirror-right";
+import { MirrorRightOutline } from "./components/mirror-right";
+import { MirrorRightTwotone } from "./components/mirror-right";
+import { variants as variantsPaintRoller } from "./components/paint-roller";
+import { PaintRollerBold } from "./components/paint-roller";
+import { PaintRollerBroken } from "./components/paint-roller";
+import { PaintRollerBulk } from "./components/paint-roller";
+import { PaintRollerLinear } from "./components/paint-roller";
+import { PaintRollerOutline } from "./components/paint-roller";
+import { PaintRollerTwotone } from "./components/paint-roller";
+import { variants as variantsPalette } from "./components/palette";
+import { PaletteBold } from "./components/palette";
+import { PaletteBroken } from "./components/palette";
+import { PaletteBulk } from "./components/palette";
+import { PaletteLinear } from "./components/palette";
+import { PaletteOutline } from "./components/palette";
+import { PaletteTwotone } from "./components/palette";
+import { variants as variantsPalette2 } from "./components/palette-2";
+import { Palette2Bold } from "./components/palette-2";
+import { Palette2Broken } from "./components/palette-2";
+import { Palette2Bulk } from "./components/palette-2";
+import { Palette2Linear } from "./components/palette-2";
+import { Palette2Outline } from "./components/palette-2";
+import { Palette2Twotone } from "./components/palette-2";
+import { variants as variantsPaletteRound } from "./components/palette-round";
+import { PaletteRoundBold } from "./components/palette-round";
+import { PaletteRoundBroken } from "./components/palette-round";
+import { PaletteRoundBulk } from "./components/palette-round";
+import { PaletteRoundLinear } from "./components/palette-round";
+import { PaletteRoundOutline } from "./components/palette-round";
+import { PaletteRoundTwotone } from "./components/palette-round";
+import { variants as variantsPipette } from "./components/pipette";
+import { PipetteBold } from "./components/pipette";
+import { PipetteBroken } from "./components/pipette";
+import { PipetteBulk } from "./components/pipette";
+import { PipetteLinear } from "./components/pipette";
+import { PipetteOutline } from "./components/pipette";
+import { PipetteTwotone } from "./components/pipette";
+import { variants as variantsRadialBlur } from "./components/radial-blur";
+import { RadialBlurBold } from "./components/radial-blur";
+import { RadialBlurBroken } from "./components/radial-blur";
+import { RadialBlurBulk } from "./components/radial-blur";
+import { RadialBlurLinear } from "./components/radial-blur";
+import { RadialBlurOutline } from "./components/radial-blur";
+import { RadialBlurTwotone } from "./components/radial-blur";
+import { variants as variantsToolsRuler } from "./components/tools-ruler";
+import { ToolsRulerBold } from "./components/tools-ruler";
+import { ToolsRulerBroken } from "./components/tools-ruler";
+import { ToolsRulerBulk } from "./components/tools-ruler";
+import { ToolsRulerLinear } from "./components/tools-ruler";
+import { ToolsRulerOutline } from "./components/tools-ruler";
+import { ToolsRulerTwotone } from "./components/tools-ruler";
+import { variants as variantsRulerAngular } from "./components/ruler-angular";
+import { RulerAngularBold } from "./components/ruler-angular";
+import { RulerAngularBroken } from "./components/ruler-angular";
+import { RulerAngularBulk } from "./components/ruler-angular";
+import { RulerAngularLinear } from "./components/ruler-angular";
+import { RulerAngularOutline } from "./components/ruler-angular";
+import { RulerAngularTwotone } from "./components/ruler-angular";
+import { variants as variantsRulerCrossPen } from "./components/ruler-cross-pen";
+import { RulerCrossPenBold } from "./components/ruler-cross-pen";
+import { RulerCrossPenBroken } from "./components/ruler-cross-pen";
+import { RulerCrossPenBulk } from "./components/ruler-cross-pen";
+import { RulerCrossPenLinear } from "./components/ruler-cross-pen";
+import { RulerCrossPenOutline } from "./components/ruler-cross-pen";
+import { RulerCrossPenTwotone } from "./components/ruler-cross-pen";
+import { variants as variantsRulerPen } from "./components/ruler-pen";
+import { RulerPenBold } from "./components/ruler-pen";
+import { RulerPenBroken } from "./components/ruler-pen";
+import { RulerPenBulk } from "./components/ruler-pen";
+import { RulerPenLinear } from "./components/ruler-pen";
+import { RulerPenOutline } from "./components/ruler-pen";
+import { RulerPenTwotone } from "./components/ruler-pen";
+import { variants as variantsThreeSquares } from "./components/three-squares";
+import { ThreeSquaresBold } from "./components/three-squares";
+import { ThreeSquaresBroken } from "./components/three-squares";
+import { ThreeSquaresBulk } from "./components/three-squares";
+import { ThreeSquaresLinear } from "./components/three-squares";
+import { ThreeSquaresOutline } from "./components/three-squares";
+import { ThreeSquaresTwotone } from "./components/three-squares";
+import { variants as variantsAccessibility } from "./components/accessibility";
+import { AccessibilityBold } from "./components/accessibility";
+import { AccessibilityBroken } from "./components/accessibility";
+import { AccessibilityBulk } from "./components/accessibility";
+import { AccessibilityLinear } from "./components/accessibility";
+import { AccessibilityOutline } from "./components/accessibility";
+import { AccessibilityTwotone } from "./components/accessibility";
+import { variants as variantsUiAddCircle } from "./components/ui-add-circle";
+import { UiAddCircleBold } from "./components/ui-add-circle";
+import { UiAddCircleBroken } from "./components/ui-add-circle";
+import { UiAddCircleBulk } from "./components/ui-add-circle";
+import { UiAddCircleLinear } from "./components/ui-add-circle";
+import { UiAddCircleOutline } from "./components/ui-add-circle";
+import { UiAddCircleTwotone } from "./components/ui-add-circle";
+import { variants as variantsUiAddSquare } from "./components/ui-add-square";
+import { UiAddSquareBold } from "./components/ui-add-square";
+import { UiAddSquareBroken } from "./components/ui-add-square";
+import { UiAddSquareBulk } from "./components/ui-add-square";
+import { UiAddSquareLinear } from "./components/ui-add-square";
+import { UiAddSquareOutline } from "./components/ui-add-square";
+import { UiAddSquareTwotone } from "./components/ui-add-square";
+import { variants as variantsAugmentedReality } from "./components/augmented-reality";
+import { AugmentedRealityBold } from "./components/augmented-reality";
+import { AugmentedRealityBroken } from "./components/augmented-reality";
+import { AugmentedRealityBulk } from "./components/augmented-reality";
+import { AugmentedRealityLinear } from "./components/augmented-reality";
+import { AugmentedRealityOutline } from "./components/augmented-reality";
+import { AugmentedRealityTwotone } from "./components/augmented-reality";
+import { variants as variantsBalloon } from "./components/balloon";
+import { BalloonBold } from "./components/balloon";
+import { BalloonBroken } from "./components/balloon";
+import { BalloonBulk } from "./components/balloon";
+import { BalloonLinear } from "./components/balloon";
+import { BalloonOutline } from "./components/balloon";
+import { BalloonTwotone } from "./components/balloon";
+import { variants as variantsBatteryCharge } from "./components/battery-charge";
+import { BatteryChargeBold } from "./components/battery-charge";
+import { BatteryChargeBroken } from "./components/battery-charge";
+import { BatteryChargeBulk } from "./components/battery-charge";
+import { BatteryChargeLinear } from "./components/battery-charge";
+import { BatteryChargeOutline } from "./components/battery-charge";
+import { BatteryChargeTwotone } from "./components/battery-charge";
+import { variants as variantsBatteryChargeMinimalistic } from "./components/battery-charge-minimalistic";
+import { BatteryChargeMinimalisticBold } from "./components/battery-charge-minimalistic";
+import { BatteryChargeMinimalisticBroken } from "./components/battery-charge-minimalistic";
+import { BatteryChargeMinimalisticBulk } from "./components/battery-charge-minimalistic";
+import { BatteryChargeMinimalisticLinear } from "./components/battery-charge-minimalistic";
+import { BatteryChargeMinimalisticOutline } from "./components/battery-charge-minimalistic";
+import { BatteryChargeMinimalisticTwotone } from "./components/battery-charge-minimalistic";
+import { variants as variantsUiBatteryFull } from "./components/ui-battery-full";
+import { UiBatteryFullBold } from "./components/ui-battery-full";
+import { UiBatteryFullBroken } from "./components/ui-battery-full";
+import { UiBatteryFullBulk } from "./components/ui-battery-full";
+import { UiBatteryFullLinear } from "./components/ui-battery-full";
+import { UiBatteryFullOutline } from "./components/ui-battery-full";
+import { UiBatteryFullTwotone } from "./components/ui-battery-full";
+import { variants as variantsBatteryFullMinimalistic } from "./components/battery-full-minimalistic";
+import { BatteryFullMinimalisticBold } from "./components/battery-full-minimalistic";
+import { BatteryFullMinimalisticBroken } from "./components/battery-full-minimalistic";
+import { BatteryFullMinimalisticBulk } from "./components/battery-full-minimalistic";
+import { BatteryFullMinimalisticLinear } from "./components/battery-full-minimalistic";
+import { BatteryFullMinimalisticOutline } from "./components/battery-full-minimalistic";
+import { BatteryFullMinimalisticTwotone } from "./components/battery-full-minimalistic";
+import { variants as variantsBatteryHalf } from "./components/battery-half";
+import { BatteryHalfBold } from "./components/battery-half";
+import { BatteryHalfBroken } from "./components/battery-half";
+import { BatteryHalfBulk } from "./components/battery-half";
+import { BatteryHalfLinear } from "./components/battery-half";
+import { BatteryHalfOutline } from "./components/battery-half";
+import { BatteryHalfTwotone } from "./components/battery-half";
+import { variants as variantsBatteryHalfMinimalistic } from "./components/battery-half-minimalistic";
+import { BatteryHalfMinimalisticBold } from "./components/battery-half-minimalistic";
+import { BatteryHalfMinimalisticBroken } from "./components/battery-half-minimalistic";
+import { BatteryHalfMinimalisticBulk } from "./components/battery-half-minimalistic";
+import { BatteryHalfMinimalisticLinear } from "./components/battery-half-minimalistic";
+import { BatteryHalfMinimalisticOutline } from "./components/battery-half-minimalistic";
+import { BatteryHalfMinimalisticTwotone } from "./components/battery-half-minimalistic";
+import { variants as variantsBatteryLow } from "./components/battery-low";
+import { BatteryLowBold } from "./components/battery-low";
+import { BatteryLowBroken } from "./components/battery-low";
+import { BatteryLowBulk } from "./components/battery-low";
+import { BatteryLowLinear } from "./components/battery-low";
+import { BatteryLowOutline } from "./components/battery-low";
+import { BatteryLowTwotone } from "./components/battery-low";
+import { variants as variantsBatteryLowMinimalistic } from "./components/battery-low-minimalistic";
+import { BatteryLowMinimalisticBold } from "./components/battery-low-minimalistic";
+import { BatteryLowMinimalisticBroken } from "./components/battery-low-minimalistic";
+import { BatteryLowMinimalisticBulk } from "./components/battery-low-minimalistic";
+import { BatteryLowMinimalisticLinear } from "./components/battery-low-minimalistic";
+import { BatteryLowMinimalisticOutline } from "./components/battery-low-minimalistic";
+import { BatteryLowMinimalisticTwotone } from "./components/battery-low-minimalistic";
+import { variants as variantsBody } from "./components/body";
+import { BodyBold } from "./components/body";
+import { BodyBroken } from "./components/body";
+import { BodyBulk } from "./components/body";
+import { BodyLinear } from "./components/body";
+import { BodyOutline } from "./components/body";
+import { BodyTwotone } from "./components/body";
+import { variants as variantsBolt } from "./components/bolt";
+import { BoltBold } from "./components/bolt";
+import { BoltBroken } from "./components/bolt";
+import { BoltBulk } from "./components/bolt";
+import { BoltLinear } from "./components/bolt";
+import { BoltOutline } from "./components/bolt";
+import { BoltTwotone } from "./components/bolt";
+import { variants as variantsBoltCircle } from "./components/bolt-circle";
+import { BoltCircleBold } from "./components/bolt-circle";
+import { BoltCircleBroken } from "./components/bolt-circle";
+import { BoltCircleBulk } from "./components/bolt-circle";
+import { BoltCircleLinear } from "./components/bolt-circle";
+import { BoltCircleOutline } from "./components/bolt-circle";
+import { BoltCircleTwotone } from "./components/bolt-circle";
+import { variants as variantsUiBox } from "./components/ui-box";
+import { UiBoxBold } from "./components/ui-box";
+import { UiBoxBroken } from "./components/ui-box";
+import { UiBoxBulk } from "./components/ui-box";
+import { UiBoxLinear } from "./components/ui-box";
+import { UiBoxOutline } from "./components/ui-box";
+import { UiBoxTwotone } from "./components/ui-box";
+import { variants as variantsBoxMinimalistic } from "./components/box-minimalistic";
+import { BoxMinimalisticBold } from "./components/box-minimalistic";
+import { BoxMinimalisticBroken } from "./components/box-minimalistic";
+import { BoxMinimalisticBulk } from "./components/box-minimalistic";
+import { BoxMinimalisticLinear } from "./components/box-minimalistic";
+import { BoxMinimalisticOutline } from "./components/box-minimalistic";
+import { BoxMinimalisticTwotone } from "./components/box-minimalistic";
+import { variants as variantsUiBroom } from "./components/ui-broom";
+import { UiBroomBold } from "./components/ui-broom";
+import { UiBroomBroken } from "./components/ui-broom";
+import { UiBroomBulk } from "./components/ui-broom";
+import { UiBroomLinear } from "./components/ui-broom";
+import { UiBroomOutline } from "./components/ui-broom";
+import { UiBroomTwotone } from "./components/ui-broom";
+import { variants as variantsCat } from "./components/cat";
+import { CatBold } from "./components/cat";
+import { CatBroken } from "./components/cat";
+import { CatBulk } from "./components/cat";
+import { CatLinear } from "./components/cat";
+import { CatOutline } from "./components/cat";
+import { CatTwotone } from "./components/cat";
+import { variants as variantsCheckCircle } from "./components/check-circle";
+import { CheckCircleBold } from "./components/check-circle";
+import { CheckCircleBroken } from "./components/check-circle";
+import { CheckCircleBulk } from "./components/check-circle";
+import { CheckCircleLinear } from "./components/check-circle";
+import { CheckCircleOutline } from "./components/check-circle";
+import { CheckCircleTwotone } from "./components/check-circle";
+import { variants as variantsCheckSquare } from "./components/check-square";
+import { CheckSquareBold } from "./components/check-square";
+import { CheckSquareBroken } from "./components/check-square";
+import { CheckSquareBulk } from "./components/check-square";
+import { CheckSquareLinear } from "./components/check-square";
+import { CheckSquareOutline } from "./components/check-square";
+import { CheckSquareTwotone } from "./components/check-square";
+import { variants as variantsUiCloseCircle } from "./components/ui-close-circle";
+import { UiCloseCircleBold } from "./components/ui-close-circle";
+import { UiCloseCircleBroken } from "./components/ui-close-circle";
+import { UiCloseCircleBulk } from "./components/ui-close-circle";
+import { UiCloseCircleLinear } from "./components/ui-close-circle";
+import { UiCloseCircleOutline } from "./components/ui-close-circle";
+import { UiCloseCircleTwotone } from "./components/ui-close-circle";
+import { variants as variantsUiCloseSquare } from "./components/ui-close-square";
+import { UiCloseSquareBold } from "./components/ui-close-square";
+import { UiCloseSquareBroken } from "./components/ui-close-square";
+import { UiCloseSquareBulk } from "./components/ui-close-square";
+import { UiCloseSquareLinear } from "./components/ui-close-square";
+import { UiCloseSquareOutline } from "./components/ui-close-square";
+import { UiCloseSquareTwotone } from "./components/ui-close-square";
+import { variants as variantsConfetti } from "./components/confetti";
+import { ConfettiBold } from "./components/confetti";
+import { ConfettiBroken } from "./components/confetti";
+import { ConfettiBulk } from "./components/confetti";
+import { ConfettiLinear } from "./components/confetti";
+import { ConfettiOutline } from "./components/confetti";
+import { ConfettiTwotone } from "./components/confetti";
+import { variants as variantsConfettiMinimalistic } from "./components/confetti-minimalistic";
+import { ConfettiMinimalisticBold } from "./components/confetti-minimalistic";
+import { ConfettiMinimalisticBroken } from "./components/confetti-minimalistic";
+import { ConfettiMinimalisticBulk } from "./components/confetti-minimalistic";
+import { ConfettiMinimalisticLinear } from "./components/confetti-minimalistic";
+import { ConfettiMinimalisticOutline } from "./components/confetti-minimalistic";
+import { ConfettiMinimalisticTwotone } from "./components/confetti-minimalistic";
+import { variants as variantsUiCopy } from "./components/ui-copy";
+import { UiCopyBold } from "./components/ui-copy";
+import { UiCopyBroken } from "./components/ui-copy";
+import { UiCopyBulk } from "./components/ui-copy";
+import { UiCopyLinear } from "./components/ui-copy";
+import { UiCopyOutline } from "./components/ui-copy";
+import { UiCopyTwotone } from "./components/ui-copy";
+import { variants as variantsUiCopyright } from "./components/ui-copyright";
+import { UiCopyrightBold } from "./components/ui-copyright";
+import { UiCopyrightBroken } from "./components/ui-copyright";
+import { UiCopyrightBulk } from "./components/ui-copyright";
+import { UiCopyrightLinear } from "./components/ui-copyright";
+import { UiCopyrightOutline } from "./components/ui-copyright";
+import { UiCopyrightTwotone } from "./components/ui-copyright";
+import { variants as variantsCosmetic } from "./components/cosmetic";
+import { CosmeticBold } from "./components/cosmetic";
+import { CosmeticBroken } from "./components/cosmetic";
+import { CosmeticBulk } from "./components/cosmetic";
+import { CosmeticLinear } from "./components/cosmetic";
+import { CosmeticOutline } from "./components/cosmetic";
+import { CosmeticTwotone } from "./components/cosmetic";
+import { variants as variantsUiCreativeCommons } from "./components/ui-creative-commons";
+import { UiCreativeCommonsBold } from "./components/ui-creative-commons";
+import { UiCreativeCommonsBroken } from "./components/ui-creative-commons";
+import { UiCreativeCommonsBulk } from "./components/ui-creative-commons";
+import { UiCreativeCommonsLinear } from "./components/ui-creative-commons";
+import { UiCreativeCommonsOutline } from "./components/ui-creative-commons";
+import { UiCreativeCommonsTwotone } from "./components/ui-creative-commons";
+import { variants as variantsUiCrown } from "./components/ui-crown";
+import { UiCrownBold } from "./components/ui-crown";
+import { UiCrownBroken } from "./components/ui-crown";
+import { UiCrownBulk } from "./components/ui-crown";
+import { UiCrownLinear } from "./components/ui-crown";
+import { UiCrownOutline } from "./components/ui-crown";
+import { UiCrownTwotone } from "./components/ui-crown";
+import { variants as variantsCrownLine } from "./components/crown-line";
+import { CrownLineBold } from "./components/crown-line";
+import { CrownLineBroken } from "./components/crown-line";
+import { CrownLineBulk } from "./components/crown-line";
+import { CrownLineLinear } from "./components/crown-line";
+import { CrownLineOutline } from "./components/crown-line";
+import { CrownLineTwotone } from "./components/crown-line";
+import { variants as variantsCrownMinimalistic } from "./components/crown-minimalistic";
+import { CrownMinimalisticBold } from "./components/crown-minimalistic";
+import { CrownMinimalisticBroken } from "./components/crown-minimalistic";
+import { CrownMinimalisticBulk } from "./components/crown-minimalistic";
+import { CrownMinimalisticLinear } from "./components/crown-minimalistic";
+import { CrownMinimalisticOutline } from "./components/crown-minimalistic";
+import { CrownMinimalisticTwotone } from "./components/crown-minimalistic";
+import { variants as variantsCrownStar } from "./components/crown-star";
+import { CrownStarBold } from "./components/crown-star";
+import { CrownStarBroken } from "./components/crown-star";
+import { CrownStarBulk } from "./components/crown-star";
+import { CrownStarLinear } from "./components/crown-star";
+import { CrownStarOutline } from "./components/crown-star";
+import { CrownStarTwotone } from "./components/crown-star";
+import { variants as variantsUiCup } from "./components/ui-cup";
+import { UiCupBold } from "./components/ui-cup";
+import { UiCupBroken } from "./components/ui-cup";
+import { UiCupBulk } from "./components/ui-cup";
+import { UiCupLinear } from "./components/ui-cup";
+import { UiCupOutline } from "./components/ui-cup";
+import { UiCupTwotone } from "./components/ui-cup";
+import { variants as variantsCupFirst } from "./components/cup-first";
+import { CupFirstBold } from "./components/cup-first";
+import { CupFirstBroken } from "./components/cup-first";
+import { CupFirstBulk } from "./components/cup-first";
+import { CupFirstLinear } from "./components/cup-first";
+import { CupFirstOutline } from "./components/cup-first";
+import { CupFirstTwotone } from "./components/cup-first";
+import { variants as variantsCupMusic } from "./components/cup-music";
+import { CupMusicBold } from "./components/cup-music";
+import { CupMusicBroken } from "./components/cup-music";
+import { CupMusicBulk } from "./components/cup-music";
+import { CupMusicLinear } from "./components/cup-music";
+import { CupMusicOutline } from "./components/cup-music";
+import { CupMusicTwotone } from "./components/cup-music";
+import { variants as variantsCupStar } from "./components/cup-star";
+import { CupStarBold } from "./components/cup-star";
+import { CupStarBroken } from "./components/cup-star";
+import { CupStarBulk } from "./components/cup-star";
+import { CupStarLinear } from "./components/cup-star";
+import { CupStarOutline } from "./components/cup-star";
+import { CupStarTwotone } from "./components/cup-star";
+import { variants as variantsCursor } from "./components/cursor";
+import { CursorBold } from "./components/cursor";
+import { CursorBroken } from "./components/cursor";
+import { CursorBulk } from "./components/cursor";
+import { CursorLinear } from "./components/cursor";
+import { CursorOutline } from "./components/cursor";
+import { CursorTwotone } from "./components/cursor";
+import { variants as variantsCursorSquare } from "./components/cursor-square";
+import { CursorSquareBold } from "./components/cursor-square";
+import { CursorSquareBroken } from "./components/cursor-square";
+import { CursorSquareBulk } from "./components/cursor-square";
+import { CursorSquareLinear } from "./components/cursor-square";
+import { CursorSquareOutline } from "./components/cursor-square";
+import { CursorSquareTwotone } from "./components/cursor-square";
+import { variants as variantsUiDanger } from "./components/ui-danger";
+import { UiDangerBold } from "./components/ui-danger";
+import { UiDangerBroken } from "./components/ui-danger";
+import { UiDangerBulk } from "./components/ui-danger";
+import { UiDangerLinear } from "./components/ui-danger";
+import { UiDangerOutline } from "./components/ui-danger";
+import { UiDangerTwotone } from "./components/ui-danger";
+import { variants as variantsDangerCircle } from "./components/danger-circle";
+import { DangerCircleBold } from "./components/danger-circle";
+import { DangerCircleBroken } from "./components/danger-circle";
+import { DangerCircleBulk } from "./components/danger-circle";
+import { DangerCircleLinear } from "./components/danger-circle";
+import { DangerCircleOutline } from "./components/danger-circle";
+import { DangerCircleTwotone } from "./components/danger-circle";
+import { variants as variantsDangerSquare } from "./components/danger-square";
+import { DangerSquareBold } from "./components/danger-square";
+import { DangerSquareBroken } from "./components/danger-square";
+import { DangerSquareBulk } from "./components/danger-square";
+import { DangerSquareLinear } from "./components/danger-square";
+import { DangerSquareOutline } from "./components/danger-square";
+import { DangerSquareTwotone } from "./components/danger-square";
+import { variants as variantsDangerTriangle } from "./components/danger-triangle";
+import { DangerTriangleBold } from "./components/danger-triangle";
+import { DangerTriangleBroken } from "./components/danger-triangle";
+import { DangerTriangleBulk } from "./components/danger-triangle";
+import { DangerTriangleLinear } from "./components/danger-triangle";
+import { DangerTriangleOutline } from "./components/danger-triangle";
+import { DangerTriangleTwotone } from "./components/danger-triangle";
+import { variants as variantsDatabase } from "./components/database";
+import { DatabaseBold } from "./components/database";
+import { DatabaseBroken } from "./components/database";
+import { DatabaseBulk } from "./components/database";
+import { DatabaseLinear } from "./components/database";
+import { DatabaseOutline } from "./components/database";
+import { DatabaseTwotone } from "./components/database";
+import { variants as variantsDelivery } from "./components/delivery";
+import { DeliveryBold } from "./components/delivery";
+import { DeliveryBroken } from "./components/delivery";
+import { DeliveryBulk } from "./components/delivery";
+import { DeliveryLinear } from "./components/delivery";
+import { DeliveryOutline } from "./components/delivery";
+import { DeliveryTwotone } from "./components/delivery";
+import { variants as variantsExplicit } from "./components/explicit";
+import { ExplicitBold } from "./components/explicit";
+import { ExplicitBroken } from "./components/explicit";
+import { ExplicitBulk } from "./components/explicit";
+import { ExplicitLinear } from "./components/explicit";
+import { ExplicitOutline } from "./components/explicit";
+import { ExplicitTwotone } from "./components/explicit";
+import { variants as variantsFeed } from "./components/feed";
+import { FeedBold } from "./components/feed";
+import { FeedBroken } from "./components/feed";
+import { FeedBulk } from "./components/feed";
+import { FeedLinear } from "./components/feed";
+import { FeedOutline } from "./components/feed";
+import { FeedTwotone } from "./components/feed";
+import { variants as variantsFerrisWheel } from "./components/ferris-wheel";
+import { FerrisWheelBold } from "./components/ferris-wheel";
+import { FerrisWheelBroken } from "./components/ferris-wheel";
+import { FerrisWheelBulk } from "./components/ferris-wheel";
+import { FerrisWheelLinear } from "./components/ferris-wheel";
+import { FerrisWheelOutline } from "./components/ferris-wheel";
+import { FerrisWheelTwotone } from "./components/ferris-wheel";
+import { variants as variantsFigma } from "./components/figma";
+import { FigmaBold } from "./components/figma";
+import { FigmaBroken } from "./components/figma";
+import { FigmaBulk } from "./components/figma";
+import { FigmaLinear } from "./components/figma";
+import { FigmaOutline } from "./components/figma";
+import { FigmaTwotone } from "./components/figma";
+import { variants as variantsUiFilter } from "./components/ui-filter";
+import { UiFilterBold } from "./components/ui-filter";
+import { UiFilterBroken } from "./components/ui-filter";
+import { UiFilterBulk } from "./components/ui-filter";
+import { UiFilterLinear } from "./components/ui-filter";
+import { UiFilterOutline } from "./components/ui-filter";
+import { UiFilterTwotone } from "./components/ui-filter";
+import { variants as variantsUiFlag } from "./components/ui-flag";
+import { UiFlagBold } from "./components/ui-flag";
+import { UiFlagBroken } from "./components/ui-flag";
+import { UiFlagBulk } from "./components/ui-flag";
+import { UiFlagLinear } from "./components/ui-flag";
+import { UiFlagOutline } from "./components/ui-flag";
+import { UiFlagTwotone } from "./components/ui-flag";
+import { variants as variantsUiFlag2 } from "./components/ui-flag-2";
+import { UiFlag2Bold } from "./components/ui-flag-2";
+import { UiFlag2Broken } from "./components/ui-flag-2";
+import { UiFlag2Bulk } from "./components/ui-flag-2";
+import { UiFlag2Linear } from "./components/ui-flag-2";
+import { UiFlag2Outline } from "./components/ui-flag-2";
+import { UiFlag2Twotone } from "./components/ui-flag-2";
+import { variants as variantsFlashlight } from "./components/flashlight";
+import { FlashlightBold } from "./components/flashlight";
+import { FlashlightBroken } from "./components/flashlight";
+import { FlashlightBulk } from "./components/flashlight";
+import { FlashlightLinear } from "./components/flashlight";
+import { FlashlightOutline } from "./components/flashlight";
+import { FlashlightTwotone } from "./components/flashlight";
+import { variants as variantsFlashlightOn } from "./components/flashlight-on";
+import { FlashlightOnBold } from "./components/flashlight-on";
+import { FlashlightOnBroken } from "./components/flashlight-on";
+import { FlashlightOnBulk } from "./components/flashlight-on";
+import { FlashlightOnLinear } from "./components/flashlight-on";
+import { FlashlightOnOutline } from "./components/flashlight-on";
+import { FlashlightOnTwotone } from "./components/flashlight-on";
+import { variants as variantsUiForbidden } from "./components/ui-forbidden";
+import { UiForbiddenBold } from "./components/ui-forbidden";
+import { UiForbiddenBroken } from "./components/ui-forbidden";
+import { UiForbiddenBulk } from "./components/ui-forbidden";
+import { UiForbiddenLinear } from "./components/ui-forbidden";
+import { UiForbiddenOutline } from "./components/ui-forbidden";
+import { UiForbiddenTwotone } from "./components/ui-forbidden";
+import { variants as variantsForbiddenCircle } from "./components/forbidden-circle";
+import { ForbiddenCircleBold } from "./components/forbidden-circle";
+import { ForbiddenCircleBroken } from "./components/forbidden-circle";
+import { ForbiddenCircleBulk } from "./components/forbidden-circle";
+import { ForbiddenCircleLinear } from "./components/forbidden-circle";
+import { ForbiddenCircleOutline } from "./components/forbidden-circle";
+import { ForbiddenCircleTwotone } from "./components/forbidden-circle";
+import { variants as variantsFourK } from "./components/four-k";
+import { FourKBold } from "./components/four-k";
+import { FourKBroken } from "./components/four-k";
+import { FourKBulk } from "./components/four-k";
+import { FourKLinear } from "./components/four-k";
+import { FourKOutline } from "./components/four-k";
+import { FourKTwotone } from "./components/four-k";
+import { variants as variantsFuel } from "./components/fuel";
+import { FuelBold } from "./components/fuel";
+import { FuelBroken } from "./components/fuel";
+import { FuelBulk } from "./components/fuel";
+import { FuelLinear } from "./components/fuel";
+import { FuelOutline } from "./components/fuel";
+import { FuelTwotone } from "./components/fuel";
+import { variants as variantsUiGhost } from "./components/ui-ghost";
+import { UiGhostBold } from "./components/ui-ghost";
+import { UiGhostBroken } from "./components/ui-ghost";
+import { UiGhostBulk } from "./components/ui-ghost";
+import { UiGhostLinear } from "./components/ui-ghost";
+import { UiGhostOutline } from "./components/ui-ghost";
+import { UiGhostTwotone } from "./components/ui-ghost";
+import { variants as variantsGhostSmile } from "./components/ghost-smile";
+import { GhostSmileBold } from "./components/ghost-smile";
+import { GhostSmileBroken } from "./components/ghost-smile";
+import { GhostSmileBulk } from "./components/ghost-smile";
+import { GhostSmileLinear } from "./components/ghost-smile";
+import { GhostSmileOutline } from "./components/ghost-smile";
+import { GhostSmileTwotone } from "./components/ghost-smile";
+import { variants as variantsUiGift } from "./components/ui-gift";
+import { UiGiftBold } from "./components/ui-gift";
+import { UiGiftBroken } from "./components/ui-gift";
+import { UiGiftBulk } from "./components/ui-gift";
+import { UiGiftLinear } from "./components/ui-gift";
+import { UiGiftOutline } from "./components/ui-gift";
+import { UiGiftTwotone } from "./components/ui-gift";
+import { variants as variantsGlasses } from "./components/glasses";
+import { GlassesBold } from "./components/glasses";
+import { GlassesBroken } from "./components/glasses";
+import { GlassesBulk } from "./components/glasses";
+import { GlassesLinear } from "./components/glasses";
+import { GlassesOutline } from "./components/glasses";
+import { GlassesTwotone } from "./components/glasses";
+import { variants as variantsHamburgerMenu } from "./components/hamburger-menu";
+import { HamburgerMenuBold } from "./components/hamburger-menu";
+import { HamburgerMenuBroken } from "./components/hamburger-menu";
+import { HamburgerMenuBulk } from "./components/hamburger-menu";
+import { HamburgerMenuLinear } from "./components/hamburger-menu";
+import { HamburgerMenuOutline } from "./components/hamburger-menu";
+import { HamburgerMenuTwotone } from "./components/hamburger-menu";
+import { variants as variantsHanger } from "./components/hanger";
+import { HangerBold } from "./components/hanger";
+import { HangerBroken } from "./components/hanger";
+import { HangerBulk } from "./components/hanger";
+import { HangerLinear } from "./components/hanger";
+import { HangerOutline } from "./components/hanger";
+import { HangerTwotone } from "./components/hanger";
+import { variants as variantsHanger2 } from "./components/hanger-2";
+import { Hanger2Bold } from "./components/hanger-2";
+import { Hanger2Broken } from "./components/hanger-2";
+import { Hanger2Bulk } from "./components/hanger-2";
+import { Hanger2Linear } from "./components/hanger-2";
+import { Hanger2Outline } from "./components/hanger-2";
+import { Hanger2Twotone } from "./components/hanger-2";
+import { variants as variantsHelp } from "./components/help";
+import { HelpBold } from "./components/help";
+import { HelpBroken } from "./components/help";
+import { HelpBulk } from "./components/help";
+import { HelpLinear } from "./components/help";
+import { HelpOutline } from "./components/help";
+import { HelpTwotone } from "./components/help";
+import { variants as variantsHighDefinition } from "./components/high-definition";
+import { HighDefinitionBold } from "./components/high-definition";
+import { HighDefinitionBroken } from "./components/high-definition";
+import { HighDefinitionBulk } from "./components/high-definition";
+import { HighDefinitionLinear } from "./components/high-definition";
+import { HighDefinitionOutline } from "./components/high-definition";
+import { HighDefinitionTwotone } from "./components/high-definition";
+import { variants as variantsHighQuality } from "./components/high-quality";
+import { HighQualityBold } from "./components/high-quality";
+import { HighQualityBroken } from "./components/high-quality";
+import { HighQualityBulk } from "./components/high-quality";
+import { HighQualityLinear } from "./components/high-quality";
+import { HighQualityOutline } from "./components/high-quality";
+import { HighQualityTwotone } from "./components/high-quality";
+import { variants as variantsUiHome } from "./components/ui-home";
+import { UiHomeBold } from "./components/ui-home";
+import { UiHomeBroken } from "./components/ui-home";
+import { UiHomeBulk } from "./components/ui-home";
+import { UiHomeLinear } from "./components/ui-home";
+import { UiHomeOutline } from "./components/ui-home";
+import { UiHomeTwotone } from "./components/ui-home";
+import { variants as variantsUiHome2 } from "./components/ui-home-2";
+import { UiHome2Bold } from "./components/ui-home-2";
+import { UiHome2Broken } from "./components/ui-home-2";
+import { UiHome2Bulk } from "./components/ui-home-2";
+import { UiHome2Linear } from "./components/ui-home-2";
+import { UiHome2Outline } from "./components/ui-home-2";
+import { UiHome2Twotone } from "./components/ui-home-2";
+import { variants as variantsHomeAdd } from "./components/home-add";
+import { HomeAddBold } from "./components/home-add";
+import { HomeAddBroken } from "./components/home-add";
+import { HomeAddBulk } from "./components/home-add";
+import { HomeAddLinear } from "./components/home-add";
+import { HomeAddOutline } from "./components/home-add";
+import { HomeAddTwotone } from "./components/home-add";
+import { variants as variantsHomeAddAngle } from "./components/home-add-angle";
+import { HomeAddAngleBold } from "./components/home-add-angle";
+import { HomeAddAngleBroken } from "./components/home-add-angle";
+import { HomeAddAngleBulk } from "./components/home-add-angle";
+import { HomeAddAngleLinear } from "./components/home-add-angle";
+import { HomeAddAngleOutline } from "./components/home-add-angle";
+import { HomeAddAngleTwotone } from "./components/home-add-angle";
+import { variants as variantsHomeAngle } from "./components/home-angle";
+import { HomeAngleBold } from "./components/home-angle";
+import { HomeAngleBroken } from "./components/home-angle";
+import { HomeAngleBulk } from "./components/home-angle";
+import { HomeAngleLinear } from "./components/home-angle";
+import { HomeAngleOutline } from "./components/home-angle";
+import { HomeAngleTwotone } from "./components/home-angle";
+import { variants as variantsHomeAngle2 } from "./components/home-angle-2";
+import { HomeAngle2Bold } from "./components/home-angle-2";
+import { HomeAngle2Broken } from "./components/home-angle-2";
+import { HomeAngle2Bulk } from "./components/home-angle-2";
+import { HomeAngle2Linear } from "./components/home-angle-2";
+import { HomeAngle2Outline } from "./components/home-angle-2";
+import { HomeAngle2Twotone } from "./components/home-angle-2";
+import { variants as variantsHomeSmile } from "./components/home-smile";
+import { HomeSmileBold } from "./components/home-smile";
+import { HomeSmileBroken } from "./components/home-smile";
+import { HomeSmileBulk } from "./components/home-smile";
+import { HomeSmileLinear } from "./components/home-smile";
+import { HomeSmileOutline } from "./components/home-smile";
+import { HomeSmileTwotone } from "./components/home-smile";
+import { variants as variantsHomeSmileAngle } from "./components/home-smile-angle";
+import { HomeSmileAngleBold } from "./components/home-smile-angle";
+import { HomeSmileAngleBroken } from "./components/home-smile-angle";
+import { HomeSmileAngleBulk } from "./components/home-smile-angle";
+import { HomeSmileAngleLinear } from "./components/home-smile-angle";
+import { HomeSmileAngleOutline } from "./components/home-smile-angle";
+import { HomeSmileAngleTwotone } from "./components/home-smile-angle";
+import { variants as variantsHomeWiFi } from "./components/home-wi-fi";
+import { HomeWiFiBold } from "./components/home-wi-fi";
+import { HomeWiFiBroken } from "./components/home-wi-fi";
+import { HomeWiFiBulk } from "./components/home-wi-fi";
+import { HomeWiFiLinear } from "./components/home-wi-fi";
+import { HomeWiFiOutline } from "./components/home-wi-fi";
+import { HomeWiFiTwotone } from "./components/home-wi-fi";
+import { variants as variantsHomeWiFiAngle } from "./components/home-wi-fi-angle";
+import { HomeWiFiAngleBold } from "./components/home-wi-fi-angle";
+import { HomeWiFiAngleBroken } from "./components/home-wi-fi-angle";
+import { HomeWiFiAngleBulk } from "./components/home-wi-fi-angle";
+import { HomeWiFiAngleLinear } from "./components/home-wi-fi-angle";
+import { HomeWiFiAngleOutline } from "./components/home-wi-fi-angle";
+import { HomeWiFiAngleTwotone } from "./components/home-wi-fi-angle";
+import { variants as variantsUiInfoCircle } from "./components/ui-info-circle";
+import { UiInfoCircleBold } from "./components/ui-info-circle";
+import { UiInfoCircleBroken } from "./components/ui-info-circle";
+import { UiInfoCircleBulk } from "./components/ui-info-circle";
+import { UiInfoCircleLinear } from "./components/ui-info-circle";
+import { UiInfoCircleOutline } from "./components/ui-info-circle";
+import { UiInfoCircleTwotone } from "./components/ui-info-circle";
+import { variants as variantsInfoSquare } from "./components/info-square";
+import { InfoSquareBold } from "./components/info-square";
+import { InfoSquareBroken } from "./components/info-square";
+import { InfoSquareBulk } from "./components/info-square";
+import { InfoSquareLinear } from "./components/info-square";
+import { InfoSquareOutline } from "./components/info-square";
+import { InfoSquareTwotone } from "./components/info-square";
+import { variants as variantsMagicStick } from "./components/magic-stick";
+import { MagicStickBold } from "./components/magic-stick";
+import { MagicStickBroken } from "./components/magic-stick";
+import { MagicStickBulk } from "./components/magic-stick";
+import { MagicStickLinear } from "./components/magic-stick";
+import { MagicStickOutline } from "./components/magic-stick";
+import { MagicStickTwotone } from "./components/magic-stick";
+import { variants as variantsMagicStick2 } from "./components/magic-stick-2";
+import { MagicStick2Bold } from "./components/magic-stick-2";
+import { MagicStick2Broken } from "./components/magic-stick-2";
+import { MagicStick2Bulk } from "./components/magic-stick-2";
+import { MagicStick2Linear } from "./components/magic-stick-2";
+import { MagicStick2Outline } from "./components/magic-stick-2";
+import { MagicStick2Twotone } from "./components/magic-stick-2";
+import { variants as variantsMagicStick3 } from "./components/magic-stick-3";
+import { MagicStick3Bold } from "./components/magic-stick-3";
+import { MagicStick3Broken } from "./components/magic-stick-3";
+import { MagicStick3Bulk } from "./components/magic-stick-3";
+import { MagicStick3Linear } from "./components/magic-stick-3";
+import { MagicStick3Outline } from "./components/magic-stick-3";
+import { MagicStick3Twotone } from "./components/magic-stick-3";
+import { variants as variantsMagnet } from "./components/magnet";
+import { MagnetBold } from "./components/magnet";
+import { MagnetBroken } from "./components/magnet";
+import { MagnetBulk } from "./components/magnet";
+import { MagnetLinear } from "./components/magnet";
+import { MagnetOutline } from "./components/magnet";
+import { MagnetTwotone } from "./components/magnet";
+import { variants as variantsMagnetWave } from "./components/magnet-wave";
+import { MagnetWaveBold } from "./components/magnet-wave";
+import { MagnetWaveBroken } from "./components/magnet-wave";
+import { MagnetWaveBulk } from "./components/magnet-wave";
+import { MagnetWaveLinear } from "./components/magnet-wave";
+import { MagnetWaveOutline } from "./components/magnet-wave";
+import { MagnetWaveTwotone } from "./components/magnet-wave";
+import { variants as variantsMaskHappy } from "./components/mask-happy";
+import { MaskHappyBold } from "./components/mask-happy";
+import { MaskHappyBroken } from "./components/mask-happy";
+import { MaskHappyBulk } from "./components/mask-happy";
+import { MaskHappyLinear } from "./components/mask-happy";
+import { MaskHappyOutline } from "./components/mask-happy";
+import { MaskHappyTwotone } from "./components/mask-happy";
+import { variants as variantsMaskSad } from "./components/mask-sad";
+import { MaskSadBold } from "./components/mask-sad";
+import { MaskSadBroken } from "./components/mask-sad";
+import { MaskSadBulk } from "./components/mask-sad";
+import { MaskSadLinear } from "./components/mask-sad";
+import { MaskSadOutline } from "./components/mask-sad";
+import { MaskSadTwotone } from "./components/mask-sad";
+import { variants as variantsMasks } from "./components/masks";
+import { MasksBold } from "./components/masks";
+import { MasksBroken } from "./components/masks";
+import { MasksBulk } from "./components/masks";
+import { MasksLinear } from "./components/masks";
+import { MasksOutline } from "./components/masks";
+import { MasksTwotone } from "./components/masks";
+import { variants as variantsMentionCircle } from "./components/mention-circle";
+import { MentionCircleBold } from "./components/mention-circle";
+import { MentionCircleBroken } from "./components/mention-circle";
+import { MentionCircleBulk } from "./components/mention-circle";
+import { MentionCircleLinear } from "./components/mention-circle";
+import { MentionCircleOutline } from "./components/mention-circle";
+import { MentionCircleTwotone } from "./components/mention-circle";
+import { variants as variantsMentionSquare } from "./components/mention-square";
+import { MentionSquareBold } from "./components/mention-square";
+import { MentionSquareBroken } from "./components/mention-square";
+import { MentionSquareBulk } from "./components/mention-square";
+import { MentionSquareLinear } from "./components/mention-square";
+import { MentionSquareOutline } from "./components/mention-square";
+import { MentionSquareTwotone } from "./components/mention-square";
+import { variants as variantsMenuDots } from "./components/menu-dots";
+import { MenuDotsBold } from "./components/menu-dots";
+import { MenuDotsBroken } from "./components/menu-dots";
+import { MenuDotsBulk } from "./components/menu-dots";
+import { MenuDotsLinear } from "./components/menu-dots";
+import { MenuDotsOutline } from "./components/menu-dots";
+import { MenuDotsTwotone } from "./components/menu-dots";
+import { variants as variantsMenuDotsCircle } from "./components/menu-dots-circle";
+import { MenuDotsCircleBold } from "./components/menu-dots-circle";
+import { MenuDotsCircleBroken } from "./components/menu-dots-circle";
+import { MenuDotsCircleBulk } from "./components/menu-dots-circle";
+import { MenuDotsCircleLinear } from "./components/menu-dots-circle";
+import { MenuDotsCircleOutline } from "./components/menu-dots-circle";
+import { MenuDotsCircleTwotone } from "./components/menu-dots-circle";
+import { variants as variantsMenuDotsSquare } from "./components/menu-dots-square";
+import { MenuDotsSquareBold } from "./components/menu-dots-square";
+import { MenuDotsSquareBroken } from "./components/menu-dots-square";
+import { MenuDotsSquareBulk } from "./components/menu-dots-square";
+import { MenuDotsSquareLinear } from "./components/menu-dots-square";
+import { MenuDotsSquareOutline } from "./components/menu-dots-square";
+import { MenuDotsSquareTwotone } from "./components/menu-dots-square";
+import { variants as variantsMinusCircle } from "./components/minus-circle";
+import { MinusCircleBold } from "./components/minus-circle";
+import { MinusCircleBroken } from "./components/minus-circle";
+import { MinusCircleBulk } from "./components/minus-circle";
+import { MinusCircleLinear } from "./components/minus-circle";
+import { MinusCircleOutline } from "./components/minus-circle";
+import { MinusCircleTwotone } from "./components/minus-circle";
+import { variants as variantsUiMinusSquare } from "./components/ui-minus-square";
+import { UiMinusSquareBold } from "./components/ui-minus-square";
+import { UiMinusSquareBroken } from "./components/ui-minus-square";
+import { UiMinusSquareBulk } from "./components/ui-minus-square";
+import { UiMinusSquareLinear } from "./components/ui-minus-square";
+import { UiMinusSquareOutline } from "./components/ui-minus-square";
+import { UiMinusSquareTwotone } from "./components/ui-minus-square";
+import { variants as variantsMirror2 } from "./components/mirror-2";
+import { Mirror2Bold } from "./components/mirror-2";
+import { Mirror2Broken } from "./components/mirror-2";
+import { Mirror2Bulk } from "./components/mirror-2";
+import { Mirror2Linear } from "./components/mirror-2";
+import { Mirror2Outline } from "./components/mirror-2";
+import { Mirror2Twotone } from "./components/mirror-2";
+import { variants as variantsPaperBin } from "./components/paper-bin";
+import { PaperBinBold } from "./components/paper-bin";
+import { PaperBinBroken } from "./components/paper-bin";
+import { PaperBinBulk } from "./components/paper-bin";
+import { PaperBinLinear } from "./components/paper-bin";
+import { PaperBinOutline } from "./components/paper-bin";
+import { PaperBinTwotone } from "./components/paper-bin";
+import { variants as variantsPaw } from "./components/paw";
+import { PawBold } from "./components/paw";
+import { PawBroken } from "./components/paw";
+import { PawBulk } from "./components/paw";
+import { PawLinear } from "./components/paw";
+import { PawOutline } from "./components/paw";
+import { PawTwotone } from "./components/paw";
+import { variants as variantsPerfume } from "./components/perfume";
+import { PerfumeBold } from "./components/perfume";
+import { PerfumeBroken } from "./components/perfume";
+import { PerfumeBulk } from "./components/perfume";
+import { PerfumeLinear } from "./components/perfume";
+import { PerfumeOutline } from "./components/perfume";
+import { PerfumeTwotone } from "./components/perfume";
+import { variants as variantsPin } from "./components/pin";
+import { PinBold } from "./components/pin";
+import { PinBroken } from "./components/pin";
+import { PinBulk } from "./components/pin";
+import { PinLinear } from "./components/pin";
+import { PinOutline } from "./components/pin";
+import { PinTwotone } from "./components/pin";
+import { variants as variantsPinCircle } from "./components/pin-circle";
+import { PinCircleBold } from "./components/pin-circle";
+import { PinCircleBroken } from "./components/pin-circle";
+import { PinCircleBulk } from "./components/pin-circle";
+import { PinCircleLinear } from "./components/pin-circle";
+import { PinCircleOutline } from "./components/pin-circle";
+import { PinCircleTwotone } from "./components/pin-circle";
+import { variants as variantsPinList } from "./components/pin-list";
+import { PinListBold } from "./components/pin-list";
+import { PinListBroken } from "./components/pin-list";
+import { PinListBulk } from "./components/pin-list";
+import { PinListLinear } from "./components/pin-list";
+import { PinListOutline } from "./components/pin-list";
+import { PinListTwotone } from "./components/pin-list";
+import { variants as variantsPlate } from "./components/plate";
+import { PlateBold } from "./components/plate";
+import { PlateBroken } from "./components/plate";
+import { PlateBulk } from "./components/plate";
+import { PlateLinear } from "./components/plate";
+import { PlateOutline } from "./components/plate";
+import { PlateTwotone } from "./components/plate";
+import { variants as variantsPostsCarouselHorizontal } from "./components/posts-carousel-horizontal";
+import { PostsCarouselHorizontalBold } from "./components/posts-carousel-horizontal";
+import { PostsCarouselHorizontalBroken } from "./components/posts-carousel-horizontal";
+import { PostsCarouselHorizontalBulk } from "./components/posts-carousel-horizontal";
+import { PostsCarouselHorizontalLinear } from "./components/posts-carousel-horizontal";
+import { PostsCarouselHorizontalOutline } from "./components/posts-carousel-horizontal";
+import { PostsCarouselHorizontalTwotone } from "./components/posts-carousel-horizontal";
+import { variants as variantsPostsCarouselVertical } from "./components/posts-carousel-vertical";
+import { PostsCarouselVerticalBold } from "./components/posts-carousel-vertical";
+import { PostsCarouselVerticalBroken } from "./components/posts-carousel-vertical";
+import { PostsCarouselVerticalBulk } from "./components/posts-carousel-vertical";
+import { PostsCarouselVerticalLinear } from "./components/posts-carousel-vertical";
+import { PostsCarouselVerticalOutline } from "./components/posts-carousel-vertical";
+import { PostsCarouselVerticalTwotone } from "./components/posts-carousel-vertical";
+import { variants as variantsPower } from "./components/power";
+import { PowerBold } from "./components/power";
+import { PowerBroken } from "./components/power";
+import { PowerBulk } from "./components/power";
+import { PowerLinear } from "./components/power";
+import { PowerOutline } from "./components/power";
+import { PowerTwotone } from "./components/power";
+import { variants as variantsQuestionCircle } from "./components/question-circle";
+import { QuestionCircleBold } from "./components/question-circle";
+import { QuestionCircleBroken } from "./components/question-circle";
+import { QuestionCircleBulk } from "./components/question-circle";
+import { QuestionCircleLinear } from "./components/question-circle";
+import { QuestionCircleOutline } from "./components/question-circle";
+import { QuestionCircleTwotone } from "./components/question-circle";
+import { variants as variantsQuestionSquare } from "./components/question-square";
+import { QuestionSquareBold } from "./components/question-square";
+import { QuestionSquareBroken } from "./components/question-square";
+import { QuestionSquareBulk } from "./components/question-square";
+import { QuestionSquareLinear } from "./components/question-square";
+import { QuestionSquareOutline } from "./components/question-square";
+import { QuestionSquareTwotone } from "./components/question-square";
+import { variants as variantsReorder } from "./components/reorder";
+import { ReorderBold } from "./components/reorder";
+import { ReorderBroken } from "./components/reorder";
+import { ReorderBulk } from "./components/reorder";
+import { ReorderLinear } from "./components/reorder";
+import { ReorderOutline } from "./components/reorder";
+import { ReorderTwotone } from "./components/reorder";
+import { variants as variantsRevote } from "./components/revote";
+import { RevoteBold } from "./components/revote";
+import { RevoteBroken } from "./components/revote";
+import { RevoteBulk } from "./components/revote";
+import { RevoteLinear } from "./components/revote";
+import { RevoteOutline } from "./components/revote";
+import { RevoteTwotone } from "./components/revote";
+import { variants as variantsScissors } from "./components/scissors";
+import { ScissorsBold } from "./components/scissors";
+import { ScissorsBroken } from "./components/scissors";
+import { ScissorsBulk } from "./components/scissors";
+import { ScissorsLinear } from "./components/scissors";
+import { ScissorsOutline } from "./components/scissors";
+import { ScissorsTwotone } from "./components/scissors";
+import { variants as variantsScissorsSquare } from "./components/scissors-square";
+import { ScissorsSquareBold } from "./components/scissors-square";
+import { ScissorsSquareBroken } from "./components/scissors-square";
+import { ScissorsSquareBulk } from "./components/scissors-square";
+import { ScissorsSquareLinear } from "./components/scissors-square";
+import { ScissorsSquareOutline } from "./components/scissors-square";
+import { ScissorsSquareTwotone } from "./components/scissors-square";
+import { variants as variantsUiShare } from "./components/ui-share";
+import { UiShareBold } from "./components/ui-share";
+import { UiShareBroken } from "./components/ui-share";
+import { UiShareBulk } from "./components/ui-share";
+import { UiShareLinear } from "./components/ui-share";
+import { UiShareOutline } from "./components/ui-share";
+import { UiShareTwotone } from "./components/ui-share";
+import { variants as variantsShareCircle } from "./components/share-circle";
+import { ShareCircleBold } from "./components/share-circle";
+import { ShareCircleBroken } from "./components/share-circle";
+import { ShareCircleBulk } from "./components/share-circle";
+import { ShareCircleLinear } from "./components/share-circle";
+import { ShareCircleOutline } from "./components/share-circle";
+import { ShareCircleTwotone } from "./components/share-circle";
+import { variants as variantsSkirt } from "./components/skirt";
+import { SkirtBold } from "./components/skirt";
+import { SkirtBroken } from "./components/skirt";
+import { SkirtBulk } from "./components/skirt";
+import { SkirtLinear } from "./components/skirt";
+import { SkirtOutline } from "./components/skirt";
+import { SkirtTwotone } from "./components/skirt";
+import { variants as variantsSledgehammer } from "./components/sledgehammer";
+import { SledgehammerBold } from "./components/sledgehammer";
+import { SledgehammerBroken } from "./components/sledgehammer";
+import { SledgehammerBulk } from "./components/sledgehammer";
+import { SledgehammerLinear } from "./components/sledgehammer";
+import { SledgehammerOutline } from "./components/sledgehammer";
+import { SledgehammerTwotone } from "./components/sledgehammer";
+import { variants as variantsSleeping } from "./components/sleeping";
+import { SleepingBold } from "./components/sleeping";
+import { SleepingBroken } from "./components/sleeping";
+import { SleepingBulk } from "./components/sleeping";
+import { SleepingLinear } from "./components/sleeping";
+import { SleepingOutline } from "./components/sleeping";
+import { SleepingTwotone } from "./components/sleeping";
+import { variants as variantsUiSliderHorizontal } from "./components/ui-slider-horizontal";
+import { UiSliderHorizontalBold } from "./components/ui-slider-horizontal";
+import { UiSliderHorizontalBroken } from "./components/ui-slider-horizontal";
+import { UiSliderHorizontalBulk } from "./components/ui-slider-horizontal";
+import { UiSliderHorizontalLinear } from "./components/ui-slider-horizontal";
+import { UiSliderHorizontalOutline } from "./components/ui-slider-horizontal";
+import { UiSliderHorizontalTwotone } from "./components/ui-slider-horizontal";
+import { variants as variantsSliderMinimalisticHorizontal } from "./components/slider-minimalistic-horizontal";
+import { SliderMinimalisticHorizontalBold } from "./components/slider-minimalistic-horizontal";
+import { SliderMinimalisticHorizontalBroken } from "./components/slider-minimalistic-horizontal";
+import { SliderMinimalisticHorizontalBulk } from "./components/slider-minimalistic-horizontal";
+import { SliderMinimalisticHorizontalLinear } from "./components/slider-minimalistic-horizontal";
+import { SliderMinimalisticHorizontalOutline } from "./components/slider-minimalistic-horizontal";
+import { SliderMinimalisticHorizontalTwotone } from "./components/slider-minimalistic-horizontal";
+import { variants as variantsUiSliderVertical } from "./components/ui-slider-vertical";
+import { UiSliderVerticalBold } from "./components/ui-slider-vertical";
+import { UiSliderVerticalBroken } from "./components/ui-slider-vertical";
+import { UiSliderVerticalBulk } from "./components/ui-slider-vertical";
+import { UiSliderVerticalLinear } from "./components/ui-slider-vertical";
+import { UiSliderVerticalOutline } from "./components/ui-slider-vertical";
+import { UiSliderVerticalTwotone } from "./components/ui-slider-vertical";
+import { variants as variantsSliderVerticalMinimalistic } from "./components/slider-vertical-minimalistic";
+import { SliderVerticalMinimalisticBold } from "./components/slider-vertical-minimalistic";
+import { SliderVerticalMinimalisticBroken } from "./components/slider-vertical-minimalistic";
+import { SliderVerticalMinimalisticBulk } from "./components/slider-vertical-minimalistic";
+import { SliderVerticalMinimalisticLinear } from "./components/slider-vertical-minimalistic";
+import { SliderVerticalMinimalisticOutline } from "./components/slider-vertical-minimalistic";
+import { SliderVerticalMinimalisticTwotone } from "./components/slider-vertical-minimalistic";
+import { variants as variantsUiSmartHome } from "./components/ui-smart-home";
+import { UiSmartHomeBold } from "./components/ui-smart-home";
+import { UiSmartHomeBroken } from "./components/ui-smart-home";
+import { UiSmartHomeBulk } from "./components/ui-smart-home";
+import { UiSmartHomeLinear } from "./components/ui-smart-home";
+import { UiSmartHomeOutline } from "./components/ui-smart-home";
+import { UiSmartHomeTwotone } from "./components/ui-smart-home";
+import { variants as variantsSmartHomeAngle } from "./components/smart-home-angle";
+import { SmartHomeAngleBold } from "./components/smart-home-angle";
+import { SmartHomeAngleBroken } from "./components/smart-home-angle";
+import { SmartHomeAngleBulk } from "./components/smart-home-angle";
+import { SmartHomeAngleLinear } from "./components/smart-home-angle";
+import { SmartHomeAngleOutline } from "./components/smart-home-angle";
+import { SmartHomeAngleTwotone } from "./components/smart-home-angle";
+import { variants as variantsUiSort } from "./components/ui-sort";
+import { UiSortBold } from "./components/ui-sort";
+import { UiSortBroken } from "./components/ui-sort";
+import { UiSortBulk } from "./components/ui-sort";
+import { UiSortLinear } from "./components/ui-sort";
+import { UiSortOutline } from "./components/ui-sort";
+import { UiSortTwotone } from "./components/ui-sort";
+import { variants as variantsSpecialEffects } from "./components/special-effects";
+import { SpecialEffectsBold } from "./components/special-effects";
+import { SpecialEffectsBroken } from "./components/special-effects";
+import { SpecialEffectsBulk } from "./components/special-effects";
+import { SpecialEffectsLinear } from "./components/special-effects";
+import { SpecialEffectsOutline } from "./components/special-effects";
+import { SpecialEffectsTwotone } from "./components/special-effects";
+import { variants as variantsSubtitles } from "./components/subtitles";
+import { SubtitlesBold } from "./components/subtitles";
+import { SubtitlesBroken } from "./components/subtitles";
+import { SubtitlesBulk } from "./components/subtitles";
+import { SubtitlesLinear } from "./components/subtitles";
+import { SubtitlesOutline } from "./components/subtitles";
+import { SubtitlesTwotone } from "./components/subtitles";
+import { variants as variantsTShirt } from "./components/t-shirt";
+import { TShirtBold } from "./components/t-shirt";
+import { TShirtBroken } from "./components/t-shirt";
+import { TShirtBulk } from "./components/t-shirt";
+import { TShirtLinear } from "./components/t-shirt";
+import { TShirtOutline } from "./components/t-shirt";
+import { TShirtTwotone } from "./components/t-shirt";
+import { variants as variantsTarget } from "./components/target";
+import { TargetBold } from "./components/target";
+import { TargetBroken } from "./components/target";
+import { TargetBulk } from "./components/target";
+import { TargetLinear } from "./components/target";
+import { TargetOutline } from "./components/target";
+import { TargetTwotone } from "./components/target";
+import { variants as variantsTraffic } from "./components/traffic";
+import { TrafficBold } from "./components/traffic";
+import { TrafficBroken } from "./components/traffic";
+import { TrafficBulk } from "./components/traffic";
+import { TrafficLinear } from "./components/traffic";
+import { TrafficOutline } from "./components/traffic";
+import { TrafficTwotone } from "./components/traffic";
+import { variants as variantsTrafficEconomy } from "./components/traffic-economy";
+import { TrafficEconomyBold } from "./components/traffic-economy";
+import { TrafficEconomyBroken } from "./components/traffic-economy";
+import { TrafficEconomyBulk } from "./components/traffic-economy";
+import { TrafficEconomyLinear } from "./components/traffic-economy";
+import { TrafficEconomyOutline } from "./components/traffic-economy";
+import { TrafficEconomyTwotone } from "./components/traffic-economy";
+import { variants as variantsTrashBin2 } from "./components/trash-bin-2";
+import { TrashBin2Bold } from "./components/trash-bin-2";
+import { TrashBin2Broken } from "./components/trash-bin-2";
+import { TrashBin2Bulk } from "./components/trash-bin-2";
+import { TrashBin2Linear } from "./components/trash-bin-2";
+import { TrashBin2Outline } from "./components/trash-bin-2";
+import { TrashBin2Twotone } from "./components/trash-bin-2";
+import { variants as variantsTrashBinMinimalistic } from "./components/trash-bin-minimalistic";
+import { TrashBinMinimalisticBold } from "./components/trash-bin-minimalistic";
+import { TrashBinMinimalisticBroken } from "./components/trash-bin-minimalistic";
+import { TrashBinMinimalisticBulk } from "./components/trash-bin-minimalistic";
+import { TrashBinMinimalisticLinear } from "./components/trash-bin-minimalistic";
+import { TrashBinMinimalisticOutline } from "./components/trash-bin-minimalistic";
+import { TrashBinMinimalisticTwotone } from "./components/trash-bin-minimalistic";
+import { variants as variantsTrashBinMinimalistic2 } from "./components/trash-bin-minimalistic-2";
+import { TrashBinMinimalistic2Bold } from "./components/trash-bin-minimalistic-2";
+import { TrashBinMinimalistic2Broken } from "./components/trash-bin-minimalistic-2";
+import { TrashBinMinimalistic2Bulk } from "./components/trash-bin-minimalistic-2";
+import { TrashBinMinimalistic2Linear } from "./components/trash-bin-minimalistic-2";
+import { TrashBinMinimalistic2Outline } from "./components/trash-bin-minimalistic-2";
+import { TrashBinMinimalistic2Twotone } from "./components/trash-bin-minimalistic-2";
+import { variants as variantsTrashBinTrash } from "./components/trash-bin-trash";
+import { TrashBinTrashBold } from "./components/trash-bin-trash";
+import { TrashBinTrashBroken } from "./components/trash-bin-trash";
+import { TrashBinTrashBulk } from "./components/trash-bin-trash";
+import { TrashBinTrashLinear } from "./components/trash-bin-trash";
+import { TrashBinTrashOutline } from "./components/trash-bin-trash";
+import { TrashBinTrashTwotone } from "./components/trash-bin-trash";
+import { variants as variantsUmbrella } from "./components/umbrella";
+import { UmbrellaBold } from "./components/umbrella";
+import { UmbrellaBroken } from "./components/umbrella";
+import { UmbrellaBulk } from "./components/umbrella";
+import { UmbrellaLinear } from "./components/umbrella";
+import { UmbrellaOutline } from "./components/umbrella";
+import { UmbrellaTwotone } from "./components/umbrella";
+import { variants as variantsWaterdrop } from "./components/waterdrop";
+import { WaterdropBold } from "./components/waterdrop";
+import { WaterdropBroken } from "./components/waterdrop";
+import { WaterdropBulk } from "./components/waterdrop";
+import { WaterdropLinear } from "./components/waterdrop";
+import { WaterdropOutline } from "./components/waterdrop";
+import { WaterdropTwotone } from "./components/waterdrop";
+import { variants as variantsWinRar } from "./components/win-rar";
+import { WinRarBold } from "./components/win-rar";
+import { WinRarBroken } from "./components/win-rar";
+import { WinRarBulk } from "./components/win-rar";
+import { WinRarLinear } from "./components/win-rar";
+import { WinRarOutline } from "./components/win-rar";
+import { WinRarTwotone } from "./components/win-rar";
+import { variants as variantsXxx } from "./components/xxx";
+import { XxxBold } from "./components/xxx";
+import { XxxBroken } from "./components/xxx";
+import { XxxBulk } from "./components/xxx";
+import { XxxLinear } from "./components/xxx";
+import { XxxOutline } from "./components/xxx";
+import { XxxTwotone } from "./components/xxx";
+import { variants as variantsUsersUser } from "./components/users-user";
+import { UsersUserBold } from "./components/users-user";
+import { UsersUserBroken } from "./components/users-user";
+import { UsersUserBulk } from "./components/users-user";
+import { UsersUserLinear } from "./components/users-user";
+import { UsersUserOutline } from "./components/users-user";
+import { UsersUserTwotone } from "./components/users-user";
+import { variants as variantsUserBlock } from "./components/user-block";
+import { UserBlockBold } from "./components/user-block";
+import { UserBlockBroken } from "./components/user-block";
+import { UserBlockBulk } from "./components/user-block";
+import { UserBlockLinear } from "./components/user-block";
+import { UserBlockOutline } from "./components/user-block";
+import { UserBlockTwotone } from "./components/user-block";
+import { variants as variantsUserBlockRounded } from "./components/user-block-rounded";
+import { UserBlockRoundedBold } from "./components/user-block-rounded";
+import { UserBlockRoundedBroken } from "./components/user-block-rounded";
+import { UserBlockRoundedBulk } from "./components/user-block-rounded";
+import { UserBlockRoundedLinear } from "./components/user-block-rounded";
+import { UserBlockRoundedOutline } from "./components/user-block-rounded";
+import { UserBlockRoundedTwotone } from "./components/user-block-rounded";
+import { variants as variantsUserCheck } from "./components/user-check";
+import { UserCheckBold } from "./components/user-check";
+import { UserCheckBroken } from "./components/user-check";
+import { UserCheckBulk } from "./components/user-check";
+import { UserCheckLinear } from "./components/user-check";
+import { UserCheckOutline } from "./components/user-check";
+import { UserCheckTwotone } from "./components/user-check";
+import { variants as variantsUserCheckRounded } from "./components/user-check-rounded";
+import { UserCheckRoundedBold } from "./components/user-check-rounded";
+import { UserCheckRoundedBroken } from "./components/user-check-rounded";
+import { UserCheckRoundedBulk } from "./components/user-check-rounded";
+import { UserCheckRoundedLinear } from "./components/user-check-rounded";
+import { UserCheckRoundedOutline } from "./components/user-check-rounded";
+import { UserCheckRoundedTwotone } from "./components/user-check-rounded";
+import { variants as variantsUserCircle } from "./components/user-circle";
+import { UserCircleBold } from "./components/user-circle";
+import { UserCircleBroken } from "./components/user-circle";
+import { UserCircleBulk } from "./components/user-circle";
+import { UserCircleLinear } from "./components/user-circle";
+import { UserCircleOutline } from "./components/user-circle";
+import { UserCircleTwotone } from "./components/user-circle";
+import { variants as variantsUserCross } from "./components/user-cross";
+import { UserCrossBold } from "./components/user-cross";
+import { UserCrossBroken } from "./components/user-cross";
+import { UserCrossBulk } from "./components/user-cross";
+import { UserCrossLinear } from "./components/user-cross";
+import { UserCrossOutline } from "./components/user-cross";
+import { UserCrossTwotone } from "./components/user-cross";
+import { variants as variantsUserCrossRounded } from "./components/user-cross-rounded";
+import { UserCrossRoundedBold } from "./components/user-cross-rounded";
+import { UserCrossRoundedBroken } from "./components/user-cross-rounded";
+import { UserCrossRoundedBulk } from "./components/user-cross-rounded";
+import { UserCrossRoundedLinear } from "./components/user-cross-rounded";
+import { UserCrossRoundedOutline } from "./components/user-cross-rounded";
+import { UserCrossRoundedTwotone } from "./components/user-cross-rounded";
+import { variants as variantsUserHandUp } from "./components/user-hand-up";
+import { UserHandUpBold } from "./components/user-hand-up";
+import { UserHandUpBroken } from "./components/user-hand-up";
+import { UserHandUpBulk } from "./components/user-hand-up";
+import { UserHandUpLinear } from "./components/user-hand-up";
+import { UserHandUpOutline } from "./components/user-hand-up";
+import { UserHandUpTwotone } from "./components/user-hand-up";
+import { variants as variantsUserHands } from "./components/user-hands";
+import { UserHandsBold } from "./components/user-hands";
+import { UserHandsBroken } from "./components/user-hands";
+import { UserHandsBulk } from "./components/user-hands";
+import { UserHandsLinear } from "./components/user-hands";
+import { UserHandsOutline } from "./components/user-hands";
+import { UserHandsTwotone } from "./components/user-hands";
+import { variants as variantsUserHeart } from "./components/user-heart";
+import { UserHeartBold } from "./components/user-heart";
+import { UserHeartBroken } from "./components/user-heart";
+import { UserHeartBulk } from "./components/user-heart";
+import { UserHeartLinear } from "./components/user-heart";
+import { UserHeartOutline } from "./components/user-heart";
+import { UserHeartTwotone } from "./components/user-heart";
+import { variants as variantsUserHeartRounded } from "./components/user-heart-rounded";
+import { UserHeartRoundedBold } from "./components/user-heart-rounded";
+import { UserHeartRoundedBroken } from "./components/user-heart-rounded";
+import { UserHeartRoundedBulk } from "./components/user-heart-rounded";
+import { UserHeartRoundedLinear } from "./components/user-heart-rounded";
+import { UserHeartRoundedOutline } from "./components/user-heart-rounded";
+import { UserHeartRoundedTwotone } from "./components/user-heart-rounded";
+import { variants as variantsUserId } from "./components/user-id";
+import { UserIdBold } from "./components/user-id";
+import { UserIdBroken } from "./components/user-id";
+import { UserIdBulk } from "./components/user-id";
+import { UserIdLinear } from "./components/user-id";
+import { UserIdOutline } from "./components/user-id";
+import { UserIdTwotone } from "./components/user-id";
+import { variants as variantsUsersUserMinus } from "./components/users-user-minus";
+import { UsersUserMinusBold } from "./components/users-user-minus";
+import { UsersUserMinusBroken } from "./components/users-user-minus";
+import { UsersUserMinusBulk } from "./components/users-user-minus";
+import { UsersUserMinusLinear } from "./components/users-user-minus";
+import { UsersUserMinusOutline } from "./components/users-user-minus";
+import { UsersUserMinusTwotone } from "./components/users-user-minus";
+import { variants as variantsUserMinusRounded } from "./components/user-minus-rounded";
+import { UserMinusRoundedBold } from "./components/user-minus-rounded";
+import { UserMinusRoundedBroken } from "./components/user-minus-rounded";
+import { UserMinusRoundedBulk } from "./components/user-minus-rounded";
+import { UserMinusRoundedLinear } from "./components/user-minus-rounded";
+import { UserMinusRoundedOutline } from "./components/user-minus-rounded";
+import { UserMinusRoundedTwotone } from "./components/user-minus-rounded";
+import { variants as variantsUserPlus } from "./components/user-plus";
+import { UserPlusBold } from "./components/user-plus";
+import { UserPlusBroken } from "./components/user-plus";
+import { UserPlusBulk } from "./components/user-plus";
+import { UserPlusLinear } from "./components/user-plus";
+import { UserPlusOutline } from "./components/user-plus";
+import { UserPlusTwotone } from "./components/user-plus";
+import { variants as variantsUserPlusRounded } from "./components/user-plus-rounded";
+import { UserPlusRoundedBold } from "./components/user-plus-rounded";
+import { UserPlusRoundedBroken } from "./components/user-plus-rounded";
+import { UserPlusRoundedBulk } from "./components/user-plus-rounded";
+import { UserPlusRoundedLinear } from "./components/user-plus-rounded";
+import { UserPlusRoundedOutline } from "./components/user-plus-rounded";
+import { UserPlusRoundedTwotone } from "./components/user-plus-rounded";
+import { variants as variantsUserRounded } from "./components/user-rounded";
+import { UserRoundedBold } from "./components/user-rounded";
+import { UserRoundedBroken } from "./components/user-rounded";
+import { UserRoundedBulk } from "./components/user-rounded";
+import { UserRoundedLinear } from "./components/user-rounded";
+import { UserRoundedOutline } from "./components/user-rounded";
+import { UserRoundedTwotone } from "./components/user-rounded";
+import { variants as variantsUserSpeak } from "./components/user-speak";
+import { UserSpeakBold } from "./components/user-speak";
+import { UserSpeakBroken } from "./components/user-speak";
+import { UserSpeakBulk } from "./components/user-speak";
+import { UserSpeakLinear } from "./components/user-speak";
+import { UserSpeakOutline } from "./components/user-speak";
+import { UserSpeakTwotone } from "./components/user-speak";
+import { variants as variantsUserSpeakRounded } from "./components/user-speak-rounded";
+import { UserSpeakRoundedBold } from "./components/user-speak-rounded";
+import { UserSpeakRoundedBroken } from "./components/user-speak-rounded";
+import { UserSpeakRoundedBulk } from "./components/user-speak-rounded";
+import { UserSpeakRoundedLinear } from "./components/user-speak-rounded";
+import { UserSpeakRoundedOutline } from "./components/user-speak-rounded";
+import { UserSpeakRoundedTwotone } from "./components/user-speak-rounded";
+import { variants as variantsUsersGroupRounded } from "./components/users-group-rounded";
+import { UsersGroupRoundedBold } from "./components/users-group-rounded";
+import { UsersGroupRoundedBroken } from "./components/users-group-rounded";
+import { UsersGroupRoundedBulk } from "./components/users-group-rounded";
+import { UsersGroupRoundedLinear } from "./components/users-group-rounded";
+import { UsersGroupRoundedOutline } from "./components/users-group-rounded";
+import { UsersGroupRoundedTwotone } from "./components/users-group-rounded";
+import { variants as variantsUsersGroupTwoRounded } from "./components/users-group-two-rounded";
+import { UsersGroupTwoRoundedBold } from "./components/users-group-two-rounded";
+import { UsersGroupTwoRoundedBroken } from "./components/users-group-two-rounded";
+import { UsersGroupTwoRoundedBulk } from "./components/users-group-two-rounded";
+import { UsersGroupTwoRoundedLinear } from "./components/users-group-two-rounded";
+import { UsersGroupTwoRoundedOutline } from "./components/users-group-two-rounded";
+import { UsersGroupTwoRoundedTwotone } from "./components/users-group-two-rounded";
+import { variants as variantsAlbum } from "./components/album";
+import { AlbumBold } from "./components/album";
+import { AlbumBroken } from "./components/album";
+import { AlbumBulk } from "./components/album";
+import { AlbumLinear } from "./components/album";
+import { AlbumOutline } from "./components/album";
+import { AlbumTwotone } from "./components/album";
+import { variants as variantsVideoCamera } from "./components/video-camera";
+import { VideoCameraBold } from "./components/video-camera";
+import { VideoCameraBroken } from "./components/video-camera";
+import { VideoCameraBulk } from "./components/video-camera";
+import { VideoCameraLinear } from "./components/video-camera";
+import { VideoCameraOutline } from "./components/video-camera";
+import { VideoCameraTwotone } from "./components/video-camera";
+import { variants as variantsCameraAdd } from "./components/camera-add";
+import { CameraAddBold } from "./components/camera-add";
+import { CameraAddBroken } from "./components/camera-add";
+import { CameraAddBulk } from "./components/camera-add";
+import { CameraAddLinear } from "./components/camera-add";
+import { CameraAddOutline } from "./components/camera-add";
+import { CameraAddTwotone } from "./components/camera-add";
+import { variants as variantsCameraMinimalistic } from "./components/camera-minimalistic";
+import { CameraMinimalisticBold } from "./components/camera-minimalistic";
+import { CameraMinimalisticBroken } from "./components/camera-minimalistic";
+import { CameraMinimalisticBulk } from "./components/camera-minimalistic";
+import { CameraMinimalisticLinear } from "./components/camera-minimalistic";
+import { CameraMinimalisticOutline } from "./components/camera-minimalistic";
+import { CameraMinimalisticTwotone } from "./components/camera-minimalistic";
+import { variants as variantsCameraRotate } from "./components/camera-rotate";
+import { CameraRotateBold } from "./components/camera-rotate";
+import { CameraRotateBroken } from "./components/camera-rotate";
+import { CameraRotateBulk } from "./components/camera-rotate";
+import { CameraRotateLinear } from "./components/camera-rotate";
+import { CameraRotateOutline } from "./components/camera-rotate";
+import { CameraRotateTwotone } from "./components/camera-rotate";
+import { variants as variantsCameraSquare } from "./components/camera-square";
+import { CameraSquareBold } from "./components/camera-square";
+import { CameraSquareBroken } from "./components/camera-square";
+import { CameraSquareBulk } from "./components/camera-square";
+import { CameraSquareLinear } from "./components/camera-square";
+import { CameraSquareOutline } from "./components/camera-square";
+import { CameraSquareTwotone } from "./components/camera-square";
+import { variants as variantsClapperboard } from "./components/clapperboard";
+import { ClapperboardBold } from "./components/clapperboard";
+import { ClapperboardBroken } from "./components/clapperboard";
+import { ClapperboardBulk } from "./components/clapperboard";
+import { ClapperboardLinear } from "./components/clapperboard";
+import { ClapperboardOutline } from "./components/clapperboard";
+import { ClapperboardTwotone } from "./components/clapperboard";
+import { variants as variantsClapperboardEdit } from "./components/clapperboard-edit";
+import { ClapperboardEditBold } from "./components/clapperboard-edit";
+import { ClapperboardEditBroken } from "./components/clapperboard-edit";
+import { ClapperboardEditBulk } from "./components/clapperboard-edit";
+import { ClapperboardEditLinear } from "./components/clapperboard-edit";
+import { ClapperboardEditOutline } from "./components/clapperboard-edit";
+import { ClapperboardEditTwotone } from "./components/clapperboard-edit";
+import { variants as variantsClapperboardOpen } from "./components/clapperboard-open";
+import { ClapperboardOpenBold } from "./components/clapperboard-open";
+import { ClapperboardOpenBroken } from "./components/clapperboard-open";
+import { ClapperboardOpenBulk } from "./components/clapperboard-open";
+import { ClapperboardOpenLinear } from "./components/clapperboard-open";
+import { ClapperboardOpenOutline } from "./components/clapperboard-open";
+import { ClapperboardOpenTwotone } from "./components/clapperboard-open";
+import { variants as variantsClapperboardOpenPlay } from "./components/clapperboard-open-play";
+import { ClapperboardOpenPlayBold } from "./components/clapperboard-open-play";
+import { ClapperboardOpenPlayBroken } from "./components/clapperboard-open-play";
+import { ClapperboardOpenPlayBulk } from "./components/clapperboard-open-play";
+import { ClapperboardOpenPlayLinear } from "./components/clapperboard-open-play";
+import { ClapperboardOpenPlayOutline } from "./components/clapperboard-open-play";
+import { ClapperboardOpenPlayTwotone } from "./components/clapperboard-open-play";
+import { variants as variantsClapperboardPlay } from "./components/clapperboard-play";
+import { ClapperboardPlayBold } from "./components/clapperboard-play";
+import { ClapperboardPlayBroken } from "./components/clapperboard-play";
+import { ClapperboardPlayBulk } from "./components/clapperboard-play";
+import { ClapperboardPlayLinear } from "./components/clapperboard-play";
+import { ClapperboardPlayOutline } from "./components/clapperboard-play";
+import { ClapperboardPlayTwotone } from "./components/clapperboard-play";
+import { variants as variantsClapperboardText } from "./components/clapperboard-text";
+import { ClapperboardTextBold } from "./components/clapperboard-text";
+import { ClapperboardTextBroken } from "./components/clapperboard-text";
+import { ClapperboardTextBulk } from "./components/clapperboard-text";
+import { ClapperboardTextLinear } from "./components/clapperboard-text";
+import { ClapperboardTextOutline } from "./components/clapperboard-text";
+import { ClapperboardTextTwotone } from "./components/clapperboard-text";
+import { variants as variantsFullScreen } from "./components/full-screen";
+import { FullScreenBold } from "./components/full-screen";
+import { FullScreenBroken } from "./components/full-screen";
+import { FullScreenBulk } from "./components/full-screen";
+import { FullScreenLinear } from "./components/full-screen";
+import { FullScreenOutline } from "./components/full-screen";
+import { FullScreenTwotone } from "./components/full-screen";
+import { variants as variantsFullScreenCircle } from "./components/full-screen-circle";
+import { FullScreenCircleBold } from "./components/full-screen-circle";
+import { FullScreenCircleBroken } from "./components/full-screen-circle";
+import { FullScreenCircleBulk } from "./components/full-screen-circle";
+import { FullScreenCircleLinear } from "./components/full-screen-circle";
+import { FullScreenCircleOutline } from "./components/full-screen-circle";
+import { FullScreenCircleTwotone } from "./components/full-screen-circle";
+import { variants as variantsFullScreenSquare } from "./components/full-screen-square";
+import { FullScreenSquareBold } from "./components/full-screen-square";
+import { FullScreenSquareBroken } from "./components/full-screen-square";
+import { FullScreenSquareBulk } from "./components/full-screen-square";
+import { FullScreenSquareLinear } from "./components/full-screen-square";
+import { FullScreenSquareOutline } from "./components/full-screen-square";
+import { FullScreenSquareTwotone } from "./components/full-screen-square";
+import { variants as variantsVideoGallery } from "./components/video-gallery";
+import { VideoGalleryBold } from "./components/video-gallery";
+import { VideoGalleryBroken } from "./components/video-gallery";
+import { VideoGalleryBulk } from "./components/video-gallery";
+import { VideoGalleryLinear } from "./components/video-gallery";
+import { VideoGalleryOutline } from "./components/video-gallery";
+import { VideoGalleryTwotone } from "./components/video-gallery";
+import { variants as variantsVideoGalleryAdd } from "./components/video-gallery-add";
+import { VideoGalleryAddBold } from "./components/video-gallery-add";
+import { VideoGalleryAddBroken } from "./components/video-gallery-add";
+import { VideoGalleryAddBulk } from "./components/video-gallery-add";
+import { VideoGalleryAddLinear } from "./components/video-gallery-add";
+import { VideoGalleryAddOutline } from "./components/video-gallery-add";
+import { VideoGalleryAddTwotone } from "./components/video-gallery-add";
+import { variants as variantsGalleryCheck } from "./components/gallery-check";
+import { GalleryCheckBold } from "./components/gallery-check";
+import { GalleryCheckBroken } from "./components/gallery-check";
+import { GalleryCheckBulk } from "./components/gallery-check";
+import { GalleryCheckLinear } from "./components/gallery-check";
+import { GalleryCheckOutline } from "./components/gallery-check";
+import { GalleryCheckTwotone } from "./components/gallery-check";
+import { variants as variantsGalleryCircle } from "./components/gallery-circle";
+import { GalleryCircleBold } from "./components/gallery-circle";
+import { GalleryCircleBroken } from "./components/gallery-circle";
+import { GalleryCircleBulk } from "./components/gallery-circle";
+import { GalleryCircleLinear } from "./components/gallery-circle";
+import { GalleryCircleOutline } from "./components/gallery-circle";
+import { GalleryCircleTwotone } from "./components/gallery-circle";
+import { variants as variantsGalleryDownload } from "./components/gallery-download";
+import { GalleryDownloadBold } from "./components/gallery-download";
+import { GalleryDownloadBroken } from "./components/gallery-download";
+import { GalleryDownloadBulk } from "./components/gallery-download";
+import { GalleryDownloadLinear } from "./components/gallery-download";
+import { GalleryDownloadOutline } from "./components/gallery-download";
+import { GalleryDownloadTwotone } from "./components/gallery-download";
+import { variants as variantsVideoGalleryEdit } from "./components/video-gallery-edit";
+import { VideoGalleryEditBold } from "./components/video-gallery-edit";
+import { VideoGalleryEditBroken } from "./components/video-gallery-edit";
+import { VideoGalleryEditBulk } from "./components/video-gallery-edit";
+import { VideoGalleryEditLinear } from "./components/video-gallery-edit";
+import { VideoGalleryEditOutline } from "./components/video-gallery-edit";
+import { VideoGalleryEditTwotone } from "./components/video-gallery-edit";
+import { variants as variantsGalleryFavourite } from "./components/gallery-favourite";
+import { GalleryFavouriteBold } from "./components/gallery-favourite";
+import { GalleryFavouriteBroken } from "./components/gallery-favourite";
+import { GalleryFavouriteBulk } from "./components/gallery-favourite";
+import { GalleryFavouriteLinear } from "./components/gallery-favourite";
+import { GalleryFavouriteOutline } from "./components/gallery-favourite";
+import { GalleryFavouriteTwotone } from "./components/gallery-favourite";
+import { variants as variantsGalleryMinimalistic } from "./components/gallery-minimalistic";
+import { GalleryMinimalisticBold } from "./components/gallery-minimalistic";
+import { GalleryMinimalisticBroken } from "./components/gallery-minimalistic";
+import { GalleryMinimalisticBulk } from "./components/gallery-minimalistic";
+import { GalleryMinimalisticLinear } from "./components/gallery-minimalistic";
+import { GalleryMinimalisticOutline } from "./components/gallery-minimalistic";
+import { GalleryMinimalisticTwotone } from "./components/gallery-minimalistic";
+import { variants as variantsVideoGalleryRemove } from "./components/video-gallery-remove";
+import { VideoGalleryRemoveBold } from "./components/video-gallery-remove";
+import { VideoGalleryRemoveBroken } from "./components/video-gallery-remove";
+import { VideoGalleryRemoveBulk } from "./components/video-gallery-remove";
+import { VideoGalleryRemoveLinear } from "./components/video-gallery-remove";
+import { VideoGalleryRemoveOutline } from "./components/video-gallery-remove";
+import { VideoGalleryRemoveTwotone } from "./components/video-gallery-remove";
+import { variants as variantsGalleryRound } from "./components/gallery-round";
+import { GalleryRoundBold } from "./components/gallery-round";
+import { GalleryRoundBroken } from "./components/gallery-round";
+import { GalleryRoundBulk } from "./components/gallery-round";
+import { GalleryRoundLinear } from "./components/gallery-round";
+import { GalleryRoundOutline } from "./components/gallery-round";
+import { GalleryRoundTwotone } from "./components/gallery-round";
+import { variants as variantsGallerySend } from "./components/gallery-send";
+import { GallerySendBold } from "./components/gallery-send";
+import { GallerySendBroken } from "./components/gallery-send";
+import { GallerySendBulk } from "./components/gallery-send";
+import { GallerySendLinear } from "./components/gallery-send";
+import { GallerySendOutline } from "./components/gallery-send";
+import { GallerySendTwotone } from "./components/gallery-send";
+import { variants as variantsGalleryWide } from "./components/gallery-wide";
+import { GalleryWideBold } from "./components/gallery-wide";
+import { GalleryWideBroken } from "./components/gallery-wide";
+import { GalleryWideBulk } from "./components/gallery-wide";
+import { GalleryWideLinear } from "./components/gallery-wide";
+import { GalleryWideOutline } from "./components/gallery-wide";
+import { GalleryWideTwotone } from "./components/gallery-wide";
+import { variants as variantsLibrary } from "./components/library";
+import { LibraryBold } from "./components/library";
+import { LibraryBroken } from "./components/library";
+import { LibraryBulk } from "./components/library";
+import { LibraryLinear } from "./components/library";
+import { LibraryOutline } from "./components/library";
+import { LibraryTwotone } from "./components/library";
+import { variants as variantsVideoMicrophone } from "./components/video-microphone";
+import { VideoMicrophoneBold } from "./components/video-microphone";
+import { VideoMicrophoneBroken } from "./components/video-microphone";
+import { VideoMicrophoneBulk } from "./components/video-microphone";
+import { VideoMicrophoneLinear } from "./components/video-microphone";
+import { VideoMicrophoneOutline } from "./components/video-microphone";
+import { VideoMicrophoneTwotone } from "./components/video-microphone";
+import { variants as variantsVideoMicrophone2 } from "./components/video-microphone-2";
+import { VideoMicrophone2Bold } from "./components/video-microphone-2";
+import { VideoMicrophone2Broken } from "./components/video-microphone-2";
+import { VideoMicrophone2Bulk } from "./components/video-microphone-2";
+import { VideoMicrophone2Linear } from "./components/video-microphone-2";
+import { VideoMicrophone2Outline } from "./components/video-microphone-2";
+import { VideoMicrophone2Twotone } from "./components/video-microphone-2";
+import { variants as variantsMicrophone3 } from "./components/microphone-3";
+import { Microphone3Bold } from "./components/microphone-3";
+import { Microphone3Broken } from "./components/microphone-3";
+import { Microphone3Bulk } from "./components/microphone-3";
+import { Microphone3Linear } from "./components/microphone-3";
+import { Microphone3Outline } from "./components/microphone-3";
+import { Microphone3Twotone } from "./components/microphone-3";
+import { variants as variantsMicrophoneLarge } from "./components/microphone-large";
+import { MicrophoneLargeBold } from "./components/microphone-large";
+import { MicrophoneLargeBroken } from "./components/microphone-large";
+import { MicrophoneLargeBulk } from "./components/microphone-large";
+import { MicrophoneLargeLinear } from "./components/microphone-large";
+import { MicrophoneLargeOutline } from "./components/microphone-large";
+import { MicrophoneLargeTwotone } from "./components/microphone-large";
+import { variants as variantsMusicLibrary } from "./components/music-library";
+import { MusicLibraryBold } from "./components/music-library";
+import { MusicLibraryBroken } from "./components/music-library";
+import { MusicLibraryBulk } from "./components/music-library";
+import { MusicLibraryLinear } from "./components/music-library";
+import { MusicLibraryOutline } from "./components/music-library";
+import { MusicLibraryTwotone } from "./components/music-library";
+import { variants as variantsVideoMusicLibrary2 } from "./components/video-music-library-2";
+import { VideoMusicLibrary2Bold } from "./components/video-music-library-2";
+import { VideoMusicLibrary2Broken } from "./components/video-music-library-2";
+import { VideoMusicLibrary2Bulk } from "./components/video-music-library-2";
+import { VideoMusicLibrary2Linear } from "./components/video-music-library-2";
+import { VideoMusicLibrary2Outline } from "./components/video-music-library-2";
+import { VideoMusicLibrary2Twotone } from "./components/video-music-library-2";
+import { variants as variantsMusicNote } from "./components/music-note";
+import { MusicNoteBold } from "./components/music-note";
+import { MusicNoteBroken } from "./components/music-note";
+import { MusicNoteBulk } from "./components/music-note";
+import { MusicNoteLinear } from "./components/music-note";
+import { MusicNoteOutline } from "./components/music-note";
+import { MusicNoteTwotone } from "./components/music-note";
+import { variants as variantsMusicNote2 } from "./components/music-note-2";
+import { MusicNote2Bold } from "./components/music-note-2";
+import { MusicNote2Broken } from "./components/music-note-2";
+import { MusicNote2Bulk } from "./components/music-note-2";
+import { MusicNote2Linear } from "./components/music-note-2";
+import { MusicNote2Outline } from "./components/music-note-2";
+import { MusicNote2Twotone } from "./components/music-note-2";
+import { variants as variantsMusicNote3 } from "./components/music-note-3";
+import { MusicNote3Bold } from "./components/music-note-3";
+import { MusicNote3Broken } from "./components/music-note-3";
+import { MusicNote3Bulk } from "./components/music-note-3";
+import { MusicNote3Linear } from "./components/music-note-3";
+import { MusicNote3Outline } from "./components/music-note-3";
+import { MusicNote3Twotone } from "./components/music-note-3";
+import { variants as variantsMusicNote4 } from "./components/music-note-4";
+import { MusicNote4Bold } from "./components/music-note-4";
+import { MusicNote4Broken } from "./components/music-note-4";
+import { MusicNote4Bulk } from "./components/music-note-4";
+import { MusicNote4Linear } from "./components/music-note-4";
+import { MusicNote4Outline } from "./components/music-note-4";
+import { MusicNote4Twotone } from "./components/music-note-4";
+import { variants as variantsMusicNoteSlider } from "./components/music-note-slider";
+import { MusicNoteSliderBold } from "./components/music-note-slider";
+import { MusicNoteSliderBroken } from "./components/music-note-slider";
+import { MusicNoteSliderBulk } from "./components/music-note-slider";
+import { MusicNoteSliderLinear } from "./components/music-note-slider";
+import { MusicNoteSliderOutline } from "./components/music-note-slider";
+import { MusicNoteSliderTwotone } from "./components/music-note-slider";
+import { variants as variantsMusicNoteSlider2 } from "./components/music-note-slider-2";
+import { MusicNoteSlider2Bold } from "./components/music-note-slider-2";
+import { MusicNoteSlider2Broken } from "./components/music-note-slider-2";
+import { MusicNoteSlider2Bulk } from "./components/music-note-slider-2";
+import { MusicNoteSlider2Linear } from "./components/music-note-slider-2";
+import { MusicNoteSlider2Outline } from "./components/music-note-slider-2";
+import { MusicNoteSlider2Twotone } from "./components/music-note-slider-2";
+import { variants as variantsMusicNotes } from "./components/music-notes";
+import { MusicNotesBold } from "./components/music-notes";
+import { MusicNotesBroken } from "./components/music-notes";
+import { MusicNotesBulk } from "./components/music-notes";
+import { MusicNotesLinear } from "./components/music-notes";
+import { MusicNotesOutline } from "./components/music-notes";
+import { MusicNotesTwotone } from "./components/music-notes";
+import { variants as variantsMuted } from "./components/muted";
+import { MutedBold } from "./components/muted";
+import { MutedBroken } from "./components/muted";
+import { MutedBulk } from "./components/muted";
+import { MutedLinear } from "./components/muted";
+import { MutedOutline } from "./components/muted";
+import { MutedTwotone } from "./components/muted";
+import { variants as variantsPanorama } from "./components/panorama";
+import { PanoramaBold } from "./components/panorama";
+import { PanoramaBroken } from "./components/panorama";
+import { PanoramaBulk } from "./components/panorama";
+import { PanoramaLinear } from "./components/panorama";
+import { PanoramaOutline } from "./components/panorama";
+import { PanoramaTwotone } from "./components/panorama";
+import { variants as variantsVideoPause } from "./components/video-pause";
+import { VideoPauseBold } from "./components/video-pause";
+import { VideoPauseBroken } from "./components/video-pause";
+import { VideoPauseBulk } from "./components/video-pause";
+import { VideoPauseLinear } from "./components/video-pause";
+import { VideoPauseOutline } from "./components/video-pause";
+import { VideoPauseTwotone } from "./components/video-pause";
+import { variants as variantsVideoPauseCircle } from "./components/video-pause-circle";
+import { VideoPauseCircleBold } from "./components/video-pause-circle";
+import { VideoPauseCircleBroken } from "./components/video-pause-circle";
+import { VideoPauseCircleBulk } from "./components/video-pause-circle";
+import { VideoPauseCircleLinear } from "./components/video-pause-circle";
+import { VideoPauseCircleOutline } from "./components/video-pause-circle";
+import { VideoPauseCircleTwotone } from "./components/video-pause-circle";
+import { variants as variantsPip } from "./components/pip";
+import { PipBold } from "./components/pip";
+import { PipBroken } from "./components/pip";
+import { PipBulk } from "./components/pip";
+import { PipLinear } from "./components/pip";
+import { PipOutline } from "./components/pip";
+import { PipTwotone } from "./components/pip";
+import { variants as variantsPip2 } from "./components/pip-2";
+import { Pip2Bold } from "./components/pip-2";
+import { Pip2Broken } from "./components/pip-2";
+import { Pip2Bulk } from "./components/pip-2";
+import { Pip2Linear } from "./components/pip-2";
+import { Pip2Outline } from "./components/pip-2";
+import { Pip2Twotone } from "./components/pip-2";
+import { variants as variantsVideoPlay1 } from "./components/video-play-1";
+import { VideoPlay1Bold } from "./components/video-play-1";
+import { VideoPlay1Broken } from "./components/video-play-1";
+import { VideoPlay1Bulk } from "./components/video-play-1";
+import { VideoPlay1Linear } from "./components/video-play-1";
+import { VideoPlay1Outline } from "./components/video-play-1";
+import { VideoPlay1Twotone } from "./components/video-play-1";
+import { variants as variantsVideoPlayCircle } from "./components/video-play-circle";
+import { VideoPlayCircleBold } from "./components/video-play-circle";
+import { VideoPlayCircleBroken } from "./components/video-play-circle";
+import { VideoPlayCircleBulk } from "./components/video-play-circle";
+import { VideoPlayCircleLinear } from "./components/video-play-circle";
+import { VideoPlayCircleOutline } from "./components/video-play-circle";
+import { VideoPlayCircleTwotone } from "./components/video-play-circle";
+import { variants as variantsPlayStream } from "./components/play-stream";
+import { PlayStreamBold } from "./components/play-stream";
+import { PlayStreamBroken } from "./components/play-stream";
+import { PlayStreamBulk } from "./components/play-stream";
+import { PlayStreamLinear } from "./components/play-stream";
+import { PlayStreamOutline } from "./components/play-stream";
+import { PlayStreamTwotone } from "./components/play-stream";
+import { variants as variantsPlaybackSpeed } from "./components/playback-speed";
+import { PlaybackSpeedBold } from "./components/playback-speed";
+import { PlaybackSpeedBroken } from "./components/playback-speed";
+import { PlaybackSpeedBulk } from "./components/playback-speed";
+import { PlaybackSpeedLinear } from "./components/playback-speed";
+import { PlaybackSpeedOutline } from "./components/playback-speed";
+import { PlaybackSpeedTwotone } from "./components/playback-speed";
+import { variants as variantsPodcast } from "./components/podcast";
+import { PodcastBold } from "./components/podcast";
+import { PodcastBroken } from "./components/podcast";
+import { PodcastBulk } from "./components/podcast";
+import { PodcastLinear } from "./components/podcast";
+import { PodcastOutline } from "./components/podcast";
+import { PodcastTwotone } from "./components/podcast";
+import { variants as variantsQuitFullScreen } from "./components/quit-full-screen";
+import { QuitFullScreenBold } from "./components/quit-full-screen";
+import { QuitFullScreenBroken } from "./components/quit-full-screen";
+import { QuitFullScreenBulk } from "./components/quit-full-screen";
+import { QuitFullScreenLinear } from "./components/quit-full-screen";
+import { QuitFullScreenOutline } from "./components/quit-full-screen";
+import { QuitFullScreenTwotone } from "./components/quit-full-screen";
+import { variants as variantsQuitFullScreenCircle } from "./components/quit-full-screen-circle";
+import { QuitFullScreenCircleBold } from "./components/quit-full-screen-circle";
+import { QuitFullScreenCircleBroken } from "./components/quit-full-screen-circle";
+import { QuitFullScreenCircleBulk } from "./components/quit-full-screen-circle";
+import { QuitFullScreenCircleLinear } from "./components/quit-full-screen-circle";
+import { QuitFullScreenCircleOutline } from "./components/quit-full-screen-circle";
+import { QuitFullScreenCircleTwotone } from "./components/quit-full-screen-circle";
+import { variants as variantsQuitFullScreenSquare } from "./components/quit-full-screen-square";
+import { QuitFullScreenSquareBold } from "./components/quit-full-screen-square";
+import { QuitFullScreenSquareBroken } from "./components/quit-full-screen-square";
+import { QuitFullScreenSquareBulk } from "./components/quit-full-screen-square";
+import { QuitFullScreenSquareLinear } from "./components/quit-full-screen-square";
+import { QuitFullScreenSquareOutline } from "./components/quit-full-screen-square";
+import { QuitFullScreenSquareTwotone } from "./components/quit-full-screen-square";
+import { variants as variantsQuitPip } from "./components/quit-pip";
+import { QuitPipBold } from "./components/quit-pip";
+import { QuitPipBroken } from "./components/quit-pip";
+import { QuitPipBulk } from "./components/quit-pip";
+import { QuitPipLinear } from "./components/quit-pip";
+import { QuitPipOutline } from "./components/quit-pip";
+import { QuitPipTwotone } from "./components/quit-pip";
+import { variants as variantsVideoRecord } from "./components/video-record";
+import { VideoRecordBold } from "./components/video-record";
+import { VideoRecordBroken } from "./components/video-record";
+import { VideoRecordBulk } from "./components/video-record";
+import { VideoRecordLinear } from "./components/video-record";
+import { VideoRecordOutline } from "./components/video-record";
+import { VideoRecordTwotone } from "./components/video-record";
+import { variants as variantsRecordAudioCircle } from "./components/record-audio-circle";
+import { RecordAudioCircleBold } from "./components/record-audio-circle";
+import { RecordAudioCircleBroken } from "./components/record-audio-circle";
+import { RecordAudioCircleBulk } from "./components/record-audio-circle";
+import { RecordAudioCircleLinear } from "./components/record-audio-circle";
+import { RecordAudioCircleOutline } from "./components/record-audio-circle";
+import { RecordAudioCircleTwotone } from "./components/record-audio-circle";
+import { variants as variantsReel } from "./components/reel";
+import { ReelBold } from "./components/reel";
+import { ReelBroken } from "./components/reel";
+import { ReelBulk } from "./components/reel";
+import { ReelLinear } from "./components/reel";
+import { ReelOutline } from "./components/reel";
+import { ReelTwotone } from "./components/reel";
+import { variants as variantsReel2 } from "./components/reel-2";
+import { Reel2Bold } from "./components/reel-2";
+import { Reel2Broken } from "./components/reel-2";
+import { Reel2Bulk } from "./components/reel-2";
+import { Reel2Linear } from "./components/reel-2";
+import { Reel2Outline } from "./components/reel-2";
+import { Reel2Twotone } from "./components/reel-2";
+import { variants as variantsVideoRepeat } from "./components/video-repeat";
+import { VideoRepeatBold } from "./components/video-repeat";
+import { VideoRepeatBroken } from "./components/video-repeat";
+import { VideoRepeatBulk } from "./components/video-repeat";
+import { VideoRepeatLinear } from "./components/video-repeat";
+import { VideoRepeatOutline } from "./components/video-repeat";
+import { VideoRepeatTwotone } from "./components/video-repeat";
+import { variants as variantsRepeatOne } from "./components/repeat-one";
+import { RepeatOneBold } from "./components/repeat-one";
+import { RepeatOneBroken } from "./components/repeat-one";
+import { RepeatOneBulk } from "./components/repeat-one";
+import { RepeatOneLinear } from "./components/repeat-one";
+import { RepeatOneOutline } from "./components/repeat-one";
+import { RepeatOneTwotone } from "./components/repeat-one";
+import { variants as variantsRepeatOneMinimalistic } from "./components/repeat-one-minimalistic";
+import { RepeatOneMinimalisticBold } from "./components/repeat-one-minimalistic";
+import { RepeatOneMinimalisticBroken } from "./components/repeat-one-minimalistic";
+import { RepeatOneMinimalisticBulk } from "./components/repeat-one-minimalistic";
+import { RepeatOneMinimalisticLinear } from "./components/repeat-one-minimalistic";
+import { RepeatOneMinimalisticOutline } from "./components/repeat-one-minimalistic";
+import { RepeatOneMinimalisticTwotone } from "./components/repeat-one-minimalistic";
+import { variants as variantsRewind10SecondsBack } from "./components/rewind-10-seconds-back";
+import { Rewind10SecondsBackBold } from "./components/rewind-10-seconds-back";
+import { Rewind10SecondsBackBroken } from "./components/rewind-10-seconds-back";
+import { Rewind10SecondsBackBulk } from "./components/rewind-10-seconds-back";
+import { Rewind10SecondsBackLinear } from "./components/rewind-10-seconds-back";
+import { Rewind10SecondsBackOutline } from "./components/rewind-10-seconds-back";
+import { Rewind10SecondsBackTwotone } from "./components/rewind-10-seconds-back";
+import { variants as variantsRewind10SecondsForward } from "./components/rewind-10-seconds-forward";
+import { Rewind10SecondsForwardBold } from "./components/rewind-10-seconds-forward";
+import { Rewind10SecondsForwardBroken } from "./components/rewind-10-seconds-forward";
+import { Rewind10SecondsForwardBulk } from "./components/rewind-10-seconds-forward";
+import { Rewind10SecondsForwardLinear } from "./components/rewind-10-seconds-forward";
+import { Rewind10SecondsForwardOutline } from "./components/rewind-10-seconds-forward";
+import { Rewind10SecondsForwardTwotone } from "./components/rewind-10-seconds-forward";
+import { variants as variantsRewind15SecondsBack } from "./components/rewind-15-seconds-back";
+import { Rewind15SecondsBackBold } from "./components/rewind-15-seconds-back";
+import { Rewind15SecondsBackBroken } from "./components/rewind-15-seconds-back";
+import { Rewind15SecondsBackBulk } from "./components/rewind-15-seconds-back";
+import { Rewind15SecondsBackLinear } from "./components/rewind-15-seconds-back";
+import { Rewind15SecondsBackOutline } from "./components/rewind-15-seconds-back";
+import { Rewind15SecondsBackTwotone } from "./components/rewind-15-seconds-back";
+import { variants as variantsRewind15SecondsForward } from "./components/rewind-15-seconds-forward";
+import { Rewind15SecondsForwardBold } from "./components/rewind-15-seconds-forward";
+import { Rewind15SecondsForwardBroken } from "./components/rewind-15-seconds-forward";
+import { Rewind15SecondsForwardBulk } from "./components/rewind-15-seconds-forward";
+import { Rewind15SecondsForwardLinear } from "./components/rewind-15-seconds-forward";
+import { Rewind15SecondsForwardOutline } from "./components/rewind-15-seconds-forward";
+import { Rewind15SecondsForwardTwotone } from "./components/rewind-15-seconds-forward";
+import { variants as variantsRewind5SecondsBack } from "./components/rewind-5-seconds-back";
+import { Rewind5SecondsBackBold } from "./components/rewind-5-seconds-back";
+import { Rewind5SecondsBackBroken } from "./components/rewind-5-seconds-back";
+import { Rewind5SecondsBackBulk } from "./components/rewind-5-seconds-back";
+import { Rewind5SecondsBackLinear } from "./components/rewind-5-seconds-back";
+import { Rewind5SecondsBackOutline } from "./components/rewind-5-seconds-back";
+import { Rewind5SecondsBackTwotone } from "./components/rewind-5-seconds-back";
+import { variants as variantsRewind5SecondsForward } from "./components/rewind-5-seconds-forward";
+import { Rewind5SecondsForwardBold } from "./components/rewind-5-seconds-forward";
+import { Rewind5SecondsForwardBroken } from "./components/rewind-5-seconds-forward";
+import { Rewind5SecondsForwardBulk } from "./components/rewind-5-seconds-forward";
+import { Rewind5SecondsForwardLinear } from "./components/rewind-5-seconds-forward";
+import { Rewind5SecondsForwardOutline } from "./components/rewind-5-seconds-forward";
+import { Rewind5SecondsForwardTwotone } from "./components/rewind-5-seconds-forward";
+import { variants as variantsRewindBack } from "./components/rewind-back";
+import { RewindBackBold } from "./components/rewind-back";
+import { RewindBackBroken } from "./components/rewind-back";
+import { RewindBackBulk } from "./components/rewind-back";
+import { RewindBackLinear } from "./components/rewind-back";
+import { RewindBackOutline } from "./components/rewind-back";
+import { RewindBackTwotone } from "./components/rewind-back";
+import { variants as variantsRewindBackCircle } from "./components/rewind-back-circle";
+import { RewindBackCircleBold } from "./components/rewind-back-circle";
+import { RewindBackCircleBroken } from "./components/rewind-back-circle";
+import { RewindBackCircleBulk } from "./components/rewind-back-circle";
+import { RewindBackCircleLinear } from "./components/rewind-back-circle";
+import { RewindBackCircleOutline } from "./components/rewind-back-circle";
+import { RewindBackCircleTwotone } from "./components/rewind-back-circle";
+import { variants as variantsRewindForward } from "./components/rewind-forward";
+import { RewindForwardBold } from "./components/rewind-forward";
+import { RewindForwardBroken } from "./components/rewind-forward";
+import { RewindForwardBulk } from "./components/rewind-forward";
+import { RewindForwardLinear } from "./components/rewind-forward";
+import { RewindForwardOutline } from "./components/rewind-forward";
+import { RewindForwardTwotone } from "./components/rewind-forward";
+import { variants as variantsRewindForwardCircle } from "./components/rewind-forward-circle";
+import { RewindForwardCircleBold } from "./components/rewind-forward-circle";
+import { RewindForwardCircleBroken } from "./components/rewind-forward-circle";
+import { RewindForwardCircleBulk } from "./components/rewind-forward-circle";
+import { RewindForwardCircleLinear } from "./components/rewind-forward-circle";
+import { RewindForwardCircleOutline } from "./components/rewind-forward-circle";
+import { RewindForwardCircleTwotone } from "./components/rewind-forward-circle";
+import { variants as variantsVideoShuffle } from "./components/video-shuffle";
+import { VideoShuffleBold } from "./components/video-shuffle";
+import { VideoShuffleBroken } from "./components/video-shuffle";
+import { VideoShuffleBulk } from "./components/video-shuffle";
+import { VideoShuffleLinear } from "./components/video-shuffle";
+import { VideoShuffleOutline } from "./components/video-shuffle";
+import { VideoShuffleTwotone } from "./components/video-shuffle";
+import { variants as variantsSkipNext } from "./components/skip-next";
+import { SkipNextBold } from "./components/skip-next";
+import { SkipNextBroken } from "./components/skip-next";
+import { SkipNextBulk } from "./components/skip-next";
+import { SkipNextLinear } from "./components/skip-next";
+import { SkipNextOutline } from "./components/skip-next";
+import { SkipNextTwotone } from "./components/skip-next";
+import { variants as variantsSkipPrevious } from "./components/skip-previous";
+import { SkipPreviousBold } from "./components/skip-previous";
+import { SkipPreviousBroken } from "./components/skip-previous";
+import { SkipPreviousBulk } from "./components/skip-previous";
+import { SkipPreviousLinear } from "./components/skip-previous";
+import { SkipPreviousOutline } from "./components/skip-previous";
+import { SkipPreviousTwotone } from "./components/skip-previous";
+import { variants as variantsSoundwave } from "./components/soundwave";
+import { SoundwaveBold } from "./components/soundwave";
+import { SoundwaveBroken } from "./components/soundwave";
+import { SoundwaveBulk } from "./components/soundwave";
+import { SoundwaveLinear } from "./components/soundwave";
+import { SoundwaveOutline } from "./components/soundwave";
+import { SoundwaveTwotone } from "./components/soundwave";
+import { variants as variantsSoundwaveCircle } from "./components/soundwave-circle";
+import { SoundwaveCircleBold } from "./components/soundwave-circle";
+import { SoundwaveCircleBroken } from "./components/soundwave-circle";
+import { SoundwaveCircleBulk } from "./components/soundwave-circle";
+import { SoundwaveCircleLinear } from "./components/soundwave-circle";
+import { SoundwaveCircleOutline } from "./components/soundwave-circle";
+import { SoundwaveCircleTwotone } from "./components/soundwave-circle";
+import { variants as variantsSoundwaveSquare } from "./components/soundwave-square";
+import { SoundwaveSquareBold } from "./components/soundwave-square";
+import { SoundwaveSquareBroken } from "./components/soundwave-square";
+import { SoundwaveSquareBulk } from "./components/soundwave-square";
+import { SoundwaveSquareLinear } from "./components/soundwave-square";
+import { SoundwaveSquareOutline } from "./components/soundwave-square";
+import { SoundwaveSquareTwotone } from "./components/soundwave-square";
+import { variants as variantsVideoStop } from "./components/video-stop";
+import { VideoStopBold } from "./components/video-stop";
+import { VideoStopBroken } from "./components/video-stop";
+import { VideoStopBulk } from "./components/video-stop";
+import { VideoStopLinear } from "./components/video-stop";
+import { VideoStopOutline } from "./components/video-stop";
+import { VideoStopTwotone } from "./components/video-stop";
+import { variants as variantsVideoStopCircle } from "./components/video-stop-circle";
+import { VideoStopCircleBold } from "./components/video-stop-circle";
+import { VideoStopCircleBroken } from "./components/video-stop-circle";
+import { VideoStopCircleBulk } from "./components/video-stop-circle";
+import { VideoStopCircleLinear } from "./components/video-stop-circle";
+import { VideoStopCircleOutline } from "./components/video-stop-circle";
+import { VideoStopCircleTwotone } from "./components/video-stop-circle";
+import { variants as variantsStream } from "./components/stream";
+import { StreamBold } from "./components/stream";
+import { StreamBroken } from "./components/stream";
+import { StreamBulk } from "./components/stream";
+import { StreamLinear } from "./components/stream";
+import { StreamOutline } from "./components/stream";
+import { StreamTwotone } from "./components/stream";
+import { variants as variantsToPip } from "./components/to-pip";
+import { ToPipBold } from "./components/to-pip";
+import { ToPipBroken } from "./components/to-pip";
+import { ToPipBulk } from "./components/to-pip";
+import { ToPipLinear } from "./components/to-pip";
+import { ToPipOutline } from "./components/to-pip";
+import { ToPipTwotone } from "./components/to-pip";
+import { variants as variantsUploadTrack } from "./components/upload-track";
+import { UploadTrackBold } from "./components/upload-track";
+import { UploadTrackBroken } from "./components/upload-track";
+import { UploadTrackBulk } from "./components/upload-track";
+import { UploadTrackLinear } from "./components/upload-track";
+import { UploadTrackOutline } from "./components/upload-track";
+import { UploadTrackTwotone } from "./components/upload-track";
+import { variants as variantsUploadTrack2 } from "./components/upload-track-2";
+import { UploadTrack2Bold } from "./components/upload-track-2";
+import { UploadTrack2Broken } from "./components/upload-track-2";
+import { UploadTrack2Bulk } from "./components/upload-track-2";
+import { UploadTrack2Linear } from "./components/upload-track-2";
+import { UploadTrack2Outline } from "./components/upload-track-2";
+import { UploadTrack2Twotone } from "./components/upload-track-2";
+import { variants as variantsVideoFrame } from "./components/video-frame";
+import { VideoFrameBold } from "./components/video-frame";
+import { VideoFrameBroken } from "./components/video-frame";
+import { VideoFrameBulk } from "./components/video-frame";
+import { VideoFrameLinear } from "./components/video-frame";
+import { VideoFrameOutline } from "./components/video-frame";
+import { VideoFrameTwotone } from "./components/video-frame";
+import { variants as variantsVideoFrame2 } from "./components/video-frame-2";
+import { VideoFrame2Bold } from "./components/video-frame-2";
+import { VideoFrame2Broken } from "./components/video-frame-2";
+import { VideoFrame2Bulk } from "./components/video-frame-2";
+import { VideoFrame2Linear } from "./components/video-frame-2";
+import { VideoFrame2Outline } from "./components/video-frame-2";
+import { VideoFrame2Twotone } from "./components/video-frame-2";
+import { variants as variantsVideoFrameCut } from "./components/video-frame-cut";
+import { VideoFrameCutBold } from "./components/video-frame-cut";
+import { VideoFrameCutBroken } from "./components/video-frame-cut";
+import { VideoFrameCutBulk } from "./components/video-frame-cut";
+import { VideoFrameCutLinear } from "./components/video-frame-cut";
+import { VideoFrameCutOutline } from "./components/video-frame-cut";
+import { VideoFrameCutTwotone } from "./components/video-frame-cut";
+import { variants as variantsVideoFrameCut2 } from "./components/video-frame-cut-2";
+import { VideoFrameCut2Bold } from "./components/video-frame-cut-2";
+import { VideoFrameCut2Broken } from "./components/video-frame-cut-2";
+import { VideoFrameCut2Bulk } from "./components/video-frame-cut-2";
+import { VideoFrameCut2Linear } from "./components/video-frame-cut-2";
+import { VideoFrameCut2Outline } from "./components/video-frame-cut-2";
+import { VideoFrameCut2Twotone } from "./components/video-frame-cut-2";
+import { variants as variantsVideoFramePlayHorizontal } from "./components/video-frame-play-horizontal";
+import { VideoFramePlayHorizontalBold } from "./components/video-frame-play-horizontal";
+import { VideoFramePlayHorizontalBroken } from "./components/video-frame-play-horizontal";
+import { VideoFramePlayHorizontalBulk } from "./components/video-frame-play-horizontal";
+import { VideoFramePlayHorizontalLinear } from "./components/video-frame-play-horizontal";
+import { VideoFramePlayHorizontalOutline } from "./components/video-frame-play-horizontal";
+import { VideoFramePlayHorizontalTwotone } from "./components/video-frame-play-horizontal";
+import { variants as variantsVideoFramePlayVertical } from "./components/video-frame-play-vertical";
+import { VideoFramePlayVerticalBold } from "./components/video-frame-play-vertical";
+import { VideoFramePlayVerticalBroken } from "./components/video-frame-play-vertical";
+import { VideoFramePlayVerticalBulk } from "./components/video-frame-play-vertical";
+import { VideoFramePlayVerticalLinear } from "./components/video-frame-play-vertical";
+import { VideoFramePlayVerticalOutline } from "./components/video-frame-play-vertical";
+import { VideoFramePlayVerticalTwotone } from "./components/video-frame-play-vertical";
+import { variants as variantsVideoFrameReplace } from "./components/video-frame-replace";
+import { VideoFrameReplaceBold } from "./components/video-frame-replace";
+import { VideoFrameReplaceBroken } from "./components/video-frame-replace";
+import { VideoFrameReplaceBulk } from "./components/video-frame-replace";
+import { VideoFrameReplaceLinear } from "./components/video-frame-replace";
+import { VideoFrameReplaceOutline } from "./components/video-frame-replace";
+import { VideoFrameReplaceTwotone } from "./components/video-frame-replace";
+import { variants as variantsVideoLibrary } from "./components/video-library";
+import { VideoLibraryBold } from "./components/video-library";
+import { VideoLibraryBroken } from "./components/video-library";
+import { VideoLibraryBulk } from "./components/video-library";
+import { VideoLibraryLinear } from "./components/video-library";
+import { VideoLibraryOutline } from "./components/video-library";
+import { VideoLibraryTwotone } from "./components/video-library";
+import { variants as variantsVideocamera } from "./components/videocamera";
+import { VideocameraBold } from "./components/videocamera";
+import { VideocameraBroken } from "./components/videocamera";
+import { VideocameraBulk } from "./components/videocamera";
+import { VideocameraLinear } from "./components/videocamera";
+import { VideocameraOutline } from "./components/videocamera";
+import { VideocameraTwotone } from "./components/videocamera";
+import { variants as variantsVideocameraAdd } from "./components/videocamera-add";
+import { VideocameraAddBold } from "./components/videocamera-add";
+import { VideocameraAddBroken } from "./components/videocamera-add";
+import { VideocameraAddBulk } from "./components/videocamera-add";
+import { VideocameraAddLinear } from "./components/videocamera-add";
+import { VideocameraAddOutline } from "./components/videocamera-add";
+import { VideocameraAddTwotone } from "./components/videocamera-add";
+import { variants as variantsVideocameraRecord } from "./components/videocamera-record";
+import { VideocameraRecordBold } from "./components/videocamera-record";
+import { VideocameraRecordBroken } from "./components/videocamera-record";
+import { VideocameraRecordBulk } from "./components/videocamera-record";
+import { VideocameraRecordLinear } from "./components/videocamera-record";
+import { VideocameraRecordOutline } from "./components/videocamera-record";
+import { VideocameraRecordTwotone } from "./components/videocamera-record";
+import { variants as variantsVinyl } from "./components/vinyl";
+import { VinylBold } from "./components/vinyl";
+import { VinylBroken } from "./components/vinyl";
+import { VinylBulk } from "./components/vinyl";
+import { VinylLinear } from "./components/vinyl";
+import { VinylOutline } from "./components/vinyl";
+import { VinylTwotone } from "./components/vinyl";
+import { variants as variantsVinylRecord } from "./components/vinyl-record";
+import { VinylRecordBold } from "./components/vinyl-record";
+import { VinylRecordBroken } from "./components/vinyl-record";
+import { VinylRecordBulk } from "./components/vinyl-record";
+import { VinylRecordLinear } from "./components/vinyl-record";
+import { VinylRecordOutline } from "./components/vinyl-record";
+import { VinylRecordTwotone } from "./components/vinyl-record";
+import { variants as variantsVideoVolume } from "./components/video-volume";
+import { VideoVolumeBold } from "./components/video-volume";
+import { VideoVolumeBroken } from "./components/video-volume";
+import { VideoVolumeBulk } from "./components/video-volume";
+import { VideoVolumeLinear } from "./components/video-volume";
+import { VideoVolumeOutline } from "./components/video-volume";
+import { VideoVolumeTwotone } from "./components/video-volume";
+import { variants as variantsVideoVolumeCross } from "./components/video-volume-cross";
+import { VideoVolumeCrossBold } from "./components/video-volume-cross";
+import { VideoVolumeCrossBroken } from "./components/video-volume-cross";
+import { VideoVolumeCrossBulk } from "./components/video-volume-cross";
+import { VideoVolumeCrossLinear } from "./components/video-volume-cross";
+import { VideoVolumeCrossOutline } from "./components/video-volume-cross";
+import { VideoVolumeCrossTwotone } from "./components/video-volume-cross";
+import { variants as variantsVolumeLoud } from "./components/volume-loud";
+import { VolumeLoudBold } from "./components/volume-loud";
+import { VolumeLoudBroken } from "./components/volume-loud";
+import { VolumeLoudBulk } from "./components/volume-loud";
+import { VolumeLoudLinear } from "./components/volume-loud";
+import { VolumeLoudOutline } from "./components/volume-loud";
+import { VolumeLoudTwotone } from "./components/volume-loud";
+import { variants as variantsVolumeSmall } from "./components/volume-small";
+import { VolumeSmallBold } from "./components/volume-small";
+import { VolumeSmallBroken } from "./components/volume-small";
+import { VolumeSmallBulk } from "./components/volume-small";
+import { VolumeSmallLinear } from "./components/volume-small";
+import { VolumeSmallOutline } from "./components/volume-small";
+import { VolumeSmallTwotone } from "./components/volume-small";
+import { variants as variantsWallpaper } from "./components/wallpaper";
+import { WallpaperBold } from "./components/wallpaper";
+import { WallpaperBroken } from "./components/wallpaper";
+import { WallpaperBulk } from "./components/wallpaper";
+import { WallpaperLinear } from "./components/wallpaper";
+import { WallpaperOutline } from "./components/wallpaper";
+import { WallpaperTwotone } from "./components/wallpaper";
+import { variants as variantsWeatherCloud } from "./components/weather-cloud";
+import { WeatherCloudBold } from "./components/weather-cloud";
+import { WeatherCloudBroken } from "./components/weather-cloud";
+import { WeatherCloudBulk } from "./components/weather-cloud";
+import { WeatherCloudLinear } from "./components/weather-cloud";
+import { WeatherCloudOutline } from "./components/weather-cloud";
+import { WeatherCloudTwotone } from "./components/weather-cloud";
+import { variants as variantsCloudBolt } from "./components/cloud-bolt";
+import { CloudBoltBold } from "./components/cloud-bolt";
+import { CloudBoltBroken } from "./components/cloud-bolt";
+import { CloudBoltBulk } from "./components/cloud-bolt";
+import { CloudBoltLinear } from "./components/cloud-bolt";
+import { CloudBoltOutline } from "./components/cloud-bolt";
+import { CloudBoltTwotone } from "./components/cloud-bolt";
+import { variants as variantsCloudBoltMinimalistic } from "./components/cloud-bolt-minimalistic";
+import { CloudBoltMinimalisticBold } from "./components/cloud-bolt-minimalistic";
+import { CloudBoltMinimalisticBroken } from "./components/cloud-bolt-minimalistic";
+import { CloudBoltMinimalisticBulk } from "./components/cloud-bolt-minimalistic";
+import { CloudBoltMinimalisticLinear } from "./components/cloud-bolt-minimalistic";
+import { CloudBoltMinimalisticOutline } from "./components/cloud-bolt-minimalistic";
+import { CloudBoltMinimalisticTwotone } from "./components/cloud-bolt-minimalistic";
+import { variants as variantsCloudCheck } from "./components/cloud-check";
+import { CloudCheckBold } from "./components/cloud-check";
+import { CloudCheckBroken } from "./components/cloud-check";
+import { CloudCheckBulk } from "./components/cloud-check";
+import { CloudCheckLinear } from "./components/cloud-check";
+import { CloudCheckOutline } from "./components/cloud-check";
+import { CloudCheckTwotone } from "./components/cloud-check";
+import { variants as variantsWeatherCloudCross } from "./components/weather-cloud-cross";
+import { WeatherCloudCrossBold } from "./components/weather-cloud-cross";
+import { WeatherCloudCrossBroken } from "./components/weather-cloud-cross";
+import { WeatherCloudCrossBulk } from "./components/weather-cloud-cross";
+import { WeatherCloudCrossLinear } from "./components/weather-cloud-cross";
+import { WeatherCloudCrossOutline } from "./components/weather-cloud-cross";
+import { WeatherCloudCrossTwotone } from "./components/weather-cloud-cross";
+import { variants as variantsCloudDownload } from "./components/cloud-download";
+import { CloudDownloadBold } from "./components/cloud-download";
+import { CloudDownloadBroken } from "./components/cloud-download";
+import { CloudDownloadBulk } from "./components/cloud-download";
+import { CloudDownloadLinear } from "./components/cloud-download";
+import { CloudDownloadOutline } from "./components/cloud-download";
+import { CloudDownloadTwotone } from "./components/cloud-download";
+import { variants as variantsWeatherCloudMinus } from "./components/weather-cloud-minus";
+import { WeatherCloudMinusBold } from "./components/weather-cloud-minus";
+import { WeatherCloudMinusBroken } from "./components/weather-cloud-minus";
+import { WeatherCloudMinusBulk } from "./components/weather-cloud-minus";
+import { WeatherCloudMinusLinear } from "./components/weather-cloud-minus";
+import { WeatherCloudMinusOutline } from "./components/weather-cloud-minus";
+import { WeatherCloudMinusTwotone } from "./components/weather-cloud-minus";
+import { variants as variantsWeatherCloudPlus } from "./components/weather-cloud-plus";
+import { WeatherCloudPlusBold } from "./components/weather-cloud-plus";
+import { WeatherCloudPlusBroken } from "./components/weather-cloud-plus";
+import { WeatherCloudPlusBulk } from "./components/weather-cloud-plus";
+import { WeatherCloudPlusLinear } from "./components/weather-cloud-plus";
+import { WeatherCloudPlusOutline } from "./components/weather-cloud-plus";
+import { WeatherCloudPlusTwotone } from "./components/weather-cloud-plus";
+import { variants as variantsCloudRain } from "./components/cloud-rain";
+import { CloudRainBold } from "./components/cloud-rain";
+import { CloudRainBroken } from "./components/cloud-rain";
+import { CloudRainBulk } from "./components/cloud-rain";
+import { CloudRainLinear } from "./components/cloud-rain";
+import { CloudRainOutline } from "./components/cloud-rain";
+import { CloudRainTwotone } from "./components/cloud-rain";
+import { variants as variantsCloudSnowfall } from "./components/cloud-snowfall";
+import { CloudSnowfallBold } from "./components/cloud-snowfall";
+import { CloudSnowfallBroken } from "./components/cloud-snowfall";
+import { CloudSnowfallBulk } from "./components/cloud-snowfall";
+import { CloudSnowfallLinear } from "./components/cloud-snowfall";
+import { CloudSnowfallOutline } from "./components/cloud-snowfall";
+import { CloudSnowfallTwotone } from "./components/cloud-snowfall";
+import { variants as variantsCloudSnowfallMinimalistic } from "./components/cloud-snowfall-minimalistic";
+import { CloudSnowfallMinimalisticBold } from "./components/cloud-snowfall-minimalistic";
+import { CloudSnowfallMinimalisticBroken } from "./components/cloud-snowfall-minimalistic";
+import { CloudSnowfallMinimalisticBulk } from "./components/cloud-snowfall-minimalistic";
+import { CloudSnowfallMinimalisticLinear } from "./components/cloud-snowfall-minimalistic";
+import { CloudSnowfallMinimalisticOutline } from "./components/cloud-snowfall-minimalistic";
+import { CloudSnowfallMinimalisticTwotone } from "./components/cloud-snowfall-minimalistic";
+import { variants as variantsCloudStorm } from "./components/cloud-storm";
+import { CloudStormBold } from "./components/cloud-storm";
+import { CloudStormBroken } from "./components/cloud-storm";
+import { CloudStormBulk } from "./components/cloud-storm";
+import { CloudStormLinear } from "./components/cloud-storm";
+import { CloudStormOutline } from "./components/cloud-storm";
+import { CloudStormTwotone } from "./components/cloud-storm";
+import { variants as variantsCloudSun } from "./components/cloud-sun";
+import { CloudSunBold } from "./components/cloud-sun";
+import { CloudSunBroken } from "./components/cloud-sun";
+import { CloudSunBulk } from "./components/cloud-sun";
+import { CloudSunLinear } from "./components/cloud-sun";
+import { CloudSunOutline } from "./components/cloud-sun";
+import { CloudSunTwotone } from "./components/cloud-sun";
+import { variants as variantsCloudSun2 } from "./components/cloud-sun-2";
+import { CloudSun2Bold } from "./components/cloud-sun-2";
+import { CloudSun2Broken } from "./components/cloud-sun-2";
+import { CloudSun2Bulk } from "./components/cloud-sun-2";
+import { CloudSun2Linear } from "./components/cloud-sun-2";
+import { CloudSun2Outline } from "./components/cloud-sun-2";
+import { CloudSun2Twotone } from "./components/cloud-sun-2";
+import { variants as variantsCloudUpload } from "./components/cloud-upload";
+import { CloudUploadBold } from "./components/cloud-upload";
+import { CloudUploadBroken } from "./components/cloud-upload";
+import { CloudUploadBulk } from "./components/cloud-upload";
+import { CloudUploadLinear } from "./components/cloud-upload";
+import { CloudUploadOutline } from "./components/cloud-upload";
+import { CloudUploadTwotone } from "./components/cloud-upload";
+import { variants as variantsCloudWaterdrop } from "./components/cloud-waterdrop";
+import { CloudWaterdropBold } from "./components/cloud-waterdrop";
+import { CloudWaterdropBroken } from "./components/cloud-waterdrop";
+import { CloudWaterdropBulk } from "./components/cloud-waterdrop";
+import { CloudWaterdropLinear } from "./components/cloud-waterdrop";
+import { CloudWaterdropOutline } from "./components/cloud-waterdrop";
+import { CloudWaterdropTwotone } from "./components/cloud-waterdrop";
+import { variants as variantsCloudWaterdrops } from "./components/cloud-waterdrops";
+import { CloudWaterdropsBold } from "./components/cloud-waterdrops";
+import { CloudWaterdropsBroken } from "./components/cloud-waterdrops";
+import { CloudWaterdropsBulk } from "./components/cloud-waterdrops";
+import { CloudWaterdropsLinear } from "./components/cloud-waterdrops";
+import { CloudWaterdropsOutline } from "./components/cloud-waterdrops";
+import { CloudWaterdropsTwotone } from "./components/cloud-waterdrops";
+import { variants as variantsClouds } from "./components/clouds";
+import { CloudsBold } from "./components/clouds";
+import { CloudsBroken } from "./components/clouds";
+import { CloudsBulk } from "./components/clouds";
+import { CloudsLinear } from "./components/clouds";
+import { CloudsOutline } from "./components/clouds";
+import { CloudsTwotone } from "./components/clouds";
+import { variants as variantsCloudyMoon } from "./components/cloudy-moon";
+import { CloudyMoonBold } from "./components/cloudy-moon";
+import { CloudyMoonBroken } from "./components/cloudy-moon";
+import { CloudyMoonBulk } from "./components/cloudy-moon";
+import { CloudyMoonLinear } from "./components/cloudy-moon";
+import { CloudyMoonOutline } from "./components/cloudy-moon";
+import { CloudyMoonTwotone } from "./components/cloudy-moon";
+import { variants as variantsFog } from "./components/fog";
+import { FogBold } from "./components/fog";
+import { FogBroken } from "./components/fog";
+import { FogBulk } from "./components/fog";
+import { FogLinear } from "./components/fog";
+import { FogOutline } from "./components/fog";
+import { FogTwotone } from "./components/fog";
+import { variants as variantsWeatherMoon } from "./components/weather-moon";
+import { WeatherMoonBold } from "./components/weather-moon";
+import { WeatherMoonBroken } from "./components/weather-moon";
+import { WeatherMoonBulk } from "./components/weather-moon";
+import { WeatherMoonLinear } from "./components/weather-moon";
+import { WeatherMoonOutline } from "./components/weather-moon";
+import { WeatherMoonTwotone } from "./components/weather-moon";
+import { variants as variantsMoonFog } from "./components/moon-fog";
+import { MoonFogBold } from "./components/moon-fog";
+import { MoonFogBroken } from "./components/moon-fog";
+import { MoonFogBulk } from "./components/moon-fog";
+import { MoonFogLinear } from "./components/moon-fog";
+import { MoonFogOutline } from "./components/moon-fog";
+import { MoonFogTwotone } from "./components/moon-fog";
+import { variants as variantsMoonSleep } from "./components/moon-sleep";
+import { MoonSleepBold } from "./components/moon-sleep";
+import { MoonSleepBroken } from "./components/moon-sleep";
+import { MoonSleepBulk } from "./components/moon-sleep";
+import { MoonSleepLinear } from "./components/moon-sleep";
+import { MoonSleepOutline } from "./components/moon-sleep";
+import { MoonSleepTwotone } from "./components/moon-sleep";
+import { variants as variantsMoonStars } from "./components/moon-stars";
+import { MoonStarsBold } from "./components/moon-stars";
+import { MoonStarsBroken } from "./components/moon-stars";
+import { MoonStarsBulk } from "./components/moon-stars";
+import { MoonStarsLinear } from "./components/moon-stars";
+import { MoonStarsOutline } from "./components/moon-stars";
+import { MoonStarsTwotone } from "./components/moon-stars";
+import { variants as variantsSnowflake } from "./components/snowflake";
+import { SnowflakeBold } from "./components/snowflake";
+import { SnowflakeBroken } from "./components/snowflake";
+import { SnowflakeBulk } from "./components/snowflake";
+import { SnowflakeLinear } from "./components/snowflake";
+import { SnowflakeOutline } from "./components/snowflake";
+import { SnowflakeTwotone } from "./components/snowflake";
+import { variants as variantsStars } from "./components/stars";
+import { StarsBold } from "./components/stars";
+import { StarsBroken } from "./components/stars";
+import { StarsBulk } from "./components/stars";
+import { StarsLinear } from "./components/stars";
+import { StarsOutline } from "./components/stars";
+import { StarsTwotone } from "./components/stars";
+import { variants as variantsWeatherSun } from "./components/weather-sun";
+import { WeatherSunBold } from "./components/weather-sun";
+import { WeatherSunBroken } from "./components/weather-sun";
+import { WeatherSunBulk } from "./components/weather-sun";
+import { WeatherSunLinear } from "./components/weather-sun";
+import { WeatherSunOutline } from "./components/weather-sun";
+import { WeatherSunTwotone } from "./components/weather-sun";
+import { variants as variantsSun2 } from "./components/sun-2";
+import { Sun2Bold } from "./components/sun-2";
+import { Sun2Broken } from "./components/sun-2";
+import { Sun2Bulk } from "./components/sun-2";
+import { Sun2Linear } from "./components/sun-2";
+import { Sun2Outline } from "./components/sun-2";
+import { Sun2Twotone } from "./components/sun-2";
+import { variants as variantsWeatherSunFog } from "./components/weather-sun-fog";
+import { WeatherSunFogBold } from "./components/weather-sun-fog";
+import { WeatherSunFogBroken } from "./components/weather-sun-fog";
+import { WeatherSunFogBulk } from "./components/weather-sun-fog";
+import { WeatherSunFogLinear } from "./components/weather-sun-fog";
+import { WeatherSunFogOutline } from "./components/weather-sun-fog";
+import { WeatherSunFogTwotone } from "./components/weather-sun-fog";
+import { variants as variantsSunrise } from "./components/sunrise";
+import { SunriseBold } from "./components/sunrise";
+import { SunriseBroken } from "./components/sunrise";
+import { SunriseBulk } from "./components/sunrise";
+import { SunriseLinear } from "./components/sunrise";
+import { SunriseOutline } from "./components/sunrise";
+import { SunriseTwotone } from "./components/sunrise";
+import { variants as variantsSunset } from "./components/sunset";
+import { SunsetBold } from "./components/sunset";
+import { SunsetBroken } from "./components/sunset";
+import { SunsetBulk } from "./components/sunset";
+import { SunsetLinear } from "./components/sunset";
+import { SunsetOutline } from "./components/sunset";
+import { SunsetTwotone } from "./components/sunset";
+import { variants as variantsTemperature } from "./components/temperature";
+import { TemperatureBold } from "./components/temperature";
+import { TemperatureBroken } from "./components/temperature";
+import { TemperatureBulk } from "./components/temperature";
+import { TemperatureLinear } from "./components/temperature";
+import { TemperatureOutline } from "./components/temperature";
+import { TemperatureTwotone } from "./components/temperature";
+import { variants as variantsTornado } from "./components/tornado";
+import { TornadoBold } from "./components/tornado";
+import { TornadoBroken } from "./components/tornado";
+import { TornadoBulk } from "./components/tornado";
+import { TornadoLinear } from "./components/tornado";
+import { TornadoOutline } from "./components/tornado";
+import { TornadoTwotone } from "./components/tornado";
+import { variants as variantsTornadoSmall } from "./components/tornado-small";
+import { TornadoSmallBold } from "./components/tornado-small";
+import { TornadoSmallBroken } from "./components/tornado-small";
+import { TornadoSmallBulk } from "./components/tornado-small";
+import { TornadoSmallLinear } from "./components/tornado-small";
+import { TornadoSmallOutline } from "./components/tornado-small";
+import { TornadoSmallTwotone } from "./components/tornado-small";
+import { variants as variantsWaterdrops } from "./components/waterdrops";
+import { WaterdropsBold } from "./components/waterdrops";
+import { WaterdropsBroken } from "./components/waterdrops";
+import { WaterdropsBulk } from "./components/waterdrops";
+import { WaterdropsLinear } from "./components/waterdrops";
+import { WaterdropsOutline } from "./components/waterdrops";
+import { WaterdropsTwotone } from "./components/waterdrops";
+import { variants as variantsWeatherWind } from "./components/weather-wind";
+import { WeatherWindBold } from "./components/weather-wind";
+import { WeatherWindBroken } from "./components/weather-wind";
+import { WeatherWindBulk } from "./components/weather-wind";
+import { WeatherWindLinear } from "./components/weather-wind";
+import { WeatherWindOutline } from "./components/weather-wind";
+import { WeatherWindTwotone } from "./components/weather-wind";
 export const icons = [
   {
     name: "24-support",
@@ -16991,6 +25714,6237 @@ export const icons = [
     name: "premium-wallet",
     slug: "premium-wallet",
     variants: variantsPremiumWallet,
+  },
+
+  {
+    name: "Alt Arrow Down",
+    slug: "alt-arrow-down",
+    variants: variantsAltArrowDown,
+  },
+  {
+    name: "Alt Arrow Left",
+    slug: "alt-arrow-left",
+    variants: variantsAltArrowLeft,
+  },
+  {
+    name: "Alt Arrow Right",
+    slug: "alt-arrow-right",
+    variants: variantsAltArrowRight,
+  },
+  {
+    name: "Alt Arrow Up",
+    slug: "alt-arrow-up",
+    variants: variantsAltArrowUp,
+  },
+  {
+    name: "Arrows Arrow Down",
+    slug: "arrows-arrow-down",
+    variants: variantsArrowsArrowDown,
+  },
+  {
+    name: "Arrows Arrow Left",
+    slug: "arrows-arrow-left",
+    variants: variantsArrowsArrowLeft,
+  },
+  {
+    name: "Arrow Left Down",
+    slug: "arrow-left-down",
+    variants: variantsArrowLeftDown,
+  },
+  {
+    name: "Arrow Left Up",
+    slug: "arrow-left-up",
+    variants: variantsArrowLeftUp,
+  },
+  {
+    name: "Arrows Arrow Right",
+    slug: "arrows-arrow-right",
+    variants: variantsArrowsArrowRight,
+  },
+  {
+    name: "Arrow Right Down",
+    slug: "arrow-right-down",
+    variants: variantsArrowRightDown,
+  },
+  {
+    name: "Arrow Right Up",
+    slug: "arrow-right-up",
+    variants: variantsArrowRightUp,
+  },
+  {
+    name: "Arrows Arrow Up",
+    slug: "arrows-arrow-up",
+    variants: variantsArrowsArrowUp,
+  },
+  {
+    name: "Double Alt Arrow Down",
+    slug: "double-alt-arrow-down",
+    variants: variantsDoubleAltArrowDown,
+  },
+  {
+    name: "Double Alt Arrow Left",
+    slug: "double-alt-arrow-left",
+    variants: variantsDoubleAltArrowLeft,
+  },
+  {
+    name: "Double Alt Arrow Right",
+    slug: "double-alt-arrow-right",
+    variants: variantsDoubleAltArrowRight,
+  },
+  {
+    name: "Double Alt Arrow Up",
+    slug: "double-alt-arrow-up",
+    variants: variantsDoubleAltArrowUp,
+  },
+  {
+    name: "Arrows Refresh",
+    slug: "arrows-refresh",
+    variants: variantsArrowsRefresh,
+  },
+  {
+    name: "Arrows Refresh Circle",
+    slug: "arrows-refresh-circle",
+    variants: variantsArrowsRefreshCircle,
+  },
+  {
+    name: "Refresh Square",
+    slug: "refresh-square",
+    variants: variantsRefreshSquare,
+  },
+  {
+    name: "Restart",
+    slug: "restart",
+    variants: variantsRestart,
+  },
+  {
+    name: "Restart Circle",
+    slug: "restart-circle",
+    variants: variantsRestartCircle,
+  },
+  {
+    name: "Restart Square",
+    slug: "restart-square",
+    variants: variantsRestartSquare,
+  },
+  {
+    name: "Round Alt Arrow Down",
+    slug: "round-alt-arrow-down",
+    variants: variantsRoundAltArrowDown,
+  },
+  {
+    name: "Round Alt Arrow Left",
+    slug: "round-alt-arrow-left",
+    variants: variantsRoundAltArrowLeft,
+  },
+  {
+    name: "Round Alt Arrow Right",
+    slug: "round-alt-arrow-right",
+    variants: variantsRoundAltArrowRight,
+  },
+  {
+    name: "Round Alt Arrow Up",
+    slug: "round-alt-arrow-up",
+    variants: variantsRoundAltArrowUp,
+  },
+  {
+    name: "Round Arrow Down",
+    slug: "round-arrow-down",
+    variants: variantsRoundArrowDown,
+  },
+  {
+    name: "Round Arrow Left",
+    slug: "round-arrow-left",
+    variants: variantsRoundArrowLeft,
+  },
+  {
+    name: "Round Arrow Left Down",
+    slug: "round-arrow-left-down",
+    variants: variantsRoundArrowLeftDown,
+  },
+  {
+    name: "Round Arrow Left Up",
+    slug: "round-arrow-left-up",
+    variants: variantsRoundArrowLeftUp,
+  },
+  {
+    name: "Round Arrow Right",
+    slug: "round-arrow-right",
+    variants: variantsRoundArrowRight,
+  },
+  {
+    name: "Round Arrow Right Down",
+    slug: "round-arrow-right-down",
+    variants: variantsRoundArrowRightDown,
+  },
+  {
+    name: "Round Arrow Right Up",
+    slug: "round-arrow-right-up",
+    variants: variantsRoundArrowRightUp,
+  },
+  {
+    name: "Round Arrow Up",
+    slug: "round-arrow-up",
+    variants: variantsRoundArrowUp,
+  },
+  {
+    name: "Round Double Alt Arrow Down",
+    slug: "round-double-alt-arrow-down",
+    variants: variantsRoundDoubleAltArrowDown,
+  },
+  {
+    name: "Round Double Alt Arrow Left",
+    slug: "round-double-alt-arrow-left",
+    variants: variantsRoundDoubleAltArrowLeft,
+  },
+  {
+    name: "Round Double Alt Arrow Right",
+    slug: "round-double-alt-arrow-right",
+    variants: variantsRoundDoubleAltArrowRight,
+  },
+  {
+    name: "Round Double Alt Arrow Up",
+    slug: "round-double-alt-arrow-up",
+    variants: variantsRoundDoubleAltArrowUp,
+  },
+  {
+    name: "Round Sort Horizontal",
+    slug: "round-sort-horizontal",
+    variants: variantsRoundSortHorizontal,
+  },
+  {
+    name: "Round Sort Vertical",
+    slug: "round-sort-vertical",
+    variants: variantsRoundSortVertical,
+  },
+  {
+    name: "Round Transfer Diagonal",
+    slug: "round-transfer-diagonal",
+    variants: variantsRoundTransferDiagonal,
+  },
+  {
+    name: "Round Transfer Horizontal",
+    slug: "round-transfer-horizontal",
+    variants: variantsRoundTransferHorizontal,
+  },
+  {
+    name: "Round Transfer Vertical",
+    slug: "round-transfer-vertical",
+    variants: variantsRoundTransferVertical,
+  },
+  {
+    name: "Sort Horizontal",
+    slug: "sort-horizontal",
+    variants: variantsSortHorizontal,
+  },
+  {
+    name: "Sort Vertical",
+    slug: "sort-vertical",
+    variants: variantsSortVertical,
+  },
+  {
+    name: "Square Alt Arrow Down",
+    slug: "square-alt-arrow-down",
+    variants: variantsSquareAltArrowDown,
+  },
+  {
+    name: "Square Alt Arrow Left",
+    slug: "square-alt-arrow-left",
+    variants: variantsSquareAltArrowLeft,
+  },
+  {
+    name: "Square Alt Arrow Right",
+    slug: "square-alt-arrow-right",
+    variants: variantsSquareAltArrowRight,
+  },
+  {
+    name: "Square Alt Arrow Up",
+    slug: "square-alt-arrow-up",
+    variants: variantsSquareAltArrowUp,
+  },
+  {
+    name: "Square Arrow Down",
+    slug: "square-arrow-down",
+    variants: variantsSquareArrowDown,
+  },
+  {
+    name: "Square Arrow Left",
+    slug: "square-arrow-left",
+    variants: variantsSquareArrowLeft,
+  },
+  {
+    name: "Square Arrow Left Down",
+    slug: "square-arrow-left-down",
+    variants: variantsSquareArrowLeftDown,
+  },
+  {
+    name: "Square Arrow Left Up",
+    slug: "square-arrow-left-up",
+    variants: variantsSquareArrowLeftUp,
+  },
+  {
+    name: "Square Arrow Right",
+    slug: "square-arrow-right",
+    variants: variantsSquareArrowRight,
+  },
+  {
+    name: "Square Arrow Right Down",
+    slug: "square-arrow-right-down",
+    variants: variantsSquareArrowRightDown,
+  },
+  {
+    name: "Square Arrow Right Up",
+    slug: "square-arrow-right-up",
+    variants: variantsSquareArrowRightUp,
+  },
+  {
+    name: "Square Arrow Up",
+    slug: "square-arrow-up",
+    variants: variantsSquareArrowUp,
+  },
+  {
+    name: "Square Double Alt Arrow Down",
+    slug: "square-double-alt-arrow-down",
+    variants: variantsSquareDoubleAltArrowDown,
+  },
+  {
+    name: "Square Double Alt Arrow Left",
+    slug: "square-double-alt-arrow-left",
+    variants: variantsSquareDoubleAltArrowLeft,
+  },
+  {
+    name: "Square Double Alt Arrow Right",
+    slug: "square-double-alt-arrow-right",
+    variants: variantsSquareDoubleAltArrowRight,
+  },
+  {
+    name: "Square Double Alt Arrow Up",
+    slug: "square-double-alt-arrow-up",
+    variants: variantsSquareDoubleAltArrowUp,
+  },
+  {
+    name: "Square Sort Horizontal",
+    slug: "square-sort-horizontal",
+    variants: variantsSquareSortHorizontal,
+  },
+  {
+    name: "Square Sort Vertical",
+    slug: "square-sort-vertical",
+    variants: variantsSquareSortVertical,
+  },
+  {
+    name: "Square Transfer Horizontal",
+    slug: "square-transfer-horizontal",
+    variants: variantsSquareTransferHorizontal,
+  },
+  {
+    name: "Square Transfer Vertical",
+    slug: "square-transfer-vertical",
+    variants: variantsSquareTransferVertical,
+  },
+  {
+    name: "Transfer Horizontal",
+    slug: "transfer-horizontal",
+    variants: variantsTransferHorizontal,
+  },
+  {
+    name: "Transfer Vertical",
+    slug: "transfer-vertical",
+    variants: variantsTransferVertical,
+  },
+  {
+    name: "Arrow To Down Left",
+    slug: "arrow-to-down-left",
+    variants: variantsArrowToDownLeft,
+  },
+  {
+    name: "Arrow To Down Right",
+    slug: "arrow-to-down-right",
+    variants: variantsArrowToDownRight,
+  },
+  {
+    name: "Arrow To Top Left",
+    slug: "arrow-to-top-left",
+    variants: variantsArrowToTopLeft,
+  },
+  {
+    name: "Arrow To Top Right",
+    slug: "arrow-to-top-right",
+    variants: variantsArrowToTopRight,
+  },
+  {
+    name: "Circle Bottom Down",
+    slug: "circle-bottom-down",
+    variants: variantsCircleBottomDown,
+  },
+  {
+    name: "Circle Bottom Up",
+    slug: "circle-bottom-up",
+    variants: variantsCircleBottomUp,
+  },
+  {
+    name: "Circle Top Down",
+    slug: "circle-top-down",
+    variants: variantsCircleTopDown,
+  },
+  {
+    name: "Circle Top Up",
+    slug: "circle-top-up",
+    variants: variantsCircleTopUp,
+  },
+  {
+    name: "Download",
+    slug: "download",
+    variants: variantsDownload,
+  },
+  {
+    name: "Download Minimalistic",
+    slug: "download-minimalistic",
+    variants: variantsDownloadMinimalistic,
+  },
+  {
+    name: "Download Square",
+    slug: "download-square",
+    variants: variantsDownloadSquare,
+  },
+  {
+    name: "Download Twice Square",
+    slug: "download-twice-square",
+    variants: variantsDownloadTwiceSquare,
+  },
+  {
+    name: "Exit",
+    slug: "exit",
+    variants: variantsExit,
+  },
+  {
+    name: "Arrows Action Export",
+    slug: "arrows-action-export",
+    variants: variantsArrowsActionExport,
+  },
+  {
+    name: "Arrows Action Forward",
+    slug: "arrows-action-forward",
+    variants: variantsArrowsActionForward,
+  },
+  {
+    name: "Forward 2",
+    slug: "forward-2",
+    variants: variantsForward2,
+  },
+  {
+    name: "Arrows Action Import",
+    slug: "arrows-action-import",
+    variants: variantsArrowsActionImport,
+  },
+  {
+    name: "Arrows Action Login",
+    slug: "arrows-action-login",
+    variants: variantsArrowsActionLogin,
+  },
+  {
+    name: "Login 2",
+    slug: "login-2",
+    variants: variantsLogin2,
+  },
+  {
+    name: "Login 3",
+    slug: "login-3",
+    variants: variantsLogin3,
+  },
+  {
+    name: "Arrows Action Logout",
+    slug: "arrows-action-logout",
+    variants: variantsArrowsActionLogout,
+  },
+  {
+    name: "Logout 2",
+    slug: "logout-2",
+    variants: variantsLogout2,
+  },
+  {
+    name: "Logout 3",
+    slug: "logout-3",
+    variants: variantsLogout3,
+  },
+  {
+    name: "Arrows Action Maximize",
+    slug: "arrows-action-maximize",
+    variants: variantsArrowsActionMaximize,
+  },
+  {
+    name: "Maximize Square",
+    slug: "maximize-square",
+    variants: variantsMaximizeSquare,
+  },
+  {
+    name: "Maximize Square 2",
+    slug: "maximize-square-2",
+    variants: variantsMaximizeSquare2,
+  },
+  {
+    name: "Maximize Square 3",
+    slug: "maximize-square-3",
+    variants: variantsMaximizeSquare3,
+  },
+  {
+    name: "Maximize Square Minimalistic",
+    slug: "maximize-square-minimalistic",
+    variants: variantsMaximizeSquareMinimalistic,
+  },
+  {
+    name: "Minimize",
+    slug: "minimize",
+    variants: variantsMinimize,
+  },
+  {
+    name: "Minimize Square",
+    slug: "minimize-square",
+    variants: variantsMinimizeSquare,
+  },
+  {
+    name: "Minimize Square 2",
+    slug: "minimize-square-2",
+    variants: variantsMinimizeSquare2,
+  },
+  {
+    name: "Minimize Square 3",
+    slug: "minimize-square-3",
+    variants: variantsMinimizeSquare3,
+  },
+  {
+    name: "Minimize Square Minimalistic",
+    slug: "minimize-square-minimalistic",
+    variants: variantsMinimizeSquareMinimalistic,
+  },
+  {
+    name: "Arrows Action Receive Square",
+    slug: "arrows-action-receive-square",
+    variants: variantsArrowsActionReceiveSquare,
+  },
+  {
+    name: "Receive Twice Square",
+    slug: "receive-twice-square",
+    variants: variantsReceiveTwiceSquare,
+  },
+  {
+    name: "Reorder 2",
+    slug: "reorder-2",
+    variants: variantsReorder2,
+  },
+  {
+    name: "Reply",
+    slug: "reply",
+    variants: variantsReply,
+  },
+  {
+    name: "Reply 2",
+    slug: "reply-2",
+    variants: variantsReply2,
+  },
+  {
+    name: "Scale",
+    slug: "scale",
+    variants: variantsScale,
+  },
+  {
+    name: "Screen Share",
+    slug: "screen-share",
+    variants: variantsScreenShare,
+  },
+  {
+    name: "Arrows Action Send Square",
+    slug: "arrows-action-send-square",
+    variants: variantsArrowsActionSendSquare,
+  },
+  {
+    name: "Send Twice Square",
+    slug: "send-twice-square",
+    variants: variantsSendTwiceSquare,
+  },
+  {
+    name: "Square Bottom Down",
+    slug: "square-bottom-down",
+    variants: variantsSquareBottomDown,
+  },
+  {
+    name: "Square Bottom Up",
+    slug: "square-bottom-up",
+    variants: variantsSquareBottomUp,
+  },
+  {
+    name: "Square Top Down",
+    slug: "square-top-down",
+    variants: variantsSquareTopDown,
+  },
+  {
+    name: "Square Top Up",
+    slug: "square-top-up",
+    variants: variantsSquareTopUp,
+  },
+  {
+    name: "Undo Left",
+    slug: "undo-left",
+    variants: variantsUndoLeft,
+  },
+  {
+    name: "Undo Left Round",
+    slug: "undo-left-round",
+    variants: variantsUndoLeftRound,
+  },
+  {
+    name: "Undo Left Round Square",
+    slug: "undo-left-round-square",
+    variants: variantsUndoLeftRoundSquare,
+  },
+  {
+    name: "Undo Left Square",
+    slug: "undo-left-square",
+    variants: variantsUndoLeftSquare,
+  },
+  {
+    name: "Undo Right",
+    slug: "undo-right",
+    variants: variantsUndoRight,
+  },
+  {
+    name: "Undo Right Round",
+    slug: "undo-right-round",
+    variants: variantsUndoRightRound,
+  },
+  {
+    name: "Undo Right Round Square",
+    slug: "undo-right-round-square",
+    variants: variantsUndoRightRoundSquare,
+  },
+  {
+    name: "Undo Right Square",
+    slug: "undo-right-square",
+    variants: variantsUndoRightSquare,
+  },
+  {
+    name: "Upload",
+    slug: "upload",
+    variants: variantsUpload,
+  },
+  {
+    name: "Upload Minimalistic",
+    slug: "upload-minimalistic",
+    variants: variantsUploadMinimalistic,
+  },
+  {
+    name: "Upload Square",
+    slug: "upload-square",
+    variants: variantsUploadSquare,
+  },
+  {
+    name: "Upload Twice Square",
+    slug: "upload-twice-square",
+    variants: variantsUploadTwiceSquare,
+  },
+  {
+    name: "Asteroid",
+    slug: "asteroid",
+    variants: variantsAsteroid,
+  },
+  {
+    name: "Atom",
+    slug: "atom",
+    variants: variantsAtom,
+  },
+  {
+    name: "Black Hole",
+    slug: "black-hole",
+    variants: variantsBlackHole,
+  },
+  {
+    name: "Black Hole 2",
+    slug: "black-hole-2",
+    variants: variantsBlackHole2,
+  },
+  {
+    name: "Black Hole 3",
+    slug: "black-hole-3",
+    variants: variantsBlackHole3,
+  },
+  {
+    name: "Earth",
+    slug: "earth",
+    variants: variantsEarth,
+  },
+  {
+    name: "Infinite",
+    slug: "infinite",
+    variants: variantsInfinite,
+  },
+  {
+    name: "Men",
+    slug: "men",
+    variants: variantsMen,
+  },
+  {
+    name: "Astronomy Planet",
+    slug: "astronomy-planet",
+    variants: variantsAstronomyPlanet,
+  },
+  {
+    name: "Planet 2",
+    slug: "planet-2",
+    variants: variantsPlanet2,
+  },
+  {
+    name: "Planet 3",
+    slug: "planet-3",
+    variants: variantsPlanet3,
+  },
+  {
+    name: "Planet 4",
+    slug: "planet-4",
+    variants: variantsPlanet4,
+  },
+  {
+    name: "Astronomy Rocket",
+    slug: "astronomy-rocket",
+    variants: variantsAstronomyRocket,
+  },
+  {
+    name: "Rocket 2",
+    slug: "rocket-2",
+    variants: variantsRocket2,
+  },
+  {
+    name: "Satellite",
+    slug: "satellite",
+    variants: variantsSatellite,
+  },
+  {
+    name: "Star 2",
+    slug: "star-2",
+    variants: variantsStar2,
+  },
+  {
+    name: "Star Angle",
+    slug: "star-angle",
+    variants: variantsStarAngle,
+  },
+  {
+    name: "Star Circle",
+    slug: "star-circle",
+    variants: variantsStarCircle,
+  },
+  {
+    name: "Star Fall",
+    slug: "star-fall",
+    variants: variantsStarFall,
+  },
+  {
+    name: "Star Fall 2",
+    slug: "star-fall-2",
+    variants: variantsStarFall2,
+  },
+  {
+    name: "Star Fall Minimalistic",
+    slug: "star-fall-minimalistic",
+    variants: variantsStarFallMinimalistic,
+  },
+  {
+    name: "Star Fall Minimalistic 2",
+    slug: "star-fall-minimalistic-2",
+    variants: variantsStarFallMinimalistic2,
+  },
+  {
+    name: "Star Rainbow",
+    slug: "star-rainbow",
+    variants: variantsStarRainbow,
+  },
+  {
+    name: "Star Ring",
+    slug: "star-ring",
+    variants: variantsStarRing,
+  },
+  {
+    name: "Star Rings",
+    slug: "star-rings",
+    variants: variantsStarRings,
+  },
+  {
+    name: "Stars 2",
+    slug: "stars-2",
+    variants: variantsStars2,
+  },
+  {
+    name: "Stars Line",
+    slug: "stars-line",
+    variants: variantsStarsLine,
+  },
+  {
+    name: "Stars Minimalistic",
+    slug: "stars-minimalistic",
+    variants: variantsStarsMinimalistic,
+  },
+  {
+    name: "Ufo",
+    slug: "ufo",
+    variants: variantsUfo,
+  },
+  {
+    name: "Ufo 2",
+    slug: "ufo-2",
+    variants: variantsUfo2,
+  },
+  {
+    name: "Ufo 3",
+    slug: "ufo-3",
+    variants: variantsUfo3,
+  },
+  {
+    name: "Women",
+    slug: "women",
+    variants: variantsWomen,
+  },
+  {
+    name: "Building Buildings",
+    slug: "building-buildings",
+    variants: variantsBuildingBuildings,
+  },
+  {
+    name: "Building Buildings 2",
+    slug: "building-buildings-2",
+    variants: variantsBuildingBuildings2,
+  },
+  {
+    name: "Buildings 3",
+    slug: "buildings-3",
+    variants: variantsBuildings3,
+  },
+  {
+    name: "City",
+    slug: "city",
+    variants: variantsCity,
+  },
+  {
+    name: "Garage",
+    slug: "garage",
+    variants: variantsGarage,
+  },
+  {
+    name: "Building Hospital",
+    slug: "building-hospital",
+    variants: variantsBuildingHospital,
+  },
+  {
+    name: "Building House",
+    slug: "building-house",
+    variants: variantsBuildingHouse,
+  },
+  {
+    name: "Business Chart",
+    slug: "business-chart",
+    variants: variantsBusinessChart,
+  },
+  {
+    name: "Business Chart 2",
+    slug: "business-chart-2",
+    variants: variantsBusinessChart2,
+  },
+  {
+    name: "Business Chart Square",
+    slug: "business-chart-square",
+    variants: variantsBusinessChartSquare,
+  },
+  {
+    name: "Chat Square 2",
+    slug: "chat-square-2",
+    variants: variantsChatSquare2,
+  },
+  {
+    name: "Course Down",
+    slug: "course-down",
+    variants: variantsCourseDown,
+  },
+  {
+    name: "Course Up",
+    slug: "course-up",
+    variants: variantsCourseUp,
+  },
+  {
+    name: "Diagram Down",
+    slug: "diagram-down",
+    variants: variantsDiagramDown,
+  },
+  {
+    name: "Diagram Up",
+    slug: "diagram-up",
+    variants: variantsDiagramUp,
+  },
+  {
+    name: "Business Graph",
+    slug: "business-graph",
+    variants: variantsBusinessGraph,
+  },
+  {
+    name: "Graph Down",
+    slug: "graph-down",
+    variants: variantsGraphDown,
+  },
+  {
+    name: "Graph Down New",
+    slug: "graph-down-new",
+    variants: variantsGraphDownNew,
+  },
+  {
+    name: "Graph New",
+    slug: "graph-new",
+    variants: variantsGraphNew,
+  },
+  {
+    name: "Graph New Up",
+    slug: "graph-new-up",
+    variants: variantsGraphNewUp,
+  },
+  {
+    name: "Graph Up",
+    slug: "graph-up",
+    variants: variantsGraphUp,
+  },
+  {
+    name: "Pie Chart",
+    slug: "pie-chart",
+    variants: variantsPieChart,
+  },
+  {
+    name: "Pie Chart 2",
+    slug: "pie-chart-2",
+    variants: variantsPieChart2,
+  },
+  {
+    name: "Pie Chart 3",
+    slug: "pie-chart-3",
+    variants: variantsPieChart3,
+  },
+  {
+    name: "Presentation Graph",
+    slug: "presentation-graph",
+    variants: variantsPresentationGraph,
+  },
+  {
+    name: "Round Graph",
+    slug: "round-graph",
+    variants: variantsRoundGraph,
+  },
+  {
+    name: "Call Cancel",
+    slug: "call-cancel",
+    variants: variantsCallCancel,
+  },
+  {
+    name: "Call Cancel Rounded",
+    slug: "call-cancel-rounded",
+    variants: variantsCallCancelRounded,
+  },
+  {
+    name: "Call Chat",
+    slug: "call-chat",
+    variants: variantsCallChat,
+  },
+  {
+    name: "Call Chat Rounded",
+    slug: "call-chat-rounded",
+    variants: variantsCallChatRounded,
+  },
+  {
+    name: "Call Dropped",
+    slug: "call-dropped",
+    variants: variantsCallDropped,
+  },
+  {
+    name: "Call Dropped Rounded",
+    slug: "call-dropped-rounded",
+    variants: variantsCallDroppedRounded,
+  },
+  {
+    name: "Call Medicine",
+    slug: "call-medicine",
+    variants: variantsCallMedicine,
+  },
+  {
+    name: "Call Medicine Rounded",
+    slug: "call-medicine-rounded",
+    variants: variantsCallMedicineRounded,
+  },
+  {
+    name: "End Call",
+    slug: "end-call",
+    variants: variantsEndCall,
+  },
+  {
+    name: "End Call Rounded",
+    slug: "end-call-rounded",
+    variants: variantsEndCallRounded,
+  },
+  {
+    name: "Incoming Call",
+    slug: "incoming-call",
+    variants: variantsIncomingCall,
+  },
+  {
+    name: "Incoming Call Rounded",
+    slug: "incoming-call-rounded",
+    variants: variantsIncomingCallRounded,
+  },
+  {
+    name: "Outgoing Call",
+    slug: "outgoing-call",
+    variants: variantsOutgoingCall,
+  },
+  {
+    name: "Outgoing Call Rounded",
+    slug: "outgoing-call-rounded",
+    variants: variantsOutgoingCallRounded,
+  },
+  {
+    name: "Phone",
+    slug: "phone",
+    variants: variantsPhone,
+  },
+  {
+    name: "Phone Calling",
+    slug: "phone-calling",
+    variants: variantsPhoneCalling,
+  },
+  {
+    name: "Phone Calling Rounded",
+    slug: "phone-calling-rounded",
+    variants: variantsPhoneCallingRounded,
+  },
+  {
+    name: "Phone Rounded",
+    slug: "phone-rounded",
+    variants: variantsPhoneRounded,
+  },
+  {
+    name: "Call Record Circle",
+    slug: "call-record-circle",
+    variants: variantsCallRecordCircle,
+  },
+  {
+    name: "Record Minimalistic",
+    slug: "record-minimalistic",
+    variants: variantsRecordMinimalistic,
+  },
+  {
+    name: "Record Square",
+    slug: "record-square",
+    variants: variantsRecordSquare,
+  },
+  {
+    name: "Airbuds",
+    slug: "airbuds",
+    variants: variantsAirbuds,
+  },
+  {
+    name: "Airbuds Case",
+    slug: "airbuds-case",
+    variants: variantsAirbudsCase,
+  },
+  {
+    name: "Airbuds Case Charge",
+    slug: "airbuds-case-charge",
+    variants: variantsAirbudsCaseCharge,
+  },
+  {
+    name: "Airbuds Case Minimalistic",
+    slug: "airbuds-case-minimalistic",
+    variants: variantsAirbudsCaseMinimalistic,
+  },
+  {
+    name: "Airbuds Case Open",
+    slug: "airbuds-case-open",
+    variants: variantsAirbudsCaseOpen,
+  },
+  {
+    name: "Airbuds Charge",
+    slug: "airbuds-charge",
+    variants: variantsAirbudsCharge,
+  },
+  {
+    name: "Airbuds Check",
+    slug: "airbuds-check",
+    variants: variantsAirbudsCheck,
+  },
+  {
+    name: "Airbuds Left",
+    slug: "airbuds-left",
+    variants: variantsAirbudsLeft,
+  },
+  {
+    name: "Airbuds Remove",
+    slug: "airbuds-remove",
+    variants: variantsAirbudsRemove,
+  },
+  {
+    name: "Airbuds Right",
+    slug: "airbuds-right",
+    variants: variantsAirbudsRight,
+  },
+  {
+    name: "Devices Bluetooth",
+    slug: "devices-bluetooth",
+    variants: variantsDevicesBluetooth,
+  },
+  {
+    name: "Devices Bluetooth Circle",
+    slug: "devices-bluetooth-circle",
+    variants: variantsDevicesBluetoothCircle,
+  },
+  {
+    name: "Bluetooth Square",
+    slug: "bluetooth-square",
+    variants: variantsBluetoothSquare,
+  },
+  {
+    name: "Bluetooth Wave",
+    slug: "bluetooth-wave",
+    variants: variantsBluetoothWave,
+  },
+  {
+    name: "Boombox",
+    slug: "boombox",
+    variants: variantsBoombox,
+  },
+  {
+    name: "Cassette",
+    slug: "cassette",
+    variants: variantsCassette,
+  },
+  {
+    name: "Cassette 2",
+    slug: "cassette-2",
+    variants: variantsCassette2,
+  },
+  {
+    name: "Cloud Storage",
+    slug: "cloud-storage",
+    variants: variantsCloudStorage,
+  },
+  {
+    name: "Devices Cpu",
+    slug: "devices-cpu",
+    variants: variantsDevicesCpu,
+  },
+  {
+    name: "Cpu Bolt",
+    slug: "cpu-bolt",
+    variants: variantsCpuBolt,
+  },
+  {
+    name: "Devices Devices",
+    slug: "devices-devices",
+    variants: variantsDevicesDevices,
+  },
+  {
+    name: "Diskette",
+    slug: "diskette",
+    variants: variantsDiskette,
+  },
+  {
+    name: "Display",
+    slug: "display",
+    variants: variantsDisplay,
+  },
+  {
+    name: "Flash Drive",
+    slug: "flash-drive",
+    variants: variantsFlashDrive,
+  },
+  {
+    name: "Devices Gameboy",
+    slug: "devices-gameboy",
+    variants: variantsDevicesGameboy,
+  },
+  {
+    name: "Gamepad",
+    slug: "gamepad",
+    variants: variantsGamepad,
+  },
+  {
+    name: "Gamepad Charge",
+    slug: "gamepad-charge",
+    variants: variantsGamepadCharge,
+  },
+  {
+    name: "Gamepad Minimalistic",
+    slug: "gamepad-minimalistic",
+    variants: variantsGamepadMinimalistic,
+  },
+  {
+    name: "Gamepad No Charge",
+    slug: "gamepad-no-charge",
+    variants: variantsGamepadNoCharge,
+  },
+  {
+    name: "Gamepad Old",
+    slug: "gamepad-old",
+    variants: variantsGamepadOld,
+  },
+  {
+    name: "Headphones Round",
+    slug: "headphones-round",
+    variants: variantsHeadphonesRound,
+  },
+  {
+    name: "Headphones Round Sound",
+    slug: "headphones-round-sound",
+    variants: variantsHeadphonesRoundSound,
+  },
+  {
+    name: "Headphones Square",
+    slug: "headphones-square",
+    variants: variantsHeadphonesSquare,
+  },
+  {
+    name: "Headphones Square Sound",
+    slug: "headphones-square-sound",
+    variants: variantsHeadphonesSquareSound,
+  },
+  {
+    name: "I Phone",
+    slug: "i-phone",
+    variants: variantsIPhone,
+  },
+  {
+    name: "Devices Keyboard",
+    slug: "devices-keyboard",
+    variants: variantsDevicesKeyboard,
+  },
+  {
+    name: "Laptop",
+    slug: "laptop",
+    variants: variantsLaptop,
+  },
+  {
+    name: "Laptop 2",
+    slug: "laptop-2",
+    variants: variantsLaptop2,
+  },
+  {
+    name: "Laptop 3",
+    slug: "laptop-3",
+    variants: variantsLaptop3,
+  },
+  {
+    name: "Laptop Minimalistic",
+    slug: "laptop-minimalistic",
+    variants: variantsLaptopMinimalistic,
+  },
+  {
+    name: "Lightbulb",
+    slug: "lightbulb",
+    variants: variantsLightbulb,
+  },
+  {
+    name: "Lightbulb Bolt",
+    slug: "lightbulb-bolt",
+    variants: variantsLightbulbBolt,
+  },
+  {
+    name: "Lightbulb Minimalistic",
+    slug: "lightbulb-minimalistic",
+    variants: variantsLightbulbMinimalistic,
+  },
+  {
+    name: "Lightning",
+    slug: "lightning",
+    variants: variantsLightning,
+  },
+  {
+    name: "Devices Monitor",
+    slug: "devices-monitor",
+    variants: variantsDevicesMonitor,
+  },
+  {
+    name: "Monitor Camera",
+    slug: "monitor-camera",
+    variants: variantsMonitorCamera,
+  },
+  {
+    name: "Monitor Smartphone",
+    slug: "monitor-smartphone",
+    variants: variantsMonitorSmartphone,
+  },
+  {
+    name: "Devices Mouse",
+    slug: "devices-mouse",
+    variants: variantsDevicesMouse,
+  },
+  {
+    name: "Devices Mouse Circle",
+    slug: "devices-mouse-circle",
+    variants: variantsDevicesMouseCircle,
+  },
+  {
+    name: "Mouse Minimalistic",
+    slug: "mouse-minimalistic",
+    variants: variantsMouseMinimalistic,
+  },
+  {
+    name: "Plug Circle",
+    slug: "plug-circle",
+    variants: variantsPlugCircle,
+  },
+  {
+    name: "Devices Printer",
+    slug: "devices-printer",
+    variants: variantsDevicesPrinter,
+  },
+  {
+    name: "Printer 2",
+    slug: "printer-2",
+    variants: variantsPrinter2,
+  },
+  {
+    name: "Printer Minimalistic",
+    slug: "printer-minimalistic",
+    variants: variantsPrinterMinimalistic,
+  },
+  {
+    name: "Projector",
+    slug: "projector",
+    variants: variantsProjector,
+  },
+  {
+    name: "Devices Radio",
+    slug: "devices-radio",
+    variants: variantsDevicesRadio,
+  },
+  {
+    name: "Radio Minimalistic",
+    slug: "radio-minimalistic",
+    variants: variantsRadioMinimalistic,
+  },
+  {
+    name: "Sd Card",
+    slug: "sd-card",
+    variants: variantsSdCard,
+  },
+  {
+    name: "Server",
+    slug: "server",
+    variants: variantsServer,
+  },
+  {
+    name: "Server 2",
+    slug: "server-2",
+    variants: variantsServer2,
+  },
+  {
+    name: "Server Minimalistic",
+    slug: "server-minimalistic",
+    variants: variantsServerMinimalistic,
+  },
+  {
+    name: "Server Path",
+    slug: "server-path",
+    variants: variantsServerPath,
+  },
+  {
+    name: "Server Square",
+    slug: "server-square",
+    variants: variantsServerSquare,
+  },
+  {
+    name: "Server Square Cloud",
+    slug: "server-square-cloud",
+    variants: variantsServerSquareCloud,
+  },
+  {
+    name: "Server Square Update",
+    slug: "server-square-update",
+    variants: variantsServerSquareUpdate,
+  },
+  {
+    name: "Sim Card",
+    slug: "sim-card",
+    variants: variantsSimCard,
+  },
+  {
+    name: "Sim Card Minimalistic",
+    slug: "sim-card-minimalistic",
+    variants: variantsSimCardMinimalistic,
+  },
+  {
+    name: "Sim Cards",
+    slug: "sim-cards",
+    variants: variantsSimCards,
+  },
+  {
+    name: "Smart Speaker",
+    slug: "smart-speaker",
+    variants: variantsSmartSpeaker,
+  },
+  {
+    name: "Smart Speaker 2",
+    slug: "smart-speaker-2",
+    variants: variantsSmartSpeaker2,
+  },
+  {
+    name: "Smart Speaker Minimalistic",
+    slug: "smart-speaker-minimalistic",
+    variants: variantsSmartSpeakerMinimalistic,
+  },
+  {
+    name: "Smartphone",
+    slug: "smartphone",
+    variants: variantsSmartphone,
+  },
+  {
+    name: "Smartphone 2",
+    slug: "smartphone-2",
+    variants: variantsSmartphone2,
+  },
+  {
+    name: "Smartphone Rotate 2",
+    slug: "smartphone-rotate-2",
+    variants: variantsSmartphoneRotate2,
+  },
+  {
+    name: "Smartphone Rotate Angle",
+    slug: "smartphone-rotate-angle",
+    variants: variantsSmartphoneRotateAngle,
+  },
+  {
+    name: "Smartphone Rotate Orientation",
+    slug: "smartphone-rotate-orientation",
+    variants: variantsSmartphoneRotateOrientation,
+  },
+  {
+    name: "Smartphone Update",
+    slug: "smartphone-update",
+    variants: variantsSmartphoneUpdate,
+  },
+  {
+    name: "Smartphone Vibration",
+    slug: "smartphone-vibration",
+    variants: variantsSmartphoneVibration,
+  },
+  {
+    name: "Socket",
+    slug: "socket",
+    variants: variantsSocket,
+  },
+  {
+    name: "Ssd Round",
+    slug: "ssd-round",
+    variants: variantsSsdRound,
+  },
+  {
+    name: "Ssd Square",
+    slug: "ssd-square",
+    variants: variantsSsdSquare,
+  },
+  {
+    name: "Tablet",
+    slug: "tablet",
+    variants: variantsTablet,
+  },
+  {
+    name: "Telescope",
+    slug: "telescope",
+    variants: variantsTelescope,
+  },
+  {
+    name: "Turntable",
+    slug: "turntable",
+    variants: variantsTurntable,
+  },
+  {
+    name: "Turntable Minimalistic",
+    slug: "turntable-minimalistic",
+    variants: variantsTurntableMinimalistic,
+  },
+  {
+    name: "Turntable Music Note",
+    slug: "turntable-music-note",
+    variants: variantsTurntableMusicNote,
+  },
+  {
+    name: "Tv",
+    slug: "tv",
+    variants: variantsTv,
+  },
+  {
+    name: "Weigher",
+    slug: "weigher",
+    variants: variantsWeigher,
+  },
+  {
+    name: "Wireless Charge",
+    slug: "wireless-charge",
+    variants: variantsWirelessCharge,
+  },
+  {
+    name: "Confounded Circle",
+    slug: "confounded-circle",
+    variants: variantsConfoundedCircle,
+  },
+  {
+    name: "Confounded Square",
+    slug: "confounded-square",
+    variants: variantsConfoundedSquare,
+  },
+  {
+    name: "Emoji Funny Circle",
+    slug: "emoji-funny-circle",
+    variants: variantsEmojiFunnyCircle,
+  },
+  {
+    name: "Emoji Funny Square",
+    slug: "emoji-funny-square",
+    variants: variantsEmojiFunnySquare,
+  },
+  {
+    name: "Expressionless Circle",
+    slug: "expressionless-circle",
+    variants: variantsExpressionlessCircle,
+  },
+  {
+    name: "Expressionless Square",
+    slug: "expressionless-square",
+    variants: variantsExpressionlessSquare,
+  },
+  {
+    name: "Face Scan Circle",
+    slug: "face-scan-circle",
+    variants: variantsFaceScanCircle,
+  },
+  {
+    name: "Face Scan Square",
+    slug: "face-scan-square",
+    variants: variantsFaceScanSquare,
+  },
+  {
+    name: "Facemask Circle",
+    slug: "facemask-circle",
+    variants: variantsFacemaskCircle,
+  },
+  {
+    name: "Facemask Square",
+    slug: "facemask-square",
+    variants: variantsFacemaskSquare,
+  },
+  {
+    name: "Sad Circle",
+    slug: "sad-circle",
+    variants: variantsSadCircle,
+  },
+  {
+    name: "Sad Square",
+    slug: "sad-square",
+    variants: variantsSadSquare,
+  },
+  {
+    name: "Sleeping Circle",
+    slug: "sleeping-circle",
+    variants: variantsSleepingCircle,
+  },
+  {
+    name: "Sleeping Square",
+    slug: "sleeping-square",
+    variants: variantsSleepingSquare,
+  },
+  {
+    name: "Smile Circle",
+    slug: "smile-circle",
+    variants: variantsSmileCircle,
+  },
+  {
+    name: "Smile Square",
+    slug: "smile-square",
+    variants: variantsSmileSquare,
+  },
+  {
+    name: "Sticker Circle",
+    slug: "sticker-circle",
+    variants: variantsStickerCircle,
+  },
+  {
+    name: "Sticker Smile Circle",
+    slug: "sticker-smile-circle",
+    variants: variantsStickerSmileCircle,
+  },
+  {
+    name: "Sticker Smile Circle 2",
+    slug: "sticker-smile-circle-2",
+    variants: variantsStickerSmileCircle2,
+  },
+  {
+    name: "Sticker Smile Square",
+    slug: "sticker-smile-square",
+    variants: variantsStickerSmileSquare,
+  },
+  {
+    name: "Sticker Square",
+    slug: "sticker-square",
+    variants: variantsStickerSquare,
+  },
+  {
+    name: "Cloud File",
+    slug: "cloud-file",
+    variants: variantsCloudFile,
+  },
+  {
+    name: "Code File",
+    slug: "code-file",
+    variants: variantsCodeFile,
+  },
+  {
+    name: "Figma File",
+    slug: "figma-file",
+    variants: variantsFigmaFile,
+  },
+  {
+    name: "File",
+    slug: "file",
+    variants: variantsFile,
+  },
+  {
+    name: "File Check",
+    slug: "file-check",
+    variants: variantsFileCheck,
+  },
+  {
+    name: "File Corrupted",
+    slug: "file-corrupted",
+    variants: variantsFileCorrupted,
+  },
+  {
+    name: "File Download",
+    slug: "file-download",
+    variants: variantsFileDownload,
+  },
+  {
+    name: "File Favourite",
+    slug: "file-favourite",
+    variants: variantsFileFavourite,
+  },
+  {
+    name: "File Left",
+    slug: "file-left",
+    variants: variantsFileLeft,
+  },
+  {
+    name: "File Remove",
+    slug: "file-remove",
+    variants: variantsFileRemove,
+  },
+  {
+    name: "File Right",
+    slug: "file-right",
+    variants: variantsFileRight,
+  },
+  {
+    name: "File Send",
+    slug: "file-send",
+    variants: variantsFileSend,
+  },
+  {
+    name: "File Smile",
+    slug: "file-smile",
+    variants: variantsFileSmile,
+  },
+  {
+    name: "File Text",
+    slug: "file-text",
+    variants: variantsFileText,
+  },
+  {
+    name: "Zip File",
+    slug: "zip-file",
+    variants: variantsZipFile,
+  },
+  {
+    name: "Add Folder",
+    slug: "add-folder",
+    variants: variantsAddFolder,
+  },
+  {
+    name: "Folders Folder",
+    slug: "folders-folder",
+    variants: variantsFoldersFolder,
+  },
+  {
+    name: "Folders Folder 2",
+    slug: "folders-folder-2",
+    variants: variantsFoldersFolder2,
+  },
+  {
+    name: "Folder Check",
+    slug: "folder-check",
+    variants: variantsFolderCheck,
+  },
+  {
+    name: "Folders Folder Cloud",
+    slug: "folders-folder-cloud",
+    variants: variantsFoldersFolderCloud,
+  },
+  {
+    name: "Folder Error",
+    slug: "folder-error",
+    variants: variantsFolderError,
+  },
+  {
+    name: "Folder Favourite Bookmark",
+    slug: "folder-favourite-bookmark",
+    variants: variantsFolderFavouriteBookmark,
+  },
+  {
+    name: "Folder Favourite Star",
+    slug: "folder-favourite-star",
+    variants: variantsFolderFavouriteStar,
+  },
+  {
+    name: "Folders Folder Open",
+    slug: "folders-folder-open",
+    variants: variantsFoldersFolderOpen,
+  },
+  {
+    name: "Folder Path Connect",
+    slug: "folder-path-connect",
+    variants: variantsFolderPathConnect,
+  },
+  {
+    name: "Folder Security",
+    slug: "folder-security",
+    variants: variantsFolderSecurity,
+  },
+  {
+    name: "Folder With Files",
+    slug: "folder-with-files",
+    variants: variantsFolderWithFiles,
+  },
+  {
+    name: "Move To Folder",
+    slug: "move-to-folder",
+    variants: variantsMoveToFolder,
+  },
+  {
+    name: "Remove Folder",
+    slug: "remove-folder",
+    variants: variantsRemoveFolder,
+  },
+  {
+    name: "Bottle",
+    slug: "bottle",
+    variants: variantsBottle,
+  },
+  {
+    name: "Chef Hat",
+    slug: "chef-hat",
+    variants: variantsChefHat,
+  },
+  {
+    name: "Chef Hat Heart",
+    slug: "chef-hat-heart",
+    variants: variantsChefHatHeart,
+  },
+  {
+    name: "Chef Hat Minimalistic",
+    slug: "chef-hat-minimalistic",
+    variants: variantsChefHatMinimalistic,
+  },
+  {
+    name: "Corkscrew",
+    slug: "corkscrew",
+    variants: variantsCorkscrew,
+  },
+  {
+    name: "Cup Hot",
+    slug: "cup-hot",
+    variants: variantsCupHot,
+  },
+  {
+    name: "Cup Paper",
+    slug: "cup-paper",
+    variants: variantsCupPaper,
+  },
+  {
+    name: "Donut",
+    slug: "donut",
+    variants: variantsDonut,
+  },
+  {
+    name: "Donut Bitten",
+    slug: "donut-bitten",
+    variants: variantsDonutBitten,
+  },
+  {
+    name: "Ladle",
+    slug: "ladle",
+    variants: variantsLadle,
+  },
+  {
+    name: "Mug",
+    slug: "mug",
+    variants: variantsMug,
+  },
+  {
+    name: "Oven Mitts",
+    slug: "oven-mitts",
+    variants: variantsOvenMitts,
+  },
+  {
+    name: "Oven Mitts Minimalistic",
+    slug: "oven-mitts-minimalistic",
+    variants: variantsOvenMittsMinimalistic,
+  },
+  {
+    name: "Rolling Pin",
+    slug: "rolling-pin",
+    variants: variantsRollingPin,
+  },
+  {
+    name: "Tea Cup",
+    slug: "tea-cup",
+    variants: variantsTeaCup,
+  },
+  {
+    name: "Whisk",
+    slug: "whisk",
+    variants: variantsWhisk,
+  },
+  {
+    name: "Wineglass",
+    slug: "wineglass",
+    variants: variantsWineglass,
+  },
+  {
+    name: "Wineglass Triangle",
+    slug: "wineglass-triangle",
+    variants: variantsWineglassTriangle,
+  },
+  {
+    name: "Hand Heart",
+    slug: "hand-heart",
+    variants: variantsHandHeart,
+  },
+  {
+    name: "Hand Money",
+    slug: "hand-money",
+    variants: variantsHandMoney,
+  },
+  {
+    name: "Hand Pills",
+    slug: "hand-pills",
+    variants: variantsHandPills,
+  },
+  {
+    name: "Hand Shake",
+    slug: "hand-shake",
+    variants: variantsHandShake,
+  },
+  {
+    name: "Hand Stars",
+    slug: "hand-stars",
+    variants: variantsHandStars,
+  },
+  {
+    name: "Armchair",
+    slug: "armchair",
+    variants: variantsArmchair,
+  },
+  {
+    name: "Armchair 2",
+    slug: "armchair-2",
+    variants: variantsArmchair2,
+  },
+  {
+    name: "Bar Chair",
+    slug: "bar-chair",
+    variants: variantsBarChair,
+  },
+  {
+    name: "Bath",
+    slug: "bath",
+    variants: variantsBath,
+  },
+  {
+    name: "Bed",
+    slug: "bed",
+    variants: variantsBed,
+  },
+  {
+    name: "Bedside Table",
+    slug: "bedside-table",
+    variants: variantsBedsideTable,
+  },
+  {
+    name: "Bedside Table 2",
+    slug: "bedside-table-2",
+    variants: variantsBedsideTable2,
+  },
+  {
+    name: "Bedside Table 3",
+    slug: "bedside-table-3",
+    variants: variantsBedsideTable3,
+  },
+  {
+    name: "Bedside Table 4",
+    slug: "bedside-table-4",
+    variants: variantsBedsideTable4,
+  },
+  {
+    name: "Chair",
+    slug: "chair",
+    variants: variantsChair,
+  },
+  {
+    name: "Chair 2",
+    slug: "chair-2",
+    variants: variantsChair2,
+  },
+  {
+    name: "Chandelier",
+    slug: "chandelier",
+    variants: variantsChandelier,
+  },
+  {
+    name: "Closet",
+    slug: "closet",
+    variants: variantsCloset,
+  },
+  {
+    name: "Closet 2",
+    slug: "closet-2",
+    variants: variantsCloset2,
+  },
+  {
+    name: "Conditioner",
+    slug: "conditioner",
+    variants: variantsConditioner,
+  },
+  {
+    name: "Conditioner 2",
+    slug: "conditioner-2",
+    variants: variantsConditioner2,
+  },
+  {
+    name: "Floor Lamp",
+    slug: "floor-lamp",
+    variants: variantsFloorLamp,
+  },
+  {
+    name: "Floor Lamp Minimalistic",
+    slug: "floor-lamp-minimalistic",
+    variants: variantsFloorLampMinimalistic,
+  },
+  {
+    name: "Fridge",
+    slug: "fridge",
+    variants: variantsFridge,
+  },
+  {
+    name: "Home Lamp",
+    slug: "home-lamp",
+    variants: variantsHomeLamp,
+  },
+  {
+    name: "Home Mirror",
+    slug: "home-mirror",
+    variants: variantsHomeMirror,
+  },
+  {
+    name: "Remote Controller",
+    slug: "remote-controller",
+    variants: variantsRemoteController,
+  },
+  {
+    name: "Remote Controller 2",
+    slug: "remote-controller-2",
+    variants: variantsRemoteController2,
+  },
+  {
+    name: "Remote Controller Minimalistic",
+    slug: "remote-controller-minimalistic",
+    variants: variantsRemoteControllerMinimalistic,
+  },
+  {
+    name: "Smart Vacuum Cleaner",
+    slug: "smart-vacuum-cleaner",
+    variants: variantsSmartVacuumCleaner,
+  },
+  {
+    name: "Smart Vacuum Cleaner 2",
+    slug: "smart-vacuum-cleaner-2",
+    variants: variantsSmartVacuumCleaner2,
+  },
+  {
+    name: "Sofa",
+    slug: "sofa",
+    variants: variantsSofa,
+  },
+  {
+    name: "Sofa 2",
+    slug: "sofa-2",
+    variants: variantsSofa2,
+  },
+  {
+    name: "Sofa 3",
+    slug: "sofa-3",
+    variants: variantsSofa3,
+  },
+  {
+    name: "Home Speaker",
+    slug: "home-speaker",
+    variants: variantsHomeSpeaker,
+  },
+  {
+    name: "Speaker Minimalistic",
+    slug: "speaker-minimalistic",
+    variants: variantsSpeakerMinimalistic,
+  },
+  {
+    name: "Trellis",
+    slug: "trellis",
+    variants: variantsTrellis,
+  },
+  {
+    name: "Volume Knob",
+    slug: "volume-knob",
+    variants: variantsVolumeKnob,
+  },
+  {
+    name: "Washing Machine",
+    slug: "washing-machine",
+    variants: variantsWashingMachine,
+  },
+  {
+    name: "Washing Machine Minimalistic",
+    slug: "washing-machine-minimalistic",
+    variants: variantsWashingMachineMinimalistic,
+  },
+  {
+    name: "Bug",
+    slug: "bug",
+    variants: variantsBug,
+  },
+  {
+    name: "Bug Minimalistic",
+    slug: "bug-minimalistic",
+    variants: variantsBugMinimalistic,
+  },
+  {
+    name: "It Code",
+    slug: "it-code",
+    variants: variantsItCode,
+  },
+  {
+    name: "Code 2",
+    slug: "code-2",
+    variants: variantsCode2,
+  },
+  {
+    name: "It Code Circle",
+    slug: "it-code-circle",
+    variants: variantsItCodeCircle,
+  },
+  {
+    name: "Code Square",
+    slug: "code-square",
+    variants: variantsCodeSquare,
+  },
+  {
+    name: "It Command",
+    slug: "it-command",
+    variants: variantsItCommand,
+  },
+  {
+    name: "It Hashtag",
+    slug: "it-hashtag",
+    variants: variantsItHashtag,
+  },
+  {
+    name: "Hashtag Chat",
+    slug: "hashtag-chat",
+    variants: variantsHashtagChat,
+  },
+  {
+    name: "Hashtag Circle",
+    slug: "hashtag-circle",
+    variants: variantsHashtagCircle,
+  },
+  {
+    name: "Hashtag Square",
+    slug: "hashtag-square",
+    variants: variantsHashtagSquare,
+  },
+  {
+    name: "Programming",
+    slug: "programming",
+    variants: variantsProgramming,
+  },
+  {
+    name: "Screencast",
+    slug: "screencast",
+    variants: variantsScreencast,
+  },
+  {
+    name: "Screencast 2",
+    slug: "screencast-2",
+    variants: variantsScreencast2,
+  },
+  {
+    name: "Sidebar",
+    slug: "sidebar",
+    variants: variantsSidebar,
+  },
+  {
+    name: "Sidebar Code",
+    slug: "sidebar-code",
+    variants: variantsSidebarCode,
+  },
+  {
+    name: "Sidebar Minimalistic",
+    slug: "sidebar-minimalistic",
+    variants: variantsSidebarMinimalistic,
+  },
+  {
+    name: "Slash Circle",
+    slug: "slash-circle",
+    variants: variantsSlashCircle,
+  },
+  {
+    name: "Slash Square",
+    slug: "slash-square",
+    variants: variantsSlashSquare,
+  },
+  {
+    name: "Station",
+    slug: "station",
+    variants: variantsStation,
+  },
+  {
+    name: "Station Minimalistic",
+    slug: "station-minimalistic",
+    variants: variantsStationMinimalistic,
+  },
+  {
+    name: "Structure",
+    slug: "structure",
+    variants: variantsStructure,
+  },
+  {
+    name: "Translation",
+    slug: "translation",
+    variants: variantsTranslation,
+  },
+  {
+    name: "Translation 2",
+    slug: "translation-2",
+    variants: variantsTranslation2,
+  },
+  {
+    name: "Usb",
+    slug: "usb",
+    variants: variantsUsb,
+  },
+  {
+    name: "Usb Circle",
+    slug: "usb-circle",
+    variants: variantsUsbCircle,
+  },
+  {
+    name: "Usb Square",
+    slug: "usb-square",
+    variants: variantsUsbSquare,
+  },
+  {
+    name: "Wi Fi Router",
+    slug: "wi-fi-router",
+    variants: variantsWiFiRouter,
+  },
+  {
+    name: "Wi Fi Router Minimalistic",
+    slug: "wi-fi-router-minimalistic",
+    variants: variantsWiFiRouterMinimalistic,
+  },
+  {
+    name: "Wi Fi Router Round",
+    slug: "wi-fi-router-round",
+    variants: variantsWiFiRouterRound,
+  },
+  {
+    name: "Window Frame",
+    slug: "window-frame",
+    variants: variantsWindowFrame,
+  },
+  {
+    name: "Like Dislike 1",
+    slug: "like-dislike-1",
+    variants: variantsLikeDislike1,
+  },
+  {
+    name: "Like Heart",
+    slug: "like-heart",
+    variants: variantsLikeHeart,
+  },
+  {
+    name: "Heart Angle",
+    slug: "heart-angle",
+    variants: variantsHeartAngle,
+  },
+  {
+    name: "Heart Broken",
+    slug: "heart-broken",
+    variants: variantsHeartBroken,
+  },
+  {
+    name: "Heart Lock",
+    slug: "heart-lock",
+    variants: variantsHeartLock,
+  },
+  {
+    name: "Heart Shine",
+    slug: "heart-shine",
+    variants: variantsHeartShine,
+  },
+  {
+    name: "Heart Unlock",
+    slug: "heart-unlock",
+    variants: variantsHeartUnlock,
+  },
+  {
+    name: "Hearts",
+    slug: "hearts",
+    variants: variantsHearts,
+  },
+  {
+    name: "Like Like",
+    slug: "like-like",
+    variants: variantsLikeLike,
+  },
+  {
+    name: "Medal Ribbon",
+    slug: "medal-ribbon",
+    variants: variantsMedalRibbon,
+  },
+  {
+    name: "Medal Ribbon Star",
+    slug: "medal-ribbon-star",
+    variants: variantsMedalRibbonStar,
+  },
+  {
+    name: "Medal Ribbons Star",
+    slug: "medal-ribbons-star",
+    variants: variantsMedalRibbonsStar,
+  },
+  {
+    name: "Like Medal Star",
+    slug: "like-medal-star",
+    variants: variantsLikeMedalStar,
+  },
+  {
+    name: "Medal Star Circle",
+    slug: "medal-star-circle",
+    variants: variantsMedalStarCircle,
+  },
+  {
+    name: "Medal Star Square",
+    slug: "medal-star-square",
+    variants: variantsMedalStarSquare,
+  },
+  {
+    name: "Like Star",
+    slug: "like-star",
+    variants: variantsLikeStar,
+  },
+  {
+    name: "Star Shine",
+    slug: "star-shine",
+    variants: variantsStarShine,
+  },
+  {
+    name: "Bill 2",
+    slug: "bill-2",
+    variants: variantsBill2,
+  },
+  {
+    name: "Checklist",
+    slug: "checklist",
+    variants: variantsChecklist,
+  },
+  {
+    name: "Checklist Minimalistic",
+    slug: "checklist-minimalistic",
+    variants: variantsChecklistMinimalistic,
+  },
+  {
+    name: "List",
+    slug: "list",
+    variants: variantsList,
+  },
+  {
+    name: "List Arrow Down",
+    slug: "list-arrow-down",
+    variants: variantsListArrowDown,
+  },
+  {
+    name: "List Arrow Down Minimalistic",
+    slug: "list-arrow-down-minimalistic",
+    variants: variantsListArrowDownMinimalistic,
+  },
+  {
+    name: "List Arrow Up",
+    slug: "list-arrow-up",
+    variants: variantsListArrowUp,
+  },
+  {
+    name: "List Arrow Up Minimalistic",
+    slug: "list-arrow-up-minimalistic",
+    variants: variantsListArrowUpMinimalistic,
+  },
+  {
+    name: "List Check",
+    slug: "list-check",
+    variants: variantsListCheck,
+  },
+  {
+    name: "List Check Minimalistic",
+    slug: "list-check-minimalistic",
+    variants: variantsListCheckMinimalistic,
+  },
+  {
+    name: "List Cross",
+    slug: "list-cross",
+    variants: variantsListCross,
+  },
+  {
+    name: "List Cross Minimalistic",
+    slug: "list-cross-minimalistic",
+    variants: variantsListCrossMinimalistic,
+  },
+  {
+    name: "List Down",
+    slug: "list-down",
+    variants: variantsListDown,
+  },
+  {
+    name: "List Down Minimalistic",
+    slug: "list-down-minimalistic",
+    variants: variantsListDownMinimalistic,
+  },
+  {
+    name: "List Heart",
+    slug: "list-heart",
+    variants: variantsListHeart,
+  },
+  {
+    name: "List Heart Minimalistic",
+    slug: "list-heart-minimalistic",
+    variants: variantsListHeartMinimalistic,
+  },
+  {
+    name: "List Up",
+    slug: "list-up",
+    variants: variantsListUp,
+  },
+  {
+    name: "List Up Minimalistic",
+    slug: "list-up-minimalistic",
+    variants: variantsListUpMinimalistic,
+  },
+  {
+    name: "List Vertical",
+    slug: "list-vertical",
+    variants: variantsListVertical,
+  },
+  {
+    name: "Playlist",
+    slug: "playlist",
+    variants: variantsPlaylist,
+  },
+  {
+    name: "Playlist 2",
+    slug: "playlist-2",
+    variants: variantsPlaylist2,
+  },
+  {
+    name: "Playlist Minimalistic",
+    slug: "playlist-minimalistic",
+    variants: variantsPlaylistMinimalistic,
+  },
+  {
+    name: "Playlist Minimalistic 2",
+    slug: "playlist-minimalistic-2",
+    variants: variantsPlaylistMinimalistic2,
+  },
+  {
+    name: "Playlist Minimalistic 3",
+    slug: "playlist-minimalistic-3",
+    variants: variantsPlaylistMinimalistic3,
+  },
+  {
+    name: "Sort By Alphabet",
+    slug: "sort-by-alphabet",
+    variants: variantsSortByAlphabet,
+  },
+  {
+    name: "Sort By Time",
+    slug: "sort-by-time",
+    variants: variantsSortByTime,
+  },
+  {
+    name: "Sort From Bottom To Top",
+    slug: "sort-from-bottom-to-top",
+    variants: variantsSortFromBottomToTop,
+  },
+  {
+    name: "Sort From Top To Bottom",
+    slug: "sort-from-top-to-bottom",
+    variants: variantsSortFromTopToBottom,
+  },
+  {
+    name: "Branching Paths Down",
+    slug: "branching-paths-down",
+    variants: variantsBranchingPathsDown,
+  },
+  {
+    name: "Branching Paths Up",
+    slug: "branching-paths-up",
+    variants: variantsBranchingPathsUp,
+  },
+  {
+    name: "Compass",
+    slug: "compass",
+    variants: variantsCompass,
+  },
+  {
+    name: "Compass Big",
+    slug: "compass-big",
+    variants: variantsCompassBig,
+  },
+  {
+    name: "Compass Square",
+    slug: "compass-square",
+    variants: variantsCompassSquare,
+  },
+  {
+    name: "Map Global",
+    slug: "map-global",
+    variants: variantsMapGlobal,
+  },
+  {
+    name: "Globus",
+    slug: "globus",
+    variants: variantsGlobus,
+  },
+  {
+    name: "Map Gps",
+    slug: "map-gps",
+    variants: variantsMapGps,
+  },
+  {
+    name: "Map Map",
+    slug: "map-map",
+    variants: variantsMapMap,
+  },
+  {
+    name: "Map Arrow Down",
+    slug: "map-arrow-down",
+    variants: variantsMapArrowDown,
+  },
+  {
+    name: "Map Arrow Left",
+    slug: "map-arrow-left",
+    variants: variantsMapArrowLeft,
+  },
+  {
+    name: "Map Arrow Right",
+    slug: "map-arrow-right",
+    variants: variantsMapArrowRight,
+  },
+  {
+    name: "Map Arrow Square",
+    slug: "map-arrow-square",
+    variants: variantsMapArrowSquare,
+  },
+  {
+    name: "Map Arrow Up",
+    slug: "map-arrow-up",
+    variants: variantsMapArrowUp,
+  },
+  {
+    name: "Map Point",
+    slug: "map-point",
+    variants: variantsMapPoint,
+  },
+  {
+    name: "Map Point Add",
+    slug: "map-point-add",
+    variants: variantsMapPointAdd,
+  },
+  {
+    name: "Map Point Favourite",
+    slug: "map-point-favourite",
+    variants: variantsMapPointFavourite,
+  },
+  {
+    name: "Map Point Hospital",
+    slug: "map-point-hospital",
+    variants: variantsMapPointHospital,
+  },
+  {
+    name: "Map Point Remove",
+    slug: "map-point-remove",
+    variants: variantsMapPointRemove,
+  },
+  {
+    name: "Map Point Rotate",
+    slug: "map-point-rotate",
+    variants: variantsMapPointRotate,
+  },
+  {
+    name: "Map Point School",
+    slug: "map-point-school",
+    variants: variantsMapPointSchool,
+  },
+  {
+    name: "Map Point Search",
+    slug: "map-point-search",
+    variants: variantsMapPointSearch,
+  },
+  {
+    name: "Map Point Wave",
+    slug: "map-point-wave",
+    variants: variantsMapPointWave,
+  },
+  {
+    name: "People Nearby",
+    slug: "people-nearby",
+    variants: variantsPeopleNearby,
+  },
+  {
+    name: "Point On Map",
+    slug: "point-on-map",
+    variants: variantsPointOnMap,
+  },
+  {
+    name: "Point On Map Perspective",
+    slug: "point-on-map-perspective",
+    variants: variantsPointOnMapPerspective,
+  },
+  {
+    name: "Map Radar",
+    slug: "map-radar",
+    variants: variantsMapRadar,
+  },
+  {
+    name: "Map Radar 2",
+    slug: "map-radar-2",
+    variants: variantsMapRadar2,
+  },
+  {
+    name: "Route",
+    slug: "route",
+    variants: variantsRoute,
+  },
+  {
+    name: "Map Routing",
+    slug: "map-routing",
+    variants: variantsMapRouting,
+  },
+  {
+    name: "Map Routing 2",
+    slug: "map-routing-2",
+    variants: variantsMapRouting2,
+  },
+  {
+    name: "Routing 3",
+    slug: "routing-3",
+    variants: variantsRouting3,
+  },
+  {
+    name: "Map Signpost",
+    slug: "map-signpost",
+    variants: variantsMapSignpost,
+  },
+  {
+    name: "Signpost 2",
+    slug: "signpost-2",
+    variants: variantsSignpost2,
+  },
+  {
+    name: "Streets",
+    slug: "streets",
+    variants: variantsStreets,
+  },
+  {
+    name: "Streets Map Point",
+    slug: "streets-map-point",
+    variants: variantsStreetsMapPoint,
+  },
+  {
+    name: "Streets Navigation",
+    slug: "streets-navigation",
+    variants: variantsStreetsNavigation,
+  },
+  {
+    name: "Adhesive Plaster",
+    slug: "adhesive-plaster",
+    variants: variantsAdhesivePlaster,
+  },
+  {
+    name: "Adhesive Plaster 2",
+    slug: "adhesive-plaster-2",
+    variants: variantsAdhesivePlaster2,
+  },
+  {
+    name: "Bacteria",
+    slug: "bacteria",
+    variants: variantsBacteria,
+  },
+  {
+    name: "Benzene Ring",
+    slug: "benzene-ring",
+    variants: variantsBenzeneRing,
+  },
+  {
+    name: "Bone",
+    slug: "bone",
+    variants: variantsBone,
+  },
+  {
+    name: "Bone Broken",
+    slug: "bone-broken",
+    variants: variantsBoneBroken,
+  },
+  {
+    name: "Bone Crack",
+    slug: "bone-crack",
+    variants: variantsBoneCrack,
+  },
+  {
+    name: "Bones",
+    slug: "bones",
+    variants: variantsBones,
+  },
+  {
+    name: "Dna",
+    slug: "dna",
+    variants: variantsDna,
+  },
+  {
+    name: "Dropper",
+    slug: "dropper",
+    variants: variantsDropper,
+  },
+  {
+    name: "Dropper 2",
+    slug: "dropper-2",
+    variants: variantsDropper2,
+  },
+  {
+    name: "Dropper 3",
+    slug: "dropper-3",
+    variants: variantsDropper3,
+  },
+  {
+    name: "Dropper Minimalistic",
+    slug: "dropper-minimalistic",
+    variants: variantsDropperMinimalistic,
+  },
+  {
+    name: "Dropper Minimalistic 2",
+    slug: "dropper-minimalistic-2",
+    variants: variantsDropperMinimalistic2,
+  },
+  {
+    name: "Medicine Health",
+    slug: "medicine-health",
+    variants: variantsMedicineHealth,
+  },
+  {
+    name: "Heart Pulse",
+    slug: "heart-pulse",
+    variants: variantsHeartPulse,
+  },
+  {
+    name: "Heart Pulse 2",
+    slug: "heart-pulse-2",
+    variants: variantsHeartPulse2,
+  },
+  {
+    name: "Jar Of Pills",
+    slug: "jar-of-pills",
+    variants: variantsJarOfPills,
+  },
+  {
+    name: "Jar Of Pills 2",
+    slug: "jar-of-pills-2",
+    variants: variantsJarOfPills2,
+  },
+  {
+    name: "Medical Kit",
+    slug: "medical-kit",
+    variants: variantsMedicalKit,
+  },
+  {
+    name: "Pill",
+    slug: "pill",
+    variants: variantsPill,
+  },
+  {
+    name: "Pills",
+    slug: "pills",
+    variants: variantsPills,
+  },
+  {
+    name: "Pills 2",
+    slug: "pills-2",
+    variants: variantsPills2,
+  },
+  {
+    name: "Pills 3",
+    slug: "pills-3",
+    variants: variantsPills3,
+  },
+  {
+    name: "Pulse",
+    slug: "pulse",
+    variants: variantsPulse,
+  },
+  {
+    name: "Pulse 2",
+    slug: "pulse-2",
+    variants: variantsPulse2,
+  },
+  {
+    name: "Stethoscope",
+    slug: "stethoscope",
+    variants: variantsStethoscope,
+  },
+  {
+    name: "Syringe",
+    slug: "syringe",
+    variants: variantsSyringe,
+  },
+  {
+    name: "Test Tube",
+    slug: "test-tube",
+    variants: variantsTestTube,
+  },
+  {
+    name: "Test Tube Minimalistic",
+    slug: "test-tube-minimalistic",
+    variants: variantsTestTubeMinimalistic,
+  },
+  {
+    name: "Thermometer",
+    slug: "thermometer",
+    variants: variantsThermometer,
+  },
+  {
+    name: "Virus",
+    slug: "virus",
+    variants: variantsVirus,
+  },
+  {
+    name: "Chat Dots",
+    slug: "chat-dots",
+    variants: variantsChatDots,
+  },
+  {
+    name: "Chat Line",
+    slug: "chat-line",
+    variants: variantsChatLine,
+  },
+  {
+    name: "Chat Round",
+    slug: "chat-round",
+    variants: variantsChatRound,
+  },
+  {
+    name: "Chat Round Call",
+    slug: "chat-round-call",
+    variants: variantsChatRoundCall,
+  },
+  {
+    name: "Chat Round Check",
+    slug: "chat-round-check",
+    variants: variantsChatRoundCheck,
+  },
+  {
+    name: "Chat Round Dots",
+    slug: "chat-round-dots",
+    variants: variantsChatRoundDots,
+  },
+  {
+    name: "Chat Round Like",
+    slug: "chat-round-like",
+    variants: variantsChatRoundLike,
+  },
+  {
+    name: "Chat Round Line",
+    slug: "chat-round-line",
+    variants: variantsChatRoundLine,
+  },
+  {
+    name: "Chat Round Money",
+    slug: "chat-round-money",
+    variants: variantsChatRoundMoney,
+  },
+  {
+    name: "Chat Round Unread",
+    slug: "chat-round-unread",
+    variants: variantsChatRoundUnread,
+  },
+  {
+    name: "Chat Round Video",
+    slug: "chat-round-video",
+    variants: variantsChatRoundVideo,
+  },
+  {
+    name: "Chat Square",
+    slug: "chat-square",
+    variants: variantsChatSquare,
+  },
+  {
+    name: "Chat Square Arrow",
+    slug: "chat-square-arrow",
+    variants: variantsChatSquareArrow,
+  },
+  {
+    name: "Chat Square Call",
+    slug: "chat-square-call",
+    variants: variantsChatSquareCall,
+  },
+  {
+    name: "Chat Square Check",
+    slug: "chat-square-check",
+    variants: variantsChatSquareCheck,
+  },
+  {
+    name: "Chat Square Code",
+    slug: "chat-square-code",
+    variants: variantsChatSquareCode,
+  },
+  {
+    name: "Chat Square Like",
+    slug: "chat-square-like",
+    variants: variantsChatSquareLike,
+  },
+  {
+    name: "Chat Unread",
+    slug: "chat-unread",
+    variants: variantsChatUnread,
+  },
+  {
+    name: "Check Read",
+    slug: "check-read",
+    variants: variantsCheckRead,
+  },
+  {
+    name: "Dialog",
+    slug: "dialog",
+    variants: variantsDialog,
+  },
+  {
+    name: "Dialog 2",
+    slug: "dialog-2",
+    variants: variantsDialog2,
+  },
+  {
+    name: "Forward Right",
+    slug: "forward-right",
+    variants: variantsForwardRight,
+  },
+  {
+    name: "Inbox",
+    slug: "inbox",
+    variants: variantsInbox,
+  },
+  {
+    name: "Inbox Archive",
+    slug: "inbox-archive",
+    variants: variantsInboxArchive,
+  },
+  {
+    name: "Inbox In",
+    slug: "inbox-in",
+    variants: variantsInboxIn,
+  },
+  {
+    name: "Inbox Line",
+    slug: "inbox-line",
+    variants: variantsInboxLine,
+  },
+  {
+    name: "Inbox Out",
+    slug: "inbox-out",
+    variants: variantsInboxOut,
+  },
+  {
+    name: "Inbox Unread",
+    slug: "inbox-unread",
+    variants: variantsInboxUnread,
+  },
+  {
+    name: "Letter",
+    slug: "letter",
+    variants: variantsLetter,
+  },
+  {
+    name: "Letter Opened",
+    slug: "letter-opened",
+    variants: variantsLetterOpened,
+  },
+  {
+    name: "Letter Unread",
+    slug: "letter-unread",
+    variants: variantsLetterUnread,
+  },
+  {
+    name: "Mailbox",
+    slug: "mailbox",
+    variants: variantsMailbox,
+  },
+  {
+    name: "Multiple Forward Left",
+    slug: "multiple-forward-left",
+    variants: variantsMultipleForwardLeft,
+  },
+  {
+    name: "Multiple Forward Right",
+    slug: "multiple-forward-right",
+    variants: variantsMultipleForwardRight,
+  },
+  {
+    name: "Messages Paperclip",
+    slug: "messages-paperclip",
+    variants: variantsMessagesPaperclip,
+  },
+  {
+    name: "Messages Paperclip 2",
+    slug: "messages-paperclip-2",
+    variants: variantsMessagesPaperclip2,
+  },
+  {
+    name: "Paperclip Rounded",
+    slug: "paperclip-rounded",
+    variants: variantsPaperclipRounded,
+  },
+  {
+    name: "Paperclip Rounded 2",
+    slug: "paperclip-rounded-2",
+    variants: variantsPaperclipRounded2,
+  },
+  {
+    name: "Pen",
+    slug: "pen",
+    variants: variantsPen,
+  },
+  {
+    name: "Pen 2",
+    slug: "pen-2",
+    variants: variantsPen2,
+  },
+  {
+    name: "Pen New Round",
+    slug: "pen-new-round",
+    variants: variantsPenNewRound,
+  },
+  {
+    name: "Pen New Square",
+    slug: "pen-new-square",
+    variants: variantsPenNewSquare,
+  },
+  {
+    name: "Plain",
+    slug: "plain",
+    variants: variantsPlain,
+  },
+  {
+    name: "Plain 2",
+    slug: "plain-2",
+    variants: variantsPlain2,
+  },
+  {
+    name: "Plain 3",
+    slug: "plain-3",
+    variants: variantsPlain3,
+  },
+  {
+    name: "Square Forward",
+    slug: "square-forward",
+    variants: variantsSquareForward,
+  },
+  {
+    name: "Square Share Line",
+    slug: "square-share-line",
+    variants: variantsSquareShareLine,
+  },
+  {
+    name: "Unread",
+    slug: "unread",
+    variants: variantsUnread,
+  },
+  {
+    name: "Banknote",
+    slug: "banknote",
+    variants: variantsBanknote,
+  },
+  {
+    name: "Banknote 2",
+    slug: "banknote-2",
+    variants: variantsBanknote2,
+  },
+  {
+    name: "Money Bill",
+    slug: "money-bill",
+    variants: variantsMoneyBill,
+  },
+  {
+    name: "Bill Check",
+    slug: "bill-check",
+    variants: variantsBillCheck,
+  },
+  {
+    name: "Bill Cross",
+    slug: "bill-cross",
+    variants: variantsBillCross,
+  },
+  {
+    name: "Bill List",
+    slug: "bill-list",
+    variants: variantsBillList,
+  },
+  {
+    name: "Money Card",
+    slug: "money-card",
+    variants: variantsMoneyCard,
+  },
+  {
+    name: "Card 2",
+    slug: "card-2",
+    variants: variantsCard2,
+  },
+  {
+    name: "Money Card Receive",
+    slug: "money-card-receive",
+    variants: variantsMoneyCardReceive,
+  },
+  {
+    name: "Card Search",
+    slug: "card-search",
+    variants: variantsCardSearch,
+  },
+  {
+    name: "Money Card Send",
+    slug: "money-card-send",
+    variants: variantsMoneyCardSend,
+  },
+  {
+    name: "Card Transfer",
+    slug: "card-transfer",
+    variants: variantsCardTransfer,
+  },
+  {
+    name: "Cardholder",
+    slug: "cardholder",
+    variants: variantsCardholder,
+  },
+  {
+    name: "Cash Out",
+    slug: "cash-out",
+    variants: variantsCashOut,
+  },
+  {
+    name: "Dollar",
+    slug: "dollar",
+    variants: variantsDollar,
+  },
+  {
+    name: "Dollar Minimalistic",
+    slug: "dollar-minimalistic",
+    variants: variantsDollarMinimalistic,
+  },
+  {
+    name: "Euro",
+    slug: "euro",
+    variants: variantsEuro,
+  },
+  {
+    name: "Money Bag",
+    slug: "money-bag",
+    variants: variantsMoneyBag,
+  },
+  {
+    name: "Ruble",
+    slug: "ruble",
+    variants: variantsRuble,
+  },
+  {
+    name: "Safe 2",
+    slug: "safe-2",
+    variants: variantsSafe2,
+  },
+  {
+    name: "Safe Circle",
+    slug: "safe-circle",
+    variants: variantsSafeCircle,
+  },
+  {
+    name: "Safe Square",
+    slug: "safe-square",
+    variants: variantsSafeSquare,
+  },
+  {
+    name: "Sale",
+    slug: "sale",
+    variants: variantsSale,
+  },
+  {
+    name: "Sale Square",
+    slug: "sale-square",
+    variants: variantsSaleSquare,
+  },
+  {
+    name: "Money Tag",
+    slug: "money-tag",
+    variants: variantsMoneyTag,
+  },
+  {
+    name: "Tag Horizontal",
+    slug: "tag-horizontal",
+    variants: variantsTagHorizontal,
+  },
+  {
+    name: "Tag Price",
+    slug: "tag-price",
+    variants: variantsTagPrice,
+  },
+  {
+    name: "Ticker Star",
+    slug: "ticker-star",
+    variants: variantsTickerStar,
+  },
+  {
+    name: "Money Ticket",
+    slug: "money-ticket",
+    variants: variantsMoneyTicket,
+  },
+  {
+    name: "Ticket Sale",
+    slug: "ticket-sale",
+    variants: variantsTicketSale,
+  },
+  {
+    name: "Verified Check",
+    slug: "verified-check",
+    variants: variantsVerifiedCheck,
+  },
+  {
+    name: "Wad Of Money",
+    slug: "wad-of-money",
+    variants: variantsWadOfMoney,
+  },
+  {
+    name: "Money Wallet",
+    slug: "money-wallet",
+    variants: variantsMoneyWallet,
+  },
+  {
+    name: "Money Wallet 2",
+    slug: "money-wallet-2",
+    variants: variantsMoneyWallet2,
+  },
+  {
+    name: "Money Wallet Money",
+    slug: "money-wallet-money",
+    variants: variantsMoneyWalletMoney,
+  },
+  {
+    name: "Bonfire",
+    slug: "bonfire",
+    variants: variantsBonfire,
+  },
+  {
+    name: "Fire",
+    slug: "fire",
+    variants: variantsFire,
+  },
+  {
+    name: "Fire Minimalistic",
+    slug: "fire-minimalistic",
+    variants: variantsFireMinimalistic,
+  },
+  {
+    name: "Fire Square",
+    slug: "fire-square",
+    variants: variantsFireSquare,
+  },
+  {
+    name: "Flame",
+    slug: "flame",
+    variants: variantsFlame,
+  },
+  {
+    name: "Leaf",
+    slug: "leaf",
+    variants: variantsLeaf,
+  },
+  {
+    name: "Suitcase",
+    slug: "suitcase",
+    variants: variantsSuitcase,
+  },
+  {
+    name: "Suitcase Lines",
+    slug: "suitcase-lines",
+    variants: variantsSuitcaseLines,
+  },
+  {
+    name: "Suitcase Tag",
+    slug: "suitcase-tag",
+    variants: variantsSuitcaseTag,
+  },
+  {
+    name: "Notes Archive",
+    slug: "notes-archive",
+    variants: variantsNotesArchive,
+  },
+  {
+    name: "Archive Check",
+    slug: "archive-check",
+    variants: variantsArchiveCheck,
+  },
+  {
+    name: "Archive Down",
+    slug: "archive-down",
+    variants: variantsArchiveDown,
+  },
+  {
+    name: "Archive Down Minimalistic",
+    slug: "archive-down-minimalistic",
+    variants: variantsArchiveDownMinimalistic,
+  },
+  {
+    name: "Archive Minimalistic",
+    slug: "archive-minimalistic",
+    variants: variantsArchiveMinimalistic,
+  },
+  {
+    name: "Archive Up",
+    slug: "archive-up",
+    variants: variantsArchiveUp,
+  },
+  {
+    name: "Archive Up Minimalistic",
+    slug: "archive-up-minimalistic",
+    variants: variantsArchiveUpMinimalistic,
+  },
+  {
+    name: "Notes Clipboard",
+    slug: "notes-clipboard",
+    variants: variantsNotesClipboard,
+  },
+  {
+    name: "Clipboard Add",
+    slug: "clipboard-add",
+    variants: variantsClipboardAdd,
+  },
+  {
+    name: "Clipboard Check",
+    slug: "clipboard-check",
+    variants: variantsClipboardCheck,
+  },
+  {
+    name: "Clipboard Heart",
+    slug: "clipboard-heart",
+    variants: variantsClipboardHeart,
+  },
+  {
+    name: "Clipboard List",
+    slug: "clipboard-list",
+    variants: variantsClipboardList,
+  },
+  {
+    name: "Clipboard Remove",
+    slug: "clipboard-remove",
+    variants: variantsClipboardRemove,
+  },
+  {
+    name: "Notes Clipboard Text",
+    slug: "notes-clipboard-text",
+    variants: variantsNotesClipboardText,
+  },
+  {
+    name: "Notes Document",
+    slug: "notes-document",
+    variants: variantsNotesDocument,
+  },
+  {
+    name: "Document Add",
+    slug: "document-add",
+    variants: variantsDocumentAdd,
+  },
+  {
+    name: "Document Medicine",
+    slug: "document-medicine",
+    variants: variantsDocumentMedicine,
+  },
+  {
+    name: "Notes Document Text",
+    slug: "notes-document-text",
+    variants: variantsNotesDocumentText,
+  },
+  {
+    name: "Documents",
+    slug: "documents",
+    variants: variantsDocuments,
+  },
+  {
+    name: "Documents Minimalistic",
+    slug: "documents-minimalistic",
+    variants: variantsDocumentsMinimalistic,
+  },
+  {
+    name: "Notebook",
+    slug: "notebook",
+    variants: variantsNotebook,
+  },
+  {
+    name: "Notes",
+    slug: "notes",
+    variants: variantsNotes,
+  },
+  {
+    name: "Notes Minimalistic",
+    slug: "notes-minimalistic",
+    variants: variantsNotesMinimalistic,
+  },
+  {
+    name: "Bell",
+    slug: "bell",
+    variants: variantsBell,
+  },
+  {
+    name: "Bell Bing",
+    slug: "bell-bing",
+    variants: variantsBellBing,
+  },
+  {
+    name: "Bell Off",
+    slug: "bell-off",
+    variants: variantsBellOff,
+  },
+  {
+    name: "Notification Lines Remove",
+    slug: "notification-lines-remove",
+    variants: variantsNotificationLinesRemove,
+  },
+  {
+    name: "Notification Remove",
+    slug: "notification-remove",
+    variants: variantsNotificationRemove,
+  },
+  {
+    name: "Notification Unread",
+    slug: "notification-unread",
+    variants: variantsNotificationUnread,
+  },
+  {
+    name: "Notification Unread Lines",
+    slug: "notification-unread-lines",
+    variants: variantsNotificationUnreadLines,
+  },
+  {
+    name: "Accumulator",
+    slug: "accumulator",
+    variants: variantsAccumulator,
+  },
+  {
+    name: "Parts Bus",
+    slug: "parts-bus",
+    variants: variantsPartsBus,
+  },
+  {
+    name: "Electric Refueling",
+    slug: "electric-refueling",
+    variants: variantsElectricRefueling,
+  },
+  {
+    name: "Parts Gas Station",
+    slug: "parts-gas-station",
+    variants: variantsPartsGasStation,
+  },
+  {
+    name: "Kick Scooter",
+    slug: "kick-scooter",
+    variants: variantsKickScooter,
+  },
+  {
+    name: "Scooter",
+    slug: "scooter",
+    variants: variantsScooter,
+  },
+  {
+    name: "Shock Absorber",
+    slug: "shock-absorber",
+    variants: variantsShockAbsorber,
+  },
+  {
+    name: "Speedometer Low",
+    slug: "speedometer-low",
+    variants: variantsSpeedometerLow,
+  },
+  {
+    name: "Speedometer Max",
+    slug: "speedometer-max",
+    variants: variantsSpeedometerMax,
+  },
+  {
+    name: "Speedometer Middle",
+    slug: "speedometer-middle",
+    variants: variantsSpeedometerMiddle,
+  },
+  {
+    name: "Suspension",
+    slug: "suspension",
+    variants: variantsSuspension,
+  },
+  {
+    name: "Suspension Bolt",
+    slug: "suspension-bolt",
+    variants: variantsSuspensionBolt,
+  },
+  {
+    name: "Suspension Cross",
+    slug: "suspension-cross",
+    variants: variantsSuspensionCross,
+  },
+  {
+    name: "Tram",
+    slug: "tram",
+    variants: variantsTram,
+  },
+  {
+    name: "Transmission",
+    slug: "transmission",
+    variants: variantsTransmission,
+  },
+  {
+    name: "Transmission Circle",
+    slug: "transmission-circle",
+    variants: variantsTransmissionCircle,
+  },
+  {
+    name: "Transmission Square",
+    slug: "transmission-square",
+    variants: variantsTransmissionSquare,
+  },
+  {
+    name: "Wheel",
+    slug: "wheel",
+    variants: variantsWheel,
+  },
+  {
+    name: "Wheel Angle",
+    slug: "wheel-angle",
+    variants: variantsWheelAngle,
+  },
+  {
+    name: "Backpack",
+    slug: "backpack",
+    variants: variantsBackpack,
+  },
+  {
+    name: "School Book",
+    slug: "school-book",
+    variants: variantsSchoolBook,
+  },
+  {
+    name: "Book 2",
+    slug: "book-2",
+    variants: variantsBook2,
+  },
+  {
+    name: "Book Bookmark",
+    slug: "book-bookmark",
+    variants: variantsBookBookmark,
+  },
+  {
+    name: "Book Bookmark Minimalistic",
+    slug: "book-bookmark-minimalistic",
+    variants: variantsBookBookmarkMinimalistic,
+  },
+  {
+    name: "Book Minimalistic",
+    slug: "book-minimalistic",
+    variants: variantsBookMinimalistic,
+  },
+  {
+    name: "School Bookmark",
+    slug: "school-bookmark",
+    variants: variantsSchoolBookmark,
+  },
+  {
+    name: "Bookmark Circle",
+    slug: "bookmark-circle",
+    variants: variantsBookmarkCircle,
+  },
+  {
+    name: "Bookmark Opened",
+    slug: "bookmark-opened",
+    variants: variantsBookmarkOpened,
+  },
+  {
+    name: "Bookmark Square",
+    slug: "bookmark-square",
+    variants: variantsBookmarkSquare,
+  },
+  {
+    name: "Bookmark Square Minimalistic",
+    slug: "bookmark-square-minimalistic",
+    variants: variantsBookmarkSquareMinimalistic,
+  },
+  {
+    name: "School Calculator",
+    slug: "school-calculator",
+    variants: variantsSchoolCalculator,
+  },
+  {
+    name: "Calculator Minimalistic",
+    slug: "calculator-minimalistic",
+    variants: variantsCalculatorMinimalistic,
+  },
+  {
+    name: "Case",
+    slug: "case",
+    variants: variantsCase,
+  },
+  {
+    name: "Case Minimalistic",
+    slug: "case-minimalistic",
+    variants: variantsCaseMinimalistic,
+  },
+  {
+    name: "Case Round",
+    slug: "case-round",
+    variants: variantsCaseRound,
+  },
+  {
+    name: "Case Round Minimalistic",
+    slug: "case-round-minimalistic",
+    variants: variantsCaseRoundMinimalistic,
+  },
+  {
+    name: "Diploma",
+    slug: "diploma",
+    variants: variantsDiploma,
+  },
+  {
+    name: "Diploma Verified",
+    slug: "diploma-verified",
+    variants: variantsDiplomaVerified,
+  },
+  {
+    name: "Document 2",
+    slug: "document-2",
+    variants: variantsDocument2,
+  },
+  {
+    name: "Notebook 2",
+    slug: "notebook-2",
+    variants: variantsNotebook2,
+  },
+  {
+    name: "Notebook Bookmark",
+    slug: "notebook-bookmark",
+    variants: variantsNotebookBookmark,
+  },
+  {
+    name: "Notebook Minimalistic",
+    slug: "notebook-minimalistic",
+    variants: variantsNotebookMinimalistic,
+  },
+  {
+    name: "Notebook Square",
+    slug: "notebook-square",
+    variants: variantsNotebookSquare,
+  },
+  {
+    name: "Passport",
+    slug: "passport",
+    variants: variantsPassport,
+  },
+  {
+    name: "Passport Minimalistic",
+    slug: "passport-minimalistic",
+    variants: variantsPassportMinimalistic,
+  },
+  {
+    name: "Plus Minus",
+    slug: "plus-minus",
+    variants: variantsPlusMinus,
+  },
+  {
+    name: "Square Academic Cap",
+    slug: "square-academic-cap",
+    variants: variantsSquareAcademicCap,
+  },
+  {
+    name: "Square Academic Cap 2",
+    slug: "square-academic-cap-2",
+    variants: variantsSquareAcademicCap2,
+  },
+  {
+    name: "Magnifier",
+    slug: "magnifier",
+    variants: variantsMagnifier,
+  },
+  {
+    name: "Magnifier Bug",
+    slug: "magnifier-bug",
+    variants: variantsMagnifierBug,
+  },
+  {
+    name: "Magnifier Zoom In",
+    slug: "magnifier-zoom-in",
+    variants: variantsMagnifierZoomIn,
+  },
+  {
+    name: "Magnifier Zoom Out",
+    slug: "magnifier-zoom-out",
+    variants: variantsMagnifierZoomOut,
+  },
+  {
+    name: "Minimalistic Magnifier",
+    slug: "minimalistic-magnifier",
+    variants: variantsMinimalisticMagnifier,
+  },
+  {
+    name: "Minimalistic Magnifier Bug",
+    slug: "minimalistic-magnifier-bug",
+    variants: variantsMinimalisticMagnifierBug,
+  },
+  {
+    name: "Minimalistic Magnifier Zoom In",
+    slug: "minimalistic-magnifier-zoom-in",
+    variants: variantsMinimalisticMagnifierZoomIn,
+  },
+  {
+    name: "Minimalistic Magnifier Zoom Out",
+    slug: "minimalistic-magnifier-zoom-out",
+    variants: variantsMinimalisticMagnifierZoomOut,
+  },
+  {
+    name: "Rounded Magnifier",
+    slug: "rounded-magnifier",
+    variants: variantsRoundedMagnifier,
+  },
+  {
+    name: "Rounded Magnifier Bug",
+    slug: "rounded-magnifier-bug",
+    variants: variantsRoundedMagnifierBug,
+  },
+  {
+    name: "Rounded Magnifier Zoom In",
+    slug: "rounded-magnifier-zoom-in",
+    variants: variantsRoundedMagnifierZoomIn,
+  },
+  {
+    name: "Rounded Magnifier Zoom Out",
+    slug: "rounded-magnifier-zoom-out",
+    variants: variantsRoundedMagnifierZoomOut,
+  },
+  {
+    name: "Bomb",
+    slug: "bomb",
+    variants: variantsBomb,
+  },
+  {
+    name: "Bomb Emoji",
+    slug: "bomb-emoji",
+    variants: variantsBombEmoji,
+  },
+  {
+    name: "Bomb Minimalistic",
+    slug: "bomb-minimalistic",
+    variants: variantsBombMinimalistic,
+  },
+  {
+    name: "Code Scan",
+    slug: "code-scan",
+    variants: variantsCodeScan,
+  },
+  {
+    name: "Security Eye",
+    slug: "security-eye",
+    variants: variantsSecurityEye,
+  },
+  {
+    name: "Eye Closed",
+    slug: "eye-closed",
+    variants: variantsEyeClosed,
+  },
+  {
+    name: "Eye Scan",
+    slug: "eye-scan",
+    variants: variantsEyeScan,
+  },
+  {
+    name: "Incognito",
+    slug: "incognito",
+    variants: variantsIncognito,
+  },
+  {
+    name: "Security Key",
+    slug: "security-key",
+    variants: variantsSecurityKey,
+  },
+  {
+    name: "Key Minimalistic",
+    slug: "key-minimalistic",
+    variants: variantsKeyMinimalistic,
+  },
+  {
+    name: "Key Minimalistic 2",
+    slug: "key-minimalistic-2",
+    variants: variantsKeyMinimalistic2,
+  },
+  {
+    name: "Key Minimalistic Square",
+    slug: "key-minimalistic-square",
+    variants: variantsKeyMinimalisticSquare,
+  },
+  {
+    name: "Key Minimalistic Square 2",
+    slug: "key-minimalistic-square-2",
+    variants: variantsKeyMinimalisticSquare2,
+  },
+  {
+    name: "Key Minimalistic Square 3",
+    slug: "key-minimalistic-square-3",
+    variants: variantsKeyMinimalisticSquare3,
+  },
+  {
+    name: "Security Key Square",
+    slug: "security-key-square",
+    variants: variantsSecurityKeySquare,
+  },
+  {
+    name: "Key Square 2",
+    slug: "key-square-2",
+    variants: variantsKeySquare2,
+  },
+  {
+    name: "Security Lock",
+    slug: "security-lock",
+    variants: variantsSecurityLock,
+  },
+  {
+    name: "Lock Keyhole",
+    slug: "lock-keyhole",
+    variants: variantsLockKeyhole,
+  },
+  {
+    name: "Lock Keyhole Minimalistic",
+    slug: "lock-keyhole-minimalistic",
+    variants: variantsLockKeyholeMinimalistic,
+  },
+  {
+    name: "Lock Keyhole Minimalistic Unlocked",
+    slug: "lock-keyhole-minimalistic-unlocked",
+    variants: variantsLockKeyholeMinimalisticUnlocked,
+  },
+  {
+    name: "Lock Keyhole Unlocked",
+    slug: "lock-keyhole-unlocked",
+    variants: variantsLockKeyholeUnlocked,
+  },
+  {
+    name: "Lock Password",
+    slug: "lock-password",
+    variants: variantsLockPassword,
+  },
+  {
+    name: "Lock Password Unlocked",
+    slug: "lock-password-unlocked",
+    variants: variantsLockPasswordUnlocked,
+  },
+  {
+    name: "Lock Unlocked",
+    slug: "lock-unlocked",
+    variants: variantsLockUnlocked,
+  },
+  {
+    name: "Object Scan",
+    slug: "object-scan",
+    variants: variantsObjectScan,
+  },
+  {
+    name: "Password",
+    slug: "password",
+    variants: variantsPassword,
+  },
+  {
+    name: "Password Minimalistic",
+    slug: "password-minimalistic",
+    variants: variantsPasswordMinimalistic,
+  },
+  {
+    name: "Password Minimalistic Input",
+    slug: "password-minimalistic-input",
+    variants: variantsPasswordMinimalisticInput,
+  },
+  {
+    name: "Qr Code",
+    slug: "qr-code",
+    variants: variantsQrCode,
+  },
+  {
+    name: "Security Scanner",
+    slug: "security-scanner",
+    variants: variantsSecurityScanner,
+  },
+  {
+    name: "Scanner 2",
+    slug: "scanner-2",
+    variants: variantsScanner2,
+  },
+  {
+    name: "Security Shield",
+    slug: "security-shield",
+    variants: variantsSecurityShield,
+  },
+  {
+    name: "Shield Check",
+    slug: "shield-check",
+    variants: variantsShieldCheck,
+  },
+  {
+    name: "Security Shield Cross",
+    slug: "security-shield-cross",
+    variants: variantsSecurityShieldCross,
+  },
+  {
+    name: "Shield Keyhole",
+    slug: "shield-keyhole",
+    variants: variantsShieldKeyhole,
+  },
+  {
+    name: "Shield Keyhole Minimalistic",
+    slug: "shield-keyhole-minimalistic",
+    variants: variantsShieldKeyholeMinimalistic,
+  },
+  {
+    name: "Shield Minimalistic",
+    slug: "shield-minimalistic",
+    variants: variantsShieldMinimalistic,
+  },
+  {
+    name: "Shield Minus",
+    slug: "shield-minus",
+    variants: variantsShieldMinus,
+  },
+  {
+    name: "Shield Network",
+    slug: "shield-network",
+    variants: variantsShieldNetwork,
+  },
+  {
+    name: "Shield Plus",
+    slug: "shield-plus",
+    variants: variantsShieldPlus,
+  },
+  {
+    name: "Shield Star",
+    slug: "shield-star",
+    variants: variantsShieldStar,
+  },
+  {
+    name: "Shield Up",
+    slug: "shield-up",
+    variants: variantsShieldUp,
+  },
+  {
+    name: "Shield User",
+    slug: "shield-user",
+    variants: variantsShieldUser,
+  },
+  {
+    name: "Shield Warning",
+    slug: "shield-warning",
+    variants: variantsShieldWarning,
+  },
+  {
+    name: "Siren",
+    slug: "siren",
+    variants: variantsSiren,
+  },
+  {
+    name: "Siren Rounded",
+    slug: "siren-rounded",
+    variants: variantsSirenRounded,
+  },
+  {
+    name: "Settings Settings",
+    slug: "settings-settings",
+    variants: variantsSettingsSettings,
+  },
+  {
+    name: "Settings Minimalistic",
+    slug: "settings-minimalistic",
+    variants: variantsSettingsMinimalistic,
+  },
+  {
+    name: "Tuning",
+    slug: "tuning",
+    variants: variantsTuning,
+  },
+  {
+    name: "Tuning 2",
+    slug: "tuning-2",
+    variants: variantsTuning2,
+  },
+  {
+    name: "Tuning 3",
+    slug: "tuning-3",
+    variants: variantsTuning3,
+  },
+  {
+    name: "Tuning 4",
+    slug: "tuning-4",
+    variants: variantsTuning4,
+  },
+  {
+    name: "Tuning Square",
+    slug: "tuning-square",
+    variants: variantsTuningSquare,
+  },
+  {
+    name: "Tuning Square 2",
+    slug: "tuning-square-2",
+    variants: variantsTuningSquare2,
+  },
+  {
+    name: "Widget",
+    slug: "widget",
+    variants: variantsWidget,
+  },
+  {
+    name: "Widget 2",
+    slug: "widget-2",
+    variants: variantsWidget2,
+  },
+  {
+    name: "Widget 3",
+    slug: "widget-3",
+    variants: variantsWidget3,
+  },
+  {
+    name: "Widget 4",
+    slug: "widget-4",
+    variants: variantsWidget4,
+  },
+  {
+    name: "Widget 5",
+    slug: "widget-5",
+    variants: variantsWidget5,
+  },
+  {
+    name: "Widget 6",
+    slug: "widget-6",
+    variants: variantsWidget6,
+  },
+  {
+    name: "Widget Add",
+    slug: "widget-add",
+    variants: variantsWidgetAdd,
+  },
+  {
+    name: "Shopping Bag 1",
+    slug: "shopping-bag-1",
+    variants: variantsShoppingBag1,
+  },
+  {
+    name: "Shopping Bag 2",
+    slug: "shopping-bag-2",
+    variants: variantsShoppingBag2,
+  },
+  {
+    name: "Bag 3",
+    slug: "bag-3",
+    variants: variantsBag3,
+  },
+  {
+    name: "Bag 4",
+    slug: "bag-4",
+    variants: variantsBag4,
+  },
+  {
+    name: "Bag 5",
+    slug: "bag-5",
+    variants: variantsBag5,
+  },
+  {
+    name: "Bag Check",
+    slug: "bag-check",
+    variants: variantsBagCheck,
+  },
+  {
+    name: "Shopping Bag Cross",
+    slug: "shopping-bag-cross",
+    variants: variantsShoppingBagCross,
+  },
+  {
+    name: "Bag Heart",
+    slug: "bag-heart",
+    variants: variantsBagHeart,
+  },
+  {
+    name: "Bag Music",
+    slug: "bag-music",
+    variants: variantsBagMusic,
+  },
+  {
+    name: "Bag Music 2",
+    slug: "bag-music-2",
+    variants: variantsBagMusic2,
+  },
+  {
+    name: "Bag Smile",
+    slug: "bag-smile",
+    variants: variantsBagSmile,
+  },
+  {
+    name: "Cart",
+    slug: "cart",
+    variants: variantsCart,
+  },
+  {
+    name: "Cart 2",
+    slug: "cart-2",
+    variants: variantsCart2,
+  },
+  {
+    name: "Cart 3",
+    slug: "cart-3",
+    variants: variantsCart3,
+  },
+  {
+    name: "Cart 4",
+    slug: "cart-4",
+    variants: variantsCart4,
+  },
+  {
+    name: "Cart 5",
+    slug: "cart-5",
+    variants: variantsCart5,
+  },
+  {
+    name: "Cart Check",
+    slug: "cart-check",
+    variants: variantsCartCheck,
+  },
+  {
+    name: "Cart Cross",
+    slug: "cart-cross",
+    variants: variantsCartCross,
+  },
+  {
+    name: "Cart Large",
+    slug: "cart-large",
+    variants: variantsCartLarge,
+  },
+  {
+    name: "Cart Large 2",
+    slug: "cart-large-2",
+    variants: variantsCartLarge2,
+  },
+  {
+    name: "Cart Large 3",
+    slug: "cart-large-3",
+    variants: variantsCartLarge3,
+  },
+  {
+    name: "Cart Large 4",
+    slug: "cart-large-4",
+    variants: variantsCartLarge4,
+  },
+  {
+    name: "Cart Large Minimalistic",
+    slug: "cart-large-minimalistic",
+    variants: variantsCartLargeMinimalistic,
+  },
+  {
+    name: "Cart Plus",
+    slug: "cart-plus",
+    variants: variantsCartPlus,
+  },
+  {
+    name: "Shopping Shop",
+    slug: "shopping-shop",
+    variants: variantsShoppingShop,
+  },
+  {
+    name: "Shop 2",
+    slug: "shop-2",
+    variants: variantsShop2,
+  },
+  {
+    name: "Shop Minimalistic",
+    slug: "shop-minimalistic",
+    variants: variantsShopMinimalistic,
+  },
+  {
+    name: "Balls",
+    slug: "balls",
+    variants: variantsBalls,
+  },
+  {
+    name: "Basketball",
+    slug: "basketball",
+    variants: variantsBasketball,
+  },
+  {
+    name: "Bicycling",
+    slug: "bicycling",
+    variants: variantsBicycling,
+  },
+  {
+    name: "Bicycling Round",
+    slug: "bicycling-round",
+    variants: variantsBicyclingRound,
+  },
+  {
+    name: "Body Shape",
+    slug: "body-shape",
+    variants: variantsBodyShape,
+  },
+  {
+    name: "Body Shape Minimalistic",
+    slug: "body-shape-minimalistic",
+    variants: variantsBodyShapeMinimalistic,
+  },
+  {
+    name: "Bowling",
+    slug: "bowling",
+    variants: variantsBowling,
+  },
+  {
+    name: "Dumbbell",
+    slug: "dumbbell",
+    variants: variantsDumbbell,
+  },
+  {
+    name: "Dumbbell Large",
+    slug: "dumbbell-large",
+    variants: variantsDumbbellLarge,
+  },
+  {
+    name: "Dumbbell Large Minimalistic",
+    slug: "dumbbell-large-minimalistic",
+    variants: variantsDumbbellLargeMinimalistic,
+  },
+  {
+    name: "Dumbbell Small",
+    slug: "dumbbell-small",
+    variants: variantsDumbbellSmall,
+  },
+  {
+    name: "Dumbbells",
+    slug: "dumbbells",
+    variants: variantsDumbbells,
+  },
+  {
+    name: "Dumbbells 2",
+    slug: "dumbbells-2",
+    variants: variantsDumbbells2,
+  },
+  {
+    name: "Football",
+    slug: "football",
+    variants: variantsFootball,
+  },
+  {
+    name: "Golf",
+    slug: "golf",
+    variants: variantsGolf,
+  },
+  {
+    name: "Hiking",
+    slug: "hiking",
+    variants: variantsHiking,
+  },
+  {
+    name: "Hiking Minimalistic",
+    slug: "hiking-minimalistic",
+    variants: variantsHikingMinimalistic,
+  },
+  {
+    name: "Hiking Round",
+    slug: "hiking-round",
+    variants: variantsHikingRound,
+  },
+  {
+    name: "Meditation",
+    slug: "meditation",
+    variants: variantsMeditation,
+  },
+  {
+    name: "Meditation Round",
+    slug: "meditation-round",
+    variants: variantsMeditationRound,
+  },
+  {
+    name: "Sports Ranking",
+    slug: "sports-ranking",
+    variants: variantsSportsRanking,
+  },
+  {
+    name: "Rugby",
+    slug: "rugby",
+    variants: variantsRugby,
+  },
+  {
+    name: "Running",
+    slug: "running",
+    variants: variantsRunning,
+  },
+  {
+    name: "Running 2",
+    slug: "running-2",
+    variants: variantsRunning2,
+  },
+  {
+    name: "Running Round",
+    slug: "running-round",
+    variants: variantsRunningRound,
+  },
+  {
+    name: "Skateboard",
+    slug: "skateboard",
+    variants: variantsSkateboard,
+  },
+  {
+    name: "Skateboarding",
+    slug: "skateboarding",
+    variants: variantsSkateboarding,
+  },
+  {
+    name: "Skateboarding Round",
+    slug: "skateboarding-round",
+    variants: variantsSkateboardingRound,
+  },
+  {
+    name: "Stretching",
+    slug: "stretching",
+    variants: variantsStretching,
+  },
+  {
+    name: "Stretching Round",
+    slug: "stretching-round",
+    variants: variantsStretchingRound,
+  },
+  {
+    name: "Swimming",
+    slug: "swimming",
+    variants: variantsSwimming,
+  },
+  {
+    name: "Tennis",
+    slug: "tennis",
+    variants: variantsTennis,
+  },
+  {
+    name: "Tennis 2",
+    slug: "tennis-2",
+    variants: variantsTennis2,
+  },
+  {
+    name: "Treadmill",
+    slug: "treadmill",
+    variants: variantsTreadmill,
+  },
+  {
+    name: "Treadmill Round",
+    slug: "treadmill-round",
+    variants: variantsTreadmillRound,
+  },
+  {
+    name: "Volleyball",
+    slug: "volleyball",
+    variants: variantsVolleyball,
+  },
+  {
+    name: "Volleyball 2",
+    slug: "volleyball-2",
+    variants: variantsVolleyball2,
+  },
+  {
+    name: "Walking",
+    slug: "walking",
+    variants: variantsWalking,
+  },
+  {
+    name: "Walking Round",
+    slug: "walking-round",
+    variants: variantsWalkingRound,
+  },
+  {
+    name: "Water",
+    slug: "water",
+    variants: variantsWater,
+  },
+  {
+    name: "Water Sun",
+    slug: "water-sun",
+    variants: variantsWaterSun,
+  },
+  {
+    name: "Backspace",
+    slug: "backspace",
+    variants: variantsBackspace,
+  },
+  {
+    name: "Text Formatting Eraser",
+    slug: "text-formatting-eraser",
+    variants: variantsTextFormattingEraser,
+  },
+  {
+    name: "Eraser Circle",
+    slug: "eraser-circle",
+    variants: variantsEraserCircle,
+  },
+  {
+    name: "Eraser Square",
+    slug: "eraser-square",
+    variants: variantsEraserSquare,
+  },
+  {
+    name: "Text Formatting Link",
+    slug: "text-formatting-link",
+    variants: variantsTextFormattingLink,
+  },
+  {
+    name: "Link Broken",
+    slug: "link-broken",
+    variants: variantsLinkBroken,
+  },
+  {
+    name: "Link Broken Minimalistic",
+    slug: "link-broken-minimalistic",
+    variants: variantsLinkBrokenMinimalistic,
+  },
+  {
+    name: "Text Formatting Link Circle",
+    slug: "text-formatting-link-circle",
+    variants: variantsTextFormattingLinkCircle,
+  },
+  {
+    name: "Link Minimalistic",
+    slug: "link-minimalistic",
+    variants: variantsLinkMinimalistic,
+  },
+  {
+    name: "Link Minimalistic 2",
+    slug: "link-minimalistic-2",
+    variants: variantsLinkMinimalistic2,
+  },
+  {
+    name: "Link Round",
+    slug: "link-round",
+    variants: variantsLinkRound,
+  },
+  {
+    name: "Link Round Angle",
+    slug: "link-round-angle",
+    variants: variantsLinkRoundAngle,
+  },
+  {
+    name: "Text Formatting Link Square",
+    slug: "text-formatting-link-square",
+    variants: variantsTextFormattingLinkSquare,
+  },
+  {
+    name: "Paragraph Spacing",
+    slug: "paragraph-spacing",
+    variants: variantsParagraphSpacing,
+  },
+  {
+    name: "Text Formatting Text",
+    slug: "text-formatting-text",
+    variants: variantsTextFormattingText,
+  },
+  {
+    name: "Text Formatting Text Bold",
+    slug: "text-formatting-text-bold",
+    variants: variantsTextFormattingTextBold,
+  },
+  {
+    name: "Text Bold Circle",
+    slug: "text-bold-circle",
+    variants: variantsTextBoldCircle,
+  },
+  {
+    name: "Text Bold Square",
+    slug: "text-bold-square",
+    variants: variantsTextBoldSquare,
+  },
+  {
+    name: "Text Circle",
+    slug: "text-circle",
+    variants: variantsTextCircle,
+  },
+  {
+    name: "Text Cross",
+    slug: "text-cross",
+    variants: variantsTextCross,
+  },
+  {
+    name: "Text Cross Circle",
+    slug: "text-cross-circle",
+    variants: variantsTextCrossCircle,
+  },
+  {
+    name: "Text Cross Square",
+    slug: "text-cross-square",
+    variants: variantsTextCrossSquare,
+  },
+  {
+    name: "Text Field",
+    slug: "text-field",
+    variants: variantsTextField,
+  },
+  {
+    name: "Text Field Focus",
+    slug: "text-field-focus",
+    variants: variantsTextFieldFocus,
+  },
+  {
+    name: "Text Formatting Text Italic",
+    slug: "text-formatting-text-italic",
+    variants: variantsTextFormattingTextItalic,
+  },
+  {
+    name: "Text Italic Circle",
+    slug: "text-italic-circle",
+    variants: variantsTextItalicCircle,
+  },
+  {
+    name: "Text Italic Square",
+    slug: "text-italic-square",
+    variants: variantsTextItalicSquare,
+  },
+  {
+    name: "Text Selection",
+    slug: "text-selection",
+    variants: variantsTextSelection,
+  },
+  {
+    name: "Text Square",
+    slug: "text-square",
+    variants: variantsTextSquare,
+  },
+  {
+    name: "Text Square 2",
+    slug: "text-square-2",
+    variants: variantsTextSquare2,
+  },
+  {
+    name: "Text Formatting Text Underline",
+    slug: "text-formatting-text-underline",
+    variants: variantsTextFormattingTextUnderline,
+  },
+  {
+    name: "Text Underline Circle",
+    slug: "text-underline-circle",
+    variants: variantsTextUnderlineCircle,
+  },
+  {
+    name: "Text Underline Cross",
+    slug: "text-underline-cross",
+    variants: variantsTextUnderlineCross,
+  },
+  {
+    name: "Time Alarm",
+    slug: "time-alarm",
+    variants: variantsTimeAlarm,
+  },
+  {
+    name: "Alarm Add",
+    slug: "alarm-add",
+    variants: variantsAlarmAdd,
+  },
+  {
+    name: "Alarm Pause",
+    slug: "alarm-pause",
+    variants: variantsAlarmPause,
+  },
+  {
+    name: "Alarm Play",
+    slug: "alarm-play",
+    variants: variantsAlarmPlay,
+  },
+  {
+    name: "Alarm Remove",
+    slug: "alarm-remove",
+    variants: variantsAlarmRemove,
+  },
+  {
+    name: "Alarm Sleep",
+    slug: "alarm-sleep",
+    variants: variantsAlarmSleep,
+  },
+  {
+    name: "Alarm Turn Off",
+    slug: "alarm-turn-off",
+    variants: variantsAlarmTurnOff,
+  },
+  {
+    name: "Time Calendar",
+    slug: "time-calendar",
+    variants: variantsTimeCalendar,
+  },
+  {
+    name: "Time Calendar Add",
+    slug: "time-calendar-add",
+    variants: variantsTimeCalendarAdd,
+  },
+  {
+    name: "Calendar Date",
+    slug: "calendar-date",
+    variants: variantsCalendarDate,
+  },
+  {
+    name: "Calendar Mark",
+    slug: "calendar-mark",
+    variants: variantsCalendarMark,
+  },
+  {
+    name: "Calendar Minimalistic",
+    slug: "calendar-minimalistic",
+    variants: variantsCalendarMinimalistic,
+  },
+  {
+    name: "Time Calendar Search",
+    slug: "time-calendar-search",
+    variants: variantsTimeCalendarSearch,
+  },
+  {
+    name: "Clock Circle",
+    slug: "clock-circle",
+    variants: variantsClockCircle,
+  },
+  {
+    name: "Clock Square",
+    slug: "clock-square",
+    variants: variantsClockSquare,
+  },
+  {
+    name: "History",
+    slug: "history",
+    variants: variantsHistory,
+  },
+  {
+    name: "History 2",
+    slug: "history-2",
+    variants: variantsHistory2,
+  },
+  {
+    name: "History 3",
+    slug: "history-3",
+    variants: variantsHistory3,
+  },
+  {
+    name: "Hourglass",
+    slug: "hourglass",
+    variants: variantsHourglass,
+  },
+  {
+    name: "Hourglass Line",
+    slug: "hourglass-line",
+    variants: variantsHourglassLine,
+  },
+  {
+    name: "Stopwatch",
+    slug: "stopwatch",
+    variants: variantsStopwatch,
+  },
+  {
+    name: "Stopwatch Pause",
+    slug: "stopwatch-pause",
+    variants: variantsStopwatchPause,
+  },
+  {
+    name: "Stopwatch Play",
+    slug: "stopwatch-play",
+    variants: variantsStopwatchPlay,
+  },
+  {
+    name: "Watch Round",
+    slug: "watch-round",
+    variants: variantsWatchRound,
+  },
+  {
+    name: "Watch Square",
+    slug: "watch-square",
+    variants: variantsWatchSquare,
+  },
+  {
+    name: "Watch Square Minimalistic",
+    slug: "watch-square-minimalistic",
+    variants: variantsWatchSquareMinimalistic,
+  },
+  {
+    name: "Watch Square Minimalistic Charge",
+    slug: "watch-square-minimalistic-charge",
+    variants: variantsWatchSquareMinimalisticCharge,
+  },
+  {
+    name: "Tools Align Bottom",
+    slug: "tools-align-bottom",
+    variants: variantsToolsAlignBottom,
+  },
+  {
+    name: "Align Horizontal Center",
+    slug: "align-horizontal-center",
+    variants: variantsAlignHorizontalCenter,
+  },
+  {
+    name: "Align Horizontal Spacing",
+    slug: "align-horizontal-spacing",
+    variants: variantsAlignHorizontalSpacing,
+  },
+  {
+    name: "Tools Align Left",
+    slug: "tools-align-left",
+    variants: variantsToolsAlignLeft,
+  },
+  {
+    name: "Tools Align Right",
+    slug: "tools-align-right",
+    variants: variantsToolsAlignRight,
+  },
+  {
+    name: "Align Top",
+    slug: "align-top",
+    variants: variantsAlignTop,
+  },
+  {
+    name: "Align Vertical Center",
+    slug: "align-vertical-center",
+    variants: variantsAlignVerticalCenter,
+  },
+  {
+    name: "Align Vertical Spacing",
+    slug: "align-vertical-spacing",
+    variants: variantsAlignVerticalSpacing,
+  },
+  {
+    name: "Colour Tuning",
+    slug: "colour-tuning",
+    variants: variantsColourTuning,
+  },
+  {
+    name: "Tools Crop",
+    slug: "tools-crop",
+    variants: variantsToolsCrop,
+  },
+  {
+    name: "Crop Minimalistic",
+    slug: "crop-minimalistic",
+    variants: variantsCropMinimalistic,
+  },
+  {
+    name: "Filters",
+    slug: "filters",
+    variants: variantsFilters,
+  },
+  {
+    name: "Flip Horizontal",
+    slug: "flip-horizontal",
+    variants: variantsFlipHorizontal,
+  },
+  {
+    name: "Flip Vertical",
+    slug: "flip-vertical",
+    variants: variantsFlipVertical,
+  },
+  {
+    name: "Layers",
+    slug: "layers",
+    variants: variantsLayers,
+  },
+  {
+    name: "Layers Minimalistic",
+    slug: "layers-minimalistic",
+    variants: variantsLayersMinimalistic,
+  },
+  {
+    name: "Mirror Left",
+    slug: "mirror-left",
+    variants: variantsMirrorLeft,
+  },
+  {
+    name: "Mirror Right",
+    slug: "mirror-right",
+    variants: variantsMirrorRight,
+  },
+  {
+    name: "Paint Roller",
+    slug: "paint-roller",
+    variants: variantsPaintRoller,
+  },
+  {
+    name: "Palette",
+    slug: "palette",
+    variants: variantsPalette,
+  },
+  {
+    name: "Palette 2",
+    slug: "palette-2",
+    variants: variantsPalette2,
+  },
+  {
+    name: "Palette Round",
+    slug: "palette-round",
+    variants: variantsPaletteRound,
+  },
+  {
+    name: "Pipette",
+    slug: "pipette",
+    variants: variantsPipette,
+  },
+  {
+    name: "Radial Blur",
+    slug: "radial-blur",
+    variants: variantsRadialBlur,
+  },
+  {
+    name: "Tools Ruler",
+    slug: "tools-ruler",
+    variants: variantsToolsRuler,
+  },
+  {
+    name: "Ruler Angular",
+    slug: "ruler-angular",
+    variants: variantsRulerAngular,
+  },
+  {
+    name: "Ruler Cross Pen",
+    slug: "ruler-cross-pen",
+    variants: variantsRulerCrossPen,
+  },
+  {
+    name: "Ruler Pen",
+    slug: "ruler-pen",
+    variants: variantsRulerPen,
+  },
+  {
+    name: "Three Squares",
+    slug: "three-squares",
+    variants: variantsThreeSquares,
+  },
+  {
+    name: "Accessibility",
+    slug: "accessibility",
+    variants: variantsAccessibility,
+  },
+  {
+    name: "Ui Add Circle",
+    slug: "ui-add-circle",
+    variants: variantsUiAddCircle,
+  },
+  {
+    name: "Ui Add Square",
+    slug: "ui-add-square",
+    variants: variantsUiAddSquare,
+  },
+  {
+    name: "Augmented Reality",
+    slug: "augmented-reality",
+    variants: variantsAugmentedReality,
+  },
+  {
+    name: "Balloon",
+    slug: "balloon",
+    variants: variantsBalloon,
+  },
+  {
+    name: "Battery Charge",
+    slug: "battery-charge",
+    variants: variantsBatteryCharge,
+  },
+  {
+    name: "Battery Charge Minimalistic",
+    slug: "battery-charge-minimalistic",
+    variants: variantsBatteryChargeMinimalistic,
+  },
+  {
+    name: "Ui Battery Full",
+    slug: "ui-battery-full",
+    variants: variantsUiBatteryFull,
+  },
+  {
+    name: "Battery Full Minimalistic",
+    slug: "battery-full-minimalistic",
+    variants: variantsBatteryFullMinimalistic,
+  },
+  {
+    name: "Battery Half",
+    slug: "battery-half",
+    variants: variantsBatteryHalf,
+  },
+  {
+    name: "Battery Half Minimalistic",
+    slug: "battery-half-minimalistic",
+    variants: variantsBatteryHalfMinimalistic,
+  },
+  {
+    name: "Battery Low",
+    slug: "battery-low",
+    variants: variantsBatteryLow,
+  },
+  {
+    name: "Battery Low Minimalistic",
+    slug: "battery-low-minimalistic",
+    variants: variantsBatteryLowMinimalistic,
+  },
+  {
+    name: "Body",
+    slug: "body",
+    variants: variantsBody,
+  },
+  {
+    name: "Bolt",
+    slug: "bolt",
+    variants: variantsBolt,
+  },
+  {
+    name: "Bolt Circle",
+    slug: "bolt-circle",
+    variants: variantsBoltCircle,
+  },
+  {
+    name: "Ui Box",
+    slug: "ui-box",
+    variants: variantsUiBox,
+  },
+  {
+    name: "Box Minimalistic",
+    slug: "box-minimalistic",
+    variants: variantsBoxMinimalistic,
+  },
+  {
+    name: "Ui Broom",
+    slug: "ui-broom",
+    variants: variantsUiBroom,
+  },
+  {
+    name: "Cat",
+    slug: "cat",
+    variants: variantsCat,
+  },
+  {
+    name: "Check Circle",
+    slug: "check-circle",
+    variants: variantsCheckCircle,
+  },
+  {
+    name: "Check Square",
+    slug: "check-square",
+    variants: variantsCheckSquare,
+  },
+  {
+    name: "Ui Close Circle",
+    slug: "ui-close-circle",
+    variants: variantsUiCloseCircle,
+  },
+  {
+    name: "Ui Close Square",
+    slug: "ui-close-square",
+    variants: variantsUiCloseSquare,
+  },
+  {
+    name: "Confetti",
+    slug: "confetti",
+    variants: variantsConfetti,
+  },
+  {
+    name: "Confetti Minimalistic",
+    slug: "confetti-minimalistic",
+    variants: variantsConfettiMinimalistic,
+  },
+  {
+    name: "Ui Copy",
+    slug: "ui-copy",
+    variants: variantsUiCopy,
+  },
+  {
+    name: "Ui Copyright",
+    slug: "ui-copyright",
+    variants: variantsUiCopyright,
+  },
+  {
+    name: "Cosmetic",
+    slug: "cosmetic",
+    variants: variantsCosmetic,
+  },
+  {
+    name: "Ui Creative Commons",
+    slug: "ui-creative-commons",
+    variants: variantsUiCreativeCommons,
+  },
+  {
+    name: "Ui Crown",
+    slug: "ui-crown",
+    variants: variantsUiCrown,
+  },
+  {
+    name: "Crown Line",
+    slug: "crown-line",
+    variants: variantsCrownLine,
+  },
+  {
+    name: "Crown Minimalistic",
+    slug: "crown-minimalistic",
+    variants: variantsCrownMinimalistic,
+  },
+  {
+    name: "Crown Star",
+    slug: "crown-star",
+    variants: variantsCrownStar,
+  },
+  {
+    name: "Ui Cup",
+    slug: "ui-cup",
+    variants: variantsUiCup,
+  },
+  {
+    name: "Cup First",
+    slug: "cup-first",
+    variants: variantsCupFirst,
+  },
+  {
+    name: "Cup Music",
+    slug: "cup-music",
+    variants: variantsCupMusic,
+  },
+  {
+    name: "Cup Star",
+    slug: "cup-star",
+    variants: variantsCupStar,
+  },
+  {
+    name: "Cursor",
+    slug: "cursor",
+    variants: variantsCursor,
+  },
+  {
+    name: "Cursor Square",
+    slug: "cursor-square",
+    variants: variantsCursorSquare,
+  },
+  {
+    name: "Ui Danger",
+    slug: "ui-danger",
+    variants: variantsUiDanger,
+  },
+  {
+    name: "Danger Circle",
+    slug: "danger-circle",
+    variants: variantsDangerCircle,
+  },
+  {
+    name: "Danger Square",
+    slug: "danger-square",
+    variants: variantsDangerSquare,
+  },
+  {
+    name: "Danger Triangle",
+    slug: "danger-triangle",
+    variants: variantsDangerTriangle,
+  },
+  {
+    name: "Database",
+    slug: "database",
+    variants: variantsDatabase,
+  },
+  {
+    name: "Delivery",
+    slug: "delivery",
+    variants: variantsDelivery,
+  },
+  {
+    name: "Explicit",
+    slug: "explicit",
+    variants: variantsExplicit,
+  },
+  {
+    name: "Feed",
+    slug: "feed",
+    variants: variantsFeed,
+  },
+  {
+    name: "Ferris Wheel",
+    slug: "ferris-wheel",
+    variants: variantsFerrisWheel,
+  },
+  {
+    name: "Figma",
+    slug: "figma",
+    variants: variantsFigma,
+  },
+  {
+    name: "Ui Filter",
+    slug: "ui-filter",
+    variants: variantsUiFilter,
+  },
+  {
+    name: "Ui Flag",
+    slug: "ui-flag",
+    variants: variantsUiFlag,
+  },
+  {
+    name: "Ui Flag 2",
+    slug: "ui-flag-2",
+    variants: variantsUiFlag2,
+  },
+  {
+    name: "Flashlight",
+    slug: "flashlight",
+    variants: variantsFlashlight,
+  },
+  {
+    name: "Flashlight On",
+    slug: "flashlight-on",
+    variants: variantsFlashlightOn,
+  },
+  {
+    name: "Ui Forbidden",
+    slug: "ui-forbidden",
+    variants: variantsUiForbidden,
+  },
+  {
+    name: "Forbidden Circle",
+    slug: "forbidden-circle",
+    variants: variantsForbiddenCircle,
+  },
+  {
+    name: "Four K",
+    slug: "four-k",
+    variants: variantsFourK,
+  },
+  {
+    name: "Fuel",
+    slug: "fuel",
+    variants: variantsFuel,
+  },
+  {
+    name: "Ui Ghost",
+    slug: "ui-ghost",
+    variants: variantsUiGhost,
+  },
+  {
+    name: "Ghost Smile",
+    slug: "ghost-smile",
+    variants: variantsGhostSmile,
+  },
+  {
+    name: "Ui Gift",
+    slug: "ui-gift",
+    variants: variantsUiGift,
+  },
+  {
+    name: "Glasses",
+    slug: "glasses",
+    variants: variantsGlasses,
+  },
+  {
+    name: "Hamburger Menu",
+    slug: "hamburger-menu",
+    variants: variantsHamburgerMenu,
+  },
+  {
+    name: "Hanger",
+    slug: "hanger",
+    variants: variantsHanger,
+  },
+  {
+    name: "Hanger 2",
+    slug: "hanger-2",
+    variants: variantsHanger2,
+  },
+  {
+    name: "Help",
+    slug: "help",
+    variants: variantsHelp,
+  },
+  {
+    name: "High Definition",
+    slug: "high-definition",
+    variants: variantsHighDefinition,
+  },
+  {
+    name: "High Quality",
+    slug: "high-quality",
+    variants: variantsHighQuality,
+  },
+  {
+    name: "Ui Home",
+    slug: "ui-home",
+    variants: variantsUiHome,
+  },
+  {
+    name: "Ui Home 2",
+    slug: "ui-home-2",
+    variants: variantsUiHome2,
+  },
+  {
+    name: "Home Add",
+    slug: "home-add",
+    variants: variantsHomeAdd,
+  },
+  {
+    name: "Home Add Angle",
+    slug: "home-add-angle",
+    variants: variantsHomeAddAngle,
+  },
+  {
+    name: "Home Angle",
+    slug: "home-angle",
+    variants: variantsHomeAngle,
+  },
+  {
+    name: "Home Angle 2",
+    slug: "home-angle-2",
+    variants: variantsHomeAngle2,
+  },
+  {
+    name: "Home Smile",
+    slug: "home-smile",
+    variants: variantsHomeSmile,
+  },
+  {
+    name: "Home Smile Angle",
+    slug: "home-smile-angle",
+    variants: variantsHomeSmileAngle,
+  },
+  {
+    name: "Home Wi Fi",
+    slug: "home-wi-fi",
+    variants: variantsHomeWiFi,
+  },
+  {
+    name: "Home Wi Fi Angle",
+    slug: "home-wi-fi-angle",
+    variants: variantsHomeWiFiAngle,
+  },
+  {
+    name: "Ui Info Circle",
+    slug: "ui-info-circle",
+    variants: variantsUiInfoCircle,
+  },
+  {
+    name: "Info Square",
+    slug: "info-square",
+    variants: variantsInfoSquare,
+  },
+  {
+    name: "Magic Stick",
+    slug: "magic-stick",
+    variants: variantsMagicStick,
+  },
+  {
+    name: "Magic Stick 2",
+    slug: "magic-stick-2",
+    variants: variantsMagicStick2,
+  },
+  {
+    name: "Magic Stick 3",
+    slug: "magic-stick-3",
+    variants: variantsMagicStick3,
+  },
+  {
+    name: "Magnet",
+    slug: "magnet",
+    variants: variantsMagnet,
+  },
+  {
+    name: "Magnet Wave",
+    slug: "magnet-wave",
+    variants: variantsMagnetWave,
+  },
+  {
+    name: "Mask Happy",
+    slug: "mask-happy",
+    variants: variantsMaskHappy,
+  },
+  {
+    name: "Mask Sad",
+    slug: "mask-sad",
+    variants: variantsMaskSad,
+  },
+  {
+    name: "Masks",
+    slug: "masks",
+    variants: variantsMasks,
+  },
+  {
+    name: "Mention Circle",
+    slug: "mention-circle",
+    variants: variantsMentionCircle,
+  },
+  {
+    name: "Mention Square",
+    slug: "mention-square",
+    variants: variantsMentionSquare,
+  },
+  {
+    name: "Menu Dots",
+    slug: "menu-dots",
+    variants: variantsMenuDots,
+  },
+  {
+    name: "Menu Dots Circle",
+    slug: "menu-dots-circle",
+    variants: variantsMenuDotsCircle,
+  },
+  {
+    name: "Menu Dots Square",
+    slug: "menu-dots-square",
+    variants: variantsMenuDotsSquare,
+  },
+  {
+    name: "Minus Circle",
+    slug: "minus-circle",
+    variants: variantsMinusCircle,
+  },
+  {
+    name: "Ui Minus Square",
+    slug: "ui-minus-square",
+    variants: variantsUiMinusSquare,
+  },
+  {
+    name: "Mirror 2",
+    slug: "mirror-2",
+    variants: variantsMirror2,
+  },
+  {
+    name: "Paper Bin",
+    slug: "paper-bin",
+    variants: variantsPaperBin,
+  },
+  {
+    name: "Paw",
+    slug: "paw",
+    variants: variantsPaw,
+  },
+  {
+    name: "Perfume",
+    slug: "perfume",
+    variants: variantsPerfume,
+  },
+  {
+    name: "Pin",
+    slug: "pin",
+    variants: variantsPin,
+  },
+  {
+    name: "Pin Circle",
+    slug: "pin-circle",
+    variants: variantsPinCircle,
+  },
+  {
+    name: "Pin List",
+    slug: "pin-list",
+    variants: variantsPinList,
+  },
+  {
+    name: "Plate",
+    slug: "plate",
+    variants: variantsPlate,
+  },
+  {
+    name: "Posts Carousel Horizontal",
+    slug: "posts-carousel-horizontal",
+    variants: variantsPostsCarouselHorizontal,
+  },
+  {
+    name: "Posts Carousel Vertical",
+    slug: "posts-carousel-vertical",
+    variants: variantsPostsCarouselVertical,
+  },
+  {
+    name: "Power",
+    slug: "power",
+    variants: variantsPower,
+  },
+  {
+    name: "Question Circle",
+    slug: "question-circle",
+    variants: variantsQuestionCircle,
+  },
+  {
+    name: "Question Square",
+    slug: "question-square",
+    variants: variantsQuestionSquare,
+  },
+  {
+    name: "Reorder",
+    slug: "reorder",
+    variants: variantsReorder,
+  },
+  {
+    name: "Revote",
+    slug: "revote",
+    variants: variantsRevote,
+  },
+  {
+    name: "Scissors",
+    slug: "scissors",
+    variants: variantsScissors,
+  },
+  {
+    name: "Scissors Square",
+    slug: "scissors-square",
+    variants: variantsScissorsSquare,
+  },
+  {
+    name: "Ui Share",
+    slug: "ui-share",
+    variants: variantsUiShare,
+  },
+  {
+    name: "Share Circle",
+    slug: "share-circle",
+    variants: variantsShareCircle,
+  },
+  {
+    name: "Skirt",
+    slug: "skirt",
+    variants: variantsSkirt,
+  },
+  {
+    name: "Sledgehammer",
+    slug: "sledgehammer",
+    variants: variantsSledgehammer,
+  },
+  {
+    name: "Sleeping",
+    slug: "sleeping",
+    variants: variantsSleeping,
+  },
+  {
+    name: "Ui Slider Horizontal",
+    slug: "ui-slider-horizontal",
+    variants: variantsUiSliderHorizontal,
+  },
+  {
+    name: "Slider Minimalistic Horizontal",
+    slug: "slider-minimalistic-horizontal",
+    variants: variantsSliderMinimalisticHorizontal,
+  },
+  {
+    name: "Ui Slider Vertical",
+    slug: "ui-slider-vertical",
+    variants: variantsUiSliderVertical,
+  },
+  {
+    name: "Slider Vertical Minimalistic",
+    slug: "slider-vertical-minimalistic",
+    variants: variantsSliderVerticalMinimalistic,
+  },
+  {
+    name: "Ui Smart Home",
+    slug: "ui-smart-home",
+    variants: variantsUiSmartHome,
+  },
+  {
+    name: "Smart Home Angle",
+    slug: "smart-home-angle",
+    variants: variantsSmartHomeAngle,
+  },
+  {
+    name: "Ui Sort",
+    slug: "ui-sort",
+    variants: variantsUiSort,
+  },
+  {
+    name: "Special Effects",
+    slug: "special-effects",
+    variants: variantsSpecialEffects,
+  },
+  {
+    name: "Subtitles",
+    slug: "subtitles",
+    variants: variantsSubtitles,
+  },
+  {
+    name: "T Shirt",
+    slug: "t-shirt",
+    variants: variantsTShirt,
+  },
+  {
+    name: "Target",
+    slug: "target",
+    variants: variantsTarget,
+  },
+  {
+    name: "Traffic",
+    slug: "traffic",
+    variants: variantsTraffic,
+  },
+  {
+    name: "Traffic Economy",
+    slug: "traffic-economy",
+    variants: variantsTrafficEconomy,
+  },
+  {
+    name: "Trash Bin 2",
+    slug: "trash-bin-2",
+    variants: variantsTrashBin2,
+  },
+  {
+    name: "Trash Bin Minimalistic",
+    slug: "trash-bin-minimalistic",
+    variants: variantsTrashBinMinimalistic,
+  },
+  {
+    name: "Trash Bin Minimalistic 2",
+    slug: "trash-bin-minimalistic-2",
+    variants: variantsTrashBinMinimalistic2,
+  },
+  {
+    name: "Trash Bin Trash",
+    slug: "trash-bin-trash",
+    variants: variantsTrashBinTrash,
+  },
+  {
+    name: "Umbrella",
+    slug: "umbrella",
+    variants: variantsUmbrella,
+  },
+  {
+    name: "Waterdrop",
+    slug: "waterdrop",
+    variants: variantsWaterdrop,
+  },
+  {
+    name: "Win Rar",
+    slug: "win-rar",
+    variants: variantsWinRar,
+  },
+  {
+    name: "Xxx",
+    slug: "xxx",
+    variants: variantsXxx,
+  },
+  {
+    name: "Users User",
+    slug: "users-user",
+    variants: variantsUsersUser,
+  },
+  {
+    name: "User Block",
+    slug: "user-block",
+    variants: variantsUserBlock,
+  },
+  {
+    name: "User Block Rounded",
+    slug: "user-block-rounded",
+    variants: variantsUserBlockRounded,
+  },
+  {
+    name: "User Check",
+    slug: "user-check",
+    variants: variantsUserCheck,
+  },
+  {
+    name: "User Check Rounded",
+    slug: "user-check-rounded",
+    variants: variantsUserCheckRounded,
+  },
+  {
+    name: "User Circle",
+    slug: "user-circle",
+    variants: variantsUserCircle,
+  },
+  {
+    name: "User Cross",
+    slug: "user-cross",
+    variants: variantsUserCross,
+  },
+  {
+    name: "User Cross Rounded",
+    slug: "user-cross-rounded",
+    variants: variantsUserCrossRounded,
+  },
+  {
+    name: "User Hand Up",
+    slug: "user-hand-up",
+    variants: variantsUserHandUp,
+  },
+  {
+    name: "User Hands",
+    slug: "user-hands",
+    variants: variantsUserHands,
+  },
+  {
+    name: "User Heart",
+    slug: "user-heart",
+    variants: variantsUserHeart,
+  },
+  {
+    name: "User Heart Rounded",
+    slug: "user-heart-rounded",
+    variants: variantsUserHeartRounded,
+  },
+  {
+    name: "User Id",
+    slug: "user-id",
+    variants: variantsUserId,
+  },
+  {
+    name: "Users User Minus",
+    slug: "users-user-minus",
+    variants: variantsUsersUserMinus,
+  },
+  {
+    name: "User Minus Rounded",
+    slug: "user-minus-rounded",
+    variants: variantsUserMinusRounded,
+  },
+  {
+    name: "User Plus",
+    slug: "user-plus",
+    variants: variantsUserPlus,
+  },
+  {
+    name: "User Plus Rounded",
+    slug: "user-plus-rounded",
+    variants: variantsUserPlusRounded,
+  },
+  {
+    name: "User Rounded",
+    slug: "user-rounded",
+    variants: variantsUserRounded,
+  },
+  {
+    name: "User Speak",
+    slug: "user-speak",
+    variants: variantsUserSpeak,
+  },
+  {
+    name: "User Speak Rounded",
+    slug: "user-speak-rounded",
+    variants: variantsUserSpeakRounded,
+  },
+  {
+    name: "Users Group Rounded",
+    slug: "users-group-rounded",
+    variants: variantsUsersGroupRounded,
+  },
+  {
+    name: "Users Group Two Rounded",
+    slug: "users-group-two-rounded",
+    variants: variantsUsersGroupTwoRounded,
+  },
+  {
+    name: "Album",
+    slug: "album",
+    variants: variantsAlbum,
+  },
+  {
+    name: "Video Camera",
+    slug: "video-camera",
+    variants: variantsVideoCamera,
+  },
+  {
+    name: "Camera Add",
+    slug: "camera-add",
+    variants: variantsCameraAdd,
+  },
+  {
+    name: "Camera Minimalistic",
+    slug: "camera-minimalistic",
+    variants: variantsCameraMinimalistic,
+  },
+  {
+    name: "Camera Rotate",
+    slug: "camera-rotate",
+    variants: variantsCameraRotate,
+  },
+  {
+    name: "Camera Square",
+    slug: "camera-square",
+    variants: variantsCameraSquare,
+  },
+  {
+    name: "Clapperboard",
+    slug: "clapperboard",
+    variants: variantsClapperboard,
+  },
+  {
+    name: "Clapperboard Edit",
+    slug: "clapperboard-edit",
+    variants: variantsClapperboardEdit,
+  },
+  {
+    name: "Clapperboard Open",
+    slug: "clapperboard-open",
+    variants: variantsClapperboardOpen,
+  },
+  {
+    name: "Clapperboard Open Play",
+    slug: "clapperboard-open-play",
+    variants: variantsClapperboardOpenPlay,
+  },
+  {
+    name: "Clapperboard Play",
+    slug: "clapperboard-play",
+    variants: variantsClapperboardPlay,
+  },
+  {
+    name: "Clapperboard Text",
+    slug: "clapperboard-text",
+    variants: variantsClapperboardText,
+  },
+  {
+    name: "Full Screen",
+    slug: "full-screen",
+    variants: variantsFullScreen,
+  },
+  {
+    name: "Full Screen Circle",
+    slug: "full-screen-circle",
+    variants: variantsFullScreenCircle,
+  },
+  {
+    name: "Full Screen Square",
+    slug: "full-screen-square",
+    variants: variantsFullScreenSquare,
+  },
+  {
+    name: "Video Gallery",
+    slug: "video-gallery",
+    variants: variantsVideoGallery,
+  },
+  {
+    name: "Video Gallery Add",
+    slug: "video-gallery-add",
+    variants: variantsVideoGalleryAdd,
+  },
+  {
+    name: "Gallery Check",
+    slug: "gallery-check",
+    variants: variantsGalleryCheck,
+  },
+  {
+    name: "Gallery Circle",
+    slug: "gallery-circle",
+    variants: variantsGalleryCircle,
+  },
+  {
+    name: "Gallery Download",
+    slug: "gallery-download",
+    variants: variantsGalleryDownload,
+  },
+  {
+    name: "Video Gallery Edit",
+    slug: "video-gallery-edit",
+    variants: variantsVideoGalleryEdit,
+  },
+  {
+    name: "Gallery Favourite",
+    slug: "gallery-favourite",
+    variants: variantsGalleryFavourite,
+  },
+  {
+    name: "Gallery Minimalistic",
+    slug: "gallery-minimalistic",
+    variants: variantsGalleryMinimalistic,
+  },
+  {
+    name: "Video Gallery Remove",
+    slug: "video-gallery-remove",
+    variants: variantsVideoGalleryRemove,
+  },
+  {
+    name: "Gallery Round",
+    slug: "gallery-round",
+    variants: variantsGalleryRound,
+  },
+  {
+    name: "Gallery Send",
+    slug: "gallery-send",
+    variants: variantsGallerySend,
+  },
+  {
+    name: "Gallery Wide",
+    slug: "gallery-wide",
+    variants: variantsGalleryWide,
+  },
+  {
+    name: "Library",
+    slug: "library",
+    variants: variantsLibrary,
+  },
+  {
+    name: "Video Microphone",
+    slug: "video-microphone",
+    variants: variantsVideoMicrophone,
+  },
+  {
+    name: "Video Microphone 2",
+    slug: "video-microphone-2",
+    variants: variantsVideoMicrophone2,
+  },
+  {
+    name: "Microphone 3",
+    slug: "microphone-3",
+    variants: variantsMicrophone3,
+  },
+  {
+    name: "Microphone Large",
+    slug: "microphone-large",
+    variants: variantsMicrophoneLarge,
+  },
+  {
+    name: "Music Library",
+    slug: "music-library",
+    variants: variantsMusicLibrary,
+  },
+  {
+    name: "Video Music Library 2",
+    slug: "video-music-library-2",
+    variants: variantsVideoMusicLibrary2,
+  },
+  {
+    name: "Music Note",
+    slug: "music-note",
+    variants: variantsMusicNote,
+  },
+  {
+    name: "Music Note 2",
+    slug: "music-note-2",
+    variants: variantsMusicNote2,
+  },
+  {
+    name: "Music Note 3",
+    slug: "music-note-3",
+    variants: variantsMusicNote3,
+  },
+  {
+    name: "Music Note 4",
+    slug: "music-note-4",
+    variants: variantsMusicNote4,
+  },
+  {
+    name: "Music Note Slider",
+    slug: "music-note-slider",
+    variants: variantsMusicNoteSlider,
+  },
+  {
+    name: "Music Note Slider 2",
+    slug: "music-note-slider-2",
+    variants: variantsMusicNoteSlider2,
+  },
+  {
+    name: "Music Notes",
+    slug: "music-notes",
+    variants: variantsMusicNotes,
+  },
+  {
+    name: "Muted",
+    slug: "muted",
+    variants: variantsMuted,
+  },
+  {
+    name: "Panorama",
+    slug: "panorama",
+    variants: variantsPanorama,
+  },
+  {
+    name: "Video Pause",
+    slug: "video-pause",
+    variants: variantsVideoPause,
+  },
+  {
+    name: "Video Pause Circle",
+    slug: "video-pause-circle",
+    variants: variantsVideoPauseCircle,
+  },
+  {
+    name: "Pip",
+    slug: "pip",
+    variants: variantsPip,
+  },
+  {
+    name: "Pip 2",
+    slug: "pip-2",
+    variants: variantsPip2,
+  },
+  {
+    name: "Video Play 1",
+    slug: "video-play-1",
+    variants: variantsVideoPlay1,
+  },
+  {
+    name: "Video Play Circle",
+    slug: "video-play-circle",
+    variants: variantsVideoPlayCircle,
+  },
+  {
+    name: "Play Stream",
+    slug: "play-stream",
+    variants: variantsPlayStream,
+  },
+  {
+    name: "Playback Speed",
+    slug: "playback-speed",
+    variants: variantsPlaybackSpeed,
+  },
+  {
+    name: "Podcast",
+    slug: "podcast",
+    variants: variantsPodcast,
+  },
+  {
+    name: "Quit Full Screen",
+    slug: "quit-full-screen",
+    variants: variantsQuitFullScreen,
+  },
+  {
+    name: "Quit Full Screen Circle",
+    slug: "quit-full-screen-circle",
+    variants: variantsQuitFullScreenCircle,
+  },
+  {
+    name: "Quit Full Screen Square",
+    slug: "quit-full-screen-square",
+    variants: variantsQuitFullScreenSquare,
+  },
+  {
+    name: "Quit Pip",
+    slug: "quit-pip",
+    variants: variantsQuitPip,
+  },
+  {
+    name: "Video Record",
+    slug: "video-record",
+    variants: variantsVideoRecord,
+  },
+  {
+    name: "Record Audio Circle",
+    slug: "record-audio-circle",
+    variants: variantsRecordAudioCircle,
+  },
+  {
+    name: "Reel",
+    slug: "reel",
+    variants: variantsReel,
+  },
+  {
+    name: "Reel 2",
+    slug: "reel-2",
+    variants: variantsReel2,
+  },
+  {
+    name: "Video Repeat",
+    slug: "video-repeat",
+    variants: variantsVideoRepeat,
+  },
+  {
+    name: "Repeat One",
+    slug: "repeat-one",
+    variants: variantsRepeatOne,
+  },
+  {
+    name: "Repeat One Minimalistic",
+    slug: "repeat-one-minimalistic",
+    variants: variantsRepeatOneMinimalistic,
+  },
+  {
+    name: "Rewind 10 Seconds Back",
+    slug: "rewind-10-seconds-back",
+    variants: variantsRewind10SecondsBack,
+  },
+  {
+    name: "Rewind 10 Seconds Forward",
+    slug: "rewind-10-seconds-forward",
+    variants: variantsRewind10SecondsForward,
+  },
+  {
+    name: "Rewind 15 Seconds Back",
+    slug: "rewind-15-seconds-back",
+    variants: variantsRewind15SecondsBack,
+  },
+  {
+    name: "Rewind 15 Seconds Forward",
+    slug: "rewind-15-seconds-forward",
+    variants: variantsRewind15SecondsForward,
+  },
+  {
+    name: "Rewind 5 Seconds Back",
+    slug: "rewind-5-seconds-back",
+    variants: variantsRewind5SecondsBack,
+  },
+  {
+    name: "Rewind 5 Seconds Forward",
+    slug: "rewind-5-seconds-forward",
+    variants: variantsRewind5SecondsForward,
+  },
+  {
+    name: "Rewind Back",
+    slug: "rewind-back",
+    variants: variantsRewindBack,
+  },
+  {
+    name: "Rewind Back Circle",
+    slug: "rewind-back-circle",
+    variants: variantsRewindBackCircle,
+  },
+  {
+    name: "Rewind Forward",
+    slug: "rewind-forward",
+    variants: variantsRewindForward,
+  },
+  {
+    name: "Rewind Forward Circle",
+    slug: "rewind-forward-circle",
+    variants: variantsRewindForwardCircle,
+  },
+  {
+    name: "Video Shuffle",
+    slug: "video-shuffle",
+    variants: variantsVideoShuffle,
+  },
+  {
+    name: "Skip Next",
+    slug: "skip-next",
+    variants: variantsSkipNext,
+  },
+  {
+    name: "Skip Previous",
+    slug: "skip-previous",
+    variants: variantsSkipPrevious,
+  },
+  {
+    name: "Soundwave",
+    slug: "soundwave",
+    variants: variantsSoundwave,
+  },
+  {
+    name: "Soundwave Circle",
+    slug: "soundwave-circle",
+    variants: variantsSoundwaveCircle,
+  },
+  {
+    name: "Soundwave Square",
+    slug: "soundwave-square",
+    variants: variantsSoundwaveSquare,
+  },
+  {
+    name: "Video Stop",
+    slug: "video-stop",
+    variants: variantsVideoStop,
+  },
+  {
+    name: "Video Stop Circle",
+    slug: "video-stop-circle",
+    variants: variantsVideoStopCircle,
+  },
+  {
+    name: "Stream",
+    slug: "stream",
+    variants: variantsStream,
+  },
+  {
+    name: "To Pip",
+    slug: "to-pip",
+    variants: variantsToPip,
+  },
+  {
+    name: "Upload Track",
+    slug: "upload-track",
+    variants: variantsUploadTrack,
+  },
+  {
+    name: "Upload Track 2",
+    slug: "upload-track-2",
+    variants: variantsUploadTrack2,
+  },
+  {
+    name: "Video Frame",
+    slug: "video-frame",
+    variants: variantsVideoFrame,
+  },
+  {
+    name: "Video Frame 2",
+    slug: "video-frame-2",
+    variants: variantsVideoFrame2,
+  },
+  {
+    name: "Video Frame Cut",
+    slug: "video-frame-cut",
+    variants: variantsVideoFrameCut,
+  },
+  {
+    name: "Video Frame Cut 2",
+    slug: "video-frame-cut-2",
+    variants: variantsVideoFrameCut2,
+  },
+  {
+    name: "Video Frame Play Horizontal",
+    slug: "video-frame-play-horizontal",
+    variants: variantsVideoFramePlayHorizontal,
+  },
+  {
+    name: "Video Frame Play Vertical",
+    slug: "video-frame-play-vertical",
+    variants: variantsVideoFramePlayVertical,
+  },
+  {
+    name: "Video Frame Replace",
+    slug: "video-frame-replace",
+    variants: variantsVideoFrameReplace,
+  },
+  {
+    name: "Video Library",
+    slug: "video-library",
+    variants: variantsVideoLibrary,
+  },
+  {
+    name: "Videocamera",
+    slug: "videocamera",
+    variants: variantsVideocamera,
+  },
+  {
+    name: "Videocamera Add",
+    slug: "videocamera-add",
+    variants: variantsVideocameraAdd,
+  },
+  {
+    name: "Videocamera Record",
+    slug: "videocamera-record",
+    variants: variantsVideocameraRecord,
+  },
+  {
+    name: "Vinyl",
+    slug: "vinyl",
+    variants: variantsVinyl,
+  },
+  {
+    name: "Vinyl Record",
+    slug: "vinyl-record",
+    variants: variantsVinylRecord,
+  },
+  {
+    name: "Video Volume",
+    slug: "video-volume",
+    variants: variantsVideoVolume,
+  },
+  {
+    name: "Video Volume Cross",
+    slug: "video-volume-cross",
+    variants: variantsVideoVolumeCross,
+  },
+  {
+    name: "Volume Loud",
+    slug: "volume-loud",
+    variants: variantsVolumeLoud,
+  },
+  {
+    name: "Volume Small",
+    slug: "volume-small",
+    variants: variantsVolumeSmall,
+  },
+  {
+    name: "Wallpaper",
+    slug: "wallpaper",
+    variants: variantsWallpaper,
+  },
+  {
+    name: "Weather Cloud",
+    slug: "weather-cloud",
+    variants: variantsWeatherCloud,
+  },
+  {
+    name: "Cloud Bolt",
+    slug: "cloud-bolt",
+    variants: variantsCloudBolt,
+  },
+  {
+    name: "Cloud Bolt Minimalistic",
+    slug: "cloud-bolt-minimalistic",
+    variants: variantsCloudBoltMinimalistic,
+  },
+  {
+    name: "Cloud Check",
+    slug: "cloud-check",
+    variants: variantsCloudCheck,
+  },
+  {
+    name: "Weather Cloud Cross",
+    slug: "weather-cloud-cross",
+    variants: variantsWeatherCloudCross,
+  },
+  {
+    name: "Cloud Download",
+    slug: "cloud-download",
+    variants: variantsCloudDownload,
+  },
+  {
+    name: "Weather Cloud Minus",
+    slug: "weather-cloud-minus",
+    variants: variantsWeatherCloudMinus,
+  },
+  {
+    name: "Weather Cloud Plus",
+    slug: "weather-cloud-plus",
+    variants: variantsWeatherCloudPlus,
+  },
+  {
+    name: "Cloud Rain",
+    slug: "cloud-rain",
+    variants: variantsCloudRain,
+  },
+  {
+    name: "Cloud Snowfall",
+    slug: "cloud-snowfall",
+    variants: variantsCloudSnowfall,
+  },
+  {
+    name: "Cloud Snowfall Minimalistic",
+    slug: "cloud-snowfall-minimalistic",
+    variants: variantsCloudSnowfallMinimalistic,
+  },
+  {
+    name: "Cloud Storm",
+    slug: "cloud-storm",
+    variants: variantsCloudStorm,
+  },
+  {
+    name: "Cloud Sun",
+    slug: "cloud-sun",
+    variants: variantsCloudSun,
+  },
+  {
+    name: "Cloud Sun 2",
+    slug: "cloud-sun-2",
+    variants: variantsCloudSun2,
+  },
+  {
+    name: "Cloud Upload",
+    slug: "cloud-upload",
+    variants: variantsCloudUpload,
+  },
+  {
+    name: "Cloud Waterdrop",
+    slug: "cloud-waterdrop",
+    variants: variantsCloudWaterdrop,
+  },
+  {
+    name: "Cloud Waterdrops",
+    slug: "cloud-waterdrops",
+    variants: variantsCloudWaterdrops,
+  },
+  {
+    name: "Clouds",
+    slug: "clouds",
+    variants: variantsClouds,
+  },
+  {
+    name: "Cloudy Moon",
+    slug: "cloudy-moon",
+    variants: variantsCloudyMoon,
+  },
+  {
+    name: "Fog",
+    slug: "fog",
+    variants: variantsFog,
+  },
+  {
+    name: "Weather Moon",
+    slug: "weather-moon",
+    variants: variantsWeatherMoon,
+  },
+  {
+    name: "Moon Fog",
+    slug: "moon-fog",
+    variants: variantsMoonFog,
+  },
+  {
+    name: "Moon Sleep",
+    slug: "moon-sleep",
+    variants: variantsMoonSleep,
+  },
+  {
+    name: "Moon Stars",
+    slug: "moon-stars",
+    variants: variantsMoonStars,
+  },
+  {
+    name: "Snowflake",
+    slug: "snowflake",
+    variants: variantsSnowflake,
+  },
+  {
+    name: "Stars",
+    slug: "stars",
+    variants: variantsStars,
+  },
+  {
+    name: "Weather Sun",
+    slug: "weather-sun",
+    variants: variantsWeatherSun,
+  },
+  {
+    name: "Sun 2",
+    slug: "sun-2",
+    variants: variantsSun2,
+  },
+  {
+    name: "Weather Sun Fog",
+    slug: "weather-sun-fog",
+    variants: variantsWeatherSunFog,
+  },
+  {
+    name: "Sunrise",
+    slug: "sunrise",
+    variants: variantsSunrise,
+  },
+  {
+    name: "Sunset",
+    slug: "sunset",
+    variants: variantsSunset,
+  },
+  {
+    name: "Temperature",
+    slug: "temperature",
+    variants: variantsTemperature,
+  },
+  {
+    name: "Tornado",
+    slug: "tornado",
+    variants: variantsTornado,
+  },
+  {
+    name: "Tornado Small",
+    slug: "tornado-small",
+    variants: variantsTornadoSmall,
+  },
+  {
+    name: "Waterdrops",
+    slug: "waterdrops",
+    variants: variantsWaterdrops,
+  },
+  {
+    name: "Weather Wind",
+    slug: "weather-wind",
+    variants: variantsWeatherWind,
   },
 ];
 export { RocketLinear, RocketBold, RocketMini } from "./components/rocket";
