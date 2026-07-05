@@ -11812,6 +11812,18 @@ export const iconMeta = [
     ]
   },
   {
+    "name": "Javascript",
+    "slug": "javascript",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
     "name": "Judge",
     "slug": "judge",
     "variants": [
