@@ -11815,12 +11815,9 @@ export const iconMeta = [
     "name": "Javascript",
     "slug": "javascript",
     "variants": [
-      "bold",
-      "broken",
-      "bulk",
+      "bold", 
       "linear",
       "outline",
-      "twotone"
     ]
   },
   {
