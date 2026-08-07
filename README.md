@@ -174,20 +174,12 @@ docs(readme): update installation guide
 
 For comprehensive guidelines, check out our [**CONTRIBUTING.md**](https://github.com/ig-imanish/mx-icons/blob/main/CONTRIBUTING.md).
 
-## 📄 License
+## Contributors
 
-MIT License © 2025 [MX Icons Contributors](https://github.com/ig-imanish/mx-icons/graphs/contributors)
+<a href="https://github.com/ig-imanish/mx-icons/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ig-imanish/mx-icons&max=400&columns=20" />
+</a>
 
-Free to use in personal and commercial projects. See [LICENSE](./LICENSE) for details.
-
-## 📊 Project Stats
-
-<p>
-  <img src="https://img.shields.io/github/contributors/ig-imanish/mx-icons" alt="Contributors" />
-  <img src="https://img.shields.io/github/last-commit/ig-imanish/mx-icons" alt="Last Commit" />
-  <img src="https://img.shields.io/github/issues/ig-imanish/mx-icons" alt="Issues" />
-  <img src="https://img.shields.io/github/issues-pr/ig-imanish/mx-icons" alt="Pull Requests" />
-</p>
 
 ## 🔗 Links
 
@@ -197,11 +189,11 @@ Free to use in personal and commercial projects. See [LICENSE](./LICENSE) for de
 - **🐛 Issues:** [github.com/ig-imanish/mx-icons/issues](https://github.com/ig-imanish/mx-icons/issues)
 - **💬 Discussions:** [github.com/ig-imanish/mx-icons/discussions](https://github.com/ig-imanish/mx-icons/discussions)
 
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/d92e9b2949a80cf5ca91d12b9726e938bdba255b.svg)
+## 📄 License
 
-## Stargazers over Time
+MIT License © 2025 [MX Icons Contributors](https://github.com/ig-imanish/mx-icons/graphs/contributors)
 
-[![Stargazers over time](https://starchart.cc/ig-imanish/mx-icons.svg?variant=adaptive)](https://starchart.cc/ig-imanish/mx-icons)
+Free to use in personal and commercial projects. See [LICENSE](./LICENSE) for details.
 
 <div align="center">
   <strong>Made with ❤️ by the open-source community</strong>
