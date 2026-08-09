@@ -1084,3 +1084,110 @@
         border-top: none;
     }
 }
+
+.icon-display svg {
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform-origin: center;
+}
+
+.icon-display svg path {
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform-origin: center;
+}
+
+.icon-card.anim-scale:hover .icon-display svg {
+    transform: scale(1.18);
+}
+
+.icon-card.anim-spin:hover .icon-display svg {
+    animation: mx-spin 1.5s linear infinite;
+}
+
+.icon-card.anim-wiggle:hover .icon-display svg {
+    animation: mx-wiggle 0.5s ease-in-out;
+}
+
+.icon-card.anim-pulse:hover .icon-display svg {
+    animation: mx-pulse 0.6s ease-in-out;
+}
+
+.icon-card.anim-bounce-y:hover .icon-display svg {
+    animation: mx-bounce-y 0.6s ease-in-out;
+}
+
+.icon-card.anim-bounce-x:hover .icon-display svg {
+    animation: mx-bounce-x 0.6s ease-in-out;
+}
+
+.icon-card.anim-copy:hover .icon-display svg path:nth-child(1) {
+    transform: translate(-1.5px, -1.5px);
+}
+
+.icon-card.anim-copy:hover .icon-display svg path:nth-child(2) {
+    transform: translate(1.5px, 1.5px);
+}
+
+.icon-card.anim-trash:hover .icon-display svg path:nth-child(1),
+.icon-card.anim-trash:hover .icon-display svg path:nth-child(2) {
+    transform: translateY(-2px);
+}
+
+@keyframes mx-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mx-wiggle {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    15% {
+        transform: rotate(-12deg);
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+    45% {
+        transform: rotate(-10deg);
+    }
+    60% {
+        transform: rotate(8deg);
+    }
+    75% {
+        transform: rotate(-4deg);
+    }
+    90% {
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes mx-pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.18);
+    }
+}
+
+@keyframes mx-bounce-y {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes mx-bounce-x {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+}

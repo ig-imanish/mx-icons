@@ -21,6 +21,74 @@ import {
   GITHUB_ISSUE_URL,
 } from "./constants";
 
+function getAnimationClass(slug) {
+  if (!slug) return "scale";
+  const s = slug.toLowerCase();
+  if (
+    s.includes("setting") ||
+    s.includes("gear") ||
+    s.includes("refresh") ||
+    s.includes("rotate") ||
+    s.includes("loader") ||
+    s.includes("spinner") ||
+    s.includes("sync") ||
+    s.includes("sun")
+  ) {
+    return "spin";
+  }
+  if (
+    s.includes("bell") ||
+    s.includes("notification") ||
+    s.includes("alert") ||
+    s.includes("alarm") ||
+    s.includes("volume") ||
+    s.includes("music")
+  ) {
+    return "wiggle";
+  }
+  if (
+    s.includes("heart") ||
+    s.includes("like") ||
+    s.includes("love") ||
+    s.includes("favorite") ||
+    s.includes("star") ||
+    s.includes("activity") ||
+    s.includes("chart") ||
+    s.includes("pulse") ||
+    s.includes("health")
+  ) {
+    return "pulse";
+  }
+  if (
+    s.includes("download") ||
+    s.includes("upload") ||
+    s.includes("import") ||
+    s.includes("export") ||
+    s.includes("send") ||
+    s.includes("arrow-down") ||
+    s.includes("arrow-up")
+  ) {
+    return "bounce-y";
+  }
+  if (
+    s.includes("arrow-left") ||
+    s.includes("arrow-right") ||
+    s.includes("next") ||
+    s.includes("back") ||
+    s.includes("forward") ||
+    s.includes("reply")
+  ) {
+    return "bounce-x";
+  }
+  if (s.includes("copy") || s.includes("layer")) {
+    return "copy";
+  }
+  if (s === "trash" || s.startsWith("trash-") || s === "trush-square") {
+    return "trash";
+  }
+  return "scale";
+}
+
 function App() {
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
@@ -361,7 +429,7 @@ function App() {
               <button
                 key={icon.slug}
                 type="button"
-                className="icon-card"
+                className={`icon-card anim-${getAnimationClass(icon.groupSlug)}`}
                 onClick={() => openIconModal(icon)}
                 title={`Customize ${icon.componentName}`}
                 aria-label={`Customize ${icon.componentName}`}
