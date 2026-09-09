@@ -568,18 +568,6 @@ export const iconMeta = [
     ]
   },
   {
-    "name": "Android",
-    "slug": "android",
-    "variants": [
-      "bold",
-      "broken",
-      "bulk",
-      "linear",
-      "outline",
-      "twotone"
-    ]
-  },
-  {
     "name": "Aquarius",
     "slug": "aquarius",
     "variants": [
@@ -11802,6 +11790,18 @@ export const iconMeta = [
   {
     "name": "Jar Of Pills 2",
     "slug": "jar-of-pills-2",
+    "variants": [
+      "bold",
+      "broken",
+      "bulk",
+      "linear",
+      "outline",
+      "twotone"
+    ]
+  },
+  {
+    "name": "Javascript",
+    "slug": "javascript",
     "variants": [
       "bold",
       "broken",
